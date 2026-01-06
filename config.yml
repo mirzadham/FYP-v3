@@ -1,0 +1,20 @@
+# Rasa Pro CALM Configuration
+# Academic Advisor Chatbot - UPM
+
+recipe: default.v1
+assistant_id: upm_academic_advisor
+language: en
+
+pipeline:
+  # LLM-based command generator for CALM architecture
+  - name: SingleStepLLMCommandGenerator
+    llm:
+      model_name: gpt-4o-mini
+      # Temperature set low for more deterministic responses
+      temperature: 0.2
+    # Enable prompt caching for faster responses
+    prompt_caching: True
+
+policies:
+  # FlowPolicy required for CALM flows
+  - name: FlowPolicy

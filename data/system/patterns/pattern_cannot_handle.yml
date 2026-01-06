@@ -1,0 +1,10 @@
+# Custom pattern_cannot_handle - uses OpenAI for unhandled queries
+flows:
+  pattern_cannot_handle:
+    description: |
+      Handles cases where the bot cannot understand or handle the user's request.
+      Overrides default to use RAG-enhanced OpenAI GPT-4.
+    name: pattern cannot handle
+    steps:
+      - action: action_openai_response
+

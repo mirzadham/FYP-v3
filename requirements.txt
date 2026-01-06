@@ -1,0 +1,17 @@
+# Rasa Pro requirements for Academic Advisor Chatbot
+# Note: Rasa Pro requires a valid RASA_PRO_LICENSE environment variable
+
+# Rasa Pro (requires license)
+rasa-pro>=3.10.0
+
+# OpenAI integration for LLM
+openai>=1.0.0
+
+# SQLite database support (SQLAlchemy for tracker store)
+sqlalchemy>=2.0.0
+
+# For custom actions server
+rasa-sdk>=3.10.0
+
+# Additional utilities
+python-dotenv>=1.0.0

@@ -1,0 +1,9 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_help
+  - thank_you
+  - affirm
+  - deny

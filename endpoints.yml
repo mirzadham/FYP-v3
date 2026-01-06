@@ -1,0 +1,23 @@
+# Endpoints Configuration
+# Academic Advisor Chatbot - UPM
+
+# Action server endpoint for custom actions
+action_endpoint:
+  url: "http://localhost:5055/webhook"
+
+# Tracker store configuration - using SQLite
+# This creates a separate tracker.db for conversation history
+# Your academic.db data remains untouched
+tracker_store:
+  type: SQL
+  dialect: sqlite
+  db: db/tracker.db
+
+# Event broker (optional, for production)
+# event_broker:
+#   type: pika
+#   url: localhost
+
+# Model server (optional, for pulling models remotely)
+# model:
+#   url: http://localhost:5002/
