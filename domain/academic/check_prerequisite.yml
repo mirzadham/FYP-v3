@@ -1,8 +1,5 @@
 version: "3.1"
 
-entities:
-  - course_code
-
 actions:
   - check_prerequisites
 
@@ -10,10 +7,6 @@ slots:
   course_code:
     type: text
     mappings:
-      # Priority 1: Use regex-extracted entity (deterministic)
-      - type: from_entity
-        entity: course_code
-      # Priority 2: Fallback to LLM extraction if regex fails
       - type: from_llm
   prereq_list:
     type: text
