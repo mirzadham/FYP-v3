@@ -1,8 +1,0 @@
-flows:
-  exam_schedule:
-    description: |
-      Redirects queries about exam dates/timetable to the Examination Unit/SMP.
-      Examples: "when is my exam", "exam timetable", "final exam schedule"
-    name: exam schedule information
-    steps:
-      - action: utter_exam_schedule

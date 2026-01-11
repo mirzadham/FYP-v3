@@ -1,8 +1,9 @@
 flows:
   grade_appeal:
     description: |
-      Explain grade appeal/review procedure, deadline, and fees.
-      Examples: "how to appeal grade?", "my marks are wrong", "recheck exam paper"
-    name: grade appeal information
+      Provide guidance on when and how to appeal grades. Academic advisor explains the process
+      but does NOT process appeals. Formal appeals go through Faculty Academic Office.
+      Examples: "how to appeal grade?", "my marks are wrong", "can I recheck my exam?"
+    name: grade appeal guidance
     steps:
-      - action: utter_grade_appeal
+      - action: utter_grade_appeal_guidance

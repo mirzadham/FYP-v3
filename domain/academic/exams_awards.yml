@@ -1,25 +1,6 @@
 version: "3.1"
 
 responses:
-  utter_exam_schedule:
-    - text: |
-        📅 **Exam Schedule**
-        
-        The official Final Examination Timetable is managed and released by the **Examination Unit** (Academic Division).
-        
-        👉 **Action Required:** Please check your personalized exam schedule via the **Student Management Portal (SMP)** or the official "Jadual Waktu Peperiksaan" release.
-        
-        [Check SMP Portal](https://smp.upm.edu.my)
-
-  utter_exam_regulations:
-    - text: |
-        📋 **Exam Regulations**
-        
-        Detailed regulations regarding dress code, forbidden items, and conduct are enforced by the **Examination Unit**.
-        
-        Please refer to the **"Universiti Putra Malaysia (Examination) Rules"** handbook.
-        
-        ⚠️ **Note:** Strict dress code compliance is required for entry into the exam hall.
 
   utter_deans_list:
     - text: |

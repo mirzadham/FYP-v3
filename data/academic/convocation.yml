@@ -1,9 +1,9 @@
 flows:
   convocation_info:
     description: |
-      Handles queries about convocation/graduation. Redirects logistics to SMP and provides academic requirements.
-      Examples: "when is convocation?", "how to rent robe", "graduation requirements", "convo tickets", "am I eligible to graduate?"
-    name: convocation information
+      Handles queries about graduation ELIGIBILITY only. Focuses on academic requirements for graduation.
+      Redirects ceremony logistics (robes, tickets, venue) to Registry/SMP.
+      Examples: "am I eligible to graduate?", "graduation requirements", "how many credits to graduate?"
+    name: graduation eligibility check
     steps:
-      - action: utter_convocation_overview
-      - action: utter_convocation_requirements
+      - action: utter_graduation_eligibility

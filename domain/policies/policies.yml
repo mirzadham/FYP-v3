@@ -46,20 +46,27 @@ responses:
         
         ⚠️ Repeated failures may lead to probation.
 
-  utter_grade_appeal:
+  utter_grade_appeal_guidance:
     - text: |
-        📝 **Grade Appeal/Review**
+        📝 **Grade Appeal Guidance**
         
-        **Procedure:**
-        1. Submit appeal form to Faculty
-        2. Pay review fee (varies)
-        3. Wait for recheck result
+        **When to Consider an Appeal:**
+        • You believe there was an error in marking
+        • Marks don't match your expected performance
+        • Calculation errors suspected
         
-        **Deadline:** Usually 2 weeks after results release
+        **Before Appealing (My Advice):**
+        1. ✅ Review your exam script with the lecturer first
+        2. ✅ Understand where you lost marks
+        3. ✅ Consider if an appeal is warranted
         
-        **Note:** Appeal may result in same, higher, or lower grade.
+        **Formal Appeal Process:**
+        👉 Handled by the **Faculty Academic Office**
+        • Submit appeal form + fee
+        • Deadline: Usually 2 weeks after results
+        • Result may be same, higher, or lower
         
-        💡 Consult your lecturer first before formal appeal.
+        ⚠️ I can advise you on whether to appeal, but the formal process goes through the Faculty Academic Office.
 
   utter_probation_info:
     - text: |
@@ -110,21 +117,24 @@ responses:
         
         💡 Check SMP for available electives each semester.
 
-  utter_industrial_training:
+  utter_industrial_training_eligibility:
     - text: |
-        🏢 **Industrial Training (LI)**
+        🏢 **Industrial Training (LI) - Eligibility Check**
         
-        **Requirements:**
-        • Usually in Year 3 or 4
-        • Minimum credits completed (check program)
-        • Must not be on probation
+        **Academic Eligibility Requirements:**
+        • Minimum credits completed (check your program requirements)
+        • Must NOT be on academic probation
+        • All prerequisite courses passed
+        • Usually Year 3 or Year 4 standing
         
         **Duration:** 12-16 weeks (varies by program)
         
-        **Procedure:**
-        1. Attend LI briefing session
-        2. Find and apply to companies
-        3. Submit placement confirmation
-        4. Complete LI report and logbook
+        ✅ **I can verify:** Your academic eligibility based on credits and standing.
         
-        💡 Start searching for placement 6 months early!
+        👉 **For everything else, contact the LI Coordinator:**
+        • Company placement & applications
+        • LI briefings & documentation
+        • Logbook & report submission
+        • Evaluation & grading
+        
+        💡 Check SMP to see your current credit count and academic standing!

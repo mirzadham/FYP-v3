@@ -1,8 +1,0 @@
-flows:
-  exam_regulations:
-    description: |
-      Redirects queries about exam rules/dress code to the Examination Unit rules.
-      Examples: "exam dress code", "can I bring calculator", "exam rules", "what to wear for exam"
-    name: exam regulations information
-    steps:
-      - action: utter_exam_regulations

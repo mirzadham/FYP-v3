@@ -1,8 +1,9 @@
 flows:
   industrial_training:
     description: |
-      Explain industrial training (LI) requirements, registration, and procedure.
-      Examples: "when can I do internship?", "LI requirements", "industrial training procedure"
-    name: industrial training information
+      Explain ELIGIBILITY requirements for industrial training (LI). Academic advisor verifies
+      academic prerequisites only. All logistics (placement, documentation, evaluation) handled by LI Coordinator.
+      Examples: "when can I do internship?", "am I eligible for LI?", "industrial training requirements"
+    name: industrial training eligibility
     steps:
-      - action: utter_industrial_training
+      - action: utter_industrial_training_eligibility

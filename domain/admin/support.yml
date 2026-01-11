@@ -1,50 +1,24 @@
 version: "3.1"
 
 responses:
-  utter_convocation_info:
+  utter_career_alignment:
     - text: |
-        🎓 **Convocation/Graduation Ceremony**
+        🎯 **Academic-Career Alignment**
         
-        **Registration:**
-        • Done through SMP portal
-        • Usually opens 2 months before ceremony
+        Your academic choices shape your career path. Here's how your coursework connects to industry:
         
-        **Requirements:**
-        • Complete all graduation requirements
-        • Clear all outstanding fees
-        • Register within deadline
+        **Key Courses & Career Relevance:**
+        • **Programming** → Software Development, App Development
+        • **Data Structures & Algorithms** → Tech company interviews, efficient coding
+        • **Database Systems** → Backend Development, Data Engineering
+        • **AI/Machine Learning** → Data Science, AI Engineering
+        • **Networks & Security** → Cybersecurity, Cloud Engineering
         
-        **Attire:**
-        • Rent graduation robe from appointed vendor
-        • Follow dress code guidelines
+        **Academic Advice:**
+        • Choose electives that align with your target career
+        • Build projects to apply what you learn
+        • Your FYP topic can be a portfolio piece
         
-        **Guest Tickets:**
-        • Usually 2-4 tickets per graduate
-        • Additional tickets may be available
+        📚 **For detailed career counseling** (resume, interviews, job search): Please visit the **Career Services Center**.
         
-        🎉 Congratulations on reaching this milestone!
-
-  utter_career_prospects:
-    - text: |
-        💼 **Career Prospects (Computer Science)**
-        
-        **Popular Career Paths:**
-        • Software Developer/Engineer
-        • Data Scientist/Analyst
-        • Cybersecurity Specialist
-        • Web/Mobile Developer
-        • Cloud/DevOps Engineer
-        • AI/ML Engineer
-        
-        **Industries:**
-        • Tech companies (Google, Microsoft, etc.)
-        • Banking & Finance
-        • E-commerce
-        • Government agencies
-        • Startups
-        
-        **Demand:** High - CS graduates are in demand globally!
-        
-        💡 Build projects and get certifications to stand out.
-
-
+        💡 Focus on building skills through coursework and projects!
