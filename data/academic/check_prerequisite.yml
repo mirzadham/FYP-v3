@@ -9,7 +9,8 @@ flows:
     name: check course prerequisites
     steps:
       # Step 1: Collect course code from student
-      - collect: course_code
+      - id: collect_course_code
+        collect: course_code
         description: The course code to check prerequisites for (e.g., CCS3101, CSC4600)
       
       # Step 2: Validate course code format before database lookup
@@ -19,7 +20,7 @@ flows:
             then:
               - action: utter_invalid_course_code_format
               - action: reset_course_code
-                next: check_prerequisite
+                next: collect_course_code
           - else: check_prerequisites_action
       
       # Step 3: Check prerequisites in database
@@ -50,7 +51,7 @@ flows:
           - if: slots.wants_another_check
             then:
               - action: reset_course_code
-                next: check_prerequisite
+                next: collect_course_code
           - else:
               - action: utter_goodbye_prerequisites
                 next: END

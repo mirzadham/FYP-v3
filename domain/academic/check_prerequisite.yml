@@ -1,8 +1,5 @@
 version: "3.1"
 
-entities:
-  - course_code
-
 actions:
   - validate_course_code_format
   - check_prerequisites
@@ -11,168 +8,80 @@ actions:
 slots:
   course_code:
     type: text
-    description: |
-      The academic course code the student wants to check prerequisites for.
-      Format: 3 letters + 4 digits (e.g., CCS3101, CSC4600, SKS1002).
-      Used to query the academic database for prerequisite relationships.
     mappings:
-      # Priority 1: Use regex-extracted entity (deterministic)
-      - type: from_entity
-        entity: course_code
-      # Priority 2: Fallback to LLM extraction if regex fails
       - type: from_llm
 
   course_code_valid:
     type: bool
-    description: |
-      Indicates whether the provided course_code matches the expected format
-      (3 uppercase letters followed by 4 digits). Set by validate_course_code_format action.
     mappings:
       - type: controlled
 
   prereq_list:
     type: text
-    description: |
-      Formatted list of prerequisite courses for display to the student.
-      Contains course codes and names in bullet-point format.
     mappings:
       - type: controlled
 
   has_prerequisites:
     type: bool
-    description: |
-      True if the course has one or more prerequisites.
-      False if the course has no prerequisites.
-      Set by check_prerequisites action after database query.
     mappings:
       - type: controlled
 
   wants_another_check:
     type: bool
-    description: |
-      True if the student wants to check prerequisites for another course.
-      Used to enable flow continuation without restarting the conversation.
     mappings:
       - type: from_llm
 
 responses:
   utter_ask_course_code:
-    - text: |
-        I'd be happy to help you find out what courses you need to complete first! 📚
-        
-        What course code would you like me to check? For example: CCS3101 or CSC4600
-      metadata:
-        rephrase: true
-    - text: |
-        Let me look up the prerequisites for you. 🔍
-        
-        Which course are you interested in? Please enter the course code (like SKS1002 or CCS3101).
+    - text: "Which course would you like to check prerequisites for? Please provide the course code (e.g., CCS3101, CSC4600)."
       metadata:
         rephrase: true
 
   utter_prereq_result:
     - text: |
-        Great news, I found the information! 📋
+        📚 **{course_code}** ({course_name})
         
-        **{course_code}** - {course_name}
-        
-        **Prerequisites you need to complete first:**
+        📋 **Prerequisites:**
         {prereq_list}
         
-        Make sure you've passed these courses before registering for {course_code}.
-    - text: |
-        Here's what I found for you! ✨
-        
-        📚 **{course_code}**: {course_name}
-        
-        **Required prerequisites:**
-        {prereq_list}
-        
-        You'll need to complete these courses successfully before you can enroll.
+        Make sure you have completed these courses before enrolling!
 
   utter_prereq_guidance:
     - text: |
-        💡 **Quick Tip**: If you haven't completed all prerequisites yet, I recommend checking with your academic advisor about the best semester to take them. They can help you plan your course sequence!
-    - text: |
-        🎯 **Next Steps**: Review your transcript to see which prerequisites you've already completed. If you're missing any, consider adding them to your next semester's registration.
+        💡 **Tip**: Check with your academic advisor about the best semester to complete any missing prerequisites.
 
   utter_no_prerequisites:
     - text: |
-        Good news! 🎉
+        📚 **{course_code}** ({course_name})
         
-        **{course_code}** ({course_name}) has **no prerequisites**!
+        ✅ **No prerequisites required!**
         
-        You're free to register for this course whenever it fits your schedule.
-    - text: |
-        That's easy! ✅
-        
-        **{course_code}** - {course_name}
-        
-        This course doesn't require any prerequisites. You can go ahead and add it to your course plan!
+        You can enroll in this course directly.
 
   utter_course_not_found:
     - text: |
-        Hmm, I couldn't find a course with code **{course_code}** in our system. 🤔
+        ❌ Sorry, I couldn't find course **{course_code}** in the database.
         
-        Could you double-check the code? Course codes at UPM typically look like:
-        • CCS3101 (3 letters + 4 digits)
-        • SKS1002
-        • CSC4600
-        
-        Feel free to try again!
-    - text: |
-        I wasn't able to locate **{course_code}** in the database. 📭
-        
-        This might be because:
-        • The course code has a typo
-        • The course is from a different faculty
-        • It's a new course not yet in our system
-        
-        Would you like to try a different course code?
+        Please check the course code and try again. Example: CCS3101, CSC4600
 
   utter_invalid_course_code_format:
     - text: |
-        The course code format doesn't look quite right. 📝
+        The course code format doesn't look right. 📝
         
         UPM course codes follow this pattern: **3 letters + 4 digits**
         
         ✅ Examples: CCS3101, SKS1002, CSC4600
-        ❌ Not valid: "machine learning", "CS101", "programming"
-        
-        Please enter a valid course code.
-    - text: |
-        I need a properly formatted course code to look that up. 🔤
-        
-        Course codes at UPM look like: **ABC1234**
-        - 3 letter prefix (faculty/program code)
-        - 4 digit number
-        
-        Try something like CCS3101 or CSC4600!
 
   utter_database_error:
     - text: |
         I'm sorry, but I'm having trouble connecting to the academic database right now. 😔
         
-        This is a temporary issue on our end. Please try again in a few minutes, or contact the academic office directly if it's urgent.
-    - text: |
-        Apologies! I can't access the course database at the moment. 🔧
-        
-        This should be resolved shortly. In the meantime, you can:
-        • Check the official UPM course catalog online
-        • Contact your faculty's academic office
-        
-        Sorry for the inconvenience!
+        Please try again in a few minutes, or contact the academic office directly.
 
   utter_ask_wants_another_check:
     - text: "Would you like me to check prerequisites for another course?"
       metadata:
         rephrase: true
-    - text: "Shall I look up any other courses for you?"
-      metadata:
-        rephrase: true
 
   utter_goodbye_prerequisites:
-    - text: |
-        Happy to help! 😊 Good luck with your course planning. Feel free to ask if you need anything else!
-    - text: |
-        Glad I could assist! 🌟 If you have more questions about courses or registration, just let me know.
+    - text: "Happy to help! Good luck with your course planning. 😊"

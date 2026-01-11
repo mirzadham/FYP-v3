@@ -1,0 +1,182 @@
+stories:
+
+# 2.1 Database-Connected Flows
+
+- story: IT-001 get_course_info valid
+  steps:
+  - user: "Tell me about CCS3101"
+  - action: get_course_details
+  - action: utter_course_details
+
+- story: IT-003 get_course_info invalid
+  steps:
+  - user: "Tell me about XYZ999"
+  - action: get_course_details
+  - action: utter_course_not_found
+
+- story: IT-005 check_prerequisite has prereqs
+  steps:
+  - user: "What are the prerequisites for CSC4600?"
+  - action: check_prerequisites
+  - action: utter_prereq_result
+
+- story: IT-007 check_prerequisite invalid
+  steps:
+  - user: "Prerequisites for FAKE123"
+  - action: check_prerequisites
+  - action: utter_course_not_found
+
+# 2.2 Academic Information Flows
+
+- story: IT-009 career_prospects
+  steps:
+  - user: "What jobs can I get with CS degree?"
+  - action: utter_career_prospects
+
+- story: IT-010 convocation_info
+  steps:
+  - user: "When is convocation?"
+  - action: utter_convocation_info
+
+- story: IT-011 deans_list
+  steps:
+  - user: "What is Dean's List?"
+  - action: utter_deans_list
+
+- story: IT-012 drop_course
+  steps:
+  - user: "How to drop a subject?"
+  - action: utter_drop_course
+
+- story: IT-013 exam_regulations
+  steps:
+  - user: "Exam dress code"
+  - action: utter_exam_regulations
+
+- story: IT-014 exam_schedule
+  steps:
+  - user: "When is my exam?"
+  - action: utter_exam_schedule
+
+- story: IT-015 graduation_requirements
+  steps:
+  - user: "How to graduate?"
+  - action: utter_graduation_requirements
+
+- story: IT-016 muet_requirement
+  steps:
+  - user: "What MUET band do I need?"
+  - action: utter_muet_requirement
+
+- story: IT-017 registration_deadline
+  steps:
+  - user: "When is registration deadline?"
+  - action: utter_registration_deadline
+
+# 2.3 Policy Flows
+
+- story: IT-018 change_program
+  steps:
+  - user: "How to change major?"
+  - action: utter_change_program
+
+- story: IT-019 credit_transfer
+  steps:
+  - user: "How to apply credit exemption?"
+  - action: utter_credit_transfer
+
+- story: IT-020 deferment_info
+  steps:
+  - user: "How to defer?"
+  - action: utter_deferment_info
+
+- story: IT-021 elective_options
+  steps:
+  - user: "What electives can I take?"
+  - action: utter_elective_options
+
+- story: IT-022 grade_appeal
+  steps:
+  - user: "How to appeal grade?"
+  - action: utter_grade_appeal
+
+- story: IT-023 industrial_training
+  steps:
+  - user: "When can I do internship?"
+  - action: utter_industrial_training
+
+- story: IT-024 probation_info
+  steps:
+  - user: "What is probation?"
+  - action: utter_probation_info
+
+- story: IT-025 repeat_policy
+  steps:
+  - user: "I failed a subject"
+  - action: utter_repeat_policy
+
+# 2.4 Admin/Support Flows
+
+- story: IT-026 class_full
+  steps:
+  - user: "Class is full"
+  - action: utter_class_full
+
+- story: IT-027 fees_block
+  steps:
+  - user: "Fees block"
+  - action: utter_fees_block
+
+- story: IT-028 system_issues
+  steps:
+  - user: "Cannot login SMP"
+  - action: utter_system_issues
+
+- story: IT-029 timetable_clash
+  steps:
+  - user: "Timetable clash"
+  - action: utter_timetable_clash
+
+- story: IT-030 verification_letter
+  steps:
+  - user: "Verification letter"
+  - action: utter_verification_letter
+
+# 2.5 Critical Safety Flow
+
+- story: IT-031 mental_health_support crisis
+  steps:
+  - user: "I want to give up"
+  - action: utter_mental_health_support
+
+- story: IT-032 mental_health_support depression
+  steps:
+  - user: "feeling depressed"
+  - action: utter_mental_health_support
+
+# 2.6 General Flows
+
+- story: IT-035 hello
+  steps:
+  - user: "Hello"
+  - action: utter_hello
+
+- story: IT-036 help
+  steps:
+  - user: "Help"
+  - action: utter_help
+
+- story: IT-037 goodbye
+  steps:
+  - user: "Bye"
+  - action: utter_goodbye
+
+- story: IT-038 thank_you
+  steps:
+  - user: "Thanks"
+  - action: utter_thank_you
+
+- story: IT-039 bot_identity
+  steps:
+  - user: "Who are you?"
+  - action: utter_bot_identity

@@ -6,14 +6,6 @@ assistant_id: upm_academic_advisor
 language: en
 
 pipeline:
-  # Regex-based entity extraction for deterministic course code detection
-  # Matches patterns like CCS3101, CSC4600, SKA1020 (3 uppercase letters + 4 digits)
-  - name: RegexEntityExtractor
-    case_sensitive: false
-    patterns:
-      - name: course_code
-        pattern: "[A-Za-z]{3}\\d{4}"
-  
   # LLM-based command generator for CALM architecture
   - name: SingleStepLLMCommandGenerator
     llm:

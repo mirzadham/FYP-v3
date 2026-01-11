@@ -1,0 +1,907 @@
+{
+  "domain": {
+    "version": "3.1",
+    "responses": {
+      "utter_ask_continue_conversation": [
+        {
+          "text": "Is there anything else I can help you with?",
+          "metadata": {
+            "rephrase": true
+          }
+        }
+      ],
+      "utter_ask_continue_interrupted_flow_confirmation": [
+        {
+          "text": "Would you like to continue with {{context.interrupted_flow_options}}?",
+          "metadata": {
+            "rephrase": true,
+            "template": "jinja"
+          }
+        }
+      ],
+      "utter_ask_interrupted_flow_to_continue": [
+        {
+          "text": "Would you like to resume {{context.interrupted_flow_options}}?",
+          "metadata": {
+            "rephrase": true,
+            "template": "jinja"
+          }
+        }
+      ],
+      "utter_ask_rephrase": [
+        {
+          "text": "I’m sorry I am unable to understand you, could you please rephrase?"
+        }
+      ],
+      "utter_ask_still_there": [
+        {
+          "text": "Hello, are you still there?",
+          "metadata": {
+            "rephrase": true
+          }
+        }
+      ],
+      "utter_boolean_slot_rejection": [
+        {
+          "text": "Sorry, the value you provided, `{{value}}`, is not valid. Please respond with a valid value.",
+          "metadata": {
+            "rephrase": true,
+            "template": "jinja"
+          }
+        }
+      ],
+      "utter_can_do_something_else": [
+        {
+          "text": "What exactly can I help you with?",
+          "metadata": {
+            "rephrase": true
+          }
+        }
+      ],
+      "utter_cannot_handle": [
+        {
+          "text": "I'm sorry, I'm not trained to help with that."
+        }
+      ],
+      "utter_categorical_slot_rejection": [
+        {
+          "text": "Sorry, you responded with an invalid value - `{{value}}`. Please select one of the available options.",
+          "metadata": {
+            "rephrase": true,
+            "template": "jinja"
+          }
+        }
+      ],
+      "utter_clarification_no_options_rasa": [
+        {
+          "text": "I can help, but I need more information. Please tell me a bit more about what you would like to do.",
+          "metadata": {
+            "rephrase": true,
+            "template": "jinja"
+          }
+        }
+      ],
+      "utter_clarification_options_rasa": [
+        {
+          "text": "I can help, but I need more information. Which of these would you like to do: {{context.clarification_options}}?",
+          "metadata": {
+            "rephrase": true,
+            "template": "jinja"
+          }
+        }
+      ],
+      "utter_closing_words": [
+        {
+          "text": "Okay, I'll be around in case you need further help.",
+          "metadata": {
+            "rephrase": true
+          }
+        }
+      ],
+      "utter_corrected_previous_input": [
+        {
+          "text": "Ok, I am updating {{ context.corrected_slots.keys()|join(', ') }} to {{ context.new_slot_values | join(', ') }} respectively.",
+          "metadata": {
+            "rephrase": true,
+            "template": "jinja"
+          }
+        }
+      ],
+      "utter_float_slot_rejection": [
+        {
+          "text": "Sorry, it seems the value you provided `{{value}}` is not a valid number. Please provide a valid number in your response.",
+          "metadata": {
+            "rephrase": true,
+            "template": "jinja"
+          }
+        }
+      ],
+      "utter_flow_cancelled_rasa": [
+        {
+          "text": "Okay, stopping {{ context.canceled_name }}.",
+          "metadata": {
+            "rephrase": true,
+            "template": "jinja"
+          }
+        }
+      ],
+      "utter_free_chitchat_response": [
+        {
+          "text": "Sorry, I'm not able to answer that right now.",
+          "metadata": {
+            "rephrase": true,
+            "rephrase_prompt": "You are an incredibly friendly assistant. Generate a short\nresponse to the user's comment in simple english.\n\nUser: {{current_input}}\nResponse:\n"
+          }
+        }
+      ],
+      "utter_human_handoff_not_available": [
+        {
+          "text": "I understand you want to be connected to a human agent, but that's something I cannot help you with at the moment. Is there something else I can help you with?",
+          "metadata": {
+            "rephrase": true
+          }
+        }
+      ],
+      "utter_inform_code_change": [
+        {
+          "text": "There has been an update to my code. I need to wrap up our running dialogue and start from scratch.",
+          "metadata": {
+            "rephrase": true
+          }
+        }
+      ],
+      "utter_inform_hangup": [
+        {
+          "text": "I haven’t heard from you, so I’ll end our conversation shortly.",
+          "metadata": {
+            "rephrase": true
+          }
+        }
+      ],
+      "utter_internal_error_rasa": [
+        {
+          "text": "Sorry, I am having trouble with that. Please try again in a few minutes."
+        }
+      ],
+      "utter_no_knowledge_base": [
+        {
+          "text": "I am afraid, I don't know the answer. At this point, I don't have access to a knowledge base.",
+          "metadata": {
+            "rephrase": true
+          }
+        }
+      ],
+      "utter_no_relevant_answer_found": [
+        {
+          "text": "I’m sorry, I can’t help with that.",
+          "metadata": {
+            "rephrase": true
+          }
+        }
+      ],
+      "utter_skip_question_answer": [
+        {
+          "text": "I'm here to provide you with the best assistance, and in order to do so, I kindly request that we complete this step together. Your input is essential for a seamless experience!",
+          "metadata": {
+            "rephrase": true
+          }
+        }
+      ],
+      "utter_user_input_empty_error_rasa": [
+        {
+          "text": "I see an empty message. What can I assist you with?"
+        }
+      ],
+      "utter_user_input_too_long_error_rasa": [
+        {
+          "text": "I'm sorry, but your message is too long for me to process. Please keep your message concise and within {% if context.info.max_characters %}{{context.info.max_characters}} characters.{% else %}a reasonable length.{% endif %}",
+          "metadata": {
+            "template": "jinja"
+          }
+        }
+      ],
+      "utter_deferment_info": [
+        {
+          "text": "📋 **Deferment (Leave of Absence)**\n\n**Procedure:**\n1. Get deferment form from Faculty\n2. Submit with supporting documents\n3. Obtain Dean's approval\n\n**Deadline:** Before Week 3 of semester\n**Duration:** Maximum 2 semesters\n\n⚠️ May affect PTPTN/scholarships. Contact Student Affairs for details.\n"
+        }
+      ],
+      "utter_change_program": [
+        {
+          "text": "🔄 **Changing Program/Major**\n\n**Requirements:**\n• Minimum CGPA (usually 2.5+)\n• Completed at least 1 semester\n• Available slots in target program\n\n**Procedure:**\n1. Get application form from Registry\n2. Get approval from both faculties\n3. Submit before deadline\n\n💡 Credits may transfer depending on course equivalence.\n"
+        }
+      ],
+      "utter_repeat_policy": [
+        {
+          "text": "📚 **Repeat/Failed Subject Policy**\n\n**Key Points:**\n• Failed subjects must be repeated\n• Core subjects: Must repeat immediately when offered\n• Maximum grade after repeat: Usually capped (check faculty rules)\n\n**GPA Impact:**\n• Both grades may appear on transcript\n• Latest attempt used for CGPA calculation\n\n⚠️ Repeated failures may lead to probation.\n"
+        }
+      ],
+      "utter_grade_appeal": [
+        {
+          "text": "📝 **Grade Appeal/Review**\n\n**Procedure:**\n1. Submit appeal form to Faculty\n2. Pay review fee (varies)\n3. Wait for recheck result\n\n**Deadline:** Usually 2 weeks after results release\n\n**Note:** Appeal may result in same, higher, or lower grade.\n\n💡 Consult your lecturer first before formal appeal.\n"
+        }
+      ],
+      "utter_probation_info": [
+        {
+          "text": "⚠️ **Academic Probation**\n\n**Status Levels:**\n• **P1:** CGPA 1.50 - 1.99 (1st warning)\n• **P2:** Still below 2.00 after P1\n• **P3:** Still below 2.00 after P2\n• **Dismissed:** After P3 if CGPA still below 2.00\n\n**Requirements During Probation:**\n• Limited credit hours (usually max 15)\n• Must maintain minimum semester GPA\n\n💡 Seek help from academic advisor immediately!\n"
+        }
+      ],
+      "utter_credit_transfer": [
+        {
+          "text": "📋 **Credit Transfer/Exemption**\n\n**Eligible For:**\n• Diploma graduates\n• Transfer students from other universities\n\n**Procedure:**\n1. Submit exemption form with transcript\n2. Provide syllabus of previous courses\n3. Faculty evaluates equivalence\n\n**Limits:** Usually max 30% of program credits\n\n⚠️ Apply within first semester of enrollment.\n"
+        }
+      ],
+      "utter_elective_options": [
+        {
+          "text": "📚 **Elective Courses**\n\n**Types:**\n• **Program Electives:** Within your field\n• **Faculty Electives:** Any course in faculty\n• **University Electives:** Any faculty (limited)\n\n**Popular Categories:**\n• Language courses (Japanese, Mandarin, etc.)\n• Entrepreneurship\n• Sports & Recreation\n\n💡 Check SMP for available electives each semester.\n"
+        }
+      ],
+      "utter_industrial_training": [
+        {
+          "text": "🏢 **Industrial Training (LI)**\n\n**Requirements:**\n• Usually in Year 3 or 4\n• Minimum credits completed (check program)\n• Must not be on probation\n\n**Duration:** 12-16 weeks (varies by program)\n\n**Procedure:**\n1. Attend LI briefing session\n2. Find and apply to companies\n3. Submit placement confirmation\n4. Complete LI report and logbook\n\n💡 Start searching for placement 6 months early!\n"
+        }
+      ],
+      "utter_thank_you": [
+        {
+          "text": "You're welcome! 😊 Happy to help.\n\nFeel free to ask if you have more questions about courses, registration, or academic procedures!\n"
+        },
+        {
+          "text": "No problem! 👍 Glad I could assist.\n\nIs there anything else you'd like to know?\n"
+        }
+      ],
+      "utter_help": [
+        {
+          "text": "🎓 **Here's how I can help you:**\n\n📚 **Course Information**\n• \"Tell me about CCS3101\" — Get course synopsis and credits\n• \"What are the prerequisites for CSC4600?\" — Check required courses\n\n📋 **Academic Procedures**\n• Registration deadlines and procedures\n• Dropping courses and deferment\n• Credit transfer and program changes\n\n🎯 **Other Topics**\n• Graduation requirements\n• Industrial training information\n• Exam schedules and regulations\n\nJust ask me anything about your academic journey!\n"
+        }
+      ],
+      "utter_hello": [
+        {
+          "text": "👋 Hello! I'm your **UPM Academic Advisor Chatbot**.\n\nI can help you with:\n• 📚 Course information and synopses\n• 📋 Prerequisites for courses\n• 📅 Registration deadlines and procedures\n• 🎓 Graduation requirements\n\nHow can I assist you today?\n"
+        },
+        {
+          "text": "Hi there! 👋 Welcome to the UPM Academic Advisor.\n\nI'm here to help with course info, prerequisites, and academic procedures.\n\nWhat would you like to know?\n"
+        }
+      ],
+      "utter_goodbye": [
+        {
+          "text": "👋 Goodbye! Good luck with your studies.\n\nFeel free to come back if you have more questions about courses or registration!\n"
+        },
+        {
+          "text": "Take care! 📚 Don't hesitate to return if you need any academic guidance.\n\nBest of luck with your semester!\n"
+        }
+      ],
+      "utter_bot_identity": [
+        {
+          "text": "🤖 Yes, I'm an AI-powered academic advisor chatbot!\n\nI'm here to help UPM students with:\n• Course information and prerequisites\n• Registration and academic procedures\n• General academic guidance\n\nHow can I assist you today?\n"
+        }
+      ],
+      "utter_convocation_info": [
+        {
+          "text": "🎓 **Convocation/Graduation Ceremony**\n\n**Registration:**\n• Done through SMP portal\n• Usually opens 2 months before ceremony\n\n**Requirements:**\n• Complete all graduation requirements\n• Clear all outstanding fees\n• Register within deadline\n\n**Attire:**\n• Rent graduation robe from appointed vendor\n• Follow dress code guidelines\n\n**Guest Tickets:**\n• Usually 2-4 tickets per graduate\n• Additional tickets may be available\n\n🎉 Congratulations on reaching this milestone!\n"
+        }
+      ],
+      "utter_career_prospects": [
+        {
+          "text": "💼 **Career Prospects (Computer Science)**\n\n**Popular Career Paths:**\n• Software Developer/Engineer\n• Data Scientist/Analyst\n• Cybersecurity Specialist\n• Web/Mobile Developer\n• Cloud/DevOps Engineer\n• AI/ML Engineer\n\n**Industries:**\n• Tech companies (Google, Microsoft, etc.)\n• Banking & Finance\n• E-commerce\n• Government agencies\n• Startups\n\n**Demand:** High - CS graduates are in demand globally!\n\n💡 Build projects and get certifications to stand out.\n"
+        }
+      ],
+      "utter_mental_health_support": [
+        {
+          "text": "💚 **We're Here For You**\n\nI'm sorry you're going through a difficult time. Your wellbeing matters.\n\n**Immediate Support:**\n📞 **Malaysia Mental Health Line:** 03-2935 9935\n📞 **Befrienders:** 03-7956 8145 (24 hours)\n\n**UPM Resources:**\n• **Counseling Services:** Pusat Kaunseling UPM\n• **Location:** Bangunan Hal Ehwal Pelajar\n• **Hours:** Mon-Fri, 8am-5pm\n\n**Remember:**\n• It's okay to ask for help\n• Taking a break is okay\n• You are not alone\n\n❤️ Please reach out to someone - a friend, family, or counselor.\n"
+        }
+      ],
+      "utter_fees_block": [
+        {
+          "text": "💰 **Registration Block (Fees)**\n\n**Reasons for Block:**\n• Outstanding tuition fees\n• Payment not yet processed\n\n**To Unblock:**\n1. Pay minimum required amount\n2. Upload payment proof to SMP\n3. Wait 24-48 hours for system update\n\n💡 Contact Bursary if payment not reflected after 3 days.\n"
+        }
+      ],
+      "utter_class_full": [
+        {
+          "text": "📚 **Full Class/Section**\n\n**Options:**\n• Try other available sections\n• Check during add/drop period (seats may open)\n• Request quota increase from lecturer\n\n**Procedure for Quota Request:**\n1. Email lecturer with justification\n2. If approved, get signed form\n3. Submit to Faculty office\n\n⚠️ No guarantee of approval - have backup subjects ready.\n"
+        }
+      ],
+      "utter_timetable_clash": [
+        {
+          "text": "📅 **Timetable Clash**\n\n**Solutions:**\n• Switch to different section of one subject\n• Drop one subject and take it next semester\n• Request special arrangement (rare)\n\n**Tips:**\n• Plan your registration early\n• Have backup sections ready\n• Check timetable before finalizing\n\n⚠️ Attending both clashing classes is NOT allowed.\n"
+        }
+      ],
+      "utter_system_issues": [
+        {
+          "text": "🖥️ **System/Portal Issues**\n\n**Common Solutions:**\n• Clear browser cache\n• Try different browser (Chrome recommended)\n• Check if system is under maintenance\n\n**Password Reset:**\n• Use \"Forgot Password\" on login page\n• Contact IT Helpdesk if still unable\n\n📞 **IT Helpdesk:** Contact your faculty's IT support\n\n💡 Try during off-peak hours (early morning/late night).\n"
+        }
+      ],
+      "utter_verification_letter": [
+        {
+          "text": "📄 **Student Verification Letter**\n\n**Types Available:**\n• Enrollment confirmation\n• Active student status\n• For PTPTN/scholarship/bank\n\n**How to Get:**\n1. Login to SMP portal\n2. Go to \"Surat Pengesahan\" section\n3. Download and print\n\n**For Custom Letters:**\nContact Registry/Faculty office with specific requirements.\n"
+        }
+      ],
+      "utter_course_details": [
+        {
+          "text": "📚 **{course_code}**: {course_name}\n\n💳 **Credit Hours:** {credits}\n\n📋 **Prerequisites:** {prereq_list}\n\n📖 **Synopsis:**\n{synopsis}\n"
+        }
+      ],
+      "utter_exam_schedule": [
+        {
+          "text": "📅 **Exam Schedule**\n\n**How to Check:**\n1. Login to SMP portal\n2. Go to \"Jadual Peperiksaan\"\n3. View your personalized exam timetable\n\n**Includes:**\n• Date and time\n• Venue/Hall\n• Seat number\n\n⚠️ Timetable usually released 2-3 weeks before exams.\n"
+        }
+      ],
+      "utter_exam_regulations": [
+        {
+          "text": "📋 **Exam Regulations**\n\n**Dress Code:**\n• Formal/smart casual attire\n• No slippers, shorts, or sleeveless\n\n**Must Bring:**\n• Student ID card (matric card)\n• Stationery (pens, pencils)\n• Calculator (if permitted)\n\n**NOT Allowed:**\n• Mobile phones (must be OFF and stored)\n• Notes/books (unless open book exam)\n\n⚠️ Arrive 30 mins early. Late entry may be denied.\n"
+        }
+      ],
+      "utter_deans_list": [
+        {
+          "text": "🏆 **Dean's List (Anugerah Dekan)**\n\n**Requirements:**\n• Semester GPA: 3.50 or above\n• No failed subjects that semester\n• Minimum credit hours (usually 12+)\n\n**Benefits:**\n• Certificate from Dean\n• Recognition in academic records\n• Some faculties offer monetary rewards\n\n💡 Aim high every semester - it looks great on your resume!\n"
+        }
+      ],
+      "utter_muet_requirement": [
+        {
+          "text": "📝 **MUET Requirement**\n\n**Minimum Band for Graduation:**\n• Most programs: Band 3\n• Some programs: Band 4 (check with faculty)\n\n**If Below Requirement:**\n• Must retake MUET before graduation\n• Register through Malaysian Examination Council\n\n**Alternatives (Some Programs):**\n• IELTS (minimum score varies)\n• TOEFL (check equivalency)\n\n💡 Take MUET early so you have time to retake if needed!\n"
+        }
+      ],
+      "utter_ask_course_code": [
+        {
+          "text": "Which course would you like to check prerequisites for? Please provide the course code (e.g., CCS3101, CSC4600).",
+          "metadata": {
+            "rephrase": true
+          }
+        }
+      ],
+      "utter_prereq_result": [
+        {
+          "text": "📚 **{course_code}** ({course_name})\n\n📋 **Prerequisites:**\n{prereq_list}\n\nMake sure you have completed these courses before enrolling!\n"
+        }
+      ],
+      "utter_no_prerequisites": [
+        {
+          "text": "📚 **{course_code}** ({course_name})\n\n✅ **No prerequisites required!**\n\nYou can enroll in this course directly.\n"
+        }
+      ],
+      "utter_course_not_found": [
+        {
+          "text": "❌ Sorry, I couldn't find course **{course_code}** in the database.\n\nPlease check the course code and try again. Example: CCS3101, CSC4600\n"
+        }
+      ],
+      "utter_registration_deadline": [
+        {
+          "text": "📅 **Course Registration Deadlines**\n\n**Add/Drop Period:** Usually Week 1-2 of semester\n\n**Important Notes:**\n• Check SMP portal for exact dates each semester\n• Late registration may incur penalties\n• Ensure fees are paid to avoid registration block\n\n💡 Visit the Academic Calendar on UPM website for current dates.\n"
+        }
+      ],
+      "utter_drop_course": [
+        {
+          "text": "📋 **Dropping/Withdrawing from a Course**\n\n**Procedure:**\n1. Apply through SMP portal\n2. Get advisor's approval\n3. Submit before deadline\n\n**Types of Withdrawal:**\n• **Week 1-2:** Full refund, no record\n• **Week 3-7:** Partial refund, \"W\" grade\n• **After Week 7:** No refund, may affect GPA\n\n⚠️ Dropping courses may affect PTPTN/scholarship eligibility.\n"
+        }
+      ],
+      "utter_graduation_requirements": [
+        {
+          "text": "🎓 **Graduation Requirements**\n\n**Credit Hours:** 120-130 credits (varies by program)\n\n**Minimum CGPA:** 2.00\n\n**Required Components:**\n• Complete all core subjects\n• Complete electives requirement\n• Pass Final Year Project (FYP)\n• Meet MUET Band requirement\n• Complete Industrial Training (LI)\n\n💡 Check with your faculty for program-specific requirements.\n"
+        }
+      ]
+    },
+    "actions": [
+      "flow_career_prospects",
+      "flow_check_prerequisite",
+      "flow_convocation_info",
+      "flow_deans_list",
+      "flow_drop_course",
+      "flow_exam_regulations",
+      "flow_exam_schedule",
+      "flow_get_course_info",
+      "flow_graduation_requirements",
+      "flow_muet_requirement",
+      "flow_registration_deadline",
+      "flow_class_full",
+      "flow_fees_block",
+      "flow_mental_health_support",
+      "flow_system_issues",
+      "flow_timetable_clash",
+      "flow_verification_letter",
+      "flow_bot_identity",
+      "flow_goodbye",
+      "flow_hello",
+      "flow_help",
+      "flow_thank_you",
+      "flow_change_program",
+      "flow_credit_transfer",
+      "flow_deferment_info",
+      "flow_elective_options",
+      "flow_grade_appeal",
+      "flow_industrial_training",
+      "flow_probation_info",
+      "flow_repeat_policy",
+      "flow_pattern_cannot_handle",
+      "flow_pattern_cancel_flow",
+      "flow_pattern_chitchat",
+      "flow_pattern_clarification",
+      "flow_pattern_code_change",
+      "flow_pattern_collect_information",
+      "flow_pattern_completed",
+      "flow_pattern_continue_interrupted",
+      "flow_pattern_correction",
+      "flow_pattern_human_handoff",
+      "flow_pattern_internal_error",
+      "flow_pattern_repeat_bot_messages",
+      "flow_pattern_restart",
+      "flow_pattern_search",
+      "flow_pattern_session_start",
+      "flow_pattern_skip_question",
+      "flow_pattern_user_silence",
+      "flow_pattern_validate_slot",
+      "action_openai_response",
+      "get_course_details",
+      "check_prerequisites"
+    ],
+    "slots": {
+      "language": {
+        "type": "strict_categorical",
+        "initial_value": "en",
+        "values": [
+          "en"
+        ],
+        "mappings": [],
+        "is_builtin": true
+      },
+      "confirm_correction": {
+        "type": "bool",
+        "mappings": [
+          {
+            "type": "from_llm"
+          }
+        ]
+      },
+      "silence_timeout": {
+        "type": "float",
+        "initial_value": 7.0,
+        "max_value": 1000000
+      },
+      "consecutive_silence_timeouts": {
+        "type": "float",
+        "initial_value": 0.0,
+        "max_value": 1000000
+      },
+      "interrupted_flow_to_continue": {
+        "type": "text",
+        "mappings": [
+          {
+            "type": "from_llm"
+          }
+        ]
+      },
+      "continue_interrupted_flow_confirmation": {
+        "type": "bool",
+        "mappings": [
+          {
+            "type": "from_llm"
+          }
+        ]
+      },
+      "max_clarification_options": {
+        "type": "float",
+        "initial_value": 3.0
+      },
+      "continue_conversation": {
+        "type": "bool",
+        "mappings": [
+          {
+            "type": "from_llm"
+          }
+        ]
+      },
+      "return_value": {
+        "type": "text",
+        "mappings": [
+          {
+            "type": "controlled"
+          }
+        ]
+      },
+      "confirmation": {
+        "type": "bool",
+        "mappings": [
+          {
+            "type": "from_llm"
+          }
+        ]
+      },
+      "course_name": {
+        "type": "text",
+        "mappings": [
+          {
+            "type": "controlled"
+          }
+        ]
+      },
+      "credits": {
+        "type": "float",
+        "mappings": [
+          {
+            "type": "controlled"
+          }
+        ]
+      },
+      "synopsis": {
+        "type": "text",
+        "mappings": [
+          {
+            "type": "controlled"
+          }
+        ]
+      },
+      "course_code": {
+        "type": "text",
+        "mappings": [
+          {
+            "type": "from_llm"
+          }
+        ]
+      },
+      "prereq_list": {
+        "type": "text",
+        "mappings": [
+          {
+            "type": "controlled"
+          }
+        ]
+      },
+      "has_prerequisites": {
+        "type": "bool",
+        "mappings": [
+          {
+            "type": "controlled"
+          }
+        ]
+      }
+    },
+    "intents": [
+      "affirm",
+      "ask_help",
+      "deny",
+      "goodbye",
+      "greet",
+      "thank_you"
+    ],
+    "session_config": {
+      "session_expiration_time": 60,
+      "carry_over_slots_to_new_session": true
+    }
+  },
+  "trained_at": "2026-01-09T07:35:00.592415",
+  "model_id": "a5d6204ae88c47b9904781b10468eea0",
+  "assistant_id": "upm_academic_advisor",
+  "rasa_open_source_version": "3.15.5",
+  "train_schema": {
+    "nodes": {
+      "schema_validator": {
+        "needs": {
+          "importer": "__importer__"
+        },
+        "uses": "rasa.graph_components.validators.default_recipe_validator.DefaultV1RecipeValidator",
+        "constructor_name": "create",
+        "fn": "validate",
+        "config": {},
+        "eager": false,
+        "is_target": false,
+        "is_input": true,
+        "resource": null
+      },
+      "finetuning_validator": {
+        "needs": {
+          "importer": "schema_validator"
+        },
+        "uses": "rasa.graph_components.validators.finetuning_validator.FinetuningValidator",
+        "constructor_name": "create",
+        "fn": "validate",
+        "config": {
+          "validate_core": true,
+          "validate_nlu": true
+        },
+        "eager": false,
+        "is_target": false,
+        "is_input": true,
+        "resource": null
+      },
+      "flows_provider": {
+        "needs": {
+          "importer": "finetuning_validator"
+        },
+        "uses": "rasa.graph_components.providers.flows_provider.FlowsProvider",
+        "constructor_name": "create",
+        "fn": "provide_train",
+        "config": {},
+        "eager": false,
+        "is_target": true,
+        "is_input": true,
+        "resource": null
+      },
+      "domain_provider": {
+        "needs": {
+          "importer": "finetuning_validator"
+        },
+        "uses": "rasa.graph_components.providers.domain_provider.DomainProvider",
+        "constructor_name": "create",
+        "fn": "provide_train",
+        "config": {},
+        "eager": false,
+        "is_target": true,
+        "is_input": true,
+        "resource": null
+      },
+      "nlu_training_data_provider": {
+        "needs": {
+          "importer": "finetuning_validator"
+        },
+        "uses": "rasa.graph_components.providers.nlu_training_data_provider.NLUTrainingDataProvider",
+        "constructor_name": "create",
+        "fn": "provide",
+        "config": {
+          "language": "en",
+          "persist": false
+        },
+        "eager": false,
+        "is_target": false,
+        "is_input": true,
+        "resource": null
+      },
+      "train_SingleStepLLMCommandGenerator0": {
+        "needs": {
+          "flows": "flows_provider",
+          "domain": "domain_provider",
+          "training_data": "nlu_training_data_provider"
+        },
+        "uses": "rasa.dialogue_understanding.generator.single_step.single_step_llm_command_generator.SingleStepLLMCommandGenerator",
+        "constructor_name": "create",
+        "fn": "train",
+        "config": {
+          "llm": {
+            "model_name": "gpt-4o-mini",
+            "temperature": 0.2
+          },
+          "prompt_caching": true
+        },
+        "eager": false,
+        "is_target": true,
+        "is_input": false,
+        "resource": null
+      },
+      "domain_for_core_training_provider": {
+        "needs": {
+          "domain": "domain_provider"
+        },
+        "uses": "rasa.graph_components.providers.domain_for_core_training_provider.DomainForCoreTrainingProvider",
+        "constructor_name": "create",
+        "fn": "provide",
+        "config": {},
+        "eager": false,
+        "is_target": false,
+        "is_input": true,
+        "resource": null
+      },
+      "forms_provider": {
+        "needs": {
+          "domain": "domain_provider"
+        },
+        "uses": "rasa.graph_components.providers.forms_provider.FormsProvider",
+        "constructor_name": "create",
+        "fn": "provide",
+        "config": {},
+        "eager": false,
+        "is_target": false,
+        "is_input": true,
+        "resource": null
+      },
+      "responses_provider": {
+        "needs": {
+          "domain": "domain_provider"
+        },
+        "uses": "rasa.graph_components.providers.responses_provider.ResponsesProvider",
+        "constructor_name": "create",
+        "fn": "provide",
+        "config": {},
+        "eager": false,
+        "is_target": false,
+        "is_input": true,
+        "resource": null
+      },
+      "story_graph_provider": {
+        "needs": {
+          "importer": "finetuning_validator"
+        },
+        "uses": "rasa.graph_components.providers.story_graph_provider.StoryGraphProvider",
+        "constructor_name": "create",
+        "fn": "provide_train",
+        "config": {
+          "exclusion_percentage": null
+        },
+        "eager": false,
+        "is_target": false,
+        "is_input": true,
+        "resource": null
+      },
+      "training_tracker_provider": {
+        "needs": {
+          "story_graph": "story_graph_provider",
+          "domain": "domain_for_core_training_provider"
+        },
+        "uses": "rasa.graph_components.providers.training_tracker_provider.TrainingTrackerProvider",
+        "constructor_name": "create",
+        "fn": "provide",
+        "config": {
+          "debug_plots": false,
+          "augmentation_factor": 50
+        },
+        "eager": false,
+        "is_target": false,
+        "is_input": false,
+        "resource": null
+      },
+      "train_FlowPolicy0": {
+        "needs": {
+          "training_trackers": "training_tracker_provider",
+          "domain": "domain_for_core_training_provider"
+        },
+        "uses": "rasa.core.policies.flow_policy.FlowPolicy",
+        "constructor_name": "create",
+        "fn": "train",
+        "config": {},
+        "eager": false,
+        "is_target": true,
+        "is_input": false,
+        "resource": null
+      }
+    }
+  },
+  "predict_schema": {
+    "nodes": {
+      "nlu_message_converter": {
+        "needs": {
+          "messages": "__message__"
+        },
+        "uses": "rasa.graph_components.converters.nlu_message_converter.NLUMessageConverter",
+        "constructor_name": "load",
+        "fn": "convert_user_message",
+        "config": {},
+        "eager": true,
+        "is_target": false,
+        "is_input": false,
+        "resource": null
+      },
+      "flows_provider": {
+        "needs": {},
+        "uses": "rasa.graph_components.providers.flows_provider.FlowsProvider",
+        "constructor_name": "load",
+        "fn": "provide_inference",
+        "config": {},
+        "eager": true,
+        "is_target": false,
+        "is_input": false,
+        "resource": {
+          "name": "flows_provider",
+          "output_fingerprint": "5753cba10b88475ebe976d142c269f03"
+        }
+      },
+      "domain_provider": {
+        "needs": {},
+        "uses": "rasa.graph_components.providers.domain_provider.DomainProvider",
+        "constructor_name": "load",
+        "fn": "provide_inference",
+        "config": {},
+        "eager": true,
+        "is_target": false,
+        "is_input": false,
+        "resource": {
+          "name": "domain_provider",
+          "output_fingerprint": "9faa1feabe9c4f89aa0085c8a293fc5e"
+        }
+      },
+      "run_SingleStepLLMCommandGenerator0": {
+        "needs": {
+          "flows": "flows_provider",
+          "domain": "domain_provider",
+          "tracker": "__tracker__",
+          "messages": "nlu_message_converter"
+        },
+        "uses": "rasa.dialogue_understanding.generator.single_step.single_step_llm_command_generator.SingleStepLLMCommandGenerator",
+        "constructor_name": "load",
+        "fn": "process",
+        "config": {
+          "llm": {
+            "model_name": "gpt-4o-mini",
+            "temperature": 0.2
+          },
+          "prompt_caching": true
+        },
+        "eager": true,
+        "is_target": false,
+        "is_input": false,
+        "resource": {
+          "name": "train_SingleStepLLMCommandGenerator0",
+          "output_fingerprint": "b1909c89fa4b4196a3ebba16854a2cc9"
+        }
+      },
+      "run_RegexMessageHandler": {
+        "needs": {
+          "messages": "run_SingleStepLLMCommandGenerator0",
+          "domain": "domain_provider"
+        },
+        "uses": "rasa.nlu.classifiers.regex_message_handler.RegexMessageHandler",
+        "constructor_name": "load",
+        "fn": "process",
+        "config": {},
+        "eager": true,
+        "is_target": false,
+        "is_input": false,
+        "resource": null
+      },
+      "command_processor": {
+        "needs": {
+          "flows": "flows_provider",
+          "domain": "domain_provider",
+          "tracker": "__tracker__"
+        },
+        "uses": "rasa.dialogue_understanding.processor.command_processor_component.CommandProcessorComponent",
+        "constructor_name": "load",
+        "fn": "execute_commands",
+        "config": {},
+        "eager": true,
+        "is_target": false,
+        "is_input": false,
+        "resource": {
+          "name": "command_processor",
+          "output_fingerprint": "9aab53f755f34d8ba264382d029c93d5"
+        }
+      },
+      "run_FlowPolicy0": {
+        "needs": {
+          "tracker": "__tracker__",
+          "output_channel": "__output_channel__",
+          "domain": "domain_provider",
+          "rule_only_data": "rule_only_data_provider",
+          "flows": "flows_provider"
+        },
+        "uses": "rasa.core.policies.flow_policy.FlowPolicy",
+        "constructor_name": "load",
+        "fn": "predict_action_probabilities",
+        "config": {},
+        "eager": true,
+        "is_target": false,
+        "is_input": false,
+        "resource": {
+          "name": "train_FlowPolicy0",
+          "output_fingerprint": "0712ea75e499487f867da23b8decc0be"
+        }
+      },
+      "rule_only_data_provider": {
+        "needs": {},
+        "uses": "rasa.graph_components.providers.rule_only_provider.RuleOnlyDataProvider",
+        "constructor_name": "load",
+        "fn": "provide",
+        "config": {},
+        "eager": true,
+        "is_target": false,
+        "is_input": false,
+        "resource": null
+      },
+      "select_prediction": {
+        "needs": {
+          "policy0": "run_FlowPolicy0",
+          "domain": "domain_provider",
+          "tracker": "__tracker__"
+        },
+        "uses": "rasa.core.policies.ensemble.DefaultPolicyPredictionEnsemble",
+        "constructor_name": "load",
+        "fn": "combine_predictions_from_kwargs",
+        "config": {},
+        "eager": true,
+        "is_target": false,
+        "is_input": false,
+        "resource": null
+      }
+    }
+  },
+  "training_type": 3,
+  "project_fingerprint": "157e5fc9c6fc3eb432c50b46905723aa7586ffc4912e63365a397d0f7372639d",
+  "core_target": "select_prediction",
+  "nlu_target": "run_RegexMessageHandler",
+  "language": "en",
+  "additional_languages": null
+}
