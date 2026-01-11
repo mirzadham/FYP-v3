@@ -1,8 +1,0 @@
-flows:
-  verification_letter:
-    description: |
-      Redirects verification letter requests to SMP.
-      Examples: "need confirmation letter", "student status letter"
-    name: verification letter information
-    steps:
-      - action: utter_verification_letter

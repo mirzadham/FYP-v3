@@ -1,16 +1,6 @@
 version: "3.1"
 
 responses:
-  utter_fees_block:
-    - text: |
-        💰 **Financial Block (Fees)**
-        
-        As an Academic Advisor, I do not have access to your financial records.
-        
-        👉 **Action Required:** Please contact the **Bursar's Office** (Pejabat Bursar) directly for payment issues.
-        
-        [Check Financial Status in SMP](https://smp.upm.edu.my)
-
   utter_class_full:
     - text: |
         📚 **Full Class/Section**
@@ -30,21 +20,3 @@ responses:
         • If unavoidable, you may need to **drop one subject** and take it next semester.
         
         ⚠️ Plan your schedule carefully to avoid extending your study duration.
-
-  utter_system_issues:
-    - text: |
-        🖥️ **Technical Issues**
-        
-        I cannot assist with technical problems like **password resets or portal errors**.
-        
-        👉 **Action Required:** Please contact the **IT Helpdesk (iDEC)**.
-        
-        📧 Email: idec_helpdesk@upm.edu.my
-
-  utter_verification_letter:
-    - text: |
-        📄 **Verification Letters**
-        
-        You can download official student verification letters directly from the **Student Management Portal (SMP)**.
-        
-        Navigate to: **Academic > Surat Pengesahan**

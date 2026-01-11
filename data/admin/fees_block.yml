@@ -1,8 +1,0 @@
-flows:
-  fees_block:
-    description: |
-      Redirects financial/fee block queries to the Bursary.
-      Examples: "why is my registration blocked", "cannot register due to fees", "fee block"
-    name: fees block information
-    steps:
-      - action: utter_fees_block

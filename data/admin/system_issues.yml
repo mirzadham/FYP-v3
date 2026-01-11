@@ -1,8 +1,0 @@
-flows:
-  system_issues:
-    description: |
-      Redirects technical/system issues to IT Helpdesk.
-      Examples: "forgot password", "smp not working", "cannot login"
-    name: system issues information
-    steps:
-      - action: utter_system_issues
