@@ -8,6 +8,7 @@ Module Structure:
 - db_utils.py: Shared database connection and query helpers
 - course_actions.py: Course information retrieval actions
 - prerequisite_actions.py: Prerequisite checking and validation actions
+- convocation_actions.py: Convocation information actions
 - openai_actions.py: RAG-enhanced fallback responses using OpenAI
 """
 
@@ -18,6 +19,7 @@ from .prerequisite_actions import (
     ActionValidateCourseCodeFormat,
     ActionResetCourseCode,
 )
+from .convocation_actions import ActionResetConvocationTopic
 from .openai_actions import ActionOpenAIResponse
 
 # Export all actions
@@ -26,5 +28,6 @@ __all__ = [
     "ActionCheckPrerequisites",
     "ActionValidateCourseCodeFormat",
     "ActionResetCourseCode",
+    "ActionResetConvocationTopic",
     "ActionOpenAIResponse",
 ]

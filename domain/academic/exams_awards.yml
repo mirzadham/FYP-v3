@@ -5,36 +5,21 @@ responses:
     - text: |
         📅 **Exam Schedule**
         
-        **How to Check:**
-        1. Login to SMP portal
-        2. Go to "Jadual Peperiksaan"
-        3. View your personalized exam timetable
+        The official Final Examination Timetable is managed and released by the **Examination Unit** (Academic Division).
         
-        **Includes:**
-        • Date and time
-        • Venue/Hall
-        • Seat number
+        👉 **Action Required:** Please check your personalized exam schedule via the **Student Management Portal (SMP)** or the official "Jadual Waktu Peperiksaan" release.
         
-        ⚠️ Timetable usually released 2-3 weeks before exams.
+        [Check SMP Portal](https://smp.upm.edu.my)
 
   utter_exam_regulations:
     - text: |
         📋 **Exam Regulations**
         
-        **Dress Code:**
-        • Formal/smart casual attire
-        • No slippers, shorts, or sleeveless
+        Detailed regulations regarding dress code, forbidden items, and conduct are enforced by the **Examination Unit**.
         
-        **Must Bring:**
-        • Student ID card (matric card)
-        • Stationery (pens, pencils)
-        • Calculator (if permitted)
+        Please refer to the **"Universiti Putra Malaysia (Examination) Rules"** handbook.
         
-        **NOT Allowed:**
-        • Mobile phones (must be OFF and stored)
-        • Notes/books (unless open book exam)
-        
-        ⚠️ Arrive 30 mins early. Late entry may be denied.
+        ⚠️ **Note:** Strict dress code compliance is required for entry into the exam hall.
 
   utter_deans_list:
     - text: |

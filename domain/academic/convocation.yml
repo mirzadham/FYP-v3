@@ -1,0 +1,30 @@
+version: "3.1"
+
+responses:
+  utter_convocation_overview:
+    - text: |
+        🎓 **Convocation Logistics**
+        
+        Please note that matters regarding **robe rental, guest tickets, ceremony dates, and dress codes** are handled by the Registrar's Office.
+        
+        👉 **Action Required:** Please log in to the **Student Management Portal (SMP)** or visit the official Convocation website for all logistical arrangements.
+        
+        As your Academic Advisor, I can only assist you with verifying your **Graduation Eligibility** (Academic Requirements).
+
+  utter_convocation_requirements:
+    - text: |
+        ✅ **Graduation Requirements (Eligibility)**
+        
+        **To be eligible to graduate:**
+        
+        1. **Academic:**
+           • Complete all required credit hours
+           • Pass all core and elective courses
+           • Meet minimum CGPA requirement (2.00)
+        
+        2. **Administrative:**
+           • Clear all outstanding tuition fees
+           • Return all library books
+           • Complete the Exit Survey
+        
+        ⚠️ If you are unsure about your credit status, please verify your transcript in SMP.

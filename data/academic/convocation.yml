@@ -1,8 +1,9 @@
 flows:
   convocation_info:
     description: |
-      Provide information about graduation/convocation ceremony, registration, and attire.
-      Examples: "when is convocation?", "graduation ceremony", "convo registration"
+      Handles queries about convocation/graduation. Redirects logistics to SMP and provides academic requirements.
+      Examples: "when is convocation?", "how to rent robe", "graduation requirements", "convo tickets", "am I eligible to graduate?"
     name: convocation information
     steps:
-      - action: utter_convocation_info
+      - action: utter_convocation_overview
+      - action: utter_convocation_requirements

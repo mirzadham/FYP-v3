@@ -3,81 +3,48 @@ version: "3.1"
 responses:
   utter_fees_block:
     - text: |
-        💰 **Registration Block (Fees)**
+        💰 **Financial Block (Fees)**
         
-        **Reasons for Block:**
-        • Outstanding tuition fees
-        • Payment not yet processed
+        As an Academic Advisor, I do not have access to your financial records.
         
-        **To Unblock:**
-        1. Pay minimum required amount
-        2. Upload payment proof to SMP
-        3. Wait 24-48 hours for system update
+        👉 **Action Required:** Please contact the **Bursar's Office** (Pejabat Bursar) directly for payment issues.
         
-        💡 Contact Bursary if payment not reflected after 3 days.
+        [Check Financial Status in SMP](https://smp.upm.edu.my)
 
   utter_class_full:
     - text: |
         📚 **Full Class/Section**
         
-        **Options:**
-        • Try other available sections
-        • Check during add/drop period (seats may open)
-        • Request quota increase from lecturer
-        
-        **Procedure for Quota Request:**
-        1. Email lecturer with justification
-        2. If approved, get signed form
-        3. Submit to Faculty office
-        
-        ⚠️ No guarantee of approval - have backup subjects ready.
+        **Academic Advice:**
+        1. Check if other sections are available.
+        2. Wait for the Add/Drop period (seats often open up).
+        3. Consult the lecturer for a potential **Manual Registration** if critical for graduation.
 
   utter_timetable_clash:
     - text: |
         📅 **Timetable Clash**
         
-        **Solutions:**
-        • Switch to different section of one subject
-        • Drop one subject and take it next semester
-        • Request special arrangement (rare)
+        **Academic Advice:**
+        • You typically cannot register for clashing classes.
+        • Switch sections if possible.
+        • If unavoidable, you may need to **drop one subject** and take it next semester.
         
-        **Tips:**
-        • Plan your registration early
-        • Have backup sections ready
-        • Check timetable before finalizing
-        
-        ⚠️ Attending both clashing classes is NOT allowed.
+        ⚠️ Plan your schedule carefully to avoid extending your study duration.
 
   utter_system_issues:
     - text: |
-        🖥️ **System/Portal Issues**
+        🖥️ **Technical Issues**
         
-        **Common Solutions:**
-        • Clear browser cache
-        • Try different browser (Chrome recommended)
-        • Check if system is under maintenance
+        I cannot assist with technical problems like **password resets or portal errors**.
         
-        **Password Reset:**
-        • Use "Forgot Password" on login page
-        • Contact IT Helpdesk if still unable
+        👉 **Action Required:** Please contact the **IT Helpdesk (iDEC)**.
         
-        📞 **IT Helpdesk:** Contact your faculty's IT support
-        
-        💡 Try during off-peak hours (early morning/late night).
+        📧 Email: idec_helpdesk@upm.edu.my
 
   utter_verification_letter:
     - text: |
-        📄 **Student Verification Letter**
+        📄 **Verification Letters**
         
-        **Types Available:**
-        • Enrollment confirmation
-        • Active student status
-        • For PTPTN/scholarship/bank
+        You can download official student verification letters directly from the **Student Management Portal (SMP)**.
         
-        **How to Get:**
-        1. Login to SMP portal
-        2. Go to "Surat Pengesahan" section
-        3. Download and print
-        
-        **For Custom Letters:**
-        Contact Registry/Faculty office with specific requirements.
+        Navigate to: **Academic > Surat Pengesahan**
