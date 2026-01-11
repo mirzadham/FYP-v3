@@ -1,9 +1,96 @@
 flows:
   grade_appeal:
     description: |
-      Provide guidance on when and how to appeal grades. Academic advisor explains the process
-      but does NOT process appeals. Formal appeals go through Faculty Academic Office.
-      Examples: "how to appeal grade?", "my marks are wrong", "can I recheck my exam?"
+      Production-grade flow to guide students through the grade appeal/review process.
+      Collects appeal context and timing to provide appropriate guidance.
+      Refers formal appeals to Faculty Academic Office.
+      Examples: "how to appeal grade?", "my marks are wrong", "recheck exam paper"
     name: grade appeal guidance
     steps:
-      - action: utter_grade_appeal_guidance
+      # Step 1: Intro and offer assessment
+      - id: intro_appeal
+        action: utter_appeal_intro
+        next: ask_appeal_assessment
+
+      - id: ask_appeal_assessment
+        collect: wants_appeal_assessment
+        description: Whether the student wants guidance on appealing a specific grade
+
+      - action: action_check_appeal_choice
+        next:
+          - if: "slots.wants_appeal_assessment = false"
+            then:
+              - action: utter_appeal_general_info
+                next: END
+          - else: collect_appeal_reason
+
+      # Step 2: Collect reason for appeal
+      - id: collect_appeal_reason
+        collect: appeal_reason
+        description: The main reason for wanting to appeal (calculation error, marking error, unfair assessment, other)
+
+      # Step 3: Collect days since results
+      - id: collect_days_since_results
+        collect: days_since_results
+        description: Number of days since results were released
+
+      - action: action_validate_days
+        next:
+          - if: "slots.days_valid = false"
+            then:
+              - action: utter_invalid_days_format
+              - action: action_reset_days
+                next: collect_days_since_results
+          - else: check_deadline
+
+      # Step 4: Check if within deadline
+      - id: check_deadline
+        action: action_check_appeal_deadline
+        next:
+          - if: "slots.within_deadline = true"
+            then:
+              - action: utter_within_deadline
+                next: collect_reviewed_script
+          - else:
+              - action: utter_deadline_passed
+                next: offer_appeal_alternatives
+
+      # Step 5: Ask if reviewed script first
+      - id: collect_reviewed_script
+        collect: has_reviewed_script
+        description: Whether the student has first reviewed their exam script with the lecturer
+
+      - action: action_assess_appeal_readiness
+        next:
+          - if: "slots.should_review_first = true"
+            then:
+              - action: utter_review_script_first
+                next: offer_appeal_procedure
+          - else:
+              - action: utter_ready_to_appeal
+                next: offer_appeal_procedure
+
+      # Step 6: Offer procedure details
+      - id: offer_appeal_procedure
+        collect: wants_appeal_procedure
+        next:
+          - if: slots.wants_appeal_procedure
+            then:
+              - action: utter_appeal_procedure
+              - action: utter_appeal_warning
+                next: END
+          - else:
+              - action: utter_appeal_encouragement
+                next: END
+
+      # Step 7: Alternatives when deadline passed
+      - id: offer_appeal_alternatives
+        collect: wants_appeal_alternatives
+        next:
+          - if: slots.wants_appeal_alternatives
+            then:
+              - action: utter_appeal_alternatives
+                next: END
+          - else:
+              - action: utter_focus_forward
+                next: END

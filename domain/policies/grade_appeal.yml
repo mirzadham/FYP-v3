@@ -1,24 +1,290 @@
 version: "3.1"
 
+slots:
+  wants_appeal_assessment:
+    type: bool
+    description: Whether student wants personalized appeal guidance.
+    mappings:
+      - type: from_llm
+
+  appeal_reason:
+    type: categorical
+    description: The main reason for wanting to appeal a grade.
+    values:
+      - calculation_error
+      - marking_error
+      - unfair_assessment
+      - other
+    mappings:
+      - type: from_llm
+
+  days_since_results:
+    type: float
+    description: Number of days since results were released.
+    mappings:
+      - type: from_llm
+
+  days_valid:
+    type: bool
+    description: Whether days input is valid.
+    mappings:
+      - type: custom
+
+  within_deadline:
+    type: bool
+    description: Whether student is within the appeal deadline (typically 14 days).
+    mappings:
+      - type: custom
+
+  has_reviewed_script:
+    type: bool
+    description: Whether student has reviewed their exam script with the lecturer first.
+    mappings:
+      - type: from_llm
+
+  should_review_first:
+    type: bool
+    description: Whether student should review script before formal appeal.
+    mappings:
+      - type: custom
+
+  wants_appeal_procedure:
+    type: bool
+    description: Whether student wants detailed appeal procedure.
+    mappings:
+      - type: from_llm
+
+  wants_appeal_alternatives:
+    type: bool
+    description: Whether student wants alternatives when deadline passed.
+    mappings:
+      - type: from_llm
+
+actions:
+  - action_check_appeal_choice
+  - action_validate_days
+  - action_reset_days
+  - action_check_appeal_deadline
+  - action_assess_appeal_readiness
+
 responses:
-  utter_grade_appeal_guidance:
+  utter_appeal_intro:
     - text: |
         📝 **Grade Appeal Guidance**
         
-        **When to Consider an Appeal:**
-        • You believe there was an error in marking
-        • Marks don't match your expected performance
-        • Calculation errors suspected
+        I can help you understand the grade appeal process and whether it's right for your situation.
         
-        **Before Appealing (My Advice):**
-        1. ✅ Review your exam script with the lecturer first
-        2. ✅ Understand where you lost marks
-        3. ✅ Consider if an appeal is warranted
+        **My role:** Guide you through the process
+        **Formal appeals:** Handled by Faculty Academic Office
         
-        **Formal Appeal Process:**
-        👉 Handled by the **Faculty Academic Office**
-        • Submit appeal form + fee
-        • Deadline: Usually 2 weeks after results
-        • Result may be same, higher, or lower
+        Would you like personalized guidance?
+    - text: |
+        🎓 **Thinking About Appealing a Grade?**
         
-        ⚠️ I can advise you on whether to appeal, but the formal process goes through the Faculty Academic Office.
+        Let me help you understand if an appeal is appropriate and guide you through the process.
+        
+        Shall we assess your situation?
+
+  utter_appeal_general_info:
+    - text: |
+        📋 **Grade Appeal Overview**
+        
+        **When to Consider:**
+        • Calculation/addition errors
+        • Questions not marked
+        • Marking inconsistencies
+        
+        **Deadline:** Usually 14 days after results release
+        **Fee:** Varies by faculty (typically RM30-50)
+        
+        **Important Steps:**
+        1. Review script with lecturer FIRST
+        2. Submit appeal form to Faculty
+        3. Wait for review result
+        
+        ⚠️ Result may be same, higher, OR lower!
+    - text: |
+        📝 **Appeal Process Quick Guide**
+        
+        **Before Appealing:**
+        • Review your exam script
+        • Understand where marks were lost
+        
+        **To Appeal:**
+        • Submit form within 14 days
+        • Pay review fee
+        • Faculty processes the appeal
+        
+        Talk to your lecturer first!
+
+  utter_invalid_days_format:
+    - text: |
+        ❌ Please enter the number of days since results were released.
+        
+        Example: `5` or `10`
+    - text: |
+        🔢 Enter a number for days since results (e.g., `7`).
+
+  utter_within_deadline:
+    - text: |
+        ✅ **Good - You're Within the Deadline!**
+        
+        With {days_since_results} days since results, you still have time to submit an appeal.
+        
+        Let me check if you're ready to proceed...
+    - text: |
+        ⏰ **Still Time to Appeal**
+        
+        {days_since_results} days is within the typical 14-day deadline.
+        
+        Let's make sure you're prepared...
+
+  utter_deadline_passed:
+    - text: |
+        ⚠️ **Deadline May Have Passed**
+        
+        At {days_since_results} days since results, you may be past the typical 14-day deadline.
+        
+        However, there might be alternatives...
+    - text: |
+        ⏰ **Late for Standard Appeal**
+        
+        The standard deadline is usually 14 days from results release.
+        
+        Let me share some alternatives...
+
+  utter_review_script_first:
+    - text: |
+        💡 **Recommendation: Review Your Script First**
+        
+        Before submitting a formal appeal, I strongly recommend:
+        
+        1. **Book an appointment** with your course lecturer
+        2. **Review your exam script** together
+        3. **Understand** where and why you lost marks
+        4. **Then decide** if an appeal is warranted
+        
+        Many issues are resolved at this stage without needing a formal appeal!
+    - text: |
+        📋 **Step 1: Review With Lecturer**
+        
+        Before appealing formally:
+        • Meet your lecturer during office hours
+        • Look through your exam paper together
+        • Ask questions about marking
+        
+        This often resolves concerns without needing to appeal!
+
+  utter_ready_to_appeal:
+    - text: |
+        ✅ **You've Done Your Homework!**
+        
+        Since you've already reviewed your script with the lecturer, you're ready to consider a formal appeal if needed.
+        
+        Would you like the formal appeal procedure?
+    - text: |
+        👍 **Good Preparation!**
+        
+        You've taken the important first step of reviewing your script.
+        
+        Shall I explain the formal appeal process?
+
+  utter_appeal_procedure:
+    - text: |
+        📋 **Formal Grade Appeal Procedure**
+        
+        **Step 1:** Get appeal form from Faculty Academic Office
+        **Step 2:** Fill in details (course, reason, evidence)
+        **Step 3:** Pay review fee (check with faculty)
+        **Step 4:** Submit to Faculty Academic Office
+        **Step 5:** Wait for review result (2-4 weeks)
+        
+        **Required Documents:**
+        • Completed appeal form
+        • Payment receipt
+        • Supporting evidence (if any)
+        
+        👉 **Contact:** Faculty Academic Office for exact procedure
+    - text: |
+        🔧 **How to Submit an Appeal**
+        
+        1. Get form from Faculty Office
+        2. Complete form with clear reasons
+        3. Pay review fee
+        4. Submit before deadline
+        5. Await result (can take weeks)
+        
+        The Faculty Academic Office handles all formal appeals.
+
+  utter_appeal_warning:
+    - text: |
+        ⚠️ **Important Reminders**
+        
+        • Appeal result can be **same, higher, OR lower**
+        • Fee is usually non-refundable
+        • Consider if the potential gain is worth it
+        • Prepare supporting evidence if available
+        
+        💡 Only appeal if you genuinely believe there's an error.
+    - text: |
+        🤔 **Before You Proceed**
+        
+        Remember:
+        • Your grade could go DOWN
+        • There's no guarantee of increase
+        • Fee is typically non-refundable
+        
+        Make sure you have valid grounds!
+
+  utter_appeal_encouragement:
+    - text: |
+        💪 **Good Luck!**
+        
+        Whatever you decide, remember that one grade doesn't define your academic journey.
+        
+        Your Academic Advisor is here if you need more guidance!
+    - text: |
+        🌟 **All the Best!**
+        
+        Take your time deciding. If you have questions, the Faculty Academic Office can help!
+
+  utter_appeal_alternatives:
+    - text: |
+        💡 **Alternatives When Deadline Passed**
+        
+        **Option 1: Request Exception**
+        • Visit Faculty Academic Office
+        • Explain circumstances (medical, emergency)
+        • They may grant an extension
+        
+        **Option 2: Focus Forward**
+        • Learn from this experience
+        • Improve in upcoming semesters
+        • One grade doesn't define you
+        
+        **Option 3: Repeat Course (if failed)**
+        • Retake next semester when offered
+        • New grade can replace old one
+    - text: |
+        🎯 **What You Can Still Do**
+        
+        1. Ask Faculty Office about late exceptions
+        2. Speak with Dean's Office for special cases
+        3. Focus on doing better next semester
+        
+        Don't let one setback discourage you!
+
+  utter_focus_forward:
+    - text: |
+        🌟 **Focus on What's Ahead**
+        
+        While this grade may be disappointing, remember:
+        • Your CGPA is cumulative
+        • Future semesters can improve it
+        • Learn from this experience
+        
+        Keep moving forward! 💪
+    - text: |
+        💪 **Keep Going!**
+        
+        One grade doesn't define your potential. Focus on upcoming challenges!

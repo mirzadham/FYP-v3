@@ -1,0 +1,80 @@
+version: "3.1"
+
+slots:
+  deadline_type:
+    type: categorical
+    description: Type of registration deadline info needed.
+    values:
+      - add_drop
+      - late_registration
+      - withdrawal
+    mappings:
+      - type: from_llm
+
+  wants_deadline_tips:
+    type: bool
+    description: Whether student wants registration tips.
+    mappings:
+      - type: from_llm
+
+actions:
+  - action_provide_deadline_info
+
+responses:
+  utter_deadline_intro:
+    - text: |
+        📅 **Registration Deadline Information**
+        
+        What deadline information do you need?
+        • Add/Drop period
+        • Late registration
+        • Course withdrawal
+
+  utter_add_drop_deadline:
+    - text: |
+        📅 **Add/Drop Period**
+        
+        **Timing:** Usually Week 1-2 of semester
+        
+        **What you can do:**
+        • Add new courses
+        • Drop courses (full refund)
+        • Switch sections
+        
+        **Where:** SMP Portal → Registration
+        
+        💡 Check SMP for exact dates each semester!
+
+  utter_late_registration_deadline:
+    - text: |
+        ⏰ **Late Registration**
+        
+        **Timing:** Week 3-4 (with penalty)
+        
+        **Consequences:**
+        • Late fee applies
+        • Limited course availability
+        • Need approval
+        
+        **Avoid this by:** Register during normal period!
+
+  utter_withdrawal_deadline:
+    - text: |
+        📋 **Course Withdrawal Deadlines**
+        
+        **Week 1-2:** Easy drop, full refund
+        **Week 3-7:** Partial refund, W grade
+        **Week 8-12:** No refund, W grade
+        **Week 13+:** Cannot withdraw
+        
+        Check the academic calendar for exact dates!
+
+  utter_deadline_tips:
+    - text: |
+        💡 **Registration Tips**
+        
+        1. Register on Day 1 for best selection
+        2. Have backup courses ready
+        3. Check prerequisites before registering
+        4. Monitor SMP for seat openings
+        5. Don't wait until deadline!

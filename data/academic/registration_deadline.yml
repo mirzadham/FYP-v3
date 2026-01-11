@@ -1,9 +1,38 @@
 flows:
   registration_deadline:
     description: |
-      Provide information about course registration deadlines, add/drop periods,
-      and important dates. Examples: "when is registration deadline?", 
-      "last day to add subjects", "add drop period"
+      Production-grade flow to provide registration deadline information.
+      Collects context and provides dynamic deadline guidance.
+      Examples: "when is registration deadline?", "last day to add subjects", "add drop period"  
     name: registration deadline information
     steps:
-      - action: utter_registration_deadline
+      - id: intro_deadline
+        action: utter_deadline_intro
+        next: ask_deadline_type
+
+      - id: ask_deadline_type
+        collect: deadline_type
+        description: Type of deadline info needed (add/drop, late registration, withdrawal)
+
+      - action: action_provide_deadline_info
+        next:
+          - if: "slots.deadline_type = 'add_drop'"
+            then:
+              - action: utter_add_drop_deadline
+                next: offer_deadline_tips
+          - if: "slots.deadline_type = 'late_registration'"
+            then:
+              - action: utter_late_registration_deadline
+                next: offer_deadline_tips
+          - else:
+              - action: utter_withdrawal_deadline
+                next: offer_deadline_tips
+
+      - id: offer_deadline_tips
+        collect: wants_deadline_tips
+        next:
+          - if: slots.wants_deadline_tips
+            then:
+              - action: utter_deadline_tips
+                next: END
+          - else: END

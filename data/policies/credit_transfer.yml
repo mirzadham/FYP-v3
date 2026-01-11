@@ -1,8 +1,46 @@
 flows:
   credit_transfer:
     description: |
-      Explain credit transfer/exemption procedure for diploma or transfer students.
+      Production-grade flow to guide students through credit transfer/exemption process.
+      Collects eligibility info (new student, previous qualification).
       Examples: "how to apply credit exemption?", "transfer credits from diploma"
-    name: credit transfer information
+    name: credit transfer guidance
     steps:
-      - action: utter_credit_transfer
+      - id: intro_credit_transfer
+        action: utter_credit_transfer_intro
+        next: ask_transfer_assessment
+
+      - id: ask_transfer_assessment
+        collect: wants_transfer_assessment
+        description: Whether student wants credit transfer eligibility check
+
+      - action: action_check_transfer_choice
+        next:
+          - if: "slots.wants_transfer_assessment = false"
+            then:
+              - action: utter_credit_transfer_general
+                next: END
+          - else: collect_student_type
+
+      - id: collect_student_type
+        collect: student_type
+        description: Type of student (diploma graduate, transfer student, or current student)
+
+      - id: collect_current_semester
+        collect: current_semester
+        description: Current semester number (1-10)
+
+      - action: action_assess_transfer_eligibility
+        next:
+          - if: "slots.transfer_eligible = true"
+            then:
+              - action: utter_transfer_eligible
+              - action: utter_transfer_procedure
+                next: END
+          - if: "slots.transfer_status = 'late'"
+            then:
+              - action: utter_transfer_late
+                next: END
+          - else:
+              - action: utter_transfer_not_eligible
+                next: END

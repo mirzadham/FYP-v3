@@ -1,17 +1,74 @@
 version: "3.1"
 
+slots:
+  repeat_reason:
+    type: categorical
+    description: Reason for repeating a course.
+    values:
+      - failed
+      - improve_grade
+      - prerequisite
+    mappings:
+      - type: from_llm
+
+actions:
+  - action_provide_repeat_guidance
+
 responses:
-  utter_repeat_policy:
+  utter_repeat_intro:
     - text: |
-        📚 **Repeat/Failed Subject Policy**
+        📚 **Repeat/Retake Course Guidance**
+        
+        I can help you understand the repeat policy.
+        
+        What's your reason for repeating?
+        • Failed the course
+        • Want to improve grade
+        • Need to pass prerequisite
+
+  utter_failed_repeat_policy:
+    - text: |
+        📚 **Failed Course - Repeat Policy**
         
         **Key Points:**
-        • Failed subjects must be repeated
-        • Core subjects: Must repeat immediately when offered
-        • Maximum grade after repeat: Usually capped (check faculty rules)
+        • You MUST repeat failed core courses
+        • Register when course is next offered
+        • Both grades appear on transcript
+        • Latest grade used for CGPA
         
-        **GPA Impact:**
-        • Both grades may appear on transcript
-        • Latest attempt used for CGPA calculation
+        **Grade Cap:** Some faculties cap repeat grades (check your program rules)
+
+  utter_repeat_priority:
+    - text: |
+        ⚡ **Priority Action**
         
-        ⚠️ Repeated failures may lead to probation.
+        For core courses:
+        • Repeat immediately when offered
+        • Don't delay - affects progression
+        • Failed prerequisites block advanced courses
+        
+        💡 Seek tutoring support this time!
+
+  utter_grade_improvement_policy:
+    - text: |
+        📈 **Grade Improvement Policy**
+        
+        **Can you repeat a passed course?**
+        
+        • Generally NOT encouraged for passed courses
+        • Some faculties allow with conditions
+        • Check with Faculty Academic Office
+        
+        **Better Alternative:**
+        Focus on improving in upcoming courses!
+
+  utter_prerequisite_repeat:
+    - text: |
+        🔗 **Prerequisite Repeat**
+        
+        If you failed a prerequisite:
+        • You CANNOT register for advanced courses
+        • Must repeat and pass first
+        • Plan your semester accordingly
+        
+        💡 Prioritize prerequisite courses!

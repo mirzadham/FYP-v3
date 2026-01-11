@@ -13,6 +13,8 @@ Module Structure:
 - graduation_actions.py: Graduation requirements assessment actions
 - industrial_training_actions.py: Industrial training eligibility actions
 - drop_course_actions.py: Course drop/withdrawal actions
+- grade_appeal_actions.py: Grade appeal guidance actions
+- medium_priority_actions.py: Credit transfer, change program, registration actions
 - openai_actions.py: RAG-enhanced fallback responses using OpenAI
 """
 
@@ -56,6 +58,23 @@ from .drop_course_actions import (
     ActionResetWeek,
     ActionAssessDropConsequences,
 )
+from .grade_appeal_actions import (
+    ActionCheckAppealChoice,
+    ActionValidateDays,
+    ActionResetDays,
+    ActionCheckAppealDeadline,
+    ActionAssessAppealReadiness,
+)
+from .medium_priority_actions import (
+    ActionCheckTransferChoice,
+    ActionAssessTransferEligibility,
+    ActionCheckChangeChoice,
+    ActionAssessChangeEligibility,
+    ActionProvideDeadlineInfo,
+    ActionAssessFullClassOptions,
+    ActionAssessClashResolution,
+    ActionProvideRepeatGuidance,
+)
 from .openai_actions import ActionOpenAIResponse
 
 # Export all actions
@@ -93,9 +112,25 @@ __all__ = [
     "ActionValidateWeek",
     "ActionResetWeek",
     "ActionAssessDropConsequences",
+    # Grade appeal actions
+    "ActionCheckAppealChoice",
+    "ActionValidateDays",
+    "ActionResetDays",
+    "ActionCheckAppealDeadline",
+    "ActionAssessAppealReadiness",
+    # Medium priority actions
+    "ActionCheckTransferChoice",
+    "ActionAssessTransferEligibility",
+    "ActionCheckChangeChoice",
+    "ActionAssessChangeEligibility",
+    "ActionProvideDeadlineInfo",
+    "ActionAssessFullClassOptions",
+    "ActionAssessClashResolution",
+    "ActionProvideRepeatGuidance",
     # OpenAI actions
     "ActionOpenAIResponse",
 ]
+
 
 
 

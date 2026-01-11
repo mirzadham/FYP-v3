@@ -1,8 +1,55 @@
 flows:
   change_program:
     description: |
-      Explain program/major change procedure, requirements, and deadlines.
+      Production-grade flow to guide students on changing program/major.
+      Checks CGPA requirement and provides procedural guidance.
       Examples: "how to change major?", "switch from CS to SE", "transfer faculty"
-    name: change program information
+    name: change program guidance
     steps:
-      - action: utter_change_program
+      - id: intro_change
+        action: utter_change_intro
+        next: ask_change_assessment
+
+      - id: ask_change_assessment
+        collect: wants_change_assessment
+        description: Whether student wants change program eligibility check
+
+      - action: action_check_change_choice
+        next:
+          - if: "slots.wants_change_assessment = false"
+            then:
+              - action: utter_change_general
+                next: END
+          - else: collect_change_cgpa
+
+      - id: collect_change_cgpa
+        collect: current_cgpa
+        description: Current CGPA for eligibility check
+
+      - action: action_validate_cgpa
+        next:
+          - if: "slots.cgpa_valid = false"
+            then:
+              - action: utter_invalid_cgpa_format
+              - action: action_reset_cgpa
+                next: collect_change_cgpa
+          - else: collect_semesters_completed
+
+      - id: collect_semesters_completed
+        collect: semesters_completed
+        description: Number of semesters completed so far
+
+      - action: action_assess_change_eligibility
+        next:
+          - if: "slots.change_eligible = true"
+            then:
+              - action: utter_change_eligible
+              - action: utter_change_procedure
+                next: END
+          - if: "slots.change_status = 'cgpa_low'"
+            then:
+              - action: utter_change_cgpa_low
+                next: END
+          - else:
+              - action: utter_change_early
+                next: END

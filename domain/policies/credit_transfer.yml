@@ -1,19 +1,110 @@
 version: "3.1"
 
+slots:
+  wants_transfer_assessment:
+    type: bool
+    description: Whether student wants credit transfer eligibility check.
+    mappings:
+      - type: from_llm
+
+  student_type:
+    type: categorical
+    description: Type of student for credit transfer purposes.
+    values:
+      - diploma_graduate
+      - transfer_student
+      - current_student
+    mappings:
+      - type: from_llm
+
+  current_semester:
+    type: float
+    description: Current semester number.
+    mappings:
+      - type: from_llm
+
+  transfer_eligible:
+    type: bool
+    description: Whether eligible for credit transfer.
+    mappings:
+      - type: custom
+
+  transfer_status:
+    type: categorical
+    values:
+      - eligible
+      - late
+      - not_eligible
+    mappings:
+      - type: custom
+
+actions:
+  - action_check_transfer_choice
+  - action_assess_transfer_eligibility
+
 responses:
-  utter_credit_transfer:
+  utter_credit_transfer_intro:
     - text: |
-        📋 **Credit Transfer/Exemption**
+        📋 **Credit Transfer/Exemption Guidance**
         
-        **Eligible For:**
+        Credit transfer allows you to exempt courses you've already completed elsewhere.
+        
+        **Eligible for:**
         • Diploma graduates
+        • Transfer students
+        
+        Would you like to check your eligibility?
+
+  utter_credit_transfer_general:
+    - text: |
+        📋 **Credit Transfer Overview**
+        
+        **Eligible Students:**
+        • Diploma graduates entering degree program
         • Transfer students from other universities
         
-        **Procedure:**
-        1. Submit exemption form with transcript
-        2. Provide syllabus of previous courses
-        3. Faculty evaluates equivalence
+        **Deadline:** Apply within first semester
+        **Limit:** Usually max 30% of program credits
         
-        **Limits:** Usually max 30% of program credits
+        **Documents Needed:**
+        • Transcript
+        • Course syllabi
+        • Exemption application form
+
+  utter_transfer_eligible:
+    - text: |
+        ✅ **You're Eligible for Credit Transfer!**
         
-        ⚠️ Apply within first semester of enrollment.
+        As a **{student_type}** in your first semester, you can apply for credit exemption.
+
+  utter_transfer_procedure:
+    - text: |
+        📋 **How to Apply**
+        
+        1. Get exemption form from Faculty Office
+        2. Attach your transcript
+        3. Include syllabus of courses to transfer
+        4. Submit before Week 3
+        5. Faculty evaluates equivalence
+        
+        💡 Start early - processing takes time!
+
+  utter_transfer_late:
+    - text: |
+        ⚠️ **Late for Credit Transfer**
+        
+        At semester {current_semester}, you're past the typical deadline for credit transfer.
+        
+        Credit exemption should be applied in **Semester 1**.
+        
+        Contact Faculty Office to ask about exceptions.
+
+  utter_transfer_not_eligible:
+    - text: |
+        ℹ️ **Not Eligible for Credit Transfer**
+        
+        Credit transfer is typically for:
+        • New diploma graduates joining degree
+        • Transfer students from other universities
+        
+        Current continuing students generally don't qualify.

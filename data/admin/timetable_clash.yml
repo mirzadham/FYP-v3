@@ -1,8 +1,29 @@
 flows:
   timetable_clash:
     description: |
-      Explain how to handle timetable/schedule conflicts between subjects.
-      Examples: "timetable clash", "two subjects same time", "schedule conflict"
-    name: timetable clash information
+      Production-grade flow to help students resolve timetable clashes.
+      Collects clash details and provides resolution strategies.
+      Examples: "classes at same time", "timetable clash", "schedule conflict"
+    name: timetable clash resolution
     steps:
-      - action: utter_timetable_clash
+      - id: intro_clash
+        action: utter_clash_intro
+        next: collect_clash_courses
+
+      - id: collect_clash_courses
+        collect: clashing_courses
+        description: Courses that have timetable clash
+
+      - id: collect_both_required
+        collect: both_courses_required
+        description: Whether both courses are required this semester
+
+      - action: action_assess_clash_resolution
+        next:
+          - if: "slots.both_courses_required = true"
+            then:
+              - action: utter_both_required_options
+                next: END
+          - else:
+              - action: utter_defer_one_option
+                next: END
