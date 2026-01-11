@@ -1,8 +1,30 @@
 flows:
   repeat_policy:
     description: |
-      Explain policy for repeating failed subjects, grade replacement, and limits.
-      Examples: "I failed a subject", "how to repeat course?", "repeat grade policy"
-    name: repeat policy information
+      Production-grade flow to explain repeat/failed subject policy.
+      Provides guidance on retaking courses and GPA impact.
+      Examples: "how to repeat subject?", "failed course policy", "retake subject"
+    name: repeat policy guidance
     steps:
-      - action: utter_repeat_policy
+      - id: intro_repeat
+        action: utter_repeat_intro
+        next: ask_repeat_type
+
+      - id: ask_repeat_type
+        collect: repeat_reason
+        description: Reason for repeating (failed, want better grade, prerequisite)
+
+      - action: action_provide_repeat_guidance
+        next:
+          - if: "slots.repeat_reason = 'failed'"
+            then:
+              - action: utter_failed_repeat_policy
+              - action: utter_repeat_priority
+                next: END
+          - if: "slots.repeat_reason = 'improve_grade'"
+            then:
+              - action: utter_grade_improvement_policy
+                next: END
+          - else:
+              - action: utter_prerequisite_repeat
+                next: END

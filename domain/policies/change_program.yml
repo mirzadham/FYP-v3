@@ -1,0 +1,105 @@
+version: "3.1"
+
+slots:
+  wants_change_assessment:
+    type: bool
+    mappings:
+      - type: from_llm
+
+  semesters_completed:
+    type: float
+    mappings:
+      - type: from_llm
+
+  change_eligible:
+    type: bool
+    mappings:
+      - type: custom
+
+  change_status:
+    type: categorical
+    values:
+      - eligible
+      - cgpa_low
+      - early
+    mappings:
+      - type: custom
+
+actions:
+  - action_check_change_choice
+  - action_assess_change_eligibility
+
+responses:
+  utter_ask_wants_change_assessment:
+    - text: |
+        🔄 Would you like me to check your eligibility for changing your program/major?
+
+  utter_ask_semesters_completed:
+    - text: |
+        📅 How many semesters have you completed so far?
+        
+        Please enter a number (e.g., `1`, `2`, `3`).
+
+  utter_change_intro:
+    - text: |
+        🔄 **Change Program/Major Guidance**
+        
+        I can help you understand if you're eligible to change your program and guide you through the process.
+        
+        Want to check your eligibility?
+
+  utter_change_general:
+    - text: |
+        🔄 **Changing Program Overview**
+        
+        **Requirements:**
+        • Minimum CGPA: Usually 2.50+
+        • At least 1 semester completed
+        • Slots available in target program
+        
+        **Procedure:**
+        1. Get form from Registry
+        2. Approval from both faculties
+        3. Submit before deadline
+        
+        💡 Credits may transfer based on course equivalence.
+
+  utter_change_eligible:
+    - text: |
+        ✅ **You Appear Eligible to Change Program!**
+        
+        Your CGPA of **{current_cgpa}** meets the typical requirement.
+
+  utter_change_procedure:
+    - text: |
+        📋 **How to Apply**
+        
+        1. Get application form from Registry
+        2. Fill in current and target program
+        3. Get approval from current faculty
+        4. Get approval from target faculty
+        5. Submit before semester deadline
+        
+        **Note:** Subject to slot availability in target program.
+
+  utter_change_cgpa_low:
+    - text: |
+        ⚠️ **CGPA Requirement Not Met**
+        
+        Your CGPA of **{current_cgpa}** is below the typical 2.50 requirement.
+        
+        **Recommendations:**
+        • Focus on improving your CGPA first
+        • Some programs may have lower requirements
+        • Contact Registry for specific program requirements
+
+  utter_change_early:
+    - text: |
+        ⏰ **Complete At Least 1 Semester First**
+        
+        Program changes typically require at least 1 completed semester.
+        
+        Use this time to:
+        • Explore your current program
+        • Improve your CGPA
+        • Research the target program

@@ -1,9 +1,104 @@
 flows:
   graduation_requirements:
     description: |
-      Explain graduation criteria including minimum credits, CGPA requirements,
-      compulsory subjects, and FYP. Examples: "how to graduate?", 
-      "graduation requirements", "how many credits to finish degree"
-    name: graduation requirements
+      Production-grade flow to help students understand and self-assess their graduation requirements.
+      Collects credits completed, CGPA, and program info to provide personalized graduation timeline.
+      Examples: "how to graduate?", "graduation requirements", "how many credits to finish degree",
+      "am I close to graduating?", "remaining credits"
+    name: graduation requirements assessment
     steps:
-      - action: utter_graduation_requirements
+      # Step 1: Ask if they want general info or personalized assessment
+      - id: ask_graduation_type
+        collect: wants_graduation_assessment
+        description: Whether the student wants a personalized graduation assessment or just general requirements info
+
+      - action: action_check_graduation_assessment_choice
+        next:
+          - if: "slots.wants_graduation_assessment = false"
+            then:
+              - action: utter_graduation_general_info
+                next: offer_graduation_assessment
+          - else: collect_program_type
+
+      # Step 2: Collect program type
+      - id: collect_program_type
+        collect: program_type
+        description: The type of program the student is enrolled in (Bachelor's degree or Diploma)
+
+      # Step 3: Collect credits completed
+      - id: collect_credits
+        collect: credits_completed
+        description: The number of credit hours the student has completed so far
+
+      # Step 4: Validate credits
+      - action: action_validate_credits
+        next:
+          - if: "slots.credits_valid = false"
+            then:
+              - action: utter_invalid_credits_format
+              - action: action_reset_credits
+                next: collect_credits
+          - else: collect_graduation_cgpa
+
+      # Step 5: Collect CGPA
+      - id: collect_graduation_cgpa
+        collect: current_cgpa
+        description: The student's current cumulative GPA (CGPA) on a 4.0 scale
+
+      # Step 6: Validate CGPA
+      - action: action_validate_cgpa
+        next:
+          - if: "slots.cgpa_valid = false"
+            then:
+              - action: utter_invalid_cgpa_format
+              - action: action_reset_cgpa
+                next: collect_graduation_cgpa
+          - else: assess_graduation_status
+
+      # Step 7: Assess graduation status
+      - id: assess_graduation_status
+        action: action_assess_graduation_status
+        next:
+          - if: "slots.graduation_status = 'eligible'"
+            then:
+              - action: utter_graduation_eligible
+              - action: utter_graduation_checklist
+                next: offer_graduation_followup
+          - if: "slots.graduation_status = 'close'"
+            then:
+              - action: utter_graduation_close
+              - action: utter_remaining_requirements
+                next: offer_graduation_followup
+          - if: "slots.graduation_status = 'in_progress'"
+            then:
+              - action: utter_graduation_in_progress
+              - action: utter_graduation_timeline
+                next: offer_graduation_followup
+          - else:
+              - action: utter_graduation_early_stage
+              - action: utter_focus_on_current
+                next: offer_graduation_followup
+
+      # Step 8: Offer general assessment after general info
+      - id: offer_graduation_assessment
+        collect: wants_detailed_graduation_check
+        next:
+          - if: slots.wants_detailed_graduation_check
+            then:
+              - action: action_reset_graduation_slots
+                next: collect_program_type
+          - else:
+              - action: utter_graduation_resources
+                next: END
+
+      # Step 9: Follow-up options
+      - id: offer_graduation_followup
+        collect: wants_muet_check
+        next:
+          - if: slots.wants_muet_check
+            then:
+              - action: utter_muet_requirement_detail
+                next: END
+          - else:
+              - action: utter_graduation_encouragement
+                next: END

@@ -1,8 +1,88 @@
 flows:
   industrial_training:
     description: |
-      Explain industrial training (LI) requirements, registration, and procedure.
-      Examples: "when can I do internship?", "LI requirements", "industrial training procedure"
-    name: industrial training information
+      Production-grade flow to verify student eligibility for Industrial Training (LI).
+      Collects year, credits, and probation status via self-assessment.
+      Redirects logistics to LI Coordinator after eligibility verification.
+      Examples: "when can I do internship?", "am I eligible for LI?", "industrial training requirements"
+    name: industrial training eligibility
     steps:
-      - action: utter_industrial_training
+      # Step 1: Explain and offer assessment
+      - id: intro_li
+        action: utter_li_intro
+        next: ask_li_assessment
+
+      - id: ask_li_assessment
+        collect: wants_li_assessment
+        description: Whether the student wants to check their industrial training eligibility
+
+      - action: action_check_li_assessment_choice
+        next:
+          - if: "slots.wants_li_assessment = false"
+            then:
+              - action: utter_li_general_info
+                next: END
+          - else: collect_year
+
+      # Step 2: Collect current year
+      - id: collect_year
+        collect: current_year
+        description: The student's current year of study (1, 2, 3, or 4)
+
+      - action: action_validate_year
+        next:
+          - if: "slots.year_valid = false"
+            then:
+              - action: utter_invalid_year_format
+              - action: action_reset_year
+                next: collect_year
+          - else: collect_li_credits
+
+      # Step 3: Collect credits
+      - id: collect_li_credits
+        collect: credits_completed
+        description: Total credit hours completed so far
+
+      - action: action_validate_credits
+        next:
+          - if: "slots.credits_valid = false"
+            then:
+              - action: utter_invalid_credits_format
+              - action: action_reset_credits
+                next: collect_li_credits
+          - else: collect_li_probation
+
+      # Step 4: Collect probation status
+      - id: collect_li_probation
+        collect: is_on_probation
+        description: Whether the student is currently on academic probation
+
+      # Step 5: Assess eligibility
+      - action: action_assess_li_eligibility
+        next:
+          - if: "slots.li_eligible = true"
+            then:
+              - action: utter_li_eligible
+              - action: utter_li_next_steps
+                next: END
+          - if: "slots.li_status = 'not_yet'"
+            then:
+              - action: utter_li_not_yet
+              - action: utter_li_preparation
+                next: END
+          - else:
+              - action: utter_li_not_eligible
+              - action: utter_li_issues
+                next: offer_li_help
+
+      # Step 6: Offer additional help
+      - id: offer_li_help
+        collect: wants_li_guidance
+        next:
+          - if: slots.wants_li_guidance
+            then:
+              - action: utter_li_guidance
+                next: END
+          - else:
+              - action: utter_li_encouragement
+                next: END

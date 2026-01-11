@@ -1,8 +1,31 @@
 flows:
   class_full:
     description: |
-      Explain what to do when a class/section is full and registration options.
+      Production-grade flow to help students when a class/section is full.
+      Collects course info and provides strategic options.
       Examples: "class is full", "no more slots", "increase quota"
-    name: class full information
+    name: class full guidance
     steps:
-      - action: utter_class_full
+      - id: intro_full
+        action: utter_class_full_intro
+        next: collect_full_course
+
+      - id: collect_full_course
+        collect: full_course_code
+        description: Course code that is full
+
+      - id: collect_is_final_year
+        collect: is_final_year
+        description: Whether student is in final year and needs course to graduate
+
+      - action: action_assess_full_class_options
+        next:
+          - if: "slots.is_final_year = true"
+            then:
+              - action: utter_final_year_priority
+              - action: utter_manual_registration_option
+                next: END
+          - else:
+              - action: utter_full_class_options
+              - action: utter_wait_strategy
+                next: END

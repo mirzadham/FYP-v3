@@ -1,8 +1,9 @@
 flows:
   career_prospects:
     description: |
-      Provide career guidance, job prospects, and industry information for graduates.
-      Examples: "what jobs can I get?", "career prospects for CS", "industry for computer science"
-    name: career prospects information
+      Provide guidance on how academic choices align with career paths. Focuses on course relevance
+      to industry demands, NOT job hunting advice. Detailed career counseling should be referred to Career Services.
+      Examples: "what jobs can I get with CS?", "is programming important for my career?", "career path for computer science"
+    name: academic-career alignment
     steps:
-      - action: utter_career_prospects
+      - action: utter_career_alignment

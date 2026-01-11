@@ -1,0 +1,186 @@
+test_cases:
+  # 2.1 Database-Connected Flows
+  - name: IT-001 get_course_info valid
+    steps:
+      - user: "Tell me about CCS3101"
+      - assert:
+          - flow: get_course_info
+
+  - name: IT-005 check_prerequisite has prereqs
+    steps:
+      - user: "What are the prerequisites for CSC4600?"
+      - assert:
+          - flow: check_prerequisite
+
+  # 2.2 Academic Information Flows
+  - name: IT-009 career_prospects
+    steps:
+      - user: "What jobs can I get with CS degree?"
+      - assert:
+          - flow: career_prospects
+
+  - name: IT-010 convocation_info
+    steps:
+      - user: "When is convocation?"
+      - assert:
+          - flow: convocation_info
+
+  - name: IT-011 deans_list
+    steps:
+      - user: "What is Dean's List?"
+      - assert:
+          - flow: deans_list
+
+  - name: IT-012 drop_course
+    steps:
+      - user: "How to drop a subject?"
+      - assert:
+          - flow: drop_course
+
+  - name: IT-013 exam_regulations
+    steps:
+      - user: "Exam dress code"
+      - assert:
+          - flow: exam_regulations
+
+  - name: IT-014 exam_schedule
+    steps:
+      - user: "When is my exam?"
+      - assert:
+          - flow: exam_schedule
+
+  - name: IT-015 graduation_requirements
+    steps:
+      - user: "How to graduate?"
+      - assert:
+          - flow: graduation_requirements
+
+  - name: IT-016 muet_requirement
+    steps:
+      - user: "What MUET band do I need?"
+      - assert:
+          - flow: muet_requirement
+
+  - name: IT-017 registration_deadline
+    steps:
+      - user: "When is registration deadline?"
+      - assert:
+          - flow: registration_deadline
+
+  # 2.3 Policy Flows
+  - name: IT-018 change_program
+    steps:
+      - user: "How to change major?"
+      - assert:
+          - flow: change_program
+
+  - name: IT-019 credit_transfer
+    steps:
+      - user: "How to apply credit exemption?"
+      - assert:
+          - flow: credit_transfer
+
+  - name: IT-020 deferment_info
+    steps:
+      - user: "How to defer?"
+      - assert:
+          - flow: deferment_info
+
+  - name: IT-021 elective_options
+    steps:
+      - user: "What electives can I take?"
+      - assert:
+          - flow: elective_options
+
+  - name: IT-022 grade_appeal
+    steps:
+      - user: "How to appeal grade?"
+      - assert:
+          - flow: grade_appeal
+
+  - name: IT-023 industrial_training
+    steps:
+      - user: "When can I do internship?"
+      - assert:
+          - flow: industrial_training
+
+  - name: IT-024 probation_info
+    steps:
+      - user: "What is probation?"
+      - assert:
+          - flow: probation_info
+
+  - name: IT-025 repeat_policy
+    steps:
+      - user: "I failed a subject"
+      - assert:
+          - flow: repeat_policy
+
+  # 2.4 Admin/Support Flows
+  - name: IT-026 class_full
+    steps:
+      - user: "Class is full"
+      - assert:
+          - flow: class_full
+
+  - name: IT-027 fees_block
+    steps:
+      - user: "Fees block"
+      - assert:
+          - flow: fees_block
+
+  - name: IT-028 system_issues
+    steps:
+      - user: "Cannot login SMP"
+      - assert:
+          - flow: system_issues
+
+  - name: IT-029 timetable_clash
+    steps:
+      - user: "Timetable clash"
+      - assert:
+          - flow: timetable_clash
+
+  - name: IT-030 verification_letter
+    steps:
+      - user: "Verification letter"
+      - assert:
+          - flow: verification_letter
+
+  # 2.5 Critical Safety Flow
+  - name: IT-031 mental_health_support crisis
+    steps:
+      - user: "I want to give up"
+      - assert:
+          - flow: mental_health_support
+
+  # 2.6 General Flows
+  - name: IT-035 hello
+    steps:
+      - user: "Hello"
+      - assert:
+          - flow: hello
+
+  - name: IT-036 help
+    steps:
+      - user: "Help"
+      - assert:
+          - flow: help
+
+  - name: IT-037 goodbye
+    steps:
+      - user: "Bye"
+      - assert:
+          - flow: goodbye
+
+  - name: IT-038 thank_you
+    steps:
+      - user: "Thanks"
+      - assert:
+          - flow: thank_you
+
+  - name: IT-039 bot_identity
+    steps:
+      - user: "Who are you?"
+      - assert:
+          - flow: bot_identity

@@ -1,0 +1,171 @@
+version: "3.1"
+stories:
+- story: IT-014 exam_schedule (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      When is my exam?
+  - action: utter_exam_schedule  # predicted: action_listen
+- story: IT-015 graduation_requirements (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      How to graduate?
+  - action: utter_graduation_requirements  # predicted: action_listen
+- story: IT-016 muet_requirement (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      What MUET band do I need?
+  - action: utter_muet_requirement  # predicted: action_listen
+- story: IT-017 registration_deadline (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      When is registration deadline?
+  - action: utter_registration_deadline  # predicted: action_listen
+- story: IT-018 change_program (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      How to change major?
+  - action: utter_change_program  # predicted: action_listen
+- story: IT-019 credit_transfer (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      How to apply credit exemption?
+  - action: utter_credit_transfer  # predicted: action_listen
+- story: IT-020 deferment_info (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      How to defer?
+  - action: utter_deferment_info  # predicted: action_listen
+- story: IT-021 elective_options (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      What electives can I take?
+  - action: utter_elective_options  # predicted: action_listen
+- story: IT-022 grade_appeal (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      How to appeal grade?
+  - action: utter_grade_appeal  # predicted: action_listen
+- story: IT-023 industrial_training (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      When can I do internship?
+  - action: utter_industrial_training  # predicted: action_listen
+- story: IT-001 get_course_info valid (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Tell me about CCS3101
+  - action: get_course_details  # predicted: action_listen
+  - action: utter_course_details  # predicted: action_listen
+- story: IT-024 probation_info (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      What is probation?
+  - action: utter_probation_info  # predicted: action_listen
+- story: IT-025 repeat_policy (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      I failed a subject
+  - action: utter_repeat_policy  # predicted: action_listen
+- story: IT-026 class_full (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Class is full
+  - action: utter_class_full  # predicted: action_listen
+- story: IT-027 fees_block (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Fees block
+  - action: utter_fees_block  # predicted: action_listen
+- story: IT-028 system_issues (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Cannot login SMP
+  - action: utter_system_issues  # predicted: action_listen
+- story: IT-029 timetable_clash (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Timetable clash
+  - action: utter_timetable_clash  # predicted: action_listen
+- story: IT-030 verification_letter (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Verification letter
+  - action: utter_verification_letter  # predicted: action_listen
+- story: IT-031 mental_health_support crisis (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      I want to give up
+  - action: utter_mental_health_support  # predicted: action_listen
+- story: IT-032 mental_health_support depression (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      feeling depressed
+  - action: utter_mental_health_support  # predicted: action_listen
+- story: IT-035 hello (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Hello
+  - action: utter_hello  # predicted: action_listen
+- story: IT-003 get_course_info invalid (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Tell me about XYZ999
+  - action: get_course_details  # predicted: action_listen
+  - action: utter_course_not_found  # predicted: action_listen
+- story: IT-036 help (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Help
+  - action: utter_help  # predicted: action_listen
+- story: IT-037 goodbye (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Bye
+  - action: utter_goodbye  # predicted: action_listen
+- story: IT-038 thank_you (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Thanks
+  - action: utter_thank_you  # predicted: action_listen
+- story: IT-039 bot_identity (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Who are you?
+  - action: utter_bot_identity  # predicted: action_listen
+- story: IT-005 check_prerequisite has prereqs (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      What are the prerequisites for CSC4600?
+  - action: check_prerequisites  # predicted: action_listen
+  - action: utter_prereq_result  # predicted: action_listen
+- story: IT-007 check_prerequisite invalid (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Prerequisites for FAKE123
+  - action: check_prerequisites  # predicted: action_listen
+  - action: utter_course_not_found  # predicted: action_listen
+- story: IT-009 career_prospects (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      What jobs can I get with CS degree?
+  - action: utter_career_prospects  # predicted: action_listen
+- story: IT-010 convocation_info (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      When is convocation?
+  - action: utter_convocation_info  # predicted: action_listen
+- story: IT-011 deans_list (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      What is Dean's List?
+  - action: utter_deans_list  # predicted: action_listen
+- story: IT-012 drop_course (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      How to drop a subject?
+  - action: utter_drop_course  # predicted: action_listen
+- story: IT-013 exam_regulations (C:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3\tests\test_flows.yml)
+  steps:
+  - user: |-
+      Exam dress code
+  - action: utter_exam_regulations  # predicted: action_listen

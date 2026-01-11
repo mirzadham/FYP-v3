@@ -1,0 +1,18 @@
+version: "3.1"
+
+responses:
+  utter_elective_options:
+    - text: |
+        📚 **Elective Courses**
+        
+        **Types:**
+        • **Program Electives:** Within your field
+        • **Faculty Electives:** Any course in faculty
+        • **University Electives:** Any faculty (limited)
+        
+        **Popular Categories:**
+        • Language courses (Japanese, Mandarin, etc.)
+        • Entrepreneurship
+        • Sports & Recreation
+        
+        💡 Check SMP for available electives each semester.
