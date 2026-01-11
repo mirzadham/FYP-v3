@@ -3,13 +3,12 @@ version: "3.1"
 slots:
   wants_appeal_assessment:
     type: bool
-    description: Whether student wants personalized appeal guidance.
     mappings:
       - type: from_llm
 
   appeal_reason:
     type: categorical
-    description: The main reason for wanting to appeal a grade.
+    # description moved to flow file for LLM context
     values:
       - calculation_error
       - marking_error
@@ -20,43 +19,36 @@ slots:
 
   days_since_results:
     type: float
-    description: Number of days since results were released.
     mappings:
       - type: from_llm
 
   days_valid:
     type: bool
-    description: Whether days input is valid.
     mappings:
       - type: custom
 
   within_deadline:
     type: bool
-    description: Whether student is within the appeal deadline (typically 14 days).
     mappings:
       - type: custom
 
   has_reviewed_script:
     type: bool
-    description: Whether student has reviewed their exam script with the lecturer first.
     mappings:
       - type: from_llm
 
   should_review_first:
     type: bool
-    description: Whether student should review script before formal appeal.
     mappings:
       - type: custom
 
   wants_appeal_procedure:
     type: bool
-    description: Whether student wants detailed appeal procedure.
     mappings:
       - type: from_llm
 
   wants_appeal_alternatives:
     type: bool
-    description: Whether student wants alternatives when deadline passed.
     mappings:
       - type: from_llm
 
@@ -68,6 +60,37 @@ actions:
   - action_assess_appeal_readiness
 
 responses:
+  utter_ask_wants_appeal_assessment:
+    - text: |
+        📝 Would you like personalized guidance on whether to appeal your grade?
+
+  utter_ask_appeal_reason:
+    - text: |
+        📋 What is your main reason for wanting to appeal?
+        
+        • **Calculation error** - Marks were added incorrectly
+        • **Marking error** - Questions not marked or marked wrong
+        • **Unfair assessment** - Marking inconsistency or bias
+        • **Other** - Different reason
+
+  utter_ask_days_since_results:
+    - text: |
+        📅 How many days has it been since results were released?
+        
+        Please enter a number (e.g., `5` or `10`).
+
+  utter_ask_has_reviewed_script:
+    - text: |
+        📝 Have you already reviewed your exam script with the lecturer?
+
+  utter_ask_wants_appeal_procedure:
+    - text: |
+        📋 Would you like me to explain the formal appeal procedure?
+
+  utter_ask_wants_appeal_alternatives:
+    - text: |
+        💡 Would you like to know about alternatives since the deadline has passed?
+
   utter_appeal_intro:
     - text: |
         📝 **Grade Appeal Guidance**

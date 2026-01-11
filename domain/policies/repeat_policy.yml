@@ -3,7 +3,7 @@ version: "3.1"
 slots:
   repeat_reason:
     type: categorical
-    description: Reason for repeating a course.
+    # description moved to flow file for LLM context
     values:
       - failed
       - improve_grade
@@ -15,6 +15,14 @@ actions:
   - action_provide_repeat_guidance
 
 responses:
+  utter_ask_repeat_reason:
+    - text: |
+        📚 What's your reason for repeating a course?
+        
+        • **Failed** - I failed the course
+        • **Improve grade** - I want to improve my grade
+        • **Prerequisite** - I need to pass this as a prerequisite
+
   utter_repeat_intro:
     - text: |
         📚 **Repeat/Retake Course Guidance**

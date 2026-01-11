@@ -3,35 +3,27 @@ version: "3.1"
 slots:
   wants_eligibility_check:
     type: bool
-    description: Whether the student wants to check their graduation eligibility for convocation.
     mappings:
       - type: from_llm
 
   muet_band:
     type: float
-    description: The MUET band achieved by the student (1-6). Band 3 is typically the minimum for graduation.
     mappings:
       - type: from_llm
 
   muet_valid:
     type: bool
-    description: Whether the MUET band is in valid format and range (1-6).
     mappings:
       - type: custom
 
   has_outstanding_fees:
     type: bool
-    description: Whether the student has any outstanding fees with the Bursary that need to be cleared before graduation.
     mappings:
       - type: from_llm
 
   eligibility_status:
     type: categorical
-    description: |
-      Overall graduation eligibility status:
-      - eligible: Meets all requirements
-      - partial: Meets some but not all requirements
-      - not_ready: Does not meet key requirements
+    # description moved to flow file for LLM context
     values:
       - eligible
       - partial
@@ -41,13 +33,11 @@ slots:
 
   eligibility_issues:
     type: text
-    description: List of eligibility issues that need to be addressed before graduation.
     mappings:
       - type: custom
 
   wants_convo_guidance:
     type: bool
-    description: Whether the student wants additional guidance on meeting eligibility requirements.
     mappings:
       - type: from_llm
 
@@ -58,6 +48,24 @@ actions:
   - action_assess_convocation_eligibility
 
 responses:
+  utter_ask_wants_eligibility_check:
+    - text: |
+        🎓 Would you like to check your graduation eligibility for convocation?
+
+  utter_ask_muet_band:
+    - text: |
+        🗣️ What MUET band have you achieved?
+        
+        Please enter a number from **1 to 6** (or `0` if you haven't taken MUET yet).
+
+  utter_ask_has_outstanding_fees:
+    - text: |
+        💰 Do you have any outstanding fees with the Bursary?
+
+  utter_ask_wants_convo_guidance:
+    - text: |
+        💡 Would you like guidance on addressing any eligibility issues?
+
   utter_convocation_intro:
     - text: |
         🎓 **Graduation Eligibility Check**

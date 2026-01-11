@@ -4,14 +4,13 @@ slots:
   # Assessment preference
   wants_graduation_assessment:
     type: bool
-    description: Whether the student wants a personalized graduation assessment or just general requirements information.
     mappings:
       - type: from_llm
 
   # Program info
   program_type:
     type: categorical
-    description: The type of program - Bachelor's degree (4 years, ~120 credits) or Diploma (usually 2-3 years, ~90 credits).
+    # description moved to flow file for LLM context
     values:
       - bachelor
       - diploma
@@ -21,31 +20,23 @@ slots:
   # Credits tracking
   credits_completed:
     type: float
-    description: Number of credit hours the student has completed. Usually 0-140 for bachelor's, 0-100 for diploma.
     mappings:
       - type: from_llm
 
   credits_valid:
     type: bool
-    description: Whether the provided credit count is valid and within reasonable range.
     mappings:
       - type: custom
 
   credits_remaining:
     type: float
-    description: Calculated remaining credits needed for graduation.
     mappings:
       - type: custom
 
   # Graduation assessment
   graduation_status:
     type: categorical
-    description: |
-      Assessment of how close the student is to graduation:
-      - eligible: Meets credit and CGPA requirements
-      - close: Within 1 semester of completing credits
-      - in_progress: Making normal progress (Year 2-3)
-      - early_stage: Just started (Year 1)
+    # description moved to flow file for LLM context
     values:
       - eligible
       - close
@@ -56,20 +47,17 @@ slots:
 
   estimated_semesters:
     type: float
-    description: Estimated number of semesters remaining until graduation based on current credits.
     mappings:
       - type: custom
 
   # Follow-up slots
   wants_detailed_graduation_check:
     type: bool
-    description: Whether the student wants to proceed with personalized assessment after viewing general info.
     mappings:
       - type: from_llm
 
   wants_muet_check:
     type: bool
-    description: Whether the student wants to learn about MUET requirements for graduation.
     mappings:
       - type: from_llm
 
@@ -81,6 +69,25 @@ actions:
   - action_reset_graduation_slots
 
 responses:
+  utter_ask_wants_graduation_assessment:
+    - text: |
+        🎓 Would you like me to assess your personal graduation status, or do you just want general requirements information?
+
+  utter_ask_program_type:
+    - text: |
+        📋 What type of program are you in?
+        
+        • **Bachelor** - 4-year degree program
+        • **Diploma** - 2-3 year diploma program
+
+  utter_ask_wants_detailed_graduation_check:
+    - text: |
+        💡 Would you like a detailed personalized assessment of your graduation progress?
+
+  utter_ask_wants_muet_check:
+    - text: |
+        🗣️ Would you like to learn about the MUET requirement for graduation?
+
   utter_graduation_general_info:
     - text: |
         🎓 **Graduation Requirements Overview**

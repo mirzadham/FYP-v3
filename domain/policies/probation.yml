@@ -4,27 +4,24 @@ slots:
   # Assessment preference
   wants_probation_assessment:
     type: bool
-    description: Whether the student wants a personalized probation assessment based on their CGPA, or just general information about what probation means.
     mappings:
       - type: from_llm
 
   # CGPA slots
   current_cgpa:
     type: float
-    description: The student's current cumulative grade point average (CGPA) on a 4.0 scale. Valid range is 0.00 to 4.00.
     mappings:
       - type: from_llm
 
   cgpa_valid:
     type: bool
-    description: Whether the provided CGPA is in valid format and range (0.00-4.00).
     mappings:
       - type: custom
 
   # Probation status slots
   probation_status:
     type: categorical
-    description: The student's current probation assessment based on CGPA. Values are 'not_on_probation' (CGPA >= 2.0), 'warning' (1.80-1.99), 'probation' (1.50-1.79), or 'critical' (< 1.50).
+    # description moved to flow file for LLM context
     values:
       - not_on_probation
       - warning
@@ -35,7 +32,7 @@ slots:
 
   previous_probation_status:
     type: categorical
-    description: The student's probation status from the previous semester. Used to determine if they are P1 (first time), P2 (second consecutive), or P3 (third consecutive).
+    # description moved to flow file for LLM context
     values:
       - none
       - P1
@@ -45,7 +42,7 @@ slots:
 
   probation_level:
     type: categorical
-    description: The determined probation level (P1, P2, or P3) based on current CGPA and history.
+    # description moved to flow file for LLM context
     values:
       - P1
       - P2
@@ -56,13 +53,11 @@ slots:
   # Follow-up slots
   wants_detailed_assessment:
     type: bool
-    description: Whether the student wants to proceed with a detailed personal assessment after viewing general info.
     mappings:
       - type: from_llm
 
   wants_more_probation_help:
     type: bool
-    description: Whether the student wants additional resources or advisor meeting recommendations.
     mappings:
       - type: from_llm
 
@@ -75,6 +70,32 @@ actions:
   - action_reset_for_assessment
 
 responses:
+  utter_ask_wants_probation_assessment:
+    - text: |
+        📋 Would you like me to assess your personal probation situation, or do you just want general information about academic probation?
+
+  utter_ask_current_cgpa:
+    - text: |
+        📊 What is your current CGPA?
+        
+        Please enter a value between **0.00 and 4.00** (e.g., `2.45`).
+
+  utter_ask_previous_probation_status:
+    - text: |
+        📋 What was your probation status last semester?
+        
+        • **None** - I wasn't on probation
+        • **P1** - First semester on probation
+        • **P2** - Second consecutive semester on probation
+
+  utter_ask_wants_detailed_assessment:
+    - text: |
+        💡 Would you like a more detailed personal assessment of your situation?
+
+  utter_ask_wants_more_probation_help:
+    - text: |
+        🤝 Would you like additional resources or a recommendation to meet with your advisor?
+
   utter_probation_general_info:
     - text: |
         ⚠️ **Understanding Academic Probation**

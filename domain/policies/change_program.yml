@@ -3,19 +3,16 @@ version: "3.1"
 slots:
   wants_change_assessment:
     type: bool
-    description: Whether student wants change program eligibility check.
     mappings:
       - type: from_llm
 
   semesters_completed:
     type: float
-    description: Number of semesters completed.
     mappings:
       - type: from_llm
 
   change_eligible:
     type: bool
-    description: Whether eligible to change program.
     mappings:
       - type: custom
 
@@ -33,6 +30,16 @@ actions:
   - action_assess_change_eligibility
 
 responses:
+  utter_ask_wants_change_assessment:
+    - text: |
+        🔄 Would you like me to check your eligibility for changing your program/major?
+
+  utter_ask_semesters_completed:
+    - text: |
+        📅 How many semesters have you completed so far?
+        
+        Please enter a number (e.g., `1`, `2`, `3`).
+
   utter_change_intro:
     - text: |
         🔄 **Change Program/Major Guidance**

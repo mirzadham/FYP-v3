@@ -3,36 +3,27 @@ version: "3.1"
 slots:
   wants_drop_assessment:
     type: bool
-    description: Whether student wants week-specific drop assessment.
     mappings:
       - type: from_llm
 
   current_week:
     type: float
-    description: Current week of the semester (1-14).
     mappings:
       - type: from_llm
 
   week_valid:
     type: bool
-    description: Whether week input is valid (1-14).
     mappings:
       - type: custom
 
   is_core_course:
     type: bool
-    description: Whether the course is core/required vs elective.
     mappings:
       - type: from_llm
 
   drop_phase:
     type: categorical
-    description: |
-      Current drop phase based on semester week:
-      - free: Weeks 1-2 (no penalty, no record)
-      - late: Weeks 3-7 (penalty fee, W grade)
-      - very_late: Weeks 8-12 (penalty fee, W grade, multiple approvals)
-      - closed: Weeks 13+ (cannot drop)
+    # description moved to flow file for LLM context
     values:
       - free
       - late
@@ -43,19 +34,16 @@ slots:
 
   has_penalty_fee:
     type: bool
-    description: Whether late drop incurs a penalty fee.
     mappings:
       - type: custom
 
   wants_drop_procedure:
     type: bool
-    description: Whether student wants drop procedure details.
     mappings:
       - type: from_llm
 
   wants_alternatives:
     type: bool
-    description: Whether student wants alternatives when drop not allowed.
     mappings:
       - type: from_llm
 
@@ -66,6 +54,28 @@ actions:
   - action_assess_drop_consequences
 
 responses:
+  utter_ask_wants_drop_assessment:
+    - text: |
+        📚 Would you like me to assess your specific drop situation based on the current week?
+
+  utter_ask_current_week:
+    - text: |
+        📅 What week of the semester is it currently?
+        
+        Please enter a number from **1 to 14**.
+
+  utter_ask_is_core_course:
+    - text: |
+        📋 Is this a core/required course for your program, or an elective?
+
+  utter_ask_wants_drop_procedure:
+    - text: |
+        📋 Would you like me to explain the drop procedure?
+
+  utter_ask_wants_alternatives:
+    - text: |
+        💡 Would you like to know about alternatives since dropping may not be allowed?
+
   utter_drop_intro:
     - text: |
         📚 **Course Drop/Withdrawal Guidance**
@@ -153,7 +163,7 @@ responses:
         ⚠️ **Late Drop Period (Week {current_week})**
         
         **Consequences:**
-        • 💰 **Fee:** Penalty fee applies (NO refund)
+        • 💰 **Fee:** Penalty fee applies
         • 📄 **Transcript:** "W" (Withdrawn) grade
         • ⏱️ **Approval:** Faculty approval needed
         
@@ -161,7 +171,7 @@ responses:
     - text: |
         📋 **Mid-Semester Drop (Week {current_week})**
         
-        • ⚠️ Penalty fee applies (no refund for the course)
+        • ⚠️ Penalty fee applies
         • "W" grade on transcript
         • Requires faculty approval
         
@@ -172,7 +182,7 @@ responses:
         🚨 **Very Late Drop Period (Week {current_week})**
         
         **Consequences:**
-        • 💰 **Fee:** Penalty fee applies (NO refund)
+        • 💰 **Fee:** Penalty fee applies
         • 📄 **Transcript:** "W" (Withdrawn) grade
         • ⏱️ **Approval:** Advisor + Dean approval required
         
@@ -235,7 +245,6 @@ responses:
         • Check when it's offered next
         
         **Financial Impact:**
-        • No refund for course fees after Week 2
         • Penalty fee for late drops
         • May affect scholarship/loan status
         

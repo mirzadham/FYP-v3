@@ -3,41 +3,32 @@ version: "3.1"
 slots:
   wants_li_assessment:
     type: bool
-    description: Whether the student wants to check their industrial training eligibility.
     mappings:
       - type: from_llm
 
   current_year:
     type: float
-    description: The student's current year of study (1, 2, 3, or 4).
     mappings:
       - type: from_llm
 
   year_valid:
     type: bool
-    description: Whether the year input is valid (1-4).
     mappings:
       - type: custom
 
   is_on_probation:
     type: bool
-    description: Whether the student is currently on academic probation.
     mappings:
       - type: from_llm
 
   li_eligible:
     type: bool
-    description: Whether the student is eligible for industrial training.
     mappings:
       - type: custom
 
   li_status:
     type: categorical
-    description: |
-      Industrial training eligibility status:
-      - eligible: Meets all requirements
-      - not_yet: Too early (Year 1-2)
-      - not_eligible: Does not meet requirements (probation, low credits)
+    # description moved to flow file for LLM context
     values:
       - eligible
       - not_yet
@@ -47,13 +38,11 @@ slots:
 
   li_issues:
     type: text
-    description: List of issues preventing LI eligibility.
     mappings:
       - type: custom
 
   wants_li_guidance:
     type: bool
-    description: Whether the student wants additional guidance on LI preparation.
     mappings:
       - type: from_llm
 
@@ -64,6 +53,32 @@ actions:
   - action_assess_li_eligibility
 
 responses:
+  utter_ask_is_on_probation:
+    - text: |
+        📋 Are you currently on academic probation?
+        
+        This affects your eligibility for industrial training.
+
+  utter_ask_wants_li_guidance:
+    - text: |
+        💡 Would you like additional guidance on preparing for industrial training?
+
+  utter_ask_wants_li_assessment:
+    - text: |
+        🏢 Would you like me to check your industrial training eligibility?
+
+  utter_ask_current_year:
+    - text: |
+        📅 What year of study are you currently in?
+        
+        Please enter **1**, **2**, **3**, or **4**.
+
+  utter_ask_credits_completed:
+    - text: |
+        📊 How many credit hours have you completed so far?
+        
+        Please enter a number (e.g., `60` or `85`).
+
   utter_li_intro:
     - text: |
         🏢 **Industrial Training (LI) Eligibility Check**

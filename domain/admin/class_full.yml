@@ -1,6 +1,16 @@
 version: "3.1"
 
 responses:
+  utter_ask_full_course_code:
+    - text: |
+        📚 What is the course code for the full class?
+        
+        Please enter the code (e.g., `CSC101` or `MTH201`).
+
+  utter_ask_is_final_year:
+    - text: |
+        🎓 Are you in your final year? This may affect options for manual registration.
+
   utter_class_full:
     - text: |
         📚 **Full Class/Section**

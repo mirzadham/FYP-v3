@@ -7,7 +7,7 @@ language: en
 
 pipeline:
   # LLM-based command generator for CALM architecture
-  - name: SingleStepLLMCommandGenerator
+  - name: CompactLLMCommandGenerator
     llm:
       model_name: gpt-4o-mini
       # Temperature set low for more deterministic responses

@@ -3,25 +3,21 @@ version: "3.1"
 slots:
   full_course_code:
     type: text
-    description: Course code that is full.
     mappings:
       - type: from_llm
 
   is_final_year:
     type: bool
-    description: Whether student is in final year.
     mappings:
       - type: from_llm
 
   clashing_courses:
     type: text
-    description: Courses that have timetable clash.
     mappings:
       - type: from_llm
 
   both_courses_required:
     type: bool
-    description: Whether both clashing courses are required this semester.
     mappings:
       - type: from_llm
 

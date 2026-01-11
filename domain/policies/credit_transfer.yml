@@ -3,13 +3,12 @@ version: "3.1"
 slots:
   wants_transfer_assessment:
     type: bool
-    description: Whether student wants credit transfer eligibility check.
     mappings:
       - type: from_llm
 
   student_type:
     type: categorical
-    description: Type of student for credit transfer purposes.
+    # description moved to flow file for LLM context
     values:
       - diploma_graduate
       - transfer_student
@@ -19,13 +18,11 @@ slots:
 
   current_semester:
     type: float
-    description: Current semester number.
     mappings:
       - type: from_llm
 
   transfer_eligible:
     type: bool
-    description: Whether eligible for credit transfer.
     mappings:
       - type: custom
 
@@ -43,6 +40,24 @@ actions:
   - action_assess_transfer_eligibility
 
 responses:
+  utter_ask_wants_transfer_assessment:
+    - text: |
+        📋 Would you like me to check your eligibility for credit transfer?
+
+  utter_ask_student_type:
+    - text: |
+        🎓 What type of student are you?
+        
+        • **Diploma graduate** - Joining degree after completing diploma
+        • **Transfer student** - Transferring from another university
+        • **Current student** - Already enrolled at UPM
+
+  utter_ask_current_semester:
+    - text: |
+        📅 What semester are you currently in?
+        
+        Please enter a number (e.g., `1`, `2`, `3`).
+
   utter_credit_transfer_intro:
     - text: |
         📋 **Credit Transfer/Exemption Guidance**

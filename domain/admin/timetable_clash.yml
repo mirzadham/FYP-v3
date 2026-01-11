@@ -1,6 +1,16 @@
 version: "3.1"
 
 responses:
+  utter_ask_clashing_courses:
+    - text: |
+        📅 Which courses are clashing in your timetable?
+        
+        Please list the course codes (e.g., `CSC101 and MTH201`).
+
+  utter_ask_both_courses_required:
+    - text: |
+        📋 Are both of these clashing courses required for your program this semester?
+
   utter_timetable_clash:
     - text: |
         📅 **Timetable Clash**
