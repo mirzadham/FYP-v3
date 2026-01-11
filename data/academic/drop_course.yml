@@ -1,9 +1,88 @@
 flows:
   drop_course:
     description: |
-      Explain course withdrawal/drop procedure, TD (Total Drop), penalties,
-      and refund policies. Examples: "how to drop a subject?", "withdraw from course",
-      "penalty for dropping late"
-    name: drop course procedure
+      Production-grade flow to guide students on course withdrawal/dropping.
+      Collects current semester week to explain consequences (refund, grade record).
+      Provides informed decision-making guidance.
+      Examples: "how to drop a subject?", "withdraw from course", "TD drop", "late drop penalty"
+    name: drop course guidance
     steps:
-      - action: utter_drop_course
+      # Step 1: Explain and offer assessment
+      - id: intro_drop
+        action: utter_drop_intro
+        next: ask_drop_assessment
+
+      - id: ask_drop_assessment
+        collect: wants_drop_assessment
+        description: Whether the student wants to assess dropping a specific course
+
+      - action: action_check_drop_assessment_choice
+        next:
+          - if: "slots.wants_drop_assessment = false"
+            then:
+              - action: utter_drop_general_info
+                next: END
+          - else: collect_semester_week
+
+      # Step 2: Collect current week
+      - id: collect_semester_week
+        collect: current_week
+        description: Current week of the semester (1-14 typically)
+
+      - action: action_validate_week
+        next:
+          - if: "slots.week_valid = false"
+            then:
+              - action: utter_invalid_week_format
+              - action: action_reset_week
+                next: collect_semester_week
+          - else: collect_is_core
+
+      # Step 3: Check if core course
+      - id: collect_is_core
+        collect: is_core_course
+        description: Whether the course is a core/required course or an elective
+
+      # Step 4: Assess drop consequences
+      - action: action_assess_drop_consequences
+        next:
+          - if: "slots.drop_phase = 'free'"
+            then:
+              - action: utter_drop_free_period
+                next: offer_drop_guidance
+          - if: "slots.drop_phase = 'partial'"
+            then:
+              - action: utter_drop_partial_refund
+                next: offer_drop_guidance
+          - if: "slots.drop_phase = 'late'"
+            then:
+              - action: utter_drop_late_period
+                next: offer_drop_guidance
+          - else:
+              - action: utter_drop_not_allowed
+                next: offer_drop_alternatives
+
+      # Step 5: Offer guidance
+      - id: offer_drop_guidance
+        collect: wants_drop_procedure
+        next:
+          - if: slots.wants_drop_procedure
+            then:
+              - action: utter_drop_procedure
+              - action: utter_drop_warning
+                next: END
+          - else:
+              - action: utter_drop_consider_carefully
+                next: END
+
+      # Step 6: Alternatives when drop not allowed
+      - id: offer_drop_alternatives
+        collect: wants_alternatives
+        next:
+          - if: slots.wants_alternatives
+            then:
+              - action: utter_drop_alternatives
+                next: END
+          - else:
+              - action: utter_stay_strong
+                next: END

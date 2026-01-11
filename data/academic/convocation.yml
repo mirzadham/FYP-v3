@@ -1,9 +1,102 @@
 flows:
   convocation_info:
     description: |
-      Handles queries about graduation ELIGIBILITY only. Focuses on academic requirements for graduation.
-      Redirects ceremony logistics (robes, tickets, venue) to Registry/SMP.
-      Examples: "am I eligible to graduate?", "graduation requirements", "how many credits to graduate?"
-    name: graduation eligibility check
+      Production-grade flow to help students verify their graduation eligibility for convocation.
+      Collects credits, CGPA, MUET band, and fee status to provide a personalized eligibility checklist.
+      Redirects logistics (robes, tickets) to Registry.
+      Examples: "am I eligible to graduate?", "can I attend convocation?", "graduation eligibility check"
+    name: convocation eligibility check
     steps:
-      - action: utter_graduation_eligibility
+      # Step 1: Explain scope and ask for assessment
+      - id: intro_eligibility
+        action: utter_convocation_intro
+        next: ask_eligibility_check
+
+      - id: ask_eligibility_check
+        collect: wants_eligibility_check
+        description: Whether the student wants to check their graduation eligibility
+
+      - action: action_check_eligibility_choice
+        next:
+          - if: "slots.wants_eligibility_check = false"
+            then:
+              - action: utter_convocation_logistics_redirect
+                next: END
+          - else: collect_convo_credits
+
+      # Step 2: Collect credits
+      - id: collect_convo_credits
+        collect: credits_completed
+        description: Total credit hours completed
+
+      - action: action_validate_credits
+        next:
+          - if: "slots.credits_valid = false"
+            then:
+              - action: utter_invalid_credits_format
+              - action: action_reset_credits
+                next: collect_convo_credits
+          - else: collect_convo_cgpa
+
+      # Step 3: Collect CGPA
+      - id: collect_convo_cgpa
+        collect: current_cgpa
+        description: Current cumulative GPA
+
+      - action: action_validate_cgpa
+        next:
+          - if: "slots.cgpa_valid = false"
+            then:
+              - action: utter_invalid_cgpa_format
+              - action: action_reset_cgpa
+                next: collect_convo_cgpa
+          - else: collect_muet
+
+      # Step 4: Collect MUET band
+      - id: collect_muet
+        collect: muet_band
+        description: MUET band achieved (1-6) or equivalent English qualification
+
+      - action: action_validate_muet
+        next:
+          - if: "slots.muet_valid = false"
+            then:
+              - action: utter_invalid_muet_format
+              - action: action_reset_muet
+                next: collect_muet
+          - else: collect_fees_status
+
+      # Step 5: Collect fees status
+      - id: collect_fees_status
+        collect: has_outstanding_fees
+        description: Whether the student has any outstanding fees with the Bursary
+
+      # Step 6: Assess eligibility
+      - action: action_assess_convocation_eligibility
+        next:
+          - if: "slots.eligibility_status = 'eligible'"
+            then:
+              - action: utter_eligibility_passed
+              - action: utter_next_steps_convocation
+                next: END
+          - if: "slots.eligibility_status = 'partial'"
+            then:
+              - action: utter_eligibility_partial
+              - action: utter_eligibility_issues
+                next: offer_convo_help
+          - else:
+              - action: utter_eligibility_not_ready
+              - action: utter_eligibility_issues
+                next: offer_convo_help
+
+      # Step 7: Offer additional help
+      - id: offer_convo_help
+        collect: wants_convo_guidance
+        next:
+          - if: slots.wants_convo_guidance
+            then:
+              - action: utter_eligibility_guidance
+                next: END
+          - else:
+              - action: utter_convo_encouragement
+                next: END

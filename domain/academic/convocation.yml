@@ -1,27 +1,257 @@
 version: "3.1"
 
+slots:
+  wants_eligibility_check:
+    type: bool
+    description: Whether the student wants to check their graduation eligibility for convocation.
+    mappings:
+      - type: from_llm
+
+  muet_band:
+    type: float
+    description: The MUET band achieved by the student (1-6). Band 3 is typically the minimum for graduation.
+    mappings:
+      - type: from_llm
+
+  muet_valid:
+    type: bool
+    description: Whether the MUET band is in valid format and range (1-6).
+    mappings:
+      - type: custom
+
+  has_outstanding_fees:
+    type: bool
+    description: Whether the student has any outstanding fees with the Bursary that need to be cleared before graduation.
+    mappings:
+      - type: from_llm
+
+  eligibility_status:
+    type: categorical
+    description: |
+      Overall graduation eligibility status:
+      - eligible: Meets all requirements
+      - partial: Meets some but not all requirements
+      - not_ready: Does not meet key requirements
+    values:
+      - eligible
+      - partial
+      - not_ready
+    mappings:
+      - type: custom
+
+  eligibility_issues:
+    type: text
+    description: List of eligibility issues that need to be addressed before graduation.
+    mappings:
+      - type: custom
+
+  wants_convo_guidance:
+    type: bool
+    description: Whether the student wants additional guidance on meeting eligibility requirements.
+    mappings:
+      - type: from_llm
+
+actions:
+  - action_check_eligibility_choice
+  - action_validate_muet
+  - action_reset_muet
+  - action_assess_convocation_eligibility
+
 responses:
-  utter_graduation_eligibility:
+  utter_convocation_intro:
     - text: |
         🎓 **Graduation Eligibility Check**
         
-        **Academic Requirements to Graduate:**
+        I can help you verify if you're eligible for convocation!
         
-        1. **Credit Hours:**
-           • Complete all required credit hours for your program
-           • Verify in SMP → Academic → Transcript
+        **What I'll check:**
+        ✅ Credit hours completed
+        ✅ CGPA requirement
+        ✅ MUET/English requirement
+        ✅ Outstanding fees status
         
-        2. **Minimum CGPA:**
-           • CGPA ≥ 2.00 (varies by program)
+        **Note:** For ceremony logistics (robes, tickets, dates), please check SMP or Registry.
         
-        3. **Course Completion:**
-           • All core courses passed
-           • Required electives fulfilled
-           • FYP/Project completed (if applicable)
+        Would you like to check your eligibility now?
+    - text: |
+        🎓 **Convocation Eligibility Assessment**
         
-        4. **Language Requirement:**
-           • MUET Band 3+ (or equivalent)
+        Let's verify if you meet the graduation requirements!
         
-        ⚠️ **Note:** Ceremony logistics (robes, tickets, venue) are handled by the Registry. Please check SMP or the official Convocation website for those matters.
+        I'll ask about:
+        • Credits completed
+        • Your CGPA
+        • MUET band
+        • Fee status
         
-        💡 Check your transcript in SMP to verify your eligibility status!
+        Ready to check your eligibility?
+
+  utter_convocation_logistics_redirect:
+    - text: |
+        📋 **Convocation Logistics**
+        
+        For ceremony details, please check:
+        
+        • **SMP Portal** - Registration & tickets
+        • **Registry Office** - Official procedures
+        • **Convocation Website** - Dates & dress code
+        • **Robe Rental** - Appointed vendor (see SMP)
+        
+        If you need help with **academic eligibility**, just ask!
+    - text: |
+        🎓 **Ceremony Information**
+        
+        Convocation logistics are handled by:
+        • Registry Office (procedures)
+        • SMP Portal (registration)
+        • Official UPM Convocation announcements
+        
+        I'm here if you need academic eligibility help!
+
+  utter_invalid_muet_format:
+    - text: |
+        ❌ I couldn't understand that MUET band.
+        
+        Please enter your MUET band as a number from **1 to 6**.
+        
+        Example: `3` or `4`
+        
+        💡 If you haven't taken MUET yet, enter `0`.
+    - text: |
+        🔢 That doesn't look like a valid MUET band.
+        
+        Please enter a number between **1 and 6**.
+        
+        Enter `0` if you haven't taken MUET.
+
+  utter_eligibility_passed:
+    - text: |
+        🎉 **Congratulations! You Appear Eligible for Graduation!**
+        
+        Based on your input:
+        • Credits: **{credits_completed}** ✅
+        • CGPA: **{current_cgpa}** ✅
+        • MUET: Band **{muet_band}** ✅
+        • Fees: Cleared ✅
+        
+        You seem to meet all the academic requirements! 🎓
+    - text: |
+        🌟 **Great News - You Look Ready to Graduate!**
+        
+        **Eligibility Summary:**
+        ✅ Credits: {credits_completed}
+        ✅ CGPA: {current_cgpa}
+        ✅ MUET: Band {muet_band}
+        ✅ No outstanding fees
+        
+        You appear to meet graduation requirements!
+
+  utter_next_steps_convocation:
+    - text: |
+        📋 **Next Steps for Convocation**
+        
+        1. **Wait for convocation announcement** in SMP
+        2. **Register for convocation** before deadline
+        3. **Order graduation robe** from appointed vendor
+        4. **Complete exit survey** in SMP
+        5. **Return library books** and get clearance
+        
+        🎓 Congratulations and all the best for your future!
+    - text: |
+        🎓 **What to Do Next**
+        
+        1. Watch for convocation registration in SMP
+        2. Register within the deadline
+        3. Arrange robe rental
+        4. Complete all clearance requirements
+        
+        Congratulations on this achievement! 🎉
+
+  utter_eligibility_partial:
+    - text: |
+        ⚠️ **Partial Eligibility**
+        
+        You meet some requirements, but there are issues that need attention.
+        
+        Let me show you what needs to be addressed...
+    - text: |
+        📋 **Almost There!**
+        
+        You've met some graduation requirements, but not all.
+        
+        Here's what needs attention...
+
+  utter_eligibility_not_ready:
+    - text: |
+        📋 **Eligibility Assessment**
+        
+        Based on your input, you may not be ready for graduation yet.
+        
+        Don't worry - let me show you what needs to be completed...
+    - text: |
+        ⚠️ **Pre-Graduation Status**
+        
+        It looks like there are some requirements still to be met.
+        
+        Here's what needs attention...
+
+  utter_eligibility_issues:
+    - text: |
+        📝 **Requirements to Address:**
+        
+        {eligibility_issues}
+        
+        Would you like guidance on how to address these?
+    - text: |
+        🎯 **Action Items:**
+        
+        {eligibility_issues}
+        
+        Need help with any of these requirements?
+
+  utter_eligibility_guidance:
+    - text: |
+        💡 **Guidance for Your Requirements**
+        
+        **Credits Short?**
+        → Check remaining required courses in SMP
+        → Plan your semester carefully
+        
+        **CGPA Below 2.0?**
+        → Focus on courses you're strongest in
+        → Seek tutoring support
+        
+        **MUET Not Met?**
+        → Register for next MUET sitting
+        → Consider IELTS as alternative
+        
+        **Outstanding Fees?**
+        → Contact Bursary immediately
+        → Check payment plans available
+        
+        Your Academic Advisor can provide personalized guidance!
+    - text: |
+        🎯 **How to Address Each Issue**
+        
+        • **Credits:** Review your transcript in SMP
+        • **CGPA:** Consider repeating weak subjects
+        • **MUET:** Take the next available test
+        • **Fees:** Visit Bursary for payment options
+        
+        Schedule a meeting with your advisor for a detailed plan!
+
+  utter_convo_encouragement:
+    - text: |
+        💪 **You'll Get There!**
+        
+        Every requirement you meet brings you closer to graduation.
+        
+        Take it step by step, and don't hesitate to ask for help!
+        
+        Best of luck! 🍀
+    - text: |
+        🌟 **Keep Working Toward It!**
+        
+        Graduation is within reach. Focus on one requirement at a time.
+        
+        Your Academic Advisor is here to help you succeed!
