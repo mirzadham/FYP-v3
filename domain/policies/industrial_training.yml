@@ -1,0 +1,24 @@
+version: "3.1"
+
+responses:
+  utter_industrial_training_eligibility:
+    - text: |
+        🏢 **Industrial Training (LI) - Eligibility Check**
+        
+        **Academic Eligibility Requirements:**
+        • Minimum credits completed (check your program requirements)
+        • Must NOT be on academic probation
+        • All prerequisite courses passed
+        • Usually Year 3 or Year 4 standing
+        
+        **Duration:** 12-16 weeks (varies by program)
+        
+        ✅ **I can verify:** Your academic eligibility based on credits and standing.
+        
+        👉 **For everything else, contact the LI Coordinator:**
+        • Company placement & applications
+        • LI briefings & documentation
+        • Logbook & report submission
+        • Evaluation & grading
+        
+        💡 Check SMP to see your current credit count and academic standing!

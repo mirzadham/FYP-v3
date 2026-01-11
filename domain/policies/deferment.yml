@@ -1,0 +1,16 @@
+version: "3.1"
+
+responses:
+  utter_deferment_info:
+    - text: |
+        📋 **Deferment (Leave of Absence)**
+        
+        **Procedure:**
+        1. Get deferment form from Faculty
+        2. Submit with supporting documents
+        3. Obtain Dean's approval
+        
+        **Deadline:** Before Week 3 of semester
+        **Duration:** Maximum 2 semesters
+        
+        ⚠️ May affect PTPTN/scholarships. Contact Student Affairs for details.

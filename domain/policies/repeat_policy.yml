@@ -1,0 +1,17 @@
+version: "3.1"
+
+responses:
+  utter_repeat_policy:
+    - text: |
+        📚 **Repeat/Failed Subject Policy**
+        
+        **Key Points:**
+        • Failed subjects must be repeated
+        • Core subjects: Must repeat immediately when offered
+        • Maximum grade after repeat: Usually capped (check faculty rules)
+        
+        **GPA Impact:**
+        • Both grades may appear on transcript
+        • Latest attempt used for CGPA calculation
+        
+        ⚠️ Repeated failures may lead to probation.

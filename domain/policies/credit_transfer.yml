@@ -1,0 +1,19 @@
+version: "3.1"
+
+responses:
+  utter_credit_transfer:
+    - text: |
+        📋 **Credit Transfer/Exemption**
+        
+        **Eligible For:**
+        • Diploma graduates
+        • Transfer students from other universities
+        
+        **Procedure:**
+        1. Submit exemption form with transcript
+        2. Provide syllabus of previous courses
+        3. Faculty evaluates equivalence
+        
+        **Limits:** Usually max 30% of program credits
+        
+        ⚠️ Apply within first semester of enrollment.

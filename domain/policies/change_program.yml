@@ -1,0 +1,18 @@
+version: "3.1"
+
+responses:
+  utter_change_program:
+    - text: |
+        🔄 **Changing Program/Major**
+        
+        **Requirements:**
+        • Minimum CGPA (usually 2.5+)
+        • Completed at least 1 semester
+        • Available slots in target program
+        
+        **Procedure:**
+        1. Get application form from Registry
+        2. Get approval from both faculties
+        3. Submit before deadline
+        
+        💡 Credits may transfer depending on course equivalence.

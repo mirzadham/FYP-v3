@@ -1,0 +1,18 @@
+version: "3.1"
+
+responses:
+  utter_probation_info:
+    - text: |
+        ⚠️ **Academic Probation**
+        
+        **Status Levels:**
+        • **P1:** CGPA 1.50 - 1.99 (1st warning)
+        • **P2:** Still below 2.00 after P1
+        • **P3:** Still below 2.00 after P2
+        • **Dismissed:** After P3 if CGPA still below 2.00
+        
+        **Requirements During Probation:**
+        • Limited credit hours (usually max 15)
+        • Must maintain minimum semester GPA
+        
+        💡 Seek help from academic advisor immediately!
