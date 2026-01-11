@@ -29,21 +29,21 @@ slots:
     type: categorical
     description: |
       Current drop phase based on semester week:
-      - free: Weeks 1-2 (full refund, no record)
-      - partial: Weeks 3-7 (partial refund, W grade)
-      - late: Weeks 8-12 (no refund, W grade)
+      - free: Weeks 1-2 (no penalty, no record)
+      - late: Weeks 3-7 (penalty fee, W grade)
+      - very_late: Weeks 8-12 (penalty fee, W grade, multiple approvals)
       - closed: Weeks 13+ (cannot drop)
     values:
       - free
-      - partial
       - late
+      - very_late
       - closed
     mappings:
       - type: custom
 
-  refund_percentage:
-    type: float
-    description: Estimated refund percentage based on week.
+  has_penalty_fee:
+    type: bool
+    description: Whether late drop incurs a penalty fee.
     mappings:
       - type: custom
 
@@ -73,7 +73,7 @@ responses:
         Dropping a course has different consequences depending on **when** you do it.
         
         I can help you understand:
-        • Refund implications
+        • Fee implications (penalty for late drops)
         • Transcript impact
         • Proper procedure
         
@@ -87,20 +87,20 @@ responses:
 
   utter_drop_general_info:
     - text: |
-        📋 **General Drop/Withdrawal Policy**
+        📋 **General Drop/Withdrawal Policy (UPM)**
         
         **Week 1-2 (Add/Drop Period):**
-        • Full refund
+        • No penalty fee
         • No record on transcript
         • Easy process through SMP
         
-        **Week 3-7:**
-        • Partial refund (varies)
+        **Week 3-7 (Late Drop):**
+        • ⚠️ **Penalty fee applies** (no refund)
         • "W" (Withdrawn) grade on transcript
         • Need faculty approval
         
-        **Week 8-12:**
-        • No refund
+        **Week 8-12 (Very Late):**
+        • ⚠️ **Penalty fee applies**
         • "W" grade on transcript
         • Need advisor + Dean approval
         
@@ -112,12 +112,12 @@ responses:
     - text: |
         📚 **Drop Policy Overview**
         
-        **Early (Week 1-2):** Full refund, no record
-        **Mid (Week 3-7):** Partial refund, W grade
-        **Late (Week 8-12):** No refund, W grade
+        **Early (Week 1-2):** No penalty, no record
+        **Late (Week 3-7):** Penalty fee, W grade
+        **Very Late (Week 8-12):** Penalty fee, W grade, multiple approvals
         **Final (Week 13+):** Cannot drop
         
-        Talk to your advisor before deciding!
+        ⚠️ **Note:** There are NO refunds for dropping courses after Week 2!
 
   utter_invalid_week_format:
     - text: |
@@ -134,7 +134,7 @@ responses:
         **Good news!** You're in the add/drop period.
         
         **Consequences:**
-        • 💰 **Refund:** ~100%
+        • 💰 **Fee:** No penalty
         • 📄 **Transcript:** No record
         • ⏱️ **Approval:** Simple process
         
@@ -144,16 +144,16 @@ responses:
         
         Week {current_week} is in the add/drop period.
         
-        ✅ Full refund
+        ✅ No penalty fee
         ✅ No transcript record
         ✅ Easy process via SMP
 
-  utter_drop_partial_refund:
+  utter_drop_late_penalty:
     - text: |
-        ⚠️ **Partial Refund Period (Week {current_week})**
+        ⚠️ **Late Drop Period (Week {current_week})**
         
         **Consequences:**
-        • 💰 **Refund:** ~{refund_percentage}%
+        • 💰 **Fee:** Penalty fee applies (NO refund)
         • 📄 **Transcript:** "W" (Withdrawn) grade
         • ⏱️ **Approval:** Faculty approval needed
         
@@ -161,26 +161,26 @@ responses:
     - text: |
         📋 **Mid-Semester Drop (Week {current_week})**
         
-        • Partial refund (~{refund_percentage}%)
+        • ⚠️ Penalty fee applies (no refund for the course)
         • "W" grade on transcript
         • Requires faculty approval
         
         "W" doesn't hurt GPA but employers/grad schools may ask.
 
-  utter_drop_late_period:
+  utter_drop_very_late_period:
     - text: |
-        ⚠️ **Late Drop Period (Week {current_week})**
+        🚨 **Very Late Drop Period (Week {current_week})**
         
         **Consequences:**
-        • 💰 **Refund:** None
+        • 💰 **Fee:** Penalty fee applies (NO refund)
         • 📄 **Transcript:** "W" (Withdrawn) grade
         • ⏱️ **Approval:** Advisor + Dean approval required
         
         This is a significant decision. Are you sure?
     - text: |
-        🚨 **Late Withdrawal (Week {current_week})**
+        ⚠️ **Very Late Withdrawal (Week {current_week})**
         
-        • No refund
+        • Penalty fee applies
         • "W" grade recorded
         • Multiple approvals needed
         
@@ -209,6 +209,7 @@ responses:
         **Step 3:** Select the course to drop
         **Step 4:** Submit drop request
         **Step 5:** Get required approvals (if applicable)
+        **Step 6:** Pay penalty fee if after Week 2
         
         ⚠️ **Remember:**
         • Keep confirmation of your request
@@ -221,7 +222,8 @@ responses:
         2. Select course to drop
         3. Submit request
         4. Obtain approvals if needed
-        5. Verify the drop was processed
+        5. Pay penalty fee (if after Week 2)
+        6. Verify the drop was processed
 
   utter_drop_warning:
     - text: |
@@ -232,9 +234,13 @@ responses:
         • May delay graduation
         • Check when it's offered next
         
+        **Financial Impact:**
+        • No refund for course fees after Week 2
+        • Penalty fee for late drops
+        • May affect scholarship/loan status
+        
         **Impact on:**
         • Credit load (may fall below minimum)
-        • Financial aid/scholarship
         • Graduation timeline
         
         💡 Strongly recommend discussing with your advisor first!
@@ -245,6 +251,7 @@ responses:
         • When is the course offered again?
         • Will you fall below minimum credits?
         • Impact on scholarship/loan?
+        • Late drop = penalty fee (no refund!)
         
         Consult your advisor for personalized advice!
 
@@ -257,6 +264,7 @@ responses:
         • Can you improve with extra help?
         • Is the struggle temporary?
         • What are the long-term impacts?
+        • Are you prepared for the penalty fee?
         
         Your advisor can help you weigh the options!
     - text: |

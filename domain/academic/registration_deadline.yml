@@ -38,7 +38,7 @@ responses:
         
         **What you can do:**
         • Add new courses
-        • Drop courses (full refund)
+        • Drop courses (no penalty, no record)
         • Switch sections
         
         **Where:** SMP Portal → Registration
@@ -60,12 +60,14 @@ responses:
 
   utter_withdrawal_deadline:
     - text: |
-        📋 **Course Withdrawal Deadlines**
+        📋 **Course Withdrawal Deadlines (UPM)**
         
-        **Week 1-2:** Easy drop, full refund
-        **Week 3-7:** Partial refund, W grade
-        **Week 8-12:** No refund, W grade
+        **Week 1-2:** Easy drop, no penalty
+        **Week 3-7:** Penalty fee, W grade
+        **Week 8-12:** Penalty fee, W grade, multiple approvals
         **Week 13+:** Cannot withdraw
+        
+        ⚠️ **Note:** NO refunds for dropping courses!
         
         Check the academic calendar for exact dates!
 

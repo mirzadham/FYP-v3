@@ -2,8 +2,8 @@ flows:
   drop_course:
     description: |
       Production-grade flow to guide students on course withdrawal/dropping.
-      Collects current semester week to explain consequences (refund, grade record).
-      Provides informed decision-making guidance.
+      Collects current semester week to explain consequences (penalty fees, grade record).
+      At UPM, there are NO refunds for dropping courses - only penalty fees for late drops.
       Examples: "how to drop a subject?", "withdraw from course", "TD drop", "late drop penalty"
     name: drop course guidance
     steps:
@@ -50,13 +50,13 @@ flows:
             then:
               - action: utter_drop_free_period
                 next: offer_drop_guidance
-          - if: "slots.drop_phase = 'partial'"
-            then:
-              - action: utter_drop_partial_refund
-                next: offer_drop_guidance
           - if: "slots.drop_phase = 'late'"
             then:
-              - action: utter_drop_late_period
+              - action: utter_drop_late_penalty
+                next: offer_drop_guidance
+          - if: "slots.drop_phase = 'very_late'"
+            then:
+              - action: utter_drop_very_late_period
                 next: offer_drop_guidance
           - else:
               - action: utter_drop_not_allowed

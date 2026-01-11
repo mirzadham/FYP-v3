@@ -1,6 +1,9 @@
 """
 Drop course actions for Academic Advisor Chatbot.
 Handles week validation and drop consequence assessment.
+
+UPM Policy: NO refunds for dropping courses after Week 2.
+Late drops incur a penalty fee.
 """
 
 from typing import Any, Text, Dict, List
@@ -83,11 +86,14 @@ class ActionAssessDropConsequences(Action):
     """
     Assess drop consequences based on semester week.
     
-    Phases:
-    - Week 1-2: free (full refund, no record)
-    - Week 3-7: partial (partial refund, W grade)
-    - Week 8-12: late (no refund, W grade)
+    UPM Policy:
+    - Week 1-2: free (no penalty, no record)
+    - Week 3-7: late (penalty fee, W grade)
+    - Week 8-12: very_late (penalty fee, W grade, multiple approvals)
     - Week 13+: closed (cannot drop)
+    
+    NOTE: UPM does NOT provide refunds for dropping courses.
+    Late drops INCUR a penalty fee.
     """
 
     def name(self) -> Text:
@@ -106,24 +112,21 @@ class ActionAssessDropConsequences(Action):
         except (ValueError, TypeError):
             week = 14
         
-        # Determine phase and refund
+        # Determine phase and penalty status
         if week <= 2:
             phase = "free"
-            refund = 100
-        elif week <= 5:
-            phase = "partial"
-            refund = 70
+            has_penalty = False
         elif week <= 7:
-            phase = "partial"
-            refund = 50
-        elif week <= 12:
             phase = "late"
-            refund = 0
+            has_penalty = True
+        elif week <= 12:
+            phase = "very_late"
+            has_penalty = True
         else:
             phase = "closed"
-            refund = 0
+            has_penalty = False  # Can't drop, so no penalty applies
         
         return [
             SlotSet("drop_phase", phase),
-            SlotSet("refund_percentage", refund)
+            SlotSet("has_penalty_fee", has_penalty)
         ]

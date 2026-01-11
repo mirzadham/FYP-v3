@@ -23,12 +23,13 @@ responses:
         2. Get advisor's approval
         3. Submit before deadline
         
-        **Types of Withdrawal:**
-        • **Week 1-2:** Full refund, no record
-        • **Week 3-7:** Partial refund, "W" grade
-        • **After Week 7:** No refund, may affect GPA
+        **Types of Withdrawal (UPM Policy):**
+        • **Week 1-2:** No penalty, no record
+        • **Week 3-7:** Penalty fee, "W" grade
+        • **After Week 7:** Penalty fee, "W" grade, multiple approvals
         
-        ⚠️ Dropping courses may affect PTPTN/scholarship eligibility.
+        ⚠️ **Important:** NO refunds for dropping courses!
+        ⚠️ Dropping may affect PTPTN/scholarship eligibility.
 
   utter_graduation_requirements:
     - text: |
