@@ -9,6 +9,8 @@ Module Structure:
 - course_actions.py: Course information retrieval actions
 - prerequisite_actions.py: Prerequisite checking and validation actions
 - convocation_actions.py: Convocation information actions
+- probation_actions.py: Academic probation assessment actions
+- graduation_actions.py: Graduation requirements assessment actions
 - openai_actions.py: RAG-enhanced fallback responses using OpenAI
 """
 
@@ -20,6 +22,21 @@ from .prerequisite_actions import (
     ActionResetCourseCode,
 )
 from .convocation_actions import ActionResetConvocationTopic
+from .probation_actions import (
+    ActionCheckAssessmentChoice,
+    ActionValidateCgpa,
+    ActionResetCgpa,
+    ActionAssessProbationStatus,
+    ActionDetermineProbationLevel,
+    ActionResetForAssessment,
+)
+from .graduation_actions import (
+    ActionCheckGraduationAssessmentChoice,
+    ActionValidateCredits,
+    ActionResetCredits,
+    ActionAssessGraduationStatus,
+    ActionResetGraduationSlots,
+)
 from .openai_actions import ActionOpenAIResponse
 
 # Export all actions
@@ -29,5 +46,18 @@ __all__ = [
     "ActionValidateCourseCodeFormat",
     "ActionResetCourseCode",
     "ActionResetConvocationTopic",
+    "ActionCheckAssessmentChoice",
+    "ActionValidateCgpa",
+    "ActionResetCgpa",
+    "ActionAssessProbationStatus",
+    "ActionDetermineProbationLevel",
+    "ActionResetForAssessment",
+    "ActionCheckGraduationAssessmentChoice",
+    "ActionValidateCredits",
+    "ActionResetCredits",
+    "ActionAssessGraduationStatus",
+    "ActionResetGraduationSlots",
     "ActionOpenAIResponse",
 ]
+
+

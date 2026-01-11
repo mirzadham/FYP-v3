@@ -1,18 +1,447 @@
 version: "3.1"
 
+slots:
+  # Assessment preference
+  wants_probation_assessment:
+    type: bool
+    description: Whether the student wants a personalized probation assessment based on their CGPA, or just general information about what probation means.
+    mappings:
+      - type: from_llm
+
+  # CGPA slots
+  current_cgpa:
+    type: float
+    description: The student's current cumulative grade point average (CGPA) on a 4.0 scale. Valid range is 0.00 to 4.00.
+    mappings:
+      - type: from_llm
+
+  cgpa_valid:
+    type: bool
+    description: Whether the provided CGPA is in valid format and range (0.00-4.00).
+    mappings:
+      - type: custom
+
+  # Probation status slots
+  probation_status:
+    type: categorical
+    description: The student's current probation assessment based on CGPA. Values are 'not_on_probation' (CGPA >= 2.0), 'warning' (1.80-1.99), 'probation' (1.50-1.79), or 'critical' (< 1.50).
+    values:
+      - not_on_probation
+      - warning
+      - probation
+      - critical
+    mappings:
+      - type: custom
+
+  previous_probation_status:
+    type: categorical
+    description: The student's probation status from the previous semester. Used to determine if they are P1 (first time), P2 (second consecutive), or P3 (third consecutive).
+    values:
+      - none
+      - P1
+      - P2
+    mappings:
+      - type: from_llm
+
+  probation_level:
+    type: categorical
+    description: The determined probation level (P1, P2, or P3) based on current CGPA and history.
+    values:
+      - P1
+      - P2
+      - P3
+    mappings:
+      - type: custom
+
+  # Follow-up slots
+  wants_detailed_assessment:
+    type: bool
+    description: Whether the student wants to proceed with a detailed personal assessment after viewing general info.
+    mappings:
+      - type: from_llm
+
+  wants_more_probation_help:
+    type: bool
+    description: Whether the student wants additional resources or advisor meeting recommendations.
+    mappings:
+      - type: from_llm
+
+actions:
+  - action_check_assessment_choice
+  - action_validate_cgpa
+  - action_reset_cgpa
+  - action_assess_probation_status
+  - action_determine_probation_level
+  - action_reset_for_assessment
+
 responses:
-  utter_probation_info:
+  utter_probation_general_info:
     - text: |
-        ⚠️ **Academic Probation**
+        ⚠️ **Understanding Academic Probation**
         
-        **Status Levels:**
-        • **P1:** CGPA 1.50 - 1.99 (1st warning)
-        • **P2:** Still below 2.00 after P1
-        • **P3:** Still below 2.00 after P2
-        • **Dismissed:** After P3 if CGPA still below 2.00
+        Academic probation is a warning status when your CGPA falls below 2.00.
         
-        **Requirements During Probation:**
-        • Limited credit hours (usually max 15)
-        • Must maintain minimum semester GPA
+        **Probation Levels:**
+        • **P1:** First semester with CGPA < 2.00
+        • **P2:** Second consecutive semester with CGPA < 2.00
+        • **P3:** Third consecutive semester with CGPA < 2.00
         
-        💡 Seek help from academic advisor immediately!
+        **Consequences:**
+        • Limited credit hours (usually max 12-15)
+        • Required to meet with Academic Advisor
+        • Risk of dismissal if not improved
+        
+        Would you like me to assess your personal situation?
+    - text: |
+        📋 **Academic Probation Overview**
+        
+        If your CGPA drops below 2.00, you'll be placed on probation:
+        
+        **The 3 Levels:**
+        • **P1 (First Warning):** CGPA below 2.00 for 1 semester
+        • **P2 (Second Warning):** CGPA still below 2.00 after P1
+        • **P3 (Final Warning):** CGPA still below 2.00 after P2
+        
+        After P3, if CGPA remains below 2.00, you may face dismissal.
+        
+        Shall I help assess your current situation?
+
+  utter_invalid_cgpa_format:
+    - text: |
+        ❌ I couldn't understand that CGPA value.
+        
+        Please enter your CGPA as a number between **0.00 and 4.00**.
+        
+        Example: `2.45` or `1.85`
+    - text: |
+        🔢 That doesn't look like a valid CGPA.
+        
+        Your CGPA should be a number from **0.00 to 4.00**.
+        
+        For example: `3.20`, `1.95`, or `2.50`
+
+  utter_not_on_probation:
+    - text: |
+        ✅ **Good News!**
+        
+        With a CGPA of **{current_cgpa}**, you are **NOT on academic probation**.
+        
+        Your CGPA is at or above the 2.00 requirement. Keep up the good work!
+        
+        💡 **Tip:** Aim for 3.50+ for Dean's List recognition!
+    - text: |
+        🎉 **You're in Good Standing!**
+        
+        Your CGPA of **{current_cgpa}** is above the 2.00 threshold.
+        
+        You are not on probation. Continue maintaining your grades!
+        
+        🌟 Consider aiming for Dean's List (CGPA 3.50+)!
+
+  utter_probation_warning:
+    - text: |
+        ⚡ **Warning Zone**
+        
+        Your CGPA of **{current_cgpa}** is getting close to the probation threshold.
+        
+        While you're not on probation yet, you're at risk if your grades drop further.
+        
+        Let me check your probation history to give better advice...
+    - text: |
+        📊 **Attention Needed**
+        
+        With a CGPA of **{current_cgpa}**, you're in the warning zone.
+        
+        You're close to the 2.00 probation threshold. Let's assess further...
+
+  utter_on_probation_intro:
+    - text: |
+        ⚠️ **Probation Status Detected**
+        
+        Based on your CGPA of **{current_cgpa}**, you are likely on academic probation.
+        
+        Let me ask about your history to determine your exact probation level...
+    - text: |
+        📋 **Assessment in Progress**
+        
+        Your CGPA of **{current_cgpa}** falls below 2.00, indicating probation status.
+        
+        I need to check your previous semester status to determine if you're P1, P2, or P3...
+
+  utter_critical_status:
+    - text: |
+        🚨 **Critical Academic Status**
+        
+        Your CGPA of **{current_cgpa}** is significantly below the 2.00 requirement.
+        
+        This is a serious situation that requires immediate attention.
+    - text: |
+        ⛔ **Urgent Attention Required**
+        
+        A CGPA of **{current_cgpa}** indicates a critical academic situation.
+        
+        Please read the following guidance carefully.
+
+  utter_immediate_action_required:
+    - text: |
+        🆘 **Immediate Actions:**
+        
+        1. **Meet your Academic Advisor** - This week if possible
+        2. **Contact Student Affairs** - Explore support options
+        3. **Consider course load** - May need to reduce credits
+        4. **Seek tutoring** - GSM or peer tutoring available
+        
+        ❤️ Remember: Many students recover from this. You're not alone.
+    - text: |
+        📞 **What You Should Do NOW:**
+        
+        1. Schedule a meeting with your Academic Advisor
+        2. Visit the Counseling Unit for support
+        3. Review your study strategies
+        4. Consider a lighter course load next semester
+        
+        💪 Recovery is possible with the right support!
+
+  utter_p1_explanation:
+    - text: |
+        📋 **P1 Status (First Probation)**
+        
+        This is your **first semester** on academic probation.
+        
+        **What this means:**
+        • Your CGPA fell below 2.00 for the first time
+        • You have time to recover
+        • Credit limit may apply (usually 12-15 credits)
+        
+        This is a warning, not the end. Many students recover!
+    - text: |
+        ⚠️ **First-Time Probation (P1)**
+        
+        You're experiencing probation for the **first time**.
+        
+        **Key Points:**
+        • This is a wake-up call, not a final verdict
+        • You'll have restrictions on credit hours
+        • Focus on fewer courses but better grades
+        
+        Let's create a recovery plan!
+
+  utter_p1_recovery_plan:
+    - text: |
+        🎯 **P1 Recovery Strategy**
+        
+        **Immediate Actions:**
+        1. ✅ Meet with your Academic Advisor
+        2. ✅ Register for max 12-15 credits only
+        3. ✅ Prioritize courses you're strongest in
+        4. ✅ Attend all classes and tutorials
+        
+        **Support Available:**
+        • GSM Tutoring Services
+        • Peer Study Groups
+        • Counseling Services
+        
+        💡 **Goal:** Get semester GPA above 2.50 to start rebuilding CGPA!
+    - text: |
+        📈 **Your Recovery Plan**
+        
+        **Step 1:** Reduce your course load (12-15 credits max)
+        **Step 2:** Choose courses strategically
+        **Step 3:** Attend every class without fail
+        **Step 4:** Seek help early - don't wait until exams
+        
+        **Resources:**
+        • Academic Advisor (mandatory meeting)
+        • Faculty tutoring programs
+        • Study skills workshops
+        
+        🌟 You CAN recover from this!
+
+  utter_p2_explanation:
+    - text: |
+        ⚠️ **P2 Status (Second Probation)**
+        
+        This is your **second consecutive semester** below CGPA 2.00.
+        
+        **What this means:**
+        • Your situation is more serious now
+        • Stricter credit limits apply
+        • One more semester of low CGPA leads to P3
+        
+        This requires urgent action and commitment.
+    - text: |
+        🚨 **Second Probation Warning (P2)**
+        
+        You've been on probation for **two semesters** now.
+        
+        **Important:**
+        • This is a serious warning
+        • P3 comes next if CGPA stays below 2.00
+        • After P3, dismissal is possible
+        
+        Please take this seriously!
+
+  utter_p2_urgent_action:
+    - text: |
+        🆘 **Urgent P2 Recovery Plan**
+        
+        **You MUST do the following:**
+        
+        1. 📅 **Schedule advisor meeting** - This week!
+        2. 📚 **Take ONLY 12 credits** - Focus over quantity
+        3. 🎯 **Choose strategic courses** - Play to your strengths
+        4. 📖 **Daily study schedule** - No exceptions
+        5. 🤝 **Get a study buddy** - Accountability helps
+        
+        **Support Services:**
+        • Counseling Unit: Academic stress support
+        • GSM Tutoring: Subject-specific help
+        • Faculty Office: Academic guidance
+        
+        ⚡ **Goal:** Semester GPA of 2.50+ is critical!
+    - text: |
+        💪 **P2 Action Plan (Urgent)**
+        
+        **Non-negotiables:**
+        1. Meet academic advisor IMMEDIATELY
+        2. Reduce to 12 credits maximum
+        3. Attend 100% of classes
+        4. Join study groups
+        5. Use all available tutoring
+        
+        **Mental Health:**
+        Don't forget to take care of yourself. 
+        The Counseling Unit is here to help.
+        
+        🎯 **Target:** Minimum semester GPA of 2.50!
+
+  utter_p3_critical:
+    - text: |
+        🚨 **CRITICAL: P3 Status**
+        
+        You are in your **third consecutive semester** below CGPA 2.00.
+        
+        **This is your final warning before potential dismissal.**
+        
+        I want you to know: This is serious, but recovery IS still possible.
+    - text: |
+        ⛔ **Final Warning: P3 Status**
+        
+        This is your **third semester** on probation.
+        
+        **What this means:**
+        • One more semester below 2.00 may lead to dismissal
+        • This is the most critical point in your academic journey
+        
+        But please don't give up - students have recovered from P3 before.
+
+  utter_p3_dismissal_warning:
+    - text: |
+        🆘 **P3 Emergency Action Plan**
+        
+        **IMMEDIATE ACTIONS (This Week):**
+        
+        1. 📞 **Call/Visit Academic Advisor TODAY**
+        2. 📝 **Apply for reduced course load** (9-12 credits)
+        3. 🏥 **Visit Counseling Unit** - Mental health matters
+        4. 📚 **Identify your 3 strongest subjects** ONLY
+        
+        **Consider:**
+        • Taking a semester break (deferment) to reset
+        • Changing program if current one isn't working
+        • Getting medical/counseling support letters if needed
+        
+        **Remember:**
+        • You are not defined by your grades
+        • Help is available
+        • Recovery has happened before
+        
+        ❤️ Please reach out for support. You matter.
+    - text: |
+        💚 **P3 Support & Recovery**
+        
+        I know this is overwhelming. Let's break it down:
+        
+        **Priority 1: Get Support**
+        • Academic Advisor - for academic planning
+        • Counseling Unit - for emotional support
+        • Family/Friends - you don't have to face this alone
+        
+        **Priority 2: Strategic Action**
+        • Minimum credits (9-12 only)
+        • Your BEST subjects only
+        • Daily commitment to studying
+        
+        **Options to Consider:**
+        • Deferment (take a break)
+        • Program change
+        • Part-time status
+        
+        🌟 Your worth is not your GPA. Please reach out for help.
+
+  utter_probation_resources:
+    - text: |
+        📚 **Helpful Resources**
+        
+        **Academic Support:**
+        • GSM Tutoring Center
+        • Faculty Study Groups
+        • Online Learning Resources (SPECTRUM)
+        
+        **Administrative:**
+        • Academic Advisor Office
+        • Student Affairs (HEP)
+        
+        **Wellbeing:**
+        • Counseling Unit (Pusat Kaunseling)
+        • Peer Support Programs
+    - text: |
+        🔗 **Where to Get Help**
+        
+        • **Tutoring:** GSM Building, Faculty tutors
+        • **Advisor:** Your assigned Academic Advisor
+        • **Counseling:** Pusat Kaunseling UPM
+        • **Academic Affairs:** Faculty Academic Office
+
+  utter_advisor_meeting_recommendation:
+    - text: |
+        📅 **Recommended: Meet Your Advisor**
+        
+        I strongly recommend scheduling a meeting with your Academic Advisor.
+        
+        **What to bring:**
+        • Your current transcript
+        • Questions about course selection
+        • Any concerns about your academic plan
+        
+        They can provide personalized guidance for your situation.
+    - text: |
+        🤝 **Book an Advisor Meeting**
+        
+        Your Academic Advisor can help create a personalized recovery plan.
+        
+        **Prepare for the meeting:**
+        • Know your current CGPA and credits
+        • List subjects you're struggling with
+        • Think about what support you need
+        
+        This meeting could make a real difference!
+
+  utter_probation_encouragement:
+    - text: |
+        💪 **You've Got This!**
+        
+        Remember: Probation is a warning, not a final verdict. 
+        Many students have recovered and gone on to graduate successfully.
+        
+        If you ever need help, your Academic Advisor is here for you.
+        
+        All the best for your studies! 📚
+    - text: |
+        🌟 **Stay Positive!**
+        
+        Whatever your situation, remember that your academic journey isn't defined by one challenging period.
+        
+        Take it one step at a time, seek help when needed, and believe in yourself.
+        
+        Good luck! 🍀

@@ -1,8 +1,110 @@
 flows:
   probation_info:
     description: |
-      Explain academic probation status (P1, P2, P3), CGPA requirements, and recovery.
-      Examples: "what is probation?", "my CGPA is below 2.0", "how to get out of probation"
-    name: probation information
+      Production-grade flow to assess a student's academic probation status.
+      Collects CGPA and previous probation history via self-assessment to provide
+      personalized guidance, recovery strategies, and action items.
+      Examples: "what is probation?", "my CGPA is below 2.0", "am I on probation?",
+      "how to get out of probation", "P1 status"
+    name: academic probation assessment
     steps:
-      - action: utter_probation_info
+      # Step 1: Ask if they want general info or personal assessment
+      - id: ask_assessment_type
+        collect: wants_probation_assessment
+        description: Whether the student wants a personalized probation assessment or just general information
+
+      - action: action_check_assessment_choice
+        next:
+          - if: "slots.wants_probation_assessment = false"
+            then:
+              - action: utter_probation_general_info
+                next: offer_assessment
+          - else: collect_cgpa
+
+      # Step 2: Collect current CGPA
+      - id: collect_cgpa
+        collect: current_cgpa
+        description: The student's current cumulative GPA (CGPA) on a 4.0 scale, e.g., 1.85, 2.50, 3.20
+
+      # Step 3: Validate CGPA format
+      - action: action_validate_cgpa
+        next:
+          - if: "slots.cgpa_valid = false"
+            then:
+              - action: utter_invalid_cgpa_format
+              - action: action_reset_cgpa
+                next: collect_cgpa
+          - else: check_probation_status
+
+      # Step 4: Determine probation status
+      - id: check_probation_status
+        action: action_assess_probation_status
+        next:
+          - if: "slots.probation_status = 'not_on_probation'"
+            then:
+              - action: utter_not_on_probation
+                next: offer_followup
+          - if: "slots.probation_status = 'warning'"
+            then:
+              - action: utter_probation_warning
+                next: collect_previous_probation
+          - if: "slots.probation_status = 'probation'"
+            then:
+              - action: utter_on_probation_intro
+                next: collect_previous_probation
+          - else:
+              - action: utter_critical_status
+              - action: utter_immediate_action_required
+                next: offer_followup
+
+      # Step 5: For probation students, check history
+      - id: collect_previous_probation
+        collect: previous_probation_status
+        description: Whether the student was on probation in their previous semester (P1, P2, or none)
+
+      - action: action_determine_probation_level
+        next:
+          - if: "slots.probation_level = 'P1'"
+            then:
+              - action: utter_p1_explanation
+              - action: utter_p1_recovery_plan
+                next: offer_followup
+          - if: "slots.probation_level = 'P2'"
+            then:
+              - action: utter_p2_explanation
+              - action: utter_p2_urgent_action
+                next: offer_followup
+          - if: "slots.probation_level = 'P3'"
+            then:
+              - action: utter_p3_critical
+              - action: utter_p3_dismissal_warning
+                next: offer_followup
+          - else:
+              - action: utter_p1_explanation
+              - action: utter_p1_recovery_plan
+                next: offer_followup
+
+      # Step 6: Offer general info after assessment
+      - id: offer_assessment
+        collect: wants_detailed_assessment
+        next:
+          - if: slots.wants_detailed_assessment
+            then:
+              - action: action_reset_for_assessment
+                next: collect_cgpa
+          - else:
+              - action: utter_probation_resources
+                next: END
+
+      # Step 7: Follow-up options
+      - id: offer_followup
+        collect: wants_more_probation_help
+        next:
+          - if: slots.wants_more_probation_help
+            then:
+              - action: utter_probation_resources
+              - action: utter_advisor_meeting_recommendation
+                next: END
+          - else:
+              - action: utter_probation_encouragement
+                next: END

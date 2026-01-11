@@ -1,0 +1,365 @@
+version: "3.1"
+
+slots:
+  # Assessment preference
+  wants_graduation_assessment:
+    type: bool
+    description: Whether the student wants a personalized graduation assessment or just general requirements information.
+    mappings:
+      - type: from_llm
+
+  # Program info
+  program_type:
+    type: categorical
+    description: The type of program - Bachelor's degree (4 years, ~120 credits) or Diploma (usually 2-3 years, ~90 credits).
+    values:
+      - bachelor
+      - diploma
+    mappings:
+      - type: from_llm
+
+  # Credits tracking
+  credits_completed:
+    type: float
+    description: Number of credit hours the student has completed. Usually 0-140 for bachelor's, 0-100 for diploma.
+    mappings:
+      - type: from_llm
+
+  credits_valid:
+    type: bool
+    description: Whether the provided credit count is valid and within reasonable range.
+    mappings:
+      - type: custom
+
+  credits_remaining:
+    type: float
+    description: Calculated remaining credits needed for graduation.
+    mappings:
+      - type: custom
+
+  # Graduation assessment
+  graduation_status:
+    type: categorical
+    description: |
+      Assessment of how close the student is to graduation:
+      - eligible: Meets credit and CGPA requirements
+      - close: Within 1 semester of completing credits
+      - in_progress: Making normal progress (Year 2-3)
+      - early_stage: Just started (Year 1)
+    values:
+      - eligible
+      - close
+      - in_progress
+      - early_stage
+    mappings:
+      - type: custom
+
+  estimated_semesters:
+    type: float
+    description: Estimated number of semesters remaining until graduation based on current credits.
+    mappings:
+      - type: custom
+
+  # Follow-up slots
+  wants_detailed_graduation_check:
+    type: bool
+    description: Whether the student wants to proceed with personalized assessment after viewing general info.
+    mappings:
+      - type: from_llm
+
+  wants_muet_check:
+    type: bool
+    description: Whether the student wants to learn about MUET requirements for graduation.
+    mappings:
+      - type: from_llm
+
+actions:
+  - action_check_graduation_assessment_choice
+  - action_validate_credits
+  - action_reset_credits
+  - action_assess_graduation_status
+  - action_reset_graduation_slots
+
+responses:
+  utter_graduation_general_info:
+    - text: |
+        🎓 **Graduation Requirements Overview**
+        
+        **For Bachelor's Degree:**
+        • Complete **120-140 credit hours** (varies by program)
+        • Maintain minimum **CGPA of 2.00**
+        • Pass all **core and required courses**
+        • Complete **FYP/Final Year Project**
+        • Achieve **MUET Band 3+** (or equivalent)
+        • Clear all **outstanding fees**
+        
+        **Timeline:** Usually 4 years (8 semesters)
+        
+        Would you like me to assess YOUR graduation status?
+    - text: |
+        📋 **What You Need to Graduate**
+        
+        **Academic Requirements:**
+        • Total Credits: ~120-140 depending on program
+        • Minimum CGPA: 2.00
+        • All core courses passed
+        • FYP completed
+        
+        **Other Requirements:**
+        • MUET Band 3 minimum
+        • No outstanding fees
+        • Library clearance
+        • Exit survey completed
+        
+        Want a personalized graduation assessment?
+
+  utter_invalid_credits_format:
+    - text: |
+        ❌ I couldn't understand that credit value.
+        
+        Please enter your **total completed credit hours** as a number.
+        
+        Example: `85` or `102`
+        
+        💡 You can check your exact credits in SMP under your transcript.
+    - text: |
+        🔢 That doesn't look like a valid credit count.
+        
+        Please enter a number (e.g., `75`, `98`, `115`).
+        
+        Check your SMP transcript if you're not sure!
+
+  utter_graduation_eligible:
+    - text: |
+        🎉 **Congratulations! You Appear Eligible to Graduate!**
+        
+        Based on your input:
+        • Credits: **{credits_completed}** ✅ (Target: ~120)
+        • CGPA: **{current_cgpa}** ✅ (Min: 2.00)
+        
+        You seem to have met the academic requirements!
+        
+        🎓 Time to check the final graduation checklist...
+    - text: |
+        🌟 **Great News!**
+        
+        Your stats look graduation-ready:
+        • **{credits_completed} credits** completed
+        • **{current_cgpa} CGPA**
+        
+        Let's make sure you've completed everything else...
+
+  utter_graduation_checklist:
+    - text: |
+        ✅ **Final Graduation Checklist**
+        
+        Before convocation, verify you have:
+        
+        1. ☐ **All core courses passed** (no F grades in required subjects)
+        2. ☐ **FYP completed and graded**
+        3. ☐ **MUET Band 3+** achieved
+        4. ☐ **Outstanding fees cleared** (check with Bursary)
+        5. ☐ **Library books returned**
+        6. ☐ **Exit survey completed** (in SMP)
+        
+        📅 Watch for convocation registration announcements in SMP!
+    - text: |
+        📋 **Before You Graduate - Final Checks**
+        
+        ✅ All required courses completed?
+        ✅ FYP submitted and graded?
+        ✅ MUET requirement met?
+        ✅ Fees all paid?
+        ✅ Library clearance done?
+        
+        If yes to all, you're ready for convocation! 🎓
+
+  utter_graduation_close:
+    - text: |
+        📈 **Almost There!**
+        
+        You're getting close to graduation:
+        • Credits: **{credits_completed}** / ~120
+        • CGPA: **{current_cgpa}**
+        • Estimated remaining: **{credits_remaining} credits**
+        
+        You're probably in your final year! Keep pushing!
+    - text: |
+        🏁 **Final Stretch!**
+        
+        Based on **{credits_completed} credits** completed, you're nearly done!
+        
+        About **{credits_remaining} more credits** to go.
+        
+        This could be your last 1-2 semesters!
+
+  utter_remaining_requirements:
+    - text: |
+        📝 **What's Left to Complete**
+        
+        **Estimated Remaining:** ~{credits_remaining} credit hours
+        
+        **Priority Focus:**
+        1. Ensure all CORE courses are done
+        2. Complete FYP if not started
+        3. Take MUET if not yet Band 3
+        4. Plan remaining electives carefully
+        
+        💡 Meet your advisor to plan your final semesters!
+    - text: |
+        🎯 **Your Graduation Roadmap**
+        
+        ~**{credits_remaining} credits** remaining
+        
+        **Recommendations:**
+        • Prioritize any incomplete core courses
+        • Start FYP early if not begun
+        • Don't forget MUET!
+        • Choose electives wisely
+
+  utter_graduation_in_progress:
+    - text: |
+        📚 **Making Good Progress!**
+        
+        Current Status:
+        • Credits: **{credits_completed}**
+        • CGPA: **{current_cgpa}**
+        • Remaining: ~**{credits_remaining} credits**
+        
+        You're on track! Estimated **{estimated_semesters} semesters** to go.
+    - text: |
+        👍 **You're On Track!**
+        
+        With **{credits_completed} credits** done, you're making solid progress.
+        
+        About **{estimated_semesters} more semesters** until graduation (estimate).
+
+  utter_graduation_timeline:
+    - text: |
+        📅 **Your Graduation Timeline**
+        
+        **Estimated semesters remaining:** {estimated_semesters}
+        
+        **Semester Planning Tips:**
+        • Take 15-18 credits per semester for normal pace
+        • Don't overload - quality over quantity
+        • Plan prerequisite chains early
+        • Consider internship timing (usually Year 3)
+        
+        💡 Use SMP's degree audit feature to track progress!
+    - text: |
+        🗓️ **Timeline Estimate**
+        
+        At normal pace (~15-18 credits/semester):
+        **~{estimated_semesters} semesters remaining**
+        
+        **Keep in Mind:**
+        • Some courses only offered once/year
+        • FYP spans 2 semesters usually
+        • Industrial training semester counts!
+
+  utter_graduation_early_stage:
+    - text: |
+        🌱 **Just Getting Started!**
+        
+        With **{credits_completed} credits**, you're still in the early stages of your degree.
+        
+        **Don't worry!** Graduation is still a few years away, and that's perfectly normal.
+        
+        Focus on building a strong foundation in your core courses.
+    - text: |
+        📘 **Early in Your Journey**
+        
+        **{credits_completed} credits** completed - you're in Year 1-2.
+        
+        Graduation seems far, but use this time wisely:
+        • Build strong fundamentals
+        • Explore your interests
+        • Maintain good CGPA from the start
+
+  utter_focus_on_current:
+    - text: |
+        🎯 **Current Semester Focus**
+        
+        **At this stage, prioritize:**
+        
+        1. **Passing all core courses** - Don't carry failed subjects
+        2. **Building strong CGPA** - It's easier to maintain than recover
+        3. **Understanding prerequisites** - Plan ahead for advanced courses
+        4. **Exploring interests** - Try different electives
+        
+        💡 Good habits now = smooth graduation later!
+    - text: |
+        📝 **Tips for Your Stage**
+        
+        Since you're still early in your program:
+        • Focus on core courses first
+        • Keep CGPA above 2.50 ideally
+        • Attend all classes
+        • Start building your network
+        
+        Graduation will come faster than you think! 🚀
+
+  utter_graduation_resources:
+    - text: |
+        🔗 **Graduation Resources**
+        
+        • **SMP Portal:** Check your transcript & degree audit
+        • **Academic Advisor:** For personalized planning
+        • **Faculty Office:** Program-specific requirements
+        • **Registry:** Graduation procedures & convocation
+        
+        Don't hesitate to reach out for guidance!
+    - text: |
+        📚 **Where to Get More Info**
+        
+        • Check SMP for your transcript
+        • Visit your Academic Advisor
+        • Faculty Academic Office
+        • Registry for graduation processing
+
+  utter_muet_requirement_detail:
+    - text: |
+        📝 **MUET Requirement for Graduation**
+        
+        **Minimum Band Required:**
+        • Most programs: **Band 3**
+        • Some programs: **Band 4** (check with faculty)
+        
+        **If Below Requirement:**
+        • Must retake MUET before graduation
+        • Register through Malaysian Examination Council
+        • MUET is held 3 times per year
+        
+        **Alternatives (check eligibility):**
+        • IELTS (usually 5.5+)
+        • TOEFL (check faculty requirements)
+        
+        💡 Take MUET early so you have time to retake if needed!
+    - text: |
+        🗣️ **MUET for Graduation**
+        
+        **You need:** Band 3 minimum (Band 4 for some programs)
+        
+        **Schedule:** MUET happens 3x yearly
+        **Tip:** Take it in Year 2-3 so you have retry chances
+        
+        Check with your faculty for exact requirements!
+
+  utter_graduation_encouragement:
+    - text: |
+        💪 **Keep Going!**
+        
+        Whatever stage you're at, every credit counts toward your goal.
+        
+        Focus on the semester in front of you, seek help when needed, and you'll get there!
+        
+        Best of luck with your studies! 🎓
+    - text: |
+        🌟 **You've Got This!**
+        
+        Graduation is a journey, not just a destination. Take it one semester at a time.
+        
+        If you ever need guidance, your Academic Advisor is here to help!
+        
+        All the best! 📚
