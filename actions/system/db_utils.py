@@ -13,7 +13,7 @@ from typing import Optional
 
 
 # Database path - relative to the project root
-DB_PATH = os.path.join(os.path.dirname(__file__), "..", "db", "academic.db")
+DB_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "db", "academic.db")
 
 
 def get_db_connection() -> sqlite3.Connection:
