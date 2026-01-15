@@ -1,30 +1,247 @@
 version: "3.1"
 
-actions:
-  - get_course_details
-
 slots:
+  course_code:
+    type: text
+    description: The course code to search for (e.g., CCS3101, CSC4600).
+    mappings:
+      - type: from_llm
+
+  course_code_valid:
+    type: bool
+    description: Whether the course code format is valid (3-4 letters + 4 digits).
+    mappings:
+      - type: custom
+
   course_name:
     type: text
+    description: The full name of the course (English or Malay).
     mappings:
-      - type: controlled
+      - type: custom
+
   credits:
     type: float
+    description: Number of credit hours for the course.
     mappings:
-      - type: controlled
+      - type: custom
+
   synopsis:
     type: text
+    description: Course synopsis/description.
     mappings:
-      - type: controlled
+      - type: custom
+
+  prereq_list:
+    type: text
+    description: Prerequisites for the course as a formatted string.
+    mappings:
+      - type: custom
+
+  wants_course_followup:
+    type: bool
+    description: Whether student wants additional course information.
+    mappings:
+      - type: from_llm
+
+  course_followup_type:
+    type: categorical
+    description: Type of follow-up information requested.
+    values:
+      - prerequisites
+      - schedule
+      - similar_courses
+    mappings:
+      - type: from_llm
+
+  wants_another_course:
+    type: bool
+    description: Whether student wants to search for another course.
+    mappings:
+      - type: from_llm
+
+  wants_search_retry:
+    type: bool
+    description: Whether student wants to retry with a different course code.
+    mappings:
+      - type: from_llm
+
+actions:
+  - get_course_details
+  - action_validate_course_code_format
+  - action_reset_course_code
+  - action_provide_course_followup
+  - action_reset_course_slots
 
 responses:
+  utter_invalid_course_code_format:
+    - text: |
+        ❌ **Invalid Course Code Format**
+        
+        The course code should follow the format: **3-4 letters + 4 digits**
+        
+        Examples: `CCS3101`, `CSC4600`, `SSK3100`, `SKP2101`
+        
+        Please enter a valid course code.
+    - text: |
+        🔢 That doesn't look like a valid course code.
+        
+        Expected format: **XXX1234** or **XXXX1234**
+        
+        Examples: `CCS3101`, `CSC4600`
+
   utter_course_details:
     - text: |
-        📚 **{course_code}**: {course_name}
+        📚 **Course Information**
         
+        **{course_code}**: {course_name}
+        
+        ━━━━━━━━━━━━━━━━━━━━━━━━
         💳 **Credit Hours:** {credits}
         
-        📋 **Prerequisites:** {prereq_list}
+        🔗 **Prerequisites:** {prereq_list}
         
         📖 **Synopsis:**
         {synopsis}
+        ━━━━━━━━━━━━━━━━━━━━━━━━
+        
+        Would you like more information about this course?
+    - text: |
+        🎓 **{course_code} - {course_name}**
+        
+        **Credits:** {credits}
+        **Prerequisites:** {prereq_list}
+        
+        **About this course:**
+        {synopsis}
+        
+        Need more details?
+
+  utter_course_not_found:
+    - text: |
+        ❌ **Course Not Found**
+        
+        I couldn't find information for **{course_code}** in my database.
+        
+        **Possible reasons:**
+        • Course code might be incorrect
+        • Course may not be in the Faculty of Computer Science & IT
+        • Course code format may have changed
+        
+        💡 Double-check the code in your SMP or faculty handbook.
+    - text: |
+        🔍 **No Results for {course_code}**
+        
+        This course wasn't found in my records.
+        
+        Tips:
+        • Verify the course code spelling
+        • Check if it's a FCSIT course
+        • Try the 4-letter version if using 3-letter
+        
+        Would you like to try a different code?
+
+  utter_database_error:
+    - text: |
+        ⚠️ **System Error**
+        
+        I encountered an issue while searching for course information.
+        
+        Please try again in a moment. If the problem persists, contact your Academic Advisor directly.
+    - text: |
+        🔧 **Technical Issue**
+        
+        Something went wrong while looking up the course.
+        
+        Would you like to try again?
+
+  utter_course_search_complete:
+    - text: |
+        ✅ **Search Complete**
+        
+        If you need more course information later, just ask!
+        
+        💡 You can also say things like:
+        • "What are the prerequisites for CSC4600?"
+        • "Tell me about CCS3101"
+    - text: |
+        📚 **Done!**
+        
+        Feel free to ask about other courses anytime!
+
+  utter_search_help:
+    - text: |
+        💡 **Finding Course Codes**
+        
+        You can find course codes in:
+        • **SMP Portal** - Course registration
+        • **Faculty Handbook** - Program structure
+        • **Academic Calendar** - Course offerings
+        
+        If you need help with something else, just ask!
+    - text: |
+        📋 **Where to Find Codes**
+        
+        • Check SMP for registered courses
+        • Faculty handbook lists all program courses
+        • Ask your Academic Advisor
+        
+        Need help with anything else?
+
+  utter_followup_prerequisites:
+    - text: |
+        🔗 **Prerequisites for {course_code}**
+        
+        **Required courses:** {prereq_list}
+        
+        ⚠️ You must pass ALL prerequisites before registering for {course_code}.
+        
+        💡 Check if you've completed these courses in your transcript.
+    - text: |
+        📋 **What You Need First**
+        
+        Before taking **{course_code}**, you must complete:
+        {prereq_list}
+        
+        Check your SMP transcript to verify!
+
+  utter_followup_schedule:
+    - text: |
+        📅 **Course Schedule Information**
+        
+        For {course_code} scheduling details:
+        
+        • Check **SMP Portal** during registration
+        • View **Course Timetable** for available sections
+        • Note: Some courses are only offered in specific semesters
+        
+        💡 Register early for best section choices!
+    - text: |
+        ⏰ **When is {course_code} Offered?**
+        
+        Check SMP during registration period for:
+        • Available sections
+        • Lecture times
+        • Lab schedules
+        
+        Tip: Popular courses fill up fast!
+
+  utter_followup_similar:
+    - text: |
+        🔄 **Related Courses**
+        
+        For courses similar to or related to **{course_code}**, check:
+        
+        • **Program structure** in faculty handbook
+        • **Elective options** in your curriculum
+        • **Course clusters** in your major area
+        
+        Your Academic Advisor can recommend related courses!
+    - text: |
+        📚 **Finding Related Courses**
+        
+        Check the faculty handbook for:
+        • Courses in the same cluster
+        • Advanced courses in this area
+        • Related electives
+        
+        Ask your advisor for personalized recommendations!

@@ -1,0 +1,1466 @@
+[
+  {
+    "course_code": "BCH3004",
+    "course_name_malay": "Prinsip Biokimia",
+    "course_name_english": "Principles of Biochemistry",
+    "credits": "4(3+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip biokimia dan penglibatan biomolekul dalam laluan utama metabolisme sistem biologi. Pelbagai struktur, ciri dan peranan biomolekul dibincangkan. Integrasi dan pengawalan metabolisme dalam sistem hidupan juga ditekankan. Penganalisaan tindak balas metabolisme biomolekul juga dijalankan.",
+    "description_english": "This course encompasses principles of biochemistry and involvement of biomolecules in major metabolism pathways of biological systems. Various structures, characteristics and role of biomolecules are discussed. Integration and regulation of metabolisms in living systems are also emphasized. Analyses of biomolecular metabolic reactions are also conducted.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH3004 \nPrinsip Biokimia / Principles of Biochemistry \n4(3+1) \nPrasyarat: Tiada \nKursus ini merangkumi prinsip biokimia dan penglibatan biomolekul dalam laluan utama metabolisme \nsistem biologi. Pelbagai struktur, ciri dan peranan biomolekul dibincangkan. Integrasi dan pengawalan \nmetabolisme dalam sistem hidupan juga ditekankan. Penganalisaan tindak balas metabolisme \nbiomolekul juga dijalankan. \nThis course encompasses principles of biochemistry and involvement of biomolecules in major \nmetab"
+  },
+  {
+    "course_code": "BCH3005",
+    "course_name_malay": "Kimia Biologi",
+    "course_name_english": "Biological Chemistry",
+    "credits": "4(3+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip dan teknik asas kimia biologi dalam menganalisis struktur biomolekul. Konsep kimia organik dalam mengenal pasti kumpulan berfungsi struktur biomolekul ditekankan. Eksperimen menggunakan peralatan asas makmal dalam kimia biologi turut dijalankan.",
+    "description_english": "This course encompasses principles and basic techniques of biological chemistry in analyzing biomolecules structures. Concept of organic chemistry in identifying functional groups of biomolecules structures are emphasized. Experimentation using basic laboratory instruments in biological chemistry are also conducted.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH3005 \nKimia Biologi / Biological Chemistry \n4(3+1) \nPrasyarat: Tiada \nKursus ini merangkumi prinsip dan teknik asas kimia biologi dalam menganalisis struktur biomolekul. \nKonsep kimia organik dalam mengenal pasti kumpulan berfungsi struktur biomolekul ditekankan. \nEksperimen menggunakan peralatan asas makmal dalam kimia biologi turut dijalankan. \nThis course encompasses principles and basic techniques of biological chemistry in analyzing \nbiomolecules structures. Concept of organic chemistry "
+  },
+  {
+    "course_code": "BCH3106",
+    "course_name_malay": "Teknik dan Pengiraan Asas dalam Biokimia",
+    "course_name_english": "Basic Techniques and Calculations in Biochemistry",
+    "credits": "2(1+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi teknik dan pengiraan asas dalam biokimia. Eksperimen menggunakan peralatan asas dalam biokimia dan penganalisaan data turut ditekankan.",
+    "description_english": "This course encompasses techniques and basic calculations in biochemistry. Experimentation using basic biochemistry instruments and data analysis are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH3106 \nTeknik dan Pengiraan Asas dalam Biokimia / Basic \nTechniques and Calculations in Biochemistry \n2(1+1) \nPrasyarat: Tiada \nKursus ini merangkumi teknik dan pengiraan asas dalam biokimia. Eksperimen menggunakan peralatan \nasas dalam biokimia dan penganalisaan data turut ditekankan. \nThis course encompasses techniques and basic calculations in biochemistry. Experimentation using \nbasic biochemistry instruments and data analysis are also emphasized"
+  },
+  {
+    "course_code": "BCH3107",
+    "course_name_malay": "Biomolekul",
+    "course_name_english": "Biomolecules",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pelbagai struktur dan ciri biomolekul dalam sistem biologi. Peranan dan fungsi biomolekul seperti karbohidrat, asid amino, protein, lipid dan asid nukleik dalam sistem biologi dibincangkan.",
+    "description_english": "This course encompasses various structures and characteristics of biomolecules in the biological system. Role and function of biomolecules such as carbohydrates, amino acids, proteins, lipids and nucleic acids in biological system are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH3107 \nBiomolekul / Biomolecules \n3(3+0) \nPrasyarat: Tiada \nKursus ini merangkumi pelbagai struktur dan ciri biomolekul dalam sistem biologi. Peranan dan fungsi \nbiomolekul seperti karbohidrat, asid amino, protein, lipid dan asid nukleik dalam sistem biologi \ndibincangkan. \n \nThis course encompasses various structures and characteristics of biomolecules in the biological \nsystem. Role and function of biomolecules such as carbohydrates, amino acids, proteins, lipids and \nnucleic acids in biolog"
+  },
+  {
+    "course_code": "BCH3108",
+    "course_name_malay": "Enzimologi",
+    "course_name_english": "Enzymology",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BCH3004",
+      "BCH3107"
+    ],
+    "description_malay": "Kursus ini merangkumi ciri umum enzim, faktor yang mempengaruhi keaktifan enzim dan aplikasi enzim dalam diagnostik. Faktor keaktifan dan pengawalaturan aktiviti enzim dibincangkan. Penulenan enzim daripada sistem kehidupan menggunakan pelbagai teknik penulenan turut dijalankan.",
+    "description_english": "This course encompasses general characteristics and factors affecting enzyme activity. Enzyme activation factors and regulations are discussed. Enzyme purification process from the living system using various purification techniques is also conducted.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH3108 \nEnzimologi / Enzymology \n4(3+1) \nPrasyarat: BCH3004 atau BCH3107 \nKursus ini merangkumi ciri umum enzim, faktor yang mempengaruhi keaktifan enzim dan aplikasi enzim \ndalam diagnostik. Faktor keaktifan dan pengawalaturan aktiviti enzim dibincangkan. Penulenan enzim \ndaripada sistem kehidupan menggunakan pelbagai teknik penulenan turut dijalankan. \n\n--- Page 2 ---\nTarikh kemaskini : 2/9/2025 \n \nThis course encompasses general characteristics and factors affecting enzyme activity. Enzyme \n"
+  },
+  {
+    "course_code": "BCH3109",
+    "course_name_malay": "Metabolisme Karbohidrat",
+    "course_name_english": "Carbohydrate Metabolism",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BCH3204",
+      "BCH3108"
+    ],
+    "description_malay": "Kursus ini merangkumi metabolisme karbohidrat di dalam sel. Integrasi dan mekanisme pengawalan metabolisme karbohidrat dibincangkan. Ujikaji dan penganalisaan tindak balas metabolisme karbohidrat turut dijalankan.",
+    "description_english": "This course encompasses carbohydrate metabolism in cell. Integration and regulation mechanisms of carbohydrate metabolism are discussed. Experimentation and analysis of carbohydrates metabolic processes are conducted.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH3109 \nMetabolisme Karbohidrat / Carbohydrate Metabolism \n3(2+1) \nPrasyarat: BCH3204 atau BCH3108 \nKursus ini merangkumi metabolisme karbohidrat di dalam sel. Integrasi dan mekanisme pengawalan \nmetabolisme karbohidrat dibincangkan. Ujikaji dan penganalisaan tindak balas metabolisme \nkarbohidrat turut dijalankan. \nThis course encompasses carbohydrate metabolism in cell. Integration and regulation mechanisms of \ncarbohydrate metabolism are discussed. Experimentation and analysis of carbohydrate"
+  },
+  {
+    "course_code": "BCH3110",
+    "course_name_malay": "Metabolisme Protein dan Asid Nukleik",
+    "course_name_english": "Protein and Nucleic Acid Metabolism",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BCH3109"
+    ],
+    "description_malay": "Kursus ini merangkumi metabolisme asid amino, protein, nukleotida dan asid nukleik di dalam sel. Integrasi metabolisme protein dan asid nukleik serta pengawalannya dibincangkan. Penganalisaan tindak balas metabolisme protein dan asid nukleik turut dijalankan",
+    "description_english": "This course encompasses metabolism of amino acids, proteins, nucleotides and nucleic acids in cells. Metabolisms of proteins and nucleic acids and their regulations are discussed. Analyses of protein and nucleic acid metabolic reactions are conducted.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH3110 \nMetabolisme Protein dan Asid Nukleik / Protein and \nNucleic Acid Metabolism \n4(3+1) \nPrasyarat: BCH3109 \nKursus ini merangkumi metabolisme asid amino, protein, nukleotida dan asid nukleik di dalam sel. \nIntegrasi metabolisme protein dan asid nukleik serta pengawalannya dibincangkan. Penganalisaan \ntindak balas metabolisme protein dan asid nukleik turut dijalankan \nThis course encompasses metabolism of amino acids, proteins, nucleotides and nucleic acids in cells. \nMetabolisms of protein"
+  },
+  {
+    "course_code": "BCH3111",
+    "course_name_malay": "Metabolisme Lipid dan Membran",
+    "course_name_english": "Lipid Metabolism and Membranes",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BCH3108"
+    ],
+    "description_malay": "Kursus ini merangkumi metabolisme lipid dan membran di dalam sel. Pengawalan metabolisme lipid dan membran dibincangkan. Penganalisaan hasil tindak balas metabolisme lipid dan membran turut dijalankan.",
+    "description_english": "This course encompasses cellular metabolisms of lipid and membrane. Regulation of lipid and membrane metabolisms are discussed. Analysis of lipid and membrane metabolic reactions are conducted.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH3111 \nMetabolisme Lipid dan Membran / Lipid Metabolism and \nMembranes \n4(3+1) \nPrasyarat: BCH3108 \nKursus ini merangkumi metabolisme lipid dan membran di dalam sel. Pengawalan metabolisme lipid \ndan membran dibincangkan. Penganalisaan hasil tindak balas metabolisme lipid dan membran turut \ndijalankan. \nThis course encompasses cellular metabolisms of lipid and membrane. Regulation of lipid and \nmembrane metabolisms are discussed. Analysis of lipid and membrane metabolic reactions are \nconducte"
+  },
+  {
+    "course_code": "BCH3204",
+    "course_name_malay": "Analisis Biomolekul",
+    "course_name_english": "Analysis of Biomolecules",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BCH3004",
+      "BCH3107"
+    ],
+    "description_malay": "Kursus ini merangkumi teknik penganalisaan karbohidrat, lipid, protein dan asid nukleik. Analisis sifat fizikal dan kimia, berat molekul dan kehomogenan biomolekul dibincangkan. Penganalisaan biomolekul turut dijalankan",
+    "description_english": "This course encompasses analytical techniques of water content, acidity, carbohydrates, lipids, proteins and nucleic acids. Analysis of physical and chemical properties, molecular weight and homogeneity of biomolecules is discussed. Analyses of biomolecules are conducted.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH3204 \nAnalisis Biomolekul / Analysis of Biomolecules \n3(2+1) \nPrasyarat: BCH3004 atau BCH3107 \nKursus ini merangkumi teknik penganalisaan karbohidrat, lipid, protein dan asid nukleik. Analisis sifat \nfizikal dan kimia, berat molekul dan kehomogenan biomolekul dibincangkan. Penganalisaan biomolekul \nturut dijalankan \nThis course encompasses analytical techniques of water content, acidity, carbohydrates, lipids, proteins \nand nucleic acids. Analysis of physical and chemical properties, molecula"
+  },
+  {
+    "course_code": "BCH3301",
+    "course_name_malay": "Prinsip Metabolomik",
+    "course_name_english": "Principles of Metabolomics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BCH3004",
+      "BCH3111"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip analisis komponen metabolit dalam tumbuhan, haiwan, mikrob, alam sekitar dan makanan. Teori penggunaan peralatan terkini dalam metabolomik ditekankan. Penganalisaan data metabolomik menggunakan pangkalan data juga dijalankan.",
+    "description_english": "This course encompasses analytical techniques of metabolite components in plants, animals, microbes, environment and foods. Theory of using advanced instruments in metabolomics is emphasized. Analyses of metabolomics data using related software and database are also conducted.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH3301 \nPrinsip Metabolomik / Principles of Metabolomics \n3(3+0) \nPrasyarat: BCH3004 atau BCH3111  \nKursus ini merangkumi prinsip analisis komponen metabolit dalam tumbuhan, haiwan, mikrob, alam \nsekitar dan makanan. Teori penggunaan peralatan terkini dalam metabolomik ditekankan. \nPenganalisaan data metabolomik menggunakan pangkalan data juga dijalankan. \n\n--- Page 3 ---\nTarikh kemaskini : 2/9/2025 \n \nThis course encompasses analytical techniques of metabolite components in plants, animals, mi"
+  },
+  {
+    "course_code": "BCH4101",
+    "course_name_malay": "Biokimia Hormon",
+    "course_name_english": "Biochemistry of Hormones",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BCH3004",
+      "BCH3111"
+    ],
+    "description_malay": "Kursus ini merangkumi pengkelasan, sifat kimia dan penghasilan hormon. Fungsi hormon dalam metabolisme sel, koordinasi sel, interaksi antara molekul dan kecacatan patofisiologi turut dibincangkan.",
+    "description_english": "This course encompasses the classification, chemical properties and production of hormones. The function of hormones in cell metabolism, cell coordination, interactions among molecules and pathophysiological disorders are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4101 \nBiokimia Hormon / Biochemistry of Hormones \n3(3+0) \nPrasyarat: BCH3004 atau BCH3111 \nKursus ini merangkumi pengkelasan, sifat kimia dan penghasilan hormon. Fungsi hormon dalam \nmetabolisme sel, koordinasi sel, interaksi antara molekul dan kecacatan patofisiologi turut dibincangkan. \nThis course encompasses the classification, chemical properties and production of hormones. The \nfunction of hormones in cell metabolism, cell coordination, interactions among molecules and \npathophysiologic"
+  },
+  {
+    "course_code": "BCH4301",
+    "course_name_malay": "Biokimia Tumbuhan",
+    "course_name_english": "Plant Biochemistry",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BCH3108",
+      "BCH3004"
+    ],
+    "description_malay": "Kursus ini merangkumi pengkelasan metabolit primer dan sekunder serta kepelbagaian sistem metabolik dalam tumbuhan. Integrasi laluan metabolik dalam tumbuhan dan pengawalannya dibincangkan",
+    "description_english": "This course encompasses classification of primary and secondary metabolites as well as various metabolic systems in plant. Metabolic integration in plants and its regulations are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4301 \nBiokimia Tumbuhan / Plant Biochemistry \n3(3+0) \nPrasyarat: BCH3108 atau BCH3004 \nKursus ini merangkumi pengkelasan metabolit primer dan sekunder serta kepelbagaian sistem \nmetabolik dalam tumbuhan. Integrasi laluan metabolik dalam tumbuhan dan pengawalannya \ndibincangkan \nThis course encompasses classification of primary and secondary metabolites as well as various \nmetabolic systems in plant. Metabolic integration in plants and its regulations are discussed."
+  },
+  {
+    "course_code": "BCH4302",
+    "course_name_malay": "Manipulasi Genetik Tumbuhan",
+    "course_name_english": "Plant Genetic Manipulation",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BCH4301"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai teknik manipulasi gen tumbuhan. Kesan penggunaan teknologi manipulasi gen tumbuhan kepada ekonomi, alam sekitar dan sosio-budaya dibincangkan. Manipulasi gen tumbuhan dijalankan.",
+    "description_english": "This course encompasses plant gene manipulation techniques. Implication of plant gene manipulation technologies towards economy, environment and sociocultural are discussed. Plant gene manipulation is conducted.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4302 \nManipulasi \nGenetik \nTumbuhan \n/ \nPlant \nGenetic \nManipulation \n3(2+1) \nPrasyarat: BCH4301 \nKursus ini merangkumi pelbagai teknik manipulasi gen tumbuhan. Kesan penggunaan teknologi \nmanipulasi gen tumbuhan kepada ekonomi, alam sekitar dan sosio-budaya dibincangkan. Manipulasi \ngen tumbuhan dijalankan. \nThis course encompasses plant gene manipulation techniques. Implication of plant gene manipulation \ntechnologies towards economy, environment and sociocultural are discussed. Plant gene "
+  },
+  {
+    "course_code": "BCH4303",
+    "course_name_malay": "Aplikasi Biokimia dalam Industri",
+    "course_name_english": "Industrial Applications of Biochemistry",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BCH3004",
+      "BCH3108"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep biokimia dalam penghasilan produk. Aplikasi biokimia dalam pelbagai industri seperti farmaseutika, kimia, makanan dan diagnostik dibincangkan. Kepentingan paten dan aspek keselamatan juga dihuraikan.",
+    "description_english": "This course encompasses biochemistry concepts in product manufacturing. Application of biochemistry in various industries such as pharmaceuticals, chemicals, food and diagnostic are discussed. The importance of patent and safety aspects are also described.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4303 \nAplikasi \nBiokimia \ndalam \nIndustri \n/ \nIndustrial \nApplications of Biochemistry \n3(3+0) \nPrasyarat: BCH3004 atau BCH3108 \nKursus ini merangkumi konsep biokimia dalam penghasilan produk. Aplikasi biokimia dalam pelbagai \nindustri seperti farmaseutika, kimia, makanan dan diagnostik dibincangkan. Kepentingan paten dan \naspek keselamatan juga dihuraikan. \nThis course encompasses biochemistry concepts in product manufacturing. Application of biochemistry \nin various industries such as pharm"
+  },
+  {
+    "course_code": "BCH4304",
+    "course_name_malay": "Biokimia Makanan",
+    "course_name_english": "Food Biochemistry",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BCH3108",
+      "BCH3004"
+    ],
+    "description_malay": "Kursus ini merangkumi ciri fisiko-kimia makanan dan komponen utamanya. Aktiviti mikrob, kaedah pengawetan makanan serta penggunaan enzim dalam teknologi makanan dibincangkan. Kesan tindak balas biokimia terhadap perubahan luaran serta nilai nutrisi makanan turut dibincangkan.",
+    "description_english": "This course encompasses physico-chemical properties of foods and their main components. Microbial activity, food preservation methods and the use of enzymes in food technology are discussed. Effects of biochemical reactions on appearance and the nutritional value of food are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4304 \nBiokimia Makanan / Food Biochemistry \n3(3+0) \nPrasyarat : BCH3108 atau BCH3004 \nKursus ini merangkumi ciri fisiko-kimia makanan dan komponen utamanya. Aktiviti mikrob, kaedah \npengawetan makanan serta penggunaan enzim dalam teknologi makanan dibincangkan. Kesan \ntindak balas biokimia terhadap perubahan luaran serta nilai nutrisi makanan turut dibincangkan. \nThis course encompasses physico-chemical properties of foods and their main components. Microbial \nactivity, food preservation meth"
+  },
+  {
+    "course_code": "BCH4305",
+    "course_name_malay": "Biokimia Pemakanan",
+    "course_name_english": "Nutritional Biochemistry",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BCH3108",
+      "BCH3004"
+    ],
+    "description_malay": "Kursus ini merangkumi peranan nutrien dalam fisiologi manusia dan haiwan. Keperluan pemakanan dan kesan ketidakseimbangan nutrien ke atas kesihatan manusia dan haiwan dibincangkan. Kaedah penilaian pemakanan turut dibincangkan.",
+    "description_english": "This course encompasses the role of nutrients in human and animal physiology. Nutritional requirements and effects of nutrient imbalance towards human and animal health are discussed. Dietary assessment methods are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4305 \nBiokimia Pemakanan / Nutritional Biochemistry \n3(3+0) \nPrasyarat: BCH3108 atau BCH3004 \nKursus ini merangkumi peranan nutrien dalam fisiologi manusia dan haiwan. Keperluan pemakanan dan \nkesan ketidakseimbangan nutrien ke atas kesihatan manusia dan haiwan dibincangkan. Kaedah \npenilaian pemakanan turut dibincangkan. \nThis course encompasses the role of nutrients in human and animal physiology. Nutritional requirements \nand effects of nutrient imbalance towards human and animal health ar"
+  },
+  {
+    "course_code": "BCH4306",
+    "course_name_malay": "Biokimia Tisu Haiwan",
+    "course_name_english": "Biochemistry of Animal Tissues",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BCH3108",
+      "BCH3004"
+    ],
+    "description_malay": "Kursus ini merangkumi proses biokimia di dalam pelbagai jenis tisu haiwan. Integrasi metabolisme di antara tisu dibincangkan. Patofisiologi yang berkaitan dengan biokimia tisu haiwan turut dibincangkan.",
+    "description_english": "This course encompasses biochemical processes in various tissues of animals. Metabolic integrations between tissues are discussed. Pathophysiological related to animal tissue biochemistry are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4306 \nBiokimia Tisu Haiwan / Biochemistry of Animal Tissues \n3(3+0) \nPrasyarat: BCH3108 atau BCH3004 \nKursus ini merangkumi proses biokimia di dalam pelbagai jenis tisu haiwan. Integrasi metabolisme di \nantara tisu dibincangkan. Patofisiologi yang berkaitan dengan biokimia tisu haiwan turut dibincangkan. \nThis course encompasses biochemical processes in various tissues of animals. Metabolic integrations \nbetween tissues are discussed. Pathophysiological related to animal tissue biochemistry a"
+  },
+  {
+    "course_code": "BCH4307",
+    "course_name_malay": "Biokimia Alam Sekitar",
+    "course_name_english": "Environmental Biochemistry",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BCH3108",
+      "BCH3004"
+    ],
+    "description_malay": "Kursus ini merangkumi proses penguraian jisim organik, rawatan air buangan dan penyesuaian mekanisme molekul terhadap persekitaran lampau. Kesan bioakumulasi, ketoksikan, rintangan pencemar persekitaran dan kepatogenan terhadap metabolisme sel, alam sekitar, ekonomi dan kesihatan dibincangkan",
+    "description_english": "This course encompasses the process of decomposition of organic matter, waste water treatment and the molecular mechanisms of adaptation to extreme environments. Effects of bioaccumulation, development of resistance to environmental contaminants and pathogenicity towards cellular metabolism, environment, economy and health are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4307 \nBiokimia Alam Sekitar/ Environmental Biochemistry \n3(3+0) \nPrasyarat:  BCH3108 atau BCH3004  \nKursus ini merangkumi proses penguraian jisim organik, rawatan air buangan dan penyesuaian \nmekanisme molekul terhadap persekitaran lampau. Kesan bioakumulasi, ketoksikan, rintangan \npencemar persekitaran dan kepatogenan terhadap metabolisme sel, alam sekitar, ekonomi dan \nkesihatan dibincangkan \nThis course encompasses the process of decomposition of organic matter, waste water treatment and \n"
+  },
+  {
+    "course_code": "BCH4309",
+    "course_name_malay": "Biokimia Pengangkutan dan Disposisi Ubatan",
+    "course_name_english": "Biochemistry of Drug Transportation and Disposition",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BCH3004",
+      "BCH3111"
+    ],
+    "description_malay": "Kursus ini merangkumi peranan yang dimainkan oleh pengangkut membran dalam pelupusan dan tindakan ubatan. Konsep utama mengenai interaksi pengangkut dengan metabolisme enzim serta interaksi antara ubatan dan makanan turut dihuraikan.",
+    "description_english": "This course encompases the role played by membrane transporters in drug disposition and action. The main concepts of transport interactions with drug metabolizing enzymes as well as interactions between drugs and food are also elaborated.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4309 \nBiokimia \nPengangkutan \ndan \nDisposisi \nUbatan \n/ \nBiochemistry of Drug Transportation and Disposition \n3(3+0) \nPrasyarat : BCH3004 atau BCH3111 \nKursus ini merangkumi peranan yang dimainkan oleh pengangkut membran dalam pelupusan dan \ntindakan ubatan. Konsep utama mengenai interaksi pengangkut dengan metabolisme enzim serta \ninteraksi antara ubatan dan makanan turut dihuraikan. \nThis course encompases the role played by membrane transporters in drug disposition and action. The \nmain co"
+  },
+  {
+    "course_code": "BCH4310",
+    "course_name_malay": "Biokimia Toksikologi Haiwan",
+    "course_name_english": "Biochemistry of Animal Toxicology",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BCH3004",
+      "BCH3111"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip asas penyerapan, pengedaran, metabolisme dan perkumuhan toksikan. Farmakokinetik, mekanisme dan prinsip toksikologi dibincangkan. Farmakogenetik yang berkaitan dengan pembangunan ubatan dan penilaian keselamatan juga ditekankan.",
+    "description_english": "This course encompasses the fundamental principles of absorption, distribution, metabolism and excretion of toxicants. The pharmacokinetics, mechanisms and toxicology principles are discussed. The pharmacogenetics related to drug development and safety evaluation is also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4310 \nBiokimia Toksikologi Haiwan / Biochemistry of Animal \nToxicology  \n3(3+0) \nPrasyarat: BCH3004 atau BCH3111 \nKursus ini merangkumi prinsip asas penyerapan, pengedaran, metabolisme dan perkumuhan toksikan. \nFarmakokinetik, mekanisme dan prinsip toksikologi dibincangkan. Farmakogenetik yang berkaitan \ndengan pembangunan ubatan dan penilaian keselamatan juga ditekankan. \nThis course encompasses the fundamental principles of absorption, distribution, metabolism and \nexcretion of toxicants. T"
+  },
+  {
+    "course_code": "BCH4311",
+    "course_name_malay": "Sains Data dalam Biokimia",
+    "course_name_english": "Data Science in Biochemistry",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BTC3005",
+      "BCH3004",
+      "BCH3111"
+    ],
+    "description_malay": "Kursus ini mengandungi pembelajaran berkenaan takrifan asas dan penggunaan data dalam biokimia. Kefahaman dan kemahiran bioanalitik, pengkelasan dan penggunaan data raya ditekankan. Komunikasi pengaplikasian sains data dalam biokimia turut dibincangkan.",
+    "description_english": "This course encompasses the learning of basic definition and application of data in biochemistry. Understanding and skills of bioanalysis, classification and use of big data are emphasized. Communication in data science application in biochemistry is also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4311 \nSains Data dalam Biokimia / Data Science in \nBiochemistry  \n3(3+0) \nPrasyarat: BTC3005 dan BCH3004 atau BCH3111 \nKursus ini mengandungi pembelajaran berkenaan takrifan asas dan penggunaan data dalam biokimia. \nKefahaman dan kemahiran bioanalitik, pengkelasan dan penggunaan data raya ditekankan. Komunikasi \npengaplikasian sains data dalam biokimia turut dibincangkan. \nThis course encompasses the learning of basic definition and application of data in biochemistry. \nUnderstanding and skil"
+  },
+  {
+    "course_code": "BCH4312",
+    "course_name_malay": "Biokimia Isyarat Tumbuhan",
+    "course_name_english": "Biochemistry of Plant Signaling",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BCH4301"
+    ],
+    "description_malay": "Kursus ini merangkumi transduksi isyarat dan pengawalannya dalam tumbuhan. Penglibatan fitohormon, pengutus isyarat kedua dan pengatur protein dalam setiap tranduksi isyarat dibincangkan. Cakap silang antara laluan tranduksi isyarat dalam pelbagai keadaan juga turut dihuraikan.",
+    "description_english": "This course encompasses signal transduction pathway and its regulation. Involvement of phytohormones, second messengers and protein regulators in each signal transduction pathway is discussed. Crosstalk between signal transduction pathways in various conditions is also explained.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4312 \nBiokimia Isyarat Tumbuhan / Biochemistry of Plant \nSignaling \n3(3+0) \nPrasyarat: BCH4301 \nKursus ini merangkumi transduksi isyarat dan pengawalannya dalam tumbuhan. Penglibatan \nfitohormon, pengutus isyarat kedua dan pengatur protein dalam setiap tranduksi isyarat dibincangkan. \nCakap silang antara laluan tranduksi isyarat dalam pelbagai keadaan juga turut dihuraikan. \nThis course encompasses signal transduction pathway and its regulation. Involvement of \nphytohormones, second messenger"
+  },
+  {
+    "course_code": "BCH4904",
+    "course_name_malay": "Pembelajaran Perkhidmatan dalam Biokimia",
+    "course_name_english": "Service Learning in Biochemistry",
+    "credits": "1(0+1)",
+    "prerequisites": [
+      "BCH3109",
+      "BCH3110",
+      "BCH3111"
+    ],
+    "description_malay": "Kursus ini merangkumi aktiviti di antara pelajar dan komuniti bagi meningkatkan kesedaran dan kefahaman komuniti tentang kepentingan biokimia dalam kehidupan seharian. Perkhidmatan komuniti berdasarkan aplikasi pengetahuan biokimia ditekankan. Kerjasama bagi membina pengetahuan sains di kalangan masyarakat turut ditekankan.",
+    "description_english": "This course encompases activities between students and communities to increase awareness and understanding of the importance of biochemistry in daily lives among communities. Community services through application of biochemistry knowledge are emphasized. Cooperation towards enhancing scientific knowledge among society is also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4904 \nPembelajaran Perkhidmatan dalam Biokimia/ Service \nLearning in Biochemistry \n1(0+1) \nPrasyarat: BCH3109 atau BCH3110 atau BCH3111 \nKursus ini merangkumi aktiviti di antara pelajar dan komuniti bagi meningkatkan kesedaran dan \nkefahaman komuniti tentang kepentingan biokimia dalam kehidupan seharian. Perkhidmatan komuniti \nberdasarkan aplikasi pengetahuan biokimia ditekankan. Kerjasama bagi membina pengetahuan sains \ndi kalangan masyarakat turut ditekankan. \nThis course encompases activit"
+  },
+  {
+    "course_code": "BCH4905",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "12(0+12)",
+    "prerequisites": [
+      "BCH3109",
+      "BCH3110",
+      "BCH3111"
+    ],
+    "description_malay": "Kursus ini mendedahkan pelajar kepada persekitaran kerja yang sebenar di industri/organisasi selama 24 minggu. Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan.",
+    "description_english": "This course introduces students to the real working environment in industries/ organizations. Training includes application of the theoretical and practical aspects that have been studied with current practices in the workplace. Problem solving and communication skills are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4905 \nLatihan Industri / Industrial Training \n12(0+12) \nPrasyarat: BCH3109 atau BCH3110 atau BCH3111 \nKursus ini mendedahkan pelajar kepada persekitaran kerja yang sebenar di industri/organisasi selama \n24 minggu. Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan \nsemasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan. \nThis course introduces students to the real working environment in industries/ organizations. Tr"
+  },
+  {
+    "course_code": "BCH4906",
+    "course_name_malay": "Topik Khas dalam Biokimia",
+    "course_name_english": "Current Topics in Biochemistry",
+    "credits": "1(1+0)",
+    "prerequisites": [
+      "BCH3109",
+      "BCH3110",
+      "BCH3111"
+    ],
+    "description_malay": "Kursus ini memberi tumpuan kepada masalah, isu dan trend terpilih berkaitan bidang biokimia. Penerokaan isu penting dan hala tuju baharu dibuat melalui analisis isu kritikal dan permasalahan bagi mencadangkan penyelesaian. Peluang perniagaan dalam pengkomersilan produk berkaitan bidang biokimia dibincangkan.",
+    "description_english": "This course focuses on selected problems, issues and trends related to the biochemistry field. Exploration of key issues and new direction is conducted through analysis of critical issues and problems to recommend solutions. Business opportunities in commercialization of products related to the biochemistry field is discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4906 \nTopik Khas dalam Biokimia / Current Topics in \nBiochemistry \n1(1+0) \nPrasyarat: BCH3109 atau BCH3110 atau BCH3111 \nKursus ini memberi tumpuan kepada masalah, isu dan trend terpilih berkaitan bidang biokimia. \nPenerokaan isu penting dan hala tuju baharu dibuat melalui analisis isu kritikal dan permasalahan bagi \nmencadangkan penyelesaian. Peluang perniagaan dalam pengkomersilan produk berkaitan bidang \nbiokimia dibincangkan. \nThis course focuses on selected problems, issues and trends re"
+  },
+  {
+    "course_code": "BCH4959",
+    "course_name_malay": "Disertasi Bacelor",
+    "course_name_english": "Bachelor Dissertation",
+    "credits": "6(0+6)",
+    "prerequisites": [
+      "BCH3109",
+      "BCH3110",
+      "BCH3111"
+    ],
+    "description_malay": "Kursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk sesuatu projek penyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui reka bentuk, pengumpulan dan analisis data yang sesuai diberi penekanan.",
+    "description_english": "This course covers the preparation of proposal, implementation and scientific writing of research project. Scientific approach to generate data systematically through appropriate design, data collection and analysis are emphasized.",
+    "department": "Jabatan Mikrobiologi",
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BCH4959 \nDisertasi Bacelor / Bachelor Dissertation \n6(0+6) \nPrasyarat: BCH3109 atau BCH3110 atau BCH3111 \nKursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk sesuatu \nprojek penyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui reka bentuk, \npengumpulan dan analisis data yang sesuai diberi penekanan. \nThis course covers the preparation of proposal, implementation and scientific writing of research project. \nScientific approach to generate"
+  },
+  {
+    "course_code": "BMY3001",
+    "course_name_malay": "Mikrobiologi",
+    "course_name_english": "Microbiology",
+    "credits": "4(4+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi beberapa aspek mikrobiologi asas termasuk organisasi dan struktur mikrob, mikroskopi, sistematik dan ekologi mikrob. Pengkelasan dan pengenalpastian mikroorganisma juga dibincangkan.",
+    "description_english": "This course encompasses several aspects of basic microbiology including the microbial organization and structure, microscopy, microbial systematics and ecology. Classification and identification of microorganisms are also described.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY3001 \nMikrobiologi / Microbiology \n4(4+0) \nPrasyarat: Tiada \nKursus ini merangkumi beberapa aspek mikrobiologi asas termasuk organisasi dan struktur mikrob, \nmikroskopi, sistematik dan ekologi mikrob. Pengkelasan dan pengenalpastian mikroorganisma juga \ndibincangkan. \nThis course encompasses several aspects of basic microbiology including the microbial organization \nand structure, microscopy, microbial systematics and ecology. Classification and identification of \nmicroorganisms are also desc"
+  },
+  {
+    "course_code": "BMY3204",
+    "course_name_malay": "Teknik Asas Mikrobiologi",
+    "course_name_english": "Basic Microbiology Techniques",
+    "credits": "3(1+2)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi teknik asas mikrobiologi dalam mengendalikan kultur mikroorganisma. Penggunaan mikroskop dan pelbagai jenis kaedah pewarnaan ditekankan. Keperluan fizikal dan kimia dalam pertumbuhan mikroorganisma, serta enumerasi mikroorganisma juga dibincangkan.",
+    "description_english": "This course encompasses basic microbiology techniques in handling microbial cultures. The use of microscope and various staining techniques are emphasized. Physical and chemical requirements in microbial growth and enumeration techniques are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY3204 \nTeknik Asas Mikrobiologi / Basic Microbiology \nTechniques \n3(1+2) \nPrasyarat: Tiada \nKursus ini merangkumi teknik asas mikrobiologi dalam mengendalikan kultur mikroorganisma. \nPenggunaan mikroskop dan pelbagai jenis kaedah pewarnaan ditekankan. Keperluan fizikal dan kimia \ndalam pertumbuhan mikroorganisma, serta enumerasi mikroorganisma juga dibincangkan. \nThis course encompasses basic microbiology techniques in handling microbial cultures. The use of \nmicroscope and various staining te"
+  },
+  {
+    "course_code": "BMY3205",
+    "course_name_malay": "Teknik Pencirian Mikroorganisma",
+    "course_name_english": "Techniques in Microbial Characterization",
+    "credits": "3(1+2)",
+    "prerequisites": [
+      "BMY3204"
+    ],
+    "description_malay": "Kursus ini merangkumi analisis biokimia untuk pengenalpastian mikroorganisma dari pelbagai sumber. Pelbagai teknik dalam pengenalpastian mikrob dan pengiraan virus dijalankan. Kesan faktor fizikal dan kimia terhadap pertumbuhan mikroorganisma juga dikaji.",
+    "description_english": "This course encompasses biochemical tests for the identification of microorganisms from various sources. Techniques in microbial identification and virus enumeration are conducted. Effects of physical and chemical factors on microbial growth are also studied.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY3205 \nTeknik Pencirian Mikroorganisma /Techniques in \nMicrobial Characterization \n3(1+2) \nPrasyarat: BMY3204 \nKursus ini merangkumi analisis biokimia untuk pengenalpastian mikroorganisma dari pelbagai sumber. \nPelbagai teknik dalam pengenalpastian mikrob dan pengiraan virus dijalankan. Kesan faktor fizikal dan \nkimia terhadap pertumbuhan mikroorganisma juga dikaji. \nThis course encompasses biochemical tests for the identification of microorganisms from various \nsources. Techniques in microbia"
+  },
+  {
+    "course_code": "BMY3206",
+    "course_name_malay": "Teknik Mikrobiologi Lanjutan",
+    "course_name_english": "Advanced Microbiological Techniques",
+    "credits": "4(1+3)",
+    "prerequisites": [
+      "BMY3204"
+    ],
+    "description_malay": "Kursus ini merangkumi beberapa teknik lanjutan dalam mikrobiologi yang menekankan hubungkait mikroorganisma seperti kulat, bakteria anaerobik, dan virus dengan persekitaran. Pelbagai teknik pertumbuhan dan kuantifikasi mikroorganisma ditekankan.",
+    "description_english": "This course encompasses several techniques in microbiology that emphasises the connection of microorganisms such as fungi, anaerobic bacteria, and virus with environment. Several cultural and quantification techniques of microorganism are highlighted.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY3206 \nTeknik \nMikrobiologi \nLanjutan \n/ \nAdvanced \nMicrobiological Techniques  \n4(1+3) \nPrasyarat: BMY3204 \nKursus ini merangkumi beberapa teknik lanjutan dalam mikrobiologi yang menekankan hubungkait \nmikroorganisma seperti kulat, bakteria anaerobik, dan virus dengan persekitaran. Pelbagai teknik \npertumbuhan dan kuantifikasi mikroorganisma ditekankan. \nThis course encompasses several techniques in microbiology that emphasises the connection of \nmicroorganisms such as fungi, anaerobic bacter"
+  },
+  {
+    "course_code": "BMY4202",
+    "course_name_malay": "Teknik Khas dalam Mikrobiologi",
+    "course_name_english": "Specialise Techniques in Microbiology",
+    "credits": "4(1+3)",
+    "prerequisites": [
+      "BMY3206"
+    ],
+    "description_malay": "Kursus ini merangkumi teknik khas yang menekankan peranan mikroorganisma dalam kehidupan harian. Kegunaan prinsip imunologi dalam teknik diagnostik klinikal dan kaedah bioinformatik dalam menganalisis fungsi mikroorganisma dibincangkan. Teknik penanaman cendawan, pengkulturan sel haiwan dan penghasilan makanan melalui fermentasi juga ditekankan.",
+    "description_english": "This course encompasses special techniques that emphasize the role of microorganisms in daily life. The application of immunological principles in clinical diagnostic techniques and bioinformatics methods in analyzing the function of microorganisms are discussed. Techniques of mushroom cultivation, animal cell culturing and food production through fermentation are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4202 \nTeknik \nKhas \ndalam \nMikrobiologi \n/ \nSpecialise \nTechniques in Microbiology  \n4(1+3) \nPrasyarat: BMY3206 \nKursus ini merangkumi teknik khas yang menekankan peranan mikroorganisma dalam kehidupan \nharian. Kegunaan prinsip imunologi dalam teknik diagnostik klinikal dan kaedah bioinformatik dalam \nmenganalisis fungsi mikroorganisma dibincangkan. Teknik penanaman cendawan, pengkulturan sel \nhaiwan dan penghasilan makanan melalui fermentasi juga ditekankan. \nThis course encompasses special "
+  },
+  {
+    "course_code": "BMY4302",
+    "course_name_malay": "Virologi",
+    "course_name_english": "Virology",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BMY3001"
+    ],
+    "description_malay": "Kursus ini merangkumi pencirian virus termasuk prion dan viroid. Pengkelasan dan taksonomi virus diterangkan. Tindak balas virus-sel perumah, epidemiologi dan kepatogenan dihuraikan. Etika dan biokeselamatan juga dibincangkan.",
+    "description_english": "This course encompasses characterization of viruses including prions and viroids. Classification and taxonomy of viruses are described. Virus-host cell interactions, epidemiology and pathogenicity are described. Ethics and biosafety will also be discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4302 \nVirologi / Virology \n3(3+0) \nPrasyarat: BMY3001 \nKursus ini merangkumi pencirian virus termasuk prion dan viroid. Pengkelasan dan taksonomi virus \nditerangkan. Tindak balas virus-sel perumah, epidemiologi dan kepatogenan dihuraikan. Etika dan \nbiokeselamatan juga dibincangkan. \nThis course encompasses characterization of viruses including prions and viroids. Classification and \ntaxonomy of viruses are described. Virus-host cell interactions, epidemiology and pathogenicity are \ndescribed"
+  },
+  {
+    "course_code": "BMY4303",
+    "course_name_malay": "Mikologi",
+    "course_name_english": "Micology",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BMY3001"
+    ],
+    "description_malay": "Kursus ini merangkumi pengkelasan, struktur, pertumbuhan dan pembiakan, genetik dan interaksi fungus sebagai saprofit dan parasit. Peranan fungus dalam pencegahan dan pengawalan pertumbuhan mikrob dibincangkan.",
+    "description_english": "This course encompasses classification, structure, growth and reproduction, genetics and interactions of fungi as saprophytes and parasites. The roles of fungi in the prevention and control of microbial growth are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4303 \nMikologi / Micology \n3(3+0) \nPrasyarat: BMY3001 \nKursus ini merangkumi pengkelasan, struktur, pertumbuhan dan pembiakan, genetik dan interaksi \nfungus sebagai saprofit dan parasit. Peranan fungus dalam pencegahan dan pengawalan pertumbuhan \nmikrob dibincangkan. \nThis course encompasses classification, structure, growth and reproduction, genetics and interactions \nof fungi as saprophytes and parasites. The roles of fungi in the prevention and control of microbial growth \nare discussed."
+  },
+  {
+    "course_code": "BMY4304",
+    "course_name_malay": "Imunologi",
+    "course_name_english": "Immunology",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BMY3001"
+    ],
+    "description_malay": "Kursus ini merangkumi pengkelasan, struktur, pertumbuhan dan pembiakan, genetik dan interaksi fungus sebagai saprofit dan parasit. Peranan fungus dalam pencegahan dan pengawalan pertumbuhan mikrob dibincangkan.",
+    "description_english": "This course encompasses several concepts in immunology. Immune system regulations and their roles in diseases are discussed. Research and current developments in immunology are described.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4304 \nImunologi / Immunology \n3(3+0) \nPrasyarat: BMY3001 \nKursus ini merangkumi pengkelasan, struktur, pertumbuhan dan pembiakan, genetik dan interaksi \nfungus sebagai saprofit dan parasit. Peranan fungus dalam pencegahan dan pengawalan pertumbuhan \nmikrob dibincangkan. \nThis course encompasses several concepts in immunology. Immune system regulations and their roles \nin diseases are discussed. Research and current developments in immunology are described."
+  },
+  {
+    "course_code": "BMY4305",
+    "course_name_malay": "Ekologi Mikrob",
+    "course_name_english": "Microbial Ecology",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BMY3001"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai aspek ekologi mikrob yang melibatkan hubungan dan interaksi sesuatu mikroorganisma dengan persekitarannya. Kaedah dan teknologi yang digunakan untuk mengkaji mikrob dan aktiviti dibincangkan. Kepentingan ekonomi dan biodiversiti populasi mikrob juga dihuraikan.",
+    "description_english": "This course encompasses various aspects of microbial ecology which involve the interaction between microorganisms with their environment. Methods and technology used to study microbes and their activities are discussed. The economic importance and biodiversity of microbial population are also elaborated.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4305 \nEkologi Mikrob / Microbial Ecology \n3(3+0) \nPrasyarat: BMY3001 \nKursus ini merangkumi pelbagai aspek ekologi mikrob yang melibatkan hubungan dan interaksi sesuatu \nmikroorganisma dengan persekitarannya. Kaedah dan teknologi yang digunakan untuk mengkaji mikrob \ndan aktiviti dibincangkan. Kepentingan ekonomi dan biodiversiti populasi mikrob juga dihuraikan. \nThis course encompasses various aspects of microbial ecology which involve the interaction between \nmicroorganisms with their envir"
+  },
+  {
+    "course_code": "BMY4306",
+    "course_name_malay": "Mikroorganisma dan Penyakit",
+    "course_name_english": "Microorganism and Disease",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BMY3001"
+    ],
+    "description_malay": "Kursus ini menekankan kepentingan mikrobiologi dalam perubatan. Interaksi antara bakteria, virus, dan kulat patogenik dengan hos dibincangkan. Diagnosis, rawatan dan pencegahan jangkitan dihuraikan.",
+    "description_english": "This course emphasizes the importance of microbiology in medicine. Interactions between bacterial, viral, and fungal pathogens with their hosts are discussed. Diagnosis, treatment and prevention of infections are described.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4306 \nMikroorganisma dan Penyakit / Microorganism and \nDisease \n3(3+0) \nPrasyarat: BMY3001 \nKursus ini menekankan kepentingan mikrobiologi dalam perubatan. Interaksi antara bakteria, virus, dan \nkulat patogenik dengan hos dibincangkan. Diagnosis, rawatan dan pencegahan jangkitan dihuraikan. \nThis course emphasizes the importance of microbiology in medicine. Interactions between bacterial, \nviral, and fungal pathogens with their hosts are discussed. Diagnosis, treatment and prevention of \ninfe"
+  },
+  {
+    "course_code": "BMY4307",
+    "course_name_malay": "Fisiologi Kulat",
+    "course_name_english": "Fungal Physiology",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BMY4303"
+    ],
+    "description_malay": "Kursus ini merangkumi komposisi kimia dan struktur molekular sel kulat. Keperluan fizikal dan kimia untuk pertumbuhan kulat, metabolisme primer dan sekunder serta genetik dan perkembangan spora turut dibincangkan. Kerintangan dan mekanisme pertahanan terhadap fungisid dihuraikan.",
+    "description_english": "This course encompasses the chemical composition and molecular structures of fungal cells. The physical and chemical requirements for fungal growth, primary and secondary metabolisms, genetics and spore development are discussed. Resistance and defensive mechanisms against fungicides are described.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4307 \nFisiologi Kulat / Fungal Physiology \n3(3+0) \nPrasyarat: BMY4303 \nKursus ini merangkumi komposisi kimia dan struktur molekular sel kulat. Keperluan fizikal dan kimia \nuntuk pertumbuhan kulat, metabolisme primer dan sekunder serta genetik dan perkembangan spora \nturut dibincangkan. Kerintangan dan mekanisme pertahanan terhadap fungisid dihuraikan. \nThis course encompasses the chemical composition and molecular structures of fungal cells. The \nphysical and chemical requirements for fungal "
+  },
+  {
+    "course_code": "BMY4309",
+    "course_name_malay": "Mikrobiologi Makanan Gunaan",
+    "course_name_english": "Applied Food Microbiology",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BMY3001"
+    ],
+    "description_malay": "Kursus ini merangkumi isu semasa mikrobiologi makanan gunaan termasuk kemunculan patogen bawaan makanan baharu, kaedah pantas pengenalpastian dan pencirian mikroorganisma makanan. Kesan komposisi dan kaedah pengawetan makanan dihuraikan. Ciri fungsian mikroorganisma makanan terpilih dan aplikasi dalam industri dibincangkan.",
+    "description_english": "This course encompasses current issues in applied food microbiology which include new and emerging food-borne pathogens, rapid identification and characterization of food microorganisms. The effects of food compositions and preservation techniques are described. Functional properties of selected food microorganisms and their industrial applications are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4309 \nMikrobiologi \nMakanan \nGunaan \n/ \nApplied \nFood \nMicrobiology \n3(3+0) \nPrasyarat: BMY3001 \nKursus ini merangkumi isu semasa mikrobiologi makanan gunaan termasuk kemunculan patogen \nbawaan makanan baharu, kaedah pantas pengenalpastian dan pencirian mikroorganisma makanan. \nKesan komposisi dan kaedah pengawetan makanan dihuraikan. Ciri fungsian mikroorganisma makanan \nterpilih dan aplikasi dalam industri dibincangkan. \nThis course encompasses current issues in applied food microbiology wh"
+  },
+  {
+    "course_code": "BMY4310",
+    "course_name_malay": "Genetik Mikrob",
+    "course_name_english": "Microbial Genetics",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BMY3001"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai aspek genetik mikrob seperti replikasi DNA, pengawalan pengekspresan gen, mekanisme pemindahan DNA dan rekombinasi genetik. Unsur dan mekanisme transposisi serta teknik molekul dalam genetik mikrob dan gunaan dibincangkan.",
+    "description_english": "This course encompases various aspects of microbial genetics such as DNA replication, control of gene expression, mechanisms of DNA transfer and genetic recombination. Elements and mechanisms of transposition as well as molecular techniques in microbial and applied genetics are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4310 \nGenetik Mikrob / Microbial Genetics \n4(3+1) \nPrasyarat: BMY3001 \nKursus ini merangkumi pelbagai aspek genetik mikrob seperti replikasi DNA, pengawalan \npengekspresan gen, mekanisme pemindahan DNA dan rekombinasi genetik. Unsur dan mekanisme \ntransposisi serta teknik molekul dalam genetik mikrob dan gunaan dibincangkan. \nThis course encompases various aspects of microbial genetics such as DNA replication, control of gene \nexpression, mechanisms of DNA transfer and genetic recombination. "
+  },
+  {
+    "course_code": "BMY4311",
+    "course_name_malay": "Bakteriologi",
+    "course_name_english": "Bacteriology",
+    "credits": "4(4+0)",
+    "prerequisites": [
+      "BMY3001"
+    ],
+    "description_malay": "Kursus ini merangkumi pengkelasan, pencirian, ekologi dan aktiviti pelbagai jenis bakteria. Struktur dan aktiviti metabolik bakteria, metabolisme berpusat dan tindak balas penjanaan tenaga bakteria dihuraikan. Biogenesis dan fungsi makromolekul serta integrasi proses metabolik dibincangkan. Kegunaan bakteria dalam industri dan pertanian turut diberi penekanan.",
+    "description_english": "This course encompasses classification, characterisation, ecology and activities of various types of bacteria. The bacterial structure, metabolic activities, central metabolism and energy production reactions are described. Macromolecular biogenesis and functions as well as the integration of bacterial metabolic processes in are discussed. The use of bacteria in the industries and agriculture are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4311 \nBakteriologi / Bacteriology \n4(4+0) \nPrasyarat: BMY3001 \nKursus ini merangkumi pengkelasan, pencirian, ekologi dan aktiviti pelbagai jenis bakteria. Struktur dan \naktiviti metabolik bakteria, metabolisme berpusat dan tindak balas penjanaan tenaga bakteria \ndihuraikan. Biogenesis dan fungsi makromolekul serta integrasi proses metabolik dibincangkan. \nKegunaan bakteria dalam industri dan pertanian turut diberi penekanan. \nThis course encompasses classification, characterisation, ecology a"
+  },
+  {
+    "course_code": "BMY4902",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "12(0+12)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini mendedahkan pelajar kepada persekitaran kerja yang sebenar di industri/organisasi. Latihan industri ini dijalankan selama 24 minggu. Ianya merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan.",
+    "description_english": "This course introduces students to real working environment in industries/organizations. This industrial training is conducted for 24 weeks. Training includes application of the theoretical and practical aspects that have been studied with current practices in the workplace. Problem solving and communication skills are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4902 \nLatihan Industri / Industrial Training \n12(0+12) \nPrasyarat: Dengan kebenaran jabatan \nKursus ini mendedahkan pelajar kepada persekitaran kerja yang sebenar di industri/organisasi. Latihan \nindustri ini dijalankan selama 24 minggu. Ianya merangkumi aplikasi aspek teori dan praktikal yang telah \ndipelajari dengan amalan semasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi \nturut diberi penekanan. \nThis course introduces students to real working environment in industries"
+  },
+  {
+    "course_code": "BMY4904",
+    "course_name_malay": "Pembelajaran Perkhidmatan dalam Mikrobiologi",
+    "course_name_english": "Service Learning in Microbiology",
+    "credits": "1(0+1)",
+    "prerequisites": [
+      "BMY3206"
+    ],
+    "description_malay": "Kursus ini merangkumi aktiviti bagi meningkatkan kesedaran dan kefahaman komuniti tentang kepentingan mikroorganisma dalam kehidupan harian. Pengetahuan mikrobiologi diaplikasikan melalui aktiviti kerjasama dengan masyarakat luar.",
+    "description_english": "This course encompasses activities to increase awareness and understanding of the community on the importance of microbiology in daily lives. Knowledge in microbiology is applied through joined activities with the community.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4904 \nPembelajaran Perkhidmatan dalam Mikrobiologi / \nService Learning in Microbiology \n1(0+1) \nPrasyarat: BMY3206 \nKursus ini merangkumi aktiviti bagi meningkatkan kesedaran dan kefahaman komuniti tentang \nkepentingan mikroorganisma dalam kehidupan harian. Pengetahuan mikrobiologi diaplikasikan melalui \naktiviti kerjasama dengan masyarakat luar. \nThis course encompasses activities to increase awareness and understanding of the community on the \nimportance of microbiology in daily lives. Know"
+  },
+  {
+    "course_code": "BMY4959",
+    "course_name_malay": "Disertasi Bacelor",
+    "course_name_english": "Bachelor Dissertation",
+    "credits": "6(0+6)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk projek penyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui rekabentuk, pengumpulan dan analisis data yang sesuai diberi penekanan.",
+    "description_english": "This course covers the preparation of proposals, implementation and scientific writing of research projects. Scientific approaches to generate data systematically through appropriate design, data collection and analysis are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4959 \nDisertasi Bacelor / Bachelor Dissertation \n6(0+6) \nPrasyarat: Tiada \nKursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk projek \npenyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui rekabentuk, \npengumpulan dan analisis data yang sesuai diberi penekanan. \nThis course covers the preparation of proposals, implementation and scientific writing of research \nprojects. Scientific approaches to generate data systematically through appr"
+  },
+  {
+    "course_code": "BMY4991",
+    "course_name_malay": "Seminar",
+    "course_name_english": "Seminar",
+    "credits": "1(0+1)",
+    "prerequisites": [
+      "BMY3206"
+    ],
+    "description_malay": "Kursus ini merangkumi penyediaan dan penyampaian seminar secara berkesan mengenai projek penyelidikan dalam bidang mikrobiologi. Sorotan literatur, penyusunan dan pembentangan maklumat mikrobiologi dilakukan dalam bentuk seminar.",
+    "description_english": "This course encompasses the effective preparation and delivery of seminars on research project in microbiology. Literature review, organization and presentation of microbiology information is done in the form of seminars.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4991 \nSeminar / Seminar \n1(0+1) \nPrasyarat: BMY3206 \nKursus ini merangkumi penyediaan dan penyampaian seminar secara berkesan mengenai projek \npenyelidikan dalam bidang mikrobiologi. Sorotan literatur, penyusunan dan pembentangan maklumat \nmikrobiologi dilakukan dalam bentuk seminar. \nThis course encompasses the effective preparation and delivery of seminars on research project in \nmicrobiology. Literature review, organization and presentation of microbiology information is done in the \nform "
+  },
+  {
+    "course_code": "BMY4993",
+    "course_name_malay": "Komunikasi Sains",
+    "course_name_english": "Science Communication",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi kemahiran dan teknik komunikasi untuk menyampaikan maklumat sains secara lisan dan bertulis kepada khalayak sasaran. Penyampaian maklumat sains melalui seni juga diterapkan. Pengurusan maklumat dan pengenalpastian kredibiliti sumber maklumat juga ditekankan.",
+    "description_english": "This course covers communication skills and techniques for conveying scientific information orally and in written presentations to the targeted audience. Delivery of science through arts is also embedded. Information management and identification of information source credibility are also emphasised.",
+    "department": "Jabatan Teknologi Bioproses",
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BMY4993 \nKomunikasi Sains / Science Communication \n3(3+0) \nPrasyarat: Tiada \nKursus ini merangkumi kemahiran dan teknik komunikasi untuk menyampaikan maklumat sains secara \nlisan dan bertulis kepada khalayak sasaran. Penyampaian maklumat sains melalui seni juga diterapkan. \nPengurusan maklumat dan pengenalpastian kredibiliti sumber maklumat juga ditekankan. \nThis course covers communication skills and techniques for conveying scientific information orally and \nin written presentations to the tar"
+  },
+  {
+    "course_code": "BTC3000",
+    "course_name_malay": "Kimia Biofizikal",
+    "course_name_english": "Biophysical Chemistry",
+    "credits": "3(2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip kimia biofizikal yang berkaitan dengan sains biologi. Pengetahuan asas kimia biofizikal berkaitan dengan biomakromolekul dan interaksi fizikalnya dihuraikan. Aplikasi teknik kuantitatif dalam pengukuran ciri fisiko-kimia biomolekul turut dibincangkan.",
+    "description_english": "This course encompasses principles of biophysical chemistry related to life science. Fundamental knowledge of biophysical chemistry related to biomacromolecules and their physical interaction is elaborated. The application of quantitative techniques in the measurement of physico-chemical properties of biomolecules is also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3000 \nKimia Biofizikal / Biophysical Chemistry \n3(2+1) \nPrasyarat: Tiada \nKursus ini merangkumi prinsip kimia biofizikal yang berkaitan dengan sains biologi. Pengetahuan asas \nkimia biofizikal berkaitan dengan biomakromolekul dan interaksi fizikalnya dihuraikan. Aplikasi teknik \nkuantitatif dalam pengukuran ciri fisiko-kimia biomolekul turut dibincangkan. \nThis course encompasses principles of biophysical chemistry related to life science. Fundamental \nknowledge of biophysical chemistry relat"
+  },
+  {
+    "course_code": "BTC3001",
+    "course_name_malay": "Pengenalan Kepada Bioteknologi",
+    "course_name_english": "Introduction to Biotechnology",
+    "credits": "2(2+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pengenalan asas kepada pelbagai bidang bioteknologi. Kemajuan dan isu terkini dalam bidang bioteknologi turut dibincangkan secara pembentangan seminar.",
+    "description_english": "This course encompasses the introduction on various biotechnology fields. Recent advances and issues in biotechnology will also be discussed through seminar presentation.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3001 \nPengenalan Kepada Bioteknologi / Introduction to \nBiotechnology \n2(2+0) \nPrasyarat: Tiada \nKursus ini merangkumi pengenalan asas kepada pelbagai bidang bioteknologi. Kemajuan dan isu terkini \ndalam bidang bioteknologi turut dibincangkan secara pembentangan seminar. \nThis course encompasses the introduction on various biotechnology fields. Recent advances and issues \nin biotechnology will also be discussed through seminar presentation."
+  },
+  {
+    "course_code": "BTC3002",
+    "course_name_malay": "Komersialisasi dan Isu Semasa Bioteknologi",
+    "course_name_english": "Commercialisation and Current Issues In Biotechnology",
+    "credits": "2(2+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi konsep dan langkah dalam pengkomersilan produk bioteknologi. Topik terkini dan kemajuan yang berkaitan dengan pengkomersilan produk bioteknologi turut dibincangkan.",
+    "description_english": "This course encompasses concept and steps in the commercialization of biotechnology products. Current topics and latest development related to commercialization of biotechnology products are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3002 \nKomersialisasi \ndan \nIsu \nSemasa \nBioteknologi \n/ \nCommercialisation and Current Issues In Biotechnology \n2(2+0) \nPrasyarat: Tiada \nKursus ini merangkumi konsep dan langkah dalam pengkomersilan produk bioteknologi. Topik terkini \ndan kemajuan yang berkaitan dengan pengkomersilan produk bioteknologi turut dibincangkan. \nThis course encompasses concept and steps in the commercialization of biotechnology products. \nCurrent topics and latest development related to commercialization of biote"
+  },
+  {
+    "course_code": "BTC3003",
+    "course_name_malay": "Instrumentasi dalam Penyelidikan Bioteknologi",
+    "course_name_english": "Instrumentation in Biotechnology Research",
+    "credits": "3(2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip operasi dan cara penggunaan instrumen saintifik dalam penyelidikan bioteknologi. Kaedah interpretasi data penyelidikan yang terhasil dari kajian saintifik terpilih yang dijalankan juga dibincangkan.",
+    "description_english": "This course encompasses the principles of scientific instrument operation in biotechnology research. Method for research data interpretation resulting from the selected scientific experiment is also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3003 \nInstrumentasi \ndalam \nPenyelidikan \nBioteknologi \n/ \nInstrumentation in Biotechnology Research \n \n3(2+1) \nPrasyarat: Tiada \nKursus ini merangkumi prinsip operasi dan cara penggunaan instrumen saintifik dalam penyelidikan \nbioteknologi. Kaedah interpretasi data penyelidikan yang terhasil dari kajian saintifik terpilih yang \ndijalankan juga dibincangkan. \nThis course encompasses the principles of scientific instrument operation in biotechnology research. \nMethod for research data interpre"
+  },
+  {
+    "course_code": "BTC3004",
+    "course_name_malay": "Penulisan Saintifik dalam Bioteknologi",
+    "course_name_english": "Scientific Writing in Biotechnology",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi kaedah untuk mencari dan menilai maklumat bidang bioteknologi daripada pelbagai sumber untuk penulisan saintifik. Beberapa manuskrip terpilih juga dibincangkan.",
+    "description_english": "This course encompasses methods to search and evaluate information related to the biotechnology field from various sources for scientific writing. Several selected manuscripts are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3004 \nPenulisan Saintifik dalam Bioteknologi / Scientific \nWriting in Biotechnology \n3(3+0) \nPrasyarat: Tiada \nKursus ini merangkumi kaedah untuk mencari dan menilai maklumat bidang bioteknologi daripada \npelbagai sumber untuk penulisan saintifik. Beberapa manuskrip terpilih juga dibincangkan. \nThis course encompasses methods to search and evaluate information related to the biotechnology field \nfrom various sources for scientific writing. Several selected manuscripts are also discussed. \n \n "
+  },
+  {
+    "course_code": "BTC3005",
+    "course_name_malay": "Statistik dan Biometri dalam Bioteknologi",
+    "course_name_english": "Statistics and Biometrics in Biotechnology",
+    "credits": "3(2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi kaedah penganalisisan data dan mereka bentuk eksperimen bioteknologi. Statistik diskriptif dan inferensi, analisis univariat dan multivariat, ujian keertian dan pengurusan ralat ke atas set data, dan perlombongan data dari keputusan eksperimen multi dimensi juga dibincangkan.",
+    "description_english": "This course encompasses methods of data analysis and biotechnology experimental design. Descriptive and inferential statistics, univariate and multivariate analysis, significance tests and management of error on dataset, and data mining from multi-dimensional experimental results are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3005 \nStatistik dan Biometri dalam Bioteknologi / Statistics \nand Biometrics in Biotechnology \n3(2+1) \nPrasyarat: Tiada \nKursus ini merangkumi kaedah penganalisisan data dan mereka bentuk eksperimen bioteknologi. \nStatistik diskriptif dan inferensi, analisis univariat dan multivariat, ujian keertian dan pengurusan ralat \nke atas set data, dan perlombongan data dari keputusan eksperimen multi dimensi juga dibincangkan.   \nThis course encompasses methods of data analysis and biotechnology exper"
+  },
+  {
+    "course_code": "BTC3101",
+    "course_name_malay": "Teknologi Enzim",
+    "course_name_english": "Enzyme Technology",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BCH3004",
+      "BCH3108"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek penghasilan, pengekstrakan dan penulenan enzim intrasel dan ekstrasel. Penggunaan enzim dalam pelbagai bidang turut dibincangkan.",
+    "description_english": "This course encompasses various aspects of production, extraction and purification of intracellular and extracellular enzymes. The use of enzyme in various fields is also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3101 \nTeknologi Enzim / Enzyme Technology \n4(3+1) \nPrasyarat: BCH3004 atau BCH3108 \nKursus ini merangkumi aspek penghasilan, pengekstrakan dan penulenan enzim intrasel dan ekstrasel. \nPenggunaan enzim dalam pelbagai bidang turut dibincangkan. \nThis course encompasses various aspects of production, extraction and purification of intracellular and \nextracellular enzymes. The use of enzyme in various fields is also discussed."
+  },
+  {
+    "course_code": "BTC3201",
+    "course_name_malay": "Teknologi Fermentasi",
+    "course_name_english": "Fermentation Technology",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BMY3001"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai aspek penting di dalam teknologi fermentasi yang melibatkan langkah sebelum dan semasa proses fermentasi serta analisis selepas proses fermentasi. Aplikasi teknologi fermentasi di dalam industri dibincangkan.",
+    "description_english": null,
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3201 \nTeknologi Fermentasi / Fermentation Technology \n4(3+1) \nPrasyarat: BMY3001 \nKursus ini merangkumi pelbagai aspek  penting  di  dalam teknologi  fermentasi  yang  melibatkan  \nlangkah  sebelum dan semasa  proses  fermentasi  serta  analisis   selepas  proses fermentasi.  Aplikasi \nteknologi fermentasi di  dalam  industri dibincangkan. \nKursus ini  merangkumi  pelbagai  aspek  penting  di  dalam teknologi  fermentasi  yang  melibatkan  \nlangkah  sebelum dan semasa  proses  fermentasi  ser"
+  },
+  {
+    "course_code": "BTC3301",
+    "course_name_malay": "Kejuruteraan Bioproses",
+    "course_name_english": "Bioprocess Engineering",
+    "credits": "4(4+0)",
+    "prerequisites": [
+      "BTC3201"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek yang berkaitan kejuruteraan bioproses seperti asas pengiraan kejuruteraan dan pengoptimuman proses. Pengenalan kepada peralatan industri dan aspek kejuruteraan di dalam operasi bioreaktor untuk kultur sel dan tindakbalas enzim turut dibincangkan.",
+    "description_english": "This course encompasses aspects related to bioprocess engineering such as fundamental engineering calculation and process optimisation. Overview on the industrial equipment and the engineering aspects in the bioreactor operation for cell cultures and enzyme reaction are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3301 \nKejuruteraan Bioproses / Bioprocess Engineering \n \n4(4+0) \nPrasyarat: BTC3201 \nKursus ini merangkumi aspek yang berkaitan kejuruteraan bioproses seperti asas pengiraan \nkejuruteraan dan pengoptimuman proses. Pengenalan kepada peralatan industri dan aspek \nkejuruteraan di dalam operasi bioreaktor untuk kultur sel dan tindakbalas enzim turut dibincangkan. \nThis course encompasses aspects related to bioprocess engineering such as fundamental engineering \ncalculation and process optimisatio"
+  },
+  {
+    "course_code": "BTC3302",
+    "course_name_malay": "Biopemisahan dan Penulenan",
+    "course_name_english": "Bioseparation and Purification",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BTC3201"
+    ],
+    "description_malay": "Kursus ini merangkumi pemprosesan hiliran untuk pemulihan semula dan penulenan produk bioteknologi. Pelbagai teknik biopemisahan dan penulenan dibincangkan melalui carta alir, analisis imbangan jisim dan kos.",
+    "description_english": "This course encompasses the downstream processing for the recovery and purification of biotechnological products. Various bioseparation and purification techniques are discussed using flow chart, mass balance analysis and costing.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3302 \nBiopemisahan dan Penulenan / Bioseparation and \nPurification \n4(3+1) \nPrasyarat: BTC3201 \nKursus ini merangkumi pemprosesan hiliran untuk pemulihan semula dan penulenan produk \nbioteknologi. Pelbagai teknik biopemisahan dan penulenan dibincangkan melalui carta alir, analisis \nimbangan jisim dan kos. \nThis course encompasses the downstream processing for the recovery and purification of \nbiotechnological products. Various bioseparation and purification techniques are discussed using flow"
+  },
+  {
+    "course_code": "BTC3305",
+    "course_name_malay": "Reka Bentuk Bioproses dan Biopenghasilan",
+    "course_name_english": "Bioprocessing and Biomanufacturing Design",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BTC3301"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek rekaan dan penggabungan pelbagai unit operasi yang terlibat di dalam penghasilan, biopemisahan, penulenan dan formulasi produk bioteknologi. Sintesis dan analisis proses, serta kajian kes yang berkaitan dengan reka bentuk bioproses dibincangkan. Pembelajaran berasaskan projek juga dilibatkan.",
+    "description_english": "This course encompasses aspects of designing and consolidating various unit operations involved in the production, bioseparation, purification and formulation of biotechnological products. Process synthesis and analysis as well as case studies related to bioprocess are discussed. Project based learning is also included.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3305 \nReka \nBentuk \nBioproses \ndan \nBiopenghasilan \n/ \nBioprocessing and Biomanufacturing Design \n3(2+1) \nPrasyarat: BTC3301 \nKursus ini merangkumi aspek rekaan dan penggabungan pelbagai unit operasi yang terlibat di dalam \npenghasilan, biopemisahan, penulenan dan formulasi produk bioteknologi. Sintesis dan analisis proses, \nserta  kajian  kes  yang berkaitan dengan reka bentuk bioproses dibincangkan. Pembelajaran \nberasaskan projek juga dilibatkan. \nThis course encompasses aspects of designi"
+  },
+  {
+    "course_code": "BTC3306",
+    "course_name_malay": "Sistem Bioreaktor",
+    "course_name_english": "Bioreactor System",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BTC3201",
+      "BTC3301"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai aspek sistem bioreaktor yang digunakan dalam proses penghasilan produk bioteknologi menggunakan mikroorganisma, enzim, sel haiwan dan tumbuhan. Keperluan spesifik terhadap reka bentuk dan pendekatan peningkatan skala bioreaktor untuk sistem biologi yang berbeza dibincangkan.",
+    "description_english": "This course encompasses various aspects of bioreactor system used in the production of biotechnological products employing microorganisms, enzymes, animal and plant cells. Specific requirement for the design and scaling-up approaches of bioreactor for different biological systems are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3306 \nSistem Bioreaktor / Bioreactor System \n3(3+0) \nPrasyarat: BTC3201 dan BTC3301 \nKursus ini merangkumi pelbagai aspek sistem bioreaktor yang digunakan dalam proses penghasilan \nproduk bioteknologi menggunakan mikroorganisma, enzim, sel haiwan dan tumbuhan. Keperluan \nspesifik terhadap reka bentuk dan pendekatan peningkatan skala bioreaktor untuk sistem biologi yang \nberbeza dibincangkan. \nThis course encompasses various aspects of bioreactor system used in the production of \nbiotechnologi"
+  },
+  {
+    "course_code": "BTC3401",
+    "course_name_malay": "Pengurusan dan Penggunaan Sisa",
+    "course_name_english": "Waste Management and Utilization",
+    "credits": "2(2+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi perincian sumber, jenis, ciri dan komposisi sisa, rawatan dan pengendalian sisa. Kajian kes termasuk perbandingan kaedah pengurusan sisa di Malaysia dan di negara lain dibincangkan.",
+    "description_english": "This course encompasses details on the sources, types, characteristics and composition of wastes, waste handling and management. Case studies includes comparison of waste management methods in Malaysia and other countries are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3401 \nPengurusan \ndan \nPenggunaan \nSisa \n/ \nWaste \nManagement and Utilization \n2(2+0) \nPrasyarat: Tiada \nKursus ini merangkumi perincian sumber, jenis, ciri dan komposisi sisa, rawatan dan pengendalian sisa. \nKajian kes termasuk perbandingan kaedah pengurusan sisa di Malaysia dan di negara lain \ndibincangkan. \nThis course encompasses details on the sources, types, characteristics and composition of wastes, \nwaste handling and management. Case studies includes comparison of waste management me"
+  },
+  {
+    "course_code": "BTC3501",
+    "course_name_malay": "Konsep Biokeusahawanan",
+    "course_name_english": "Bioentrepreneurship Concept",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "MGM3180"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep biokeusahawanan yang melibatkan elemen seperti pemilihan produk dan perkhidmatan bioteknologi, jenis perniagaan dan analisis pasaran. Aktiviti kajian pasaran bagi pengkomersilan produk dan perkhidmatan bioteknologi ditekankan.",
+    "description_english": "This course encompasses bioentrepreneurship concept involving elements such as selection of biotechnological products and services, types of business and market analysis. Market survey activity for commercialization of biotechnological products and services is emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3501 \nKonsep \nBiokeusahawanan \n/ \nBioentrepreneurship \nConcept \n3(2+1) \nPrasyarat: MGM3180 \nKursus ini merangkumi konsep biokeusahawanan yang melibatkan elemen seperti pemilihan produk \ndan perkhidmatan bioteknologi, jenis perniagaan dan analisis pasaran. Aktiviti kajian pasaran bagi \npengkomersilan produk dan perkhidmatan bioteknologi ditekankan. \nThis course encompasses bioentrepreneurship concept involving elements such as selection of \nbiotechnological products and services, types of busi"
+  },
+  {
+    "course_code": "BTC3502",
+    "course_name_malay": "Perancangan Biokeusahawanan",
+    "course_name_english": "Bioentrepreneurship Planning",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BTC3501"
+    ],
+    "description_malay": "Kursus ini merangkumi penyediaan rancangan perniagaan bagi produk atau perkhidmatan bioteknologi. Elemen inovasi dan teknik kreatif dalam membina konsep produk turut dibincangkan.",
+    "description_english": "This course encompasses preparation of a business plan for biotechnological products or services. Innovation element and creative techniques in developing product concept are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC3502 \nPerancangan Biokeusahawanan / Bioentrepreneurship \nPlanning \n3(2+1) \nPrasyarat: BTC3501 \nKursus ini merangkumi penyediaan rancangan perniagaan bagi produk atau perkhidmatan bioteknologi. \nElemen inovasi dan teknik kreatif dalam membina konsep produk turut dibincangkan.   \nThis course encompasses preparation of a business plan for biotechnological products or services. \nInnovation element and creative techniques in developing product concept are also discussed. \n \n\n--- Page 14 ---\nTarikh"
+  },
+  {
+    "course_code": "BTC4001",
+    "course_name_malay": "Biokeselamatan Dan Bioetika",
+    "course_name_english": "Biosafety And Bioethics",
+    "credits": "2(2+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi isu biokeselamatan dan bioetika dalam bioteknologi, termasuk tahap biokeselamatan dalam reka bentuk makmal. Isu berkaitan keselamatan dan etika, serta cara pengendalian isu dan pelaksanaan keputusan yang rasional turut dibincangkan.",
+    "description_english": "This course covers biosafety and bioethics issues in biotechnology including safety level in laboratory design. Issues on safety and ethics, including the handling of biological issues and rational decision-making are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4001 \nBiokeselamatan Dan Bioetika / Biosafety And Bioethics \n2(2+0) \nPrasyarat: Tiada \nKursus ini merangkumi isu biokeselamatan dan bioetika dalam bioteknologi, termasuk tahap \nbiokeselamatan dalam reka bentuk makmal. Isu berkaitan keselamatan dan etika, serta cara \npengendalian isu dan pelaksanaan keputusan yang rasional turut dibincangkan. \nThis course covers biosafety and bioethics issues in biotechnology including safety level in laboratory \ndesign. Issues on safety and ethics, including "
+  },
+  {
+    "course_code": "BTC4002",
+    "course_name_malay": "Bioteknologi dalam Bioekonomi",
+    "course_name_english": "Biotechnology in Bioeconomy",
+    "credits": "2(2+0)",
+    "prerequisites": [
+      "BTC3002"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep dan isu berkaitan aplikasi bioteknologi dalam penjanaan bioekonomi. Kepentingan teknologi berasaskan biosumber serta sumbangan bioteknologi kepada penjanaan ekonomi secara mampan dibincangkan. Kebaikan dan cabaran bioekonomi peringkat global juga dihuraikan.",
+    "description_english": "This course covers concept and issues related to biotechnology in bioeconomy. The importance of bioresources and contribution of biotechnology towards sustainable generation of economy are discussed. The advantages and challenges of bioeconomy globally are also elaborated.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4002 \nBioteknologi dalam Bioekonomi / Biotechnology in \nBioeconomy \n2(2+0) \nPrasyarat: BTC3002 \nKursus ini merangkumi konsep dan isu berkaitan aplikasi bioteknologi dalam penjanaan bioekonomi. \nKepentingan teknologi berasaskan biosumber serta sumbangan bioteknologi kepada penjanaan \nekonomi secara mampan dibincangkan. Kebaikan dan cabaran bioekonomi peringkat global juga \ndihuraikan. \nThis course covers concept and issues related to biotechnology in bioeconomy. The importance of \nbioresources"
+  },
+  {
+    "course_code": "BTC4003",
+    "course_name_malay": "Transisi ke Arah Bioekonomi Kitaran",
+    "course_name_english": "Transition towards Circular Bioeconomy",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pelbagai faktor yang merangsang kemajuan negara dalam bioekonomi kitaran ke arah pembangunan lestari. Pelbagai strategi dan polisi berkaitan bioekonomi kitaran serta trend permintaan dan penawaran yang didorong oleh perubahan dalam persekitaran pasaran turut dibincangkan.",
+    "description_english": "This course encompasses various factors that stimulate the country progress in circular bioeconomy towards sustainable development. Various strategies and policies related to circular bioeconomy as well as the trends in demand and supply driven by the changes in market environment are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4003 \nTransisi ke Arah Bioekonomi Kitaran / Transition \ntowards Circular Bioeconomy \n3(3+0) \nPrasyarat: Tiada \nKursus ini merangkumi pelbagai faktor yang merangsang kemajuan negara dalam bioekonomi kitaran \nke arah pembangunan lestari. Pelbagai strategi dan polisi berkaitan bioekonomi kitaran serta trend \npermintaan dan penawaran yang didorong oleh perubahan dalam persekitaran pasaran turut \ndibincangkan.   \nThis course encompasses various factors that stimulate the country progress in circul"
+  },
+  {
+    "course_code": "BTC4104",
+    "course_name_malay": "Bioteknologi Makanan",
+    "course_name_english": "Food Biotechnology",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BTC3101"
+    ],
+    "description_malay": "Kursus ini merangkumi penggunaan biokatalis dalam industri makanan dan ramuan makanan. Pengubahsuaian makanan, makanan transgenik dan isu semasa serta undang-undang berkaitan bioteknologi makanan turut dibincangkan.",
+    "description_english": "This course involves the applications of biocatalysts in the food and food ingredient industries. Modification of foods, transgenic foods and and current issues as well as laws related to food biotechnology are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4104 \nBioteknologi Makanan / Food Biotechnology \n3(2+1) \nPrasyarat: BTC3101 \nKursus ini merangkumi penggunaan biokatalis dalam industri makanan dan ramuan makanan. \nPengubahsuaian makanan, makanan transgenik dan isu semasa serta undang-undang berkaitan \nbioteknologi makanan turut dibincangkan. \nThis course involves the applications of biocatalysts in the food and food ingredient industries. \nModification of foods, transgenic foods and and current issues as well as laws related to food \nbiotec"
+  },
+  {
+    "course_code": "BTC4105",
+    "course_name_malay": "Bioteknologi Makanan Lanjutan",
+    "course_name_english": "Advanced Food Biotechnology",
+    "credits": "2(2+0)",
+    "prerequisites": [
+      "BTC4104"
+    ],
+    "description_malay": "Kursus ini merangkumi peranan dan sumbangan bioteknologi makanan terhadap gaya hidup masyarakat, keselamatan dan kesejahteraan sosial. Perkembangan terkini dalam bidang bioteknologi makanan dibincangkan.",
+    "description_english": "This course encompasses the roles and contributions of food biotechnology towards people’s lifestyle, security and social well-being. Latest development in food biotechnology is discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4105 \nBioteknologi Makanan Lanjutan / Advanced Food \nBiotechnology \n2(2+0) \nPrasyarat: BTC4104 \nKursus ini merangkumi peranan dan sumbangan bioteknologi makanan terhadap gaya hidup \nmasyarakat, keselamatan dan kesejahteraan sosial. Perkembangan terkini dalam bidang bioteknologi \nmakanan dibincangkan. \nThis course encompasses the roles and contributions of food biotechnology  towards  people’s  lifestyle,  \nsecurity  and social well-being. Latest development in food biotechnology is discussed."
+  },
+  {
+    "course_code": "BTC4106",
+    "course_name_malay": "Teknologi Enzim Lanjutan",
+    "course_name_english": "Advanced Enzyme Technology",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BTC3101"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek penyekatgerakan enzim dan sel dan aplikasi enzim tersekatgerak dalam industri. Penggunaan enzim dan sel tersekatgerak dalam biosensor dan media bukan konvensional dibincangkan.",
+    "description_english": "This course encompasses immobilization of enzymes and cells and application of immobilized enzyme in the industry. The use of immobilized enzymes and cells in biosensor and non-conventional media are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4106 \nTeknologi \nEnzim \nLanjutan \n/ \nAdvanced \nEnzyme \nTechnology \n3(2+1) \nPrasyarat: BTC3101 \nKursus ini merangkumi aspek penyekatgerakan enzim dan sel dan aplikasi enzim tersekatgerak dalam \nindustri. Penggunaan enzim dan sel tersekatgerak dalam biosensor dan media bukan konvensional \ndibincangkan. \nThis course encompasses immobilization of enzymes and cells and application of immobilized enzyme \nin the industry. The use of immobilized enzymes and cells in biosensor and non-conventional med"
+  },
+  {
+    "course_code": "BTC4205",
+    "course_name_malay": "Mikrobiologi Industri",
+    "course_name_english": "Industrial Microbiology",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BMY3001"
+    ],
+    "description_malay": "Kursus ini merangkumi kaedah peningkatan hasil produk daripada mikroorganisma yang digunakan dalam industri. Pelbagai aplikasi dalam penghasilan produk mikrobiologi industri turut dibincangkan.",
+    "description_english": "This course encompasses methods of increasing product yield from microorganisms used in industry. A variety of applications in the production of industrial microbiology products are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4205 \nMikrobiologi Industri / Industrial Microbiology \n3(2+1) \nPrasyarat: BMY3001 \nKursus ini merangkumi kaedah peningkatan hasil produk daripada mikroorganisma yang digunakan \ndalam industri. Pelbagai   aplikasi   dalam   penghasilan   produk   mikrobiologi industri turut \ndibincangkan. \nThis course encompasses methods of increasing product yield from microorganisms used in industry. A \nvariety of applications   in   the   production   of   industrial   microbiology products are discussed."
+  },
+  {
+    "course_code": "BTC4305",
+    "course_name_malay": "Pemodelan Dan Pengoptimuman Bioproses",
+    "course_name_english": "Bioprocess Modelling and Optimization",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BTC3201",
+      "BTC3301"
+    ],
+    "description_malay": "Kursus ini merangkumi penggunaan teknik pengoptimuman dan simulasi dalam proses biologi.  Program simulasi komputer digunakan untuk pemodelan persamaan matematik, analisis  statistik  dan pengoptimuman parameter bioproses.",
+    "description_english": "This course encompasses application of optimisation and simulation technique in biological process. Computer simulation programs are used for modeling of mathematical equations, statistical analysis and bioprocess parameters optimisation.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4305 \nPemodelan \nDan \nPengoptimuman \nBioproses \n/ \nBioprocess Modelling and Optimization \n3(2+1) \nPrasyarat: BTC3201 dan BTC3301 \nKursus ini merangkumi penggunaan teknik pengoptimuman dan simulasi dalam proses biologi.  Program \nsimulasi komputer digunakan untuk pemodelan persamaan matematik, analisis  statistik  dan \npengoptimuman parameter bioproses. \nThis course encompasses application of optimisation and simulation technique in biological process. \nComputer simulation programs are used fo"
+  },
+  {
+    "course_code": "BTC4306",
+    "course_name_malay": "Formulasi Produk Akhir Bioteknologi",
+    "course_name_english": "Formulation of Biotechnological End Product",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BTC3002"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek penting dalam formulasi pelbagai bentuk fizikal produk siap bioteknologi yang melibatkan bahan dan proses tertentu. Kaedah pembungkusan, penyimpanan dan penentuan jangka hayat produk turut dibincangkan.",
+    "description_english": "This course encompasses the important aspects in formulation of different physical forms of biotechnological finished products that involves certain materials and processes. Techniques in product packaging, storage and determination of shelf-life are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4306 \nFormulasi Produk Akhir Bioteknologi / Formulation of \nBiotechnological End Product \n3(2+1) \nPrasyarat: BTC3002 \nKursus ini merangkumi aspek penting dalam formulasi pelbagai bentuk fizikal produk siap bioteknologi \nyang melibatkan bahan dan proses tertentu. Kaedah pembungkusan, penyimpanan dan penentuan \njangka hayat produk turut dibincangkan. \nThis course encompasses the important aspects in formulation of different physical forms of \nbiotechnological finished products that involves cer"
+  },
+  {
+    "course_code": "BTC4307",
+    "course_name_malay": "Teknologi Pengekstrakan Sebatian Bioaktif",
+    "course_name_english": "Bioactive Compounds Extraction Technology",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BTC3001"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip dan aspek asas pengekstrakan pelbagai sumber sebatian bioaktif. Isu berkaitan teknik pengekstrakan serta trend dan aplikasi sebatian bioaktif yang terlibat dibincangkan. Proses pasca pengekstrakan dan keperluan berkaitan kualiti dan isu keselamatan turut diberi penekanan.",
+    "description_english": "This course covers basic principles and aspects of extracting various sources of bioactives compounds. Issues related to extraction techniques as well as trends and applications involved are discussed. Post-extraction processes and requirements related to quality and safety issues are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4307 \nTeknologi Pengekstrakan Sebatian Bioaktif / Bioactive \nCompounds Extraction Technology \n3(2+1) \nPrasyarat: BTC3001 \nKursus ini merangkumi prinsip dan aspek asas pengekstrakan pelbagai sumber sebatian bioaktif. Isu \nberkaitan teknik pengekstrakan serta trend dan aplikasi sebatian bioaktif yang terlibat dibincangkan. \nProses pasca pengekstrakan dan keperluan berkaitan kualiti dan isu keselamatan turut diberi \npenekanan. \nThis course covers basic principles and aspects of extracting variou"
+  },
+  {
+    "course_code": "BTC4406",
+    "course_name_malay": "Bioremediasi",
+    "course_name_english": "Bioremediation",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BTC3401"
+    ],
+    "description_malay": "Kursus ini merangkumi kaedah rawatan dan bioremediasi ke atas  sisa  toksik  terutama  terhadap  tanah  dan  air  bawah tanah yang tercemar. Potensi penggunaan mikroorganisma untuk pelbagai rawatan sisa toksik dan berbahaya dibincangkan. Proses yang diguna pakai dalam industri dirujuk untuk menjelaskan kaedah dan konsep bioremediasi.",
+    "description_english": "This course encompasses treatment methods and bioremediation of toxic waste especially in polluted soil and groundwater. The potential use of microorganisms in various treatments of toxic and hazardous wastes are discussed. Industrial processes are referred in order to clarify the method and concept of bioremediation.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4406 \nBioremediasi / Bioremediation \n3(3+0) \nPrasyarat: BTC3401 \nKursus ini merangkumi kaedah rawatan dan bioremediasi ke atas  sisa  toksik  terutama  terhadap  tanah  \ndan  air  bawah tanah yang tercemar. Potensi penggunaan mikroorganisma untuk pelbagai rawatan sisa \ntoksik dan berbahaya dibincangkan. Proses yang diguna pakai dalam industri dirujuk untuk menjelaskan \nkaedah dan konsep bioremediasi. \nThis course encompasses treatment methods and bioremediation of toxic waste especially in po"
+  },
+  {
+    "course_code": "BTC4409",
+    "course_name_malay": "Bioteknologi Alam Sekitar",
+    "course_name_english": "Environmental Biotechnology",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BTC3401"
+    ],
+    "description_malay": "Kursus merangkumi penggunaan bioteknologi dalam mengawal dan memanipulasi pencemaran alam sekitar. Integrasi bioteknologi alam sekitar, isu terkini alam sekitar dan penyelesaian alternatif bagi pengawalan pencemaran alam sekitar dibincangkan.",
+    "description_english": "This course encompasses the application of biotechnology in mitigating and manipulating the environmental pollutions. The integration in environmental biotechnology, current environmental issues and alternative solutions for maintaining the environmental pollution are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4409 \nBioteknologi \nAlam \nSekitar \n/ \nEnvironmental \nBiotechnology \n3(2+1) \nPrasyarat: BTC3401 \nKursus merangkumi penggunaan bioteknologi dalam mengawal dan memanipulasi pencemaran alam \nsekitar. Integrasi bioteknologi alam sekitar, isu terkini alam sekitar dan penyelesaian alternatif bagi \npengawalan pencemaran alam sekitar dibincangkan. \nThis course encompasses the application of biotechnology in mitigating and manipulating the \nenvironmental pollutions. The integration in environmental bio"
+  },
+  {
+    "course_code": "BTC4410",
+    "course_name_malay": "Biojisim dan Biorefinari",
+    "course_name_english": "Biomass and Biorefinery",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BTC3401"
+    ],
+    "description_malay": "Kursus ini memfokuskan kepada penukaran biojisim kepada produk bio menerusi konsep biorefinari. Jenis, ciri dan penggunaan biojisim, serta proses yang terlibat dalam sistem biorefinari diterangkan. Kajian kes melibatkan perbandingan pelbagai proses dan sistem biorefinari turut dibincangkan.",
+    "description_english": "This course focuses on the conversion of biomass into bioproducts through biorefinery concept. Types, properties and utilization of biomass, as well as processes involved in a biorefinery system are explained. Case studies involving the comparison of different biorefinery processes and systems are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4410 \nBiojisim dan Biorefinari / Biomass and Biorefinery \n3(2+1) \nPrasyarat: BTC3401 \nKursus ini memfokuskan kepada penukaran biojisim kepada produk bio menerusi konsep biorefinari. \nJenis, ciri dan penggunaan biojisim, serta proses yang terlibat dalam sistem biorefinari diterangkan. \nKajian kes melibatkan perbandingan pelbagai proses dan sistem biorefinari turut dibincangkan. \nThis course focuses on the conversion of biomass into bioproducts through biorefinery concept. Types, \nproperties an"
+  },
+  {
+    "course_code": "BTC4502",
+    "course_name_malay": "Pengurusan Biokeusahawanan",
+    "course_name_english": "Bioentrepreneurship Management",
+    "credits": "3(1+2)",
+    "prerequisites": [
+      "BTC3502"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai isu dalam pengurusan perniagaan seperti kepimpinan, kawalan kualiti, promosi, perundangan dan cabaran dalam syarikat start-up. Kaedah pitching turut diberi penekanan untuk menarik pelabur berpotensi bagi pembiayaan perniagaan.",
+    "description_english": "This course encompasses issues in business management such as leadership, quality control, promotion, legislation and challenges in start-up company. The pitching method is also emphasized to attract potential investors for business financing.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4502 \nPengurusan Biokeusahawanan / Bioentrepreneurship \nManagement \n3(1+2) \nPrasyarat: BTC3502 \nKursus ini merangkumi pelbagai isu dalam pengurusan perniagaan seperti kepimpinan, kawalan kualiti, \npromosi, perundangan dan cabaran dalam syarikat start-up. Kaedah pitching turut diberi penekanan \nuntuk menarik pelabur berpotensi bagi pembiayaan perniagaan. \nThis course encompasses issues in business management such as leadership, quality control, \npromotion, legislation and challenges in start-u"
+  },
+  {
+    "course_code": "BTC4503",
+    "course_name_malay": "Perniagaan Bioteknologi",
+    "course_name_english": "Biotechnology Business",
+    "credits": "3(1+2)",
+    "prerequisites": [
+      "BTC4502"
+    ],
+    "description_malay": "Kursus ini merangkumi kaedah bagi pendaftaran perniagaan atau syarikat bioteknologi yang sah dari segi undang-undang. Proses penghasilan prototaip produk atau perkhidmatan bioteknologi bagi tujuan promosi dan juga potensi perkembangan perniagaan turut dibincangkan.",
+    "description_english": "This course encompasses legal registration methods for biotechnology business or company. The process of producing prototype of biotechnology products or services for promotional purposes and potential business expansion are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4503 \nPerniagaan Bioteknologi / Biotechnology Business \n3(1+2) \nPrasyarat: BTC4502 \nKursus ini merangkumi kaedah bagi pendaftaran perniagaan atau syarikat bioteknologi yang sah dari \nsegi undang-undang. Proses penghasilan prototaip produk atau perkhidmatan bioteknologi bagi tujuan \npromosi dan juga potensi perkembangan perniagaan turut dibincangkan. \nThis course encompasses legal registration methods for biotechnology business or company. The \nprocess of producing prototype of biotechnology p"
+  },
+  {
+    "course_code": "BTC4504",
+    "course_name_malay": "Pemindahan Teknologi Dalam Pengkomersialan Bioperniagaan",
+    "course_name_english": "Technology Transfer in Commercialisation of Biobusiness",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi kepentingan konsep dan proses pemindahan teknologi dalam pengkomersialan perniagaan berasaskan bio. Perlindungan perundangan, komersialisasi harta intelek, etika dan kepentingan aset tidak ketara termasuk peluang, cabaran serta penyelesaian diberi penekanan.",
+    "description_english": "This course encompasses the importance of concept and process of technology transfer in commercialising bio-based business. Legal protection, commercialisation of intellectual property, ethics and the importance of intangible assets including the opportunities, challenges as well as solutions are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4504 \nPemindahan \nTeknologi \nDalam \nPengkomersialan \nBioperniagaan \n/ \nTechnology \nTransfer \nin \nCommercialisation of Biobusiness \n3(3+0) \nPrasyarat: Tiada \nKursus ini merangkumi kepentingan konsep dan proses pemindahan teknologi dalam pengkomersialan \nperniagaan berasaskan bio. Perlindungan perundangan, komersialisasi harta intelek, etika dan \nkepentingan aset tidak ketara termasuk peluang, cabaran serta penyelesaian diberi penekanan. \nThis course encompasses the importance of concept and pr"
+  },
+  {
+    "course_code": "BTC4904",
+    "course_name_malay": "Khidmat Pembelajaran dalam Bioteknologi",
+    "course_name_english": "Service Learning in Biotechnology",
+    "credits": "1(0+1)",
+    "prerequisites": [
+      "BTC3001"
+    ],
+    "description_malay": "Kursus ini merangkumi penglibatan pelajar dalam aktiviti bersama komuniti / industri bagi meningkatkan kesedaran dan kefahaman orang awam berkenaan peranan bioteknologi dalam kehidupan seharian. Proses pembelajaran merangkumi perancangan aktiviti bersama komuniti, demonstrasi dan aktiviti ‘hands-on’ yang memenuhi keperluan komuniti.",
+    "description_english": "This course encompasses involvement of students in community / industrial activities to promote awareness and understanding to the public on the role of biotechnology in their daily lives. The learning process involves activities planning with the community, demonstrations and hands-on activities to meet community needs.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4904 \nKhidmat Pembelajaran dalam Bioteknologi / Service \nLearning in Biotechnology \n1(0+1) \nPrasyarat: BTC3001 \nKursus ini merangkumi penglibatan pelajar dalam aktiviti bersama komuniti / industri bagi meningkatkan \nkesedaran dan kefahaman orang awam berkenaan peranan bioteknologi dalam kehidupan seharian. \nProses pembelajaran merangkumi perancangan aktiviti bersama komuniti, demonstrasi dan aktiviti \n‘hands-on’ yang memenuhi keperluan komuniti. \nThis course encompasses involvement of student"
+  },
+  {
+    "course_code": "BTC4959",
+    "course_name_malay": "Disertasi Bacelor",
+    "course_name_english": "Bachelor Dissertation",
+    "credits": "6(0+6)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk sesuatu projek penyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui reka bentuk, pengumpulan dan analisis data yang sesuai diberi penekanan.",
+    "description_english": "This course covers the preparation of proposal, implementation and scientific writing of research project. Scientific approach to generate data systematically through appropriate design, data collection and analysis are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4959 \nDisertasi Bacelor / Bachelor Dissertation \n6(0+6) \nPrasyarat: Tiada \nKursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk sesuatu projek \npenyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui reka bentuk, \npengumpulan dan analisis data yang sesuai diberi penekanan. \nThis course covers the preparation of proposal, implementation and scientific writing of research project. \nScientific approach to generate data systematically through"
+  },
+  {
+    "course_code": "BTC4991",
+    "course_name_malay": "Seminar",
+    "course_name_english": "Seminar",
+    "credits": "1(0+1)",
+    "prerequisites": [
+      "BTC4959"
+    ],
+    "description_malay": "Kursus ini merangkumi penyediaan dan penyampaian seminar secara berkesan mengenai projek penyelidikan dalam bidang teknologi bioproses. Pendedahan kepada pelbagai teknik penyampaian seminar dicapai dengan menghadiri seminar tertentu di dalam kampus.",
+    "description_english": "This course encompasses the effective preparation and delivery of seminar on research project in bioprocess technology. Exposure to different techniques of seminar presentation is achieved by attending selected seminars held in campus.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4991 \nSeminar / Seminar \n1(0+1) \nPrasyarat: BTC4959 \nKursus ini merangkumi penyediaan dan penyampaian seminar secara berkesan mengenai projek \npenyelidikan dalam bidang teknologi bioproses. Pendedahan kepada pelbagai teknik penyampaian \nseminar dicapai dengan menghadiri seminar tertentu di dalam kampus. \nThis course encompasses the effective preparation and delivery of seminar on research project in \nbioprocess technology. Exposure to different techniques of seminar presentation is achieved b"
+  },
+  {
+    "course_code": "BTC4902",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "12(0+12)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini memperkenalkan pelajar kepada persekitaran kerja yang sebenar di industri/organisasi. Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan.",
+    "description_english": "This course introduces students to real working environment in industries/organizations. Training includes application of the theoretical and practical aspects that have been studied with current practices in the workplace. Problem solving and communication skills are also emphasized.",
+    "department": "Department of Cell & Molecular Biology",
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BTC4902 \nLatihan Industri / Industrial Training \n12(0+12) \nPrasyarat: Dengan kebenaran jabatan \nKursus ini memperkenalkan pelajar kepada persekitaran kerja yang sebenar di industri/organisasi. \nLatihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di \ntempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan. \nThis course introduces students to real working environment in industries/organizations. Training \nincludes application"
+  },
+  {
+    "course_code": "BSM3101",
+    "course_name_malay": "Biologi Sel dan Perkembangan",
+    "course_name_english": "Cellular and Developmental Biology",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip biologi dan membandingkan pelbagai jenis sel seperti prokariot, eukariot dan virus, dari segi fisiologi dan organisasi genom. Konsep kitaran sel, struktur dan fungsi pelbagai jenis sel dan organel dibandingkan. Teori endosimbiosis, struktur dan fungsi membran sel dan nukleus serta mekanisme pengangkutan molekul juga diterangkan. Proses perkembangan dan perbezaan sel eukariot dan isu terkini berkaitan biologi sel dan perkembangan dibincangkan.",
+    "description_english": "This course encompasses the principles of biology and compares various cell types such as prokaryotes, eukaryotes and viruses in terms of physiology and genome organisation. Concept of the cell cycle, structure and function of various cell types and organelles are compared. Endosymbiosis theory, structure and function of sel and nuclear membrane and the mechanism of molecular transport are explained. Cellular development and differentiation of eukaryotic cell and current issues related current issues related to cellular and developmental biology are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM3101 \nBiologi \nSel \ndan \nPerkembangan \n/ \nCellular \nand \nDevelopmental Biology \n3(3+0) \nPrasyarat: Tiada \nKursus ini merangkumi prinsip biologi dan membandingkan  pelbagai jenis sel seperti prokariot, eukariot \ndan virus, dari segi fisiologi dan organisasi genom. Konsep kitaran sel, struktur dan fungsi pelbagai jenis \nsel dan organel dibandingkan. Teori endosimbiosis, struktur dan fungsi membran sel dan nukleus serta \nmekanisme pengangkutan molekul juga diterangkan. Proses perkembangan dan pe"
+  },
+  {
+    "course_code": "BSM3104",
+    "course_name_malay": "Prinsip Kultur Sel dan Tisu",
+    "course_name_english": "Principles of Cell and Tissue Culture",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip dan prosedur asas kultur tisu tumbuhan dan haiwan. Keperluan asas untuk mewujudkan dan memelihara kultur sel di dalam makmal akan ditekankan. Ini termasuklah pelbagai kaedah seperti kultur embrio zigotik, kultur kalus dan organogenesis. Kestabilan genetik dan variasi somaklon akan dibincangkan. Kursus ini juga meliputi pelbagai konsep dan teknik dalam pengkulturan sel haiwan. Prinsip penghasilan antibodi monoklonal dan perbagai asai sitotoksik juga akan dibincangkan.",
+    "description_english": "This course encompasses the principles and basic procedures of cell and tissue culture. The basic requirements for establishing and maintaining cell cultures in the laboratory will be emphasized. This includes various methods such as Zygotic embryo culture, callus culture and organogenesis. Genetic stability and somaclonal variation are discussed. This course also covers various concept and techniques in animal cell culture. Principles of monoclonal antibody production and various cytotoxic assays are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM3104 \nPrinsip Kultur Sel dan Tisu / Principles of Cell and \nTissue Culture \n3(3+0) \nPrasyarat: Tiada \nKursus ini merangkumi prinsip dan prosedur asas kultur tisu tumbuhan dan haiwan. Keperluan asas \nuntuk mewujudkan dan memelihara kultur sel di dalam makmal akan ditekankan. Ini termasuklah \npelbagai kaedah seperti kultur embrio zigotik, kultur kalus dan organogenesis. Kestabilan genetik dan \nvariasi somaklon akan dibincangkan. Kursus ini juga meliputi pelbagai konsep dan teknik dalam \npengkul"
+  },
+  {
+    "course_code": "BSM3201",
+    "course_name_malay": "Biologi Molekul",
+    "course_name_english": "Molecular Biology",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip biologi molekul seperti struktur dan peranan DNA dan RNA sebagai bahan genetik, struktur kromosom dan pewarisan di luar kromosom. Elemen yang boleh ditransposisikan, replikasi DNA, transkripsi, translasi, mutasi, metilasi, pembaikan DNA dan hubungan antara proses tersebut dibincangkan. Pengawalaturan ekspresi gen di antara prokariot dan eukariot dibandingkan.",
+    "description_english": "This course encompasses the principles of molecular biology such as the structure and role of DNA and RNA as genetic materials, structure of chromosome and extrachromosomal inheritance. Transposable elements, DNA replication, transcription, translation, mutation, methylation, DNA repair and relationship between all these processes are discussed. The regulations of gene expression in eukaryotes and prokaryotes are compared.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM3201 \nBiologi Molekul / Molecular Biology \n3(3+0) \nPrasyarat: Tiada \nKursus ini merangkumi prinsip biologi molekul seperti struktur dan peranan DNA dan RNA sebagai \nbahan genetik, struktur kromosom dan pewarisan di luar kromosom. Elemen yang boleh \nditransposisikan, replikasi DNA, transkripsi, translasi, mutasi, metilasi, pembaikan DNA dan hubungan \nantara proses tersebut dibincangkan. Pengawalaturan ekspresi gen di antara prokariot dan eukariot \ndibandingkan. \nThis course encompasses the pri"
+  },
+  {
+    "course_code": "BSM3202",
+    "course_name_malay": "Kejuruteraan Genetik",
+    "course_name_english": "Genetic Engineering",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BSM3201"
+    ],
+    "description_malay": "Kursus ini merangkumi teknik asas untuk pengklonan dan manipulasi gen. Prosedur pengklonan, penyaringan dan pengenalpastian gen asing, vektor pengklonan, pembatasan vektor dan selitan DNA dan proses transformasi dibincangkan. Teknologi PCR dan penjujukan DNA juga diterangkan. Isu etika berkaitan dengan teknologi DNA rekombinan turut diberikan penekanan.",
+    "description_english": "This course encompasses the basic techniques for cloning and manipulation of genes. Procedures for cloning, screening and identification of heterologous genes, cloning vectors, restriction of vector and insertion of DNA and transformation process are discussed. PCR technology and DNA sequencing are also explained. Ethical issues in relation to recombinant DNA technology are emphasised.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM3202 \nKejuruteraan Genetik / Genetic Engineering \n4(3+1) \nPrasyarat: BSM3201  \nKursus ini merangkumi teknik asas untuk pengklonan dan manipulasi gen. Prosedur pengklonan, \npenyaringan dan pengenalpastian gen asing, vektor pengklonan, pembatasan vektor dan selitan DNA \ndan proses transformasi dibincangkan. Teknologi PCR dan penjujukan DNA juga diterangkan. Isu etika \nberkaitan dengan teknologi DNA rekombinan turut diberikan penekanan. \nThis course encompasses the basic techniques for cloning a"
+  },
+  {
+    "course_code": "BSM3204",
+    "course_name_malay": "Prinsip Genetik",
+    "course_name_english": "Principles of Genetics",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Genetik, sains pewarisan dan variasi dibincangkan berdasarkan penemuan Mendel. Peranan dan aplikasi penting hukum genetik asas seperti Hukum Mendel dan Prinsip Hardy-Weinberg dalam ciri pewarisan di peringkat individu dan populasi serta relevannya hukum ini di dalam kehidupan manusia juga dibincangkan. Pelbagai konsep dan cabang genetik terkini turut diperkenalkan. Aplikasi konsep genetik dalam pemuliharaan biodiversiti dan biosumber dibincangkan.",
+    "description_english": "Genetics, the science of heredity and variation are discussed based on Mendel’s discoveries. The important roles and applications of basic genetic principles such as Mendel’s Law and Hardy-Weinberg Principle in heriditary at the individual and population levels as well as their relevance in human life today are also discussed. Various recent concepts and branches of genetics are also introduced. Applications of genetic concepts in biodiversity and bioresource conservation are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM3204 \nPrinsip Genetik / Principles of Genetics \n3(3+0) \nPrasyarat: Tiada \nGenetik, sains pewarisan dan variasi dibincangkan berdasarkan penemuan Mendel. Peranan dan \naplikasi penting hukum genetik asas seperti Hukum Mendel dan Prinsip Hardy-Weinberg dalam ciri \npewarisan di peringkat individu dan populasi serta relevannya hukum ini di dalam kehidupan manusia \njuga dibincangkan. Pelbagai konsep dan cabang genetik terkini turut diperkenalkan. Aplikasi konsep \ngenetik dalam pemuliharaan biodiver"
+  },
+  {
+    "course_code": "BSM3205",
+    "course_name_malay": "Teknik Penyelidikan Dalam Biologi Molekul",
+    "course_name_english": "Research Techniques in Molecular Biology",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BSM3202"
+    ],
+    "description_malay": "Kursus ini merangkumi teori dan teknik asas penyelidikan biologi molekul dan kegunaannya dalam pelbagai bidang bioteknologi. Teknik lanjutan untuk analisis DNA, RNA dan protein termasuk penghasilan protein heterologus turut dibincangkan.",
+    "description_english": "This course encompasses the theories and basic techniques used in molecular-biological research and its application in various fields. Advanced techniques in analysis of DNA, RNA and protein including heterologous protein production are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM3205 \nTeknik Penyelidikan Dalam Biologi Molekul / Research \nTechniques in Molecular Biology \n4(3+1) \nPrasyarat: BSM3202 \nKursus ini merangkumi teori dan teknik asas penyelidikan biologi molekul dan kegunaannya dalam \npelbagai bidang bioteknologi. Teknik lanjutan untuk analisis DNA, RNA dan protein termasuk \npenghasilan protein heterologus turut dibincangkan. \nThis course encompasses the theories and basic techniques used in molecular-biological research and \nits application in various fields."
+  },
+  {
+    "course_code": "BSM3402",
+    "course_name_malay": "Imunologi Sel dan Molekul",
+    "course_name_english": "Cell and Molecular Immunology",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BSM3403"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep penting dalam imunologi termasuk ciri asas tindakbalas imun, sel dan tisu dalam sistem imun serta mekanisme keimunan. Biologi limfosit T dan B termasuk perkembangan sel T dan B dari sel induk, pengaktifan dan pengawalaturan sel T dan B, antibodi dan antigen, molekul kompleks keserasian histo utama, imunologi transplantasi, hipersensitiviti dan autoimuniti dibincangkan.",
+    "description_english": "This course encompasses the important concepts in immunology including basic properties of immune responses, cells and tissues in the immune system and the mechanism of immune responses. The biology of T and B lymphocytes including development of T and B cells from the progenitor cells, activation and regulation of T and B cells, antibody and antigen, and Major Histocompatibility Complex (MHC) molecule, transplantation immunology, hypersensitivity and autoimmunity are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM3402 \nImunologi Sel dan Molekul / Cell and Molecular \nImmunology \n3(3+0) \nPrasyarat: BSM3403 \nKursus ini merangkumi konsep penting dalam imunologi termasuk ciri asas tindakbalas imun, sel dan \ntisu dalam sistem imun serta mekanisme keimunan. Biologi limfosit T dan B termasuk perkembangan \nsel T dan B dari sel induk, pengaktifan dan pengawalaturan sel T dan B, antibodi dan antigen, molekul \nkompleks keserasian histo utama, imunologi transplantasi, hipersensitiviti dan autoimuniti dibincangkan."
+  },
+  {
+    "course_code": "BSM3403",
+    "course_name_malay": "Teknik Penyelidikan Dalam Biologi Sel",
+    "course_name_english": "Research Techniques in Cell Biology",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BSM3101",
+      "BSM3104"
+    ],
+    "description_malay": "Kursus ini merangkumi teknik asas biologi sel dari bioteknologi tumbuhan dan haiwan dalam kultur sel dan tisu, penghasilan tumbuhan transgenik dan pembiakbakaan molekul. Penekanan diberikan kepada penggunaan bioteknologi dalam penerokaan ilmu berkaitan biologi sel tumbuhan dan haiwan serta aplikasinya dalam penambahbaikan tumbuhan dan haiwan. Implikasi etika penggunaan teknik biologi sel dalam pertanian dibincangkan.",
+    "description_english": "This course encompasses the basic techniques of plant and animal biotechnology in plant cell and tissue culture, development of transgenic plant and molecular breeding. Emphasis is given to the use of biotechnology in the exploration of knowledge related to plant and animal cell biology and its applications in plant and animal improvement. Ethical implications of the use of cell biology techniques in agriculture are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM3403 \nTeknik Penyelidikan Dalam Biologi Sel / Research \nTechniques in Cell Biology \n4(3+1) \nPrasyarat: BSM3101 atau BSM3104 \nKursus ini merangkumi teknik asas biologi sel dari bioteknologi tumbuhan dan haiwan dalam kultur sel \ndan tisu, penghasilan tumbuhan transgenik dan pembiakbakaan molekul. Penekanan diberikan kepada \npenggunaan bioteknologi dalam penerokaan ilmu berkaitan biologi sel tumbuhan dan haiwan serta \naplikasinya dalam penambahbaikan tumbuhan dan haiwan. Implikasi etika pengguna"
+  },
+  {
+    "course_code": "BSM4102",
+    "course_name_malay": "Mikroteknik",
+    "course_name_english": "Microtechniques",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BSM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip dan kaedah asas dalam kajian histologi tumbuhan dan haiwan. Integrasi antara morfologi mikroskopi dengan fisiologi asas sel dan tisu juga diterangkan. Kemahiran menggunakan mikroskop cahaya dan teknik asas histologi juga diberi penekanan.",
+    "description_english": "This course encompasses the basic principles and methods of histological studies in plant and animal. Integration of microscopic morphology with basic physiology of cells and tissues are also explained. Skills in using light microscopy and basic histological techniques are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4102 \nMikroteknik/ Microtechniques \n3(2+1) \nPrasyarat: BSM3101  \nKursus ini merangkumi prinsip dan kaedah asas dalam kajian histologi tumbuhan dan haiwan. Integrasi \nantara morfologi mikroskopi dengan fisiologi asas sel dan tisu juga diterangkan. Kemahiran \nmenggunakan mikroskop cahaya dan teknik asas histologi juga diberi penekanan. \nThis course encompasses the basic principles and methods of histological studies in plant and animal. \nIntegration of microscopic morphology with basic physiolo"
+  },
+  {
+    "course_code": "BSM4203",
+    "course_name_malay": "Diagnostik Molekul",
+    "course_name_english": "Molecular Diagnostics",
+    "credits": "2(2+0)",
+    "prerequisites": [
+      "BSM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi penemuan yang membawa kepada kewujudan bidang yang dipanggil diagnostik molekul. Konsep saintifik dalam revolusi diagnostik molekul diterangkan. Sitogenetik molekul, onkologi molekul dan pengesanan mikroorganisma penyebab penyakit berjangkit dikaji. Teknologi lanjutan seperti tatasusunan mikro genom manusia dan penggunaannya dalam diagnosis penyakit dibincangkan.",
+    "description_english": "This course encompasses the discoveries that have created a field called molecular diagnostics. Scientific concepts in the revolution of molecular diagnostics are explained. Molecular cytogenetics, molecular oncology and detection of infectious disease causing microorganisms are examined. Advanced technology such as human genome microarray and its applications in disease diagnosis are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4203 \nDiagnostik Molekul / Molecular Diagnostics \n2(2+0) \nPrasyarat: BSM3101  \nKursus ini merangkumi penemuan yang membawa kepada kewujudan bidang yang dipanggil diagnostik \nmolekul. Konsep saintifik dalam revolusi diagnostik molekul diterangkan. Sitogenetik molekul, onkologi \nmolekul dan pengesanan mikroorganisma penyebab penyakit berjangkit dikaji. Teknologi lanjutan \nseperti tatasusunan mikro genom manusia dan penggunaannya dalam diagnosis penyakit \ndibincangkan. \nThis course encompasses t"
+  },
+  {
+    "course_code": "BSM4204",
+    "course_name_malay": "Genomik Fungsian",
+    "course_name_english": "Functional Genomics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BSM3201",
+      "BMY4310"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip genomik fungsian dan kaedah penyelidikan yang terlibat dalam bidang yang berkaitan. Biologi molekul yang menentukan fungsi biologi gen dan produknya dengan menggunakan jujukan genom dibincangkan. Aplikasi kaedah berskala genom diperkenalkan. Topik semasa dalam fungsian genomik juga dibincangkan.",
+    "description_english": "This course encompasses the principles of functional genomics and research approaches involved in related research. The molecular biology that determines the biological function of genes and their products by making use of genome sequences are discussed. The applications of genome-wide approaches are introduced. Current topics in functional genomics are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4204 \nGenomik Fungsian / Functional Genomics \n3(3+0) \nPrasyarat: BSM3201 atau BMY4310 \nKursus ini merangkumi prinsip genomik fungsian dan kaedah penyelidikan yang terlibat dalam bidang \nyang berkaitan. Biologi molekul yang menentukan fungsi biologi gen dan produknya dengan \nmenggunakan jujukan genom dibincangkan. Aplikasi kaedah berskala genom diperkenalkan. Topik \nsemasa dalam fungsian genomik juga dibincangkan. \nThis course encompasses the principles of functional genomics and research appr"
+  },
+  {
+    "course_code": "BSM4205",
+    "course_name_malay": "Pengawalaturan Ekspresi Gen",
+    "course_name_english": "Regulation of Gene Expression",
+    "credits": "2(2+0)",
+    "prerequisites": [
+      "BSM3201"
+    ],
+    "description_malay": "Kursus ini memberi tumpuan kepada pengawalaturan transkripsi gen dalam organisma eukariot yang meliputi mekanisme genetic dan epigenetik. Mekanisme epigenetik pengawalaturan gen semasa pembezaan sel yang berkembang secara normal dan tidak normal juga dibincangkan dengan contoh yang sesuai.",
+    "description_english": "The course focuses on the regulation of gene transcription in eukaryotic organisms that include genetic and epigenetic mechanisms. Epigenetic mechanisms of gene regulation in the differentiation of cells that develop normally and abnormally are also discussed using appropriate examples.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4205 \nPengawalaturan Ekspresi Gen / Regulation of Gene \nExpression \n2(2+0) \nPrasyarat: BSM3201 \nKursus ini memberi tumpuan kepada pengawalaturan transkripsi gen dalam organisma eukariot yang \nmeliputi mekanisme genetic dan epigenetik. Mekanisme epigenetik pengawalaturan gen semasa \npembezaan sel yang berkembang secara normal dan tidak normal juga dibincangkan dengan contoh \nyang sesuai. \nThe course focuses on the regulation of gene transcription in eukaryotic organisms that include genetic \na"
+  },
+  {
+    "course_code": "BSM4301",
+    "course_name_malay": "Bioinformatik",
+    "course_name_english": "Bioinformatics",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BSM3201",
+      "BCH3107"
+    ],
+    "description_malay": "Kursus ini merangkumi penelitian konsep asas dan kaedah dalam bioinformatik. Penekanan adalah kepada aspek teori dan praktik dalam analisis dan pengolahan jujukan asid nukleik dan protein, serta penggunaan perisian dalam analisis. Kegunaan bioinformatik dalam biologi molekul dibincangkan.",
+    "description_english": "The course encompasses details on fundamental concepts and methods in bioinformatics. Emphasis is on the theory and practical aspects of analysis and manipulations of nucleic acid and amino acid sequences, and the use of software in the analyses. Applications of bioinformatics in molecular biology are discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4301 \nBioinformatik / Bioinformatics \n3(2+1) \nPrasyarat: BSM3201 atau BCH3107 \nKursus ini merangkumi penelitian konsep asas dan kaedah dalam bioinformatik. Penekanan adalah \nkepada aspek teori dan praktik dalam analisis dan pengolahan jujukan asid nukleik dan protein, serta \npenggunaan perisian dalam analisis. Kegunaan bioinformatik dalam biologi molekul dibincangkan. \nThe course encompasses details on fundamental concepts and methods in bioinformatics. Emphasis is \non the theory and practica"
+  },
+  {
+    "course_code": "BSM4302",
+    "course_name_malay": "Penjujukan Generasi Seterusnya",
+    "course_name_english": "Next Generation Sequencing",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "BSM4301"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep asas dan kaedah dalam teknologi penjujukan generasi seterusnya. Teori dan praktik ditekankan dalam analisis pelbagai data penjujukan menggunakan perisian bioinformatik yang sesuai. Aplikasi penjujukan generasi seterusnya juga dibincangkan.",
+    "description_english": "The course encompasses the fundamental concepts and methods in next generation sequencing technologies. Theory and practical are emphasised on analysis of various sequencing data using appropriate bioinformatics tools. Applications of next generation sequencing technologies are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4302 \nPenjujukan Generasi Seterusnya / Next Generation \nSequencing \n3(2+1) \nPrasyarat: BSM4301 \nKursus ini merangkumi konsep asas dan kaedah dalam teknologi penjujukan generasi seterusnya. Teori \ndan praktik ditekankan dalam analisis pelbagai data penjujukan menggunakan perisian bioinformatik \nyang sesuai. Aplikasi penjujukan generasi seterusnya juga dibincangkan. \nThe course encompasses the fundamental concepts and methods in next generation sequencing \ntechnologies. Theory and practical are"
+  },
+  {
+    "course_code": "BSM4401",
+    "course_name_malay": "Kultur Sel dan Tisu Haiwan Lanjutan",
+    "course_name_english": "Advanced Animal Cell and Tissue Culture",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BSM3403"
+    ],
+    "description_malay": "Kursus ini merangkumi maklumat latar belakang penting untuk memungkinkan penggunaan teknik kultur sel haiwan sebagai pilihan untuk operasi pengeluaran protein yang diinginkan secara besarbesaran, terutamanya dalam penjagaan kesihatan. Teknik penting dalam memanipulasi dan merekabentuk kultur sel mamalia, terutamanya untuk biosintesis bahan biologi seperti protein rekombinan atau antibodi monoklonal dibincangkan. Prinsip dan teknik di sebalik manipulasi sel untuk penghasilan titisan sel berskala besar yang sangat produktif diterangkan.",
+    "description_english": "This course encompasses the essential background information to enable the establishment of animal cell cultures as an option for large-scale production operations of desired proteins, mainly in healthcare. Important techniques in manipulating and designing mammalian cell cultures, particularly for the biosynthesis of biological substances such as recombinant proteins or monoclonal antibodies are discussed. The principles and techniques behind cell manipulations for scale-up production of highly productive cell lines are explained.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4401 \nKultur Sel dan Tisu Haiwan Lanjutan / Advanced \nAnimal Cell and Tissue Culture \n3(3+0) \nPrasyarat: BSM3403 \nKursus ini merangkumi maklumat latar belakang penting untuk memungkinkan penggunaan teknik kultur \nsel haiwan sebagai pilihan untuk operasi pengeluaran protein yang diinginkan secara besarbesaran, \nterutamanya dalam penjagaan kesihatan. Teknik penting dalam memanipulasi dan merekabentuk kultur \nsel mamalia, terutamanya untuk biosintesis bahan biologi seperti protein rekombinan ata"
+  },
+  {
+    "course_code": "BSM4501",
+    "course_name_malay": "Kultur Sel dan Tisu Tumbuhan Gunaan",
+    "course_name_english": "Applied Plant Cell and Tissue Culture",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BSM3403"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep penting bagi pembiakan klon tumbuhan pertanian, hortikultur dan perubatan. Kaedah bagi pengeluaran tumbuhan bebas dari patogen, variasi rintang penyakit dan tekanan serta kepentingannya dalam penghasilan varieti baru dibincangkan. Prinsip penyimpanan germplasma dan penghasilan metabolit sekunder serta potensi kejuruteraan genetik tumbuhan diterangkan.",
+    "description_english": "This course encompasses the essential concepts for clonal propagation of agricultural, horticultural and medicinal plants. Methods for production of pathogen-free plants, disease-resistant and stress-tolerant strains and the importance in the production of new varieties are discussed. The principles of germplasm storage, secondary metabolites and potential of genetic engineering in plants are described.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4501 \nKultur Sel dan Tisu Tumbuhan Gunaan / Applied Plant \nCell and Tissue Culture \n4(3+1) \nPrasyarat: BSM3403 \nKursus ini merangkumi konsep penting bagi pembiakan klon tumbuhan pertanian, hortikultur dan \nperubatan. Kaedah bagi pengeluaran tumbuhan bebas dari patogen, variasi rintang penyakit dan \ntekanan serta kepentingannya dalam penghasilan varieti baru dibincangkan. Prinsip penyimpanan \ngermplasma dan penghasilan metabolit sekunder serta potensi kejuruteraan genetik tumbuhan \nditerangkan"
+  },
+  {
+    "course_code": "BSM4503",
+    "course_name_malay": "Biologi Molekul Perkembangan Tumbuhan",
+    "course_name_english": "Molecular Biology of Plant Development",
+    "credits": "4(4+0)",
+    "prerequisites": [
+      "BSM3201",
+      "BSM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip asas biologi perkembangan tumbuhan. Aspek perkembangan sel dan organ tumbuhan seperti struktur dan fisiologi sel, proses perkembangan sel dan organ dibincangkan. Hubungkait di antara pengekspresan gen dengan fungsi struktur dan fisiologi tisu tumbuhan diterangkan.",
+    "description_english": "This course encompasses the basic principles of plant developmental biology. Aspects of plant cell and organ development, such as cell structures and physiology, cell and organ developmental processes are discussed. The relationship of gene expression to structure and physiological functions of plant tissues is explained.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4503 \nBiologi Molekul Perkembangan Tumbuhan/ Molecular \nBiology of Plant Development \n4(4+0) \nPrasyarat: BSM3201 dan BSM3101 \nKursus ini merangkumi prinsip asas biologi perkembangan tumbuhan. Aspek perkembangan sel dan \norgan tumbuhan seperti struktur dan fisiologi sel, proses perkembangan sel dan organ dibincangkan. \nHubungkait di antara pengekspresan gen dengan fungsi struktur dan fisiologi tisu tumbuhan \nditerangkan. \nThis course encompasses the basic principles of plant developmental biol"
+  },
+  {
+    "course_code": "BSM4504",
+    "course_name_malay": "Teknologi Tumbuhan Transgenik",
+    "course_name_english": "Transgenic Plant Technology",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BSM3202"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek manipulasi dan penganalisaan genom tumbuhan. Teknik biologi molekul dalam pembiakbakaan tumbuhan diterangkan. Pelbagai isu berkaitan dengan produk terubahsuai secara genetik juga dibincangkan.",
+    "description_english": "This course encompasses aspects of manipulation and analyses of plant genome. Applications of molecular biology techniques in plant breeding are explained. Various issues on genetically modified products are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4504 \nTeknologi Tumbuhan Transgenik / Transgenic Plant \nTechnology \n4(3+1) \nPrasyarat: BSM3202 \nKursus ini merangkumi aspek manipulasi dan penganalisaan genom tumbuhan. Teknik biologi molekul \ndalam pembiakbakaan tumbuhan diterangkan. Pelbagai isu berkaitan dengan produk terubahsuai \nsecara genetik juga dibincangkan. \nThis course encompasses aspects of manipulation and analyses of plant genome. Applications of \nmolecular biology techniques in plant breeding are explained. Various issues on ge"
+  },
+  {
+    "course_code": "BSM4601",
+    "course_name_malay": "Kejuruteraan Protein",
+    "course_name_english": "Protein Engineering",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BSM3202",
+      "BMY4310"
+    ],
+    "description_malay": "Kursus ini merangkumi penggunaan teknik kimia dan genetik untuk mengubahsuai protein. Penekanan diberikan kepada teori penstabilan protein, teknik penulenan, analisis, ramalan struktur 3D dan teknik pengubahsuaian protein.",
+    "description_english": "This course encompasses the use of genetic and chemical techniques to modify protein. Emphasis is on the theories related to protein stabilization, purification techniques, analysis, 3D structure prediction and protein modification techniques.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4601 \nKejuruteraan Protein / Protein Engineering \n4(3+1) \nPrasyarat: BSM3202 atau BMY4310 \nKursus ini merangkumi penggunaan teknik kimia dan genetik untuk mengubahsuai protein. Penekanan \ndiberikan kepada teori penstabilan protein, teknik penulenan, analisis, ramalan struktur 3D dan teknik \npengubahsuaian protein. \nThis course encompasses the use of genetic and chemical techniques to modify protein. Emphasis is \non the theories related to protein stabilization, purification techniques, analys"
+  },
+  {
+    "course_code": "BSM4602",
+    "course_name_malay": "Proteomik",
+    "course_name_english": "Proteomics",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "BSM3201",
+      "BMY4310"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep, teknologi, dan aplikasi proteomik. Topik utama yang dibincangkan merangkumi kedinamikan dan kekompleksan proteom, pengubahsuaian dan kepelbagaian protein, ekspresi dan interaksi proteom, teknologi proteom, dan informatic protein. Aplikasi proteomik dalam pelbagai sektor penyelidikan juga dibincangkan.",
+    "description_english": "This course encompasses the concepts, technologies, and applications of proteomics. Major topics discussed include proteome dynamics and complexity, protein modifications and diversity, proteome expression and interaction, proteome technologies, and protein informatics. Applications of proteomics in various sectors of research are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4602 \nProteomik / Proteomics \n4(3+1) \nPrasyarat: BSM3201 atau BMY4310 \nKursus ini merangkumi konsep, teknologi, dan aplikasi proteomik. Topik utama yang dibincangkan \nmerangkumi kedinamikan dan kekompleksan proteom, pengubahsuaian dan kepelbagaian protein, \nekspresi dan interaksi proteom, teknologi proteom, dan informatic protein. Aplikasi proteomik dalam \npelbagai sektor penyelidikan juga dibincangkan. \n\n--- Page 23 ---\nTarikh kemaskini : 2/9/2025 \n \nThis course encompasses the concepts, tec"
+  },
+  {
+    "course_code": "BSM4603",
+    "course_name_malay": "Biologi Struktur",
+    "course_name_english": "Structural Biology",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BSM3201",
+      "BMY4310"
+    ],
+    "description_malay": "Kursus ini merangkumi pengetahuan asas mengenai struktur tiga dimensi protein. Kepentingan struktur protein dalam penentuan fungsi protein dibincangkan. Selain itu, beberapa teknik penting penentuan struktur protein secara kristalografi dan Nuclear Magnetic Resonance (NMR) juga diterangkan. Aplikasi berkaitan biologi struktur dalam bidang sains turut dibincangkan.",
+    "description_english": "This course encompasses the basic knowledge about the three-dimensional structure of proteins. The importances of protein structures in determining the functions of proteins are discussed. In addition, a few major techniques in determining protein structures via crystallography and Nuclear Magnetic Resonance (NMR) are explained. The applications related to structural biology in other fields of science are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4603 \nBiologi Struktur / Structural Biology \n3(3+0) \nPrasyarat: BSM3201 atau BMY4310 \nKursus ini merangkumi pengetahuan asas mengenai struktur tiga dimensi protein. Kepentingan struktur \nprotein dalam penentuan fungsi protein dibincangkan. Selain itu, beberapa teknik penting penentuan \nstruktur protein secara kristalografi dan Nuclear Magnetic Resonance (NMR) juga diterangkan. Aplikasi \nberkaitan biologi struktur dalam bidang sains turut dibincangkan. \nThis course encompasses the basic knowle"
+  },
+  {
+    "course_code": "BSM4701",
+    "course_name_malay": "Bahan Nano Dan Bioteknologi",
+    "course_name_english": "Nanomaterials and Biotechnology",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "BSM3201",
+      "BCH3107"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip asas penggunaan bahan nano dalam kajian bioteknologi. Konsep sintesis dan pencirian bahan nano, serta instrumentasi dalam nanobioteknologi dibandingkan dan diterangkan. Kadar ketoksikan dan kelangsungan in vitro serta in vivo pelbagai bahan nano turut dibincangkan. Aplikasi bahan nano dalam pelbagai bidang seperti perubatan, pertanian, dan alam sekitar diterokai.",
+    "description_english": "This course encompasses the basic principles of nano materials in biotechnological research. The concepts in the synthesis and characterization of nanomaterials, as well as the various instrumentation in nanobiotechnology are compared and described. The in vitro and in vivo toxicity and persistence of nano materials are also discussed. The applications of nano materials in various fields including medicine, agriculture, and the environment are explored.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4701 \nBahan Nano Dan Bioteknologi / Nanomaterials and \nBiotechnology \n3(3+0) \nPrasyarat: BSM3201 atau BCH3107  \nKursus ini merangkumi prinsip asas penggunaan bahan nano dalam kajian bioteknologi. Konsep sintesis \ndan pencirian bahan nano, serta instrumentasi dalam nanobioteknologi dibandingkan dan diterangkan. \nKadar ketoksikan dan kelangsungan in vitro serta in vivo pelbagai bahan nano turut dibincangkan. \nAplikasi bahan nano dalam pelbagai bidang seperti perubatan, pertanian, dan alam sekit"
+  },
+  {
+    "course_code": "BSM4902",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "12(0+12)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini mendedahkan pelajar kepada persekitaran kerja yang sebenar di industri/organisasi. Latihan dijalankan di agensi kerajaan atau swasta selama 24 minggu. Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan.",
+    "description_english": "This course introduces students to real working environment in industries/organizations. This training is conducted in government or private agencies for 24 months. Training includes application of the theoretical and practical aspects that have been studied with current practices in the workplace. Problem solving and communication skills are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4902 \nLatihan Industri / Industrial Training \n12(0+12) \nPrasyarat: Dengan kebenaran Jabatan \nKursus ini mendedahkan pelajar kepada persekitaran kerja yang sebenar di industri/organisasi. Latihan \ndijalankan di agensi kerajaan atau swasta selama 24 minggu. Latihan merangkumi aplikasi aspek teori \ndan praktikal yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran menyelesaikan \nmasalah dan komunikasi turut diberi penekanan. \nThis course introduces students to real working envir"
+  },
+  {
+    "course_code": "BSM4904",
+    "course_name_malay": "Pembelajaran Perkhidmatan dalam Biologi Sel dan Molekul",
+    "course_name_english": "Service Learning in Cell and Molecular Biology",
+    "credits": "1(0+1)",
+    "prerequisites": [
+      "BSM3202"
+    ],
+    "description_malay": "Kursus ini merangkumi aktiviti bagi meningkatkan kesedaran dan kefahaman komuniti tentang kepentingan biologi sel dan molekul dalam kehidupan harian. Proses pembelajaran dan bekerjasama dengan masyarakat luar bagi membina pengetahun sains, demonstrasi dan aktiviti “hands-on‟ bagi memenuhi keperluan komuniti.",
+    "description_english": "This course encompasses activities to increase awareness of community and to enhance understanding of the importance of cell and molecular biology in daily lives. The learning process involves working together with the public to develop science lessons, demonstrations and hands-on activities to meet community needs.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4904 \nPembelajaran Perkhidmatan dalam Biologi Sel dan \nMolekul/ Service Learning in Cell and Molecular Biology \n1(0+1) \nPrasyarat: BSM3202 \nKursus ini merangkumi aktiviti bagi meningkatkan kesedaran dan kefahaman komuniti tentang \nkepentingan biologi sel dan molekul dalam kehidupan harian. Proses pembelajaran dan bekerjasama \ndengan masyarakat luar bagi membina pengetahun sains, demonstrasi dan aktiviti “hands-on‟ bagi \nmemenuhi keperluan komuniti. \nThis course encompasses activities to incre"
+  },
+  {
+    "course_code": "BSM4959",
+    "course_name_malay": "Disertasi Bacelor",
+    "course_name_english": "Bachelor Dissertation",
+    "credits": "6(0+6)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk sesuatu projek penyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui rekabentuk, pengumpulan dan analisis data yang sesuai diberi penekanan.",
+    "description_english": "This course covers the preparation of proposal, implementation and scientific writing of research project. Scientific approach to generate data systematically through appropriate design, data collection and analysis are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4959 \nDisertasi Bacelor / Bachelor Dissertation \n6(0+6) \nPrasyarat: Tiada \nKursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk sesuatu projek \npenyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui rekabentuk, \npengumpulan dan analisis data yang sesuai diberi penekanan. \nThis course covers the preparation of proposal, implementation and scientific writing of research project. \nScientific approach to generate data systematically through "
+  },
+  {
+    "course_code": "BSM4991",
+    "course_name_malay": "Seminar",
+    "course_name_english": "Seminar",
+    "credits": "1(0+1)",
+    "prerequisites": [
+      "BSM4904"
+    ],
+    "description_malay": "Kursus ini merangkumi penyediaan dan penyampaian seminar secara berkesan mengenai projek penyelidikan dalam bidang biologi sel dan molekul. Pelajar perlu membuat sorotan literatur, menyusun dan membentangkan maklumat biologi sel dan molekul dalam satu seminar.",
+    "description_english": "This course encompasses the effective preparation and delivery of seminars on research project in cell and molecular biology. Students are required to review the literature, organise and present information on cell and molecular biology in a seminar.",
+    "department": null,
+    "faculty": "Fakulti Bioteknologi Dan Sains Biomolekul",
+    "source_chunk": "BSM4991 \nSeminar / Seminar \n1(0+1) \nPrasyarat: BSM4904 \nKursus ini merangkumi penyediaan dan penyampaian seminar secara berkesan mengenai projek \npenyelidikan dalam bidang biologi sel dan molekul. Pelajar perlu membuat sorotan literatur, menyusun \ndan membentangkan maklumat biologi sel dan molekul dalam satu seminar. \nThis course encompasses the effective preparation and delivery of seminars on research project in cell \nand molecular biology. Students are required to review the literature, organ"
+  }
+]
