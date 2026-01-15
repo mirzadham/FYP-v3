@@ -1,0 +1,27 @@
+flows:
+  mental_health_support:
+    description: |
+      Flow to provide mental health support, crisis resources, and UPM counseling information.
+      Triggered when students express stress, depression, or distress.
+      Examples: "I'm feeling stressed", "I want to give up", "feeling depressed", "need help with my mental health"
+    name: mental health support
+    steps:
+      - id: assess_distress
+        action: utter_mental_health_support
+        next: ask_for_more_help
+
+      - id: ask_for_more_help
+        collect: wants_more_health_guidance
+        description: Whether the user wants more specific health guidance (coping, resources)
+        next:
+          - if: slots.wants_more_health_guidance
+            then: show_options
+          - else: end_flow
+
+      - id: show_options
+        action: utter_mental_health_encouragement
+        next: END
+
+      - id: end_flow
+        action: utter_mental_health_encouragement
+        next: END
