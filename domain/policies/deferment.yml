@@ -3,7 +3,6 @@ version: "3.1"
 slots:
   deferment_reason:
     type: categorical
-    description: Main reason for considering deferment.
     values:
       - medical
       - personal
@@ -14,19 +13,16 @@ slots:
 
   current_semester_week:
     type: float
-    description: Current week of the semester.
     mappings:
       - type: from_llm
 
   is_late_deferment:
     type: bool
-    description: Whether it's late in semester to apply for deferment.
     mappings:
       - type: custom
 
   wants_deferment_procedure:
     type: bool
-    description: Whether student wants the procedure details.
     mappings:
       - type: from_llm
 
@@ -186,8 +182,8 @@ responses:
         
         **Deadlines:**
         • Best: Before semester starts
-        • Latest: Usually before Week 4
-        • After Week 4: Exceptional cases only
+        • Latest: Usually before Week 2
+        • After Week 2: Exceptional cases only
     - text: |
         🔧 **How to Apply**
         
@@ -197,7 +193,7 @@ responses:
         4. Clear library, fees, hostel
         5. Receive approval letter
         
-        Apply before Week 4 for best outcome!
+        Apply before Week 2 for best outcome!
 
   utter_deferment_impact_warning:
     - text: |

@@ -3,49 +3,41 @@ version: "3.1"
 slots:
   course_code:
     type: text
-    description: The course code to search for (e.g., CCS3101, CSC4600).
     mappings:
       - type: from_llm
 
   course_code_valid:
     type: bool
-    description: Whether the course code format is valid (3-4 letters + 4 digits).
     mappings:
       - type: custom
 
   course_name:
     type: text
-    description: The full name of the course (English or Malay).
     mappings:
       - type: custom
 
   credits:
     type: float
-    description: Number of credit hours for the course.
     mappings:
       - type: custom
 
   synopsis:
     type: text
-    description: Course synopsis/description.
     mappings:
       - type: custom
 
   prereq_list:
     type: text
-    description: Prerequisites for the course as a formatted string.
     mappings:
       - type: custom
 
   wants_course_followup:
     type: bool
-    description: Whether student wants additional course information.
     mappings:
       - type: from_llm
 
   course_followup_type:
     type: categorical
-    description: Type of follow-up information requested.
     values:
       - prerequisites
       - schedule
@@ -55,13 +47,11 @@ slots:
 
   wants_another_course:
     type: bool
-    description: Whether student wants to search for another course.
     mappings:
       - type: from_llm
 
   wants_search_retry:
     type: bool
-    description: Whether student wants to retry with a different course code.
     mappings:
       - type: from_llm
 
@@ -124,7 +114,7 @@ responses:
         
         **Possible reasons:**
         • Course code might be incorrect
-        • Course may not be in the Faculty of Computer Science & IT
+        • Course may not be in my faculty handbooks
         • Course code format may have changed
         
         💡 Double-check the code in your SMP or faculty handbook.
@@ -135,7 +125,7 @@ responses:
         
         Tips:
         • Verify the course code spelling
-        • Check if it's a FCSIT course
+        • Check if it's in the loaded handbooks
         • Try the 4-letter version if using 3-letter
         
         Would you like to try a different code?
