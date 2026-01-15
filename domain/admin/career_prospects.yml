@@ -1,24 +1,184 @@
 version: "3.1"
 
+slots:
+  student_field:
+    type: text
+    mappings:
+      - type: from_llm
+
+  wants_more_career_guidance:
+    type: bool
+    mappings:
+      - type: from_llm
+
 responses:
-  utter_career_alignment:
+  utter_career_intro:
     - text: |
-        🎯 **Academic-Career Alignment**
+        🎯 **Career Path Discussion**
         
-        Your academic choices shape your career path. Here's how your coursework connects to industry:
+        I'm here to help you think about how your academic journey connects to your career goals.
         
-        **Key Courses & Career Relevance:**
-        • **Programming** → Software Development, App Development
-        • **Data Structures & Algorithms** → Tech company interviews, efficient coding
-        • **Database Systems** → Backend Development, Data Engineering
-        • **AI/Machine Learning** → Data Science, AI Engineering
-        • **Networks & Security** → Cybersecurity, Cloud Engineering
+        While I can provide guidance and help you reflect, detailed career counseling (resumes, interviews, job search) is best done with Career Services or your Academic Advisor in person.
         
-        **Academic Advice:**
-        • Choose electives that align with your target career
-        • Build projects to apply what you learn
-        • Your FYP topic can be a portfolio piece
+        What's your field of study?
+    - text: |
+        💼 **Let's Talk Career Direction**
         
-        📚 **For detailed career counseling** (resume, interviews, job search): Please visit the **Career Services Center**.
+        Part of my role is helping you connect your studies to your future career.
         
-        💡 Focus on building skills through coursework and projects!
+        Tell me - what are you studying?
+
+  utter_universal_career_tips:
+    - text: |
+        📚 **How Your Studies Connect to Your Career**
+        
+        No matter what field you're in - **{student_field}** - these principles apply:
+        
+        **1. Coursework Builds Foundation**
+        • Core courses teach fundamentals employers expect
+        • Electives let you specialize or broaden skills
+        • Your grades signal work ethic to recruiters
+        
+        **2. Projects = Portfolio**
+        • Course projects can become portfolio pieces
+        • FYP is often your biggest showcase
+        • Document your work for future applications
+        
+        **3. Skills Beyond Grades**
+        • Communication, teamwork, problem-solving
+        • These transfer to ANY career
+        • Build them through group work, presentations
+        
+        **4. Networking Starts Now**
+        • Lecturers often have industry connections
+        • Alumni can open doors
+        • Industrial training builds real contacts
+    - text: |
+        🎓 **Universal Career Wisdom for {student_field}**
+        
+        **What employers look for (across ALL fields):**
+        
+        ✅ Strong foundation in your major
+        ✅ Practical projects that show applied skills
+        ✅ Soft skills (communication, teamwork)
+        ✅ Proactive attitude and self-learning
+        ✅ Real-world experience (internships, LI)
+
+  utter_guiding_questions:
+    - text: |
+        🤔 **Questions to Help You Reflect**
+        
+        Take a moment to think about these:
+        
+        1. **What aspects of your studies do you enjoy most?**
+           • This often points to career directions you'll thrive in
+        
+        2. **Which courses feel most relevant to "real work"?**
+           • These might be worth focusing on
+        
+        3. **What problems do you want to solve in your career?**
+           • Your answer shapes the industries to target
+        
+        4. **Who in your field do you admire?**
+           • Research their path - it might inspire yours
+        
+        5. **What skills do you want to develop before graduating?**
+           • Plan your remaining electives around these
+        
+        💡 There's no single "right" answer - your path is unique!
+    - text: |
+        💭 **Think About This**
+        
+        • What do you enjoy learning about?
+        • Which courses feel practical vs theoretical?
+        • What kind of work environment appeals to you?
+        • What skills do you want to build?
+        
+        Your answers will guide your academic choices!
+
+  utter_career_reflection_exercise:
+    - text: |
+        📝 **Career Reflection Exercise**
+        
+        Try this exercise on your own time:
+        
+        **Step 1:** List 3 things you're good at in your studies
+        **Step 2:** List 3 things you enjoy doing (even outside class)
+        **Step 3:** Research 5 job titles in your field
+        **Step 4:** For each job, ask: "Does this use what I'm good at AND enjoy?"
+        
+        The overlap is your sweet spot! 🎯
+        
+        **Discuss your findings with:**
+        • Your Academic Advisor (PA)
+        • Career Services Center
+        • Industry professionals (through networking)
+    - text: |
+        ✍️ **Action Item**
+        
+        Before your next PA meeting, write down:
+        • Your top 3 interests in your field
+        • 3 job titles that sound interesting
+        • Questions you have about those careers
+        
+        This makes your PA discussion much more productive!
+
+  utter_career_resources:
+    - text: |
+        🔗 **Career Resources at UPM**
+        
+        **For Career Exploration:**
+        • **Career Services Center** - Career fairs, workshops, counseling
+        • **Alumni Network** - Connect with graduates in your field
+        • **Faculty Career Talks** - Industry professionals sharing insights
+        
+        **For Practical Experience:**
+        • **Industrial Training (LI)** - Real workplace exposure
+        • **Student Clubs** - Leadership, project experience
+        • **Competitions** - Hackathons, challenges in your field
+        
+        **Online Resources:**
+        • LinkedIn - Research professionals in your target roles
+        • Glassdoor - Understand job expectations
+        • JobStreet/Indeed - See what employers want
+        
+        💡 Start exploring now, not in final year!
+    - text: |
+        📋 **Where to Get More Help**
+        
+        • **Career Services Center** - For job search help
+        • **Your Academic Advisor (PA)** - Academic-career planning
+        • **Faculty Office** - Field-specific career info
+        • **Alumni** - Real insights from people who've been there
+
+  utter_career_encouragement:
+    - text: |
+        💪 **You're on the Right Track!**
+        
+        The fact that you're thinking about career alignment shows maturity.
+        
+        Remember:
+        • It's okay to not have it all figured out
+        • Your path can change as you learn more
+        • Every course teaches you something valuable
+        
+        Keep exploring, stay curious, and you'll find your way! 🌟
+    - text: |
+        🌟 **Keep Going!**
+        
+        Career clarity comes with time and exploration. You don't need all the answers now.
+        
+        Focus on learning well, building skills, and staying open to opportunities.
+        
+        Your future is bright! ✨
+
+  utter_ask_student_field:
+    - text: "What field or program are you studying?"
+      metadata:
+        rephrase: true
+
+  utter_ask_wants_more_career_guidance:
+    - text: "Would you like more career guidance or resources?"
+      metadata:
+        rephrase: true
+

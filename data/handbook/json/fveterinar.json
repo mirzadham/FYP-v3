@@ -1,0 +1,692 @@
+[
+  {
+    "course_code": "VPP3021",
+    "course_name_malay": "Biokimia Veterinar",
+    "course_name_english": "Veterinary Biochemistry",
+    "credits": "3 (2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi aspek biokimia asas termasuk mekanismanya dalam metabolisme sel, tisu dan organ dalam badan haiwan normal dan abnormal. Penyelenggaraan sel, metabolisma tisu dan organ ditekankan. Prinsip proses biokimia dalam homoeostasis badan haiwan normal dibincangkan.",
+    "description_english": "This course covers aspects of basic biochemistry which include its mechanisms in the cell, tissue and organ metabolism in the normal and abnormal animal body. Cell, tissue and organ metabolism are emphasized. The principles of biochemistry processes in homoeostasis are discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3021 \nBiokimia Veterinar/ Veterinary Biochemistry \n3 (2+1) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini merangkumi aspek biokimia asas termasuk mekanismanya dalam metabolisme sel, tisu \ndan organ dalam badan haiwan normal dan abnormal. Penyelenggaraan sel, metabolisma tisu dan \norgan ditekankan. Prinsip proses biokimia dalam homoeostasis badan haiwan normal dibincangkan. \nThis course covers aspects of basic biochemistry which include its mechanisms in the cell, tissue and \norgan metaboli"
+  },
+  {
+    "course_code": "VPP3110",
+    "course_name_malay": "Pengenalan Sains Ternakan",
+    "course_name_english": "Introduction to Livestock Science",
+    "credits": "3 (2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi kepentingan pertanian haiwan untuk peradaban manusia. Amalan pertanian haiwan semasa dan pertanian lestari diperkenalkan. Asas kesejahteraan haiwan dan kesihatan haiwan, serta amalan kesihatan haiwan yang baik dibincangkan.",
+    "description_english": "This course covers the importance of animal agriculture for human civilization. Current animal agriculture and sustainable agriculture are introduced. Basic animal well-being, health and good animal health practices are discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3110 \nPengenalan Sains Ternakan/ Introduction to Livestock Science \n3 (2+1) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini merangkumi kepentingan pertanian haiwan untuk peradaban manusia. Amalan pertanian \nhaiwan semasa dan pertanian lestari diperkenalkan. Asas kesejahteraan haiwan dan kesihatan \nhaiwan, serta amalan kesihatan haiwan yang baik dibincangkan. \nThis course covers the importance of animal agriculture for human civilization. Current animal \nagriculture and sustainable agricultu"
+  },
+  {
+    "course_code": "VPP3111",
+    "course_name_malay": "Penternakan Dan Pengurusan Kesihatan Ruminan",
+    "course_name_english": "Ruminant Husbandry and Health Management",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "VPP3110"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek pengurusan ternakan ruminan pedaging, tenusu serta produksi ruminan kecil.  Keperluan utama pembangunan sistem produksi ruminan serta kaedah pengendalian susu dan karkas dalam pengeluaran ruminan ditekankan. Keperluan pengurusan bahan buangan ternakan dan kesihatan haiwan dibincangkan.",
+    "description_english": "This course covers the management of beef and dairy animals, as well as small ruminant production. Major requirements in ruminant production and handling technique on milk and carcasses are emphasized. The requisite of livestock waste and animal health management is discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3111 \nPenternakan Dan Pengurusan Kesihatan Ruminan/ Ruminant \nHusbandry and Health Management \n \n3 (2+1) \nPrasyarat/ Prerequisite : VPP3110 \nKursus ini merangkumi aspek pengurusan ternakan ruminan pedaging, tenusu serta produksi ruminan \nkecil.  Keperluan utama pembangunan sistem produksi ruminan serta kaedah pengendalian susu dan \nkarkas dalam pengeluaran ruminan ditekankan. Keperluan pengurusan bahan buangan ternakan dan \nkesihatan haiwan dibincangkan.  \n \nThis course covers the management "
+  },
+  {
+    "course_code": "VPP3112",
+    "course_name_malay": "Penternakan Dan Pengurusan Kesihatan Bukan Ruminan",
+    "course_name_english": "Non-Ruminant Husbandry And Health Management",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "VPP3110"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek pengurusan ternakan poltri pedaging dan penelur serta produksi babi. Keperluan utama dalam pembangunan sistem dan pengendalian produksi bukan ruminan ditekankan. Pengurusan kesihatan haiwan serta pengendalian hasil buangan dibincangkan.",
+    "description_english": "This course covers the management aspect of poultry in broilers and layers, and pig production. Major requirement in system development and production handling in non-ruminants are emphasized. Animal health and waste management are discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3112 \nPenternakan Dan Pengurusan Kesihatan Bukan Ruminan/ Non-\nRuminant Husbandry And Health Management \n \n3 (2+1) \nPrasyarat/ Prerequisite: VPP3110 \nKursus ini merangkumi aspek pengurusan ternakan poltri pedaging dan penelur serta produksi babi. \nKeperluan utama dalam pembangunan sistem dan pengendalian produksi bukan ruminan ditekankan. \nPengurusan kesihatan haiwan serta pengendalian hasil buangan dibincangkan. \nThis course covers the management aspect of poultry in broilers and layers, and"
+  },
+  {
+    "course_code": "VPP3130",
+    "course_name_malay": "Pemakanan Veterinar",
+    "course_name_english": "Veterinary Nutrition",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "VPP3021"
+    ],
+    "description_malay": "Kursus ini merangkumi ciri dan kepentingan nutrien dalam pemakanan haiwan, pengambilan rela serta keperluan nutrien oleh pelbagai jenis haiwan. Keseimbangan dan peranan komponen utama makanan, kaedah merumus rangsum dan penentuan nilai cerna dibincangkan.",
+    "description_english": "This course encompasses the characteristics and importance of nutrients in animal nutrition, voluntary intake as well as nutrient requirements of animals. The balance and role of main component of feed, feed formulation and digestibility determination techniques are discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3130 \nPemakanan Veterinar/ Veterinary Nutrition \n3 (2+1) \nPrasyarat/ Prerequisite: VPP3021 \n \nKursus ini merangkumi ciri dan kepentingan nutrien dalam pemakanan haiwan, pengambilan rela \nserta keperluan nutrien oleh pelbagai jenis haiwan. Keseimbangan dan peranan komponen utama \nmakanan, kaedah merumus rangsum dan penentuan nilai cerna dibincangkan. \nThis course encompasses the characteristics and importance of nutrients in animal nutrition, voluntary \nintake as well as nutrient requirements "
+  },
+  {
+    "course_code": "VPP3140",
+    "course_name_malay": "Genetik Veterinar",
+    "course_name_english": "Veterinary Genetics",
+    "credits": "3 (2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip pewarisan genetik, genetik molekular dan populasi pengesanan penyakit, pembiakbakaan dan pemilihan haiwan kesayangan dan haiwan bela jinak melalui prinsip genetik ditekankan. Kepelbagaian aspek genetik bagi penyakit dan kecacatan genetik untuk haiwan kesayangan dan haiwan bela jinak dapat diterapkan.",
+    "description_english": "This course encompasses the principles of genetic inheritance, molecular/clinical genetics and, population and quantitative genetics in the breeding and selection of domestic and companion animals. This course also discuss selection methods, crossbreeding systems, genetic analyses and genetic defects.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3140 \nGenetik Veterinar/ Veterinary Genetics \n3 (2+1) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini merangkumi prinsip pewarisan genetik, genetik molekular dan populasi pengesanan \npenyakit, pembiakbakaan dan pemilihan haiwan kesayangan dan haiwan bela jinak melalui prinsip \ngenetik ditekankan. Kepelbagaian aspek genetik bagi penyakit dan kecacatan genetik untuk haiwan \nkesayangan dan haiwan bela jinak dapat diterapkan. \nThis course encompasses the principles of genetic inheritance, molec"
+  },
+  {
+    "course_code": "VPP3160",
+    "course_name_malay": "Statistik Gunaan Dan Kaedah Penyelidikan",
+    "course_name_english": "Applied Statistics & Research Methods",
+    "credits": "3 (2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi perancangan, pengurusan sumber, perlaksanaan serta tafsiran hasil penyelidikan. Pembinaan projek penyelidikan yang rasional dan penilaian kesahihan laporan penyelidikan ditekankan.",
+    "description_english": "This course covers planning, resource management, execution as well as interpretation of research outcomes. Constructing rational research projects as well as being able to assess the validity of research reports are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3160 \nStatistik Gunaan Dan Kaedah Penyelidikan/ Applied Statistics  \n& Research Methods \n3 (2+1) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini meliputi perancangan, pengurusan sumber, perlaksanaan serta tafsiran hasil penyelidikan. \nPembinaan projek penyelidikan yang rasional dan penilaian kesahihan laporan  penyelidikan \nditekankan. \nThis course covers planning, resource management, execution as well as interpretation of research \noutcomes. Constructing rational research projects as well"
+  },
+  {
+    "course_code": "VPP3171",
+    "course_name_malay": "Keusahawanan Veterinar",
+    "course_name_english": "Veterinary Entrepreneurship",
+    "credits": "3 (2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi konsep, prinsip, pengetahuan dan aplikasi keusahawanan dalam merancang dan membuat keputusan untuk memulakan klinik veterinar. Kanvas model perniagaan dan rancangan pemasaran untuk memenuhi keperluan, kehendak dan permintaan pemilik haiwan kesayangan ditekankan. Pembentukan rancangan perniagaan klinik veterinar didedahkan.",
+    "description_english": "This course covers concepts, principles, knowledge and application of entrepreneurship in planning and decision making of veterinary clinic start-up. Business model canvas and marketing plan to fulfil the need, wants and demand by the pet owners is emphasized. Development of veterinary clinic business plan is exposed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3171 \nKeusahawanan Veterinar/ Veterinary Entrepreneurship \n3 (2+1) \nPrasyarat/ Prerequisite  : Tiada/Null \nKursus ini meliputi konsep, prinsip, pengetahuan dan aplikasi keusahawanan dalam merancang dan \nmembuat keputusan untuk memulakan klinik veterinar. Kanvas model perniagaan dan rancangan \npemasaran untuk memenuhi keperluan, kehendak dan permintaan pemilik haiwan kesayangan \nditekankan. Pembentukan rancangan perniagaan klinik veterinar didedahkan. \nThis course covers concepts, principles, "
+  },
+  {
+    "course_code": "VPP3214",
+    "course_name_malay": "Histologi Dan Anatomi Perkembangan Veterinar",
+    "course_name_english": "Veterinary Histology and Developmental Anatomy",
+    "credits": "3 (2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pelbagai istilah yang sering digunakan dalam anatomi, histologi dan embriologi veterinar. Pembentukan awal embrio, struktur sel dan struktur histologi empat tisu asas haiwan ditekankan. Perbandingan struktur histologi sel dan tisu asas serta perkaitannya dengan fungsi organ badan dibincangkan.",
+    "description_english": "This course encompasses various terminologies commonly used in veterinary anatomy, histology and embryology. Early embryo, cell structure and histological structure of four basic tissues of animals are emphasized. Comparison of cell histological structure and basic tissues as well as their relationship with the body organ function are discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3214 \nHistologi Dan Anatomi Perkembangan Veterinar/ Veterinary Histology \nand Developmental Anatomy \n \n3 (2+1) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini merangkumi pelbagai istilah yang sering digunakan dalam anatomi, histologi dan embriologi \nveterinar. Pembentukan awal embrio, struktur sel dan struktur histologi empat tisu asas haiwan \nditekankan. Perbandingan struktur histologi sel dan tisu asas serta perkaitannya dengan fungsi organ \nbadan dibincangkan. \nThis course encompasses va"
+  },
+  {
+    "course_code": "VPP3215",
+    "course_name_malay": "Struktur Dan Fungsi Veterinar I",
+    "course_name_english": "Veterinary Structure and Function I",
+    "credits": "4 (2+2)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi integrasi struktur dan fungsi badan haiwan merangkumi histologi, anatomi kasar dan fungsi sistem kardiovaskular, limfatik, hematopoietik, immunologi dan rangka otot. Kemahiran diseksi, pemeriksaan spesimen segar dan awet serta pemeriksaan slaid histologi didedahkan. Hubung kait struktur dan fungsi ditekankan.",
+    "description_english": "This course covers the integration of structure and function of animal body which encompasses histology, anatomy and function of cardiovascular, lymphatic, haematopoietic, immunology and musculoskeletal systems. Dissection skill, examination of fresh and preserved specimens as well as examination of histological slide techniques are exposed. Relationship of structure and function is emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3215 \nStruktur Dan Fungsi Veterinar I/ Veterinary Structure and Function I \n4 (2+2) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini meliputi integrasi struktur dan fungsi badan haiwan merangkumi histologi, anatomi kasar \ndan fungsi sistem kardiovaskular, limfatik, hematopoietik, immunologi dan rangka otot. Kemahiran \ndiseksi, pemeriksaan spesimen segar dan awet serta pemeriksaan slaid histologi didedahkan. Hubung \nkait struktur dan fungsi ditekankan. \nThis course covers the integration of s"
+  },
+  {
+    "course_code": "VPP3216",
+    "course_name_malay": "Struktur Dan Fungsi Veterinar II",
+    "course_name_english": "Veterinary Structure and Function II",
+    "credits": "4 (2+2)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi integrasi struktur dan fungsi badan haiwan merangkumi histologi, anatomi kasar dan fungsi sistem pencernaan, urinari dan pernafasan. Kemahiran diseksi, pemeriksaan spesimen segar dan awet serta pemeriksaan slaid histologi didedahkan. Hubung kait struktur dan fungsi ditekankan.",
+    "description_english": "This course covers the integration of structure and function of the animal body which encompasses histology, gross anatomy and function of the animal digestive, urinary and respiratory system. Dissection skill, examination of fresh body organs and preserved specimens as well as examination of histological slides are exposed. Relationship of structure and function is emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3216 \nStruktur Dan Fungsi Veterinar II/ Veterinary Structure and Function II \n4 (2+2) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini meliputi integrasi struktur dan fungsi badan haiwan merangkumi histologi, anatomi kasar \ndan fungsi sistem pencernaan, urinari dan pernafasan. Kemahiran diseksi, pemeriksaan spesimen \nsegar dan awet serta pemeriksaan slaid histologi didedahkan. Hubung kait struktur dan fungsi \nditekankan. \nThis course covers the integration of structure and function of the an"
+  },
+  {
+    "course_code": "VPP3217",
+    "course_name_malay": "Struktur Dan Fungsi Veterinar III",
+    "course_name_english": "Veterinary Structure and Function III",
+    "credits": "4 (2+2)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merupakan kursus integrasi struktur dan fungsi badan haiwan merangkumi histologi, anatomi kasar dan fungsi sistem reproduksi dan endokrin, fisiologi persekitaran, mekanisma tekanan dan ikan. Kemahiran diseksi dan pemeriksaan spesimen segar ke atas organ badan didedahkan. Hubung kait struktur dan fungsi ditekankan.",
+    "description_english": "This course covers the integration of structure and function of the animal body which encompasses histology, gross anatomy and function of the animal reproductive and endocrine, environmental physiology, stress mechanism and fish. Dissection skill and examination of fresh body organs are exposed. Relationship of structure and function is emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3217 \nStruktur Dan Fungsi Veterinar III/ Veterinary Structure and Function III \n4 (2+2) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini merupakan kursus integrasi struktur dan fungsi badan haiwan merangkumi histologi, \nanatomi kasar dan fungsi sistem reproduksi dan endokrin, fisiologi persekitaran, mekanisma tekanan \ndan ikan. Kemahiran diseksi dan pemeriksaan spesimen segar ke atas organ badan didedahkan. \nHubung kait struktur dan fungsi ditekankan. \nThis course covers the integration of s"
+  },
+  {
+    "course_code": "VPP3218",
+    "course_name_malay": "Struktur Dan Fungsi Veterinar IV",
+    "course_name_english": "Veterinary Structure and Function IV",
+    "credits": "4 (2+2)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi integrasi struktur dan fungsi badan haiwan merangkumi histologi, anatomi kasar, fungsi sistem saraf, integumen dan organ deria. Kemahiran diseksi, pemeriksaan spesimen segar dan awet serta pemeriksaan slaid histologi didedahkan. Hubung kait struktur dan fungsi ditekankan.",
+    "description_english": "This course covers the integration of structure and function of the animal body which encompasses the histology, gross anatomy, function of nervous system, integumentary and sense organs. Dissection skills, examination of fresh and preserved specimens as well as examination of histological slides are exposed. Relationship of structure and function is emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3218 \nStruktur Dan Fungsi Veterinar IV/ Veterinary Structure and Function IV \n4 (2+2) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini meliputi integrasi struktur dan fungsi badan haiwan merangkumi histologi, anatomi kasar, \nfungsi sistem saraf, integumen dan organ deria. Kemahiran diseksi, pemeriksaan spesimen segar dan \nawet serta pemeriksaan slaid histologi didedahkan. Hubung kait struktur dan fungsi ditekankan. \nThis course covers the integration of structure and function of the animal b"
+  },
+  {
+    "course_code": "VPP3251",
+    "course_name_malay": "Farmakologi Dan Toksikologi Veterinar",
+    "course_name_english": "Veterinary Pharmacology And Toxicology",
+    "credits": "4 (3+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi penggunaan drug berdasarkan prinsip farmakologi dan toksikologi dengan keutamaan kepada kesan drug dan racun terhadap sistem biologi, mekanisma dan tapak tindakan. Aplikasi terapeutik, kesan ketoksikan, perbezaan respon perumah kepada agen terapeutik, faktor mempengaruhi keberkesanan drug, ketoksikan dan prinsip umum rawatan keracunan dibincangkan. Konsep dan prinsip farmakokinetik, farmakodinamik dan kimoterapi pada haiwan ditekankan.",
+    "description_english": "This course encompasses use of drugs based on principles of pharmacology and toxicology with emphasis given to effects of drugs and poisons on biologic systems, their mechanisms and sites of action. Therapeutic applications, toxicity effects, differences in host response to therapeutic agents, factors influencing the effectiveness, toxicity and the general principles of treatment of poisoning is discussed. Concept and principle of pharmacokinetic, pharmacodynamic and chemotherapy are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3251 \nFarmakologi Dan Toksikologi Veterinar/ Veterinary Pharmacology And \nToxicology \n4 (3+1) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini merangkumi penggunaan drug berdasarkan prinsip farmakologi dan toksikologi dengan \nkeutamaan kepada kesan drug dan racun terhadap sistem biologi, mekanisma dan tapak tindakan. \nAplikasi terapeutik, kesan ketoksikan, perbezaan respon perumah kepada agen terapeutik, faktor \nmempengaruhi keberkesanan drug, ketoksikan dan prinsip umum rawatan keracunan di"
+  },
+  {
+    "course_code": "VPP3272",
+    "course_name_malay": "Etologi Dan Kebajikan Haiwan",
+    "course_name_english": "Ethology and Animal Welfare",
+    "credits": "2 (1+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi aspek tingkah laku haiwan, penyebab tingkah laku dan implikasinya ke atas pengurusan, produksi, kesihatan dan kebajikan. Keperluan kebajikan haiwan dan penilaiannya ditekankan. Kesan interaksi manusia-haiwan, domestikasi dan persekitaran fizikal yang disediakan terhadap perlakuan dan kebajikan haiwan dibincangkan.",
+    "description_english": "This course encompasses various aspects of animal behaviour, causes of behaviour and their implications on animal management, production, health and welfare. The necessities of animal welfare and its assessment is emphasized. The effects of human–animal interaction, domestication and physical environment are discussed.",
+    "department": "Jabatan Patologi dan Mikrobiologi Veterinar",
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPP3272 \nEtologi Dan Kebajikan Haiwan/ Ethology and Animal Welfare \n2 (1+1) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini merangkumi aspek tingkah laku haiwan, penyebab tingkah laku dan implikasinya ke atas \npengurusan, produksi, kesihatan dan kebajikan. Keperluan kebajikan haiwan dan penilaiannya \nditekankan. Kesan interaksi manusia-haiwan, domestikasi dan persekitaran fizikal yang disediakan \nterhadap perlakuan dan kebajikan haiwan dibincangkan. \nThis course encompasses various aspects of "
+  },
+  {
+    "course_code": "VPM3301",
+    "course_name_malay": "Bakteriologi Dan Mikologi Veterinar",
+    "course_name_english": "Veterinary Bacteriology and Mycology",
+    "credits": "3 (2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi konsep dan prinsip bidang bakteriologi dan mikologi serta peranan bakteria dan kulat dalam menyebabkan penyakit termasuk penyebaran bakteria dalam jangkitan, langkah pencegahan dan pengawalan bakteria zoonosis.  Teknik dan prinsip diagnosis pengenalpastian agen penyebab penyakit ditekankan.  Kebolehan pelbagai bakteria dalam menyebabkan penyakit  dibincangkan.",
+    "description_english": "This course encompasses the concepts and principles in bacteriology and mycology and the role of bacteria and fungi in causing diseases including transmission of the bacteria in infection, methods for the control and prevention of bacterial zoonoses.  Diagnosis techniques and principles of disease agent is emphasized.  The ability of different bacteria in causing diseases is discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPM3301 \nBakteriologi Dan Mikologi Veterinar/ Veterinary Bacteriology and \nMycology \n3 (2+1) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini merangkumi konsep dan prinsip bidang bakteriologi dan mikologi serta peranan bakteria \ndan kulat dalam menyebabkan penyakit termasuk penyebaran bakteria dalam jangkitan, langkah \npencegahan dan pengawalan bakteria zoonosis.  Teknik dan prinsip diagnosis pengenalpastian \nagen penyebab penyakit ditekankan.  Kebolehan pelbagai bakteria dalam menyebabkan peny"
+  },
+  {
+    "course_code": "VPM3340",
+    "course_name_malay": "Virologi Veterinar",
+    "course_name_english": "Veterinary Virology",
+    "credits": "3 (2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip dasar virologi yang berkaitan dengan agen virus, penyakit virus penting bagi haiwan, penyakit virus zoonosis termasuk penyakit virus semasa yang muncul dan baru muncul. Teknik diagnosis dalam pemencilan dan pengenalpastian virus diaplikasikan. Keupayaan virus dalam menyebabkan penyakit kepada haiwan dibincangkan.",
+    "description_english": "This course covers the fundamental principles of virology related to viral agents, viral diseases of veterinary significance, viral zoonotic diseases including the current emerging and remerging viral diseases. Diagnostic techniques in isolation and identification of virus are applied. The ability of virus in causing disease to animals is discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPM3340 \nVirologi Veterinar/ Veterinary Virology \n3 (2+1) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini merangkumi prinsip dasar virologi yang berkaitan dengan agen virus, penyakit virus \npenting bagi haiwan, penyakit virus zoonosis termasuk penyakit  virus semasa yang muncul dan \nbaru muncul.  Teknik diagnosis dalam pemencilan dan pengenalpastian virus diaplikasikan. \nKeupayaan virus dalam menyebabkan penyakit kepada haiwan dibincangkan.  \nThis course covers the fundamental principles of vi"
+  },
+  {
+    "course_code": "VPM3353",
+    "course_name_malay": "Parasitologi Veterinar",
+    "course_name_english": "Veterinary Parasitology",
+    "credits": "4 (3+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi kitaran hidup kumpulan utama parasit, kesan patologi parasit, dan patogenesis penyakit teraruh parasit. Pengenalpastian parasit dan diagnosis penyakit parasit yang biasa ditemui didedahkan. Faktor epidemiologi yang melibatkan pertalian antara perumah, parasit dan persekitaran dalam kejadian penyakit ditekankan.",
+    "description_english": "This course encompasses the life cycles of groups of parasites, pathological effects of parasites, and pathogenesis of diseases affected by parasite. Identification of parasites and diagnosis of common parasitic diseases are revealed. Epidemiological factors including relationship between host, parasites and environment in diseases formation are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPM3353 \nParasitologi Veterinar/ Veterinary Parasitology  \n4 (3+1) \nPrasyarat/ Prerequisite : Tiada/ Null \nKursus ini merangkumi kitaran hidup kumpulan utama parasit, kesan patologi parasit, dan \npatogenesis penyakit teraruh parasit. Pengenalpastian parasit dan diagnosis penyakit parasit yang \nbiasa ditemui didedahkan. Faktor epidemiologi yang melibatkan pertalian antara perumah, parasit \ndan persekitaran dalam kejadian penyakit ditekankan.  \nThis course encompasses the life cycles of groups of "
+  },
+  {
+    "course_code": "VPM3361",
+    "course_name_malay": "Jangkitan dan Keimunan",
+    "course_name_english": "Infection and Immunity",
+    "credits": "2 (1+1)",
+    "prerequisites": [
+      "VPP3215"
+    ],
+    "description_malay": "Kursus ini merangkumi analisis gerakbalas imun yang membawa kepada keimunan pelindung. Ujian makmal yang terpilih untuk mengukur tindak balas keimunan didedahkan. Mekanisme gerakbalas imun terhadap pelbagai agen termasuk sel barah ditekankan.",
+    "description_english": "This course encompasses analyses of immune responses that offer protective immunity. Selected laboratory tests for measurement of immune responses are revealed. Immune response mechanisms towards various agents including cancer cells are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPM3361 \nJangkitan dan Keimunan/ Infection and Immunity \n2 (1+1) \nPrasyarat/ Prerequisite : VPP3215 \nKursus ini merangkumi analisis gerakbalas imun yang membawa kepada keimunan pelindung. \nUjian makmal yang terpilih untuk mengukur tindak balas keimunan didedahkan. Mekanisme \ngerakbalas imun terhadap pelbagai agen termasuk sel barah ditekankan. \nThis course encompasses analyses of immune responses that offer protective immunity. Selected \nlaboratory tests for measurement of immune responses are r"
+  },
+  {
+    "course_code": "VPM3415",
+    "course_name_malay": "Patologi Veterinar Am",
+    "course_name_english": "General Veterinary Pathology",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "VPP3214"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep proses penyakit dan tindakbalas tisu terhadap kecederaan, lesi makroskopi dan mikroskopi pelbagai kumpulan dan jenis lesi. Teknik laku-sendiri post mortem didedahkan. Perkembangan setiap lesi dan patogenesis penyakit dibincangkan.",
+    "description_english": "This course encompasses the concept of disease process and tissue reactions to injury, gross and microscopic lesions of the various groups and types of lesions. Hands-on post-mortem technique is revealed. The development of each lesion and pathogenesis of diseases are discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPM3415 \nPatologi Veterinar Am/ General Veterinary Pathology \n3 (2+1) \nPrasyarat/ Prerequisite : VPP3214 \nKursus ini merangkumi konsep proses penyakit dan tindakbalas tisu terhadap kecederaan, lesi \nmakroskopi dan mikroskopi pelbagai kumpulan dan jenis lesi. Teknik laku-sendiri post mortem \ndidedahkan. Perkembangan setiap lesi dan patogenesis penyakit dibincangkan. \nThis course encompasses the concept of disease process and tissue reactions to injury, gross and \nmicroscopic lesions of the variou"
+  },
+  {
+    "course_code": "VPM3418",
+    "course_name_malay": "Patologi Veterinar Sistem I",
+    "course_name_english": "Systemic Veterinary Pathology I",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "VPM3415"
+    ],
+    "description_malay": "Kursus ini merangkumi perhubungan lesi makroskopi dan mikroskopi penting dengan penyakit yang berlaku dalam sistem hematopoietik, gastrousus, urinari, endokrin dan kardiovaskular dengan penyebab dan petanda klinikal. Patogenesis, patofisiologi, dan diagnosis penyakit akan dibincangkan dan pemeriksaan post-mortem secara guna tangan dilaksanakan.",
+    "description_english": "This course encompasses the relationship of the important macroscopic and microscopic lesions, aetiology and clinical signs in disease occurrence in the hematopoietic, gastrointestinal, urinary, endocrine and cardiovascular systems. The pathogenesis, pathophysiology and diagnosis of the disease or condition are discussed, and hands-on post-mortem examination are performed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPM3418 \nPatologi Veterinar Sistem I/ Systemic Veterinary Pathology I \n3 (2+1) \nPrasyarat/ Prerequisite : VPM3415 \nKursus ini merangkumi perhubungan lesi makroskopi dan mikroskopi penting dengan penyakit yang \nberlaku dalam sistem hematopoietik, gastrousus, urinari, endokrin dan kardiovaskular dengan \npenyebab dan petanda klinikal. Patogenesis, patofisiologi, dan diagnosis penyakit akan \ndibincangkan dan pemeriksaan post-mortem secara guna tangan dilaksanakan. \n \nThis course encompasses the rela"
+  },
+  {
+    "course_code": "VPM3419",
+    "course_name_malay": "Patologi Veterinar Sistem II",
+    "course_name_english": "Systemic Veterinary Pathology lI",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "VPM3415"
+    ],
+    "description_malay": "Kursus ini merangkumi perhubungan lesi makroskopi dan mikroskopi penting dengan penyakit yang berlaku dalam sistem integumentari, saraf, rangka otot, pernafasan dan pembiakan dengan penyebab dan petanda klinikal. Patogenesis, patofisiologi, dan diagnosis penyakit akan dibincangkan dan pemeriksaan post mortem secara  hands-on  dilaksanakan.",
+    "description_english": "This course encompasses the relationship of the important macroscopic and microscopic lesions, aetiology and clinical signs in disease occurrence in the integumentary, nervous, musculoskeletal, respiratory and reproductive systems. The pathogenesis, pathophysiology and diagnosis of the disease or condition are discussed, and hands-on post mortem examination is performed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPM3419 \nPatologi Veterinar Sistem II/ Systemic Veterinary Pathology lI \n3 (2+1) \nPrasyarat/ Prerequisite : VPM3415 \nKursus ini merangkumi perhubungan lesi makroskopi dan mikroskopi penting dengan penyakit yang \nberlaku dalam sistem integumentari, saraf, rangka otot, pernafasan dan pembiakan dengan \npenyebab dan petanda klinikal. Patogenesis, patofisiologi, dan diagnosis penyakit akan \ndibincangkan dan pemeriksaan post mortem secara  hands-on  dilaksanakan. \nThis course encompasses the relations"
+  },
+  {
+    "course_code": "VPM4430",
+    "course_name_malay": "Patologi Klinikal Veterinar",
+    "course_name_english": "Veterinary Clinical Pathology",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "VPP3216"
+    ],
+    "description_malay": "Kursus ini merangkumi pentafsiran keputusan ujian darah, urin dan sitologi untuk menentukan fungsi organ. Ujian makmal yang terpilih dalam menentukan diagnosis penyakit haiwan didedahkan. Hubung kait penyakit haiwan dengan perubahan dalam parameter darah, urin dan sitologi ditekankan.",
+    "description_english": "This course encompasses interpretation of blood, urine and cytology results for organ function determination. Selected laboratory tests to diagnose disease in animals are revealed. Relationship between the disease with the changes seen are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPM4430 \nPatologi Klinikal Veterinar/ Veterinary Clinical Pathology \n3 (2+1) \nPrasyarat/ Prerequisite : VPP3216 \nKursus ini merangkumi pentafsiran keputusan ujian darah, urin dan sitologi untuk menentukan \nfungsi organ. Ujian makmal yang terpilih dalam menentukan diagnosis penyakit haiwan didedahkan. \nHubung kait penyakit haiwan dengan perubahan dalam parameter darah, urin dan sitologi \nditekankan. \nThis course encompasses interpretation of blood, urine and cytology results for organ function \nd"
+  },
+  {
+    "course_code": "VPM4501",
+    "course_name_malay": "Keselamatan dan Kebersihan Makanan",
+    "course_name_english": "Food Safety and Hygiene",
+    "credits": "2 (1+1)",
+    "prerequisites": [
+      "VPM3301"
+    ],
+    "description_malay": "Kursus ini merangkumi keselamatan, kebersihan dan kualiti makanan berasal haiwan di peringkat ladang, abatoir, loji pemprosesan sehingga kepada pengguna. Kemahiran dalam pemeriksaan mikrobiologi makanan berasal haiwan diperkenalkan. Kepentingan kualiti produk dari haiwan terhadap kesihatan awam dibincangkan.",
+    "description_english": "This course covers safety, hygiene and quality of foods of animal origin at farm, abattoir and food processing plant before it reaches consumers. Skills in microbiological examination of foods of animal origin is introduced. The importance of ensuring quality of animal products towards public health is discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPM4501 \nKeselamatan dan Kebersihan Makanan/ Food Safety and Hygiene \n2 (1+1) \nPrasyarat/ Prerequisite : VPM3301 \n \nKursus ini merangkumi keselamatan, kebersihan dan kualiti makanan berasal haiwan di peringkat \nladang, abatoir, loji pemprosesan sehingga kepada pengguna. Kemahiran dalam pemeriksaan \nmikrobiologi makanan berasal haiwan diperkenalkan. Kepentingan kualiti produk dari haiwan \n\n--- Page 7 ---\n34 \n \nterhadap kesihatan awam dibincangkan. \nThis course covers safety, hygiene and quality o"
+  },
+  {
+    "course_code": "VPM4502",
+    "course_name_malay": "Zoonosis dan One Health",
+    "course_name_english": "Zoonoses and One Health",
+    "credits": "2 (1+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi zoonosis dan isu berkaitan kesihatan haiwan, persekitaran dan manusia. Pengurusan krisis kesihatan dalam kemunculan penyakit yang melibatkan interaksi dinamik antara haiwan, persekitaran dan manusia berpandukan kompetensi teras One Health ditekankan. Kepentingan aplikasi kaedah One Health dalam menangani penyakit zoonotik dan isu lain melibatkan interaksi antara manusia, haiwan dan persekitaran dibincangkan.",
+    "description_english": "This course covers zoonoses and issues on animal, environmental and human health. Management of health crisis involving the dynamic interactions between animal, environment and human in disease emergence using One Health competencies is emphasized. The importance of applying One Health approach to manage issue of zoonotic diseases and other issues revolving human, animal and environment are discussed.",
+    "department": "Jabatan Pengajian Klinikal Veterinar",
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPM4502 \nZoonosis dan One Health/ Zoonoses and One Health \n2 (1+1) \nPrasyarat/ Prerequisite : Tiada/Null \n \nKursus ini merangkumi zoonosis dan isu berkaitan kesihatan haiwan, persekitaran dan manusia. \nPengurusan krisis kesihatan dalam kemunculan penyakit yang melibatkan interaksi dinamik antara \nhaiwan, persekitaran dan manusia berpandukan kompetensi teras One Health ditekankan. \nKepentingan aplikasi kaedah One Health dalam menangani penyakit zoonotik dan isu lain \nmelibatkan interaksi antara m"
+  },
+  {
+    "course_code": "VPK3612",
+    "course_name_malay": "Kemahiran Klinikal Veterinar",
+    "course_name_english": "Veterinary Clinical Skills",
+    "credits": "2 (1+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi kemahiran untuk mengenal pasti haiwan yang sihat dan haiwan berpenyakit. Cara mendapatkan sejarah kesihatan pesakit, kemahiran dalam mengekang, pemeriksaan fizikal ke atas haiwan, dan mengenal pasti berbagai status sistemik umum dalam haiwan dibincangkan. Kaedah pemberian dan pengiraan ubat-ubatan dan penjagaan kesihatan pesakit akan ditekankan.",
+    "description_english": "The course covers the skills of recognising healthy and sick animals. The way to obtain patient’s health history, skills in restraining, physical examinations on animals, and identifying various general systemic statuses in animals will be discussed. Methods of administration and calculation of medications and patient health care will be emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK3612 \nKemahiran Klinikal Veterinar / Veterinary Clinical Skills \n2 (1+1) \nPrasyarat Prerequisite : Tiada/Null \nKursus ini merangkumi kemahiran untuk mengenal pasti haiwan yang sihat dan haiwan berpenyakit. \nCara mendapatkan sejarah kesihatan pesakit, kemahiran dalam mengekang, pemeriksaan fizikal ke \natas haiwan, dan mengenal pasti berbagai status sistemik umum dalam haiwan dibincangkan. Kaedah \npemberian dan pengiraan ubat-ubatan dan penjagaan kesihatan pesakit akan ditekankan.  \nThe course "
+  },
+  {
+    "course_code": "VPK3613",
+    "course_name_malay": "Perubatan Klinikal Veterinar I",
+    "course_name_english": "Veterinary Clinical Medicine I",
+    "credits": "2 (2+0)",
+    "prerequisites": [
+      "VPK3612"
+    ],
+    "description_malay": "Kursus ini merangkumi penyakit sistem badan haiwan kesayangan dan haiwan besar. Penekanan diberikan kepada pemeriksaan khas, diagnostik pembezaan dan prinsip rawatan. Teknik diagnosis khas bagi sistem badan juga dibincangkan.",
+    "description_english": "This course covers various diseases of the body systems of small animals and large animals. Emphasis is given to special examination, differential diagnoses and principle of treatments. Special diagnostic techniques for body systems are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK3613 \nPerubatan Klinikal Veterinar I / Veterinary Clinical Medicine I \n2 (2+0) \nPrasyarat/ Prerequisite: VPK3612 \nKursus ini merangkumi penyakit sistem badan haiwan kesayangan dan haiwan besar. Penekanan \ndiberikan kepada pemeriksaan khas, diagnostik pembezaan dan prinsip rawatan. Teknik diagnosis \nkhas bagi sistem badan juga dibincangkan. \nThis course covers various diseases of the body systems of small animals and large animals. \nEmphasis is given to special examination, differential diagno"
+  },
+  {
+    "course_code": "VPK3614",
+    "course_name_malay": "Perubatan Klinikal Veterinar II",
+    "course_name_english": "Veterinary Clinical Medicine II",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "VPK3612"
+    ],
+    "description_malay": "Kursus ini merangkumi penyakit sistem badan haiwan kesayangan dan haiwan besar. Penekanan diberikan kepada pemeriksaan khas, diagnostik pembezaan dan prinsip rawatan. Teknik diagnosis khas bagi sistem badan juga dibincangkan.",
+    "description_english": "This course covers various diseases of the body systems of small animals and large animals. Emphasis is given to special examination, differential diagnoses and principle of treatments. Special diagnostic techniques for body systems are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK3614 \nPerubatan Klinikal Veterinar II/ Veterinary Clinical Medicine II \n3 (2+1) \nPrasyarat/ Prerequisite: VPK3612 \nKursus ini merangkumi penyakit sistem badan haiwan kesayangan dan haiwan besar. Penekanan \ndiberikan kepada pemeriksaan khas, diagnostik pembezaan dan prinsip rawatan. Teknik diagnosis \nkhas bagi sistem badan juga dibincangkan. \n\n--- Page 8 ---\n35 \n \n \n \nThis course covers various diseases of the body systems of small animals and large animals. \nEmphasis is given to special exami"
+  },
+  {
+    "course_code": "VPK3702",
+    "course_name_malay": "Anestesiologi dan Surgeri Am",
+    "course_name_english": "General Surgery and Anaesthesiology",
+    "credits": "4 (2+2)",
+    "prerequisites": [
+      "VPP3217"
+    ],
+    "description_malay": "Kursus ini merangkumi asas surgeri am dan anestesiologi veterinar. Seliotomi dan pengkasian pada anjing atau kucing diguna untuk latihan prosedur surgeri dan anestesia. Teknik surgeri yang melibatkan sistem integumen dibincangkan.",
+    "description_english": "This course encompasses the basics of veterinary surgery and anaesthesiology. Celiotomy and neuter in dogs or cats are used to practise the surgical and anaesthetic procedures. Surgical techniques involving the integument system are discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK3702 \nAnestesiologi dan Surgeri Am/ General Surgery and Anaesthesiology \n4 (2+2) \nPrasyarat/ Prerequisite : VPP3217 \nKursus ini merangkumi asas surgeri am dan anestesiologi veterinar. Seliotomi dan pengkasian pada \nanjing atau kucing diguna untuk latihan prosedur surgeri dan anestesia. Teknik surgeri yang \nmelibatkan sistem integumen dibincangkan. \nThis course encompasses the basics of veterinary surgery and anaesthesiology. Celiotomy and neuter \nin dogs or cats are used to practise the surgi"
+  },
+  {
+    "course_code": "VPK3712",
+    "course_name_malay": "Surgeri Veterinar Sistem Badan",
+    "course_name_english": "Veterinary Surgery of the Body Systems",
+    "credits": "4 (3+1)",
+    "prerequisites": [
+      "VPK3702"
+    ],
+    "description_malay": "Kursus ini merangkumi pengurusan rawatan pembedahan bagi pelbagai penyakit melibatkan sistem badan haiwan kesayangan dan haiwan besar. Prosedur pembedahan spesifik tisu lembut dan ortopedik didedahkan. Perancangan teknik surgeri yang sesuai dengan keadaan penyakit dan penilaian pesakit dibincangkan.",
+    "description_english": "This course covers the surgical managements of various conditions of body systems in the small and large animals. Specific surgical procedures on soft tissue and orthopaedic are exposed. Planning of suitable surgical technique with disease conditions and patient evaluation are discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK3712 \nSurgeri Veterinar Sistem Badan/ Veterinary Surgery of the Body \nSystems \n4 (3+1) \nPrasyarat/ Prerequisite : VPK3702 \nKursus ini merangkumi pengurusan rawatan pembedahan bagi pelbagai penyakit melibatkan sistem \nbadan haiwan kesayangan dan haiwan besar. Prosedur pembedahan spesifik tisu lembut dan \nortopedik didedahkan. Perancangan teknik surgeri yang sesuai dengan keadaan penyakit dan \npenilaian pesakit dibincangkan. \nThis course covers the surgical managements of various conditions of "
+  },
+  {
+    "course_code": "VPK3750",
+    "course_name_malay": "Pengimejan Diagnosis Veterinar",
+    "course_name_english": "Veterinary Diagnostic Imaging",
+    "credits": "2 (1+1)",
+    "prerequisites": [
+      "VPP3215"
+    ],
+    "description_malay": "Kursus ini membekalkan pengenalan am kepada pengimejan diagnostik veterinar. Fizik sinaran, prinsip keselamatan sinaran, teknik pengambilan dan pemprosesan radiograf dibincangkan. Kemahiran asas dan pentafsiran radiograf ditekankan.",
+    "description_english": "This course provides a general introduction to veterinary diagnostic imaging. The physics of radiation, principles of radiation safety, techniques of taking and processing radiographs are discussed. The basic skills of radiography and the interpretation of radiographs are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK3750 \nPengimejan Diagnosis Veterinar/ Veterinary Diagnostic Imaging \n2 (1+1) \nPrasyarat/ Prerequisite: VPP3215 \nKursus ini membekalkan pengenalan am kepada pengimejan diagnostik veterinar. Fizik sinaran, \nprinsip keselamatan sinaran, teknik pengambilan dan pemprosesan radiograf dibincangkan. \nKemahiran asas dan pentafsiran radiograf ditekankan.  \nThis course provides a general introduction to veterinary diagnostic imaging. The physics of radiation, \nprinciples of radiation safety, techniques "
+  },
+  {
+    "course_code": "VPK3802",
+    "course_name_malay": "Teriogenologi",
+    "course_name_english": "Theriogenology",
+    "credits": "2 (1+1)",
+    "prerequisites": [
+      "VPP3217"
+    ],
+    "description_malay": "Kursus ini merangkumi analisis masalah ketidaksuburan dan prosedur diagnosis. Masalah ketidaksuburan, diagnosis kebuntingan, teknik dan teknologi untuk meningkatkan keberkesanan pembiakan dibincangkan. Kepentingan teknik dan teknologi dalam pembiakan haiwan domestik ditekankan.",
+    "description_english": "This course encompasses analysis of the infertility and diagnostic procedure. Issue of infertility, pregnancy diagnosis, therapeutic techniques and technology for improving reproductive efficiency will be discussed. The importance of techniques and technology for improving reproductive efficiency of domestic animals will be emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK3802 \nTeriogenologi / Theriogenology \n2 (1+1) \nPrasyarat/ Prerequisite : VPP3217 \nKursus ini merangkumi analisis masalah ketidaksuburan dan prosedur diagnosis. Masalah \nketidaksuburan, diagnosis kebuntingan, teknik dan teknologi untuk meningkatkan keberkesanan \npembiakan dibincangkan. Kepentingan teknik dan teknologi dalam pembiakan haiwan domestik \nditekankan. \nThis course encompasses analysis of the infertility and diagnostic procedure. Issue of infertility, \npregnancy diagnosis, therapeuti"
+  },
+  {
+    "course_code": "VPK3910",
+    "course_name_malay": "Pengenalan Profesion Veterinar",
+    "course_name_english": "Introduction to the Veterinary Profession",
+    "credits": "1 (0+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini memperkenalkan profesion veterinar, sejarah, badan profesional utama, dan kepelbagaian pekerjaan dalam profesion. Spesies haiwan biasa, keturunan, keperluan asasnya, pengendalian dan ikatan manusia-haiwan diperkenalkan. Peranan profesional dan tanggungjawab ahli veterinar ditekankan.",
+    "description_english": "This course introduces the veterinary profession, its history, the main professional bodies, and the diversity of occupations within the profession. The common animal species, breeds, their basic needs, handling as well as the human-animal bond are introduced. Professional and responsibility of veterinarian are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK3910 \nPengenalan Profesion Veterinar/ Introduction to the Veterinary \nProfession \n1 (0+1) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini memperkenalkan profesion veterinar, sejarah, badan profesional utama, dan kepelbagaian \npekerjaan dalam profesion. Spesies haiwan biasa, keturunan, keperluan asasnya, pengendalian dan \nikatan manusia-haiwan diperkenalkan. Peranan profesional dan tanggungjawab ahli veterinar \nditekankan.   \nThis course introduces the veterinary profession, its history, the"
+  },
+  {
+    "course_code": "VPK3921",
+    "course_name_malay": "Jurisprudens dan Etika Veterinar",
+    "course_name_english": "Veterinary Ethics and Jurisprudence",
+    "credits": "1 (1+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi topik undang-undang dan peraturan yang mengawalselia pemeliharaan haiwan, amalan veterinar di Malaysia dan teori asas etika veterinar.  Kepentingan undang-undang dan etika ditekankan.",
+    "description_english": "This course encompasses law topics and regulations that govern animal husbandry and veterinary practice in Malaysia, and basic theory of veterinary ethics. The importance of the regulations and ethics will be emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK3921 \nJurisprudens dan Etika Veterinar/ Veterinary Ethics and Jurisprudence \n1 (1+0) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini merangkumi topik undang-undang dan peraturan yang mengawalselia pemeliharaan \nhaiwan, amalan veterinar di Malaysia dan teori asas etika veterinar.  Kepentingan undang-undang dan \netika ditekankan.  \nThis course encompasses law topics and regulations that govern animal husbandry and veterinary \npractice in Malaysia, and basic theory of veterinary ethics. The im"
+  },
+  {
+    "course_code": "VPK4621",
+    "course_name_malay": "Epidemiologi Veterinar",
+    "course_name_english": "Veterinary Epidemiology",
+    "credits": "3 (3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi konsep dan prinsip epidemiologi. Kebolehan mengaplikasikannya untuk menyiasat isu-isu kesihatan haiwan melalui penilaian atau analisis kritikal kajian epidemiologi dan ekonomi kesihatan haiwan ditekankan.",
+    "description_english": "This course covers concepts and principles of epidemiology. The ability to apply this to investigate animal health issues and critical evaluation or analysis of epidemiological studies and animal health economics are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK4621 \nEpidemiologi Veterinar/ Veterinary Epidemiology \n3 (3+0) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini merangkumi konsep dan prinsip epidemiologi. Kebolehan mengaplikasikannya untuk \nmenyiasat isu-isu kesihatan haiwan melalui penilaian atau analisis kritikal kajian epidemiologi dan \nekonomi kesihatan haiwan ditekankan. \nThis course covers concepts and principles of epidemiology. The ability to apply this to investigate \nanimal health issues and critical evaluation or analysis of epi"
+  },
+  {
+    "course_code": "VPK4640",
+    "course_name_malay": "Perubatan Felin dan Kanin",
+    "course_name_english": "Feline and Canine Medicine",
+    "credits": "3 (3+0)",
+    "prerequisites": [
+      "VPK3614"
+    ],
+    "description_malay": "Kursus ini merangkumi etiologi, epidemiologi, patogenesis, petanda klinikal, diagnosis, rawatan, kawalan, pencegahan bagi sindrom klinikal dan penyakit kanin dan felin. Tindakan dan penggunaan ubat yang berkaitan untuk rawatan serta penjagaan kesihatan diulaskan.",
+    "description_english": "This course encompasses the aetiology, epidemiology, pathogenesis, clinical signs, diagnosis, treatment, control, prevention and prophylaxis of canine and feline clinical syndromes and diseases. Relevant drugs for treatment as well as patient nursing care are reviewed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK4640 \nPerubatan Felin dan Kanin/ Feline and Canine Medicine \n3 (3+0) \nPrasyarat/ Prerequisite : VPK3614 \nKursus ini merangkumi etiologi, epidemiologi, patogenesis, petanda klinikal, diagnosis, rawatan, \nkawalan, pencegahan bagi sindrom klinikal dan penyakit kanin dan felin. Tindakan dan penggunaan \nubat yang berkaitan untuk rawatan serta penjagaan kesihatan diulaskan. \nThis course encompasses the aetiology, epidemiology, pathogenesis, clinical signs, diagnosis, \ntreatment, control, prevention"
+  },
+  {
+    "course_code": "VPK4650",
+    "course_name_malay": "Perubatan Ekuin",
+    "course_name_english": "Equine Medicine",
+    "credits": "2 (2+0)",
+    "prerequisites": [
+      "VPK3614"
+    ],
+    "description_malay": "Kursus ini merangkumi pendekatan secara sistematik ke atas penyiasatan sindrom klinikal pada ekuin. Etiologi, epidemiologi, patogenesis, petanda klinikal, diagnosis, rawatan, kawalan, pencegahan dan profilaksis penyakit dihuraikan. Tindakan dan penggunaan ubat yang sesuai untuk rawatan serta penjagaan kesihatan diliputi.",
+    "description_english": "This course covers systematic approaches to investigate clinical syndromes in equine. The aetiology, epidemiology, pathogenesis, clinical signs, diagnosis, treatment, control, prevention and prophylaxis of the diseases are described. Actions and uses of relevant drugs for treatment as well as nursing care are reviewed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK4650 \nPerubatan Ekuin/ Equine Medicine \n2 (2+0) \nPrasyarat/ Prerequisite : VPK3614 \nKursus ini merangkumi pendekatan secara sistematik ke atas penyiasatan sindrom klinikal pada \nekuin. Etiologi, epidemiologi, patogenesis, petanda klinikal, diagnosis, rawatan, kawalan, pencegahan \ndan profilaksis penyakit dihuraikan. Tindakan dan penggunaan ubat yang sesuai untuk rawatan serta \npenjagaan kesihatan diliputi. \nThis course covers systematic approaches to investigate clinical syndromes in equine. "
+  },
+  {
+    "course_code": "VPK4660",
+    "course_name_malay": "Perubatan Ruminan",
+    "course_name_english": "Ruminant Medicine",
+    "credits": "3 (3+0)",
+    "prerequisites": [
+      "VPK3614"
+    ],
+    "description_malay": "Kursus ini merangkumi pendekatan secara sistematik ke atas penyiasatan sindrom klinikal pada ruminan.  Etiologi, epidemiologi, patogenesis, petanda klinikal, diagnosis, rawatan, kawalan dan pencegahan bagi penyakit ruminan yang lazim dan penting dibincangkan.  Prinsip biosekuriti, pengunaan ubat dan penjagaan kesihatan pesakit ditekankan.",
+    "description_english": "This course encompasses systematic approaches to investigate clinical syndromes in ruminants.  Aetiology, epidemiology, pathogenesis, clinical signs, diagnosis, treatment, control and prevention for common and important ruminant diseases are discussed.  Principles of biosecurity, the use of drugs and nursing care are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK4660 \nPerubatan Ruminan/ Ruminant Medicine \n3 (3+0) \nPrasyarat/ Prerequisite : VPK3614 \nKursus ini merangkumi pendekatan secara sistematik ke atas penyiasatan sindrom klinikal pada \nruminan.  Etiologi, epidemiologi, patogenesis, petanda klinikal, diagnosis, rawatan, kawalan dan \npencegahan bagi penyakit ruminan yang lazim dan penting dibincangkan.  Prinsip biosekuriti, \npengunaan ubat dan penjagaan kesihatan pesakit ditekankan.  \n \nThis course encompasses systematic approaches to investigate "
+  },
+  {
+    "course_code": "VPK4670",
+    "course_name_malay": "Perubatan Babi",
+    "course_name_english": "Pig Medicine",
+    "credits": "2 (2+0)",
+    "prerequisites": [
+      "VPK3614"
+    ],
+    "description_malay": "Kursus ini mendedahkan pendekatan secara sistematik ke atas penyiasatan sindrom klinikal pada babi. Etiologi, epidemiologi, patogenesis, petanda klinikal, diagnosis, rawatan, kawalan, pencegahan dan profilaksis penyakit dibincangkan. Cara pengawalan penyakit dan perancangan program kesihatan gerompok khusus untuk penternakan di tropika ditekankan.",
+    "description_english": "This course deals with systematic approaches to investigate clinical syndromes in pig. The aetiology, epidemiology, pathogenesis, clinical signs, diagnosis, treatment, control, prevention and prophylaxis of these diseases are discussed. Disease control and planning for specific herd health program are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK4670 \nPerubatan Babi/ Pig Medicine \n2 (2+0) \nPrasyarat/ Prerequisite : VPK3614 \nKursus ini mendedahkan pendekatan secara sistematik ke atas penyiasatan sindrom klinikal pada \nbabi. Etiologi, epidemiologi, patogenesis, petanda klinikal, diagnosis, rawatan, kawalan, pencegahan \ndan profilaksis penyakit dibincangkan. Cara pengawalan penyakit dan perancangan program \nkesihatan gerompok khusus untuk penternakan di tropika ditekankan.  \nThis course deals with systematic approaches to investigate cl"
+  },
+  {
+    "course_code": "VPK4680",
+    "course_name_malay": "Perubatan Avian",
+    "course_name_english": "Avian Medicine",
+    "credits": "2 (2+0)",
+    "prerequisites": [
+      "VPM3419"
+    ],
+    "description_malay": "Kursus ini mendedahkan pendekatan penyiasatan secara sistematik ke atas sindrom klinikal pada avian.  Etiologi, epidemiologi, patogenesis, petanda klinikal, diagnosis, rawatan, kawalan, pencegahan dan profilaksis penyakit dihuraikan.  Tindakan dan penggunaan ubat yang sesuai untuk rawatan serta penjagaan kesihatan ditekankan.",
+    "description_english": "This course deals with systematic approaches to investigate clinical syndromes in avian.  The aetiology, epidemiology, pathogenesis, clinical signs, diagnosis, treatment, control, prevention and prophylaxis of these diseases are described.  Actions and uses of relevant drugs for treatment as well as nursing care are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK4680 \nPerubatan Avian/ Avian Medicine \n2 (2+0) \nPrasyarat/ Prerequisite : VPM3419 \nKursus ini mendedahkan pendekatan penyiasatan secara sistematik ke atas sindrom klinikal pada \navian.  Etiologi, epidemiologi, patogenesis, petanda klinikal, diagnosis, rawatan, kawalan, pencegahan \ndan profilaksis penyakit dihuraikan.  Tindakan dan penggunaan ubat yang sesuai untuk rawatan serta \npenjagaan kesihatan ditekankan. \nThis course deals with systematic approaches to investigate clinical syndromes in "
+  },
+  {
+    "course_code": "VPK4692",
+    "course_name_malay": "Kesihatan Dan Pengurusan Haiwan Akuatik",
+    "course_name_english": "Aquatic Animal Health and Management",
+    "credits": "3 (2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pelbagai aspek pengurusan akuakultur dan haiwan akuatik. Perkaitan di antara penyebab penyakit, perubahan klinikal dan patologi serta persekitaran dibincangkan. Prosedur makmal, rawatan, anestasia, pmbedahan, ujian diagnostik cepat, strategi pemvaksinan, dan penggunaan imunoperangsan dan fungsi probiotik dalam memperbaiki persekitaran didedahkan.",
+    "description_english": "This course covers various aspects of aquaculture management and aquatic animals. The relationship between the causes of disease, clinical and pathological and environmental changes are discussed. Laboratory procedures, treatment, anesthesia, surgery, tests rapid diagnostics, vaccination strategies, and use of immunoperative and probiotic function in improving the environment are exposed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK4692 \nKesihatan Dan Pengurusan Haiwan Akuatik/ Aquatic Animal Health and \nManagement \n3 (2+1) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus ini merangkumi pelbagai aspek pengurusan akuakultur dan haiwan akuatik. Perkaitan di \nantara penyebab penyakit, perubahan klinikal dan patologi serta persekitaran dibincangkan. Prosedur \nmakmal, rawatan, anestasia, pmbedahan, ujian diagnostik cepat, strategi pemvaksinan, dan \npenggunaan imunoperangsan dan fungsi probiotik dalam memperbaiki persekitaran di"
+  },
+  {
+    "course_code": "VPK4695",
+    "course_name_malay": "Perubatan Haiwan Eksotik & Hidupan Liar",
+    "course_name_english": "Exotic Animal and Wildlife Medicine",
+    "credits": "2 (2+0)",
+    "prerequisites": [
+      "VPK3614"
+    ],
+    "description_malay": "Kursus ini merangkumi asas saintifik pemuliharaan, pengurusan dan rawatan penyakit berjangkit dan bukan berjangkit hidupan liar lepas bebas dan kurungan termasuk unggas, mamalia dan reptila, roden dan haiwan eksotik. Kepentingan pemuliharaan biodiversiti, kaedah pengekangan haiwan, prosedur klinikal dan pengurusan penyakit hidupan liar dan haiwan eksotik ditekankan. Panduan asas perubatan, surgeri dan pengurusan haiwan liar dan haiwan eksotik dibincangkan.",
+    "description_english": "This course covers the scientific basis of conservation, management and treatment of infectious and non-infectious diseases of captive and free-ranging wildlife which include avian, mammals, rodents and exotic animals. The importance of biodiversity conservation, animal restraint methods, clinical procedures and management of diseases in wildlife and exotic animals are emphasized. Basic medical, surgical and management guidance on wildlife and exotic animals are discussed.",
+    "department": "Jabatan Diagnosis Makmal Veterinar",
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK4695 \nPerubatan Haiwan Eksotik & Hidupan Liar/ Exotic Animal and Wildlife \nMedicine \n2 (2+0) \nPrasyarat/ Prerequisite : VPK3614 \nKursus ini merangkumi asas saintifik pemuliharaan, pengurusan dan rawatan penyakit berjangkit dan \nbukan berjangkit hidupan liar lepas bebas dan kurungan termasuk unggas, mamalia dan reptila, roden \ndan haiwan eksotik. Kepentingan pemuliharaan biodiversiti, kaedah pengekangan haiwan, prosedur \nklinikal dan pengurusan penyakit hidupan liar dan haiwan eksotik ditekank"
+  },
+  {
+    "course_code": "VPD4914",
+    "course_name_malay": "Amalan Luar Makmal Diagnosis",
+    "course_name_english": "Extramural Laboratory Diagnostic Practice",
+    "credits": "1 (0+1)",
+    "prerequisites": [],
+    "description_malay": "Latihan industri ini merangkumi pendedahan kepada aktiviti di makmal diagnosis veterinar. Amalan baik makmal mengikut keperluan standard makmal dipraktikkan. Ciri-ciri biosekuriti dan biokeselamatan di makmal ditekankan.",
+    "description_english": "This industrial training encompasses the exposure to the activities in the veterinary diagnostic laboratories. Best laboratory practices according to the laboratory standards is practiced. Biosecurity and biosafety characteristics in the laboratory are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPD4914 \nAmalan Luar Makmal Diagnosis/ Extramural Laboratory Diagnostic \nPractice \n1 (0+1) \nPrasyarat/ Prerequisite : Tiada/Null \nLatihan industri ini merangkumi pendedahan kepada aktiviti di makmal diagnosis veterinar. Amalan \nbaik makmal mengikut keperluan standard makmal dipraktikkan. Ciri-ciri biosekuriti dan \nbiokeselamatan di makmal ditekankan. \nThis industrial training encompasses the exposure to the activities in the veterinary diagnostic \nlaboratories. Best laboratory practices accordin"
+  },
+  {
+    "course_code": "VPD4972",
+    "course_name_malay": "Siasatan dan Penyelesaian Masalah Veterinar",
+    "course_name_english": "Veterinary Problem-Solving and Investigation",
+    "credits": "1 (0+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus pembelajaran berpusatkan masalah ini mendedahkan kaedah siasatan dan penyelesaian dalam masalah veterinar. Perancangan pelan siasatan berdasarkan pengenalpastian masalah veterinar diperkenalkan. Kemahiran mengaitkan proses siasatan dalam masalah veterinar dengan rujukan penerbitan dan makalah ilmiah ditekankan.",
+    "description_english": "This problem-based course exposes the methods to investigate and solve veterinary problems. Planning of investigation according to identification of veterinary problems is introduced. Skills to associate investigative processes in veterinary problems with published references and scientific papers is emphasized.",
+    "department": "Jabatan Perubatan & Pembedahan Haiwan Kesayangan",
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPD4972 \nSiasatan dan Penyelesaian Masalah Veterinar/ Veterinary Problem-\nSolving and Investigation \n1 (0+1) \nPrasyarat/ Prerequisite : Tiada/Null \nKursus pembelajaran berpusatkan masalah ini mendedahkan kaedah siasatan dan penyelesaian \ndalam masalah veterinar. Perancangan pelan siasatan berdasarkan pengenalpastian masalah \nveterinar diperkenalkan. Kemahiran mengaitkan proses siasatan dalam masalah veterinar dengan \nrujukan penerbitan dan makalah ilmiah ditekankan.  \nThis problem-based course e"
+  },
+  {
+    "course_code": "VPK3933",
+    "course_name_malay": "Amalan Klinikal dan Diagnosis I",
+    "course_name_english": "Clinical Practice and Diagnosis I",
+    "credits": "3 (0+3)",
+    "prerequisites": [
+      "VPK3612",
+      "VPK3702"
+    ],
+    "description_malay": "Kursus ini memberi pengenalan kepada pengurusan pesakit dan sampel semasa amalan klinik dan makmal diagnosis veterinar di mana pelajar digilirkan. Penekanan diberikan kepada kemahiran pengendalian, pengekangan dan pemeriksaan fizikal haiwan. Pelajar akan berkolaborasi untuk menyelesaikan kes atau tugasan semasa amalan.",
+    "description_english": "This course introduces the management of patients and samples during rotation to veterinary clinical practice and diagnostic laboratories. Emphasis is given on animal handling, restraint and physical examination. Students will collaborate to solve the case or assignment during rotation.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK3933 \nAmalan Klinikal dan Diagnosis I/ Clinical Practice and Diagnosis I \n3 (0+3) \nPrasyarat/ Prerequisite : VPK3612 & VPK3702 \nKursus ini memberi pengenalan kepada pengurusan pesakit dan sampel semasa amalan klinik dan \nmakmal diagnosis veterinar di mana pelajar digilirkan. Penekanan diberikan kepada kemahiran \npengendalian, pengekangan dan pemeriksaan fizikal haiwan. Pelajar akan berkolaborasi untuk \nmenyelesaikan kes atau tugasan semasa amalan.   \nThis course introduces the management of p"
+  },
+  {
+    "course_code": "VPK3934",
+    "course_name_malay": "Amalan Klinikal dan Diagnosis II",
+    "course_name_english": "Clinical Practice and Diagnosis II",
+    "credits": "3 (0+3)",
+    "prerequisites": [
+      "VPK3614",
+      "VPK3933"
+    ],
+    "description_malay": "Kursus ini adalah lanjutan daripada pengenalan kepada amalan klinik dan makmal diagnosis veterinar. Pelajar mengambil bahagian dalam aktiviti amalan klinik atau makmal, dan merekodkan pelaksanaan prosedur yang tersenarai dalam portfolio amalan. Penekanan diberikan kepada pengendalian kes dan kemahiran berkomunikasi.",
+    "description_english": "This course is a continuation of the introduction to veterinary clinical practice and diagnostic laboratories where students are rotated. Students participate in the daily activities of the clinics and laboratories, and keep record of the procedures carried out in their clinical practice portfolio. Emphasis is given on case management and communication skills.",
+    "department": "Jabatan Perubatan & Pembedahan Haiwan Ladang & Eksotik",
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK3934 \nAmalan Klinikal dan Diagnosis II/ Clinical Practice and Diagnosis II \n3 (0+3) \nPrasyarat/ Prerequisite : VPK3614 & VPK3933 \nKursus ini adalah lanjutan daripada pengenalan kepada amalan klinik dan makmal diagnosis \nveterinar. Pelajar mengambil bahagian dalam aktiviti amalan klinik atau makmal, dan merekodkan \npelaksanaan prosedur yang tersenarai dalam portfolio amalan. Penekanan diberikan kepada \npengendalian kes dan kemahiran berkomunikasi. \nThis course is a continuation of the introduc"
+  },
+  {
+    "course_code": "VPK4945",
+    "course_name_malay": "Amalan Klinikal Veterinar I",
+    "course_name_english": "Veterinary Clinical Practice I",
+    "credits": "14 (0+14)",
+    "prerequisites": [
+      "VPK3934"
+    ],
+    "description_malay": "Kursus ini merupakan penggiliran berorientasikan amalan yang merangkumi diagnosis, rawatan dan kawalan penyakit. Penggiliran ini merangkumi amalan di Hospital Veterinar Universiti yang melibatkan unit anjing dan kucing, merangkumi klinik haiwan kesayangan, wad haiwan kesayangan, rawatan rapi, neuter, surgeri dan anestesia, dan ruminan, babi, ekuin, akuatik dan avian. Penggiliran juga melibatkan kesihatan awam veterinar, parasitologi, makmal patologi klinikal, bakteriologi dan post mortem. Amalan ini memberi pendedahan, kecekapan dan keyakinan dalam pengurusan kes veterinar dengan mengintegrasikan pengetahuan asas dan klinikal.",
+    "description_english": "This course is a practice-oriented rotation encompassing diagnosis, treatment and control of diseases. The rotations include practice at the University Veterinary Hospital involving dogs and cats, which include small animal clinic, small animal ward, intensive care, neuter, surgery and anaesthesia, and ruminants, swine, equine, aquatic and avian. The rotations also include veterinary public health, parasitology, clinical pathology, bacteriology and post mortem laboratories. These practices provide exposure, competency and confidence in managing veterinary cases through integrating basic and clinical knowledge.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK4945 \nAmalan Klinikal Veterinar I/ Veterinary Clinical Practice I \n14 (0+14) \nPrasyarat/ Prerequisite : VPK3934 \nKursus ini merupakan penggiliran berorientasikan amalan yang merangkumi diagnosis, rawatan dan \nkawalan penyakit. Penggiliran ini merangkumi amalan di Hospital Veterinar Universiti yang melibatkan \nunit anjing dan kucing, merangkumi klinik haiwan kesayangan, wad haiwan kesayangan, rawatan rapi, \nneuter, surgeri dan anestesia, dan ruminan, babi, ekuin, akuatik dan avian. Penggiliran"
+  },
+  {
+    "course_code": "VPK4946",
+    "course_name_malay": "Amalan Klinikal Veterinar II",
+    "course_name_english": "Veterinary Clinical Practice II",
+    "credits": "17 (0+17)",
+    "prerequisites": [
+      "VPK4945"
+    ],
+    "description_malay": "Kursus ini merupakan penggiliran berorientasikan amalan yang merangkumi diagnosis, rawatan dan kawalan penyakit. Penggiliran ini merangkumi amalan di Hospital Veterinar Universiti yang melibatkan unit anjing dan kucing, merangkumi klinik haiwan kesayangan, wad haiwan kesayangan, rawatan rapi, neuter, surgeri dan anestesia, dan ruminan, babi, ekuin, akuatik dan avian. Penggiliran juga melibatkan kesihatan awam veterinar, parasitologi, makmal patologi klinikal, bakteriologi dan post mortem. Amalan ini memberi pendedahan, kecekapan dan keyakinan dalam pengurusan kes veterinar dengan mengintegrasikan pengetahuan asas dan klinikal serta menerapkan kemahiran kepimpinan dan kerja berpasukan.",
+    "description_english": "This course is a practice-oriented rotation encompassing diagnosis, treatment and control of diseases. The rotations include practice at the University Veterinary Hospital involving dogs and cats, which include small animal clinic, small animal ward, intensive care, neuter, surgery and anaesthesia, and ruminants, swine, equine, aquatic and avian. The rotations also include veterinary public health, parasitology, clinical pathology, bacteriology and post mortem laboratories. These practices provide exposure, competency and confidence in managing veterinary cases through integrating basic and clinical knowledge to foster leadership skills and teamwork.",
+    "department": "Pejabat Dekan",
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPK4946 \nAmalan Klinikal Veterinar II/ Veterinary Clinical Practice II \n17 (0+17) \nPrasyarat/ Prerequisite : VPK4945 \nKursus ini merupakan penggiliran berorientasikan amalan yang merangkumi diagnosis, rawatan dan \nkawalan penyakit. Penggiliran ini merangkumi amalan di Hospital Veterinar Universiti yang melibatkan \nunit anjing dan kucing, merangkumi klinik haiwan kesayangan, wad haiwan kesayangan, rawatan rapi, \nneuter, surgeri dan anestesia, dan ruminan, babi, ekuin, akuatik dan avian. Penggilir"
+  },
+  {
+    "course_code": "VPD4911",
+    "course_name_malay": "Pengurusan Haiwan Kesayangan",
+    "course_name_english": "Management of Companion Animals",
+    "credits": "1 (0+1)",
+    "prerequisites": [
+      "VPK3910"
+    ],
+    "description_malay": "Latihan industri ini merangkumi pendedahan awal mengenai etika dan kemahiran pengurusan asas di pusat perlindungan haiwan. Aktiviti dan operasi harian, serta amalan yang sesuai digunapakai di pusat perlindungan haiwan didedahkan. Kepentingan kaedah sistematik dalam pengurusan aktiviti rutin dan operasi di pusat perlindungan ditekankan.",
+    "description_english": "This practical training encompasses the early exposure on ethics and basic management skills at animal shelters. Daily activities and operations, and the appropriate practices at the animal shelters are highlighted. The importance of systematic approach for the management of routine activities and operations at the shelters are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPD4911 \nPengurusan Haiwan Kesayangan/ Management of Companion Animals \n1 (0+1) \nPrasyarat/Prerequisite : VPK3910 \nLatihan industri ini merangkumi pendedahan awal mengenai etika dan kemahiran pengurusan asas di \npusat perlindungan haiwan. Aktiviti dan operasi harian, serta amalan yang sesuai digunapakai di \npusat perlindungan haiwan didedahkan. Kepentingan kaedah sistematik dalam pengurusan aktiviti \nrutin dan operasi di pusat perlindungan ditekankan.  \nThis practical training encompasses the ea"
+  },
+  {
+    "course_code": "VPD4912",
+    "course_name_malay": "Pengurusan Haiwan Ternakan I",
+    "course_name_english": "Management of Livestocks I",
+    "credits": "3 (0+3)",
+    "prerequisites": [],
+    "description_malay": "Latihan amali ini merangkumi pendedahan kepada amalan rutin ladang ruminan dan babi atau akuatik. Pengetahuan berkenaan operasi ladang dan tahap amalan penternakan diaplikasikan. Kepentingan pengurusan ladang ruminan dan babi atau akuatik ditekankan.",
+    "description_english": "This practical training encompasses the exposure to routines practices of ruminant and pigs or aquatic. Knowledge on farm management and livestock practices is applied. The importance of ruminant and pigs or aquatic farm management is emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPD4912 \nPengurusan Haiwan Ternakan I/ Management of Livestocks I \n3 (0+3) \nPrasyarat/Prerequisite : Tiada/Null \nLatihan amali ini merangkumi pendedahan kepada amalan rutin ladang ruminan dan babi atau \nakuatik. Pengetahuan berkenaan operasi ladang dan tahap amalan penternakan diaplikasikan. \nKepentingan pengurusan ladang ruminan dan babi atau akuatik ditekankan. \nThis practical training encompasses the exposure to routines practices of ruminant and pigs or \naquatic. Knowledge on farm management"
+  },
+  {
+    "course_code": "VPD4913",
+    "course_name_malay": "Pengurusan Haiwan Ternakan II",
+    "course_name_english": "Management of Livestocks II",
+    "credits": "3 (0+3)",
+    "prerequisites": [],
+    "description_malay": "Latihan amali ini merangkumi pendedahan kepada aktiviti dan operasi di ladang poltri dan pusat kehidupan liar-haiwan eksotik. Amalan baik di tempat ini mengikut kod etika veterinar diaplikasikan. Tanggungjawab dan peranan kepimpinan veterinawan kepada masyarakat di tempat ini juga ditekankan.",
+    "description_english": "This practical training encompasses the exposure to the activites and operations at poultry farms and wildlife-exotic centers. Best veterinary practice at these places according to the code of veterinary ethics is applied. Responsibility and roles of veterinarians at these places to the public are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPD4913 \nPengurusan Haiwan Ternakan II/ Management of Livestocks II \n3 (0+3) \nPrasyarat/Prerequisite : Tiada/Null \nLatihan amali ini merangkumi pendedahan kepada aktiviti dan operasi di ladang poltri dan pusat \nhidupan liar-haiwan eksotik. Amalan baik di tempat ini mengikut kod etika veterinar diaplikasikan. \nTanggungjawab dan peranan kepimpinan veterinawan kepada masyarakat di tempat ini juga \nditekankan.   \nThis practical training encompasses the exposure to the activites and operations at pou"
+  },
+  {
+    "course_code": "VPD4915",
+    "course_name_malay": "Amalan Luar Klinik",
+    "course_name_english": "Extramural Clinical Practice",
+    "credits": "2 (0+2)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini memberi pendedahan dalam amalan klinikal melalui penempatan pelajar di pelbagai tempat amalan veterinar. Pengetahuan klinikal berkaitan pengurusan penyakit serta amalan baik dalam perubatan veterinar diaplikasikan. Perbezaan pengurusan penyakit dan klien di pelbagai tempat amalan veterinar dibincangkan.",
+    "description_english": "This course provides exposure in clinical practice through clinical attachment at various veterinary practices. Clinical knowledge related to disease management as well as good practices in veterinary medicine is applied. Differences in disease and client management at various clinical practises is discussed.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPD4915 \nAmalan Luar Klinik/ Extramural Clinical Practice \n2 (0+2) \nPrasyarat/Prerequisite : Tiada/Null \nKursus ini memberi pendedahan dalam amalan klinikal melalui penempatan pelajar di pelbagai tempat \namalan veterinar. Pengetahuan klinikal berkaitan pengurusan penyakit serta amalan baik dalam \nperubatan veterinar diaplikasikan. Perbezaan pengurusan penyakit dan klien di pelbagai tempat \namalan veterinar dibincangkan. \nThis course provides exposure in  clinical practice through  clinical attac"
+  },
+  {
+    "course_code": "VPD4959",
+    "course_name_malay": "Disertasi Bacelor",
+    "course_name_english": "Bachelor Dissertation",
+    "credits": "3 (0+3)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi proses pelaksanaan penyelidkan yang meliputi penyediaan proposal, penyimpulan dan pembentangan hasil dapatan, dan penulisan disertasi. Reka bentuk eksperimen dan pengesahan penemuan saintifik yang mempunyai nilai komersial ditekankan.",
+    "description_english": "This course encompasses research implementation process that covers proposal preparation, summarising and presenting research findings, and writing a dissertation. Experimental research design and scientific findings that have commercial values are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Perubatan Veterinar",
+    "source_chunk": "VPD4959 \nDisertasi Bacelor/ Bachelor Dissertation \n3 (0+3) \nPrasyarat/Prerequisite : Tiada/Null \nKursus ini merangkumi proses pelaksanaan penyelidkan yang meliputi penyediaan proposal, \npenyimpulan dan pembentangan hasil dapatan, dan penulisan disertasi. Reka bentuk eksperimen dan \npengesahan penemuan saintifik yang mempunyai nilai komersial ditekankan. \nThis course encompasses research implementation process that covers proposal preparation, \nsummarising and presenting research findings, and wr"
+  }
+]

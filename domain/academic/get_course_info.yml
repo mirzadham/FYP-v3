@@ -1,30 +1,121 @@
 version: "3.1"
 
-actions:
-  - get_course_details
+# get_course_info.yml - Course information flow
+# Shared slots and responses are in _shared_course.yml
 
 slots:
-  course_name:
-    type: text
+  wants_course_followup:
+    type: bool
     mappings:
-      - type: controlled
-  credits:
-    type: float
+      - type: from_llm
+
+  course_followup_type:
+    type: categorical
+    values:
+      - prerequisites
+      - schedule
+      - similar_courses
     mappings:
-      - type: controlled
-  synopsis:
-    type: text
+      - type: from_llm
+
+  wants_another_course:
+    type: bool
     mappings:
-      - type: controlled
+      - type: from_llm
+
+  wants_search_retry:
+    type: bool
+    mappings:
+      - type: from_llm
+
+actions:
+  - get_course_details
+  - action_validate_course_code_format
+  - action_reset_course_code
+  - action_provide_course_followup
+  - action_reset_course_slots
 
 responses:
   utter_course_details:
     - text: |
         📚 **{course_code}**: {course_name}
-        
         💳 **Credit Hours:** {credits}
-        
         📋 **Prerequisites:** {prereq_list}
-        
         📖 **Synopsis:**
         {synopsis}
+
+  utter_course_search_complete:
+    - text: |
+        ✅ **Search Complete**
+        
+        If you need more course information later, just ask!
+        
+        💡 You can also say things like:
+        • "What are the prerequisites for CSC4600?"
+        • "Tell me about CCS3101"
+
+  utter_search_help:
+    - text: |
+        💡 **Finding Course Codes**
+        
+        You can find course codes in:
+        • **SMP Portal** - Course registration
+        • **Faculty Handbook** - Program structure
+        • **Academic Calendar** - Course offerings
+        
+        If you need help with something else, just ask!
+
+  utter_followup_prerequisites:
+    - text: |
+        🔗 **Prerequisites for {course_code}**
+        
+        **Required courses:** {prereq_list}
+        
+        ⚠️ You must pass ALL prerequisites before registering for {course_code}.
+        
+        💡 Check if you've completed these courses in your transcript.
+
+  utter_followup_schedule:
+    - text: |
+        📅 **Course Schedule Information**
+        
+        For {course_code} scheduling details:
+        
+        • Check **SMP Portal** during registration
+        • View **Course Timetable** for available sections
+        • Note: Some courses are only offered in specific semesters
+        
+        💡 Register early for best section choices!
+
+  utter_followup_similar:
+    - text: |
+        🔄 **Related Courses**
+        
+        For courses similar to or related to **{course_code}**, check:
+        
+        • **Program structure** in faculty handbook
+        • **Elective options** in your curriculum
+        • **Course clusters** in your major area
+        
+        Your Academic Advisor can recommend related courses!
+
+  utter_ask_wants_course_followup:
+    - text: "Would you like more information about this course?"
+      metadata:
+        rephrase: true
+
+  utter_ask_course_followup_type:
+    - text: "What would you like to know? (prerequisites, schedule, or similar courses)"
+      metadata:
+        rephrase: true
+
+  utter_ask_wants_another_course:
+    - text: "Would you like to look up another course?"
+      metadata:
+        rephrase: true
+
+  utter_ask_wants_search_retry:
+    - text: "Would you like to try searching for a different course?"
+      metadata:
+        rephrase: true
+

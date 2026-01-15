@@ -1,8 +1,9 @@
 flows:
   elective_options:
     description: |
-      Provide information about elective courses, free electives, and recommendations.
-      Examples: "what electives can I take?", "easy elective subjects", "elective list"
+      Explain the elective course system at UPM - types of electives and how to choose them.
+      Only for general questions about what electives are, not for finding specific courses.
+      Examples: "what are electives?", "how do I choose electives?", "elective types"
     name: elective options information
     steps:
       - action: utter_elective_options

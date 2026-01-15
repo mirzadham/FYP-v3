@@ -1,0 +1,10 @@
+flows:
+  search_courses_by_topic:
+    description: |
+      Search for courses based on a specific topic, subject area, or field of study.
+      Uses semantic search to find relevant courses from all faculties.
+      Examples: "courses about machine learning", "what courses cover fish breeding",
+      "find courses related to animal nutrition", "courses on software engineering"
+    name: search courses by topic
+    steps:
+      - action: action_search_courses

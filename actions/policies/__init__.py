@@ -1,6 +1,6 @@
 """
 Policy-related actions for Academic Advisor Chatbot.
-Handles probation, industrial training, and grade appeal flows.
+Handles probation, industrial training, grade appeal, and deferment flows.
 """
 
 from .probation_actions import (
@@ -24,6 +24,10 @@ from .grade_appeal_actions import (
     ActionCheckAppealDeadline,
     ActionAssessAppealReadiness,
 )
+from .deferment_actions import (
+    ActionAssessDefermentTiming,
+    ActionProvideTimingWarning,
+)
 
 __all__ = [
     # Probation actions
@@ -44,4 +48,8 @@ __all__ = [
     "ActionResetDays",
     "ActionCheckAppealDeadline",
     "ActionAssessAppealReadiness",
+    # Deferment actions
+    "ActionAssessDefermentTiming",
+    "ActionProvideTimingWarning",
 ]
+

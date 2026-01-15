@@ -1,18 +1,78 @@
 flows:
   get_course_info:
     description: |
-      Get detailed information about a course including its name, credit hours,
-      synopsis, and prerequisites. Helps students understand course content.
+      Production-grade flow to retrieve detailed course information from faculty handbooks.
+      Includes course code validation, rich information display, and follow-up options.
+      Examples: "tell me about CCS3101", "course details for CSC4600", "what is SSK3100 about?"
     name: get course information
     steps:
-      - collect: course_code
+      # Step 1: Collect course code
+      - id: collect_course_code
+        collect: course_code
         description: The course code to get information for (e.g., CCS3101, CSC4600)
-      - action: get_course_details
+
+      # Step 2: Validate course code format
+      - action: action_validate_course_code_format
+        next:
+          - if: "slots.course_code_valid = false"
+            then:
+              - action: utter_invalid_course_code_format
+              - action: action_reset_course_code
+                next: collect_course_code
+          - else: lookup_course
+
+      # Step 3: Lookup course in database
+      - id: lookup_course
+        action: get_course_details
         next:
           - if: "slots.return_value = 'course_not_found'"
             then:
               - action: utter_course_not_found
-                next: END
+                next: offer_retry
+          - if: "slots.return_value = 'database_error'"
+            then:
+              - action: utter_database_error
+                next: offer_retry
           - else:
               - action: utter_course_details
+                next: offer_followup
+
+      # Step 4: Offer follow-up options after showing course
+      - id: offer_followup
+        collect: wants_course_followup
+        description: Whether the student wants more details like prerequisites or scheduling
+        next:
+          - if: "slots.wants_course_followup = true"
+            then:
+              - id: collect_followup_type
+                collect: course_followup_type
+                description: What additional info they want (prerequisites, schedule, similar courses)
+              - action: action_provide_course_followup
+                next: offer_another_course
+          - else: offer_another_course
+
+      # Step 5: Offer to search another course
+      - id: offer_another_course
+        collect: wants_another_course
+        description: Whether the student wants to search for another course
+        next:
+          - if: slots.wants_another_course
+            then:
+              - action: action_reset_course_slots
+                next: collect_course_code
+          - else:
+              - action: utter_course_search_complete
+                next: END
+
+      # Step 6: Retry option if course not found
+      - id: offer_retry
+        collect: wants_search_retry
+        description: Whether student wants to try searching for a different course code
+        next:
+          - if: slots.wants_search_retry
+            then:
+              - action: action_reset_course_code
+                next: collect_course_code
+          - else:
+              - action: utter_search_help
                 next: END

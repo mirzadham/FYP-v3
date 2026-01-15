@@ -1,6 +1,6 @@
 """
 OpenAI-powered actions for Academic Advisor Chatbot.
-RAG-enhanced fallback responses using OpenAI GPT.
+RAG-enhanced fallback responses using OpenAI GPT with semantic search.
 """
 
 from typing import Any, Text, Dict, List
@@ -8,7 +8,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from openai import OpenAI
 
-from .db_utils import get_db_connection
+from .handbook_utils import get_context_for_rag
 
 
 class ActionOpenAIResponse(Action):
@@ -16,8 +16,8 @@ class ActionOpenAIResponse(Action):
     RAG-enhanced fallback response using OpenAI.
     Handles queries that don't match any specific flow.
     
-    Retrieves relevant context from the course database and
-    generates an appropriate academic advisor response.
+    Uses semantic search on handbook embeddings to find relevant
+    course context, then generates an appropriate academic advisor response.
     """
 
     def name(self) -> Text:
@@ -39,8 +39,8 @@ class ActionOpenAIResponse(Action):
             return []
         
         try:
-            # Query knowledge base for context
-            context = self._get_relevant_context(user_message)
+            # Use semantic search to find relevant context from handbooks
+            context = get_context_for_rag(user_message, top_k=5)
             
             # Create OpenAI client (uses OPENAI_API_KEY env variable)
             client = OpenAI()
@@ -58,8 +58,10 @@ IMPORTANT RULES:
 2. Never provide: legal advice, medical advice, financial advice, or help with anything unethical/illegal.
 3. If unsure whether you can help, redirect to the appropriate university department.
 4. Be helpful, accurate, and concise for valid academic queries.
+5. When mentioning courses, include both the course code and name.
+6. You may respond in English or Malay based on the user's language preference.
 
-Use the following context from the UPM academic database to answer questions:
+Use the following context from the UPM faculty handbooks to answer questions:
 """
             
             response = client.chat.completions.create(
@@ -83,47 +85,4 @@ Use the following context from the UPM academic database to answer questions:
             )
         
         return []
-    
-    def _get_relevant_context(self, query: str) -> str:
-        """
-        Retrieve relevant context from the knowledge base.
-        
-        Args:
-            query: The user's query to find context for
-            
-        Returns:
-            Formatted context string for the LLM prompt
-        """
-        try:
-            conn = get_db_connection()
-            cursor = conn.cursor()
-            
-            # Search for relevant courses based on keywords
-            keywords = [kw for kw in query.lower().split() if len(kw) > 3][:5]
-            
-            results = []
-            for keyword in keywords:
-                # Search in course names and descriptions
-                cursor.execute("""
-                    SELECT course_code, course_name, description
-                    FROM courses
-                    WHERE LOWER(course_name) LIKE ? OR LOWER(description) LIKE ?
-                    LIMIT 3
-                """, (f"%{keyword}%", f"%{keyword}%"))
-                results.extend(cursor.fetchall())
-            
-            conn.close()
-            
-            # Deduplicate and format
-            unique_courses = {}
-            for code, name, desc in results:
-                if code not in unique_courses:
-                    unique_courses[code] = f"**{code}**: {name}\n{desc[:200]}..."
-            
-            if unique_courses:
-                return "\n\n".join(list(unique_courses.values())[:5])
-            return "No specific course information found in the database."
-            
-        except Exception as e:
-            print(f"Context retrieval error: {e}")
-            return "Unable to retrieve context from the database."
+

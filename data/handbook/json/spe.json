@@ -1,0 +1,1997 @@
+[
+  {
+    "course_code": "ECN3010",
+    "course_name_malay": "Prinsip Ekonomi",
+    "course_name_english": "Principles of Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi teori asas mikroekonomi dan makroekonomi. Hubungan di antara teori dan isu ekonomi ditekankan.",
+    "description_english": "This course covers the fundamental theories of microeconomics and macroeconomics. The relationship between theories and economic issues are emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN3010 \nPrinsip Ekonomi/ Principles of Economics \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi teori asas mikroekonomi dan makroekonomi. Hubungan di antara teori \ndan isu ekonomi ditekankan. \nThis course covers the fundamental theories of microeconomics and macroeconomics. The \nrelationship between theories and economic issues are emphasized."
+  },
+  {
+    "course_code": "ECN3013",
+    "course_name_malay": "Mikroekonomi",
+    "course_name_english": "Microeconomics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3010"
+    ],
+    "description_malay": "Kursus ini merangkumi teori mikroekonomi berkenaan gelagat pengguna, firma, dan struktur pasaran. Penekanan diberi kepada analisis isu ekonomi dengan menggunakan kaedah matematik.",
+    "description_english": "This course covers the microeconomics theories related to consumer behavior, firms, and market structure. Emphasis is given to the analysis of economic issues using mathematical methods.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN3013 \nMikroekonomi/ Microeconomics \n3(3+0) \nPrasyarat/ Prerequisite: ECN3010 \nKursus ini merangkumi teori mikroekonomi berkenaan gelagat pengguna, firma, dan struktur pasaran. \nPenekanan diberi kepada analisis isu ekonomi dengan menggunakan kaedah matematik. \nThis course covers the microeconomics theories related to consumer behavior, firms, and market \nstructure. Emphasis is given to the analysis of economic issues using mathematical methods."
+  },
+  {
+    "course_code": "ECN3014",
+    "course_name_malay": "Makroekonomi",
+    "course_name_english": "Macroeconomics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3010"
+    ],
+    "description_malay": "Kursus ini merangkumi pemahaman asas masalah makroekonomi iaitu penentuan output, pekerjaan, pengangguran, kadar faedah dan inflasi. Dasar kewangan, dasar fiskal, hutang awam dan masalah ekonomi antarabangsa turut ditekankan.",
+    "description_english": "This course offers insights into the understanding of fundamental macroeconomic issues: the determination of output, employment, unemployment, interest rates and inflation. Monetary policy, fiscal policy, public debt and international economic issues is also emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN3014 \nMakroekonomi/ Macroeconomics \n3(3+0) \nPrasyarat/ Prerequisite: ECN3010 \nKursus ini merangkumi pemahaman asas masalah makroekonomi iaitu penentuan output, pekerjaan, \npengangguran, kadar faedah dan inflasi. Dasar kewangan, dasar fiskal, hutang awam dan masalah \nekonomi antarabangsa turut ditekankan. \nThis course offers insights into the understanding of fundamental macroeconomic issues: the \ndetermination of output, employment, unemployment, interest rates and inflation. Monetary policy,"
+  },
+  {
+    "course_code": "ECN3015",
+    "course_name_malay": "Mikroekonomi Pertengahan",
+    "course_name_english": "Intermediate Microeconomics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3013"
+    ],
+    "description_malay": "Kursus ini merangkumi teori mikroekonomi berkaitan dengan pasaran input, analisis keseimbangan umum, kecekapan pasaran dan teori permainan. Masalah yang berkaitan dengan kegagalan pasaran dan keputusan kerajaan yang melibatkan risiko dibincangkan.",
+    "description_english": "This course covers microeconomic theory related to the input market, general equilibrium analysis, market efficiency and game theory. Problems related to market failure and government decisions involving risks are discussed.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN3015  Mikroekonomi Pertengahan/ Intermediate Microeconomics \n3(3+0) \nPrasyarat/ Prerequisite: ECN3013 \nKursus ini merangkumi teori mikroekonomi berkaitan dengan pasaran input, analisis keseimbangan \numum, kecekapan pasaran dan teori permainan. Masalah yang berkaitan dengan kegagalan pasaran \ndan keputusan kerajaan yang melibatkan risiko dibincangkan. \nThis course covers microeconomic theory related to the input market, general equilibrium analysis, \nmarket efficiency and game theory. Problems"
+  },
+  {
+    "course_code": "ECN3016",
+    "course_name_malay": "Makroekonomi Pertengahan",
+    "course_name_english": "Intermediate Macroeconomics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3014"
+    ],
+    "description_malay": "Kursus ini merangkumi teori dan isu makroekonomi dalam perubahan struktur ekonomi. Faktor yang mempengaruhi ekonomi tempatan dan luar negara ditekankan. Hubungkait teori makroekonomi dengan masalah dan dasar ekonomi dibincangkan.",
+    "description_english": "This course covers macroeconomic theory and issue in economic structural changes. Factors affecting domestic and foreign economies are emphasized. The relation of macroeconomics theories with problems and policies are discussed.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN3016 \nMakroekonomi Pertengahan/ Intermediate Macroeconomics \n3(3+0) \nPrasyarat/ Prerequisite: ECN3014 \nKursus ini merangkumi teori dan isu makroekonomi dalam perubahan struktur ekonomi. Faktor yang \nmempengaruhi ekonomi tempatan dan luar negara ditekankan. Hubungkait teori makroekonomi \ndengan masalah dan dasar ekonomi dibincangkan. \nThis course covers macroeconomic theory and issue in economic structural changes. Factors \naffecting domestic and foreign economies are emphasized. The relation "
+  },
+  {
+    "course_code": "ECN3111",
+    "course_name_malay": "Sejarah Pemikiran Ekonomi",
+    "course_name_english": "History of Economic Thoughts",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi evolusi pemikiran ekonomi yang menumpukan kepada perubahan dalam pemikiran dan dasar ekonomi berkait dengan masalah ekonomi dan sosial.",
+    "description_english": "This course covers the evolution of economic thought which focuses on the changes in economic thought and policy related to economic and social problems.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN3111 \nSejarah Pemikiran Ekonomi/ History of Economic Thoughts \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi evolusi pemikiran ekonomi yang menumpukan kepada perubahan dalam \npemikiran dan dasar ekonomi berkait dengan masalah ekonomi dan sosial. \nThis course covers the evolution of economic thought which focuses on the changes in economic \nthought and policy related to economic and social problems."
+  },
+  {
+    "course_code": "ECN3112",
+    "course_name_malay": "Pengenalan kepada Ekonomi Islam",
+    "course_name_english": "Introduction to Islamic Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip dan amalan sistem ekonomi Islam. Asas, falsafah dan pembahagian sektor dalam ekonomi Islam ditekankan. Perbandingan di antara kaedah ekonomi konvensional dengan ekonomi Islam juga dibincangkan.",
+    "description_english": "This course covers the principles and practices of Islamic economics. Fundamentals, philosophy and sectoral division in Islamic economics are emphasized. Comparison between conventional economics and Islamic economics is also discussed.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN3112 Pengenalan kepada Ekonomi Islam/ Introduction to Islamic Economics 3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi prinsip dan amalan sistem ekonomi Islam. Asas, falsafah dan pembahagian \nsektor dalam ekonomi Islam ditekankan. Perbandingan di antara kaedah ekonomi konvensional \ndengan ekonomi Islam juga dibincangkan. \nThis course covers the principles and practices of Islamic economics. Fundamentals, philosophy \nand sectoral division in Islamic economics are emphasize"
+  },
+  {
+    "course_code": "ECN3113",
+    "course_name_malay": "Ekonomi Malaysia",
+    "course_name_english": "Malaysian Economy",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi dasar-dasar yang diperkenalkan bagi sektor ekonomi di Malaysia. Perkembangan struktur ekonomi dan isu semasa juga dibincangkan.",
+    "description_english": "This course covers the policies introduced for the economic sector in Malaysia. The development of economic structure and current issues are also discussed.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN3113 \nEkonomi Malaysia/ Malaysian Economy \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi dasar-dasar yang diperkenalkan bagi sektor ekonomi di Malaysia. \nPerkembangan struktur ekonomi dan isu semasa juga dibincangkan. \nThis course covers the policies introduced for the economic sector in Malaysia. The development of \neconomic structure and current issues are also discussed."
+  },
+  {
+    "course_code": "ECN3211",
+    "course_name_malay": "Aplikasi Algebra dalam Ekonomi",
+    "course_name_english": "Application of Algebra in Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pengenalan kepada konsep dan kaedah algebra yang digunakan dalam bidang ekonomi. Aplikasi kaedah algebra sebagai salah satu pendekatan bagi menyelesaikan masalah ekonomi juga dibincangkan.",
+    "description_english": "This course covers an introduction to the mathematical concepts and methods used in field related to of economics. The application of the algebra methods as one of the approaches to solve economic problems are also discussed.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN3211 Aplikasi Algebra dalam Ekonomi/ Application of Algebra in Economics 3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi pengenalan kepada konsep dan kaedah algebra yang digunakan dalam \nbidang ekonomi. Aplikasi kaedah algebra sebagai salah satu pendekatan bagi menyelesaikan \nmasalah ekonomi juga dibincangkan. \nThis course covers an introduction to the mathematical concepts and methods used in field related to \nof economics. The application of the algebra methods as one of"
+  },
+  {
+    "course_code": "ECN3212",
+    "course_name_malay": "Aplikasi Kalkulus dalam Ekonomi",
+    "course_name_english": "Application of Calculus in Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3211"
+    ],
+    "description_malay": "Kursus ini merangkumi pengenalan kepada konsep dan kaedah kalkulus yang digunakan dalam bidang ekonomi. Aplikasi kaedah kalkulus sebagai salah satu pendekatan bagi menyelesaikan masalah ekonomi juga dibincangkan.",
+    "description_english": "This course covers an introduction to the mathematical concepts and methods of calculus used in field related to of economics. The application of the calculus methods as one of the approaches to solve economic problems are also discussed.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN3212 \nAplikasi Kalkulus dalam Ekonomi/ Application of Calculus in \nEconomics \nPrasyarat/ Prerequisite: ECN3211 \n3(3+0) \nKursus ini merangkumi pengenalan kepada konsep dan kaedah kalkulus yang digunakan dalam \nbidang ekonomi. Aplikasi kaedah kalkulus sebagai salah satu pendekatan bagi menyelesaikan \nmasalah ekonomi juga dibincangkan. \nThis course covers an introduction to the mathematical concepts and methods of calculus used in \nfield related to of economics. The application of the calculus m"
+  },
+  {
+    "course_code": "ECN3213",
+    "course_name_malay": "Data Analitik dalam Ekonomi",
+    "course_name_english": "Data Analytics in Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi konsep data, piawaian, kaedah pengiraan dan ilustrasi data ekonomi. Pengendalian dan kaedah manipulasi data untuk analisis ekonomi serta proses mentafsir maklumat bagi pembuatan keputusan berdasarkan data turut dibincangkan.",
+    "description_english": "This course covers concepts of data, standard, estimation technique and economic data illustration. Data handling and data manipulation methods for economic analysis as well as interpretation processes for decision making based on data are discussed.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN3213  Data Analitik dalam Ekonomi/ Data Analytics in Economics \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi konsep data, piawaian, kaedah pengiraan dan ilustrasi data ekonomi. \nPengendalian dan kaedah manipulasi data untuk analisis ekonomi serta proses mentafsir maklumat \nbagi pembuatan keputusan berdasarkan data turut dibincangkan. \nThis course covers concepts of data, standard, estimation technique and economic data illustration. \nData handling and data manipulation "
+  },
+  {
+    "course_code": "ECN3222",
+    "course_name_malay": "Statistik Ekonomi",
+    "course_name_english": "Statistical Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3213"
+    ],
+    "description_malay": "Kursus ini merangkumi pengenalan kaedah statistik dalam pembelajaran ekonomi. Pengenalpastian kaedah statistik yang bersesuaian bagi menangani isu ekonomi dan perbincangan hasil analisis diberi penekanan.",
+    "description_english": "This course covers the introduction of statistical methods in the study of economics. The identification of appropriate statistical methods in solving economic issues and the discussion of the analysis findings are emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN3222 \nStatistik Ekonomi/ Statistical Economics \n3(3+0) \nPrasyarat/ Prerequisite: ECN3213 \nKursus ini merangkumi pengenalan kaedah statistik dalam pembelajaran ekonomi. Pengenalpastian \nkaedah statistik yang bersesuaian bagi menangani isu ekonomi dan perbincangan hasil analisis diberi \npenekanan. \nThis course covers the introduction of statistical methods in the study of economics. The identification \nof appropriate statistical methods in solving economic issues and the discussion of the analy"
+  },
+  {
+    "course_code": "ECN4129",
+    "course_name_malay": "Kaedah Penyelidikan Ekonomi",
+    "course_name_english": "Research Methodology in Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi kaedah penyelidikan saintifik sebagai satu strategi untuk menyelesaikan isu ekonomi. Sorotan literatur, pembentukan hipotesis dan model, pengumpulan data serta pengukuran empirikal ditekankan.",
+    "description_english": "This course covers the scientific research method as a strategy for addressing an economic issue. Literature review, hypothesis and model formulation, data collection and empirical testing are emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4129 Kaedah Penyelidikan Ekonomi/ Research Methodology in Economics 3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi kaedah penyelidikan saintifik sebagai satu strategi untuk menyelesaikan isu \nekonomi. Sorotan literatur, pembentukan hipotesis dan model, pengumpulan data serta pengukuran \nempirikal ditekankan. \nThis course covers the scientific research method as a strategy for addressing an economic issue. \nLiterature review, hypothesis and model formulation, data collecti"
+  },
+  {
+    "course_code": "ECN4231",
+    "course_name_malay": "Pengenalan kepada Ekonometrik",
+    "course_name_english": "Introduction to Econometrics",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "ECN3222"
+    ],
+    "description_malay": "Kursus ini merangkumi teori ekonometrik dan teknik statistik untuk menghubung kait pelbagai pembolehubah ekonomi. Kaedah penganggaran model ekonomi bagi menyelesaikan masalah ekonomi dibincangkan.",
+    "description_english": "This course covers econometric theory and statistical techniques to relate various economic variables. Methods in estimating economic models in solving economic problems are discussed.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4231  Pengenalan kepada Ekonometrik/ Introduction to Econometrics \n4(3+1) \nPrasyarat/ Prerequisite: ECN3222 \nKursus ini merangkumi teori ekonometrik dan teknik statistik untuk menghubung kait pelbagai \npembolehubah ekonomi. Kaedah penganggaran model ekonomi bagi menyelesaikan masalah \nekonomi dibincangkan. \n\n--- Page 3 ---\n54 \n \nThis course covers econometric theory and statistical techniques to relate various economic variables. \nMethods in estimating economic models in solving economic prob"
+  },
+  {
+    "course_code": "ECN4234",
+    "course_name_malay": "Ekonometrik Gunaan",
+    "course_name_english": "Applied Econometrics",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "ECN4231"
+    ],
+    "description_malay": "Kursus ini merangkumi kaedah ekonometrik untuk menganalisis masalah ekonomi di mana ia menumpu kepada perkaitan di antara teori ekonomi dengan teknik anggaran, dan mentafsir hasil dapatan empirik dari pelbagai teknik kuantitatif.",
+    "description_english": "This course covers econometric methods to analyze economic problems in which it focuses on linking economic theory to estimation techniques and interpreting the empirical results of various quantitative techniques.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4234  Ekonometrik Gunaan/ Applied Econometrics \n4(3+1) \nPrasyarat/ Prerequisite: ECN4231 \nKursus ini merangkumi kaedah ekonometrik untuk menganalisis masalah ekonomi di mana ia \nmenumpu kepada perkaitan di antara teori ekonomi dengan teknik anggaran, dan mentafsir hasil \ndapatan empirik dari pelbagai teknik kuantitatif. \nThis course covers econometric methods to analyze economic problems in which it focuses on linking \neconomic theory to estimation techniques and interpreting the empirical re"
+  },
+  {
+    "course_code": "ECN4235",
+    "course_name_malay": "Analisis Siri Masa dan Unjuran",
+    "course_name_english": "Time Series Analysis and Forecasting",
+    "credits": "4(3+1)",
+    "prerequisites": [
+      "ECN4231"
+    ],
+    "description_malay": "Kursus ini merangkumi teknik analisis siri masa dan unjuran, termasuk pelbagai model siri masa dan kaedah utama untuk menganalisis model tersebut. Fokus utama adalah memahami kaedah dan menerapkannya ke data sebenar.",
+    "description_english": "The course covers time series analysis and forecasting techniques, which include a variety of models for time series and the main methods for analyzing those models. The main focus is on understanding the methods and applying them to real data.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4235 Analisis Siri Masa dan Unjuran/ Time Series Analysis and Forecasting 4(3+1) \nPrasyarat/ Prerequisite: ECN4231 \nKursus ini merangkumi teknik analisis siri masa dan unjuran, termasuk pelbagai model siri masa dan \nkaedah utama untuk menganalisis model tersebut. Fokus utama adalah memahami kaedah dan \nmenerapkannya ke data sebenar. \nThe course covers time series analysis and forecasting techniques, which include a variety of models \nfor time series and the main methods for analyzing those mo"
+  },
+  {
+    "course_code": "ECN4261",
+    "course_name_malay": "Penilaian Projek",
+    "course_name_english": "Project Evaluation",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3010"
+    ],
+    "description_malay": "Kursus ini merangkumi teori dan teknik, perhubungan antara perancangan di peringkat mikro dan makro. Teknik penilaian projek, kaedah tradisional dan kaedah pendiskaunan serta isu dalam perancangan dan penilaian projek dibincangkan. Pendekatan matematik dan digital digunakan di dalam menganalisis pelaksanaan projek.",
+    "description_english": "This course includes the theories and techniques, relationship between evaluation techniques; traditional methods and discounting methods and issues in project planning and evaluation are discussed. The application of mathematical and digital approaches is adopted to analyze the implementation of the project.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4261  Penilaian Projek/ Project Evaluation \n3(3+0) \nPrasyarat/ Prerequisite: ECN3010 \nKursus ini merangkumi teori dan teknik, perhubungan antara perancangan di peringkat mikro dan \nmakro. Teknik penilaian projek, kaedah tradisional dan kaedah pendiskaunan serta isu dalam \nperancangan dan penilaian projek dibincangkan. Pendekatan matematik dan digital digunakan di \ndalam menganalisis pelaksanaan projek. \nThis course includes the theories and techniques, relationship between evaluation techniqu"
+  },
+  {
+    "course_code": "ECN4263",
+    "course_name_malay": "Ekonomi Eksperimen",
+    "course_name_english": "Experimental Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3013"
+    ],
+    "description_malay": "Kursus ini adalah pengenalan kepada bidang Ekonomi Eksperimen dan kaedahnya. Ia akan memperkenalkan eksperimen yang digunakan dalam Ekonomi untuk menilai teori dan andaian tingkah laku dan mencadangkan dasar ekonomi bagi menyelesaikan masalah ekonomi.",
+    "description_english": "This course is an introduction to the field of Experimental Economics and its methods. It will introduce experiments used in Economics to evaluate theories and assumptions of behaviour and propose economic policies for solving economic problems.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4263  Ekonomi Eksperimen/ Experimental Economics \n3(3+0) \nPrasyarat/ Prerequisite: ECN3013 \nKursus ini adalah pengenalan kepada bidang Ekonomi Eksperimen dan kaedahnya. Ia akan \nmemperkenalkan eksperimen yang digunakan dalam Ekonomi untuk menilai teori dan andaian \ntingkah laku dan mencadangkan dasar ekonomi bagi menyelesaikan masalah ekonomi. \nThis course is an introduction to the field of Experimental Economics and its methods. It will introduce \nexperiments used in Economics to evaluate th"
+  },
+  {
+    "course_code": "ECN4314",
+    "course_name_malay": "Ekonomi Sumber dan Alam Sekitar",
+    "course_name_english": "Natural Resource and Environmental Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3010"
+    ],
+    "description_malay": "Kursus ini merangkumi teori asas penghausan (depletion), ekonomi kebajikan dan masalah berkaitan dengan kegagalan sistem pasaran untuk memperuntukkan sumber dengan cekap. Isu kecekapan ekonomi ditekankan dalam menganalisis kaedah, membandingkan strategi dan pengaplikasian instrumen bagi mengawal kualiti alam sekitar.",
+    "description_english": "This course covers the basic theory of depletion, welfare economics and the problems associated with the failure of the market system to allocate resources efficiently. The issue of economic efficiency is emphasized in analyzing methods, comparing strategies and application of economic instruments to control the quality of the environment.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4314 \nEkonomi \nSumber \ndan \nAlam \nSekitar/ \nNatural \nResource \nand \nEnvironmental Economics \nPrasyarat/ Prerequisite: ECN3010 \n3(3+0) \nKursus ini merangkumi teori asas penghausan (depletion), ekonomi kebajikan dan masalah berkaitan \ndengan kegagalan sistem pasaran untuk memperuntukkan sumber dengan cekap. Isu kecekapan \nekonomi ditekankan dalam menganalisis kaedah, membandingkan strategi dan pengaplikasian \ninstrumen bagi mengawal kualiti alam sekitar. \nThis course covers the basic theory of "
+  },
+  {
+    "course_code": "ECN4315",
+    "course_name_malay": "Ekonomi Pelancongan dan Rekreasi",
+    "course_name_english": "Tourism and Recreation Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3010"
+    ],
+    "description_malay": "Kursus ini merangkumi teori dan konsep asas ekonomi di dalam penilaian faedah dan kos rekreasi dan ekopelancongan. Kesejahteraan individual dan komuniti serta kemampanan alam semulajadi dibincangkan. Penekanan diberi kepada pembuatan keputusan dengan mengaplikasi teknik penilaian sumber rekreasi dan ekopelancongan.",
+    "description_english": "This course covers the basic theories and concepts of economics in the valuation of the benefits and costs of recreation and ecotourism. Individual and community well-being as well as natural sustainability are discussed. Emphasis is placed on decision making by applying recreational and ecotourism resource valuation techniques.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4315 \nEkonomi Pelancongan dan Rekreasi/ Tourism and Recreation \nEconomics \nPrasyarat/ Prerequisite: ECN3010 \n3(3+0) \nKursus ini merangkumi teori dan konsep asas ekonomi di dalam penilaian faedah dan kos rekreasi \ndan ekopelancongan. Kesejahteraan individual dan komuniti serta kemampanan alam semulajadi \ndibincangkan. Penekanan diberi kepada pembuatan keputusan dengan mengaplikasi teknik penilaian \nsumber rekreasi dan ekopelancongan. \n\n--- Page 4 ---\n55 \n \nThis course covers the basic theories"
+  },
+  {
+    "course_code": "ECN4410",
+    "course_name_malay": "Institusi Kewangan dan Perbankan",
+    "course_name_english": "Money, Financial Institutions and Banking",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3014"
+    ],
+    "description_malay": "Kursus ini merangkumi analisis wang, penentuan kadar faedah, fungsi bank perdagangan dan bank pusat serta bagaimana maklumat asimetri dan dasar kerajaan membentuk evolusi mereka. Kesan wang dan dasar kewangan bank pusat di era digital juga dibincangkan.",
+    "description_english": "This course covers analysis of money, the determination of interest rate, the roles of commercial banks and central bank as well as how information assymmetries and regulation have shaped their evolution. The impact of money and monetary policy in the digital era are also discussed.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4410 \nWang, \nInstitusi \nKewangan \ndan \nPerbankan/ \nMoney, \nFinancial \nInstitutions and Banking \nPrasyarat/ Prerequisite: ECN3014 \n3(3+0) \nKursus ini merangkumi analisis wang, penentuan kadar faedah, fungsi bank perdagangan dan bank \npusat serta bagaimana maklumat asimetri dan dasar kerajaan membentuk evolusi mereka. Kesan \nwang dan dasar kewangan bank pusat di era digital juga dibincangkan. \nThis course covers analysis of money, the determination of interest rate, the roles of commercial \nban"
+  },
+  {
+    "course_code": "ECN4411",
+    "course_name_malay": "Ekonomi Kewangan",
+    "course_name_english": "Financial Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3014"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek ekonomi, kewangan dan pengurusan pelaburan. Hipotesis kecekapan pasaran, gelagat kewangan, kewangan digital, pembangunan pasaran dan penentu pembangunan kewangan ditekankan.",
+    "description_english": "This course covers the aspects of economics, finance and investment management. The efficient market hypothesis, behavioural finance, digital finance, financial market development and the determinants of financial development are emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4411  Ekonomi Kewangan/ Financial Economics \n3(3+0) \nPrasyarat/ Prerequisite: ECN3014 \nKursus ini merangkumi aspek ekonomi, kewangan dan pengurusan pelaburan. Hipotesis kecekapan \npasaran, gelagat kewangan, kewangan digital, pembangunan pasaran dan penentu pembangunan \nkewangan ditekankan. \nThis course covers the aspects of economics, finance and investment management. The efficient \nmarket hypothesis, behavioural finance, digital finance, financial market development and the \ndeterminants of"
+  },
+  {
+    "course_code": "ECN4511",
+    "course_name_malay": "Ekonomi Perindustrian",
+    "course_name_english": "Industrial Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3013"
+    ],
+    "description_malay": "Kursus ini merangkumi organisasi dan operasi firma dalam industri persaingan sempurna dan tidak sempurna. Penekanan diberikan terhadap model struktur pasaran, gelagat dan prestasi serta kemajuan teknologi dan akta persaingan.",
+    "description_english": "This course covers organization and firms’ operation in the perfect and imperfect competitive industries. Emphasis will be given on the model of market structure, conduct and performance (SCP) as well as technology advancement and competition acts.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4511  Ekonomi Perindustrian / Industrial Economics \n3(3+0) \nPrasyarat/ Prerequisite: ECN3013 \nKursus ini merangkumi organisasi dan operasi firma dalam industri persaingan sempurna dan tidak \nsempurna. Penekanan diberikan terhadap model struktur pasaran, gelagat dan prestasi serta \nkemajuan teknologi dan akta persaingan. \nThis course covers organization and firms’ operation in the perfect and imperfect competitive \nindustries. Emphasis will be given on the model of market structure, conduct an"
+  },
+  {
+    "course_code": "ECN4514",
+    "course_name_malay": "Ekonomi Strategi",
+    "course_name_english": "Strategy of Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3013"
+    ],
+    "description_malay": "Kursus ini merangkumi teori ekonomi dalam membuat keputusan strategi perniagaan. Hubungkait antara konsep asas mikroekonomi, pendekatan pasaran dalam ekonomi dengan strategi perniagaan ditekankan.",
+    "description_english": "This course covers the economic theory for strategic business decision. The relationship among microeconomics basic concepts, economic approaches in markets and business strategy is emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4514  Ekonomi Strategi/ Strategy of Economics \n3(3+0) \nPrasyarat/ Prerequisite: ECN3013 \nKursus ini merangkumi teori ekonomi dalam membuat keputusan strategi perniagaan. Hubungkait \nantara konsep asas mikroekonomi, pendekatan pasaran dalam ekonomi dengan strategi perniagaan \nditekankan. \nThis course covers the economic theory for strategic business decision. The relationship among \nmicroeconomics basic concepts, economic approaches in markets and business strategy is \nemphasized."
+  },
+  {
+    "course_code": "ECN4611",
+    "course_name_malay": "Ekonomi Pembangunan",
+    "course_name_english": "Economic Development",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3014"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep, teori dan dasar pembangunan ekonomi. Petunjuk ekonomi dan sosial digunakan untuk mengukur dan memberi cadangan penyelesaian kepada masalah pembangunan ekonomi.",
+    "description_english": "This course covers the concepts, theories and policies for economic development. Economic and social indicators are used to measure and provide solution to the problems of economic development.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4611  Ekonomi Pembangunan/ Economic Development \n3(3+0) \nPrasyarat/ Prerequisite: ECN3014 \nKursus ini merangkumi konsep, teori dan dasar pembangunan ekonomi. Petunjuk ekonomi dan sosial \ndigunakan untuk mengukur dan memberi cadangan penyelesaian kepada masalah pembangunan \nekonomi. \nThis course covers the concepts, theories and policies for economic development. Economic and \nsocial indicators are used to measure and provide solution to the problems of economic development."
+  },
+  {
+    "course_code": "ECN4613",
+    "course_name_malay": "Ekonomi Buruh",
+    "course_name_english": "Labour Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3013"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep ekonomi buruh dan isu berkaitan dengan buruh. Hubungkait teori dengan polisi berkaitan dengan buruh ditekankan untuk memahami pasaran buruh.",
+    "description_english": "This course covers the concepts of labour economics and issue related to labour. The relationship between theories and policies of labours are emphasised to understand the labour market.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4613 \nEkonomi Buruh/ Labour Economics \n3(3+0) \nPrasyarat/ Prerequisite: ECN3013 \nKursus ini merangkumi konsep ekonomi buruh dan isu berkaitan dengan buruh. Hubungkait teori \ndengan polisi berkaitan dengan buruh ditekankan untuk memahami pasaran buruh. \nThis course covers the concepts of labour economics and issue related to labour. The relationship \nbetween theories and policies of labours are emphasised to understand the labour market. \n\n--- Page 5 ---\n56"
+  },
+  {
+    "course_code": "ECN4615",
+    "course_name_malay": "Ekonomi Wilayah",
+    "course_name_english": "Regional Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3013"
+    ],
+    "description_malay": "Kursus ini merangkumi asas teori dan aplikasi empirikal dalam bidang pembangunan ekonomi wilayah. Penekanan diberi kepada kaedah analisis masalah ekonomi wilayah berkaitan ekonomi sosial dan alam sekitar.",
+    "description_english": "This course covers theoretical foundations and empirical applications in the field of regional economics. Emphasise is given to the techniques to analyse regional economic problems related to economic, social and environment.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4615  Ekonomi Wilayah/ Regional Economics \n3(3+0) \nPrasyarat/ Prerequisite: ECN3013 \nKursus ini merangkumi asas teori dan aplikasi empirikal dalam bidang pembangunan ekonomi \nwilayah. Penekanan diberi kepada kaedah analisis masalah ekonomi wilayah berkaitan ekonomi \nsosial dan alam sekitar. \nThis course covers theoretical foundations and empirical applications in the field of regional \neconomics. Emphasise is given to the techniques to analyse regional economic problems related to \neconomic, "
+  },
+  {
+    "course_code": "ECN4617",
+    "course_name_malay": "Ekonomi Kesihatan",
+    "course_name_english": "Health Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3013"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep ekonomi dalam menganalisis pasaran penjagaan kesihatan. Kursus juga menghubung kaitkan teori di dalam bidang ekonomi di dalam sektor penjagaan kesihatan Kegagalan pasaran dan dasar kerajaan dalam pasaran penjagaan kesihatan ditekankan.",
+    "description_english": "This course covers economic theory in analyzing the healthcare market. The course is also relate theories in economic fields in healthcare sectors. Market failures and government policies in the healthcare market are emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4617  Ekonomi Kesihatan/ Health Economics \n3(3+0) \nPrasyarat/ Prerequisite: ECN3013 \nKursus ini merangkumi konsep ekonomi dalam menganalisis pasaran penjagaan kesihatan. Kursus \njuga menghubung kaitkan teori di dalam bidang ekonomi di dalam sektor penjagaan kesihatan \nKegagalan pasaran dan dasar kerajaan dalam pasaran penjagaan kesihatan ditekankan. \nThis course covers economic theory in analyzing the healthcare market. The course is also relate \ntheories in economic fields in healthcare sect"
+  },
+  {
+    "course_code": "ECN4619",
+    "course_name_malay": "Ekonomi Politik",
+    "course_name_english": "Political Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3014"
+    ],
+    "description_malay": "Kursus ini merangkumi teori dan isu semasa berkenaan hubungan politik dan ekonomi. Penekanan diberikan terhadap masalah ekonomi politik di peringkat nasional dan antarabangsa.",
+    "description_english": "This course covers theory, and current issues of the intersection between politics and economics. Emphasis are given on the problems in political economic issues at both domestic and international levels.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4619 \nEkonomi Politik/ Political Economics \n3(3+0) \nPrasyarat/ Prerequisite: ECN3014 \nKursus \nini \nmerangkumi \nteori dan isu semasa berkenaan hubungan politik dan ekonomi. \nPenekanan diberikan terhadap masalah ekonomi politik di peringkat nasional dan antarabangsa. \nThis course covers theory, and current issues of the intersection between politics and economics. \nEmphasis are given on the problems in political economic issues at both domestic and international \nlevels."
+  },
+  {
+    "course_code": "ECN4620",
+    "course_name_malay": "Ekonomi Digital",
+    "course_name_english": "Digital Economics",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi konsep dan teori ekonomi digital. Penekanan diberikan kepada aplikasi digital dalam aktiviti ekonomi terutama didalam pasaran buruh dan kewangan serta cabaran dan implikasinya ke atas ekonomi global.",
+    "description_english": "This course covers the concepts and theories of digital economics. Emphasis is given on digital applications in economic activities especially in labour and finance market as well as the challenges and implications for the global economy.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4620  Ekonomi Digital/ Digital Economics \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi konsep dan teori ekonomi digital. Penekanan diberikan kepada aplikasi digital \ndalam aktiviti ekonomi terutama didalam pasaran buruh dan kewangan serta cabaran dan \nimplikasinya ke atas ekonomi global. \nThis course covers the concepts and theories of digital economics. Emphasis is given on digital \napplications in economic activities especially in labour and finance market as well as "
+  },
+  {
+    "course_code": "ECN4711",
+    "course_name_malay": "Pembiayaan Awam",
+    "course_name_english": "Public Finance",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3014"
+    ],
+    "description_malay": "Kursus ini merangkumi peranan kerajaan di dalam ekonomi negara. Analisis isu dasar awam secara teoritikal dan empirikal ditekankan. Kecekapan pengagihan sumber awam, percukaian dan perbelanjaan kerajaan di dalam struktur fiskal persekutuan dibincangkan.",
+    "description_english": "This course encompasses the role of government in the economy. Analyses of public policy issues theoretically and empirically are emphasized. Efficient allocation of public resources, taxation and government expenditure in the fiscal federalism structure are discussed.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4711  Pembiayaan Awam / Public Finance \n3(3+0) \nPrasyarat/ Prerequisite: ECN3014 \nKursus ini merangkumi peranan kerajaan di dalam ekonomi negara. Analisis isu dasar awam secara \nteoritikal dan empirikal ditekankan. Kecekapan pengagihan sumber awam, percukaian dan \nperbelanjaan kerajaan di dalam struktur fiskal persekutuan dibincangkan. \nThis course encompasses the role of government in the economy. Analyses of public policy issues \ntheoretically and empirically are emphasized. Efficient alloc"
+  },
+  {
+    "course_code": "ECN4713",
+    "course_name_malay": "Pembuatan Keputusan dan Dasar Awam",
+    "course_name_english": "Decision Making and Public Policy",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3014"
+    ],
+    "description_malay": "Kursus ini merangkumi pengenalan kepada konsep dasar awam dan kaedah pembuatan keputusan yang digunakan dalam bidang ekonomi. Penekanan diberikan untuk mengenal pasti masalah ekonomi semasa dan pencarian penyelesaian.",
+    "description_english": "This course introduces the concept of public policy and decision-making methods in the field of economics. Emphasis will be given on identifying and solving current economic problems.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4713 \nPembuatan Keputusan dan Dasar Awam/ Decision Making and Public \nPolicy \nPrasyarat/ Prerequisite: ECN3014 \n3(3+0) \nKursus ini merangkumi pengenalan kepada konsep dasar awam dan kaedah pembuatan keputusan \nyang digunakan dalam bidang ekonomi. Penekanan diberikan untuk mengenal pasti masalah \nekonomi semasa dan pencarian penyelesaian. \nThis course introduces the concept of public policy and decision-making methods in the field of \neconomics. Emphasis will be given on identifying and solvin"
+  },
+  {
+    "course_code": "ECN4812",
+    "course_name_malay": "Perdagangan Antarabangsa",
+    "course_name_english": "International Trade",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3013"
+    ],
+    "description_malay": "Kursus ini merangkumi teori dan dasar perdagangan antarabangsa. Teori moden berkaitan dengan perdagangan intra industri, halangan perdagangan dan perjanjian perdagangan bebas ditekankan.",
+    "description_english": "This course covers the international trade theories and policies. Modern theories related to intra industry trade, trade barriers and free trade agreements are emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4812  Perdagangan Antarabangsa/ International Trade \n3(3+0) \nPrasyarat/ Prerequisite: ECN3013 \nKursus ini merangkumi teori dan dasar perdagangan antarabangsa. Teori moden berkaitan dengan \nperdagangan intra industri, halangan perdagangan dan perjanjian perdagangan bebas ditekankan. \nThis course covers the international trade theories and policies. Modern theories related to intra \nindustry trade, trade barriers and free trade agreements are emphasized. \n\n--- Page 6 ---\n57"
+  },
+  {
+    "course_code": "ECN4813",
+    "course_name_malay": "Kewangan Antarabangsa",
+    "course_name_english": "International Finance",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3014"
+    ],
+    "description_malay": "Kursus ini membincangkan teori dan isu kewangan antarabangsa termasuk imbangan pembayaran, pasaran tukaran asing dan mata wang digital serta kesannya ke atas ekonomi negara.",
+    "description_english": "This course discusses theories and issues in international finance including balance of payments, foreign exchange market and digital currency as well as its impact on the national economy.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4813 \nKewangan Antarabangsa/ International Finance \n3(3+0) \nPrasyarat/ Prerequisite: ECN3014 \nKursus ini membincangkan teori dan isu kewangan antarabangsa termasuk imbangan pembayaran, \npasaran tukaran asing dan mata wang digital serta kesannya ke atas ekonomi negara. \nThis course discusses theories and issues in international finance including balance of payments, \nforeign exchange market and digital currency as well as its impact on the national economy."
+  },
+  {
+    "course_code": "ECN4815",
+    "course_name_malay": "Integrasi Ekonomi",
+    "course_name_english": "Economics Integration",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ECN3014"
+    ],
+    "description_malay": "Kursus ini merangkumi teori dan kriteria penubuhan kesatuan ekonomi dan kesatuan monetari. Analisis kesatuan ekonomi semasa dan proses pengharmonian dasar kesatuan ekonomi dibincangkan.",
+    "description_english": "This course covers theories and criteria for the formation of economic unions and monetary unions. The analysis of the current economic union and the harmonization process of policies in an economic union are discussed.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4815  Integrasi Ekonomi/ Economics Integration \n3(3+0) \nPrasyarat/ Prerequisite: ECN3014 \nKursus ini merangkumi teori dan kriteria penubuhan kesatuan ekonomi dan kesatuan monetari. \nAnalisis kesatuan ekonomi semasa dan proses pengharmonian dasar kesatuan ekonomi \ndibincangkan. \nThis course covers theories and criteria for the formation of economic unions and monetary unions. \nThe analysis of the current economic union and the harmonization process of policies in an economic \nunion are discuss"
+  },
+  {
+    "course_code": "ECN4903",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "8(0+8)",
+    "prerequisites": [
+      "ECN4959"
+    ],
+    "description_malay": "Kursus ini merangkumi pendedahan kepada persekitaran kerja sebenar di industri. Latihan meliputi aplikasi teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran komunikasi dan menyelesaikan masalah turut diberi penekanan.",
+    "description_english": "This course covers exposure to the actual work environment in the industry. The training covers the theoretical and practical applications that have been learned with current practice in the workplace. Communication and problem solving skills are also emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4903  Latihan Industri / Industrial Training \n8(0+8) \nPrasyarat/ Prerequisite: ECN4959 \nKursus ini merangkumi pendedahan kepada persekitaran kerja sebenar di industri. Latihan meliputi \naplikasi teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran \nkomunikasi dan menyelesaikan masalah turut diberi penekanan. \nThis course covers exposure to the actual work environment in the industry. The training covers the \ntheoretical and practical applications that have"
+  },
+  {
+    "course_code": "ECN4959",
+    "course_name_malay": "Disertasi Bacelor",
+    "course_name_english": "Bachelor Dissertation",
+    "credits": "6(0+6)",
+    "prerequisites": [
+      "ECN4129"
+    ],
+    "description_malay": "Kursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk projek penyelidikan ekonomi. Pendekatan saintifik bagi menjana data secara sistematik melalui rekabentuk, pengumpulan dan analisis data yang sesuai diberi penekanan.",
+    "description_english": "This course covers the preparation of proposal, implementation and scientific writing of research project in economics. Scientific approach to generate data systematically through appropriate design, data collection and analysis are emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ECN4959 \n(A & B) \nDisertasi Bacelor/ Bachelor Dissertation \n6(0+6) \n \nPrasyarat/ Prerequisite: ECN4129 \nKursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk projek \npenyelidikan ekonomi. Pendekatan saintifik bagi menjana data secara sistematik melalui rekabentuk, \npengumpulan dan analisis data yang sesuai diberi penekanan. \nThis course covers the preparation of proposal, implementation and scientific writing of research \nproject in economics. Scientific approach t"
+  },
+  {
+    "course_code": "ACN3101",
+    "course_name_malay": "Maklumat Perakaunan dan Kewangan",
+    "course_name_english": "Accounting and Financial Information",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi konsep asas perakaunan, penyediaan penyata kewangan perniagaan milikan tunggal dan penggunaan maklumat perakaunan dalam perniagaan.",
+    "description_english": "This course covers fundamental concepts of accounting, preparation of financial statements of sole proprietorship and the use of accounting information in business.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3101 \nMaklumat Perakaunan dan Kewangan / Accounting and Financial \nInformation \nPrasyarat/ Prerequisite: Tiada/ None \n \n \n3(3+0) \nKursus ini merangkumi konsep asas perakaunan, penyediaan penyata kewangan perniagaan \nmilikan tunggal dan penggunaan maklumat perakaunan dalam perniagaan. \nThis course covers fundamental concepts of accounting, preparation of financial statements of sole \nproprietorship and the use of accounting information in business."
+  },
+  {
+    "course_code": "ACN3102",
+    "course_name_malay": "Perakaunan Pengenalan",
+    "course_name_english": "Introductory Accounting",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi perkara asas mengenai maklumat perakaunan dalam pembuatan keputusan dan penyediaan penyata kewangan. Kursus ini juga membincangkan tentang analisis dan interpretasi penyata kewangan perniagaan.",
+    "description_english": "This course covers the basic elements of accounting for decision making and preparation of financial statements. This course also discusses the analysis and interpretation of business financial statements.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3102  Perakaunan Pengenalan/ Introductory Accounting \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi perkara asas mengenai maklumat perakaunan dalam pembuatan keputusan \ndan penyediaan penyata kewangan. Kursus ini juga membincangkan tentang analisis dan interpretasi \npenyata kewangan perniagaan. \nThis course covers the basic elements of accounting for decision making and preparation of financial \nstatements. This course also discusses the analysis and interpretation of bu"
+  },
+  {
+    "course_code": "ACN3111",
+    "course_name_malay": "Pengenalan Kepada Perakaunan Kewangan dan Pelaporan",
+    "course_name_english": "Introduction to Financial Accounting and Reporting",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi asas perakaunan dan pelaporan maklumat kewangan dalam organisasi perniagaan. Penekanan diberikan kepada pemahaman teknik perakaunan dan perekodan prosedur secara manual dan berkomputer.",
+    "description_english": "This course covers the basics of accounting and the reporting of financial information in business organizations. Emphasis is given to the understanding of accounting techniques and recording procedures manually or using computer.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3111 \nPengenalan \nKepada \nPerakaunan \nKewangan \ndan \nPelaporan/ \nIntroduction to Financial Accounting and Reporting \nPrasyarat/ Prerequisite: Tiada/ None \n3(3+0) \n \nKursus ini merangkumi asas perakaunan dan pelaporan maklumat kewangan dalam organisasi \nperniagaan. Penekanan diberikan kepada pemahaman teknik perakaunan dan perekodan prosedur \nsecara manual dan berkomputer. \nThis course covers the basics of accounting and the reporting of financial information in business \norganizations. Emphas"
+  },
+  {
+    "course_code": "ACN3112",
+    "course_name_malay": "Perakaunan Kewangan dan Pelaporan Pertengahan I",
+    "course_name_english": "Intermediate Financial Accounting and Reporting I",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3111"
+    ],
+    "description_malay": "Kursus ini merangkumi perakaunan bagi aset, hasil dan ekuiti tertentu mengikut kerangka pelaporan kewangan semasa untuk penyediaan laporan kewangan perkongsian dan syarikat. Kaedah analisis kewangan terpilih digunakan untuk menilai prestasi dan kedudukan kewangan entiti pelapor.",
+    "description_english": "This course covers accounting for assets, revenues and specific equities in compliance with the current reporting framework for the preparation of partnership and company’s financial report. Selected financial analysis methods are used to assess reporting entity’s financial performance and position.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3112 \nPerakaunan Kewangan dan Pelaporan Pertengahan I/ Intermediate \nFinancial Accounting and Reporting I \nPrasyarat/ Prerequisite: ACN3111 \n3(3+0) \nKursus ini merangkumi perakaunan bagi aset, hasil dan ekuiti tertentu mengikut kerangka pelaporan \nkewangan semasa untuk penyediaan laporan kewangan perkongsian dan syarikat. Kaedah analisis \nkewangan terpilih digunakan untuk menilai prestasi dan kedudukan kewangan entiti pelapor. \nThis course covers accounting for assets, revenues and specific e"
+  },
+  {
+    "course_code": "ACN3113",
+    "course_name_malay": "Perakaunan dan Pelaporan Kewangan Pertengahan II",
+    "course_name_english": "Intermediate Financial Accounting and Reporting II",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3112"
+    ],
+    "description_malay": "Kursus ini merangkumi perakaunan untuk aset, liabiliti, pendapatan, belanja dan ekuiti untuk industri terpilih mengikut kerangka pelaporan kewangan semasa secara beretika. Perkembangan isu semasa juga diambilkira dalam penyediaan laporan kewangan.",
+    "description_english": "This course covers accounting for assets, liabilities, income, expenses and equities for selected industries in compliance with current reporting framework. Development in current issues are taken into consideration for the preparation and assessment of company’s financial report.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3113 \nPerakaunan dan Pelaporan Kewangan Pertengahan II/ Intermediate \nFinancial Accounting and Reporting II \nPrasyarat/ Prerequisite: ACN3112 \n3(3+0) \nKursus ini merangkumi perakaunan untuk aset, liabiliti, pendapatan, belanja dan ekuiti untuk industri \nterpilih mengikut kerangka pelaporan kewangan semasa secara beretika. Perkembangan isu semasa \njuga diambilkira dalam penyediaan laporan kewangan. \nThis course covers accounting for assets, liabilities, income, expenses and equities for select"
+  },
+  {
+    "course_code": "ACN4111",
+    "course_name_malay": "Perakaunan Kewangan dan Pelaporan Lanjutan I",
+    "course_name_english": "Advanced Financial Accounting and Reporting I",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3113"
+    ],
+    "description_malay": "Kursus ini merangkumi isu perakaunan lanjutan untuk aset dan liabiliti berdasarkan kerangka pelaporan kewangan. Ia memberi pengenalan kepada perakaunan kumpulan syarikat, bersekutu dan pengaturan bersama serta menekankan pembuatan keputusan yang beretika.",
+    "description_english": "This course covers advanced accounting issues for assets and liabilities based on financial reporting framework. It gives an introduction to accounting for group accounts, associate and joint arrangement as well as emphasising ethical decision making.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN4111 \nPerakaunan Kewangan dan Pelaporan Lanjutan I/ Advanced Financial \nAccounting and Reporting I \nPrasyarat/ Prerequisite: ACN3113 \n3(3+0) \nKursus ini merangkumi isu perakaunan lanjutan untuk aset dan liabiliti berdasarkan kerangka \npelaporan kewangan. Ia memberi pengenalan kepada perakaunan kumpulan syarikat, bersekutu dan \npengaturan bersama serta menekankan pembuatan keputusan yang beretika. \n\n--- Page 8 ---\n59 \n \nThis course covers advanced accounting issues for assets and liabilities b"
+  },
+  {
+    "course_code": "ACN4112",
+    "course_name_malay": "Perakaunan Kewangan dan Pelaporan Lanjutan II",
+    "course_name_english": "Advanced Financial Accounting and Reporting II",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN4111"
+    ],
+    "description_malay": "Kursus ini merangkumi isu pelaporan kewangan lanjutan untuk aset, liabiliti, ekuiti, pendapatan dan belanja. Ia juga membincangkan penyediaan penyata kewangan disatukan untuk struktur kumpulan yang kompleks dan pembuatan keputusan secara beretika.",
+    "description_english": "This course covers advanced financial reporting issues for assets, liablities, equities, income and expenses. It also discusses the preparation of consolidated financial statements for complex group structure and ethical decision making.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN4112 \nPerakaunan Kewangan dan Pelaporan Lanjutan II/ Advanced Financial \nAccounting and Reporting II \nPrasyarat/ Prerequisite: ACN4111 \n3(3+0) \nKursus ini merangkumi isu pelaporan kewangan lanjutan untuk aset, liabiliti, ekuiti, pendapatan dan \nbelanja. Ia juga membincangkan penyediaan penyata kewangan disatukan untuk struktur kumpulan \nyang kompleks dan pembuatan keputusan secara beretika. \nThis course covers advanced financial reporting issues for assets, liablities, equities, income and \ne"
+  },
+  {
+    "course_code": "ACN4121",
+    "course_name_malay": "Teori dan Isu Dalam Perakaunan",
+    "course_name_english": "Theory and Issues in Accounting",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN4112"
+    ],
+    "description_malay": "Kursus ini merangkumi perbincangan sejarah dan pembangunan teori serta persekitaran perakaunan. Ianya juga membincangkan isu semasa berkaitan pelaporan kewangan, isu perakaunan global dan amalan perakaunan terkini.",
+    "description_english": "This course covers discussion on history and theory development as well as accounting environment. It also discusses current issues on financial reporting, global accounting issues and the current accounting practice.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN4121  Teori dan Isu Dalam Perakaunan/ Theory and Issues in Accounting \n3(3+0) \nPrasyarat/ Prerequisite: ACN4112 \nKursus ini merangkumi perbincangan sejarah dan pembangunan teori serta persekitaran \nperakaunan. Ianya juga membincangkan isu semasa berkaitan pelaporan kewangan, isu perakaunan \nglobal dan amalan perakaunan terkini. \nThis course covers discussion on history and theory development as well as accounting environment. \nIt also discusses current issues on financial reporting, global ac"
+  },
+  {
+    "course_code": "ACN3211",
+    "course_name_malay": "Perakaunan Pengurusan I",
+    "course_name_english": "Management Accounting I",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3111"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep kos, teknik pengekosan serta penggunaan maklumat perakaunan pengurusan untuk membuat keputusan perancangan dan kawalan.",
+    "description_english": "This course covers cost concepts, costing techniques and the use of management accounting information for planning and control decisions.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3211 \nPerakaunan Pengurusan I/ Management Accounting I \n3(3+0) \nPrasyarat/ Prerequisite: ACN3111 \nKursus ini merangkumi konsep kos, teknik pengekosan serta penggunaan maklumat perakaunan \npengurusan untuk membuat keputusan perancangan dan kawalan. \nThis course covers cost concepts, costing techniques and the use of management accounting \ninformation for planning and control decisions."
+  },
+  {
+    "course_code": "ACN3212",
+    "course_name_malay": "Perakaunan Pengurusan II",
+    "course_name_english": "Management Accounting II",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3211"
+    ],
+    "description_malay": "Kursus ini merangkumi pembelanjawan, pengekosan piawai dan pengekosan relevan dalam perancangan dan kawalan organisasi. Ia juga termasuk peranan maklumat perakaunan untuk penilaian prestasi dalam firma terpencar dan letak harga pindahan dalam organisasi berbahagian.",
+    "description_english": "This course covers budgeting, standard costing and relevent costing in the planning and control of organisations. It also includes the role of accounting information for performance evaluation in decentralised firms and transfer pricing in divisionalised organisations.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3212  Perakaunan Pengurusan II/ Management Accounting II \n3(3+0) \nPrasyarat/ Prerequisite: ACN3211 \nKursus ini merangkumi pembelanjawan, pengekosan piawai dan pengekosan relevan dalam \nperancangan dan kawalan organisasi. Ia juga termasuk peranan maklumat perakaunan untuk \npenilaian prestasi dalam firma terpencar dan letak harga pindahan dalam organisasi berbahagian. \nThis course covers budgeting, standard costing and relevent costing in the planning and control of \norganisations. It also incl"
+  },
+  {
+    "course_code": "ACN4211",
+    "course_name_malay": "Perakaunan Pengurusan Lanjutan",
+    "course_name_english": "Advanced Management Accounting",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3212"
+    ],
+    "description_malay": "Kursus ini merangkumi teknik pengurusan strategik, pengurusan kos kualiti dan perakaunan pengurusan alam sekitar. Ia juga termasuk teknik berasaskan kos untuk membuat keputusan dan pengukuran prestasi.",
+    "description_english": "This course covers strategic management techniques, quality cost management and environmental management accounting. It also includes cost-based techniques for decision making and performance measurement.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN4211 \nPerakaunan Pengurusan Lanjutan/ Advanced Management \nAccounting \nPrasyarat/ Prerequisite: ACN3212 \n3(3+0) \nKursus ini merangkumi teknik pengurusan strategik, pengurusan kos kualiti dan perakaunan \npengurusan alam sekitar. Ia juga termasuk teknik berasaskan kos untuk membuat keputusan dan \npengukuran prestasi. \nThis course covers strategic management techniques, quality cost management and environmental \nmanagement accounting. It also includes cost-based techniques for decision making an"
+  },
+  {
+    "course_code": "ACN3311",
+    "course_name_malay": "Audit I",
+    "course_name_english": "Audit I",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3112"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep asas pengauditan dan menghubungkait konsep audit dan amalan pengauditan. Penekanan diberikan kepada tanggungjawab profesional oleh juruaudit dan proses pembuatan keputusan yang perlu dilalui oleh juruaudit selari dengan keperluan profesional semasa dan perundangan.",
+    "description_english": "This course covers the basic concepts of auditing and relates the concepts to auditing practices. Emphasis is given to the professional responsibilities of the independent auditor and the decision-making process that the auditor has to go through consistent with the current professional and statutory requirements.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3311   Audit I/ Audit I \n3(3+0) \nPrasyarat/ Prerequisite: ACN3112 \nKursus ini merangkumi konsep asas pengauditan dan menghubungkait konsep audit dan amalan \npengauditan. Penekanan diberikan kepada tanggungjawab profesional oleh juruaudit dan proses \npembuatan keputusan yang perlu dilalui oleh juruaudit selari dengan keperluan profesional semasa \ndan perundangan. \n\n--- Page 9 ---\n60 \n \nThis course covers the basic concepts of auditing and relates the concepts to auditing practices. \nEmphasis i"
+  },
+  {
+    "course_code": "ACN3312",
+    "course_name_malay": "Audit II/ Audit II",
+    "course_name_english": "Audit II",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3311"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek kepentingan etika profesional dan keperluan kepatuhan berdasarkan piawaian untuk menyempurnakan audit dengan mengambil kira implikasi peristiwa yang berlaku sebelum laporan audit ditandatangani. Ianya juga memberi pendedahan kepada jenis perkhidmatan lain yang ditawarkan dan isu semasa profesion audit.",
+    "description_english": "This course covers the aspects on the importance of professional ethics and the need to adhere to the standard in completing the audit, taking into consideration the implication of subsequent events before the signage of the audit report. It also provides exposure to the other types of services offered and current issues in audit profesión.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3312   Audit II/ Audit II \n3(3+0) \nPrasyarat/ Prerequisite: ACN3311 \nKursus ini merangkumi aspek kepentingan etika profesional dan keperluan kepatuhan berdasarkan \npiawaian untuk menyempurnakan audit dengan mengambil kira implikasi peristiwa yang berlaku \nsebelum laporan audit ditandatangani. Ianya juga memberi pendedahan kepada jenis perkhidmatan \nlain yang ditawarkan dan isu semasa profesion audit. \nThis course covers the aspects on the importance of professional ethics and the need to adhe"
+  },
+  {
+    "course_code": "ACN3411",
+    "course_name_malay": "Percukaian I",
+    "course_name_english": "Taxation I",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3111"
+    ],
+    "description_malay": "Kursus ini merangkumi pentadbiran sistem percukaian di Malaysia dan pengiraan elaun modal. Ianya juga termasuk pengiraan pendapatan kena cukai dan cukai kena bayar oleh pembayar cukai individu.",
+    "description_english": "The course covers the administration of Malaysian taxation system and the calculation of capital allowance. It also includes the computation of chargeable income and income tax payable by individual taxpayer.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3411   Percukaian I / Taxation I \n3(3+0) \nPrasyarat/ Prerequisite: ACN3111 \nKursus ini merangkumi pentadbiran sistem percukaian di Malaysia dan pengiraan elaun modal. Ianya \njuga termasuk pengiraan pendapatan kena cukai dan cukai kena bayar oleh pembayar cukai individu. \nThe course covers the administration of Malaysian taxation system and the calculation of capital \nallowance. It also includes the computation of chargeable income and income tax payable by individual \ntaxpayer."
+  },
+  {
+    "course_code": "ACN3412",
+    "course_name_malay": "Percukaian II",
+    "course_name_english": "Taxation II",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3411"
+    ],
+    "description_malay": "Kursus ini merangkumi layanan cukai ke atas perniagaan perkongsian dan syarikat serta mengira pelbagai jenis elaun modal dan insentif untuk perniagaan. Kursus ini juga menekankan layanan cukai ke atas pelupusan hartanah dan skop cukai tidak langsung.",
+    "description_english": "The course covers tax treatment on income from partnership business and corporation as well as computation of various types of capital allowance and company incentives. It also focuses on tax treatment on disposal of real property and the scope of indirect taxes.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3412   Percukaian II / Taxation II \n3(3+0) \nPrasyarat/ Prerequisite: ACN3411 \nKursus ini merangkumi layanan cukai ke atas perniagaan perkongsian dan syarikat serta mengira \npelbagai jenis elaun modal dan insentif untuk perniagaan. Kursus ini juga menekankan layanan \ncukai ke atas pelupusan hartanah dan skop cukai tidak langsung. \nThe course covers tax treatment on income from partnership business and corporation as well as \ncomputation of various types of capital allowance and company incenti"
+  },
+  {
+    "course_code": "ACN3511",
+    "course_name_malay": "Sistem Maklumat Perakaunan dan Kawalan Dalaman",
+    "course_name_english": "Accounting Information System and Internal Control",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3111"
+    ],
+    "description_malay": "Kursus ini merangkumi komponen sistem maklumat perakaunan dan prosedur kawalan dalaman dalam proses menyediakan maklumat perakaunan yang berkualiti dan beretika. Penekanan juga diberikan dalam menganalisis pakej perakaunan berkomputer yang bersesuaian bagi menyediakan penyata kewangan syarikat.",
+    "description_english": "This course covers the components of accounting information systems and internal control procedures in the process of providing a quality and an ethical accounting information. Emphasis is also given in analysing the suitable computerized accounting package for the preparation of the organization’s financial statement.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3511 \nSistem Maklumat Perakaunan dan Kawalan Dalaman/ Accounting \nInformation System and Internal Control \nPrasyarat/ Prerequisite: ACN3111 \n3(3+0) \nKursus ini merangkumi komponen sistem maklumat perakaunan dan prosedur kawalan dalaman \ndalam proses menyediakan maklumat perakaunan yang berkualiti dan beretika. Penekanan juga \ndiberikan dalam menganalisis pakej perakaunan berkomputer yang bersesuaian bagi menyediakan \npenyata kewangan syarikat. \nThis course covers the components of accounting "
+  },
+  {
+    "course_code": "ACN4521",
+    "course_name_malay": "Rekabentuk dan  Pembangunan Sistem  Maklumat Perakaunan",
+    "course_name_english": "Accounting Information System Design and Development",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3511"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai pendekatan pembangunan sistem maklumat perakaunan dan perbincangan terperinci fasa kitaran hayat pembangunan sistem. Kursus ini juga mendedahkan perkembangan teknologi terkini dan kesannya ke atas pembangunan sistem.",
+    "description_english": "This course covers the various approaches of accounting information system development and detail discussion on the phases of systems development life cycle. This course exposes the latest technology advancements and their implications on system development.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN4521 \nRekabentuk dan  Pembangunan Sistem  Maklumat Perakaunan/ \nAccounting Information System Design and Development \nPrasyarat/ Prerequisite: ACN3511 \n3(3+0) \nKursus ini merangkumi pelbagai pendekatan pembangunan sistem maklumat perakaunan dan \nperbincangan terperinci fasa kitaran hayat pembangunan sistem. Kursus ini juga mendedahkan \nperkembangan teknologi terkini dan kesannya ke atas pembangunan sistem. \nThis course covers the various approaches of accounting information system development"
+  },
+  {
+    "course_code": "ACN4711",
+    "course_name_malay": "Etika Perniagaan dan Takbir Urus Korporat",
+    "course_name_english": "Business Ethics and Corporate Governance",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3312"
+    ],
+    "description_malay": "Kursus ini merangkumi teori dan falsafah etika dalam individu dan hubungannya dengan organisasi korporat. Kursus ini juga mendedahkan pelajar kepada perkembangan semasa isu etika dan tadbir urus korporat dalam persekitaran perniagaan.",
+    "description_english": "This course covers theories and philosophies of ethics in individuals and their relation with corporate organizations. This course also exposes students to current ethical and corporate governance issues in business environment.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN4711 \nEtika Perniagaan dan Takbir Urus Korporat/ Business Ethics and \nCorporate Governance \nPrasyarat/ Prerequisite: ACN3312 \n3(3+0) \nKursus ini merangkumi teori dan falsafah etika dalam individu dan hubungannya dengan organisasi \nkorporat. Kursus ini juga mendedahkan pelajar kepada perkembangan semasa isu etika dan tadbir \nurus korporat dalam persekitaran perniagaan. \nThis course covers theories and philosophies of ethics in individuals and their relation with corporate \norganizations. This "
+  },
+  {
+    "course_code": "ACN4712",
+    "course_name_malay": "Kajian Kes Bersepadu",
+    "course_name_english": "Integrated Case Study",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3312",
+      "ACN4211",
+      "MGM4139"
+    ],
+    "description_malay": "Kursus ini merangkumi pengetahuan dari pelbagai bidang perakaunan dan pengurusan yang berkaitan dengan organisasi perniagaan. Penekanan diberikan kepada kemampuan pelajar untuk menganalisis, menyelesaikan masalah dan membuat keputusan yang beretika dalam konteks persekitaran perniagaan dan komuniti.",
+    "description_english": "This course covers knowledge from various aspects of accounting and management in relation to business organization. Emphasis is given to the ability of students to analyze, solve problems and make ethical decisions in the context of the business environment and community.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN4712  Kajian Kes Bersepadu/ Integrated Case Study \n3(3+0) \nPrasyarat/ Prerequisite: ACN3312, ACN4211 & MGM4139 \nKursus ini merangkumi pengetahuan dari pelbagai bidang perakaunan dan pengurusan yang \nberkaitan dengan organisasi perniagaan. Penekanan diberikan kepada kemampuan pelajar untuk \nmenganalisis, menyelesaikan masalah dan membuat keputusan yang beretika dalam konteks \npersekitaran perniagaan dan komuniti. \nThis course covers knowledge from various aspects of accounting and management i"
+  },
+  {
+    "course_code": "ACN4901",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "12(0+12)",
+    "prerequisites": [
+      "ACN4111",
+      "ACN3211",
+      "ACN3311",
+      "ACN3412"
+    ],
+    "description_malay": "Kursus ini melibatkan penempatan pelajar dalam firma audit atau firma yang dibenarkan oleh fakulti selama enam bulan untuk membiasakan mereka dengan persekitaran kerja yang sebenar, mengaplikasi pengetahuan yang diperolehi semasa kuliah kepada praktis dan meningkatkan kemahiran insaniah.",
+    "description_english": "This course involves a six-month industrial placement of students in an audit firm or firm approved by the faculty to enable them to familiarize with actual working environment, apply knowledge acquired in classroom to practice and enhance soft skills.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN4901  Latihan Industri/ Industrial Training \n12(0+12) \nPrasyarat/ Prerequisite: ACN4111, ACN3211, ACN3311 & ACN3412 \nKursus ini melibatkan penempatan pelajar dalam firma audit atau firma yang dibenarkan oleh fakulti \nselama enam bulan untuk membiasakan mereka dengan persekitaran kerja yang sebenar, \nmengaplikasi pengetahuan yang diperolehi semasa kuliah kepada praktis dan meningkatkan \nkemahiran insaniah. \nThis course involves a six-month industrial placement of students in an audit firm or f"
+  },
+  {
+    "course_code": "ACN3611",
+    "course_name_malay": "Perakaunan Sektor Awam",
+    "course_name_english": "Public Sector Accounting",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN4111"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep, peruntukan kewangan dan amalan perakaunan sektor awam. Ia juga menekankan akauntabiliti dan etika dalam perakaunan pengurusan, pengauditan, perakaunan kewangan dan pelaporan.",
+    "description_english": "This course covers the concepts, financial provisions and practices of accounting in public sector. It also emphasises the accountability and ethics in management accounting, auditing, financial accounting and reporting.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3611  Perakaunan Sektor Awam/ Public Sector Accounting \n3(3+0) \nPrasyarat/ Prerequisite: ACN4111 \nKursus ini merangkumi konsep, peruntukan kewangan dan amalan perakaunan sektor awam. Ia juga \nmenekankan akauntabiliti dan etika dalam perakaunan pengurusan, pengauditan, perakaunan \nkewangan dan pelaporan. \nThis course covers the concepts, financial provisions and practices of accounting in public sector. It \nalso emphasises the accountability and ethics in management accounting, auditing, finan"
+  },
+  {
+    "course_code": "ACN3711",
+    "course_name_malay": "Perakaunan untuk Transaksi Kewangan Islam",
+    "course_name_english": "Accounting for Islamic Financial Transactions",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3112",
+      "FIN3111"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep kewangan Islam berdasarkan shariah dan kesannya ke atas transaksi kontrak kewangan. Kursus ini juga memperkenalkan sistem kewangan dan kerangka perakaunan untuk institusi yang menawarkan kontrak kewangan Islam.",
+    "description_english": "This course covers the concept of Islamic finance based on shariah and its impact on financial transaction contracts. This course introduces financial system and accounting framework for institutions offering Islamic financial contracts.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN3711 \nPerakaunan untuk Transaksi Kewangan Islam/ Accounting for Islamic \nFinancial Transactions \nPrasyarat/ Prerequisite: ACN3112 & FIN3111 \n3(3+0) \nKursus ini merangkumi konsep kewangan Islam berdasarkan shariah dan kesannya ke atas transaksi \nkontrak kewangan. Kursus ini juga memperkenalkan sistem kewangan dan kerangka perakaunan \nuntuk institusi yang menawarkan kontrak kewangan Islam. \nThis course covers the concept of Islamic finance based on shariah and its impact on financial \ntransacti"
+  },
+  {
+    "course_code": "ACN4131",
+    "course_name_malay": "Perakaunan Terkhusus",
+    "course_name_english": "Specialised Accounting",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN4211"
+    ],
+    "description_malay": "Kursus ini merangkumi perakaunan yang berkaitan dengan industri terkhusus seperti pembangunan hartanah, pelaburan hartanah, institusi kewangan, insuran, saham amanah, instrumen kewangan, perladangan, pertanian, akuakultur dan industri ekstraktif. Ia juga membincangkan isu-isu semasa pelaporan tentang industri ini. Selain itu, kursus ini juga menilai kualiti amalan pelaporan semasa untuk penambahbaikan pendedahan maklumat perniagaan.",
+    "description_english": "This course covers accounting for specialized industries such as property development, investment property, financial institution, insurance, unit trust, financial instruments, agriculture, and extractive industries. It also discusses the current reporting issues in these industries. Besides that, the course also asseses the quality of current reporting practices to enhance business information disclosure.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN4131  Perakaunan Terkhusus/ Specialised Accounting \n3(3+0) \nPrasyarat/ Prerequisite: ACN4211 \nKursus ini merangkumi perakaunan yang berkaitan dengan industri terkhusus seperti pembangunan \nhartanah, pelaburan hartanah, institusi kewangan, insuran, saham amanah, instrumen kewangan, \nperladangan, pertanian, akuakultur dan industri ekstraktif. Ia juga membincangkan isu-isu semasa \npelaporan tentang industri ini. Selain itu, kursus ini juga menilai kualiti amalan pelaporan semasa \nuntuk penambahb"
+  },
+  {
+    "course_code": "ACN4132",
+    "course_name_malay": "Perakaunan Antarabangsa",
+    "course_name_english": "International Accounting",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN4112"
+    ],
+    "description_malay": "Kursus ini merangkumi perbincangan tentang pelaporan kewangan, audit, percukaian, perakaunan pengurusan dan pengurusan kewangan di peringkat antarabangsa. Ia juga membincangkan tentang penyatuan pelaporan kewangan dan perbandingan pelaporan beberapa negara terpilih.",
+    "description_english": "This course covers discussion on financial reporting, audit, tax, management accounting and financial management at international level. It also discusses harmonization of financial reporting and comparative reporting in selected countries.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN4132  Perakaunan Antarabangsa/ International Accounting \n3(3+0) \nPrasyarat/ Prerequisite: ACN4112 \nKursus ini merangkumi perbincangan tentang pelaporan kewangan, audit, percukaian, perakaunan \npengurusan dan pengurusan kewangan di peringkat antarabangsa. Ia juga membincangkan tentang \npenyatuan pelaporan kewangan dan perbandingan pelaporan beberapa negara terpilih. \nThis course covers discussion on financial reporting, audit, tax, management accounting and financial \nmanagement at internation"
+  },
+  {
+    "course_code": "ACN4411",
+    "course_name_malay": "Percukaian Terkhusus",
+    "course_name_english": "Specialised Taxation",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "ACN3412"
+    ],
+    "description_malay": "Kursus ini merangkumi pengiraan cukai kena bayar dan isu percukaian bagi industri terkhusus. Ia juga meliputi perancangan cukai secara beretika, pengauditan cukai dan penyiasatan cukai.",
+    "description_english": "This course covers computation of tax payable and tax issues for specialised industries. It also covers ethical tax planning, tax audit and tax investigation.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN4411 \nPercukaian Terkhusus/ Specialised Taxation \n3(3+0) \nPrasyarat/ Prerequisite: ACN3412 \nKursus ini merangkumi pengiraan cukai kena bayar dan isu percukaian bagi industri terkhusus. Ia \njuga meliputi perancangan cukai secara beretika, pengauditan cukai dan penyiasatan cukai. \nThis course covers computation of tax payable and tax issues for specialised industries. It also covers \nethical tax planning, tax audit and tax investigation."
+  },
+  {
+    "course_code": "ACN4713",
+    "course_name_malay": "Kaedah Penyelidikan Perakaunan dan Kewangan",
+    "course_name_english": "Research Methods in Accounting and Finance",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3511",
+      "ACN3112"
+    ],
+    "description_malay": "Kursus ini merangkumi falsafah asas penyelidikan, konsep asas penyelidikan serta tujuan dan kepentingan penyelidikan. Kursus ini juga membincangkan langkah penyediaan cadangan penyelidikan dan kepentingan etika dan ketelusan dalam penyediaan laporan penyelidikan.",
+    "description_english": "This course covers the fundamental philosophy of research, basic concepts and the purposes and importance of research. This course also discusses the steps on preparation of research proposals and the importance of ethics and transparency in the preparation of research report.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN4713 \nKaedah Penyelidikan Perakaunan dan Kewangan/ Research Methods \nin Accounting and Finance \nPrasyarat/ Prerequisite: FIN3511/ ACN3112 \n3(3+0) \nKursus ini merangkumi falsafah asas penyelidikan, konsep asas penyelidikan serta tujuan dan \nkepentingan penyelidikan. Kursus ini juga membincangkan langkah penyediaan cadangan \npenyelidikan dan kepentingan etika dan ketelusan dalam penyediaan laporan penyelidikan. \nThis course covers the fundamental philosophy of research, basic concepts and the p"
+  },
+  {
+    "course_code": "ACN4959",
+    "course_name_malay": "Disertasi Bacelor",
+    "course_name_english": "Bachelor Dissertation",
+    "credits": "3(0+3)",
+    "prerequisites": [
+      "ACN4713"
+    ],
+    "description_malay": "Kursus ini merangkumi penghasilan disertasi bacelor berdasarkan penyelidikan dalam bidang perakaunan dan kewangan. Ianya juga melibatkan pengumpulan, analisis, dan interpretasi data serta pembentangan hasil penyelidikan.",
+    "description_english": "This course covers the production of a bachelor dissertation based on research related to accounting and finance. It involves data collection, analysis, interpretation, and presentation of research findings.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "ACN4959  Disertasi Bacelor/ Bachelor Dissertation \n3(0+3) \nPrasyarat/ Prerequisite: ACN4713 \nKursus ini merangkumi penghasilan disertasi bacelor berdasarkan penyelidikan dalam bidang \nperakaunan dan kewangan. Ianya juga melibatkan pengumpulan, analisis, dan interpretasi data serta \npembentangan hasil penyelidikan. \nThis course covers the production of a bachelor dissertation based on research related to accounting \nand finance. It involves data collection, analysis, interpretation, and presentat"
+  },
+  {
+    "course_code": "MGM3101",
+    "course_name_malay": "Prinsip Pengurusan",
+    "course_name_english": "Principles of Management",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi teori, prinsip dan kaedah asas pengurusan. Fungsi pengurusan perniagaan dan organisasi bukan berasaskan keuntungan diberi penekanan.",
+    "description_english": "This course covers the basic theories, principles and tools of management. Management functions related to businesses and non-profit organisations are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM3101 \nPrinsip Pengurusan/ Principles of Management \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi teori, prinsip dan kaedah asas pengurusan. Fungsi pengurusan perniagaan \ndan organisasi bukan berasaskan keuntungan diberi penekanan. \nThis course covers the basic theories, principles and tools of management. Management functions \nrelated to businesses and non-profit organisations are emphasised."
+  },
+  {
+    "course_code": "MGM3111",
+    "course_name_malay": "Komunikasi Pentadbiran dan Perniagaan",
+    "course_name_english": "Business and Administrative Communication",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini meliputi fungsi dan kepentingan berkomunikasi. Aplikasi strategi dan teknik berkomunikasi yang berkesan untuk mencapai matlamat organisasi dan perniagaan diberi penekanan.",
+    "description_english": "This course covers the functions and importance of communication. The application of effective communication techniques and strategies for achieving organisational and business goals are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM3111 \nKomunikasi Pentadbiran dan Perniagaan/ Business and Administrative \nCommunication \nPrasyarat/ Prerequisite: MGM3101 \n3(3+0) \nKursus ini meliputi fungsi dan kepentingan berkomunikasi. Aplikasi strategi dan teknik berkomunikasi \nyang berkesan untuk mencapai matlamat organisasi dan perniagaan diberi penekanan. \nThis course covers the functions and importance of communication. The application of effective \ncommunication techniques and strategies for achieving organisational and business goa"
+  },
+  {
+    "course_code": "MGM3113",
+    "course_name_malay": "Gelagat Organisasi",
+    "course_name_english": "Organizational Behavior",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep berkaitan gelagat kerja individu, kumpulan dan organisasi. Kesan faktor tersebut ke atas keberkesanan organisasi diberi penekanan.",
+    "description_english": "The course covers concepts related to individual, group and organisational behaviour. The effects of these factors on organisational effectiveness are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM3113 \nGelagat Organisasi/ Organizational Behavior \n3(3+0) \nPrasyarat/ Prerequisite: MGM3101 \nKursus ini merangkumi konsep berkaitan gelagat kerja individu, kumpulan dan organisasi. Kesan \nfaktor tersebut ke atas keberkesanan organisasi diberi penekanan. \nThe course covers concepts related to individual, group and organisational behaviour. The effects of \nthese factors on organisational effectiveness are emphasised."
+  },
+  {
+    "course_code": "MGM3123",
+    "course_name_malay": "Pengurusan Sumber Manusia",
+    "course_name_english": "Human Resource Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep pengurusan sumber manusia untuk mengekalkan kelebihan bersaing sesebuah organisasi. Pengaruh faktor dalaman dan luaran dalam pengurusan sumber manusia turut diberi penekanan.",
+    "description_english": "The course covers the human resource concepts to retain the competitive advantages of the organisation. The influence of internal and external factors on human resource management is emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM3123 Pengurusan Sumber Manusia/ Human Resource Management \n3(3+0) \nPrasyarat/ Prerequisite: MGM3101 \nKursus ini merangkumi konsep pengurusan sumber manusia untuk mengekalkan kelebihan bersaing \nsesebuah organisasi. Pengaruh faktor dalaman dan luaran dalam pengurusan sumber manusia turut \ndiberi penekanan. \nThe course covers the human resource concepts to retain the competitive advantages of the \norganisation. The influence of internal and external factors on human resource management is \nemph"
+  },
+  {
+    "course_code": "MGM3165",
+    "course_name_malay": "Analitik Perniagaan",
+    "course_name_english": "Business Analitic",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini membincangkan proses dalam penyelesaian masalah perniagaan dengan menggunakan kaedah kuantitatif. Teknik permodelan matematik dalam pembuatan keputusan perniagaan yang optimal diberi penekanan.",
+    "description_english": "This course discusses the process in the solving of business problems using quantitative methods. Mathematic modelling techniques for optimal business decision making are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM3165 Analitik Perniagaan/ Business Analitic \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini membincangkan proses dalam penyelesaian masalah perniagaan dengan menggunakan \nkaedah kuantitatif. Teknik permodelan matematik dalam pembuatan keputusan perniagaan yang \noptimal diberi penekanan. \nThis course discusses the process in the solving of business problems using quantitative methods. \nMathematic modelling techniques for optimal business decision making are emphasised."
+  },
+  {
+    "course_code": "MGM3180",
+    "course_name_malay": "Asas Keusahawanan",
+    "course_name_english": "Basic Entrepreneurship",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi komponen utama dalam aspek perniagaan yang melibatkan perancangan perniagaan berskala kecil. Kompetensi dan pengetahuan keusahawanan diberi penekanan.",
+    "description_english": "This course covers the key components of the business aspects involving planning for small-scale businesses. Entrepreneurial competencies and knowledge are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM3180 \nAsas Keusahawanan/ Basic Entrepreneurship \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi komponen utama dalam aspek perniagaan yang melibatkan perancangan \nperniagaan berskala kecil. Kompetensi dan pengetahuan keusahawanan diberi penekanan. \nThis course covers the key components of the business aspects involving planning for small-scale \nbusinesses. Entrepreneurial competencies and knowledge are emphasised."
+  },
+  {
+    "course_code": "MGM3211",
+    "course_name_malay": "Prinsip Pemasaran",
+    "course_name_english": "Principles of Marketing",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pendekatan pengurusan dalam memahami pembuatan keputusan pemasaran. Pembangunan campuran pemasaran dan strategi pemasaran diberi penekanan.",
+    "description_english": "This course covers the managerial approach in understanding marketing decision making. Developing the marketing mix and marketing strategies are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM3211 \nPrinsip Pemasaran/ Principles of Marketing \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi pendekatan pengurusan dalam memahami pembuatan keputusan \npemasaran. Pembangunan campuran pemasaran dan strategi pemasaran diberi penekanan. \nThis course covers the managerial approach in understanding marketing decision making. \nDeveloping the marketing mix and marketing strategies are emphasised \n\n--- Page 13 ---\n64"
+  },
+  {
+    "course_code": "MGM4244",
+    "course_name_malay": "Gelagat Pengguna",
+    "course_name_english": "Consumer Behaviour",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3211"
+    ],
+    "description_malay": "Kursus ini merangkumi faktor yang mempengaruhi gelagat pembelian pengguna. Aplikasi amalan dan pembuatan keputusan pengguna diberi penekanan.",
+    "description_english": "This course encompasses factors that influence consumer purchasing behaviour. Application of the practices and decision making of consumers are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4244 \nGelagat Pengguna/ Consumer Behaviour \n3(3+0) \nPrasyarat/ Prerequisite: MGM3211 \nKursus ini merangkumi faktor yang mempengaruhi gelagat pembelian pengguna. Aplikasi amalan \ndan pembuatan keputusan pengguna diberi penekanan. \nThis course encompasses factors that influence consumer purchasing behaviour. Application of the \npractices and decision making of consumers are emphasised."
+  },
+  {
+    "course_code": "MGM3352",
+    "course_name_malay": "Undang-Undang Perniagaan",
+    "course_name_english": "Business Law",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi sistem perundangan yang mentadbir pelbagai kontrak secara menyeluruh. Status kontrak dan kesan pelaksanaan undang-undang ke atas perniagaan dan pihak berkontrak dalam penentuan kesahan perjanjian adalah diberi penekanan.",
+    "description_english": "This course covers the legal system that governs various contracts as a whole. The status of the contract and the effect of law enforcement on the business and the contracting parties in determining the validity of an agreement are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM3352 Undang-Undang Perniagaan/ Business Law \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi sistem perundangan yang mentadbir pelbagai kontrak secara menyeluruh. \nStatus kontrak dan kesan pelaksanaan undang-undang ke atas perniagaan dan pihak berkontrak \ndalam penentuan kesahan perjanjian adalah diberi penekanan. \nThis course covers the legal system that governs various contracts as a whole. The status of the \ncontract and the effect of law enforcement on the business and"
+  },
+  {
+    "course_code": "MGM4106",
+    "course_name_malay": "Kaedah Penyelidikan Perniagaan",
+    "course_name_english": "Business Research Methods",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3165"
+    ],
+    "description_malay": "Kursus ini merangkumi langkah-langkah dalam proses penyelidikan. Pernyataan masalah, sorotan karya, metodologi kajian, analisis dan tafsiran data adalah diberi penekanan.",
+    "description_english": "This course covers steps in a research process. Problem statement, literature review, research methodology, data analysis and data interpretation are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4106 \nKaedah Penyelidikan Perniagaan/ Business Research Methods \n3(3+0) \nPrasyarat/ Prerequisite: MGM3165 \nKursus ini merangkumi langkah-langkah dalam proses penyelidikan. Pernyataan masalah, sorotan \nkarya, metodologi kajian, analisis dan tafsiran data adalah diberi penekanan. \nThis course covers steps in a research process. Problem statement, literature review, research \nmethodology, data analysis and data interpretation are emphasised."
+  },
+  {
+    "course_code": "MGM4124",
+    "course_name_malay": "Pengurusan Latihan dan Pembangunan",
+    "course_name_english": "Training and Development Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3123"
+    ],
+    "description_malay": "Kursus ini merangkumi struktur dan proses dalam mereka bentuk program latihan dan pembangunan dalam organisasi. Kaedah yang bersesuaian untuk melatih dan membangunkan pekerja diberi penekanan.",
+    "description_english": "The course covers the structure and process in designing training and development programs within an organisation. Appropriate methods to train and develop employees are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4124 \nPengurusan Latihan dan Pembangunan/ Training and Development \nManagement \nPrasyarat/ Prerequisite: MGM3123 \n3(3+0) \nKursus ini merangkumi struktur dan proses dalam mereka bentuk program latihan dan pembangunan \ndalam organisasi. Kaedah yang bersesuaian untuk melatih dan membangunkan pekerja diberi \npenekanan. \nThe course covers the structure and process in designing training and development programs within \nan organisation. Appropriate methods to train and develop employees are emphasis"
+  },
+  {
+    "course_code": "MGM4125",
+    "course_name_malay": "Pengurusan Pampasan",
+    "course_name_english": "Compensation Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3123"
+    ],
+    "description_malay": "Kursus ini membincangkan faktor dan langkah yang diperlukan dalam mereka bentuk strategi pampasan yang berkesan dalam organisasi. Aktiviti menilai dan mengurus program pampasan bagi menyokong pencapaian matlamat organisasi diberi penekanan.",
+    "description_english": "The course discusses factors and steps required when designing effective strategic compensation for organisations. Evaluating and managing compensation program activities to support the achievement of organisation goals are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4125 Pengurusan Pampasan/ Compensation Management \n3(3+0) \nPrasyarat/ Prerequisite: MGM3123 \nKursus ini membincangkan faktor dan langkah yang diperlukan dalam mereka bentuk strategi \npampasan yang berkesan dalam organisasi. Aktiviti menilai dan mengurus program pampasan bagi \nmenyokong pencapaian matlamat organisasi diberi penekanan. \nThe course discusses factors and steps required when designing effective strategic compensation for \norganisations. Evaluating and managing compensation program"
+  },
+  {
+    "course_code": "MGM4126",
+    "course_name_malay": "Perhubungan Perusahaan",
+    "course_name_english": "Industrial Relations",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3123"
+    ],
+    "description_malay": "Kursus ini merangkumi isu pengurusan perhubungan perusahaan yang melibatkan majikan, pekerja dan kesatuan sekerja. Aspek membina keharmonian perhubungan perusahaan serta peranan majikan dalam mengelak pertikaian diberi penekanan.",
+    "description_english": "This course encompasses issues within industrial relations management that involves employer, employees and the trade union. Aspects in establishing harmonious industrial relations and the roles of employers in avoiding disputes are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4126 Perhubungan Perusahaan/ Industrial Relations \n3(3+0) \nPrasyarat/ Prerequisite: MGM3123 \nKursus ini merangkumi isu pengurusan perhubungan perusahaan yang melibatkan majikan, pekerja \ndan kesatuan sekerja. Aspek membina keharmonian perhubungan perusahaan serta peranan \nmajikan dalam mengelak pertikaian diberi penekanan. \nThis course encompasses issues within industrial relations management that involves employer, \nemployees and the trade union. Aspects in establishing harmonious industrial"
+  },
+  {
+    "course_code": "MGM4127",
+    "course_name_malay": "Pengambilan dan Pemilihan Pekerja",
+    "course_name_english": "Employee Recruitment and Selection",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3123"
+    ],
+    "description_malay": "Kursus ini merangkumi sumber, kaedah dan proses pengambilan dan pemilihan pekerja. Aspek pengambilan dan pemilihan pekerja yang tepat untuk mencapai matlamat organisasi diberi penekanan.",
+    "description_english": "The course encompasses the sources, methods and processes involved in employee recruitment and selection. Aspects on recruiting and selecting the right person to achieve organisation goals are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4127 \nPengambilan dan Pemilihan Pekerja/ Employee Recruitment and \nSelection \nPrasyarat/ Prerequisite: MGM3123 \n3(3+0) \nKursus ini merangkumi sumber, kaedah dan proses pengambilan dan pemilihan pekerja. Aspek \npengambilan dan pemilihan pekerja yang tepat untuk mencapai matlamat organisasi diberi \npenekanan. \nThe course encompasses the sources, methods and processes involved in employee recruitment and \nselection. Aspects on recruiting and selecting the right person to achieve organisation goa"
+  },
+  {
+    "course_code": "MGM4129",
+    "course_name_malay": "Pembangunan Organisasi",
+    "course_name_english": "Organization Development",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3123"
+    ],
+    "description_malay": "Kursus ini merangkumi strategi pembangunan organisasi untuk peningkatan prestasi individu, kumpulan dan organisasi. Langkah dalam proses perubahan terancang organisasi diberi penekanan.",
+    "description_english": "This course covers organisation development strategies to increase individual, group and organisational performance. Steps in the organisation’s process of planned change are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4129 Pembangunan Organisasi/ Organization Development \n3(3+0) \nPrasyarat/ Prerequisite: MGM3123 \nKursus ini merangkumi strategi pembangunan organisasi untuk peningkatan prestasi individu, \nkumpulan dan organisasi. Langkah dalam proses perubahan terancang organisasi diberi penekanan. \nThis course covers organisation development strategies to increase individual, group and \norganisational performance. Steps in the organisation’s process of planned change are emphasised."
+  },
+  {
+    "course_code": "MGM4130",
+    "course_name_malay": "Pengurusan Tempat Kerja Dan Pekerjaan Strategik",
+    "course_name_english": "Strategic Employment and Workplace Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3123"
+    ],
+    "description_malay": "Kursus ini merangkumi pengetahuan pengurusan sumber manusia dalam membentuk amalan pengurusan tempat kerja dan pekerjaan yang strategik. Isu dan tren semasa dalam pengurusan sumber manusia yang dihadapi oleh pengurus dan organisasi diberi penekanan.",
+    "description_english": "This course covers human resource management knowledge in developing strategic employment and workplace management practices. Current issues and trends in human resource management faced by managers and organisations are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4130 \nPengurusan Tempat Kerja Dan Pekerjaan Strategik/ Strategic \nEmployment and Workplace Management \nPrasyarat/ Prerequisite: MGM3123 \n3(3+0) \nKursus ini merangkumi pengetahuan pengurusan sumber manusia dalam membentuk amalan \npengurusan tempat kerja dan pekerjaan yang strategik. Isu dan tren semasa dalam pengurusan \nsumber manusia yang dihadapi oleh pengurus dan organisasi diberi penekanan. \nThis course covers human resource management knowledge in developing strategic employment \nand work"
+  },
+  {
+    "course_code": "MGM4131",
+    "course_name_malay": "Pengurusan Pelancongan",
+    "course_name_english": "Tourism Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3180"
+    ],
+    "description_malay": "Kursus ini merangkumi aktiviti dalam perniagaan pelancongan. Operasi dan komponen pengurusan dalam perniagaan pelancongan diberi penekanan.",
+    "description_english": "This course covers the activities in tourism businesses. The operations and management components in tourism businesses are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4131 \nPengurusan Pelancongan/ Tourism Management \n3(3+0) \nPrasyarat/ Prerequisite: MGM3180 \nKursus ini merangkumi aktiviti dalam perniagaan pelancongan. Operasi dan komponen pengurusan \ndalam perniagaan pelancongan diberi penekanan. \nThis course covers the activities in tourism businesses. The operations and management components \nin tourism businesses are emphasised."
+  },
+  {
+    "course_code": "MGM4132",
+    "course_name_malay": "Kepemimpinan Organisasi",
+    "course_name_english": "Organisational Leadership",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3123"
+    ],
+    "description_malay": "Kursus ini merangkumi fungsi, peranan serta kompetensi teras seseorang pemimpin organisasi yang berkesan dan berwawasan. Isu kontemporari dalam kepemimpinan diberi penekanan.",
+    "description_english": "This course encompasses the functions, roles and core competencies needed by an effective and visionary organisational leader. Contemporary issues in leadership are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4132 \nKepemimpinan Organisasi/ Organisational Leadership \n3(3+0) \nPrasyarat/ Prerequisite: MGM3123 \nKursus ini merangkumi fungsi, peranan serta kompetensi teras seseorang pemimpin organisasi yang \nberkesan dan berwawasan. Isu kontemporari dalam kepemimpinan diberi penekanan. \nThis course encompasses the functions, roles and core competencies needed by an effective and \nvisionary organisational leader. Contemporary issues in leadership are emphasised."
+  },
+  {
+    "course_code": "MGM4133",
+    "course_name_malay": "Keselamatan Dan Kesihatan Pekerja",
+    "course_name_english": "Employee Safety and Health",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3123"
+    ],
+    "description_malay": "Kursus ini merangkumi pengetahuan dalam keselamatan dan kesihatan pekerjaan. Isu semasa dan amalan pengurusan keselamatan dan kesihatan pekerja diberi penekanan.",
+    "description_english": "This course covers the knowledge in occupational safety and health. Current issues and management practices of employee safety and health are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4133 \nKeselamatan Dan Kesihatan Pekerja/ Employee Safety and Health \n3(3+0) \nPrasyarat/ Prerequisite: MGM3123 \nKursus ini merangkumi pengetahuan dalam keselamatan dan kesihatan pekerjaan. Isu semasa dan \namalan pengurusan keselamatan dan kesihatan pekerja diberi penekanan. \nThis course covers the knowledge in occupational safety and health. Current issues and management \npractices of employee safety and health are emphasised."
+  },
+  {
+    "course_code": "MGM4134",
+    "course_name_malay": "Pengurusan Prestasi",
+    "course_name_english": "Performance Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3123"
+    ],
+    "description_malay": "Kursus ini merangkumi strategi pengurusan prestasi yang efektif kepada individu, pasukan dan organisasi. Peranan pengurus dalam pengurusan prestasi pekerja diberi penekanan.",
+    "description_english": "This course covers effective performance management strategies for individuals, teams and organisations. The role of the managers in managing employee performance is emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4134 \nPengurusan Prestasi/ Performance Management \n3(3+0) \nPrasyarat/ Prerequisite: MGM3123 \nKursus ini merangkumi strategi pengurusan prestasi yang efektif kepada individu, pasukan dan \norganisasi. Peranan pengurus dalam pengurusan prestasi pekerja diberi penekanan. \nThis course covers effective performance management strategies for individuals, teams and \norganisations. The role of the managers in managing employee performance is emphasised."
+  },
+  {
+    "course_code": "MGM4136",
+    "course_name_malay": "Isu Semasa Pengurusan",
+    "course_name_english": "Current Issues in Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3123"
+    ],
+    "description_malay": "Kursus ini merangkumi isu semasa dalam pengurusan. Perkembangan terkini dalam bidang sosioekonomi dan impak ke atas kemampanan perniagaan diberi penekanan.",
+    "description_english": "This course encompasses current issues in management. Recent developments in the social economic sector and its impact on business sustainability are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4136 \nIsu Semasa Pengurusan/ Current Issues in Management \n3(3+0) \nPrasyarat/ Prerequisite: MGM3123 \nKursus ini merangkumi isu semasa dalam pengurusan. Perkembangan terkini dalam bidang \nsosioekonomi dan impak ke atas kemampanan perniagaan diberi penekanan. \nThis course encompasses current issues in management. Recent developments in the social \neconomic sector and its impact on business sustainability are emphasised."
+  },
+  {
+    "course_code": "MGM4137",
+    "course_name_malay": "Etika dan Tanggungjawab Sosial",
+    "course_name_english": "Ethics and Social Responsibility",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi isu perniagaan, masyarakat dan etika perniagaan yang dihadapi oleh organisasi. Cabaran pengurus dalam mengimbangi tanggungjawab ekonomi, sosial dan etika apabila berurusan dengan pelbagai pemegang taruh dibincangkan.",
+    "description_english": "This course covers the business, society and business ethics issues that organisations face. The challenges managers and businesses face in balancing economic, social and ethical responsibilities when dealing with a variety of stakeholders are discussed.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4137  Etika dan Tanggungjawab Sosial/ Ethics and Social Responsibility \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi isu perniagaan, masyarakat dan etika perniagaan yang dihadapi oleh \norganisasi. Cabaran pengurus dalam mengimbangi tanggungjawab ekonomi, sosial dan etika apabila \nberurusan dengan pelbagai pemegang taruh dibincangkan. \n\n--- Page 15 ---\n66 \n \nThis course covers the business, society and business ethics issues that organisations face. The \nchallenges manag"
+  },
+  {
+    "course_code": "MGM4139",
+    "course_name_malay": "Pengurusan Strategik",
+    "course_name_english": "Strategic Management",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi perancangan strategik dalam organisasi. Analisis persekitaran dalaman dan luaran sesebuah organisasi serta penggunaan kaedah pembuatan keputusan strategik diberi penekanan.",
+    "description_english": "This course encompasses the strategic planning in an organisation. Internal and external environment analyses of an organisation and the application of strategic decision-making methods are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4139 Pengurusan Strategik/ Strategic Management \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi perancangan strategik dalam organisasi. Analisis persekitaran dalaman dan \nluaran sesebuah organisasi serta penggunaan kaedah pembuatan keputusan strategik diberi \npenekanan. \nThis course encompasses the strategic planning in an organisation. Internal and external environment \nanalyses of an organisation and the application of strategic decision-making methods are \nemphasised."
+  },
+  {
+    "course_code": "MGM4142",
+    "course_name_malay": "Pengurusan Acara dan Keusahawanan",
+    "course_name_english": "Event Management and Entrepreneurship",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3180"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek keusahawanan dalam pengurusan acara. Proses perancangan dan pengendalian aktiviti penganjuran acara diberi penekanan.",
+    "description_english": "This course covers the entrepreneurial aspect in event management. The planning process and handling of event management activities are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4142 \nPengurusan Acara dan Keusahawanan/ Event Management and \nEntrepreneurship \nPrasyarat/ Prerequisite: MGM3180 \n3(3+0) \nKursus ini merangkumi aspek keusahawanan dalam pengurusan acara. Proses perancangan dan \npengendalian aktiviti penganjuran acara diberi penekanan. \nThis course covers the entrepreneurial aspect in event management. The planning process and \nhandling of event management activities are emphasised."
+  },
+  {
+    "course_code": "MGM4144",
+    "course_name_malay": "Pengurusan Kualiti",
+    "course_name_english": "Quality Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep asas, prinsip dan falsafah dalam pengurusan kualiti. Kepentingan pengurusan kualiti dalam meningkatkan prestasi organisasi serta pelaksanaan amalan pengurusan kualiti dalam konteks persekitaran persaingan diberi penekanan.",
+    "description_english": "This course covers the basic concepts, principles and philosophy in quality management. The importance of quality management in improving organisational performance and the implementation of quality management practices within the competitive environment are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4144 Pengurusan Kualiti/ Quality Management \n3(3+0) \nPrasyarat/ Prerequisite: MGM3101 \nKursus ini merangkumi konsep asas, prinsip dan falsafah dalam pengurusan kualiti. Kepentingan \npengurusan kualiti dalam meningkatkan prestasi organisasi serta pelaksanaan amalan pengurusan \nkualiti dalam konteks persekitaran persaingan diberi penekanan. \nThis course covers the basic concepts, principles and philosophy in quality management. The \nimportance of quality management in improving organisational p"
+  },
+  {
+    "course_code": "MGM4149",
+    "course_name_malay": "Pengurusan Operasi dan Pengeluaran",
+    "course_name_english": "Production and Operations Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3165"
+    ],
+    "description_malay": "Kursus ini merangkumi kaedah pengurusan yang diperlukan dalam pengurusan operasi. Kaitan antara teknologi dan isu semasa operasi perniagaan diberi penekanan.",
+    "description_english": "This course covers managerial approaches needed in operations management. The relationship between technology and current issues in business operations is emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4149 \nPengurusan Operasi dan Pengeluaran/ Production and Operations \nManagement \nPrasyarat/ Prerequisite: MGM3165 \n3(3+0) \nKursus ini merangkumi kaedah pengurusan yang diperlukan dalam pengurusan operasi. Kaitan \nantara teknologi dan isu semasa operasi perniagaan diberi penekanan. \nThis course covers managerial approaches needed in operations management. The relationship \nbetween technology and current issues in business operations is emphasised."
+  },
+  {
+    "course_code": "MGM4154",
+    "course_name_malay": "Pengurusan Perniagaan Antarabangsa",
+    "course_name_english": "International Business Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek pengurusan dalam perniagaan antarabangsa. Pengetahuan dan konsep bagi merancang dan melaksanakan operasi perniagaan di peringkat antarabangsa adalah diberi penekanan.",
+    "description_english": "This course covers the management aspects in an international business. The knowledge and concepts in planning and implementing business operations at the international level are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4154 \nPengurusan \nPerniagaan \nAntarabangsa/ \nInternational \nBusiness \nManagement \nPrasyarat/ Prerequisite: MGM3101 \n3(3+0) \nKursus ini merangkumi aspek pengurusan dalam perniagaan antarabangsa. Pengetahuan dan \nkonsep bagi merancang dan melaksanakan operasi perniagaan di peringkat antarabangsa adalah \ndiberi penekanan. \nThis course covers the management aspects in an international business. The knowledge and \nconcepts in planning and implementing business operations at the international level"
+  },
+  {
+    "course_code": "MGM4155",
+    "course_name_malay": "Pengurusan Rentas Budaya",
+    "course_name_english": "Cross-Cultural Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep, teori dan dimensi pengurusan rentas budaya. Pengaruh budaya terhadap fungsi organisasi dalam persekitaran berbilang budaya dan kemahiran pemimpin global diberi penekanan.",
+    "description_english": "This course covers cross-cultural management concepts, theories and dimensions. Culture’s influence on the functioning of organisations in a multicultural environment and the skillsets of global leaders are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4155 Pengurusan Rentas Budaya/ Cross-Cultural Management \n3(3+0) \nPrasyarat/ Prerequisite: MGM3101 \nKursus ini merangkumi konsep, teori dan dimensi pengurusan rentas budaya. Pengaruh budaya \nterhadap fungsi organisasi dalam persekitaran berbilang budaya dan kemahiran pemimpin global \ndiberi penekanan. \nThis course covers cross-cultural management concepts, theories and dimensions. Culture’s \ninfluence on the functioning of organisations in a multicultural environment and the skillsets of glob"
+  },
+  {
+    "course_code": "MGM4156",
+    "course_name_malay": "Perniagaan Di Asia",
+    "course_name_english": "Business in Asia",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi pengetahuan mengenai persekitaran dan pengurusan perniagaan di Asia. Strategi pengembangan perniagaan ke pasaran Asia diberi penekanan.",
+    "description_english": "This course covers knowledge of the environment and management of businesses in Asia. Business expansion strategies to Asian markets are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4156 Perniagaan Di Asia/ Business in Asia \n3(3+0) \nPrasyarat/ Prerequisite: MGM3101 \nKursus ini merangkumi pengetahuan mengenai persekitaran dan pengurusan perniagaan di Asia. \nStrategi pengembangan perniagaan ke pasaran Asia diberi penekanan. \n\n--- Page 16 ---\n67 \n \nThis course covers knowledge of the environment and management of businesses in Asia. Business \nexpansion strategies to Asian markets are emphasised."
+  },
+  {
+    "course_code": "MGM4157",
+    "course_name_malay": "Perdagangan Antarabangsa",
+    "course_name_english": "International Trade",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi teori dan dasar perdagangan antarabangsa. Halangan perdagangan dan implikasi perjanjian perdagangan bebas ke atas perdagangan antarabangsa diberi penekanan.",
+    "description_english": "This course covers the international trade theories and policies. Trade barriers and implications of free trade agreements on international trade are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4157 \nPerdagangan Antarabangsa/ International Trade \n3(3+0) \nPrasyarat/ Prerequisite: MGM3101 \nKursus ini merangkumi teori dan dasar perdagangan antarabangsa. Halangan perdagangan dan \nimplikasi perjanjian perdagangan bebas ke atas perdagangan antarabangsa diberi penekanan. \nThis course covers the international trade theories and policies. Trade barriers and implications of \nfree trade agreements on international trade are emphasised"
+  },
+  {
+    "course_code": "MGM4178",
+    "course_name_malay": "Pengurusan Francais",
+    "course_name_english": "Franchise Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3180"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep dan pengurusan perniagaan francais dalam sektor domestik dan antarabangsa. Proses dan isu pengurusan perniagaan francais diberi penekanan.",
+    "description_english": "This course covers franchise concepts and business management in domestic and international sectors. Process and issues in managing a franchise business are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4178 \nPengurusan Francais/ Franchise Management \n3(3+0) \nPrasyarat/ Prerequisite: MGM3180 \nKursus ini merangkumi konsep dan pengurusan perniagaan francais dalam sektor domestik dan \nantarabangsa. Proses dan isu pengurusan perniagaan francais diberi penekanan. \nThis course covers franchise concepts and business management in domestic and international \nsectors. Process and issues in managing a franchise business are emphasised."
+  },
+  {
+    "course_code": "MGM4180",
+    "course_name_malay": "Keusahawanan Sosial",
+    "course_name_english": "Social Entrepreneurship",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3180"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep keusahawanan sosial dan strategi dalam pengendalian perusahaan sosial. Perancangan program keusahawanan sosial diberi penekanan.",
+    "description_english": "This course covers the social entrepreneurship concepts and strategies in managing a social enterprise. The planning of a social entrepreneurship program is emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4180 \nKeusahawanan Sosial/ Social Entrepreneurship \n3(3+0) \nPrasyarat/ Prerequisite: MGM3180 \nKursus ini merangkumi konsep keusahawanan sosial dan strategi dalam pengendalian perusahaan \nsosial. Perancangan program keusahawanan sosial diberi penekanan. \nThis course covers the social entrepreneurship concepts and strategies in managing a social \nenterprise. The planning of a social entrepreneurship program is emphasised."
+  },
+  {
+    "course_code": "MGM4184",
+    "course_name_malay": "Pengurusan Perniagaan Kecil",
+    "course_name_english": "Small Business Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3180"
+    ],
+    "description_malay": "Kursus ini merangkumi proses dalam pengurusan perniagaan kecil. Pembangunan rancangan perniagaan dan isu semasa dalam pengurusan perniagaan kecil diberi penekanan.",
+    "description_english": "This course covers the process in managing a small business. The development of a business plan and current issues in small business management are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4184 \nPengurusan Perniagaan Kecil/ Small Business Management \n3(3+0) \nPrasyarat/ Prerequisite: MGM3180 \nKursus ini merangkumi proses dalam pengurusan perniagaan kecil. Pembangunan rancangan \nperniagaan dan isu semasa dalam pengurusan perniagaan kecil diberi penekanan. \nThis course covers the process in managing a small business. The development of a business plan \nand current issues in small business management are emphasised."
+  },
+  {
+    "course_code": "MGM4187",
+    "course_name_malay": "Pengurusan Usahaniaga Baharu",
+    "course_name_english": "New Venture Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3180"
+    ],
+    "description_malay": "Kursus ini meliputi elemen penting dalam pengurusan usahaniaga baharu. Proses penubuhan dan pengurusan usahaniaga baharu serta aplikasi teknologi diberi penekanan.",
+    "description_english": "This course covers the key elements of new ventures management. The establishment process and new venture management as well as the application of technologies are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4187 \nPengurusan Usahaniaga Baharu/ New Venture Management \n3(3+0) \nPrasyarat/ Prerequisite: MGM3180 \nKursus ini meliputi elemen penting dalam pengurusan usahaniaga baharu. Proses penubuhan dan \npengurusan usahaniaga baharu serta aplikasi teknologi diberi penekanan. \nThis course covers the key elements of new ventures management. The establishment process and \nnew venture management as well as the application of technologies are emphasised."
+  },
+  {
+    "course_code": "MGM4188",
+    "course_name_malay": "Kemahiran Perniagaan Untuk Usahawan",
+    "course_name_english": "Business Skills for Entrepreneurs",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3180"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai aspek kemahiran perniagaan penting yang diperlukan oleh usahawan. Pembangunan idea perniagaan dan kebolehan dalam pembentangan penganggulan perniagaan diberi penekanan.",
+    "description_english": "This course covers various aspects of important business skills required by entrepreneurs. The development of business ideas and abilities in the presentation of business pitching are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4188 \nKemahiran \nPerniagaan \nUntuk \nUsahawan/ \nBusiness \nSkills \nfor \nEntrepreneurs \nPrasyarat/ Prerequisite: MGM3180 \n3(3+0) \nKursus ini merangkumi pelbagai aspek kemahiran perniagaan penting yang diperlukan oleh \nusahawan. Pembangunan idea perniagaan dan kebolehan dalam pembentangan penganggulan \nperniagaan diberi penekanan. \nThis course covers various aspects of important business skills required by entrepreneurs. The \ndevelopment of business ideas and abilities in the presentation of busi"
+  },
+  {
+    "course_code": "MGM4189",
+    "course_name_malay": "Keusahawanan dan Inovasi",
+    "course_name_english": "Entrepreneurship and Innovation",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3180"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek inovasi dalam keusahawanan dan usahaniaga baharu. Pembangunan organisasi berinovatif, strategi inovasi dan inovasi terbuka diberi penekanan.",
+    "description_english": "This course covers aspects of innovation in entrepreneurship and new ventures. Innovative organisational development, innovation in strategies and open innovation are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4189 \nKeusahawanan dan Inovasi/ Entrepreneurship and Innovation \n3(3+0) \nPrasyarat/ Prerequisite: MGM3180 \nKursus ini merangkumi aspek inovasi dalam keusahawanan dan usahaniaga baharu. Pembangunan \norganisasi berinovatif, strategi inovasi dan inovasi terbuka diberi penekanan. \nThis course covers aspects of innovation in entrepreneurship and new ventures. Innovative \norganisational development, innovation in strategies and open innovation are emphasised. \n\n--- Page 17 ---\n68"
+  },
+  {
+    "course_code": "MGM4197",
+    "course_name_malay": "Sistem Maklumat Pengurusan",
+    "course_name_english": "Management Information System",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi komponen, penggunaan dan isu berkaitan dengan sistem maklumat pengurusan. Proses pembangunan sistem maklumat dalam operasi perniagaan juga diberi penekanan.",
+    "description_english": "This course covers components, usage and issues related to management information systems. Information system development process in business operations is also emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4197 Sistem Maklumat Pengurusan/ Management Information System \n3(3+0) \nPrasyarat/ Prerequisite: MGM3101 \nKursus ini merangkumi komponen, penggunaan dan isu berkaitan dengan sistem maklumat \npengurusan. Proses pembangunan sistem maklumat dalam operasi perniagaan juga diberi \npenekanan. \nThis course covers components, usage and issues related to management information systems. \nInformation system development process in business operations is also emphasised."
+  },
+  {
+    "course_code": "MGM4204",
+    "course_name_malay": "Pemasaran Perkhidmatan",
+    "course_name_english": "Service Marketing",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3211"
+    ],
+    "description_malay": "Kursus ini merangkumi elemen yang relevan dalam perkhidmatan pemasaran. Isu strategik berkaitan pemasaran perkhidmatan dan pengurusan kualiti perkhidmatan diberi penekanan.",
+    "description_english": "This course covers the relevant elements of services marketing. Strategic issues related to services marketing and service quality management are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4204 \nPemasaran Perkhidmatan/ Service Marketing \n3(3+0) \nPrasyarat/ Prerequisite: MGM3211 \nKursus ini merangkumi elemen yang relevan dalam perkhidmatan pemasaran. Isu strategik berkaitan \npemasaran perkhidmatan dan pengurusan kualiti perkhidmatan diberi penekanan. \nThis course covers the relevant elements of services marketing. Strategic issues related to services \nmarketing and service quality management are emphasised."
+  },
+  {
+    "course_code": "MGM4211",
+    "course_name_malay": "Pemasaran Digital",
+    "course_name_english": "Digital Marketing",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3211"
+    ],
+    "description_malay": "Kursus ini membincangkan strategi pemasaran melalui penggunaan rangkaian media digital untuk komunikasi berkesan dengan pelanggan dan mengoptimumkan perancangan perniagaan dan taktik pemasaran. Penggunaan strategi digital dalam pengurusan pemasaran diberi penekanan.",
+    "description_english": "This course discusses marketing strategies through the use of digital media networks to effectively communicate with customers and optimize business planning and marketing tactics. The use of digital strategies in marketing management is emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4211 Pemasaran Digital/ Digital Marketing \n3(3+0) \nPrasyarat/ Prerequisite: MGM3211 \nKursus ini membincangkan strategi pemasaran melalui penggunaan rangkaian media digital untuk \nkomunikasi berkesan dengan pelanggan dan mengoptimumkan perancangan perniagaan dan taktik \npemasaran. Penggunaan strategi digital dalam pengurusan pemasaran diberi penekanan. \nThis course discusses marketing strategies through the use of digital media networks to effectively \ncommunicate with customers and optimize b"
+  },
+  {
+    "course_code": "MGM4212",
+    "course_name_malay": "e-Dagang Dalam Perniagaan Antarabangsa",
+    "course_name_english": "e-Commerce in International Business",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep, teori, dimensi dan kepentingan e- dagang dalam perniagaan antarabangsa. Kesan dan pengaruh e- dagang terhadap pelaksanaan perniagaan antarabangsa diberi penekanan.",
+    "description_english": "This course covers the concepts, theories, dimensions and importance of e-commerce in international business. The impact and influence of e-commerce on the implementation of international business is emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4212 \ne-Dagang \nDalam \nPerniagaan \nAntarabangsa/ \ne-Commerce \nin \nInternational Business \nPrasyarat/ Prerequisite: MGM3101 \n3(3+0) \nKursus ini merangkumi konsep, teori, dimensi dan kepentingan e- dagang dalam perniagaan \nantarabangsa. Kesan dan pengaruh e- dagang terhadap pelaksanaan perniagaan antarabangsa \ndiberi penekanan. \nThis course covers the concepts, theories, dimensions and importance of e-commerce in international \nbusiness. The impact and influence of e-commerce on the implementat"
+  },
+  {
+    "course_code": "MGM4237",
+    "course_name_malay": "Strategi Operasi Antarabangsa",
+    "course_name_english": "International Operations Strategy",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini meliputi aspek keputusan penting dalam strategi operasi antarabangsa. Penggubalan, pelaksanaan dan pemantauan strategi operasi antarabangsa diberi penekanan.",
+    "description_english": "This course covers the key decision areas of international operations strategy. The formulation, implementation and monitoring of the international operations strategy are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4237 \nStrategi Operasi Antarabangsa/ International Operations Strategy \n3(3+0) \nPrasyarat/ Prerequisite: MGM3101 \nKursus ini meliputi aspek keputusan penting dalam strategi operasi antarabangsa. Penggubalan, \npelaksanaan dan pemantauan strategi operasi antarabangsa diberi penekanan. \nThis course covers the key decision areas of international operations strategy. The formulation, \nimplementation and monitoring of the international operations strategy are emphasised."
+  },
+  {
+    "course_code": "MGM4238",
+    "course_name_malay": "Strategi Perniagaan Global",
+    "course_name_english": "Global Business Strategies",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep, teori dan pelbagai jenis strategi untuk mengurus perniagaan global secara berkesan. Pengaruh pelbagai strategi terhadap daya saingan syarikat global adalah diberi penekanan.",
+    "description_english": "This course covers concepts, theories and various types of strategies to manage global business effectively. Influence of various business strategies on the competitiveness of global companies are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4238 Strategi Perniagaan Global/ Global Business Strategies \n3(3+0) \nPrasyarat/ Prerequisite: MGM3101 \nKursus ini merangkumi konsep, teori dan pelbagai jenis strategi untuk mengurus perniagaan global \nsecara berkesan. Pengaruh pelbagai strategi terhadap daya saingan syarikat global adalah diberi \npenekanan. \nThis course covers concepts, theories and various types of strategies to manage global business \neffectively. Influence of various business strategies on the competitiveness of global com"
+  },
+  {
+    "course_code": "MGM4239",
+    "course_name_malay": "Pengurusan Pemasaran",
+    "course_name_english": "Marketing Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3211"
+    ],
+    "description_malay": "Kursus ini membincangkan pengurusan pemasaran dan pelaksanaan pelan pemasaran yang berkesan. Strategi pemasaran dan program campuran pemasaran dalam konteks global adalah diberi penekanan.",
+    "description_english": "This course discusses marketing management and the implementation of effective marketing plan. Marketing strategies and marketing mix programs within the global context are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4239 Pengurusan Pemasaran/ Marketing Management \n3(3+0) \nPrasyarat/ Prerequisite: MGM3211 \nKursus ini membincangkan pengurusan pemasaran dan pelaksanaan pelan pemasaran yang \nberkesan. Strategi pemasaran dan program campuran pemasaran dalam konteks global adalah diberi \npenekanan. \n\n--- Page 18 ---\n69 \n \nThis course discusses marketing management and the implementation of effective marketing plan. \nMarketing strategies and marketing mix programs within the global context are emphasised."
+  },
+  {
+    "course_code": "MGM4254",
+    "course_name_malay": "Pengurusan Peruncitan",
+    "course_name_english": "Retail Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3211"
+    ],
+    "description_malay": "Kursus ini membincangkan trend perniagaan peruncitan. Pengurusan elemen campuran peruncitan dan strategi peruncitan dalam pengurusan perniagaan diberi penekanan.",
+    "description_english": "This course discusses the trends in retailing business. The managing of retail mix elements and retailing strategies in managing businesses are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4254 \nPengurusan Peruncitan/ Retail Management \n3(3+0) \nPrasyarat/ Prerequisite: MGM3211 \nKursus ini membincangkan trend perniagaan peruncitan. Pengurusan elemen campuran peruncitan \ndan strategi peruncitan dalam pengurusan perniagaan diberi penekanan. \nThis course discusses the trends in retailing business. The managing of retail mix elements and \nretailing strategies in managing businesses are emphasised."
+  },
+  {
+    "course_code": "MGM4264",
+    "course_name_malay": "Penyelidikan Pemasaran",
+    "course_name_english": "Marketing Research",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3211"
+    ],
+    "description_malay": "Kursus ini meliputi langkah dan kaedah dalam mengenal pasti dan menyelesaikan pelbagai isu pemasaran. Pemilihan kaedah penyelidikan yang sesuai untuk pembuatan keputusan pemasaran diberi penekanan.",
+    "description_english": "This course covers the steps and methods in identifying and solving various marketing issues. The selection of appropriate research methods for marketing decision making is emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4264 Penyelidikan Pemasaran/ Marketing Research \n3(3+0) \nPrasyarat/ Prerequisite: MGM3211 \nKursus ini meliputi langkah dan kaedah dalam mengenal pasti dan menyelesaikan pelbagai isu \npemasaran. Pemilihan kaedah penyelidikan yang sesuai untuk pembuatan keputusan pemasaran \ndiberi penekanan. \nThis course covers the steps and methods in identifying and solving various marketing issues. The \nselection of appropriate research methods for marketing decision making is emphasised."
+  },
+  {
+    "course_code": "MGM4273",
+    "course_name_malay": "Pemasaran Antarabangsa",
+    "course_name_english": "International Marketing",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3211"
+    ],
+    "description_malay": "Kursus ini merangkumi pengurusan pemasaran dalam konteks antarabangsa. Perancangan pemasaran antarabangsa dan pemilihan strategi pemasaran dalam tetapan global juga diberi penekanan.",
+    "description_english": "The course encompasses marketing management in an international context. International marketing planning and selection of marketing strategies within a global setting are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4273 Pemasaran Antarabangsa/ International Marketing \n3(3+0) \nPrasyarat/ Prerequisite: MGM3211 \nKursus ini merangkumi pengurusan pemasaran dalam konteks antarabangsa. Perancangan \npemasaran antarabangsa dan pemilihan strategi pemasaran dalam tetapan global juga diberi \npenekanan. \nThe course encompasses marketing management in an international context. International marketing \nplanning and selection of marketing strategies within a global setting are emphasised."
+  },
+  {
+    "course_code": "MGM4275",
+    "course_name_malay": "Pengurusan Rantaian Bekalan dan Logistik",
+    "course_name_english": "Logistics and Supply Chain Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek penting tentang pengurusan rantaian bekalan dan logistik. Penggunaan sistem teknologi maklumat dalam pengurusan rantaian bekalan dan logistik diberi penekanan.",
+    "description_english": "This course covers important aspects of logistic and supply chain management. The use of information technology system in logistics and supply chain management is emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4275 \nPengurusan Rantaian Bekalan dan Logistik/ Logistics and Supply Chain \nManagement \nPrasyarat/ Prerequisite: MGM3101 \n3(3+0) \nKursus ini merangkumi aspek penting tentang pengurusan rantaian bekalan dan logistik. Penggunaan \nsistem teknologi maklumat dalam pengurusan rantaian bekalan dan logistik diberi penekanan. \nThis course covers important aspects of logistic and supply chain management. The use of \ninformation technology system in logistics and supply chain management is emphasised."
+  },
+  {
+    "course_code": "MGM4284",
+    "course_name_malay": "Pengurusan Promosi",
+    "course_name_english": "Promotion Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3211"
+    ],
+    "description_malay": "Kursus ini merangkumi isu komunikasi pemasaran berintegrasi (KPB) menggunakan campuran komunikasi pemasaran dan mesej yang berbeza. Keperluan komunikasi yang berintegrasi, konsisten dan menarik minat bagi membentuk program KPB dalam pembuatan keputusan perniagaan diberi penekanan.",
+    "description_english": "This course covers issues of integrated marketing communications (IMC) using different marketing commmunication mix and messages. The need for integration, consistency and compelling communication to create an IMC program for business decision making is emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4284 \nPengurusan Promosi/ Promotion Management \nPrasyarat/ Prerequisite: MGM3211 \n3(3+0) \nKursus ini merangkumi isu komunikasi pemasaran berintegrasi (KPB) menggunakan campuran \nkomunikasi pemasaran dan mesej yang berbeza. Keperluan komunikasi yang berintegrasi, konsisten \ndan menarik minat bagi membentuk program KPB dalam pembuatan keputusan perniagaan diberi \npenekanan. \nThis course covers issues of integrated marketing communications (IMC) using different marketing \ncommmunication mix and "
+  },
+  {
+    "course_code": "MGM4285",
+    "course_name_malay": "Strategi Penjenamaan",
+    "course_name_english": "Branding Strategy",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3211"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep, teori dan strategi dalam pengurusan penjenamaan. Kepentingan dan isu semasa dalam pengurusan serta pemasaran jenama sesebuah organisasi perniagaan diberi penekanan.",
+    "description_english": "This course covers concepts, theories and strategies in branding management. The importance and current issues in brand management and marketing in a business organisation are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4285 Strategi Penjenamaan/ Branding Strategy \n3(3+0) \nPrasyarat/ Prerequisite: MGM3211 \nKursus ini merangkumi konsep, teori dan strategi dalam pengurusan penjenamaan. Kepentingan dan \nisu semasa dalam pengurusan serta pemasaran jenama sesebuah organisasi perniagaan diberi \npenekanan. \nThis course covers concepts, theories and strategies in branding management. The importance and \ncurrent issues in brand management and marketing in a business organisation are emphasised.) \n\n--- Page 19 ---\n70"
+  },
+  {
+    "course_code": "MGM4297",
+    "course_name_malay": "Pengurusan Produk Baharu",
+    "course_name_english": "New Product Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3211"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep, teori dan strategi dalam pengurusan produk baharu. Perancangan, pelaksanaan dan pengawalan pengurusan produk baharu dalam sesebuah organisasi perniagaan diberi penekanan.",
+    "description_english": "This course covers concepts, theories and strategies in new product management. The planning, implementation and controlling of new product management in a business organisation are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4297 Pengurusan Produk Baharu/ New Product Management \n3(3+0) \nPrasyarat/ Prerequisite: MGM3211 \nKursus ini merangkumi konsep, teori dan strategi dalam pengurusan produk baharu. Perancangan, \npelaksanaan dan pengawalan pengurusan produk baharu dalam sesebuah organisasi perniagaan \ndiberi penekanan. \nThis course covers concepts, theories and strategies in new product management. The planning, \nimplementation and controlling of new product management in a business organisation are \nemphasised."
+  },
+  {
+    "course_code": "MGM4321",
+    "course_name_malay": "Undang-undang Syarikat",
+    "course_name_english": "Company Law",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3352"
+    ],
+    "description_malay": "Kursus ini merangkumi undang-undang mengenai pemerbadanan dan pengurusan syarikat. Peraturan berkaitan proses, prosedur dan kesan penerimaan dan penggulungan syarikat turut diberi penekanan.",
+    "description_english": "This course covers the laws relating to the incorporation and management of companies. Regulations concerning the process, procedures and effects of company’s receivership and winding up are also emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4321 Undang-undang Syarikat/ Company Law \n3(3+0) \nPrasyarat/ Prerequisite: MGM3352 \nKursus ini merangkumi undang-undang mengenai pemerbadanan dan pengurusan syarikat. \nPeraturan berkaitan proses, prosedur dan kesan penerimaan dan penggulungan syarikat turut diberi \npenekanan. \nThis course covers the laws relating to the incorporation and management of companies. Regulations \nconcerning the process, procedures and effects of company’s receivership and winding up are also \nemphasized."
+  },
+  {
+    "course_code": "MGM4331",
+    "course_name_malay": "Undang-Undang Pekerjaan dan Perhubungan Industri",
+    "course_name_english": "Employment And Industrial Relations Law",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3352"
+    ],
+    "description_malay": "Kursus ini merangkumi perundangan yang mentadbir hubungan majikan dan pekerja dalam kontrak perkhidmatan. Peranan kesatuan sekerja, tindakan perusahaan dan bidang kuasa Mahkamah Perusahaan diberi penekanan.",
+    "description_english": "This course covers legislations governing the relationship of employers and employees in employment contract. The role of trade unions, industrial actions and the jurisdiction of the Industrial Court are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4331 \nUndang-Undang \nPekerjaan \ndan \nPerhubungan \nIndustri/ Employment And Industrial Relations Law \nPrasyarat/ Prerequisite: MGM3352 \n3(3+0) \nKursus ini merangkumi perundangan yang mentadbir hubungan majikan dan pekerja dalam kontrak \nperkhidmatan. Peranan kesatuan sekerja, tindakan perusahaan dan bidang kuasa Mahkamah \nPerusahaan diberi penekanan. \nThis course covers legislations governing the relationship of employers and employees in \nemployment contract. The role of trade unions, industr"
+  },
+  {
+    "course_code": "MGM4365",
+    "course_name_malay": "Undang-Undang Perdagangan Antarabangsa",
+    "course_name_english": "International Trade Law",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "MGM3352"
+    ],
+    "description_malay": "Kursus ini merangkumi perundangan yang mentadbir perdagangan antarabangsa. Pembiayaan dan insurans serta kaedah penyelesaian pertikaian perdagangan antarabangsa turut diberi penekanan.",
+    "description_english": "This course covers the laws governing international trade. Financing and insurance as well as international trade dispute resolution methods are also emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4365 \nUndang-Undang Perdagangan Antarabangsa/ International Trade Law \n3(3+0) \nPrasyarat/ Prerequisite: MGM3352 \nKursus ini merangkumi perundangan yang mentadbir perdagangan antarabangsa. Pembiayaan dan \ninsurans serta kaedah penyelesaian pertikaian perdagangan antarabangsa turut diberi penekanan. \nThis course covers the laws governing international trade. Financing and insurance as well as \ninternational trade dispute resolution methods are also emphasised."
+  },
+  {
+    "course_code": "MGM4903",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "8(0+8)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini membolehkan pelajar mempelajari mengenai industri bidang mereka. Pelajar juga diberi peluang memperolehi kemahiran praktikal dan pengalaman bekerja dalan projek bersama pakar industri.",
+    "description_english": "This course enables students to learn about the industry of their discipline. Students are also given the opportunity to acquire practical skills and experience working on projects alongside industry experts.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4903 Latihan Industri/ Industrial Training \n8(0+8) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini membolehkan pelajar mempelajari mengenai industri bidang mereka. Pelajar juga diberi \npeluang memperolehi kemahiran praktikal dan pengalaman bekerja dalan projek bersama pakar \nindustri. \nThis course enables students to learn about the industry of their discipline. Students are also given \nthe opportunity to acquire practical skills and experience working on projects alongside industry \nexpert"
+  },
+  {
+    "course_code": "MGM4959",
+    "course_name_malay": "Disertasi Bacelor",
+    "course_name_english": "Bachelor Dissertation",
+    "credits": "4(0+4)",
+    "prerequisites": [
+      "MGM4106"
+    ],
+    "description_malay": "Kursus ini merangkumi penyediaan cadangan penyelidikan, pelaksanaan dan pengendalian projek penyelidikan. Penggunaan pendekatan saintifik bagi menjana data secara sistematik melalui reka bentuk penyelidikan, pengumpulan dan analisis data yang sesuai adalah diberi penekanan.",
+    "description_english": "This course covers the preparation of a research proposal, implementation and conducting a research project. The use of scientific approaches to generate data systematically through appropriate research designs, data collection and analysis are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "MGM4959 Disertasi Bacelor/ Bachelor Dissertation \n4(0+4) \nPrasyarat/ Prerequisite: MGM4106 \nKursus ini merangkumi penyediaan cadangan penyelidikan, pelaksanaan dan pengendalian projek \npenyelidikan. Penggunaan pendekatan saintifik bagi menjana data secara sistematik melalui reka \nbentuk penyelidikan, pengumpulan dan analisis data yang sesuai adalah diberi penekanan. \nThis course covers the preparation of a research proposal, implementation and conducting a research \nproject. The use of scientifi"
+  },
+  {
+    "course_code": "FIN3101",
+    "course_name_malay": "Pengurusan Kewangan",
+    "course_name_english": "Financial Management",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi konsep nilai masa wang, risiko dan kadar pulangan pelaburan. Ianya juga menekankan penyediaan belanjawan modal untuk perancangan kewangan syarikat yang cekap dan lebih tersusun.",
+    "description_english": "This course covers the concept of time value of money, risk and return on investment. It also emphasised on the preparation of capital budgeting for efficient and more organized corporate financial planning.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN3101  Pengurusan Kewangan/ Financial Management \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi konsep nilai masa wang, risiko dan kadar pulangan pelaburan. Ianya juga \nmenekankan penyediaan belanjawan modal untuk perancangan kewangan syarikat yang cekap dan \nlebih tersusun. \nThis course covers the concept of time value of money, risk and return on investment. It also \nemphasised on the preparation of capital budgeting for efficient and more organized corporate financial "
+  },
+  {
+    "course_code": "FIN3102",
+    "course_name_malay": "Statistik untuk Kewangan",
+    "course_name_english": "Statistics for Finance",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi kaedah kuantitatif statistik dengan menggunakan perisian statistik yang berkaitan. Di samping itu, penginterpretasian hasil dapatan juga ditekankan.",
+    "description_english": "This course covers the quantitative methods of statistics by using related statistical software. In addition, the interpretation of the findings is also emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN3102 \nStatistik untuk Kewangan/ Statistics for Finance \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini merangkumi kaedah kuantitatif statistik dengan menggunakan perisian statistik yang \nberkaitan. Di samping itu, penginterpretasian hasil dapatan juga ditekankan. \nThis course covers the quantitative methods of statistics by using related statistical software. In \naddition, the interpretation of the findings is also emphasized."
+  },
+  {
+    "course_code": "FIN3103",
+    "course_name_malay": "Pasaran dan Institusi Kewangan",
+    "course_name_english": "Financial Market and Institutions",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3101"
+    ],
+    "description_malay": "Kursus ini menyediakan liputan menyeluruh mengenai pasaran dan institusi kewangan. Kursus ini memberi penekanan kepada instrument kewangan dan aktiviti Bank Negara dalam memastikan kestabilan pasaran kewangan.",
+    "description_english": "This course provides a comprehensive coverage on the financial market and institutions. This course emphasises on financial instruments and the activities of Bank Negara in assuring the stability of the financial market.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN3103  Pasaran dan Institusi Kewangan/ Financial Market and Institutions \n3(3+0) \nPrasyarat/ Prerequisite: FIN3101 \nKursus ini menyediakan liputan menyeluruh mengenai pasaran dan institusi kewangan. Kursus ini \nmemberi penekanan kepada instrument kewangan dan aktiviti Bank Negara dalam memastikan \nkestabilan pasaran kewangan. \nThis course provides a comprehensive coverage on the financial market and institutions. This course \nemphasises on financial instruments and the activities of Bank Negar"
+  },
+  {
+    "course_code": "FIN3104",
+    "course_name_malay": "Kewangan Keusahawanan",
+    "course_name_english": "Entrepreneurial Finance",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3101"
+    ],
+    "description_malay": "Kursus ini merangkumi sumber pembiayaan usaha niaga dan menilai perniagaan keusahawanan melalui kaedah penilaian perniagaan. Strategi perolehan modal dalam perniagaan turut diberi penekanan.",
+    "description_english": "This course covers sources of financing in business venture and evaluates the entrepreneurial firms with business evaluation methods. Strategies in obtaining capital for businesses are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN3104  Kewangan Keusahawanan/ Entrepreneurial Finance \n3(3+0) \nPrasyarat/ Prerequisite: FIN3101 \nKursus ini merangkumi sumber pembiayaan usaha niaga dan menilai perniagaan keusahawanan \nmelalui kaedah penilaian perniagaan. Strategi perolehan modal dalam perniagaan turut diberi \npenekanan. \nThis course covers sources of financing in business venture and evaluates the entrepreneurial firms \nwith business evaluation methods. Strategies in obtaining capital for businesses are emphasised."
+  },
+  {
+    "course_code": "FIN3301",
+    "course_name_malay": "Kewangan Peribadi",
+    "course_name_english": "Personal Finance",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3101"
+    ],
+    "description_malay": "Kursus ini merangkumi perancangan dan pengurusan kewangan peribadi untuk meningkatkan keupayaan membuat keputusan. Strategi perancangan kewangan dan jenis pelaburan ditekankan.",
+    "description_english": "This course covers planning and managing of personal finance to enhance decision making capability. Financial planning strategies and type of investments are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN3301 \nKewangan Peribadi/ Personal Finance \n3(3+0) \nPrasyarat/ Prerequisite: FIN3101 \nKursus ini merangkumi perancangan dan pengurusan kewangan peribadi untuk meningkatkan \nkeupayaan membuat keputusan. Strategi perancangan kewangan dan jenis pelaburan ditekankan. \nThis course covers planning and managing of personal finance to enhance decision making capability. \nFinancial planning strategies and type of investments are emphasised."
+  },
+  {
+    "course_code": "FIN4100",
+    "course_name_malay": "Asas Penyelidikan dalam Kewangan",
+    "course_name_english": "Basic Research in Finance",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3102"
+    ],
+    "description_malay": "Kursus ini merangkumi falsafah asas penyelidikan, konsep asas penyelidikan serta tujuan dan kepentingan penyelidikan. Kursus ini juga membincangkan langkah penyediaan cadangan penyelidikan dan kepentingan etika dan ketelusan dalam penyediaan laporan penyelidikan.",
+    "description_english": "This course covers the fundamental philosophy of research, basic concepts and the purposes and importance of research. This course also discusses the steps on preparation of research proposals and the importance of ethics and transparency in the preparation of research report.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4100  Asas Penyelidikan dalam Kewangan/ Basic Research in Finance \n3(3+0) \nPrasyarat/ Prerequisite: FIN3102 \nKursus ini merangkumi falsafah asas penyelidikan, konsep asas penyelidikan serta tujuan dan \nkepentingan penyelidikan. Kursus ini juga membincangkan langkah penyediaan cadangan \npenyelidikan dan kepentingan etika dan ketelusan dalam penyediaan laporan penyelidikan. \nThis course covers the fundamental philosophy of research, basic concepts and the purposes and \nimportance of research. T"
+  },
+  {
+    "course_code": "FIN4101",
+    "course_name_malay": "Kewangan Perbadanan",
+    "course_name_english": "Corporate Finance",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3101"
+    ],
+    "description_malay": "Kursus ini merangkumi teori dan aplikasi dalam menilai dan mentaksir belanjawan modal dalam kewangan perbadanan. Ianya juga meliputi struktur modal, dividen, penggabungan dan pengambilalihan serta pengurusan risiko.",
+    "description_english": "This course covers theories and applications in evaluating and assessing capital budgeting in corporate finance. It also include capital structure, dividends, mergers and acquisitions and risk management.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4101  Kewangan Perbadanan/ Corporate Finance \n3(3+0) \nPrasyarat/ Prerequisite: FIN3101 \nKursus ini merangkumi teori dan aplikasi dalam menilai dan mentaksir belanjawan modal dalam \nkewangan perbadanan. Ianya juga meliputi struktur modal, dividen, penggabungan dan \npengambilalihan serta pengurusan risiko. \nThis course covers theories and applications in evaluating and assessing capital budgeting in \ncorporate finance. It also include capital structure, dividends, mergers and acquisitions and r"
+  },
+  {
+    "course_code": "FIN4201",
+    "course_name_malay": "Analisis Penyata Kewangan",
+    "course_name_english": "Finance Statement Analysis",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3101"
+    ],
+    "description_malay": "Kursus ini merangkumi analisis dan penilaian penyata kewangan dan perakaunan korporat. Pulangan ke atas modal dilaburkan, analisis keberuntungan dan analisis kredit juga diberi penekanan.",
+    "description_english": "This course analyzes and evaluates corporate financial and accounting statements. Return on investment, profitability and credit analysis are also emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4201 \nAnalisis Penyata Kewangan/ Finance Statement Analysis \n3(3+0) \nPrasyarat/ Prerequisite: FIN3101 \nKursus ini merangkumi analisis dan penilaian penyata kewangan dan perakaunan korporat. Pulangan \nke atas modal dilaburkan, analisis keberuntungan dan analisis kredit juga diberi penekanan. \nThis course analyzes and evaluates corporate financial and accounting statements. Return on \ninvestment, profitability and credit analysis are also emphasised."
+  },
+  {
+    "course_code": "FIN4202",
+    "course_name_malay": "Analisis Pelaburan",
+    "course_name_english": "Investment Analysis",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3101"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip dan teknik kewangan yang boleh digunakan dalam analisis pelaburan di pasaran tempatan dan antarabangsa. Kandungan kursus ini boleh digunapakai dalam membuat keputusan pelaburan yang meyakinkan.",
+    "description_english": "The course covers finance principles and techniques used in investment analysis for local and international markets. The course contents can be used in making convincing investment decisions.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4202  Analisis Pelaburan/ Investment Analysis \n3(3+0) \nPrasyarat/ Prerequisite: FIN3101 \nKursus ini merangkumi prinsip dan teknik kewangan yang boleh digunakan dalam analisis pelaburan \ndi pasaran tempatan dan antarabangsa. Kandungan kursus ini boleh digunapakai dalam membuat \nkeputusan pelaburan yang meyakinkan. \nThe course covers finance principles and techniques used in investment analysis for local and \ninternational markets. The course contents can be used in making convincing investment"
+  },
+  {
+    "course_code": "FIN4959",
+    "course_name_malay": "Disertasi Bacelor",
+    "course_name_english": "Bachelor Dissertation",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN4100",
+      "FIN4301"
+    ],
+    "description_malay": "Kursus ini merangkumi penghasilan disertasi bacelor berdasarkan penyelidikan dalam bidang kewangan. Ianya juga melibatkan pengumpulan, analisis, dan interpretasi data serta pembentangan hasil penyelidikan.",
+    "description_english": "This course covers the production of a bachelor dissertation based on research related to finance. It involves data collection, analysis, interpretation, and presentation of research findings.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4959  Disertasi Bacelor/ Bachelor Dissertation \n3(3+0) \nPrasyarat/ Prerequisite: FIN4100 & FIN4301 \nKursus ini merangkumi penghasilan disertasi bacelor berdasarkan penyelidikan dalam bidang \nkewangan. Ianya juga melibatkan pengumpulan, analisis, dan interpretasi data serta pembentangan \nhasil penyelidikan. \nThis course covers the production of a bachelor dissertation based on research related to finance. It \ninvolves data collection, analysis, interpretation, and presentation of research find"
+  },
+  {
+    "course_code": "FIN4102",
+    "course_name_malay": "Teori dan Polisi Kewangan",
+    "course_name_english": "Finance Theory and Policy",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini membincangkan teori kewangan dalam aktiviti pengurusan kewangan syarikat. Aplikasi teori dalam proses pembuatan keputusan kewangan diberi penekanan.",
+    "description_english": "This course discusses finance theories in firms’ financial management activities. Application of theories in finance decision making process is emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4102 \nTeori dan Polisi Kewangan/ Finance Theory and Policy \n3(3+0) \nPrasyarat/ Prerequisite: Tiada/ None \nKursus ini membincangkan teori kewangan dalam aktiviti pengurusan kewangan syarikat. Aplikasi teori \ndalam proses pembuatan keputusan kewangan diberi penekanan. \nThis course discusses finance theories in firms’ financial management activities. Application of theories \nin finance decision making process is emphasised."
+  },
+  {
+    "course_code": "FIN4103",
+    "course_name_malay": "Kewangan Antarabangsa",
+    "course_name_english": "International Finance",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3101"
+    ],
+    "description_malay": "Kursus ini merangkumi pendedahan kepada pengurusan kewangan antarabangsa firma, teori dan kaedah yang bersesuaian. Penekanan juga diberikan dalam sistem pertukaran mata wang asing, derivatif matawang dan analisis risiko negara.",
+    "description_english": "This course gives exposure to the firm’s international financial management, theory and relevance techniques. Emphasize is given on the exchange rate system, currency derivatives and country risk analysis.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4103  Kewangan Antarabangsa/ International Finance \n3(3+0) \nPrasyarat/ Prerequisite: FIN3101 \nKursus ini merangkumi pendedahan kepada pengurusan kewangan antarabangsa firma, teori dan \nkaedah yang bersesuaian. Penekanan juga diberikan dalam sistem pertukaran mata wang asing, \nderivatif matawang dan analisis risiko negara. \nThis course gives exposure to the firm’s international financial management, theory and relevance \ntechniques. Emphasize is given on the exchange rate system, currency deri"
+  },
+  {
+    "course_code": "FIN4104",
+    "course_name_malay": "Teknologi Kewangan",
+    "course_name_english": "Financial Technology",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3101"
+    ],
+    "description_malay": "Kursus ini merangkumi evolusi teknologi kewangan berhubung kait dengan kecerdasan buatan. Tadbir urus serta peraturan sandboxes dan cabarannya turut diberi penekanan.",
+    "description_english": "This course covers the evolution of financial technology in relation to artificial intelligence. Governance as well as the rules of sandboxes and its challenges are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4104 \nTeknologi Kewangan/ Financial Technology \n3(3+0) \nPrasyarat/ Prerequisite: FIN3101 \nKursus ini merangkumi evolusi teknologi kewangan berhubung kait dengan kecerdasan buatan. Tadbir \nurus serta peraturan sandboxes dan cabarannya turut diberi penekanan. \nThis course covers the evolution of financial technology in relation to artificial intelligence. Governance \nas well as the rules of sandboxes and its challenges are emphasised."
+  },
+  {
+    "course_code": "FIN4203",
+    "course_name_malay": "Pengurusan Risiko",
+    "course_name_english": "Risk Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3101"
+    ],
+    "description_malay": "Kursus ini merangkumi jenis risiko kewangan kepada individu dan perniagaan. Kaedah pengukuran dan pengurusan risiko juga diberi penekanan.",
+    "description_english": "This course covers various financial risks to individuals and businesses. The measurements and management of risk are also emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4203 \nPengurusan Risiko/ Risk Management \n3(3+0) \nPrasyarat/ Prerequisite: FIN3101 \nKursus ini merangkumi jenis risiko kewangan kepada individu dan perniagaan. Kaedah pengukuran \ndan pengurusan risiko juga diberi penekanan. \nThis course covers various financial risks to individuals and businesses. The measurements and \nmanagement of risk are also emphasised."
+  },
+  {
+    "course_code": "FIN4204",
+    "course_name_malay": "Dagangan Sekuriti dan Pengurusan Portfolio",
+    "course_name_english": "Securities Trading and Portfolio Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3101"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip dan aplikasi analisis asas dalam dagangan sekuriti dan pengurusan portfolio. Strategi dalam dagangan sekuriti dan portfolio kewangan juga diberi penekanan.",
+    "description_english": "This course covers principles and application of fundamental analysis in securities trading and portfolio management. Strategies in securities trading and portfolio management investment are also emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4204 \nDagangan Sekuriti dan Pengurusan Portfolio/ Securities Trading and \nPortfolio Management \nPrasyarat/ Prerequisite: FIN3101 \n3(3+0) \nKursus ini merangkumi prinsip dan aplikasi analisis asas dalam dagangan sekuriti dan pengurusan \nportfolio. Strategi dalam dagangan sekuriti dan portfolio kewangan juga diberi penekanan. \nThis course covers principles and application of fundamental analysis in securities trading and portfolio \nmanagement. Strategies in securities trading and portfolio manag"
+  },
+  {
+    "course_code": "FIN4301",
+    "course_name_malay": "Etika, Tadbir Urus dan Kelakuan Profesional",
+    "course_name_english": "Ethics, Governance and Professional Conduct",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi teori, falsafah, isu-isu semasa berhubung dengan etika, tadbir urus dan tingkah laku profesional dalam persekitaran perniagaan dan industri kewangan. Dilema pembuatan keputusan kewangan juga diberi penekanan.",
+    "description_english": "This course covers theories, philosophies, and current issues in relation to ethics, governance, and professional conduct in business environment and financial industry. The dilemma in financial decision-making is also emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4301 \nEtika, Tadbir Urus dan Kelakuan Profesional/ Ethics, Governance and \nProfessional Conduct \nPrasyarat/ Prerequisite: Tiada/ None \n3(3+0) \nKursus ini merangkumi teori, falsafah, isu-isu semasa berhubung dengan etika, tadbir urus dan tingkah \nlaku profesional dalam persekitaran perniagaan dan industri kewangan. Dilema pembuatan keputusan \nkewangan juga diberi penekanan. \nThis course covers theories, philosophies, and current issues in relation to ethics, governance, and \nprofessional condu"
+  },
+  {
+    "course_code": "FIN4401",
+    "course_name_malay": "Ekonometrik Kewangan Gunaan",
+    "course_name_english": "Applied Financial Econometrics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3102"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep dan kaedah dalam bidang ekonometrik. Perbandingan antara pelbagai model ekonometrik kewangan dalam analisis data kewangan ditekankan.",
+    "description_english": "This course covers the concepts and methods in econometric. The comparison between variation of financial econometric models in financial data analysis is emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4401 \nEkonometrik Kewangan Gunaan/ Applied Financial Econometrics \n3(3+0) \nPrasyarat/ Prerequisite: FIN3102 \nKursus ini merangkumi konsep dan kaedah dalam bidang ekonometrik. Perbandingan antara pelbagai \nmodel ekonometrik kewangan dalam analisis data kewangan ditekankan. \nThis course covers the concepts and methods in econometric. The comparison between variation of \nfinancial econometric models in financial data analysis is emphasised."
+  },
+  {
+    "course_code": "FIN4402",
+    "course_name_malay": "Derivatif Kewangan",
+    "course_name_english": "Financial Derivatives",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3102"
+    ],
+    "description_malay": "Kursus ini merangkumi teori, prinsip dan aplikasi derivatif kewangan. Ia juga membincangkan konsep perlindungan nilai, arbitraj, dan spekulasi.",
+    "description_english": "This course covers theories, principles and application of financial derivatives. It also discusses the concepts of hedging, arbitrage, and speculation.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4402 \nDerivatif Kewangan/ Financial Derivatives \n3(3+0) \nPrasyarat/ Prerequisite: FIN3102 \nKursus ini merangkumi teori, prinsip dan aplikasi derivatif kewangan. Ia juga membincangkan konsep \nperlindungan nilai, arbitraj, dan spekulasi. \nThis course covers theories, principles and application of financial derivatives. It also discusses the \nconcepts of hedging, arbitrage, and speculation."
+  },
+  {
+    "course_code": "FIN4403",
+    "course_name_malay": "Kejuruteraan Kewangan",
+    "course_name_english": "Financial Engineering",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3103"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep dan aplikasi kejuruteraan kewangan. Penggunaan derivatif produk dalam pengurusan risiko juga dibincangkan.",
+    "description_english": "This course covers concept and application of financial engineering. The usage of derivative products for risk management is also discussed.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4403 \nKejuruteraan Kewangan/ Financial Engineering \n3(3+0) \nPrasyarat/ Prerequisite: FIN3103 \nKursus ini merangkumi konsep dan aplikasi kejuruteraan kewangan. Penggunaan derivatif produk \ndalam pengurusan risiko juga dibincangkan. \nThis course covers concept and application of financial engineering. The usage of derivative products \nfor risk management is also discussed."
+  },
+  {
+    "course_code": "FIN4404",
+    "course_name_malay": "Pemodelan Kewangan dan Data Analitik",
+    "course_name_english": "Financial Modeling and Data Analytics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3102"
+    ],
+    "description_malay": "Kursus ini merangkumi kaedah kuantitatif dan alat kewangan dalam penyelesaian masalah. Penggunaan perisian komputer dalam mereka bentuk model kewangan yang digunapakai dalam pasaran kewangan ditekankan.",
+    "description_english": "This course covers quantitative techniques and financial tools in problem solving. Application of computer software in designing financial models used in the financial market is emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4404 \nPemodelan Kewangan dan Data Analitik/ Financial Modeling and Data \nAnalytics \nPrasyarat/ Prerequisite: FIN3102 \nKursus ini merangkumi kaedah kuantitatif dan alat kewangan dalam penyelesaian masalah. \n3(3+0) \nPenggunaan perisian komputer dalam mereka bentuk model kewangan yang digunapakai dalam \npasaran kewangan ditekankan. \nThis course covers quantitative techniques and financial tools in problem solving. Application of \ncomputer software in designing financial models used in the financ"
+  },
+  {
+    "course_code": "FIN4501",
+    "course_name_malay": "Pengurusan Kewangan Islam",
+    "course_name_english": "Islamic Financial Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3101"
+    ],
+    "description_malay": "Kursus ini merangkumi teori, prinsip dan aplikasi kewangan dalam pembentukan sistem pengurusan kewangan Islam. Kursus ini juga menekankan kaedah pengiraan zakat menurut kaedah Islam.",
+    "description_english": "This course covers theories, principles and application of Islamic finance in developing an Islamic financial management system. This course also emphasizes on the computation of zakat based on Islamic method.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4501  Pengurusan Kewangan Islam/ Islamic Financial Management \n3(3+0) \nPrasyarat/ Prerequisite: FIN3101 \nKursus ini merangkumi teori, prinsip dan aplikasi kewangan dalam pembentukan sistem pengurusan \nkewangan Islam. Kursus ini juga menekankan kaedah pengiraan zakat menurut kaedah Islam. \nThis course covers theories, principles and application of Islamic finance in developing an Islamic \nfinancial management system. This course also emphasizes on the computation of zakat based on \nIslamic met"
+  },
+  {
+    "course_code": "FIN4105",
+    "course_name_malay": "Pengurusan Bank",
+    "course_name_english": "Bank Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3101"
+    ],
+    "description_malay": "Kursus ini merangkumi struktur, integriti peminjam, pembuatan keputusan pelaburan dan kewangan dalam sesebuah institusi kewangan dan sistem perbankan. Ianya menerangkan hubungkait yang rapat antara sistem perbankan dan pasaran kewangan Malaysia.",
+    "description_english": "This course covers structure, borrower integrity, investment and financial decision making in a financial institution and the banking system. It explains the close relationship between banking and Malaysian financial system.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4105  Pengurusan Bank/ Bank Management \n3(3+0) \nPrasyarat/ Prerequisite: FIN3101 \nKursus ini merangkumi struktur, integriti peminjam, pembuatan keputusan pelaburan dan kewangan \ndalam sesebuah institusi kewangan dan sistem perbankan. Ianya menerangkan hubungkait yang rapat \nantara sistem perbankan dan pasaran kewangan Malaysia. \nThis course covers structure, borrower integrity, investment and financial decision making in a financial \ninstitution and the banking system. It explains the close r"
+  },
+  {
+    "course_code": "FIN4205",
+    "course_name_malay": "Pelaburan Alternatif",
+    "course_name_english": "Alternative Investment",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3103"
+    ],
+    "description_malay": "Kursus ini merangkumi kaedah pelaburan alternatif dan memberikan pengetahuan terperinci dalam memahami konsep strategi pelaburan alternatif. Prosedur dalam pembinaan portfolio diberi penekanan.",
+    "description_english": "This course covers alternative investment tools and provides the knowledge in understanding the concept of hedge fund investment strategies. Procedures in portfolio construction are also emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4205  Pelaburan Alternatif/ Alternative Investment \n3(3+0) \nPrasyarat/ Prerequisite: FIN3103 \nKursus ini merangkumi kaedah pelaburan alternatif dan memberikan pengetahuan terperinci dalam \nmemahami konsep strategi pelaburan alternatif. Prosedur dalam pembinaan portfolio diberi \npenekanan. \nThis course covers alternative investment tools and provides the knowledge in understanding the \nconcept of hedge fund investment strategies. Procedures in portfolio construction are also emphasised."
+  },
+  {
+    "course_code": "FIN4302",
+    "course_name_malay": "Perkhidmatan Kewangan Terkhusus",
+    "course_name_english": "Specialised Financial Services",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3103"
+    ],
+    "description_malay": "Kursus ini merangkumi perkhidmatan kewangan yang ditawarkan oleh institusi kewangan. Teknologi kewangan dan proses pembiayaan turut diberi penekanan.",
+    "description_english": "This course covers financial services offered by the financial institutions. Financial technology and financing process are emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4302 \nPerkhidmatan Kewangan Terkhusus/ Specialised Financial Services \n3(3+0) \nPrasyarat/ Prerequisite: FIN3103 \nKursus ini merangkumi perkhidmatan kewangan yang ditawarkan oleh institusi kewangan. Teknologi \nkewangan dan proses pembiayaan turut diberi penekanan. \nThis course covers financial services offered by the financial institutions. Financial technology and \nfinancing process are emphasised."
+  },
+  {
+    "course_code": "FIN4405",
+    "course_name_malay": "Sekuriti Pendapatan Tetap",
+    "course_name_english": "Fixed Income Securities",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3103"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai istilah pelaburan kewangan, teori dan pelbagai alat pengiraan kewangan bagi sekuriti pendapatan tetap. Aplikasi dan pengukuran setiap pelaburan kewangan juga ditekankan.",
+    "description_english": "This course covers the variety of financial investment terms, theories and several financial computation tools for fixed income securities. The application and measurement of each financial investment also emphasised.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4405  Sekuriti Pendapatan Tetap/ Fixed Income Securities \n3(3+0) \nPrasyarat/ Prerequisite: FIN3103 \nKursus ini merangkumi pelbagai istilah pelaburan kewangan, teori dan pelbagai alat pengiraan \nkewangan bagi sekuriti pendapatan tetap. Aplikasi dan pengukuran setiap pelaburan kewangan juga \nditekankan. \nThis course covers the variety of financial investment terms, theories and several financial computation \ntools for fixed income securities. The application and measurement of each financial in"
+  },
+  {
+    "course_code": "FIN4901",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "FIN3103",
+      "FIN4102",
+      "FIN4201",
+      "FIN4301"
+    ],
+    "description_malay": "Kursus ini merangkumi pendedahan pelajar kepada persekitaran kerja sebenar di industri. Latihan meliputi aplikasi pengetahuan kewangan gunaan yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran komunikasi, kerja berkumpulan dan menyelesaikan masalah secara beretika turut diberi penekanan.",
+    "description_english": "This course covers students’ exposure to the real work environment in the industry. The training covers the application of applied financial knowledge that has been learned with current practices in the workplace. Communication, teamwork and ethical problem-solving skills are also emphasized.",
+    "department": null,
+    "faculty": "Sekolah Perniagaan dan Ekonomi",
+    "source_chunk": "FIN4901  Latihan Industri/ Industrial Training \n3(3+0) \nPrasyarat/ Prerequisite: FIN3103, FIN4102, FIN4201 & FIN4301 \nKursus ini merangkumi pendedahan pelajar kepada persekitaran kerja sebenar di industri. Latihan \nmeliputi aplikasi pengetahuan kewangan gunaan yang telah dipelajari dengan amalan semasa di \ntempat kerja. Kemahiran komunikasi, kerja berkumpulan dan menyelesaikan masalah secara beretika \nturut diberi penekanan. \nThis course covers students’ exposure to the real work environment in "
+  }
+]

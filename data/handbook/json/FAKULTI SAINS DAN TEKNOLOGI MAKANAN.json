@@ -1,0 +1,1447 @@
+[
+  {
+    "course_code": "FST3110",
+    "course_name_malay": "Biokimia Makanan",
+    "course_name_english": "Food Biochemistry",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip dan proses biokimia yang berlaku dalam sistem hidupan dan makanan. Penekanan kursus ini meliputi air dan sistem penimbal,  pemangkinan berenzim,  bioenergetik, laluan metabolik biomolekul utama, fotosintesis, dan proses transkripsi dan translasi. Hubung kait proses biokimia dengan penghasilan makanan dibincangkan.",
+    "description_english": "This course covers the principles of biochemistry and  biochemical processes occurring in living and food systems. This course emphasises water and buffer systems,  enzyme catalysis,  bioenergetics,  metabolic pathways of major biomolecules,  photosynthesis, transcription and translation processes. The relationships of biochemical processes and food production are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3110 \nBiokimia Makanan/ Food Biochemistry \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi prinsip dan proses biokimia yang berlaku dalam sistem hidupan dan makanan. \nPenekanan kursus ini meliputi air dan sistem penimbal,  pemangkinan berenzim,  bioenergetik, laluan \nmetabolik biomolekul utama, fotosintesis, dan proses transkripsi dan translasi. Hubung kait proses \nbiokimia dengan penghasilan makanan dibincangkan. \nThis course covers the principles of biochemistry and  biochemical pr"
+  },
+  {
+    "course_code": "FST3111",
+    "course_name_malay": "Kimia Komponen Makanan",
+    "course_name_english": "Chemistry of Food Components",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi sifat fizikokimia dan kefungsian komponen makro dan mikro makanan khususnya air, karbohidrat, serat dietari, protein dan enzim, lipid, vitamin, mineral, perisa, pigmen, bahan toksik semulajadi, bahan cemar, dan aditif makanan. Peranan komponen dan interaksi dalam sistem makanan dibincangkan.",
+    "description_english": "This course covers the physicochemical and functional properties of food macro- and micro-components specifically water, carbohydrates, dietary fibres, proteins and enzymes, lipids, vitamins, minerals, flavours, pigments, natural toxicants, contaminants and food additives. The roles of the components and their interactions in food systems are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3111 \nKimia \nKomponen \nMakanan/ \nChemistry \nof \nFood \nComponents \n3 (3 + 0) \n \nPrasyarat: Tiada/ None \nKursus ini merangkumi sifat fizikokimia dan kefungsian komponen makro dan mikro makanan \nkhususnya air, karbohidrat, serat dietari, protein dan enzim, lipid, vitamin, mineral, perisa, pigmen, \nbahan toksik semulajadi, bahan cemar, dan aditif makanan. Peranan komponen dan interaksi dalam \nsistem makanan dibincangkan.    \nThis course covers the physicochemical and functional properties of food"
+  },
+  {
+    "course_code": "FST3113",
+    "course_name_malay": "Perubahan Pemakanan dalam Makanan",
+    "course_name_english": "Nutritional Changes in Foods",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi sumbangan dan kepentingan nutrien ke atas kesihatan, pemakanan untuk golongan tertentu dan penilaian status pemakanan. Perubahan kualiti nutrien semasa pemprosesan dan penstoran makanan turut dibincangkan.",
+    "description_english": "This course covers the contribution and significance of nutrients in health, nutrition for special groups and nutritional status assessment. Nutritional changes that occur during processing and storage of food will also be discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3113 \nPerubahan Pemakanan dalam Makanan/ Nutritional \nChanges in Foods \n3 (3 + 0) \n \nPrasyarat: Tiada/ None \nKursus ini meliputi sumbangan dan kepentingan nutrien ke atas kesihatan, pemakanan untuk \ngolongan tertentu dan penilaian status pemakanan. Perubahan kualiti nutrien semasa pemprosesan \ndan penstoran makanan turut dibincangkan.  \nThis course covers the contribution and significance of nutrients in health, nutrition for special groups \nand nutritional status assessment.Nutritional chang"
+  },
+  {
+    "course_code": "FST3114",
+    "course_name_malay": "Kimia dan Analisis Komponen Makro Makanan",
+    "course_name_english": "Chemistry and Analysis of Food Macro-Components",
+    "credits": "4 (2 + 2)",
+    "prerequisites": [
+      "FST3110"
+    ],
+    "description_malay": "Kursus ini merangkumi sifat fizikokimia komponen makro makanan. Perkaitan di antara sifat fizkikokimia dan kefungsian komponen makro berkenaan dalam makanan dibincangkan. Aplikasi teknik kimia dan instrumentasi menggunakan kaedah rujukan dalam analisis komponen makro makanan diberi penekanan.",
+    "description_english": "This course covers the physicochemical properties of macro components. The relationship between physicochemical and functional properties of these macro-components in foods are discussed. Application of chemical and instrumental techniques with reference methods in the analysis of food macro-components is emphasised.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3114 \nKimia dan Analisis Komponen Makro Makanan/ \nChemistry and Analysis of Food Macro-Components \n4 (2 + 2) \n \nPrasyarat: FST3110 \nKursus ini merangkumi sifat fizikokimia komponen makro makanan. Perkaitan di antara sifat \nfizikokimia dan kefungsian komponen makro berkenaan dalam makanan dibincangkan. Aplikasi \nteknik kimia dan instrumentasi menggunakan kaedah rujukan dalam analisis komponen makro \nmakanan diberi penekanan. \nThis course covers the physicochemical properties of macro component"
+  },
+  {
+    "course_code": "FST3115",
+    "course_name_malay": "Kimia dan Analisis Komponen Mikro Makanan",
+    "course_name_english": "Chemistry and Analysis of Food Micro-Components",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST3110"
+    ],
+    "description_malay": "Kursus ini meliputi sifat fizikokimia komponen mikro makanan. Perkaitan di antara sifat fizikokimia dan kefungsian komponen mikro berkenaan dalam makanan diberi penekanan. Aplikasi kaedah utama yang digunakan dalam analisis komponen mikro makanan turut dibincangkan.",
+    "description_english": "This course covers the physicochemical properties of micro-components of food. The relationship between the physicochemical and their functional properties in foods is emphasised. Application of the main methods in the analysis of food micro-components is discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3115 \nKimia \ndan \nAnalisis \nKomponen \nMikro \nMakanan/ \nChemistry and Analysis of Food Micro-Components \n3 (2 + 1) \nPrasyarat: FST3110 \nKursus ini meliputi sifat fizikokimia komponen mikro makanan. Perkaitan di antara sifat fizikokimia \ndan kefungsian komponen mikro berkenaan dalam makanan diberi penekanan. Aplikasi kaedah \nutama yang digunakan dalam analisis komponen mikro makanan turut dibincangkan. \nThis course covers the physicochemical properties of micro-components of food. The relations"
+  },
+  {
+    "course_code": "FST3201",
+    "course_name_malay": "Mikrobiologi Makanan Asas",
+    "course_name_english": "Basic Food Microbiology",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi pengenalan kepada mikrobiologi dan teknik asas yang digunakan di makmal. Penekanan diberi kepada sifat dan pengkelasan mikroorganisma, taksonomi dan penamaan, dan struktur dan fungsi sel prokariot dan eukariot. Pengkulturan dan pemeliharaan mikroorganisma, pembiakan dan tumbesaran, metabolisme dan biosintesis, kawalan tumbesaran mikroorganisma, genetik mikroorganisma, dan mikroorganisma bawaan makanan yang penting dibincangkan",
+    "description_english": "This course covers the introduction to microbiology and basic techniques used in the laboratory. Emphasis is given to microbial characteristics and classification, taxonomy and nomenclature, and structures and functions of prokaryotes and eukaryotes. Cultivation and maintenance of cultures, reproduction and growth, metabolism and biosynthesis, control of microbial growth, microbial genetics, and important foodborne microorganisms are discussed",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3201 \nMikrobiologi Makanan Asas/ Basic Food Microbiology \n3 (2 + 1) \nPrasyarat: Tiada/ None \nKursus ini meliputi pengenalan kepada mikrobiologi dan teknik asas yang digunakan di makmal. \nPenekanan diberi kepada sifat dan pengkelasan mikroorganisma, taksonomi dan penamaan, dan \nstruktur dan fungsi sel prokariot dan eukariot. Pengkulturan dan pemeliharaan mikroorganisma, \npembiakan dan tumbesaran, metabolisme dan biosintesis, kawalan tumbesaran mikroorganisma, \ngenetik mikroorganisma, dan mikro"
+  },
+  {
+    "course_code": "FST3202",
+    "course_name_malay": "Mikrobiologi Makanan",
+    "course_name_english": "Food Microbiology",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST3201"
+    ],
+    "description_malay": "Kursus ini meliputi peranan dan kepentingan mikroorganisma dalam makanan. Penekanan diberi kepada kaedah pengawalan tumbesaran mikroorganisma melalui pemprosesan dan pengawetan makanan. Cabaran baharu seperti kerintangan mikroorganisma terhadap antibiotik dibincangkan.",
+    "description_english": "This course covers the role and importance of microorganisms in food. Emphasis is given to methods of controlling the growth of microorganisms through food processing and preservation. New challenges such as the resistance of microorganisms against antibiotics are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3202 \nMikrobiologi Makanan/ Food Microbiology \n3 (2 + 1) \nPrasyarat: FST3201 \nKursus ini meliputi peranan dan kepentingan mikroorganisma dalam makanan. Penekanan diberi \nkepada kaedah pengawalan tumbesaran mikroorganisma melalui pemprosesan dan pengawetan \nmakanan. Cabaran baharu seperti kerintangan mikroorganisma terhadap antibiotik dibincangkan. \nThis course covers the role and importance of microorganisms in food. Emphasis is given to methods \nof controlling the growth of microorganisms th"
+  },
+  {
+    "course_code": "FST3601",
+    "course_name_malay": "Kebersihan dan Sanitasi Makanan",
+    "course_name_english": "Food Hygiene and Sanitation",
+    "credits": "2 (2 + 0)",
+    "prerequisites": [
+      "FST3202"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip kebersihan dan sanitasi dalam rantaian bekalan makanan daripada penyimpanan bahan mentah, pemprosesan, pengedaran, hingga kepada pengguna. Hubung kait antara pencemaran mikroorganisma dan pemprosesan makanan dibincangkan. Teknologi pembersihan, kualiti air,  pengendalian sisa produk, kawalan perosak dan reka bentuk sanitasi dalam pemprosesan makanan ditekankan.",
+    "description_english": "This course covers the principles of hygiene and sanitation in the food supply chain from raw material storage, processing, distribution to the consumer. The relationship between microorganism contamination and food processing is discussed. Cleaning technology, water quality, product waste management, pest control and sanitation design in food processing are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3601 \nKebersihan dan Sanitasi Makanan/ Food Hygiene and \nSanitation \n     2 (2 + 0) \nPrasyarat: FST3202 \nKursus ini merangkumi prinsip kebersihan dan sanitasi dalam rantaian bekalan makanan daripada \npenyimpanan bahan mentah, pemprosesan, pengedaran, hingga kepada pengguna. Hubung kait \nantara pencemaran mikroorganisma dan pemprosesan makanan dibincangkan. Teknologi \npembersihan, kualiti air,  pengendalian sisa produk, kawalan perosak dan reka bentuk sanitasi dalam \npemprosesan makanan diteka"
+  },
+  {
+    "course_code": "FST3702",
+    "course_name_malay": "Makanan dan Kesihatan",
+    "course_name_english": "Food and Health",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi sumbangan dan kepentingan nutrien serta kaitannya dengan kesihatan dalam setiap peringkat kitaran hidup manusia.  Penekanan diberi kepada peranan diet untuk kesihatan optimum termasuk meningkatkan fungsi imun, pengurusan stres dan pencegahan penyakit kronik. Isu semasa berkaitan pemakanan dibincangkan.",
+    "description_english": "This course covers contribution and significance of nutrients on health at each stage of lifecycle. Emphasis is given to the roles of diet for optimum health including for the improvement of immune functions, stress management and prevention of chronic diseases. Current issues related to nutrition are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3702 \nMakanan dan Kesihatan/ Food and Health \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi sumbangan dan kepentingan nutrien serta kaitannya dengan kesihatan dalam \nsetiap peringkat kitaran hidup manusia.  Penekanan diberi kepada peranan diet untuk kesihatan \noptimum termasuk meningkatkan fungsi imun, pengurusan stres dan pencegahan penyakit kronik. \nIsu semasa berkaitan pemakanan dibincangkan. \nThis course covers contribution and significance of nutrients on health at each stage "
+  },
+  {
+    "course_code": "FST4110",
+    "course_name_malay": "Makanan Masa Hadapan",
+    "course_name_english": "Future Foods",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FST3110"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep dan pembangunan makanan masa hadapan serta kaitannya dengan keperluan dan permintaan semasa. Penekanan diberikan kepada reka bentuk pelbagai jenis makanan masa hadapan dengan menggunakan sumber baharu dan kaedah terkini. Kelestarian alam sekitar dalam pembuatan makanan masa hadapan menggunakan teknologi termaju dibincangkan.",
+    "description_english": "This course covers the concept and development of future food and its relation to the needs and current demand. Emphasis is given on the design of a wide variety of future foods using new sources and the latest methods. Environmental sustainability in future food manufacturing using advanced technology is discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4110 \nMakanan Masa Hadapan/ Future Foods \n3 (3 + 0) \nPrasyarat: FST3110 \nKursus ini merangkumi konsep dan pembangunan makanan masa hadapan serta kaitannya dengan \nkeperluan dan permintaan semasa. Penekanan diberikan kepada reka bentuk pelbagai jenis \nmakanan masa hadapan dengan menggunakan sumber baharu dan kaedah terkini. Kelestarian alam \nsekitar dalam pembuatan makanan masa hadapan menggunakan teknologi termaju dibincangkan. \nThis course covers the concept and development of future food an"
+  },
+  {
+    "course_code": "FST4201",
+    "course_name_malay": "Kaedah Pantas dalam Analisis Makanan",
+    "course_name_english": "Rapid Methods in Food Analysis",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST3202"
+    ],
+    "description_malay": "Kursus ini meliputi pengetahuan asas dan organisasi genetik mikroorganisma serta organisma peringkat tinggi. Prinsip dan aplikasi teknologi molekular, immunoasai, dan biosensor dalam kaedah pantas untuk diagnostik makanan dibincangkan.",
+    "description_english": "This course covers basic knowledge and genetic organization of microorganisms and high level organisms. The principles and applications of molecular, immunoassay, and biosensor technologies in rapid methods for food diagnostics are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4201 \nKaedah Pantas dalam Analisis Makanan/ Rapid Methods in \nFood Analysis \n3 (2 + 1) \nPrasyarat: FST3202 \nKursus ini meliputi pengetahuan asas dan organisasi genetik mikroorganisma serta organisma \nperingkat tinggi. Prinsip dan aplikasi teknologi molekular, immunoasai, dan biosensor dalam kaedah \npantas untuk diagnostik makanan dibincangkan. \nThis course covers basic knowledge and genetic organization of microorganisms and high level \norganisms. The principles and applications of molecular,"
+  },
+  {
+    "course_code": "FST4504",
+    "course_name_malay": "Mikrobiologi Industri Makanan",
+    "course_name_english": "Industrial Food Microbiology",
+    "credits": "4 (3 + 1)",
+    "prerequisites": [
+      "FST3201"
+    ],
+    "description_malay": "Kursus ini meliputi prinsip fermentasi dan kegunaan mikroorganisma dalam industri makanan. Topik meliputi industri makanan, pasaran tempatan dan global, jenis fermentasi, kultur pemula, industri makanan terfermentasi dan perkembangan, ramuan makanan yang dihasilkan melalui teknologi fermentasi dan perubahan tekstur dan perisa semasa penuaan dan pematangan",
+    "description_english": "This course covers the principles of fermentation and use of microorganisms in food industry. Topics covered will be food industry local and global market, types of fermentation, fermentation process, starter cultures, fermented foods and development of the industry, food ingredients produced by fermentation technology and textural and flavour changes during ageing and maturity",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4504 \nMikrobiologi \nIndustri \nMakanan/ \nIndustrial \nFood \nMicrobiology \n4 (3 + 1) \nPrasyarat: FST3201 \nKursus ini meliputi prinsip fermentasi dan kegunaan mikroorganisma dalam industri makanan. Topik \nmeliputi industri makanan, pasaran tempatan dan global, jenis fermentasi, kultur pemula, industri \nmakanan terfermentasi dan perkembangan, ramuan makanan yang dihasilkan melalui teknologi \nfermentasi dan perubahan tekstur dan perisa semasa penuaan dan pematangan \nThis course covers the principle"
+  },
+  {
+    "course_code": "FST4505",
+    "course_name_malay": "Biopemprosesan Makanan",
+    "course_name_english": "Food Bioprocessing",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi trend penggunaan, sumber dan aplikasi enzim dalam industri makanan. Prinsip, jenis dan penggunaan mikroorganisma dalam industri makanan terfermentasi dibincangkan. Isu terkini penggunaan enzim dan proses fermentasi dalam pelbagai industri makanan ditekankan.",
+    "description_english": "This course covers usage trends, sources, and application of enzymes in the food industry. The principles, types and the use of microorganisms in fermented food industry are discussed. Current issues in the use of enzymes and fermentation processes in various food industries are emphasised.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4505 \nBiopemprosesan Makanan/ Food Bioprocessing \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus   ini  meliputi trend penggunaan, sumber dan aplikasi enzim dalam industri makanan. Prinsip, \njenis dan penggunaan mikroorganisma dalam  industri makanan terfermentasi dibincangkan. Isu \nterkini penggunaan enzim dan proses fermentasi dalam pelbagai industri makanan ditekankan. \nThis course covers usage trends, sources, and application of enzymes in the food industry. The \nprinciples, types and the use "
+  },
+  {
+    "course_code": "FST4611",
+    "course_name_malay": "Keselamatan Kimia Makanan",
+    "course_name_english": "Food Chemical Safety",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FST3110"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep dan ciri keselamatan kimia makanan termasuk prinsip toksikologi dan perundangan. Kejadian bahan toksik semulajadi dan yang terhasil daripada pemprosesan makanan dan amalan manusia, serta bahan tambah dalam makanan dihuraikan. Kaedah penilaian keselamatan makanan dan isu semasa dibincangkan.",
+    "description_english": "This course covers the concepts and characteristics of chemical food safety including principles of toxicology and legislation. The incidence of natural contaminants and contaminants resulting from the processing of food and human practices, as well as additive substances in food are described. Food safety assessment methods and current issues are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4611 \nKeselamatan Kimia Makanan/ Food Chenical Safety \n3 (3 + 0) \nPrasyarat: FST3110 \nKursus ini merangkumi konsep dan ciri keselamatan kimia makanan termasuk prinsip toksikologi dan \nperundangan. Kejadian bahan toksik semulajadi dan yang terhasil daripada pemprosesan makanan \ndan amalan manusia, serta bahan tambah dalam makanan dihuraikan. Kaedah penilaian \nkeselamatan makanan dan isu semasa dibincangkan.  \nThis course covers the concepts and characteristics of chemical food safety including"
+  },
+  {
+    "course_code": "FST4612",
+    "course_name_malay": "Pengurusan Kualiti Makanan",
+    "course_name_english": "Food Quality Management",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FST4611"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep kualiti dan aplikasi Sistem Pengurusan Keselamatan Makanan,  Sistem Pengurusan Kualiti Makanan, dan Pengurusan Kualiti Menyeluruh oleh industri makanan.  Konsep dan aplikasi pelan pensampelan dan kawalan kualiti melalui analisis statistik diberi penekanan. Permasalahan pengurusan kualiti makanan dan cadangan penyelesaian bagi meningkatkan  kualiti makanan dibincangkan.",
+    "description_english": "This course covers the concept of quality, and application of Food Safety Management System, Food Quality Management Systems, and Total Quality Management in the food industry. Concept and application of sampling plan and quality control through statistical analysis are emphasized.  Issues of food quality management and proposed solutions for improving the quality of food are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4612 \nPengurusan Kualiti Makanan/ Food Quality Management \n3 (3 + 0) \nPrasyarat: FST4611 \nKursus ini merangkumi konsep kualiti dan aplikasi Sistem Pengurusan Keselamatan Makanan,  \nSistem Pengurusan Kualiti Makanan, dan Pengurusan Kualiti Menyeluruh oleh industri makanan.  \nKonsep dan aplikasi pelan pensampelan dan kawalan kualiti melalui analisis statistik diberi \npenekanan. Permasalahan pengurusan kualiti makanan dan cadangan penyelesaian bagi \nmeningkatkan  kualiti makanan dibincangkan. \nT"
+  },
+  {
+    "course_code": "FST4705",
+    "course_name_malay": "Makanan Fungsian",
+    "course_name_english": "Functional Food",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FST3115"
+    ],
+    "description_malay": "Kursus ini meliputi sebatian bioaktif dalam makanan, kebaikannya kepada kesihatan dan mekanisme yang dicadangkan. Pelbagai sebatian bioaktif dan hubung kait dengan aktiviti biologi, teknologi penghasilan dan operasi pasca pemprosesan ramuan makanan fungsian ditekankan. Kesan pemprosesan terhadap keberkesanan dan kebolehdapatan bio, kawalan kualiti dan piawaian, isu keselamatan dan status peraturan makanan dibincangkan.",
+    "description_english": "The course covers bioactive compounds in food, its benefits to health, and proposed mechanisms. Various bioactive compounds and their correlations with biological activities, production technologies, and post-processing operations of functional food ingredients are emphasized. The effect of processing on bioavailability, quality control and standards, safety issues, and food regulatory status are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4705 \nMakanan Fungsian/ Functional Food \n3 (3 + 0) \nPrasyarat: FST3115 \nKursus   ini   meliputi   sebatian   bioaktif  dalam makanan, kebaikannya kepada kesihatan dan \nmekanisme yang dicadangkan. Pelbagai sebatian bioaktif  dan hubung kait dengan aktiviti biologi, \nteknologi penghasilan dan operasi pasca pemprosesan ramuan makanan fungsian ditekankan. \nKesan pemprosesan terhadap keberkesanan dan kebolehdapatan bio, kawalan kualiti dan piawaian, \nisu keselamatan dan status peraturan makanan di"
+  },
+  {
+    "course_code": "FST4823",
+    "course_name_malay": "Kebersihan Makanan dan Sanitasi",
+    "course_name_english": "Food Hygiene and Sanitation",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FST3201"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip kebersihan dan sanitasi dalam industri pembuatan dan penyediaan makanan. Reka bentuk bersih dan konsep Cleaning-In-Place (CIP) turut dibincangkan.",
+    "description_english": "This course covers principles of hygiene and sanitation in the industry of food service and manufacturing. Hygienic design and Cleaning-In-Place (CIP) concept are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4823 \nKebersihan Makanan dan Sanitasi/ Food Hygiene and \nSanitation \n3 (3 + 0) \nPrasyarat: FST3201 \nKursus ini merangkumi prinsip kebersihan dan sanitasi dalam industri pembuatan dan penyediaan \nmakanan. Reka bentuk bersih dan konsep Cleaning-In-Place (CIP) turut dibincangkan. \nThis course covers principlesi of hygiene and sanitation in the industry of food service and \nmanufacturing. Hygienic design and Cleaning-In-Place (CIP) concept are also discussed."
+  },
+  {
+    "course_code": "FST4824",
+    "course_name_malay": "Pengurusan Kualiti Makanan",
+    "course_name_english": "Food Quality Management",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi konsep sistem pengurusan kualiti dan keselamatan makanan dalam industry makanan. Penilaian keberkesanan dan aplikasi statistic dalam kawalan proses turut dibincangkan.",
+    "description_english": "This course covers concept of food quality and food safety management systems in food industry. Evaluation of effectiveness and application of statistical process control will also be discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4824 \nPengurusan Kualiti Makanan/ Food Quality Management \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi konsep sistem pengurusan kualiti dan keselamatan makanan dalam industry \nmakanan. Penilaian keberkesanan dan aplikasi statistic dalam kawalan proses turut dibincangkan. \nThis course covers concept of food quality and food safety management systems in food industry. \nEvaluation of effectiveness and application of statistical process control will also be discussed."
+  },
+  {
+    "course_code": "FST4833",
+    "course_name_malay": "Pengendalian Lepastuai Buahan dan Sayuran",
+    "course_name_english": "Postharvest Handling of Fruits and Vegetables",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST4830"
+    ],
+    "description_malay": "Kursus ini merangkumi perubahan biokimia dan sifat fizikal lepas tuai buahan dan sayuran. Penekanan diberi kepada aktiviti pengendalian lepas tuai, kriteria kualiti, indeks kematangan, kaedah rawatan semasa pemprosesan, pembaziran lepastuai dan gangguan fisiologi semasa penstoran. Kesan penggunaan teknologi Revolusi Perindustrian Keempat (IR4.0) ke atas kualiti dalam rantaian bekalan untuk penghasilan buahan dan sayuran dibincangkan.",
+    "description_english": "This course covers the biochemical changes and physical properties of postharvest fruits and vegetables. Emphasis is given on the postharvest handling activities, quality criteria, maturity index, treatment methods during processing, postharvest losses and physiological disorder during storage. The impact of the use of Fourth Industrial Revolution (4IR) technology on quality in supply chain for fruit and vegetable production is discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4833 \nPengendalian \nLepastuai \nBuahan \ndan \nSayuran/ \nPostharvest Handling of Fruits and Vegetables \n3 (2 + 1) \nPrasyarat: FST4830  \nKursus ini merangkumi perubahan biokimia dan sifat fizikal lepas tuai buahan dan sayuran. \nPenekanan diberi kepada aktiviti pengendalian lepas tuai, kriteria kualiti, indeks kematangan, kaedah \nrawatan semasa pemprosesan, pembaziran lepastuai dan gangguan fisiologi semasa penstoran. \nKesan penggunaan teknologi Revolusi Perindustrian Keempat (IR4.0) ke atas kuali"
+  },
+  {
+    "course_code": "FST4959",
+    "course_name_malay": "Disertasi Bacelor",
+    "course_name_english": "Bachelor Dissertation",
+    "credits": "6 (0 + 6)",
+    "prerequisites": [
+      "FST4959A",
+      "FST4959B"
+    ],
+    "description_malay": "Kursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk sesuatu projek penyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui reka bentuk, pengumpulan dan analisis data yang sesuai diberikan penekanan",
+    "description_english": "This course covers the preparation of proposal, implementation, and scientific writing of research project. Scientific approach to generate data systematically through appropriate design, data collection and analysis are emphasised.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4959 \nDisertasi Bacelor/ Bachelor Dissertation \n6 (0 + 6) \nPrasyarat: Pelajar Semester 6 (FST4959A) dan Semester 7 (FST 4959B) BSTM \nKursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk sesuatu \nprojek penyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui reka bentuk, \npengumpulan dan analisis data yang sesuai diberikan penekanan \nThis course covers the preparation of proposal, implementation,and scientific writing of research \nproject."
+  },
+  {
+    "course_code": "FSM3101",
+    "course_name_malay": "Kimia dan Fungsi Ramuan Makanan",
+    "course_name_english": "Chemistry and Functionality of Food Ingredients",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi peranan, sifat dan aplikasi komponen makanan dalam penghasilan produk. Peranan dan kesan ramuan turut dibincangkan.",
+    "description_english": "This course covers the role, properties, and application of food components in food production. The functions and effects of ingredients will be discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3101 \nKimia dan Fungsi Ramuan Makanan/ Chemistry and \nFunctionality of Food Ingredients \n3 (2 + 1) \nPrasyarat: Tiada/ None \nKursus ini merangkumi peranan, sifat dan aplikasi komponen makanan dalam penghasilan produk. \nPeranan dan kesan ramuan turut dibincangkan. \nThis course covers the role, properties, and application of food components in food production. The \nfunctionsand effects of ingredients will be discussed."
+  },
+  {
+    "course_code": "FSM3207",
+    "course_name_malay": "Kimia dan Sifat Kefungsian Ramuan Makanan",
+    "course_name_english": "Chemistry and Functional Properties of Food Ingredients",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi sifat kimia dan kefungsian komponen makanan dalam pemilihan ramuan makanan. Kepentingan fungsi ramuan dalam penyediaan makanan serta kesannya ke atas kualiti makanan turut dibincangkan.",
+    "description_english": "This course covers the chemical properties and functionality of food components in the selection of food ingredients. The importance of ingredient functionality in food preparation and its impact on food quality are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3207 \nKimia dan Sifat Kefungsian Ramuan Makanan/ Chemistry \nand Functional Properties of Food Ingredients)  \n 3 (2 + 1) \nPrasyarat: Tiada/ None \nKursus ini merangkumi sifat kimia dan kefungsian komponen makanan dalam pemilihan ramuan \nmakanan. Kepentingan fungsi ramuan dalam penyediaan makanan serta kesannya ke atas kualiti \nmakanan turut dibincangkan. \nThis course covers the chemical properties and functionality of food components in the selection of \nfood ingredients. The importance of ingr"
+  },
+  {
+    "course_code": "FSM3208",
+    "course_name_malay": "Pemakanan Dalam Perkhidmatan Makanan",
+    "course_name_english": "Nutrition in Foodservice",
+    "credits": "2 (2 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi asas pemakanan dan kaitannya dengan penyediaan makanan seimbang, serta pengiraan nilai pemakanan bagi sesuatu menu. Panduan pemakanan, makro dan mikronutrien dalam makanan; metabolisme nutrien dalam tubuh manusia dan kesan diet terhadap status pemakanan dan kesihatan ditekankan. Kesan penyediaan dan teknik memasak ke atas perubahan nutrien dalam makanan turut dibincangkan.",
+    "description_english": "This course covers basic nutrition and its relationship with balanced food preparation, and calculation of nutritional value for a menu. Nutritional guide, macro- and micro-nutrients in food; the metabolism of nutrients in the human body and the effect of diet on nutritional status and health are emphasized. The effect of food preparation and cooking techniques on the changes in food nutrients are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3208 \nPemakanan Dalam Perkhidmatan Makanan/ Nutrition in \nFoodservice \n2 (2 + 0) \nPrasyarat: Tiada/ None \nKursus ini meliputi asas pemakanan dan kaitannya dengan penyediaan makanan seimbang, serta \npengiraan nilai pemakanan bagi sesuatu menu. Panduan pemakanan, makro dan mikronutrien dalam \nmakanan; metabolisme nutrien  dalam tubuh manusia dan kesan diet terhadap status pemakanan \ndan kesihatan ditekankan. Kesan penyediaan dan teknik memasak ke atas perubahan nutrien dalam \nmakanan turut dibi"
+  },
+  {
+    "course_code": "FSM3209",
+    "course_name_malay": "Mikrobiologi Dalam Perkhidmatan Makanan",
+    "course_name_english": "Microbiology in Foodservice",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip mikrobiologi dan kepentingan mikroorganisma dalam industri perkhidmatan makanan. Mikroorganisma berkaitan kepentingan kesihatan awam; mikroorganisma bermanfaat, mikrobiologi pengawetan makanan, kaedah pemeriksaan mikrobiologi makanan dan kawalan kualiti mikrobiologi dalam operasi perkhidmatan makanan juga diketengahkan.",
+    "description_english": "This course covers the principles of microbiology and the importance of microorganisms in the food service industry. Microorganisms of public health significance, beneficial microorganisms, microbiology of food preservation, methods for the microbiological examination of foods and microbiological quality control in food service operations are also highlighted.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3209 \nMikrobiologi Dalam Perkhidmatan Makanan/ Microbiology \nin Foodservice \n3 (2 + 1) \nPrasyarat: Tiada / None \nKursus ini merangkumi prinsip mikrobiologi dan kepentingan mikroorganisma dalam industri \nperkhidmatan makanan. Mikroorganisma berkaitan kepentingan kesihatan awam; mikroorganisma \nbermanfaat, mikrobiologi pengawetan makanan, kaedah pemeriksaan mikrobiologi makanan dan \nkawalan kualiti mikrobiologi dalam operasi perkhidmatan makanan juga diketengahkan.  \nThis course covers the prin"
+  },
+  {
+    "course_code": "FSM4208",
+    "course_name_malay": "Kebersihan dan Sanitasi Dalam Perkhidmatan Makanan",
+    "course_name_english": "Hygiene and Sanitation in Foodservice",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FSM3209"
+    ],
+    "description_malay": "Kursus ini merangkumi kepentingan sanitasi dan kebersihan dalam operasi perkhidmatan makanan. Prinsip kebersihan dan sanitasi termasuk penyakit bawaan makanan, kebersihan diri, pembersihan dan sanitasi, kawalan proses, reka bentuk sanitari dan pengurusan makhluk perosak diberi penekanan. Aplikasi sistem pengurusan keselamatan makanan juga dibincangkan.",
+    "description_english": "This course covers the importance of sanitation and hygiene in food service operations. The principles of hygiene and sanitation including food-borne illness, personal hygiene, cleaning and sanitization, process control, sanitary design and pest management are emphasized. Application of food safety management system is also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4208 \nKebersihan dan Sanitasi Dalam Perkhidmatan Makanan/ \nHygiene and Sanitation in Foodservice \n3 (3 + 0) \nPrasyarat: FSM3209 \nKursus ini merangkumi kepentingan sanitasi dan kebersihan dalam operasi perkhidmatan makanan. \nPrinsip kebersihan dan sanitasi termasuk penyakit bawaan makanan, kebersihan diri, pembersihan \ndan sanitasi, kawalan proses, reka bentuk sanitasi dan pengurusan makhluk perosak diberi \npenekanan. Aplikasi sistem pengurusan keselamatan makanan juga dibincangkan. \nThis cour"
+  },
+  {
+    "course_code": "FSM4901",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "12 (0 + 12)",
+    "prerequisites": [
+      "FST4959"
+    ],
+    "description_malay": "Kursus ini memberi peluang kepada pelajar untuk menilai teknologi yang digunakan dalam industri makanan dan menimba pengalaman kerja dalam persekitaran industri berkenaan. Penekanan diberi perancangan dan penyelarasan kerja di bawah penyeliaan pegawai tempat latihan industri yang dilantik.",
+    "description_english": "This course provides students with the opportunity to evaluate the technologies used in the food industry and gain experience working in an environment in the industry. Emphasis is given on work planning and coordination under the supervisionship of an appointed officer of the agency.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4901 \nLatihan Industri/ Industrial Training \n12 (0 + 12) \nPrasyarat: FST4959 \nKursus ini memberi peluang kepada pelajar untuk menilai teknologi yang digunakan dalam industri \nmakanan dan menimba pengalaman kerja dalam persekitaran industri berkenaan. Penekanan diberi \nperancangan dan penyelarasan kerja di bawah penyeliaan pegawai tempat latihan industri yang \ndilantik. \nThis course provides students with the opportunity to evaluate the technologies used in the food \nindustry and gain experien"
+  },
+  {
+    "course_code": "FMP4101",
+    "course_name_malay": "Aditif Makanan",
+    "course_name_english": "Food Additives",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi klasifikasi aditif makanan berdasarkan sistem E-number dan Generally Recognized As Safe (GRAS). Jenis, fungsi dan aplikasi pelbagai aditif dalam produk makanan, serta isu berkaitan pengunaan aditif makanan dari segi perundangan, impak kesihatan dan status halal juga dibincangkan.",
+    "description_english": "This course covers classification of food additives based on E-number and Generally Recognized As Safe (GRAS). Types, functions and applications of various additives in food products, and issues related to applications of additives in terms of food law, impact on health and halal status are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMP4101 \nAditif Makanan/ Food Additives \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi klasifikasi aditif makanan berdasarkan sistem E-number dan Generally \nRecognized As Safe (GRAS). Jenis, fungsi dan aplikasi pelbagai aditif dalam produk makanan, serta \nisu berkaitan pengunaan aditif makanan dari segi perundangan, impak kesihatan dan status halal  \njuga dibincangkan. \nThis course covers classification of food additives based on E-number and Generally Recognized As \nSafe (GRAS). Type"
+  },
+  {
+    "course_code": "FMO3101",
+    "course_name_malay": "Perubahan Nutrien dalam Pembuatan Makanan",
+    "course_name_english": "Nutrient Changes In Foods Manufacturing",
+    "credits": "3 (3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi fungsi dan kesan nutrien ke atas kesihatan.  Perubahan nutrien semasa pembuatan makanan dibincangkan.  Kaedah meminimakan kehilangan nutrien semasa pengendalian, pembuatan dan penstoran makanan turut diberi penekanan.",
+    "description_english": "This course covers functions and effects of nutrients on health. Nutrient changes during food manufacturing are discussed. Methods to minimize the loss of nutrients during handling, processing and storage of foods are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO3101 \nPerubahan Nutrien dalam Pembuatan Makanan/ Nutrient \nChanges In Foods Manufacturing \n3 (3+0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi fungsi dan kesan nutrien ke atas kesihatan.  Perubahan nutrien semasa \npembuatan \nmakanan \ndibincangkan. \nKaedah \nmeminimakan \nkehilangan \nnutrien \nsemasa \npengendalian, pembuatan dan penstoran makanan turut diberi penekanan. \nThis course covers functions and effects of nutrients on health. Nutrient changes during food \nmanufacturing are discussed. "
+  },
+  {
+    "course_code": "FMO3203",
+    "course_name_malay": "Mikrobiologi dan Sanitasi dalam Pemprosesan Makanan",
+    "course_name_english": "Microbiology and Sanitation in Food Processing",
+    "credits": "3 (3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pengenalan kepada mikrobiologi asas serta prinsip kebersihan dan sanitasi dalam industri makanan. Pelbagai aspek sanitasi termasuk pengenalpastian penyakit bawaan makanan, kaedah penentuan kebersihan, teknologi pembersihan dan rekabentuk bersih juga dibincangkan.",
+    "description_english": "This course covers introduction to basic food microbiology and principles of hygiene and sanitation in food industries. Various aspects of sanitation including identifying of food-borne illness, methods to determine hygiene, cleaning technology and sanitary design are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO3203 \nMikrobiologi dan Sanitasi dalam Pemprosesan Makanan/ \nMicrobiology and Sanitation in Food Processing \n3 (3+0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi pengenalan kepada mikrobiologi asas serta prinsip kebersihan dan sanitasi \ndalam industri makanan. Pelbagai aspek sanitasi termasuk pengenalpastian penyakit bawaan \nmakanan, kaedah penentuan kebersihan, teknologi pembersihan dan rekabentuk bersih juga \ndibincangkan. \nThis course covers introduction to basic food microbiology and pri"
+  },
+  {
+    "course_code": "FMO4601",
+    "course_name_malay": "Analisis Produk Makanan",
+    "course_name_english": "Analysis of Food Products",
+    "credits": "3 (2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip dan penggunaan kaedah fizikal, kimia, instrumentasi dan sensori bagi menilai sifat makanan. Pemilihan kaedah yang bersesuaian untuk penentuan kualiti produk makanan diberi penekanan.",
+    "description_english": "This course encompasses physical, chemical, instrumental, and sensory methods for evaluation of food properties. Selection of appropriate methods for determination of quality of food products is emphasized.",
+    "department": "Jabatan Teknologi Makanan",
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO4601 \nAnalisis Produk Makanan/ Analysis of Food Products \n3 (2+1) \nPrasyarat: Tiada/ None \nKursus ini merangkumi prinsip dan penggunaan kaedah fizikal, kimia, instrumentasi dan sensori bagi \nmenilai sifat makanan. Pemilihan kaedah yang bersesuaian untuk penentuan kualiti produk makanan \ndiberi penekanan.  \nThis course encompasses physical, chemical, instrumental, and sensory methods for evaluation of \nfood properties. Selection of appropriate methods for determination of quality of food produ"
+  },
+  {
+    "course_code": "FST3302",
+    "course_name_malay": "Asas Pemprosesan dan Pengawetan Makanan",
+    "course_name_english": "Fundamentals of Food Processing and Preservation",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip dan teknik konvensional dan terkini teknologi pemprosesan dan pengawetan makanan.  Konsep rintangan dan kaitan antara teknik pemprosesan dan jenis kerosakan ke atas kualiti makanan ditekankan.",
+    "description_english": "This course covers principles and techniques of conventional and modern food processing and preservation technologies. Hurdle concept and relationship between processing technique and types of deterioration on food quality is emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3302 \nAsas \nPemprosesan \ndan \nPengawetan \nMakanan/ \nFundamentals of Food Processing and Preservation \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi prinsip dan teknik konvensional dan terkini teknologi pemprosesan dan \npengawetan makanan.  Konsep rintangan dan kaitan antara teknik pemprosesan dan jenis kerosakan \nke atas kualiti makanan ditekankan. \nThis course covers principles and techniques of conventional and modern food processing and \npreservation technologies. Hurdle concept"
+  },
+  {
+    "course_code": "FST3304",
+    "course_name_malay": "Operasi Unit Pemprosesan Makanan I",
+    "course_name_english": "Unit Operations in Food Processing I",
+    "credits": "4 (3 + 1)",
+    "prerequisites": [
+      "FST3401"
+    ],
+    "description_malay": "Kursus ini   meliputi   prinsip-prinsip   operasi   unit fizikal dan sampingan dalam pemprosesan makanan. Ini termasuk pengecilan saiz dan penurasan pepejal, penghomogenan dan pengemulsian, pencampuran, teknik pemisahan dan pengekstrakan. Teknik yang berkaitan dengan makanan terproses seperti pembungkusan, penyempritan dan pembentukan juga akan dibincangkan.",
+    "description_english": "This course covers the principles of physical unit and ancillary operations in food processing. These include size reduction and solids filtration, homogenization, and emulsification, mixing, separation techniques and extraction. Techniques that are associated with processed foods such as packaging, extrusion and forming will also be discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3304 \nOperasi Unit Pemprosesan Makanan I/ Unit Operations in \nFood Processing I \n4 (3 + 1) \nPrasyarat: FST3401 \nKursus ini   meliputi   prinsip-prinsip   operasi   unit fizikal dan sampingan dalam pemprosesan \nmakanan. Ini termasuk pengecilan saiz dan penurasan pepejal, penghomogenan dan pengemulsian, \npencampuran, teknik pemisahan dan pengekstrakan. Teknik yang berkaitan dengan makanan \nterproses seperti pembungkusan, penyempritan dan pembentukan juga akan dibincangkan. \nThis course covers t"
+  },
+  {
+    "course_code": "FST3305",
+    "course_name_malay": "Operasi Unit Pemprosesan Makanan II",
+    "course_name_english": "Unit Operation in Food Processing II",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST3401",
+      "FST3304"
+    ],
+    "description_malay": "Kursus ini meliputi prinsip operasi unit pengawetan dalam pemprosesan makanan, teknik pengawetan seperti pemprosesan terma, pengawetan suhu rendah, pengeringan, penyejatan dan pemekatan, pemprosesan tekanan tinggi dan penyinaran makanan.",
+    "description_english": "This course covers the principles of food preservation unit operations in food processing, preservation techniques such as thermal processing, low temperature preservation, dehydration, evaporation and concentration, high pressure processing and food irradiation.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3305 \nOperasi Unit Pemprosesan Makanan II/ Unit Operation in \nFood Processing II \n3 (2 + 1) \nPrasyarat: FST3401, FST3304 \nKursus ini meliputi prinsip operasi unit   pengawetan dalam pemprosesan makanan, teknik \npengawetan seperti pemprosesan terma, pengawetan suhu rendah, pengeringan, penyejatan dan \npemekatan, pemprosesan tekanan tinggi dan penyinaran makanan. \nThis course covers the principles of food preservation unit operations in food processing, preservation \ntechniques such as thermal "
+  },
+  {
+    "course_code": "FST3401",
+    "course_name_malay": "Asas Kejuruteraan Makanan",
+    "course_name_english": "Fundamentals of Food Engineering",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini menekankan prinsip asas kejuruteraan makanan merangkumi unit dan dimensi, kuantiti dan pengukuran, termodinamik, aliran bendalir, pemindahan haba dan jisim, dan psikrometri. Kaitan prinsip asas dengan reka bentuk proses pembuatan makanan dibincangkan.",
+    "description_english": "This course emphasises on the fundamental principles of food engineering which include units and dimensions, quantities and measurement, thermodynamics, fluid flow, heat and mass transfer, and psychrometry. The relationship between the basic principles and the design of the food manufacturing process is discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3401 \nAsas Kejuruteraan Makanan/ Fundamentals of Food \nEngineering \n3 (2 + 1) \nPrasyarat: Tiada/ None  \nKursus ini menekankan prinsip asas kejuruteraan makanan merangkumi unit dan dimensi, kuantiti \ndan pengukuran, termodinamik, aliran bendalir, pemindahan haba dan jisim, dan psikrometri. Kaitan \nprinsip asas dengan reka bentuk proses pembuatan makanan dibincangkan. \nThis course emphasises on the fundamental principles of food engineering which include units and \ndimensions, quantities and me"
+  },
+  {
+    "course_code": "FST3404",
+    "course_name_malay": "Operasi Unit Pemprosesan Makanan I",
+    "course_name_english": "Unit Operations in Food Processing I",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST3401"
+    ],
+    "description_malay": "Kursus ini meliputi prinsip operasi unit fizikal dan sampingan dalam pemprosesan makanan. Penekanan diberikan kepada unit operasi permulaan dan perubahan. Aplikasi teknik yang berkaitan dengan makanan terproses dibincangkan.",
+    "description_english": "This course covers the principles of the physical unit and ancillary operations in food processing. Emphasis is given on preliminary and conversion unit operations. Application of techniques that are associated with processed foods are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3404   \nOperasi Unit Pemprosesan Makanan I/ Unit Operations in \nFood Processing I                      \n3 (2 + 1) \nPrasyarat: FST3401 \nKursus ini meliputi prinsip operasi unit fizikal dan sampingan dalam pemprosesan makanan. \nPenekanan diberikan kepada unit operasi permulaan dan perubahan. Aplikasi teknik yang berkaitan \ndengan makanan terproses dibincangkan. \nThis course covers the principles of the physical unit and ancillary operations in food processing. \nEmphasis is given on preliminary "
+  },
+  {
+    "course_code": "FST3405",
+    "course_name_malay": "Operasi Unit Pemprosesan Makanan II",
+    "course_name_english": "Unit Operations in Food Processing II",
+    "credits": "3(2 + 1)",
+    "prerequisites": [
+      "FST3404"
+    ],
+    "description_malay": "Kursus ini meliputi prinsip operasi unit pengawetan dalam pemprosesan makanan dan teknik pengawetan. Penekanan diberikan kepada pemprosesan terma dan bukan terma. Aplikasi teknik yang berkaitan dengan makanan terproses dibincangkan.",
+    "description_english": "This course covers the principles of food preservation unit operations in food processing and preservation techniques Emphasis is given on thermal and non-thermal processing. Application of techniques that are associated with processed foods are discussed",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3405 \n \nOperasi Unit Pemprosesan Makanan II/ Unit Operations in \nFood Processing II    \n3(2 + 1) \nPrasyarat: FST3404 \nKursus ini meliputi prinsip operasi unit pengawetan dalam pemprosesan makanan  dan teknik \npengawetan. Penekanan diberikan kepada pemprosesan terma dan bukan terma. Aplikasi teknik \nyang berkaitan dengan makanan terproses dibincangkan. \nThis course covers the principles of food preservation unit operations in food processing and \npreservation techniques Emphasis is given on th"
+  },
+  {
+    "course_code": "FST3602",
+    "course_name_malay": "Makanan Halal",
+    "course_name_english": "Halah Food",
+    "credits": "2(2 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini memperkenalkan  prinsip makanan halal  dari perspektif Islam, rantaian makanan halal, pemprosesan dan penyediaan makanan halal dari ladang ke meja. Kursus  juga merangkumi peraturan dan perundangan, autentikasi  makanan halal, pensijilan halal, dan sistem kualiti  produk halal. Isu semasa dalam industri makanan serta pasaran halal global turut dibincangkan.",
+    "description_english": "This course introduces the principle of halal food from the Islamic perspective, halal food chain, halal food processing and preparation from farm to table. The course covers regulations and legislation, halal food authentication, halal certification and quality systems for halal products. Current issues in global halal food industries and market are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3602 \nMakanan Halal/Halah Food    \n2(2 + 0) \nPrasyarat: Tiada \nKursus ini memperkenalkan  prinsip makanan halal  dari perspektif Islam, rantaian makanan halal, \npemprosesan dan penyediaan makanan halal dari ladang ke meja. Kursus  juga merangkumi \nperaturan dan perundangan, autentikasi  makanan halal, pensijilan halal, dan sistem kualiti  produk \nhalal. Isu semasa dalam industri makanan serta pasaran halal global turut dibincangkan.. \nThis course introduces the principle of halal food from th"
+  },
+  {
+    "course_code": "FST3603",
+    "course_name_malay": "Pemprosesan Makanan Halal",
+    "course_name_english": "Halal Food Processing",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FST3302"
+    ],
+    "description_malay": "Kursus ini membincangkan kaitan antara prinsip halal dari perspektif Islam dengan rantaian makanan halal bermula dari ladang ke meja. Penekanan diberi kepada peraturan dan perundangan halal, sistem pengurusan halal dan prosedur mendapatkan pensijilan halal Malaysia. Peranan agensi kerajaan dan swasta dalam pembangunan industri halal, pemudahcaraan program audit dalaman dan autentikasi produk halal dalam industri makanan halal dibincangkan.",
+    "description_english": "This course discusses relationship between principle of halal from the Islamic perspective for halal food chain from farm to table. Emphasis is given to the halal regulations and legislation, halal management system and procedure of applying Malaysia halal certification. The roles of various government and private agencies in development of halal industry, facilitation of halal internal audit program and authentication of halal products in the food industry are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST3603 \nPemprosesan Makanan Halal/ Halal Food Processing \n      3 (3 + 0) \nPrasyarat: FST3302 \nKursus ini membincangkan kaitan antara prinsip halal  dari perspektif Islam dengan rantaian makanan \nhalal bermula dari ladang ke meja. Penekanan diberi kepada peraturan dan perundangan halal,  \nsistem pengurusan halal dan prosedur mendapatkan pensijilan halal Malaysia.  Peranan agensi \nkerajaan dan swasta dalam pembangunan industri halal, pemudahcaraan program audit dalaman \ndan autentikasi produk ha"
+  },
+  {
+    "course_code": "FST4001",
+    "course_name_malay": "Makanan Halal",
+    "course_name_english": "Halal Food",
+    "credits": "2 (2 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi konsep makanan halal dan haram dalam Islam, sumber makanan halal dan haram, kaedah penyembelihan, konsep pemprosesan makanan halal dari ladang ke pinggan, ramuan dan aditif makanan halal. Kursus ini juga membincangkan peraturan dan perundangan berhubung dengan makanan halal, analisis, piawaian makanan halal MS1500:2004, pensijilan dan logo halal, kaitan halal dan sistem kualiti dan insentif produk halal. Isu semasa dalam industri dan pasaran makanan halal global juga akan dibincangkan.",
+    "description_english": "This course covers the concept of halal and haram in Islam, sources of halal and haram food, slaughtering methods, halal food processing concept from farm to plate, halal food ingredients and additives. The course also covers regulations and legislation related to halal food, analysis halal standard MS1500:2004, halal certification and logo, relationship between halal and quality systems and halal products incentives. Current issues in global halal food industries and market will also be discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4001 \nMakanan Halal/ Halal Food \n2 (2 + 0) \nPrasyarat: Tiada/ None \nKursus ini meliputi konsep makanan halal dan haram dalam Islam, sumber makanan halal dan haram, \nkaedah penyembelihan, konsep pemprosesan makanan halal dari ladang ke pinggan, ramuan dan \naditif makanan halal. Kursus ini juga membincangkan peraturan dan perundangan berhubung dengan \nmakanan halal, analisis, piawaian makanan halal MS1500:2004, pensijilan dan logo halal, kaitan halal \ndan sistem kualiti dan insentif produk hala"
+  },
+  {
+    "course_code": "FST4406",
+    "course_name_malay": "Rekabentuk Proses dan Loji Makanan",
+    "course_name_english": "Food Process and Plant Design",
+    "credits": "4 (4 + 0)",
+    "prerequisites": [
+      "FST3304",
+      "FST3305"
+    ],
+    "description_malay": "Kursus ini meliputi   prinsip dan prosedur dalam membangun dan merencana loji dalam industri makanan, perkembangan proses dan projek makanan, penilaian proses dan loji makanan, penilaian projek dan pelaburan, pemilihan dan spesifikasi alatan, pemilihan tapak dan susun atur loji, pengurusan projek makanan, pengurusan sistem kawalan kualiti dan keselamatan proses dan loji makanan, kajian kes perancangan perniagaan projek makanan.",
+    "description_english": "This course covers principles and procedures in developing plant and planning in food industry, development of food projects and processes, evaluation of food processes and plants, project evaluation and investment, equipment selection and specifications, site selection and plant layout, food project management, food plant and process safety and quality control system management, case studies on business plans of food projects.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4406 \nRekabentuk Proses dan Loji Makanan/ Food Process and \nPlant Design \n4 (4 + 0) \nPrasyarat: FST3304 dan FST3305 \nKursus ini meliputi   prinsip dan prosedur dalam membangun dan merencana loji dalam industri \nmakanan, perkembangan proses dan projek makanan, penilaian proses dan loji makanan, penilaian \nprojek dan pelaburan, pemilihan dan spesifikasi alatan, pemilihan tapak dan susun atur loji, \npengurusan projek makanan, pengurusan sistem kawalan kualiti dan keselamatan proses dan loji \nmak"
+  },
+  {
+    "course_code": "FST4407",
+    "course_name_malay": "Pengurusan Operasi Loji Makanan",
+    "course_name_english": "Operational Management of Food Plant",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FST3405"
+    ],
+    "description_malay": "Kursus ini memberi penekanan kepada  pengurusan operasi loji makanan yang merangkumi mengemudi, mereka bentuk, menyampaikan dan meningkatkan operasi. Kajian kes pengurusan operasi untuk pembuatan makanan turut dibincangkan.",
+    "description_english": "This course gives emphasis on operational management of food plant which includes directing, designing, delivering and improving the food operation. Case studies of operation managemet on food manufacturing are also discussed",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4407 \nPengurusan \nOperasi \nLoji \nMakanan/ \nOperational \nManagement of Food Plant \n3 (3 + 0) \nPrasyarat: FST3405 \nKursus ini memberi penekanan kepada  pengurusan operasi loji makanan yang merangkumi \nmengemudi, mereka bentuk, menyampaikan dan meningkatkan operasi. Kajian kes pengurusan \noperasi untuk pembuatan makanan turut dibincangkan. \nThis course gives emphasis on operational management of food plant which includes directing, \ndesigning, delivering and improving the food operation. Case st"
+  },
+  {
+    "course_code": "FST4408",
+    "course_name_malay": "Pembungkusan Makanan",
+    "course_name_english": "Food Packaging",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST3302"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep, fungsi dan penggunaan pembungkusan dalam industri makanan. Penekanan diberi kepada bahan pembungkus dan pembuatan, elemen kelestarian, kaedah ujian bahan pembungkus, kegagalan pembungkusan dan sistem pembungkusan. Aplikasi dan alatan pembungkusan serta peraturan dan undang-undang pembungkusan makanan dibincangkan.",
+    "description_english": "This course covers concept, functions and usage of packaging in food industry. Emphasis is given on packaging materials and manufacturing, sustainability elements, testing methods for packaging materials, failures in food packaging and packaging systems. Packaging applications and equipments, laws and regulations on food packaging are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4408 \nPembungkusan Makanan/ Food Packaging \n \n3 (2 + 1) \nPrasyarat: FST3302  \nKursus ini merangkumi konsep, fungsi dan penggunaan pembungkusan dalam industri makanan. \nPenekanan diberi kepada bahan pembungkus dan pembuatan, elemen kelestarian, kaedah ujian \nbahan   pembungkus, kegagalan pembungkusan dan sistem pembungkusan. Aplikasi dan alatan \npembungkusan serta peraturan dan undang-undang pembungkusan makanan dibincangkan. \nThis course covers concept, functions and usage of packaging in foo"
+  },
+  {
+    "course_code": "FST4409",
+    "course_name_malay": "Pengurusan Air Dan Air Buangan Industri Makanan",
+    "course_name_english": "Water and Wastewater Management in Food Industry",
+    "credits": "2 (2 + 0)",
+    "prerequisites": [
+      "FST4611"
+    ],
+    "description_malay": "Kursus ini merangkumi cara pengurusan dan rawatan sisa makanan di industri makanan. Penekanan diberikan terhadap teknologi rawatan sisa pepejal dan cecair pelbagai industri makanan. Kesan rawatan sisa buangan pepejal dan cecair terhadap alam sekitar dibincangkan.",
+    "description_english": "This course covers water management and wastewater treatment process used by the food industry. Emphasis is given on the type of wastewater treatment and its impact on water quality. Effect of wastewater treatment on the environment is discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4409 \nPengurusan Air Dan Air Buangan Industri Makanan/ Water \nand Wastewater Management in Food Industry                        \n2 (2 + 0) \n \nPrasyarat: FST4611 \nKursus ini merangkumi cara pengurusan dan rawatan sisa makanan di industri makanan. Penekanan \ndiberikan terhadap teknologi rawatan sisa pepejal dan cecair pelbagai industri makanan. Kesan \nrawatan sisa buangan pepejal dan cecair terhadap alam sekitar dibincangkan. \nThis course covers water management and wastewater treatment process"
+  },
+  {
+    "course_code": "FST4410",
+    "course_name_malay": "Kejuruteraan Sisa Industri Makanan",
+    "course_name_english": "Food Industry Waste Engineering",
+    "credits": "2 (2 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi cara pengurusan dan rawatan sisa makanan di industri makanan. Penekanan diberikan terhadap teknologi rawatan sisa pepejal dan cecair pelbagai industri makanan. Kesan rawatan sisa buangan pepejal dan cecair terhadap alam sekitar dibincangkan.",
+    "description_english": "This course covers food waste management and treatment in the food industry. Emphasis is given on the solid and liquid waste treatment technology in various food industry. Effect of solid and liquid waste treatment on the environment are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4410 \nKejuruteraan Sisa Industri Makanan/ Food Industry Waste \nEngineering \n2 (2 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi cara pengurusan dan rawatan sisa makanan di industri makanan. Penekanan \ndiberikan terhadap teknologi rawatan sisa pepejal dan cecair pelbagai industri makanan. Kesan \nrawatan sisa buangan pepejal dan cecair terhadap alam sekitar dibincangkan. \nThis course covers  food waste management and treatment in the food industry. Emphasis is given \non the solid and liqui"
+  },
+  {
+    "course_code": "FST4411",
+    "course_name_malay": "Reka Bentuk Loji Makanan",
+    "course_name_english": "Food Plant Design",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FST3405"
+    ],
+    "description_malay": "Kursus ini merangkumi pemilihan tapak dan susun atur dalam reka bentuk loji makanan. Penekanan diberi kepada pemilihan alatan, bahan, kawalan proses dan automasi bagi memenuhi spesifikasi dan piawaian industri makanan yang berbeza. Kebolehlaksanaan ekonomi dalam pengurusan projek, pembangunan dan reka bentuk loji makanan dibincangkan.",
+    "description_english": "This course covers site and plant layout selections in food plant design. Emphasis is given on the selection of instruments, materials, process control and automation to meet the requirements and specifications of different food industries. Economic feasibility in project management, development and food plant design are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4411 \nReka Bentuk Loji Makanan/ Food Plant Design \n \n3 (3 + 0) \nPrasyarat: FST3405 \nKursus ini merangkumi pemilihan tapak dan susun atur dalam reka bentuk loji makanan. Penekanan \ndiberi kepada pemilihan alatan, bahan, kawalan proses dan automasi bagi memenuhi spesifikasi dan \npiawaian industri makanan yang berbeza. Kebolehlaksanaan ekonomi dalam pengurusan projek, \npembangunan dan reka bentuk loji makanan dibincangkan. \nThis course covers site and plant layout selections in food plant design"
+  },
+  {
+    "course_code": "FST4609",
+    "course_name_malay": "Perundangan Makanan",
+    "course_name_english": "Food Law",
+    "credits": "2 (2 + 0)",
+    "prerequisites": [
+      "FST4828"
+    ],
+    "description_malay": "Kursus ini meliputi akta dan peraturan makanan di Malaysia dan antarabangsa bagi memastikan keselamatan dan kualiti makanan yang dihasilkan di industri. Penekanan diberi kepada akta dan peraturan berkaitan penghasilan makanan. Undang-undang dan keperluan antarabangsa untuk mengimport dan mengeksport makanan juga dibincangkan.",
+    "description_english": "This course covers Malaysia and international food act and regulations to ensure food safety and quality in industry. Emphasis is given on the act and regulations pertaining food productions. International laws and requirements for food import and export is discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4609 \nPerundangan Makanan/ Food Law \n2 (2 + 0) \nPrasyarat: FST4828 \nKursus ini meliputi akta dan peraturan makanan di Malaysia dan antarabangsa bagi memastikan \nkeselamatan dan kualiti makanan yang dihasilkan di industri. Penekanan diberi kepada akta dan \nperaturan berkaitan penghasilan makanan. Undang-undang dan keperluan antarabangsa untuk \nmengimport dan mengeksport makanan juga dibincangkan. \nThis course covers Malaysia and international food act and regulations to ensure food safety and "
+  },
+  {
+    "course_code": "FST4825",
+    "course_name_malay": "Perundangan Makanan",
+    "course_name_english": "Food Law",
+    "credits": "2 (2 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi perundangan makanan di Malaysia merangkumi Akta Makanan 1983 dan Peraturan Makanan 1985 termasuk pentadbiran dan penguatkuasaan, perlantikan juruanalisis dan pegawai penguatkuasa, kuasa dan prosedur persampelan, piawaian, pembungkusan dan pelabelan makanan, aditif dan zat makanan, kuasa membuat peraturan, pendakwaan serta pemanggilan balik produk. Undang-undang Malaysia lain yang berkaitan dengan industri makanan, peranan Jabatan Kastam dan Eksais DiRaja, Codex Alimentarius dan pergerakan pengguna juga akan dibincangkan.",
+    "description_english": "This course covers Food Laws Malaysia i.e. Food Act 1983 and Food Regulations 1985 which includes administration and enforcement, appointment of analysts and authorised officers, power and procedure of sampling, standards, packaging and labelling of foods, additives and food composition, power to make regulations, litigation and product recall. Other laws of Malaysia concerning the food industry, the role of Royal Customs and Excise Department, Codex Alimentarius and consumer movements will also be discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4825 \nPerundangan Makanan/ Food Law \n2 (2 + 0) \nPrasyarat: Tiada/ None \nKursus ini meliputi perundangan makanan di Malaysia merangkumi Akta Makanan 1983 dan \nPeraturan Makanan 1985 termasuk pentadbiran dan penguatkuasaan, perlantikan juruanalisis dan \npegawai penguatkuasa, kuasa dan prosedur persampelan, piawaian, pembungkusan dan pelabelan \nmakanan, aditif dan zat   makanan, kuasa membuat peraturan, pendakwaan serta pemanggilan balik \nproduk. Undang-undang Malaysia lain yang berkaitan dengan"
+  },
+  {
+    "course_code": "FST4826",
+    "course_name_malay": "Pemprosesan Hasilan Tumbuhan dan Haiwan",
+    "course_name_english": "Processing of Plant and Animal Products",
+    "credits": "4 (3 + 1)",
+    "prerequisites": [
+      "FST3111",
+      "FSM3101",
+      "FST3107"
+    ],
+    "description_malay": "Kursus ini merangkumi komposisi kimia serta perubahan sifat fiziko-kimia hasilan tumbuhan dan haiwan semasa pengendalian dan pemprosesan. Teknologi penghasilan dan analisis kualiti berkaitan pelbagai hasilan berasaskan tumbuhan dan haiwan turut diberi penekanan dalam amali yang dijalankan.",
+    "description_english": "This course covers chemical composition and changes in the physico-chemical properties of plant and animal products during handling and processing. Technology and analysis of quality related to various plant and animal-based products will also be emphasized during laboratory practical.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4826 \nPemprosesan Hasilan Tumbuhan dan Haiwan/ Processing \nof Plant and Animal Products \n4 (3 + 1) \nPrasyarat: FST3111 atau/ or FSM3101 atau/ or FST3107 \nKursus ini merangkumi komposisi kimia serta perubahan sifat fiziko-kimia hasilan tumbuhan dan \nhaiwan semasa pengendalian dan pemprosesan. Teknologi penghasilan dan analisis kualiti berkaitan \npelbagai hasilan berasaskan tumbuhan dan haiwan turut diberi penekanan dalam amali yang \ndijalankan. \n\n--- Page 15 ---\n52 \n \nThis course covers chemic"
+  },
+  {
+    "course_code": "FST4828",
+    "course_name_malay": "Pembangunan Produk Makanan Baru",
+    "course_name_english": "New Food Product Development",
+    "credits": "3 (1 + 2)",
+    "prerequisites": [
+      "FST4832"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip, peranan, dan kepentingan pembangunan produk makanan baharu dalam industri makanan. Pembentukan dan perkembangan produk baharu meliputi penjanaan idea, pembentukan konsep, analisis pasaran, reka bentuk produk, penghasilan prototaip, ujian kualiti, kaedah pemasaran, dan pelancaran produk baharu diberi penekanan. Kaedah perancangan, pengurusan, dan penyelenggaraan projek serta langkah penyelesaian masalah berkaitan pembangunan produk baharu dibincangkan.",
+    "description_english": "This course covers the principle, role and importance technique of new food product development in the food industry. The generation and development of new products including the idea generation, concepts, market analysis, product design prototype production, quality evaluation, marketing methods and product launching are emphasised. Project planning, management, and maintenance and problem-solving measures of product development are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4828 \nPembangunan Produk Makanan Baru/ New Food Product \nDevelopment \n3 (1 + 2) \nPrasyarat: FST4832  \nKursus ini merangkumi prinsip, peranan, dan kepentingan pembangunan produk makanan baharu \ndalam industri makanan. Pembentukan dan perkembangan produk baharu meliputi penjanaan idea, \npembentukan konsep, analisis pasaran, reka bentuk produk, penghasilan prototaip, ujian kualiti, \nkaedah pemasaran, dan pelancaran produk baharu diberi penekanan. Kaedah perancangan, \npengurusan, dan penyelenggar"
+  },
+  {
+    "course_code": "FST4829",
+    "course_name_malay": "Penilaian Deria Makanan",
+    "course_name_english": "Sensory Evaluation of Food",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "MTH3003"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep penilaian deria serta kegunaannya, kaedah penilaian deria, pemilihan dan latihan ahli panel, format dan tatacara memperolehi data, penyediaan dan persembahan sampel, faktor mempengaruhi pengukuran penilaian deria, pengujian pengguna dan analisis data.",
+    "description_english": "This course covers sensory evaluation concept and its applications, sensory evaluation method, selection and training of panel members, format, and techniques for obtaining data, preparation of sample for presentation, factors which influence measurement of sensory evaluation, consumer testing and data analysis.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4829 \nPenilaian Deria Makanan/ Sensory Evaluation of Food \n3 (2 + 1) \nPrasyarat: MTH3003 \nKursus ini merangkumi konsep penilaian deria serta kegunaannya, kaedah penilaian deria, pemilihan \ndan latihan ahli panel, format dan tatacara memperolehi data, penyediaan dan persembahan sampel, \nfaktor mempengaruhi pengukuran penilaian deria, pengujian pengguna dan analisis data. \nThis course covers sensory evaluation concept and its applications, sensory evaluation method, \nselection and training of p"
+  },
+  {
+    "course_code": "FST4830",
+    "course_name_malay": "Teknologi Pemprosesan Hasilan Tumbuhan",
+    "course_name_english": "Processing Technology of Plant Products",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST3302"
+    ],
+    "description_malay": "Kursus ini merangkumi teknologi pemprosesan produk berasaskan tumbuhan. Perubahan fizikokimia dan biokimia semasa pengendalian, pemprosesan dan penyimpanan dibincang. Penekanan diberi kepada penentuan kualiti produk makanan dan penyelesaian masalah industri yang berkaitan",
+    "description_english": "This course covers the processing technology of plant-based products. Physicochemical and biochemical changes during handling, processing and storage are discussed. Emphasis is given on product quality and problems in related industry",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4830 \nTeknologi Pemprosesan Hasilan Tumbuhan/ Processing \nTechnology of Plant Products \n3 (2 + 1) \nPrasyarat: FST3302 \nKursus ini merangkumi teknologi pemprosesan produk berasaskan tumbuhan. Perubahan fizikokimia \ndan biokimia semasa pengendalian, pemprosesan dan penyimpanan dibincang. Penekanan diberi \nkepada penentuan kualiti produk makanan dan penyelesaian masalah industri yang berkaitan \nThis course covers the processing technology of plant-based products. Physicochemical and \nbiochemical"
+  },
+  {
+    "course_code": "FST4831",
+    "course_name_malay": "Teknologi Pemprosesan Hasilan Haiwan",
+    "course_name_english": "Processing Technology of Animal Products",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST3302"
+    ],
+    "description_malay": "Kursus ini merangkumi pengenalan kepada kepelbagaian daging, poltri, tenusu, telur dan hasilan akuatik. Perubahan sifat fizikokimia dan biokimia semasa pengendalian, pemprosesan dan penyimpanan ditekankan.  Teknologi pemprosesan serta analisis terkini berkaitan hasilan haiwan dibincangkan.",
+    "description_english": "This course covers the introduction to variety of meat, poultry, dairy, eggs and aquatic products. The physicochemical and biochemical changes during handling, processing and storage is emphasized. The processing technology with the latest analysis related to animal products are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4831 \nTeknologi \nPemprosesan \nHasilan \nHaiwan/ \nProcessing \nTechnology of Animal Products \n3 (2 + 1) \nPrasyarat: FST3302 \nKursus ini merangkumi pengenalan kepada kepelbagaian daging, poltri, tenusu, telur dan hasilan \nakuatik. Perubahan sifat fizikokimia dan biokimia semasa pengendalian, pemprosesan dan \npenyimpanan ditekankan.  Teknologi pemprosesan serta analisis terkini berkaitan hasilan haiwan \ndibincangkan. \nThis course covers the introduction to variety of meat, poultry, dairy, eggs and"
+  },
+  {
+    "course_code": "FST4832",
+    "course_name_malay": "Penilaian Deria Makanan",
+    "course_name_english": "Sensory Evaluation of Food",
+    "credits": "2 (1 + 1)",
+    "prerequisites": [
+      "MTH3003"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep, kepentingan, dan 53entia yang mempengaruhi penilaian deria. Pelbagai kaedah penilaian deria berdasarkan ujian analitikal dan ujian afektif, penyediaan dan persembahan sampel, format dan tatacara memperolehi data, dan teknik analisis data diberi penekanan. Kaedah pemilihan dan latihan ahli panel serta tingkahlaku pengguna dibincangkan.",
+    "description_english": "This course covers the concept, importance, and factors affecting sensory evaluation. Various sensory evaluation methods based on analytical and affective tests, preparation and presentation of samples, format and techniques for obtaining data, and techniques for data analysis are emphasized. Procedure for selection and training of panel members, and consumer behavior are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4832 \nPenilaian Deria Makanan/ Sensory Evaluation of Food \n2 (1 + 1) \nPrasyarat: MTH3003 \nKursus ini merangkumi konsep, kepentingan, dan 53entia yang mempengaruhi penilaian deria. \nPelbagai kaedah penilaian deria berdasarkan ujian analitikal dan ujian afektif, penyediaan dan \npersembahan sampel, format dan tatacara memperolehi data, dan teknik analisis data diberi \npenekanan. Kaedah pemilihan dan latihan ahli panel serta tingkahlaku pengguna dibincangkan. \nThis course covers the concept, impo"
+  },
+  {
+    "course_code": "FST4834",
+    "course_name_malay": "Teknologi Minyak Dan Lemak",
+    "course_name_english": "Technology of Oils and Fats",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST4830"
+    ],
+    "description_malay": "Kursus ini merangkum sifat fizikokimia dan teknologi minyak dan lemak yang meliputi komposisi dan sifat pelbagai jenis kumpulan minyak, analisis minyak dan lemak, tindakbalas kerosakan lemak dan minyak, teknologi pemprosesan dan teknologi modifikasi minyak. Pelbagai teknologi penghasilan lemak khusus dan aspek alam persekitaran terhadap pemprosesan minyak dan lemak dibincang secara menyeluruh",
+    "description_english": "This course covers physicochemical properties and technology of oil and fat which includes different compositions and properties of various oils and fats, analysis of oils and fats, deteriorative reactions of oils and fats, processing technology and oil modification technology. Various manufacturing technology of specialty fats, and environmental aspects of fats and oils processing are discussed",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4834 \nTeknologi Minyak Dan Lemak/ Technology of Oils and Fats \n3 (2 + 1) \nPrasyarat: FST4830 \nKursus ini merangkum sifat fizikokimia dan teknologi minyak dan lemak yang meliputi komposisi dan \nsifat pelbagai jenis kumpulan minyak, analisis minyak dan lemak, tindakbalas kerosakan lemak dan \nminyak, teknologi pemprosesan dan teknologi modifikasi minyak. Pelbagai teknologi penghasilan \nlemak khusus dan aspek alam persekitaran terhadap pemprosesan minyak dan lemak dibincang \nsecara menyeluruh \nTh"
+  },
+  {
+    "course_code": "FST4835",
+    "course_name_malay": "Teknologi Bijirin dan Kekacang",
+    "course_name_english": "Cereals and Legumes Technology",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST4830"
+    ],
+    "description_malay": "Kursus ini merangkum teknologi bijirin dan kekacang yang meliputi penggunaan, penghasilan dan penilaian kualiti bijirin dan kekacang serta hasilannya, isu semasa dan penemuan baru. Penekanan diberikan kepada sifat fizikokimia dan teknik pemprosesan bijirin dan kekacang.",
+    "description_english": "This course covers cereals and legumes technology which includes utilization, production and the quality evaluation of cereals and legumes; and their products, current issues and new findings.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4835 \nTeknologi Bijirin dan Kekacang/ Cereals and Legumes \nTechnology \n3 (2 + 1) \nPrasyarat: FST4830  \nKursus ini merangkum teknologi bijirin dan kekacang yang meliputi penggunaan, penghasilan dan \npenilaian kualiti bijirin dan kekacang serta hasilannya, isu semasa dan penemuan baru. Penekanan \ndiberikan kepada sifat fizikokimia dan teknik pemprosesan bijirin dan kekacang. \nThis course covers cereals and legumes technology which includes utilization, production and the \nquality evaluation of "
+  },
+  {
+    "course_code": "FST4836",
+    "course_name_malay": "Teknologi Tenusu",
+    "course_name_english": "Dairy Technology",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST4831"
+    ],
+    "description_malay": "Kursus ini merangkumi fisiologi laktasi, sifat fizikokimia komponen susu serta teknologi pemprosesan pelbagai jenis produk tenusu. Pemilihan parameter pemprosesan dan ramuan untuk kawalan kualiti produk semasa pemprosesan dan penstoran ditekankan.  Sistem sanitasi dan nyahjangkitan semasa pemprosesan produk tenusu dan penemuan terbaru dalam teknologi tenusu dibincangkan.",
+    "description_english": "This course covers the physiology of lactation, physicochemical properties of milk components with processing technologies of various types of milk products. Selection of processing parameters and ingredients for product quality control during processing and storage is emphasized. Sanitation and disinfection systems during milk product processing and new findings in dairy technology are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4836 \nTeknologi Tenusu/ Dairy Technology \n3 (2 + 1) \nPrasyarat: FST4831 \nKursus ini merangkumi fisiologi laktasi, sifat fizikokimia komponen susu serta teknologi pemprosesan \npelbagai jenis produk tenusu. Pemilihan parameter pemprosesan dan ramuan untuk kawalan kualiti \nproduk semasa pemprosesan dan penstoran ditekankan.  Sistem sanitasi dan nyahjangkitan semasa \npemprosesan produk tenusu dan penemuan terbaru dalam teknologi tenusu dibincangkan. \nThis course covers the physiology of lactation"
+  },
+  {
+    "course_code": "FST4837",
+    "course_name_malay": "Teknologi Minuman",
+    "course_name_english": "Beverage Technology",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST4830"
+    ],
+    "description_malay": "Kursus ini merangkum klasifikasi minuman, kaedah pemprosesan jus buah-buahan, minuman kopi dan teh, minuman berkarbonat, minuman fungsian dan kesihatan termasuk minuman air botol. Kursus ini juga menekankan mengenai peralatan yang digunakan, ramuan dan fungsi spesifik, kestabilan produk dan kualiti, aspek peraturan dan spesifikasi produk",
+    "description_english": "This course covers classification of beverages, processing methods of fruit juice, coffee, tea, carbonated drinks, functional and health drinks including bottled water. This course also emphasizes on the equipment used, ingredients and their specific functions, product stability and quality, aspects on regulations and product specifications",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4837 \nTeknologi Minuman/ Beverage Technology \n3 (2 + 1) \nPrasyarat: FST4830 \nKursus ini merangkum klasifikasi minuman, kaedah pemprosesan jus buah-buahan, minuman kopi \ndan teh, minuman berkarbonat, minuman fungsian dan kesihatan termasuk minuman air botol. \nKursus ini juga menekankan mengenai peralatan yang digunakan, ramuan dan fungsi spesifik, \nkestabilan produk dan  kualiti, aspek peraturan dan spesifikasi produk \nThis course covers classification of beverages, processing methods of fruit"
+  },
+  {
+    "course_code": "FST4838",
+    "course_name_malay": "Teknologi Konfeksi Coklat dan Gula",
+    "course_name_english": "Chocolate and Sugar Confectionery Technology",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST4830"
+    ],
+    "description_malay": "Kursus ini merangkumi jenis, ciri dan ramuan dalam penghasilan produk konfeksi coklat dan gula. Penekanan diberi kepada kesan pemprosesan ke atas sifat fizikokimia dan ciri kualiti produk konfeksi coklat dan gula. Trend terkini berkaitan dengan penghasilan produk konfeksi dibincangkan",
+    "description_english": "This course covers the types, attributes, and ingredients in production of chocolate and sugar confectionaries. Emphasis is given on the effect of processing on the physicochemical properties and quality attributes of chocolate and sugar confectionary products. Current trends related to production of confectionary products are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4838 \nTeknologi Konfeksi Coklat dan Gula/ Chocolate and Sugar \nConfectionery Technology \n3 (2 + 1) \nPrasyarat: FST4830  \nKursus ini merangkumi jenis, ciri dan ramuan dalam penghasilan produk konfeksi coklat dan gula. \nPenekanan diberi kepada kesan pemprosesan ke atas sifat fizikokimia dan ciri kualiti produk konfeksi  \ncoklat dan gula. Trend terkini berkaitan dengan penghasilan produk konfeksi dibincangkan \nThis course covers the types, attributes, and ingredients in production of chocolate a"
+  },
+  {
+    "course_code": "FST4839",
+    "course_name_malay": "Teknologi Hasilan Akuatik",
+    "course_name_english": "Aquatic Product Technology",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST4831"
+    ],
+    "description_malay": "Kursus ini merangkumi ciri fizikokimia dan biokimia hasilan akuatik pascapendaratan, sewaktu pengendalian dan pemprosesan. Penekanan diberikan terhadap teknologi pemprosesan dan kesannya terhadap kualiti hasilan ikan. Pemprosesan produk hasil sampingan daripada ikan dan trend terkini dibincangkan.",
+    "description_english": "This course covers the physicochemical and biochemical properties of aquatic products postlanding, during handling and processing. Emphasis is given on the processing technology and its impact on quality of fish product. Processing of fish by-products and current trend are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4839 \nTeknologi Hasilan Akuatik/ Aquatic Product Technology \n3 (2 + 1) \nPrasyarat: FST4831 \nKursus ini merangkumi ciri fizikokimia dan biokimia hasilan akuatik pascapendaratan, sewaktu \npengendalian dan pemprosesan. Penekanan diberikan terhadap teknologi pemprosesan dan \nkesannya terhadap kualiti hasilan ikan. Pemprosesan produk hasil sampingan daripada ikan dan \ntrend terkini dibincangkan. \nThis course covers the physicochemical and biochemical properties of aquatic products postlanding, \ndu"
+  },
+  {
+    "course_code": "FST4840",
+    "course_name_malay": "Teknologi Daging",
+    "course_name_english": "Meat Technology",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FST4831"
+    ],
+    "description_malay": "Kursus ini merangkumi teknologi dalam industri daging bermula daripada sembelihan haiwan, pemprosesan, pengawetan dan penyimpanan daging sehingga analisis produk akhir.  Aplikasi alatan, bahan dan formulasi terkini dalam penghasilan produk daging yang berbeza ditekankan. Trend, inovasi dan isu semasa berkaitan hasilan daging dibincangkan.",
+    "description_english": "The course covers technologies in the meat industry ranging from animal slaughtering, meat processing, preservation and storage to the final product analysis. The application of the latest equipment, ingredients and formulations in the production of different meat products is emphasized. Trends, innovations and current issues related to meat products are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4840 \nTeknologi Daging/ Meat Technology \n3 (2 + 1) \nPrasyarat: FST4831  \nKursus ini merangkumi teknologi dalam industri daging bermula daripada sembelihan haiwan, \npemprosesan, pengawetan dan penyimpanan daging sehingga analisis produk akhir.  Aplikasi alatan, \nbahan dan formulasi terkini dalam penghasilan produk daging yang berbeza ditekankan. Trend, \ninovasi dan isu semasa berkaitan hasilan daging dibincangkan. \nThe course covers technologies in the meat industry ranging from animal slaught"
+  },
+  {
+    "course_code": "FST4914",
+    "course_name_malay": "Kejuruteraan Sisa Industri Makanan",
+    "course_name_english": "Food Industry Waste Engineering",
+    "credits": "2 (2 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi kejuruteraan sisa industri makanan meliputi sumber dan klasifikasi sisa industri, masalah pengurusan sisa, proses rawatan sisa secara fizikal dan kimia, integrasi proses fizikal dan biologi, proses rawatan sisa secara terma, dan strategi pengurangan sisa.",
+    "description_english": "This course covers food industry waste engineering which encompasses sources and classification of industrial wastes, problems in waste management, physical and chemical waste treatment processes, integrated physical and biological processes, thermal waste treatment processes, and waste reduction strategies.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FST4914 \nKejuruteraan Sisa Industri Makanan/ Food Industry Waste \nEngineering \n2 (2 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi kejuruteraan sisa industri makanan meliputi sumber dan klasifikasi sisa \nindustri, masalah pengurusan sisa, proses rawatan sisa secara fizikal dan kimia, integrasi proses \nfizikal dan biologi, proses rawatan sisa secara terma, dan strategi pengurangan sisa. \nThis    course    covers     food   industry   waste    engineering which encompasses sources and \nclassi"
+  },
+  {
+    "course_code": "FSM3001",
+    "course_name_malay": "Pengenalan Kepada Industri Makanan",
+    "course_name_english": "Introduction to Food Industry",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi sejarah dan perkembangan industri makanan. Prinsip sains dan teknologi dalam pemprosesan, penyediaan dan perkhidmatan makanan serta operasi dan pengurusan dalam industri makanan turut dibincangkan.",
+    "description_english": "This course covers the history and development in the food industry. The principles of food science and technology in processing, preparation, and food service, as well as operations and management in the food industry will be discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3001 \nPengenalan Kepada Industri Makanan/ Introduction to Food \nIndustry \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi sejarah dan perkembangan industri makanan. Prinsip sains dan teknologi \ndalam pemprosesan, penyediaan dan perkhidmatan makanan serta operasi dan pengurusan dalam \nindustri makanan turut dibincangkan. \nThis course covers the history and development in the food industry. The principles of food science \nand technology in processing, preparation, and food service, as "
+  },
+  {
+    "course_code": "FSM3601",
+    "course_name_malay": "Pengurusan Operasi dalam Industri Makanan",
+    "course_name_english": "Food Industry Operations Management",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FSM3001",
+      "MTH3003"
+    ],
+    "description_malay": "Kursus ini meliputi aplikasi teknik analitikal dalam industri pembuatan makanan. Penekanan diberi kepada aplikasi teori pemodelan untuk merancang dan membuat keputusan.",
+    "description_english": "This course covers the analytical techniques application in the food manufacturing industry. The course focuses on the application of modeling theory to planning and decision-making.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3601 \nPengurusan Operasi dalam Industri Makanan/ Food Industry \nOperations Management \n3 (3 + 0) \nPrasyarat: FSM3001 dan MTH3003 \nKursus ini meliputi aplikasi teknik analitikal dalam industri pembuatan makanan. Penekanan diberi \nkepada aplikasi teori pemodelan untuk merancang dan membuat keputusan.  \nThis course covers the analytical techniques application in the food manufacturing industry. The \ncourse focuses on the application of modeling theory to planning and decision-making. \n \n \n \n\n---"
+  },
+  {
+    "course_code": "FSM4401",
+    "course_name_malay": "Sistem Maklumat Pengurusan dalam Industri Makanan",
+    "course_name_english": "Information System in Food Industry",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pengurusan sistem maklumat yang meliputi aspek pengurusan, organisasi, penggunaan teknologi, pentadbiran dan pemasaran dalam industri pembuatan makanan.",
+    "description_english": "This course covers the computer technology management which includes the aspect of management, organization, technology usage, administration, and marketing in the food manufacturing industry.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4401 \nSistem Maklumat Pengurusan dalam Industri Makanan/ \nInformation System in Food Industry \n3 (2 + 1) \nPrasyarat: Tiada/ None \nKursus ini merangkumi pengurusan sistem maklumat yang meliputi aspek pengurusan, organisasi, \npenggunaan teknologi, pentadbiran dan pemasaran dalam industri pembuatan makanan. \nThis course covers the computer technology management which includes the aspect of management, \norganization, technology usage, administration, and marketing in the food manufacturing indust"
+  },
+  {
+    "course_code": "FSM4502",
+    "course_name_malay": "Pemasaran dan Penjualan dalam Industri Makanan",
+    "course_name_english": "Marketing and Sales in Food Industry",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip pemasaran dan gelagat pengguna dalam industri pembuatan makanan. Aktiviti perancangan pemasaran dan penjualan turut dibincangkan.",
+    "description_english": "This course covers the marketing principles and consumer behaviour in food manufacturing industry. The activities pertaining to marketing planning and sales will be discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4502 \nPemasaran \ndan \nPenjualan \ndalam \nIndustri \nMakanan/ \nMarketing and Sales in Food Industry \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi prinsip pemasaran dan gelagat pengguna dalam industri pembuatan \nmakanan. Aktiviti perancangan pemasaran dan penjualan turut dibincangkan. \nThis course covers the marketing principles and consumer behaviour in food manufacturing industry. \nThe activities pertaining to marketing planning and sales will be discussed."
+  },
+  {
+    "course_code": "FSM4601",
+    "course_name_malay": "Pengurusan Strategik dalam Industri Makanan",
+    "course_name_english": "Strategic Management in Food Industry",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "ACT3211",
+      "FSM4502"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip pengurusan strategik dalam industri pembuatan makanan. Proses membangunkan strategi untuk industri pembuatan makanan juga diberi penekanan.",
+    "description_english": "This course covers the principles of strategic management in the food manufacturing industry. The process of strategies development in the food manufacturing industry will be emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4601 \nPengurusan Strategik dalam Industri Makanan/ Strategic \nManagement in Food Industry \n3 (3 + 0) \nPrasyarat: ACT3211 dan FSM4502 \nKursus ini merangkumi prinsip pengurusan strategik dalam industri pembuatan makanan. Proses \nmembangunkan strategi untuk industri pembuatan makanan juga diberi penekanan. \nThis course covers the principles of strategic management in the food manufacturing industri. The \nprocess of strategies development in the food manufacturing industry will be emphasized"
+  },
+  {
+    "course_code": "FSM4658",
+    "course_name_malay": "Isu Semasa dalam Perniagaan Makanan",
+    "course_name_english": "Current Issue in Food Business",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi perbincangan mengenai isu semasa dalam industri makanan. Cadangan dan tindakan penyelesaian untuk isu semasa turut diberi penekanan.",
+    "description_english": "This course covers the discussion of current issues in food industry. Proposal and solution to the current issues are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4658 \nIsu Semasa dalam Perniagaan Makanan/ Current Issue in \nFood Business \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi perbincangan mengenai isu semasa dalam industri makanan. Cadangan dan \ntindakan penyelesaian untuk isu semasa turut diberi penekanan. \nThis course covers the discussion of current issues in food industry. Proposal and solution to the \ncurrent issues are also emphasized."
+  },
+  {
+    "course_code": "FMO3001",
+    "course_name_malay": "Pengenalan Kepada Pembuatan Makanan",
+    "course_name_english": "Introduction to Food Manufacturing",
+    "credits": "2 (2+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pengenalan kepada industri pembuatan makanan. Komposisi, kaedah pembuatan dan faktor kerosakan makanan dihuraikan.  Pembuatan produk makanan dan minuman berasaskan haiwan dan tumbuhan, piawaian dan isu keselamatan makanan ditekankan.",
+    "description_english": "This course encompasses introduction to food manufacturing industry. Food composition, manufacturing techniques and factors affecting food spoilage are elaborated.  Manufacturing of animal and plant-based foods and beverages, standards and issues on food safety are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO3001 \nPengenalan Kepada Pembuatan Makanan/ Introduction to \nFood Manufacturing \n2 (2+0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi pengenalan kepada industri pembuatan makanan. Komposisi, kaedah \npembuatan dan faktor kerosakan makanan dihuraikan.  Pembuatan produk makanan dan minuman \nberasaskan haiwan dan tumbuhan, piawaian dan isu keselamatan makanan ditekankan. \nThis course encompasses introduction to food manufacturing industry. Food composition, \nmanufacturing techniques and factors "
+  },
+  {
+    "course_code": "FMO3402",
+    "course_name_malay": "Operasi Unit Dalam Pembuatan Makanan",
+    "course_name_english": "Unit Operations in Food Manufacturing",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "FST3401"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai kaedah operasi unit pembuatan makanan. Prinsip penggaulan, penurasan, pengemparan, pengekstrakan dan penyemperitan dibincangkan.",
+    "description_english": "This course encompasses various unit operations techniques of food manufacturing, principles of mixing, filtration, centrifugation, extraction and extrusion are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO3402 \nOperasi Unit Dalam Pembuatan Makanan/ Unit Operations in \nFood Manufacturing \n3 (2+1) \nPrasyarat: FST3401 \nKursus ini merangkumi pelbagai kaedah operasi unit pembuatan makanan. Prinsip penggaulan, \npenurasan, pengemparan, pengekstrakan dan penyemperitan dibincangkan. \nThis course encompasses various unit operations techniques of food manufacturing, principles of \nmixing, filtration, centrifugation, extraction and extrusion are discussed."
+  },
+  {
+    "course_code": "FMO3801",
+    "course_name_malay": "Pemprosesan dan Pengawetan Makanan",
+    "course_name_english": "Food Processing and Preservation",
+    "credits": "3 (2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip dan aplikasi pemprosesan dan pengawetan makanan. Konsep rintangan, pemprosesan suhu tinggi dan rendah, pemprosesan bukan terma, pengeringan serta pemekatan dihuraikan. Kesan pemprosesan terhadap kualiti dan kestabilan produk, pembungkusan dan aditif makanan dibincangkan.",
+    "description_english": "This course encompasses the principles and applications of food processing and preservation. Hurdle concept, high- and low- temperature, non-thermal, drying and evaporation processes are described. Effects of processing on quality and stability of food products, packaging and food additives are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO3801 \nPemprosesan dan Pengawetan Makanan/ Food Processing \nand Preservation \n3 (2+1) \nPrasyarat: Tiada/ None \nKursus ini merangkumi prinsip dan aplikasi pemprosesan dan pengawetan makanan. Konsep \nrintangan, pemprosesan suhu tinggi dan rendah, pemprosesan bukan terma, pengeringan serta \npemekatan dihuraikan. Kesan pemprosesan terhadap kualiti dan kestabilan produk, pembungkusan \ndan aditif makanan dibincangkan \nThis course encompasses the principles and applications of food processing and pre"
+  },
+  {
+    "course_code": "FMO4301",
+    "course_name_malay": "Pembuatan dan Pengkomersialan Produk Makanan Baharu",
+    "course_name_english": "Manufacturing and Commercialization of New Food Products",
+    "credits": "3 (1+2)",
+    "prerequisites": [
+      "FMO4801",
+      "FMO4802"
+    ],
+    "description_malay": "Kursus ini merangkumi pembuatan dan pengkomersialan produk makanan baharu. Penyelesaian masalah berkaitan pembuatan dan penghasilan produk makanan baharu diberi penekanan. Kaedah pengkomersilaan produk makanan baharu turut dibincangkan",
+    "description_english": "This course encomposses manufacturing and commercialisation of new food products. Problem solving concerning development of new food process and products are emphasized. Methods of commercialisation of new food products are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO4301 \nPembuatan dan Pengkomersialan Produk Makanan Baharu/ \nManufacturing and Commercialization of New Food Products \n3 (1+2) \nPrasyarat: FMO4801 atau FMO4802 \nKursus ini merangkumi pembuatan dan pengkomersialan produk makanan baharu. Penyelesaian \nmasalah berkaitan pembuatan dan penghasilan produk makanan baharu diberi penekanan. Kaedah \npengkomersilaan produk makanan baharu turut dibincangkan \nThis course encomposses manufacturing and commercialisation of new food products. Problem \nsolving"
+  },
+  {
+    "course_code": "FMO4501",
+    "course_name_malay": "Perundangan dalam Operasi Pembuatan Makanan",
+    "course_name_english": "Laws in Food Manufacturing Operations",
+    "credits": "3 (1+2)",
+    "prerequisites": [
+      "FMO4801",
+      "FMO4802"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai perundangan dalam operasi pembuatan makanan.  Akta berkaitan dengan kilang dan jentera, pekerjaan, kesihatan dan keselamatan pekerjaan, peraturan makanan, perihal dagangan dan cap dagangan dibincangkan.",
+    "description_english": "This course encompasses various laws in food manufacturing operations.  Acts related to factories and machinery, employment, occupational safety and health administration, food regulations, trade descriptions and trademarks are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO4501 \nPerundangan dalam Operasi Pembuatan Makanan/ Laws in \nFood Manufacturing Operations \n3 (1+2) \nPrasyarat: FMO4801 atau FMO4802 \nKursus ini merangkumi pelbagai perundangan dalam operasi pembuatan makanan.  Akta berkaitan \ndengan kilang dan jentera, pekerjaan, kesihatan dan keselamatan pekerjaan, peraturan makanan, \nperihal dagangan dan cap dagangan dibincangkan. \nThis course encompasses various laws in food manufacturing operations.  Acts related to factories \nand machinery, employment, o"
+  },
+  {
+    "course_code": "FMO4602",
+    "course_name_malay": "Kualiti Dan Piawaian Dalam Industri Pembuatan Makanan",
+    "course_name_english": "Food Quality And Standards In Food Manufacturing Industry",
+    "credits": "3 (3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi sistem kualiti dan piawaian dalam industri pembuatan makanan.  Konsep, aplikasi piawaian, amalan dalam industri pembuatan makanan, pengurusan pemeriksaan makanan dan panggil-balik juga dibincangkan.",
+    "description_english": "This course encompasess quality systems and standards in food manufacturing industry.  Concept, application of standards, practice in food manufacturing industry, management of food inspection and recall are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO4602 \nKualiti Dan Piawaian Dalam Industri Pembuatan Makanan/ \nFood Quality And Standards In Food Manufacturing Industry \n3 (3+0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi sistem kualiti dan piawaian dalam industri pembuatan makanan.  Konsep, \naplikasi piawaian, amalan dalam industri pembuatan makanan, pengurusan pemeriksaan makanan \ndan panggil-balik juga dibincangkan. \nThis course encompasess quality systems and standards in food manufacturing industry.  Concept, \napplication of standar"
+  },
+  {
+    "course_code": "FMO4701",
+    "course_name_malay": "Pengurusan Rantaian Bekalan Makanan",
+    "course_name_english": "Food Supply Chain Management",
+    "credits": "3 (3+0)",
+    "prerequisites": [
+      "MGM3101"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai elemen utama dalam pengurusan rantaian bekalan makanan. Strategi dan kepentingan pengurusan rantaian bekalan serta pengurusan perolehan dibincangkan. Penggudangan, logistik, rantaian sejuk beku dan rantaian bekalan makanan untuk masa hadapan dihuraikan.",
+    "description_english": "This course encompasses various key elements in food supply chain management. Strategy and importance of food supply chain management as well as procurement management are discussed. Warehousing, logistic, cold chain and the future of food supply chain are described.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO4701 \nPengurusan Rantaian Bekalan Makanan/ Food Supply Chain \nManagement \n3 (3+0) \nPrasyarat: MGM3101 \nKursus ini merangkumi pelbagai elemen utama dalam pengurusan rantaian bekalan makanan. \nStrategi dan kepentingan pengurusan rantaian bekalan serta pengurusan perolehan dibincangkan. \nPenggudangan, logistik, rantaian sejuk beku dan rantaian bekalan makanan untuk masa hadapan \ndihuraikan. \nThis course encompasses various key elements in food supply chain management. Strategy and \nimportance of"
+  },
+  {
+    "course_code": "FMO4801",
+    "course_name_malay": "Pembuatan Hasilan Tumbuhan",
+    "course_name_english": "Manufacturing of Plant Products",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "FMO3801"
+    ],
+    "description_malay": "Kursus ini merangkumi komposisi kimia serta perubahan sifat fiziko-kimia hasilan tumbuhan semasa pengendalian dan pemprosesan. Teknologi penghasilan dan kualiti berkaitan pelbagai hasilan berasaskan tumbuhan dibincangkan.",
+    "description_english": "This course covers chemical composition and changes in the physico-chemical properties of plant products during handling and processing. Processing technology and quality related to various plant-based products are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO4801 \nPembuatan Hasilan Tumbuhan/ Manufacturing of Plant \nProducts    \n3 (2+1) \nPrasyarat: FMO3801 \nKursus ini merangkumi komposisi kimia serta perubahan sifat fiziko-kimia hasilan tumbuhan semasa \npengendalian dan pemprosesan. Teknologi penghasilan dan kualiti berkaitan pelbagai hasilan \nberasaskan tumbuhan dibincangkan. \nThis course covers chemical composition and changes in the physico-chemical properties of plant \nproducts during handling and processing. Processing technology and quality "
+  },
+  {
+    "course_code": "FMO4802",
+    "course_name_malay": "Pembuatan Hasilan Haiwan",
+    "course_name_english": "Manufacturing of Animal Products",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "FMO3801"
+    ],
+    "description_malay": "Kursus ini merangkumi komposisi kimia serta perubahan sifat fizikokimia hasilan berasaskan haiwan semasa pengendalian dan pemprosesan. Teknologi pengeluaran dan kualiti berkaitan pelbagai hasilan berasaskan haiwan dibincangkan.",
+    "description_english": "This course encompasses chemical composition and changes in the physico-chemical properties of animal-based products during handling and processing. Production technology and quality related to various animal-based products are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO4802 \nPembuatan Hasilan Haiwan/ Manufacturing of Animal \nProducts \n3 (2+1) \nPrasyarat: FMO3801 \nKursus ini merangkumi komposisi kimia serta perubahan sifat fizikokimia hasilan berasaskan haiwan \nsemasa pengendalian dan pemprosesan. Teknologi pengeluaran dan kualiti berkaitan pelbagai \nhasilan berasaskan haiwan dibincangkan. \nThis course encompasses chemical composition and changes in the physico-chemical properties of \nanimal-based products during handling and processing. Production technolog"
+  },
+  {
+    "course_code": "FMO4901",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "12 (0+12)",
+    "prerequisites": [],
+    "description_malay": "Melalui kursus ini, pelajar didedahkan kepada persekitaran kerja yang sebenar di industri/organisasi. Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan.",
+    "description_english": "In this course, students are exposed to real working environment in industries/organizations. Training includes application of the theoretical and practical aspects that have been studied with current practices in the workplace. Problem solving and communication skills are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO4901 \nLatihan Industri/Industrial Training \n12 (0+12) \nPrasyarat: Tiada/ None \nMelalui kursus ini, pelajar didedahkan kepada persekitaran kerja yang sebenar di industri/organisasi. \nLatihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa \ndi tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan. \nIn this course, students are exposed to real working environment in industries/organizations. Training \nincludes application of "
+  },
+  {
+    "course_code": "FMO4902",
+    "course_name_malay": "Operasi Industri Pembuatan Makanan",
+    "course_name_english": "Operations In Food Manufacturing Industry",
+    "credits": "14 (0+14)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pelbagai fungsi utama operasi dalam industri pembuatan makanan. Aliran proses pembuatan makanan, pengurusan kualiti makanan, pengurusan sumber manusia, pengurusan sisa, pengurusan rantaian bekalan dan pengembangan produk makanan diberi penekanan. Cadangan penyelesaian masalah dalam operasi pembuatan makanan melalui kajian saintifk dari segi reka bentuk, pengumpulan dan analisis data juga dijalankan.",
+    "description_english": "This course encompasses various main functions of food manufacturing operations. Food manufacturing process flow, food quality management, human resource management, waste management, supply chain management and food product development are emphasized. Proposed problem solving in food manufacturing operations through scientific study in terms of appropriate design, data collection and analyses is also conducted.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO4902 \nOperasi Industri  Pembuatan Makanan/ Operations In Food \nManufacturing Industry \n14 (0+14) \nPrasyarat: Tiada/ None \nKursus ini merangkumi pelbagai fungsi utama operasi dalam industri pembuatan makanan. Aliran \nproses pembuatan makanan, pengurusan kualiti makanan, pengurusan sumber manusia, \npengurusan sisa, pengurusan rantaian bekalan dan pengembangan produk makanan diberi \npenekanan. Cadangan penyelesaian masalah dalam operasi pembuatan makanan melalui kajian \nsaintifk dari segi reka b"
+  },
+  {
+    "course_code": "FMO4959",
+    "course_name_malay": "Disertasi Bacelor",
+    "course_name_english": "Bachelor Dissertation",
+    "credits": "6 (0+6)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk sesuatu projek penyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui rekabentuk, pengumpulan dan analisis data yang sesuai diberi penekanan.",
+    "description_english": "This course encompasses the preparation of proposal, implementation and scientific writing of research project. Scientific approach to generate data systematically through appropriate design, data collection and analysis are emphasized.",
+    "department": "Jabatan Pengurusan Dan Khidmat Makanan",
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMO4959 \nDisertasi Bacelor/ Bachelor Dissertation \n6 (0+6) \n\n--- Page 23 ---\n60 \n \nPrasyarat: Tiada/ None \nKursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk sesuatu \nprojek penyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui rekabentuk, \npengumpulan dan analisis data yang sesuai diberi penekanan. \nThis course encompasses the preparation of proposal, implementation and scientific writing of \nresearch project. Scientific approach to gen"
+  },
+  {
+    "course_code": "FSM3007",
+    "course_name_malay": "Pengenalan Kepada Industri Perkhidmatan Makanan",
+    "course_name_english": "Introduction to Food Service Industry",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini memperkenalkan pelbagai jenis operasi dan pengurusan dalam industri perkhidmatan makanan. Kitaran operasi perkhidmatan makanan bermula daripada perancangan menu, pembelian, penyediaan, pengeluaran makanan, pemasaran, sehingga ke jenis dan gaya perkhidmatan, ditekankan. Peluang kerjaya dalam sektor industri makanan yang berbeza turut dibincangkan.",
+    "description_english": "This course introduces various types of operations and managements in the food service industry. The food service operation cycle, from menu planning, purchasing, preparation, food production, marketing, to service type and style, are emphasized. Career opportunities in different food industry sectors are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3007 \nPengenalan \nKepada \nIndustri \nPerkhidmatan \nMakanan/ \nIntroduction to Food Service Industry \n 3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini memperkenalkan pelbagai jenis operasi dan pengurusan dalam industri perkhidmatan \nmakanan. Kitaran operasi perkhidmatan makanan bermula daripada perancangan menu, \npembelian, penyediaan, pengeluaran makanan, pemasaran, sehingga ke jenis dan gaya \nperkhidmatan, ditekankan. Peluang kerjaya dalam sektor industri makanan yang berbeza turut \ndibincangkan"
+  },
+  {
+    "course_code": "FSM3206",
+    "course_name_malay": "Teknologi Penghasilan Makanan Berkuantiti",
+    "course_name_english": "Technology in Mass Food Production",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi prinsip dan aplikasi unit operasi dalam pemprosesan makanan bagi industri perkhidmatan makanan untuk penghasilan makanan berkuantiti. Perbincangan merangkumi teknik pemprosesan makanan, peralatan pemprosesan makanan terkini dalam industri perkhidmatan makanan dan juga kerosakan makanan yang dihadapi oleh pengusaha perkhidmatan makanan.",
+    "description_english": "This course covers the principle and application of unit operations in food processing for mass food production in the food service industry. Discussion includes food processing techniques, latest food processing equipment in the food service industry and food spoilage faced by food service operators.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3206 \nTeknologi Penghasilan Makanan Berkuantiti/ Technology in \nMass Food Production) \n 3 (2 + 1) \nPrasyarat: Tiada/ None \nKursus ini meliputi prinsip dan aplikasi unit operasi dalam pemprosesan makanan bagi industri \nperkhidmatan makanan untuk penghasilan makanan berkuantiti. Perbincangan merangkumi teknik \npemprosesan makanan, peralatan pemprosesan makanan terkini dalam industri perkhidmatan \nmakanan dan juga kerosakan makanan yang dihadapi oleh pengusaha perkhidmatan makanan. \nThis course "
+  },
+  {
+    "course_code": "FSM3304",
+    "course_name_malay": "Teori Asas Penyediaan Makanan",
+    "course_name_english": "Basic Theory of Food Preparation",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi penerangan dan aplikasi pelbagai prinsip penyediaan makanan, perbezaan pelbagai teknik penyediaan makanan berkualiti. Penekanan diberikan kepada pengurusan dan penyediaan bahan mentah, pengeluaran produk dan kemahiran profesional dalam industri perkhidmatan makanan.",
+    "description_english": "This course covers the explanation and application of various principle of food preparation, differentiation of various techniques required in quality food production. Focus is given to the management and preparation of raw materials, food production and professional skills in the food service industry.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3304 \nTeori Asas Penyediaan Makanan/ Basic Theory of Food \nPreparation \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi penerangan dan aplikasi pelbagai prinsip penyediaan makanan, perbezaan \npelbagai teknik penyediaan makanan berkualiti. Penekanan diberikan kepada pengurusan dan \npenyediaan bahan mentah, pengeluaran produk dan kemahiran profesional dalam industri \nperkhidmatan makanan. \nThis course covers the explanation and application of various principle of food preparation, \ndif"
+  },
+  {
+    "course_code": "FSM3305",
+    "course_name_malay": "Amali Asas Penyediaan Makanan",
+    "course_name_english": "Fundamental Laboratory for Food Preparation",
+    "credits": "2 (0 + 2)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pelbagai kaedah dalam penyediaan makanan secara latihan amali. Ia meliputi kaedah asas pra-penyediaan bahan mentah, kaedah memasak dan juga persembahan makanan yang sesuai. Etika dalam penyediaan makanan juga ditekankan.",
+    "description_english": "This course covers various methods of food preparations through hands-on practices. It comprises mise-en-place of raw materials, cooking techniques and presentation of the food. Ethics in food preparation is also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3305 \nAmali Asas Penyediaan Makanan/ Fundamental Laboratory \nfor Food Preparation  \n2 (0 + 2) \nPrasyarat: Tiada/ None \n\n--- Page 25 ---\n62 \n \nKursus ini merangkumi pelbagai kaedah dalam penyediaan makanan secara latihan amali. Ia \nmeliputi kaedah asas pra-penyediaan bahan mentah, kaedah memasak dan juga persembahan \nmakanan yang sesuai. Etika dalam penyediaan makanan juga ditekankan. \nThis course covers various methods of food preparations through hands-on practices. It comprises \nmise-en-pla"
+  },
+  {
+    "course_code": "FSM3402",
+    "course_name_malay": "Khidmat Layanan Restoran",
+    "course_name_english": "Restaurant Services",
+    "credits": "3 (1 + 2)",
+    "prerequisites": [
+      "FSM3304",
+      "FSM3305"
+    ],
+    "description_malay": "Kursus ini memberi penekanan kepada pelbagai khidmat layanan profesional di restoran mengikut tema dan menu. Ini merangkumi pelbagai elemen pengendalian bahagian depan (front-of-the-house) seperti susun atur peranggu meja, dekorasi, suasana, promosi dan tempahan. Etika dan protokol pengurusan sesuatu majlis turut dibincangkan.",
+    "description_english": "This course emphasizes on various professional services in restaurants according to theme and menu. This includes various front-of-the-house handling elements such as table layout, decoration, ambience, promotion, and reservation. Ethics and protocols in event management are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3402 \nKhidmat Layanan Restoran/ Restaurant Services \n3 (1 + 2) \nPrasyarat: FSM3304 dan FSM3305 \nKursus ini memberi penekanan kepada pelbagai khidmat layanan profesional di restoran mengikut \ntema dan menu. Ini merangkumi pelbagai elemen pengendalian bahagian depan (front-of-the-\nhouse) seperti susun atur peranggu meja, dekorasi, suasana, promosi dan tempahan. Etika dan \nprotokol pengurusan sesuatu majlis turut dibincangkan. \nThis course emphasizes on various professional services in restauran"
+  },
+  {
+    "course_code": "FSM3502",
+    "course_name_malay": "Pembangunan Menu",
+    "course_name_english": "Menu Development",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FSM3304"
+    ],
+    "description_malay": "Kursus ini merangkumi pembangunan menu yang bersesuaian dengan operasi perkhidmatan makanan berdasarkan prinsip perancangan menu. Penekanan diberi kepada kepelbagaian jenis menu, kos dan penentuan harga menu, reka bentuk kad menu, keperluan pasaran serta analisis menu.",
+    "description_english": "This course covers menu development suited for food service operations based on menu planning principles. Emphasis is given to variability of menu types, cost and menu price determination, menu card design, market needs and menu analysis.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3502 \nPembangunan Menu/ Menu Development \n3 (3 + 0) \nPrasyarat: FSM3304  \nKursus ini merangkumi pembangunan menu yang bersesuaian dengan operasi perkhidmatan \nmakanan berdasarkan prinsip perancangan menu. Penekanan diberi kepada kepelbagaian jenis \nmenu, kos dan penentuan harga menu, reka bentuk kad menu, keperluan pasaran serta analisis \nmenu.     \nThis course covers menu development suited for food service operations based on menu planning \nprinciples. Emphasis is given to variability of me"
+  },
+  {
+    "course_code": "FSM3606",
+    "course_name_malay": "Pembelian Dalam Perkhidmatan Makanan",
+    "course_name_english": "Procurement In Food Service",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FSM3501"
+    ],
+    "description_malay": "Kursus ini merangkumi proses dan kaedah pembelian bahan mentah dan bekalan bukan makanan dalam perkhidmatan makanan. Ini termasuk proses penerimaan, penyimpanan, pengeluaran inventori dan rundingan. Penentuan jumlah, harga, polisi pembayaran, pembekal yang optimal serta penyediaan spesifikasi pembelian turut diberi penekanan.",
+    "description_english": "This course covers the process and methods of purchasing raw and non-food supplies in food service. These include receiving procedure, storage, inventory issuing and negotiation. Determination of quantity, price, payment policy, optimal suppliers and provision of purchase specification are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3606 \nPembelian Dalam Perkhidmatan Makanan/ Procurement In \nFood Service \n3 (3 + 0) \nPrasyarat: FSM3501 \nKursus ini merangkumi proses dan kaedah pembelian bahan mentah dan bekalan bukan makanan \ndalam perkhidmatan makanan. Ini termasuk proses penerimaan, penyimpanan, pengeluaran \ninventori dan rundingan. Penentuan jumlah, harga, polisi pembayaran, pembekal yang optimal serta \npenyediaan spesifikasi pembelian turut diberi penekanan. \nThis course covers the process and methods of purchasing raw"
+  },
+  {
+    "course_code": "FSM3607",
+    "course_name_malay": "Amalan Halal dalam Perkhidmatan Makanan",
+    "course_name_english": "Halal Practices in Food Service",
+    "credits": "2 (2 + 0)",
+    "prerequisites": [
+      "FSM3007"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep dan amalan halalan toyyiban bermula daripada perancangan sehingga penyediaan makanan dalam industri perkhidmatan makanan. Amalan, panduan dan perundangan berkaitan halalan toyyiban dalam industri perkhidmatan makanan turut dibincangkan.",
+    "description_english": "This course covers the concept and practices of halalan toyyiban starting from food planning to preparation in the food service industry. The practices, guidelines and legislation related to halalan toyyiban within the food service industry are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3607 \nAmalan Halal dalam Perkhidmatan Makanan/ Halal Practices \nin Food Service \n2 (2 + 0) \nPrasyarat: FSM3007 \n\n--- Page 26 ---\n63 \n \nKursus ini merangkumi konsep dan amalan halalan toyyiban bermula daripada perancangan \nsehingga penyediaan makanan dalam industri perkhidmatan makanan. Amalan, panduan dan \nperundangan berkaitan halalan toyyiban dalam industri perkhidmatan makanan turut dibincangkan. \nThis course covers the concept and practices of halalan toyyiban starting from food planning "
+  },
+  {
+    "course_code": "FSM3608",
+    "course_name_malay": "Pengurusan Dan Kawalan Kos Perkhidmatan Makanan",
+    "course_name_english": "Foodservice Management and Cost Control",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FSM3502"
+    ],
+    "description_malay": "Kursus ini merangkumi pengurusan dan kaedah kawalan kos dalam perkhidmatan makanan. Fokus diberi ke atas  pengiraan kos makanan dan kos buruh,  kawalan pengeluaran, penyata pendapatan dan bajet. Kawalan kos melalui proses pembelian, penetapan harga jualan serta pengurusan pendapatan turut dibincangkan.",
+    "description_english": "This course covers the management and methods of cost control in food services. Focus is given on calculation of food costs and labor costs, production controls, income statements and budgets. Cost control through purchase process, sales pricing and revenue management are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3608 \nPengurusan Dan Kawalan Kos Perkhidmatan Makanan/ \nFoodservice Management and Cost Control \n3 (3 + 0) \nPrasyarat: FSM3502 \nKursus ini merangkumi pengurusan dan kaedah kawalan kos dalam perkhidmatan makanan. Fokus \ndiberi ke atas  pengiraan kos makanan dan kos buruh,  kawalan pengeluaran, penyata pendapatan \ndan bajet. Kawalan kos melalui proses pembelian, penetapan harga jualan serta pengurusan \npendapatan turut dibincangkan. \nThis course covers the management and methods of cost control"
+  },
+  {
+    "course_code": "FSM3609",
+    "course_name_malay": "Pengurusan Sumber Manusia Dalam Perkhidmatan Makanan",
+    "course_name_english": "Human Resource Management In Food Service",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip dan amalan pengurusan sumber manusia dalam industri perkhidmatan makanan. Penekanan diberi kepada pengambilan pekerja, pembangunan sumber manusia, penilaian prestasi dan pengekalan pekerja. Penyelesaian kepada isu sumber manusia dan hubungan industri juga turut dibincangkan.",
+    "description_english": "This course covers the principles and practices of human resource management in the food service industry. Emphasis is placed on employee recruitment, human resource development, performance evaluation and employee retention. Solutions to issues in human resources and industrial relations are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM3609 \nPengurusan Sumber Manusia Dalam Perkhidmatan Makanan/ \nHuman Resource Management In Food Service \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi prinsip dan amalan pengurusan sumber manusia dalam industri \nperkhidmatan makanan. Penekanan diberi kepada pengambilan pekerja, pembangunan sumber \nmanusia, penilaian prestasi dan pengekalan pekerja. Penyelesaian kepada isu sumber manusia dan \nhubungan industri juga turut dibincangkan. \nThis course covers the principles and practices "
+  },
+  {
+    "course_code": "FSM4102",
+    "course_name_malay": "Kaedah Penyelidikan Dalam Industri Makanan",
+    "course_name_english": "Research Methodology in Food Industry",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi kaedah penyelidikan dalam industri makanan. Ini termasuk kaedah penyelidikan kuantitatif dan kualitatif. Aliran penyelidikan bermula daripada pencarian idea, reka bentuk penyelidikan, pensampelan sehingga ke analisis data juga dibincangkan. Penggunaan perisian SPSS untuk menganalisis data turut diliputi.",
+    "description_english": "This course covers the research methods in food industry. This includes quantitative and qualitative research methods. Research flow starting from idea generation, research design, sampling to data analysis are discussed. The use of SPSS software for data analysis is also covered.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4102 \nKaedah Penyelidikan Dalam Industri Makanan/ Research \nMethodology in Food Industry \n3 (2 + 1) \nPrasyarat: Tiada/ None \nKursus ini merangkumi kaedah penyelidikan dalam industri makanan. Ini termasuk kaedah \npenyelidikan kuantitatif dan kualitatif. Aliran penyelidikan bermula daripada pencarian idea, reka \nbentuk penyelidikan, pensampelan sehingga ke analisis data juga dibincangkan. Penggunaan \nperisian SPSS untuk menganalisis data turut diliputi. \nThis course covers the research methods "
+  },
+  {
+    "course_code": "FSM4209",
+    "course_name_malay": "Inovasi Makanan Dalam Perkhidmatan Makanan",
+    "course_name_english": "Food Innovation In Food Service",
+    "credits": "3 (1 + 2)",
+    "prerequisites": [
+      "FSM3207",
+      "FSM3305",
+      "FSM3502",
+      "FSM3606"
+    ],
+    "description_malay": "Kursus ini memerlukan pelajar untuk mencipta formulasi menu baharu menggunakan pendekatan sains dan teknologi. Proses pembangunan menu baharu bermula dengan penjanaan idea dan konsep sehingga penghasilan produk prototaip. Penambahbaikan menu untuk kepuasan pelanggan dan penyelesaian masalah dalam inovasi makanan turut dibincangkan.",
+    "description_english": "This course requires students to create new menu formulations using science and technology approaches. The process of the new menu development begins from generation of idea and concept until the production of product prototype. Menu improvements for customer satisfaction and problem solving in food innovation are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4209 \nInovasi Makanan Dalam Perkhidmatan Makanan/ Food \nInnovation In Food Service \n3 (1 + 2) \nPrasyarat: FSM3207, FSM3305, FSM3502 dan FSM3606 \n\n--- Page 27 ---\n64 \n \nKursus ini memerlukan pelajar untuk mencipta formulasi menu baharu menggunakan pendekatan \nsains dan teknologi. Proses pembangunan menu baharu bermula dengan penjanaan idea dan \nkonsep sehingga penghasilan produk prototaip. Penambahbaikan menu untuk kepuasan pelanggan \ndan penyelesaian masalah dalam inovasi makanan turut dibinc"
+  },
+  {
+    "course_code": "FSM4210",
+    "course_name_malay": "Pemakanan Lanjutan Dalam Perkhidmatan Makanan",
+    "course_name_english": "Advanced Nutrition in Food Service",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FSM3208"
+    ],
+    "description_malay": "Kursus ini menekankan aspek keperluan pemakanan dan penyediaan menu untuk pelanggan daripada kumpulan tertentu pada setiap peringkat kitaran hidup, termasuk pesakit dan ahli sukan. Pembangunan menu untuk permintaan pemakanan khas pelanggan, permasalahan dan trend semasa dalam perkhidmatan makanan turut dibincangkan.",
+    "description_english": "This course emphasizes on nutritional needs and menu preparation aspects in meeting the needs of clients at each stage of life cycle, including patients and athlete. Menu development for customer-specific nutrition requests, problems and current trends in food service are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4210 \nPemakanan \nLanjutan \nDalam \nPerkhidmatan \nMakanan/ \nAdvanced Nutrition in Food Service \n 3 (3 + 0) \nPrasyarat: FSM3208 \nKursus ini menekankan aspek keperluan pemakanan dan penyediaan menu untuk pelanggan \ndaripada kumpulan tertentu pada setiap peringkat kitaran hidup, termasuk pesakit dan ahli sukan. \nPembangunan menu untuk permintaan pemakanan khas pelanggan, permasalahan dan trend \nsemasa dalam perkhidmatan makanan turut dibincangkan.  \nThis course emphasizes on nutritional needs and "
+  },
+  {
+    "course_code": "FSM4308",
+    "course_name_malay": "Penyediaan Makanan Warisan Malaysia",
+    "course_name_english": "Preparation of Malaysian Heritage Foods",
+    "credits": "3 (1 + 2)",
+    "prerequisites": [
+      "FSM3304",
+      "FSM3305"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek keaslian bahan ramuan, teknik dan rasa dalam menyediakan makanan warisan mengikut negeri yang berbeza di Malaysia. Pembangunan formulasi dan cara penyediaan standard untuk makanan warisan Malaysia bagi kelestarian keasliannya juga ditekankan.",
+    "description_english": "This course covers the authenticity aspect of ingredients, techniques, and taste in the preparation of Malaysian heritage foods based on the different states in Malaysia. Development of standard formulation and preparation methods of Malaysian heritage foods to sustain their authenticity are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4308 \nPenyediaan Makanan Warisan Malaysia/ Preparation of \nMalaysian Heritage Foods \n 3 (1 + 2) \nPrasyarat: FSM3304 dan FSM3305 \nKursus ini merangkumi aspek keaslian bahan ramuan, teknik dan rasa dalam menyediakan \nmakanan warisan mengikut negeri yang berbeza di Malaysia. Pembangunan formulasi dan cara \npenyediaan standard untuk makanan warisan Malaysia bagi kelestarian keasliannya juga \nditekankan. \nThis course covers the authenticity aspect of ingredients, techniques, and taste in the prepa"
+  },
+  {
+    "course_code": "FSM4309",
+    "course_name_malay": "Penyediaan Makanan Dan Khidmat Layanan Komersial",
+    "course_name_english": "Commercial Food Preparation And Services",
+    "credits": "2 (0 + 2)",
+    "prerequisites": [
+      "FSM3305",
+      "FSM3401"
+    ],
+    "description_malay": "Kursus ini merangkumi proses perancangan majlis komersial sehingga pelaksanaannya. Ini merangkumi pelbagai elemen pengendalian dapur komersial (back-of-the-house) dan bahagian depan (front-of-the-house) seperti pembangunan menu dan resipi, penyediaan makanan, dan khidmat layanan profesional.  Penekanan turut diberikan kepada elemen kerja berkumpulan dan keusahawanan secara latihan amali.",
+    "description_english": "This course covers the commercial event planning process till its execution. This includes various elements of the commercial kitchen (back-of-the-house) and front-of-the house handling, such as menu and recipe development, food preparation, and professional service. Emphasis is also given to the elements of teamwork and entrepreneurship through practical training.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4309 \nPenyediaan Makanan Dan Khidmat Layanan Komersial/ \nCommercial Food Preparation And Services) \n2 (0 + 2) \nPrasyarat: FSM3305 dan FSM3401 \nKursus ini merangkumi proses perancangan majlis komersial sehingga pelaksanaannya. Ini \nmerangkumi pelbagai elemen pengendalian dapur komersial (back-of-the-house) dan bahagian \ndepan (front-of-the-house) seperti pembangunan menu dan resipi, penyediaan makanan, dan \nkhidmat layanan profesional.  Penekanan turut diberikan kepada elemen kerja berkumpulan"
+  },
+  {
+    "course_code": "FSM4505",
+    "course_name_malay": "Digitalisasi Dan Pengurusan Sistem Maklumat Dalam Industri Perkhidmatan Makanan",
+    "course_name_english": "Digitalization and Management Information Systems in Food Service Industry",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FSM3007"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai jenis sistem pengurusan maklumat dan aplikasi terkini dalam perkhidmatan makanan. Penekanan juga diberikan kepada penggunaan komponen e-dagang, e-pemasaran dan media sosial dalam perkhidmatan makanan. Sistem pengurusan maklumat yang efisien dan kos efektif turut dibincangkan.",
+    "description_english": "This course covers various types of management information systems and their latest applications in food service. Emphasis is also given to the use of e-commerce, e-marketing and social media components in food service. Efficient and cost-effective management information systems are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4505 \nDigitalisasi Dan Pengurusan Sistem Maklumat Dalam Industri \nPerkhidmatan Makanan/ Digitalization and Management \nInformation Systems in Food Service Industry \n3 (2 + 1) \nPrasyarat: FSM3007 \nKursus ini merangkumi pelbagai jenis sistem pengurusan maklumat dan aplikasi terkini dalam \nperkhidmatan makanan. Penekanan juga diberikan kepada penggunaan komponen e-dagang, e-\npemasaran dan media sosial dalam perkhidmatan makanan. Sistem pengurusan maklumat yang \nefisien dan kos efektif turut dibi"
+  },
+  {
+    "course_code": "FSM4507",
+    "course_name_malay": "Fasiliti, Susun Atur Dan Reka Bentuk Perkhidmatan Makanan",
+    "course_name_english": "Food Service Facilities, Layout and Design",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "FSM3402",
+      "FSM3502"
+    ],
+    "description_malay": "Kursus ini merangkumi susun atur dan reka bentuk fasiliti perkhidmatan makanan dengan menggunakan perisian komputer. Pendedahan diberikan kepada analisis ruang bagi keseluruhan premis serta pemilihan dan susun atur peralatan. Pengintergrasian faktor ergonomik dalam susun atur dan reka bentuk fasiliti turut diberi penekanan.",
+    "description_english": "This course covers the food service facilities layout and design using computer softwares. Exposure to space analysis for the entire premise as well as selection and arrangement of equipment is also provided. The integration of ergonomic factors in facility layout and design is also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4507 \nFasiliti, Susun Atur Dan Reka Bentuk Perkhidmatan Makanan/ \nFood Service Facilities, Layout and Design \n3 (2 + 1) \nPrasyarat: FSM3402 dan FSM3502 \nKursus ini merangkumi susun atur dan reka bentuk fasiliti perkhidmatan makanan dengan \nmenggunakan perisian komputer. Pendedahan diberikan kepada analisis ruang bagi keseluruhan \npremis serta pemilihan dan susun atur peralatan.  \nPengintergrasian faktor ergonomik dalam susun atur dan reka bentuk fasiliti turut diberi penekanan. \nThis course c"
+  },
+  {
+    "course_code": "FSM4602",
+    "course_name_malay": "Pengurusan Kualiti dalam Perkhidmatan Makanan",
+    "course_name_english": "Quality Management in Food Service",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FSM3007"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai prinsip sistem kualiti dalam industri perkhidmatan makanan. Pendedahan diberikan kepada sistem pensijilan, pemastian dan pelbagai alat kawalan kualiti untuk memastikan kualiti makanan dapat dipertingkatkan bagi kepuasan pelanggan. Penyelesaian masalah berkaitan pengurusan kualiti di organisasi perkhidmatan makanan turut ditekankan.",
+    "description_english": "This course covers various principles of quality systems in the food service industry. Exposure to certification system, assurance and various quality control tools is provided to ensure food quality can be improved for consumers’ benefit. Problem-solving pertaining to quality management in food service organizations is also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4602 \nPengurusan Kualiti dalam Perkhidmatan Makanan/ Quality \nManagement in Food Service  \n3 (3 + 0) \nPrasyarat: FSM3007 \nKursus ini merangkumi pelbagai prinsip sistem kualiti dalam industri perkhidmatan makanan. \nPendedahan diberikan kepada sistem pensijilan, pemastian dan pelbagai alat kawalan kualiti untuk \nmemastikan kualiti makanan dapat dipertingkatkan bagi kepuasan pelanggan. Penyelesaian \nmasalah berkaitan pengurusan kualiti di organisasi perkhidmatan makanan turut ditekankan.  \nThis "
+  },
+  {
+    "course_code": "FSM4604",
+    "course_name_malay": "Pemasaran Dalam Perkhidmatan Makanan",
+    "course_name_english": "Marketing In Food Service",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FSM3502"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep pemasaran, ciri perkhidmatan dan gelagat pengguna dalam perkhidmatan makanan. Teknik segmentasi, pemposisian dan pembangunan produk, analisis saluran pemasaran, promosi dan pengiklanan turut dibincangkan. Aktiviti berkaitan kajian pasaran dan pembangunan pelan pemasaran diberi penekanan.",
+    "description_english": "This course covers the marketing concepts, service characteristics and consumer behavior in food service. Segmentation techniques, product development and positioning, marketing channel analysis, promotion and advertising are also discussed. Activities pertaining to market research and development of marketing plan are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4604 \nPemasaran Dalam Perkhidmatan Makanan/ Marketing In Food \nService \n3 (3 + 0) \nPrasyarat: FSM3502 \nKursus ini merangkumi konsep pemasaran, ciri perkhidmatan dan gelagat pengguna dalam \nperkhidmatan makanan. Teknik segmentasi, pemposisian dan pembangunan produk, analisis \nsaluran pemasaran, promosi dan pengiklanan turut dibincangkan. Aktiviti berkaitan kajian pasaran \ndan pembangunan pelan pemasaran diberi penekanan.  \n\n--- Page 29 ---\n66 \n \nThis course covers the marketing concepts, servi"
+  },
+  {
+    "course_code": "FSM4705",
+    "course_name_malay": "Pengurusan Restoran",
+    "course_name_english": "Restaurant Management",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FSM3606",
+      "FSM4507"
+    ],
+    "description_malay": "Kursus ini merangkumi operasi dan pengurusan restoran, bermula daripada kajian kebolehlaksanaan, pembangunan konsep, reka bentuk menu sehingga fasiliti restoran. Pengeluaran dan perkhidmatan makanan berkualiti serta pengurusan pemasaran, sumber manusia dan kewangan turut ditekankan. Aspek penting dalam operasi dan pengurusan restoran diintegrasikan dalam pembangunan pelan perniagaan.",
+    "description_english": "This course covers restaurant management and operation, beginning from feasibility study, concept development, menu design till restaurant facilities. Quality food production and service as well as marketing management, human resource and finance are also emphasized. Important aspects in restaurant management and operation are integrated in the development of business plan.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4705 \nPengurusan Restoran/ Restaurant Management \n3 (3 + 0) \nPrasyarat: FSM3606 dan FSM4507  \nKursus \nini \nmerangkumi \noperasi \ndan \npengurusan \nrestoran, \nbermula \ndaripada \nkajian \nkebolehlaksanaan, pembangunan konsep, reka bentuk menu sehingga fasiliti restoran. Pengeluaran \ndan perkhidmatan makanan berkualiti serta pengurusan pemasaran, sumber manusia dan \nkewangan turut ditekankan. Aspek penting dalam operasi dan pengurusan restoran diintegrasikan \ndalam pembangunan pelan perniagaan. \nTh"
+  },
+  {
+    "course_code": "FSM4706",
+    "course_name_malay": "Pengurusan Perkhidmatan Makanan Institusi",
+    "course_name_english": "Institutional Food Service Management",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [
+      "FSM3208",
+      "FSM3502"
+    ],
+    "description_malay": "Kursus ini merangkumi sistem pengurusan dan pengendalian perkhidmatan makanan institusi. Keberkesanan pengurusan institusi yang meliputi aspek pengurusan menu, sistem pengedaran makanan, logistik serta aplikasi sistem maklumat diberi penekanan. Kawalan kos operasi, kuantiti dan kualiti makanan bagi memastikan kelestarian perkhidmatan makanan institusi turut dibincangkan.",
+    "description_english": "This course encompasses the handling and management system of institutional food service. The efficiency of institutional management that covers menu management, food delivery system, logistics and information system application aspects are emphasized. Controls over operational cost, quantity and quality of food to ensure institutional food service sustainability are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4706 \nPengurusan Perkhidmatan Makanan Institusi/ Institutional \nFood Service Management \n \n3 (3 + 0) \nPrasyarat: FSM3208 dan FSM3502 \nKursus ini merangkumi sistem pengurusan dan pengendalian perkhidmatan makanan institusi. \nKeberkesanan pengurusan institusi yang meliputi aspek pengurusan menu, sistem pengedaran \nmakanan, logistik serta aplikasi sistem maklumat diberi penekanan. Kawalan kos operasi, kuantiti \ndan kualiti makanan bagi memastikan kelestarian perkhidmatan makanan institusi turut "
+  },
+  {
+    "course_code": "FSM4707",
+    "course_name_malay": "Pengurusan Minuman",
+    "course_name_english": "Beverage Management",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi prinsip pengurusan dalam penghasilan pelbagai produk minuman serta perkhidmatannya. Pendedahan kepada pelbagai jenis minuman termasuk minuman beralkohol, proses penyediaan, peralatan dan cara menghidang. Aspek pembangunan resipi, pengurusan minuman dan konsep perniagaan dibincangkan.",
+    "description_english": "This course encompasses the management principles in the production of various beverage products, as well as its services. Exposure is given to various types of beverages, including alcoholic beverages, preparation process, equipment and serving methods. The aspects of recipe development, beverage management and business concept are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4707 \nPengurusan Minuman /Beverage Management \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi prinsip pengurusan dalam penghasilan pelbagai produk minuman serta \nperkhidmatannya. Pendedahan kepada pelbagai jenis minuman termasuk minuman beralkohol, \nproses penyediaan, peralatan dan cara menghidang. Aspek pembangunan resipi, pengurusan \nminuman dan konsep perniagaan dibincangkan. \nThis course encompasses the management pricnciples in the production of various beverage \nproducts, as w"
+  },
+  {
+    "course_code": "FSM4781",
+    "course_name_malay": "Keusahawanan Dalam Perkhidmatan Makanan",
+    "course_name_english": "Entrepreneurship in Food Service",
+    "credits": "3 (1 + 2)",
+    "prerequisites": [
+      "FSM4604"
+    ],
+    "description_malay": "Kursus ini merangkumi pembangunan dan pelaksanaan pelan perniagaan perkhidmatan makanan yang berpotensi menjana keuntungan. Aktiviti perniagaan secara praktikal dijalankan dengan menekankan kemahiran pengurusan perniagaan dan budaya keusahawanan. Tumpuan diberikan kepada kreativiti dan inovasi dalam menguruskan perniagaan perkhidmatan makanan yang berdaya saing.",
+    "description_english": "This course covers the construction and execution of food service business plan with potential to generate profit. Practical business activities are carried out with emphasis on business management skills and entrepreneurship culture. Focus is given to creativity and innovation in managing competitive food service business.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4781 \nKeusahawanan \nDalam \nPerkhidmatan \nMakanan/ \nEntrepreneurship in Food Service \n 3 (1 + 2) \n\n--- Page 30 ---\n67 \n \nPrasyarat: FSM4604 \nKursus ini merangkumi pembangunan dan pelaksanaan pelan perniagaan perkhidmatan makanan \nyang berpotensi menjana keuntungan. Aktiviti perniagaan secara praktikal dijalankan dengan \nmenekankan kemahiran pengurusan perniagaan dan budaya keusahawanan. Tumpuan diberikan \nkepada kreativiti dan inovasi dalam menguruskan perniagaan perkhidmatan makanan yang berd"
+  },
+  {
+    "course_code": "FSM4805",
+    "course_name_malay": "Perundangan Industri Perkhidmatan Makanan",
+    "course_name_english": "Food Service Industrial Law",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi undang-undang berkaitan penubuhan dan pengoperasian industri perkhidmatan makanan. Tumpuan diberikan kepada peraturan, perlesenan, pensijilan dan akta perkhidmatan makanan. Undang-undang hospitaliti, hak sivil pelanggan dan isu turut diberi penekanan",
+    "description_english": "This course covers the laws pertaining to the establishment and operation of the food service industry. Focus is given to regulations, licensing, certification and food service legislation. Hospitality laws, customer rights and issues are also emphasized",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4805 \nPerundangan Industri Perkhidmatan Makanan/ Food Service \nIndustrial Law \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi undang-undang berkaitan penubuhan dan pengoperasian industri \nperkhidmatan makanan. Tumpuan diberikan kepada peraturan, perlesenan, pensijilan dan akta \nperkhidmatan makanan. Undang-undang hospitaliti, hak sivil pelanggan dan isu turut diberi \npenekanan \nThis course covers the laws pertaining to the establishment and operation of the food service \nindustry. F"
+  },
+  {
+    "course_code": "FSM4806",
+    "course_name_malay": "Kontrak Dan Francais Dalam Perkhidmatan Makanan",
+    "course_name_english": "Contract and Franchise in Food Service",
+    "credits": "3 (3 + 0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi elemen undang-undang kontrak dan francais dalam perkhidmatan makanan. Pengurusan konflik, litigasi, pertikaian dan salah laku dalam francais diberi penekanan. Pembangunan, pengurusan, trend pasaran dan isu berkaitan perniagaan francais dalam perkhidmatan makanan turut dibincangkan.",
+    "description_english": "This course covers the elements of contract law and franchise in the food service. Conflict management, litigation, dispute and wrongdoing in franchising are emphasized. Development, management, market trend and issues related to franchise business in food service are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4806 \nKontrak Dan Francais Dalam Perkhidmatan Makanan/ \nContract and Franchise in Food Service \n3 (3 + 0) \nPrasyarat: Tiada/ None \nKursus ini merangkumi elemen undang-undang kontrak dan francais dalam perkhidmatan makanan. \nPengurusan konflik, litigasi, pertikaian dan salah laku dalam francais diberi penekanan. \nPembangunan, pengurusan, trend pasaran dan isu berkaitan perniagaan francais dalam \nperkhidmatan makanan turut dibincangkan. \nThis course covers the elements of contract law and franc"
+  },
+  {
+    "course_code": "FSM4902",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "12 (0 + 12)",
+    "prerequisites": [],
+    "description_malay": "Melalui kursus ini, pelajar didedahkan kepada persekitaran kerja yang sebenar di industri/organisasi. Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan.",
+    "description_english": "In this course, students are exposed to real working environment in industries/organizations. Training includes application of the theoretical and practical aspects that have been studied with current practices in the workplace. Problem solving and communication skills are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4902 \nLatihan Industri/ Industrial Training \n12 (0 + 12) \nPrasyarat: Melengkapkan 200 jam latihan di rangkaian L’apprenti bagi pelajar BSPPM \nMelalui kursus ini, pelajar didedahkan kepada persekitaran kerja yang sebenar di industri/organisasi. \nLatihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa \ndi tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan. \nIn this course, students are exposed to real working environment "
+  },
+  {
+    "course_code": "FSM4959",
+    "course_name_malay": "Disertasi Bacelor",
+    "course_name_english": "Bachelor Dissertation",
+    "credits": "6 (0 + 6)",
+    "prerequisites": [
+      "BS(PMK)",
+      "BS(PPM)"
+    ],
+    "description_malay": "Kursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk sesuatu projek penyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui reka bentuk, pengumpulan dan analisis data yang sesuai diberi penekanan.",
+    "description_english": "This course encompasses the preparation of proposal, implementation, and scientific writing of research project. Scientific approach to generate data systematically through appropriate design, data collection and analysis are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FSM4959 \nDisertasi Bacelor/ Bachelor Dissertation \n6 (0 + 6) \n\n--- Page 31 ---\n68 \n \nPrasyarat: Pelajar Semester 6 BS(PMK) dan 7 BS(PPM) \nKursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk sesuatu \nprojek penyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui reka bentuk, \npengumpulan dan analisis data yang sesuai diberi penekanan. \nThis course encompasses the preparation of proposal, implementation, and scientific writing of \nresearch pr"
+  },
+  {
+    "course_code": "FMP3401",
+    "course_name_malay": "Pengurusan Sistem Maklumat dan Digitalisasi Dalam Industri Makanan",
+    "course_name_english": "Information Systems Management And Digitalisation In Food Industry",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pembangunan sistem pengurusan maklumat dan aplikasi digital terkini dalam kemajuan industri makanan. Penekanan juga diberikan kepada penggunaan komponen e-bisnes, e-dagang, e-pemasaran dan media sosial dalam industri makanan. Sistem pengurusan maklumat yang efisien dan kos efektif dibincangkan.",
+    "description_english": "The course covers the development of information management system and digital applications in food industry advancement. Emphasis is also given to the use of e-business, e-commerce, e-marketing and social media components in food industry. Efficient and cost-effective information management systems are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMP3401 \nPengurusan Sistem Maklumat dan Digitalisasi Dalam  Industri \nMakanan/ \nInformation \nSystems \nManagement \nAnd \nDigitalisation In Food Industry \n3 (2 + 1) \nPrasyarat: Tiada/ None \nKursus ini merangkumi pembangunan sistem pengurusan maklumat dan aplikasi digital terkini dalam  \nkemajuan industri makanan. Penekanan juga diberikan kepada penggunaan komponen e-bisnes, e-\ndagang, e-pemasaran dan media sosial dalam industri makanan. Sistem pengurusan maklumat \nyang efisien dan kos efektif dibin"
+  },
+  {
+    "course_code": "FMP3601",
+    "course_name_malay": "Keusahawanan Dalam Industri Makanan",
+    "course_name_english": "Entrepreneurship in Food Industry",
+    "credits": "3 (2 + 1)",
+    "prerequisites": [
+      "MGM3180"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek operasi perniagaan industri makanan. Tumpuan diberikan kepada kreativiti dan inovasi bagi produk makanan. Kemahiran pengurusan perniagaan dan budaya keusahawanan juga ditekankan.",
+    "description_english": "This course covers the operational aspects of food business. Focus is given to creativity and innovation in food business. Business management skills and entrepreneurial culture are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Dan Teknologi Makanan",
+    "source_chunk": "FMP3601 \nKeusahawanan Dalam Industri Makanan/ Entrepreneurship in \nFood Industry) \n3 (2 + 1) \nPrasyarat: MGM3180 \nKursus ini merangkumi aspek operasi perniagaan industri makanan. Tumpuan diberikan kepada \nkreativiti dan inovasi bagi produk makanan. Kemahiran pengurusan perniagaan dan budaya \nkeusahawanan juga ditekankan. \nThis course covers the operational aspects of food business. Focus is given to creativity and \ninnovation in food business. Business management skills and entrepreneurial cultu"
+  }
+]

@@ -1,9 +1,40 @@
 flows:
   career_prospects:
     description: |
-      Provide guidance on how academic choices align with career paths. Focuses on course relevance
-      to industry demands, NOT job hunting advice. Detailed career counseling should be referred to Career Services.
-      Examples: "what jobs can I get with CS?", "is programming important for my career?", "career path for computer science"
+      Field-aware career guidance flow aligned with Academic Advisor responsibilities (1.2).
+      Facilitates career path discussion with universal tips and guiding questions.
+      Does NOT provide specific job listings - refers to Career Services for that.
+      Examples: "what jobs can I get?", "career path after graduation", "how to align studies with career"
     name: academic-career alignment
     steps:
-      - action: utter_career_alignment
+      # Step 1: Intro and collect field
+      - id: intro_career
+        action: utter_career_intro
+        next: collect_student_field
+
+      - id: collect_student_field
+        collect: student_field
+        description: The student's faculty or field of study (e.g., computer science, food science, agriculture, engineering)
+
+      # Step 2: Universal career guidance
+      - action: utter_universal_career_tips
+        next: guiding_questions
+
+      # Step 3: Guiding questions for reflection
+      - id: guiding_questions
+        action: utter_guiding_questions
+        next: offer_more_guidance
+
+      # Step 4: Offer more support
+      - id: offer_more_guidance
+        collect: wants_more_career_guidance
+        description: Whether student wants more career discussion
+        next:
+          - if: slots.wants_more_career_guidance
+            then:
+              - action: utter_career_reflection_exercise
+              - action: utter_career_resources
+                next: END
+          - else:
+              - action: utter_career_encouragement
+                next: END

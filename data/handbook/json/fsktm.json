@@ -1,0 +1,1152 @@
+[
+  {
+    "course_code": "CCS3002",
+    "course_name_malay": "Prinsip Matematik Tambahan",
+    "course_name_english": "Principles of Additional Mathematics",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi konsep teras matematik tambahan yang diperlukan dalam pengajian sains komputer. Ia merangkumi unsur penting dalam algebra, geometri, kalkulus, trigonometri dan statistik.",
+    "description_english": "This course covers the core concepts of additional mathematics that are needed in the study of computer science. It includes important elements in algebra, geometry, calculus, trigonometry and statistics.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS3002 \nPrinsip Matematik Tambahan \nPrinciples of Additional Mathematics \n3(3+0) \nPrasyarat : Tiada \nKursus ini meliputi konsep teras matematik tambahan yang diperlukan dalam pengajian sains \nkomputer. Ia merangkumi unsur penting dalam algebra, geometri, kalkulus, trigonometri dan statistik. \nThis course covers the core concepts of additional mathematics that are needed in the study of \ncomputer science. It includes important elements in algebra, geometry, calculus, trigonometry and \nstatistics"
+  },
+  {
+    "course_code": "CCS3003",
+    "course_name_malay": "Struktur Diskret",
+    "course_name_english": "Discrete Structures",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi asas struktur diskret untuk menyelesaikan masalah yang berkaitan bidang sains komputer. Ia merangkumi asas logik, teori set, pengiraan dan pemodelan dalam penyelesaian masalah.",
+    "description_english": "This course covers the basics of discrete structures to solve problems related to the field of computer science. It covers the basics of logic, set theory, computation and modeling in problem solving.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS3003 \nStruktur Diskret \nDiscrete Structures \n3(3+0) \nPrasyarat : Tiada \nKursus ini meliputi asas struktur diskret untuk menyelesaikan masalah yang berkaitan bidang sains \nkomputer. Ia merangkumi  asas logik, teori set, pengiraan dan pemodelan dalam penyelesaian \nmasalah. \nThis course covers the basics of discrete structures to solve problems related to the field of computer \nscience. It covers the basics of logic, set theory, computation and modeling in problem solving."
+  },
+  {
+    "course_code": "CCS3100",
+    "course_name_malay": "Penyelesaian Masalah dan Konsep Pengaturcaraa",
+    "course_name_english": "Problem Solving and Programming Concepts",
+    "credits": "3(2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi teknik penyelesaian masalah pengaturcaraan bertatacara. Ia meliputi pengenalan kepada pengaturcaraan menggunakan struktur kawalan asas, struktur data asas, dan penyahpepijatan.",
+    "description_english": "This course covers problem solving techniques for procedural programming. It encompasses an introduction to programming using basic control structures, basic data structures, and debugging.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS3100 \nPenyelesaian Masalah dan Konsep Pengaturcaraa \nProblem Solving and Programming Concepts \n3(2+1) \nPrasyarat : Tiada \nKursus ini merangkumi teknik penyelesaian masalah pengaturcaraan bertatacara. Ia meliputi \npengenalan kepada pengaturcaraan menggunakan struktur kawalan asas, struktur data asas, dan \npenyahpepijatan. \nThis course covers problem solving techniques for procedural programming. It encompasses an \nintroduction to programming using basic control structures, basic data structure"
+  },
+  {
+    "course_code": "CCS3101",
+    "course_name_malay": "Pengaturcaraan Berorientasikan Objek",
+    "course_name_english": "Object-Oriented Programming",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3100"
+    ],
+    "description_malay": "Kursus ini meliputi teknik pengaturcaraan berorientasikan objek. Paradigma berorientasi objek yang memberikan fleksibiliti, modulariti dan penggunaan semula dibincangkan.",
+    "description_english": "This course covers object-oriented programming techniques. The object-oriented paradigm that provides flexibility, modularity and reusability is discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS3101 \nPengaturcaraan Berorientasikan Objek  \nObject-Oriented Programming \n3(2+1) \nPrasyarat : CCS3100 \nKursus ini meliputi teknik pengaturcaraan berorientasikan objek. Paradigma berorientasi objek yang \nmemberikan fleksibiliti, modulariti dan penggunaan semula dibincangkan. \nThis course covers object-oriented programming techniques. The object-oriented paradigm that \nprovides flexibility, modularity and reusability is discussed."
+  },
+  {
+    "course_code": "CCS3104",
+    "course_name_malay": "Pengaturcaraan Lanjutan",
+    "course_name_english": "Advanced Programming",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini meliputi pelbagai teknik pengaturcaraan lanjutan untuk berinteraksi dengan persekitaran luaran bagi menggunakan sumbernya. Pengaturcaraan berpacu peristiwa dan pengkomputeran berprestasi tinggi turut dibincangkan.",
+    "description_english": "This course covers a variety of advanced programming techniques to interact with the external environment for using its resources. Event-driven and high performance computing programming techniques are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS3104 \nPengaturcaraan Lanjutan  \nAdvanced Programming \n3(2+1) \nPrasyarat : CCS3101 \nKursus ini meliputi pelbagai teknik pengaturcaraan lanjutan untuk berinteraksi dengan persekitaran \nluaran bagi menggunakan sumbernya. Pengaturcaraan berpacu peristiwa dan pengkomputeran \nberprestasi tinggi turut dibincangkan. \nThis course covers a variety of advanced programming techniques to interact with the external \nenvironment for using its resources. Event-driven and high performance computing programmin"
+  },
+  {
+    "course_code": "CCS3200",
+    "course_name_malay": "Organisasi dan Seni Bina Komputer",
+    "course_name_english": "Computer Organization and Architecture",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3100"
+    ],
+    "description_malay": "Kursus ini merangkumi organisasi dan seni bina komputer digital. Ia meliputi unit kendalian dan hubung kait di antaranya yang digunakan untuk merealisasikan seni bina komputer. Langkah untuk membina komponen dalam komputer digital dibincangkan",
+    "description_english": "This course covers the organization and architecture of digital computer. It includes operational units and their interconnections which are used to realize the computer architecture. Steps to construct components in digital computer are discussed",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS3200 \nOrganisasi dan Seni Bina Komputer  \nComputer Organization and Architecture \n3(3+0) \nPrasyarat : CCS3100 \nKursus ini merangkumi organisasi dan seni bina komputer digital. Ia meliputi unit kendalian dan \nhubung kait di antaranya yang digunakan untuk merealisasikan seni bina komputer. Langkah untuk \nmembina komponen dalam komputer digital dibincangkan \nThis course covers the organization and architecture of digital computer. It includes operational units \nand their interconnections which a"
+  },
+  {
+    "course_code": "CCS3202",
+    "course_name_malay": "Struktur Data dan Algoritma",
+    "course_name_english": "Data Structures dnd Algorithms",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini meliputi konsep penyimpanan data pada ingatan komputer. Teknik menyimpan dan mengolah data secara berstruktur, serta analisis kekompleksan algoritma berdasarkan notasi Big-O dengan tujuan untuk menentukan kecekapan dibincangkan.",
+    "description_english": "This course covers the concept of storing data in computer memory. Techniques for the storage and manipulation of structured data, as well as algorithm complexity analysis based on Big-O notation for the purpose of determining efficiency are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS3202 \nStruktur Data dan Algoritma  \nData Structures dnd Algorithms \n3(3+0) \nPrasyarat : CCS3101 \nKursus ini meliputi konsep penyimpanan data pada ingatan komputer. Teknik menyimpan dan \nmengolah data secara berstruktur, serta analisis kekompleksan algoritma berdasarkan notasi Big-O \ndengan tujuan untuk menentukan kecekapan dibincangkan. \nThis course covers the concept of storing data in computer memory. Techniques for the storage and \nmanipulation of structured data, as well as algorithm comp"
+  },
+  {
+    "course_code": "CCS3300",
+    "course_name_malay": "Sistem Pengoperasian",
+    "course_name_english": "Operating Systems",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3200"
+    ],
+    "description_malay": "Kursus ini merangkumi fungsi dan komponen utama sistem pengoperasian moden. Ia meliputi prinsip formal sistem pengoperasian, pengurusan dan penjadualan proses, serta pengurusan sumber dalam sistem komputer. Persekitaran sistem pengoperasian bukan-konvensional turut dibincangkan.",
+    "description_english": "This course covers the main functions and components of modern operating systems. It covers the formal principles of operating systems, process management and scheduling, as well as resource management in computer systems. Non-conventional operating system environments are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS3300 \nSistem Pengoperasian  \nOperating Systems \n3(3+0) \nPrasyarat : CCS3200 \nKursus ini merangkumi fungsi dan komponen utama sistem pengoperasian moden. Ia meliputi prinsip \nformal sistem pengoperasian, pengurusan dan penjadualan proses, serta pengurusan sumber dalam \nsistem komputer. Persekitaran sistem pengoperasian bukan-konvensional turut dibincangkan. \nThis course covers the main functions and components of modern operating systems. It covers the \nformal principles of operating systems, "
+  },
+  {
+    "course_code": "CCS3400",
+    "course_name_malay": "Prinsip Pangkalan Data",
+    "course_name_english": "Database Principles",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini meliputi reka bentuk pangkalan data menggunakan model data terpilih dan pemetaan ke pangkalan data hubungan. Ia termasuk merumus bahasa pertanyaan menggunakan SQL dan pengaturcaraan menggunakan prosedur tersimpan dan pemicu.",
+    "description_english": "This course covers the database design using a chosen data model and mapping to relational database. It includes query language formulation using SQL and programming using stored procedure and trigger.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS3400 \nPrinsip Pangkalan Data  \nDatabase Principles \n3(2+1) \nPrasyarat : CCS3101 \nKursus ini meliputi reka bentuk pangkalan data menggunakan model data terpilih dan pemetaan ke \npangkalan data hubungan. Ia termasuk merumus bahasa pertanyaan menggunakan SQL dan \npengaturcaraan menggunakan prosedur tersimpan dan pemicu. \nThis course covers the database design using a chosen data model and mapping to relational \ndatabase. It includes query language formulation using SQL and programming using stor"
+  },
+  {
+    "course_code": "CCS3402",
+    "course_name_malay": "Pembangunan Aplikasi Pangkalan Data",
+    "course_name_english": "Database Application Development",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3400"
+    ],
+    "description_malay": "Kursus ini meliputi reka bentuk dan pembangunan aplikasi dengan capaian ke pangkalan data. Pemetaan objek-hubungan dan konsep kerangka kerja Model View Controller (MVC) diberi penekanan. Beberapa model dan seni bina aplikasi web dibincangkan.",
+    "description_english": "This course covers the design and development of applications with access to the database. Object-relational mapping and Model View Controller (MVC) concepts are emphasized. Several models and architectures of web application are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS3402 \nPembangunan Aplikasi Pangkalan Data  \nDatabase Application Development \n3(2+1) \nPrasyarat : CCS3400 \nKursus ini meliputi reka bentuk dan pembangunan aplikasi dengan capaian ke pangkalan data.  \nPemetaan objek-hubungan dan konsep kerangka kerja Model View Controller (MVC) diberi \npenekanan.  Beberapa model dan seni bina aplikasi web dibincangkan. \nThis course covers the design and development of applications with access to the database. Object-\nrelational mapping and Model View Controlle"
+  },
+  {
+    "course_code": "CCS3600",
+    "course_name_malay": "Kecerdasan Buatan",
+    "course_name_english": "Artificial Intelligence",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3202"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep dan teknik kecerdasan buatan. Teknik pemodelan pengetahuan, gelintaran, pemprosesan bahasa tabii, pembelajaran mesin dan pengkomputeran evolusi dibincangkan termasuk penggunaannya dalam industri.",
+    "description_english": "This course covers artificial intelligence concepts and techniques. Techniques on knowledge modeling, searching, natural language processing, machine learning and evolutionary computation are discussed including their usage in industry.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS3600 \nKecerdasan Buatan  \nArtificial Intelligence \n3(3+0) \nPrasyarat : CCS3202 \nKursus ini merangkumi konsep dan teknik kecerdasan buatan. Teknik pemodelan pengetahuan, \ngelintaran, pemprosesan bahasa tabii, pembelajaran mesin dan pengkomputeran evolusi \ndibincangkan termasuk penggunaannya dalam industri. \nThis course covers artificial intelligence concepts and techniques. Techniques on knowledge \nmodeling, searching, natural language processing, machine learning and evolutionary computation "
+  },
+  {
+    "course_code": "CCS3700",
+    "course_name_malay": "Pengaturcaraan Sistem Terbenam",
+    "course_name_english": "Embedded Systems Programming",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3300"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep asas dan keperluan untuk membangun suatu sistem terbenam. Ia meliputi perisian dan perkakasan bagi platform terbenam, persekitarannya, dan pendekatan pengaturcaraan terbenam.",
+    "description_english": "The course comprises the fundamental concepts and requirements of developing an embedded system. It covers the software and hardware of the embedded platform, their environments, and embedded programming approaches.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS3700 \nPengaturcaraan Sistem Terbenam  \nEmbedded Systems Programming \n3(2+1) \nPrasyarat : CCS3300 \nKursus ini merangkumi konsep asas dan keperluan untuk membangun suatu sistem terbenam. Ia \nmeliputi perisian dan perkakasan bagi platform terbenam, persekitarannya, dan pendekatan \npengaturcaraan terbenam. \n\n--- Page 4 ---\n \n55 \n \nThe course comprises the fundamental concepts and requirements of developing an embedded \nsystem. It covers the software and hardware of the embedded platform, their en"
+  },
+  {
+    "course_code": "CCS4200",
+    "course_name_malay": "Reka Bentuk Pengkompil",
+    "course_name_english": "Compiler Design",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3202"
+    ],
+    "description_malay": "Kursus ini memperkenalkan konsep dalam penterjemahan bahasa pengaturcaraan seperti nahu formal dan fasa reka bentuk pengkompil. Kaedah analisis sintaks seperti huraian atas-bawah dan huraian bawah-atas juga dibincangkan. Pelajar akan menghasilkan satu pengkompil mudah menggunakan alatan sedia ada.",
+    "description_english": "This course introduces the concepts in programming language translation such as formal grammar and compiler design phases. Methods for syntax analysis such as top-down and bottom-up parsing are also discussed. Students will produce a simple compiler using available tools.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4200 \nReka Bentuk Pengkompil  \nCompiler Design \n3(3+0) \nPrasyarat : CCS3202 \nKursus ini memperkenalkan konsep dalam penterjemahan bahasa pengaturcaraan seperti nahu \nformal dan fasa reka bentuk pengkompil. Kaedah analisis sintaks seperti huraian atas-bawah dan \nhuraian bawah-atas juga dibincangkan. Pelajar akan menghasilkan satu pengkompil mudah \nmenggunakan alatan sedia ada. \nThis course introduces the concepts in programming language translation such as formal grammar \nand compiler design p"
+  },
+  {
+    "course_code": "CCS4202",
+    "course_name_malay": "Reka Bentuk dan Analisis Algoritma",
+    "course_name_english": "Design and Analysis of Algorithms",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3202"
+    ],
+    "description_malay": "Kursus ini meliputi teknik asas untuk mereka bentuk algoritma yang cekap dan menganalisis masa lariannya. Beberapa teknik reka bentuk dan analisis algoritma akan dibincangkan. Pelajar akan turut diperkenalkan kepada algoritma graf, padanan rentetan dan lengkapan-NP.",
+    "description_english": "This course covers the fundamental techniques for designing efficient algorithms and analyzing their running times. Several design and analysis techniques of algorithms will be discussed. Students will be introduced to graph algorithms, string matching and NP-completeness.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4202 \nReka Bentuk dan Analisis Algoritma  \nDesign and Analysis of Algorithms \n3(3+0) \nPrasyarat : CCS3202 \nKursus ini meliputi teknik asas untuk mereka bentuk algoritma yang cekap dan menganalisis masa \nlariannya. Beberapa teknik reka bentuk dan analisis algoritma akan dibincangkan. Pelajar akan turut \ndiperkenalkan kepada algoritma graf, padanan rentetan dan lengkapan-NP. \nThis course covers the fundamental techniques for designing efficient algorithms and analyzing their \nrunning times. Sev"
+  },
+  {
+    "course_code": "CCS4300",
+    "course_name_malay": "Reka Bentuk Sistem Pengoperasian",
+    "course_name_english": "Operating System Design",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3300"
+    ],
+    "description_malay": "Kursus ini merangkumi reka bentuk dan teknik dalam implementasi kernel sistem pengoperasian dan perkhidmatannya. Ia meliputi fasa memulakan sistem, pengurusan dan penjadualan proses, serta pengurusan dan keselamatan sumber utama dalam sistem komputer.",
+    "description_english": "This course covers the design and technique in the implementation of operating system kernel and its services. It encompasses the phase of starting the system, process management and scheduling, and also the management and security of the main resources in a computer system.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4300 \nReka Bentuk Sistem Pengoperasian  \nOperating System Design \n3(3+0) \nPrasyarat : CCS3300 \nKursus ini merangkumi reka bentuk dan teknik dalam implementasi kernel sistem pengoperasian dan \nperkhidmatannya. Ia meliputi fasa memulakan sistem, pengurusan dan penjadualan proses, serta \npengurusan dan keselamatan sumber utama dalam sistem komputer. \nThis course covers the design and technique in the implementation of operating system kernel and \nits services. It encompasses the phase of startin"
+  },
+  {
+    "course_code": "CCS4400",
+    "course_name_malay": "Sistem Pangkalan Data Lanjutan",
+    "course_name_english": "Advanced Database Systems",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3400"
+    ],
+    "description_malay": "Kursus ini meliputi konsep teoretikal pangkalan data hubungan dan pemprosesan transaksi. Ia merangkumi kaedah pengurusan pangkalan data bagi pelbagai jenis sistem pangkalan data.",
+    "description_english": "This course covers theoretical concepts of relational database and transaction processing. It includes database management methods for various types of database systems.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4400 \nSistem Pangkalan Data Lanjutan  \nAdvanced Database Systems \n3(3+0) \nPrasyarat : CCS3400 \nKursus ini meliputi konsep teoretikal pangkalan data hubungan dan pemprosesan transaksi. Ia \nmerangkumi kaedah pengurusan pangkalan data bagi pelbagai jenis sistem pangkalan data. \nThis course covers theoretical concepts of relational database and transaction processing. It includes \ndatabase management methods for various types of database systems."
+  },
+  {
+    "course_code": "CCS4402",
+    "course_name_malay": "Pentadbiran Pangkalan Data",
+    "course_name_english": "Database Administration",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS4400"
+    ],
+    "description_malay": "Kursus ini meliputi konsep pentadbiran pangkalan data. Pelajar akan mempelajari aspek teori dan praktikal dalam pentadbiran pangkalan data untuk menjamin ketersediaan dan keselamatan pangkalan data, serta memantau prestasi pangkalan data.",
+    "description_english": "This course covers the database administration concepts. Students will learn theoretical and practical aspects in database administration to assure the availability dan security of the database, as well as to monitor the database performance.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4402 \nPentadbiran Pangkalan Data  \nDatabase Administration \n3(3+0) \nPrasyarat : CCS4400 \nKursus ini meliputi konsep pentadbiran pangkalan data. Pelajar akan mempelajari aspek teori dan \npraktikal dalam pentadbiran pangkalan data untuk menjamin ketersediaan dan keselamatan \npangkalan data, serta memantau prestasi pangkalan data. \nThis course covers the database administration concepts. Students will learn theoretical and practical \naspects in database administration to assure the availability "
+  },
+  {
+    "course_code": "CCS4404",
+    "course_name_malay": "Analitik Bisnes",
+    "course_name_english": "Business Analytics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3400"
+    ],
+    "description_malay": "Kursus ini meliputi konsep asas analitik data khusus untuk pembuatan keputusan berwawasan dalam perniagaan. Ia merangkumi pengurusan lengkap data, termasuk mengumpul, membersih, mengorganisasi, menyimpan, governan, dan menganalisis data. Konsep gudang data, alatan dan teknik analitik, serta pelbagai aplikasi analitik bisnes dibincangkan.",
+    "description_english": "The course covers the fundamental concepts of data analytics specifically for insightful decision making in business. It encompasses the complete management of data, including collecting, cleaning, organizing, storing, governing, and analysing data. Data warehouse concepts, analytical tools and techniques, as well as various business analytics applications are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4404 \nAnalitik Bisnes  \nBusiness Analytics \n3(3+0) \nPrasyarat : CCS3400 \nKursus ini meliputi konsep asas analitik data khusus untuk pembuatan keputusan berwawasan dalam \nperniagaan. Ia merangkumi pengurusan lengkap data, termasuk mengumpul, membersih, \n\n--- Page 5 ---\n \n56 \n \nmengorganisasi, menyimpan, governan, dan menganalisis data. Konsep gudang data, alatan dan \nteknik analitik, serta pelbagai aplikasi analitik bisnes dibincangkan. \nThe course covers the fundamental concepts of data analy"
+  },
+  {
+    "course_code": "CCS4406",
+    "course_name_malay": "Analitik Data Raya",
+    "course_name_english": "Big Data Analytics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3400"
+    ],
+    "description_malay": "Kursus ini meliputi pengenalan kepada teknologi data raya dan kepentingan analitik data raya. Ia merangkumi teknologi, alatan serta teknik data raya yang digunakan di dalam pelbagai industri. Penggunaan alatan dalam analitik data raya akan dibincangkan.",
+    "description_english": "This course covers the introduction to big data technology and the importance of big data analytics. It includes big data technology, tools and techniques that are used in various industries. The usage of tools in big data analytics will be discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4406 \nAnalitik Data Raya  \nBig Data Analytics \n3(3+0) \nPrasyarat : CCS3400 \nKursus ini meliputi pengenalan kepada teknologi data raya dan kepentingan analitik data raya. Ia \nmerangkumi teknologi, alatan serta teknik data raya yang digunakan di dalam pelbagai industri. \nPenggunaan alatan dalam analitik data raya akan dibincangkan. \nThis course covers the introduction to big data technology and the importance of big data analytics. \nIt includes big data technology, tools and techniques that are"
+  },
+  {
+    "course_code": "CCS4500",
+    "course_name_malay": "Keselamatan Komputer",
+    "course_name_english": "Computer Security",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3300"
+    ],
+    "description_malay": "Kursus ini merangkumi matlamat keselamatan dalam sistem komputer untuk menyediakan pelajar dengan pemahaman yang komprehensif tentang keselamatan komputer. Ia meliputi jenis ancaman, keselamatan perisian, keselamatan web, aplikasi mudah alih dan keselamatan rangkaian serta kaedah dan strategi tindak balas dalam memastikan keselamatan komputer.",
+    "description_english": "This course covers the security goal in computer systems to provide students with a comprehensive understanding of computer security. Topics include threats and countermeasure techniques and strategies of software, web, mobile applications and network and countermeasure methods and strategies in ensuring computer security.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4500 \nKeselamatan Komputer  \nComputer Security \n3(3+0) \nPrasyarat : CCS3300 \nKursus ini merangkumi matlamat keselamatan dalam sistem komputer untuk menyediakan pelajar \ndengan pemahaman yang komprehensif tentang keselamatan komputer. Ia meliputi jenis ancaman, \nkeselamatan perisian, keselamatan web, aplikasi mudah alih dan keselamatan rangkaian serta \nkaedah dan strategi tindak balas dalam memastikan keselamatan komputer. \nThis course covers the security goal in computer systems to provide st"
+  },
+  {
+    "course_code": "CCS4502",
+    "course_name_malay": "Kriptografi",
+    "course_name_english": "Cryptography",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3202"
+    ],
+    "description_malay": "Kursus ini merangkumi prinsip, teknik, dan aplikasi kriptografi. Ia termasuk teknik matematik, mekanisme kriptografi, dan algoritma untuk menyelesaikan masalah berkaitan keselamatan maklumat.",
+    "description_english": "This course covers the principles, techniques, and applications of cryptography. It includes mathematical techniques, cryptographic mechanism, and algorithms for solving problem related to information security.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4502 \nKriptografi  \nCryptography \n3(3+0) \nPrasyarat : CCS3202 \nKursus ini merangkumi prinsip, teknik, dan aplikasi kriptografi. Ia termasuk teknik matematik, \nmekanisme kriptografi, dan algoritma untuk menyelesaikan masalah berkaitan keselamatan \nmaklumat. \nThis course covers the principles, techniques, and applications of cryptography. It includes \nmathematical techniques, cryptographic mechanism, and algorithms for solving problem related to \ninformation security."
+  },
+  {
+    "course_code": "CCS4504",
+    "course_name_malay": "Forensik Komputer",
+    "course_name_english": "Computer Forensics",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3300"
+    ],
+    "description_malay": "Kursus ini merangkumi metodologi forensik komputer dan aplikasi praktikal alat-alat yang relevan. Ia juga menekankan pertimbangan undang-undang yang berkaitan dan memberikan penerangan tentang garis panduan dasar.",
+    "description_english": "This course covers computer forensic methodologies and the practical application of relevant tools. It also emphasizes relevant legal considerations and sheds light on policy guidelines.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4504 \nForensik Komputer  \nComputer Forensics \n3(3+0) \nPrasyarat : CCS3300 \nKursus ini merangkumi metodologi forensik komputer dan aplikasi praktikal alat-alat yang relevan. Ia \njuga menekankan pertimbangan undang-undang yang berkaitan dan memberikan penerangan \ntentang garis panduan dasar. \nThis course covers computer forensic methodologies and the practical application of relevant tools. It \nalso emphasizes relevant legal considerations and sheds light on policy guidelines."
+  },
+  {
+    "course_code": "CCS4506",
+    "course_name_malay": "Keselamatan Pangkalan Data",
+    "course_name_english": "Database Security",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3402"
+    ],
+    "description_malay": "Kursus ini meliputi konsep dan isu berkaitan keselamatan pangkalan data, yang melibatkan pengesahihan, keizinan dan kawalan capaian, dan pengauditan. Teknik keselamatan pangkalan data yang digunakan dalam Sistem Pengurusan Pangkalan Data dibincangkan.",
+    "description_english": "This course covers the concepts and issues on database security, which involve authentication, authorization and access control, and auditing. Database security techniques used in Database Management Systems (DBMS) are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4506 \nKeselamatan Pangkalan Data  \nDatabase Security \n3(3+0) \nPrasyarat : CCS3402 \nKursus ini meliputi konsep dan isu berkaitan keselamatan pangkalan data, yang melibatkan \npengesahihan, keizinan dan kawalan capaian, dan pengauditan. Teknik keselamatan pangkalan data \nyang digunakan dalam Sistem Pengurusan Pangkalan Data dibincangkan. \nThis course covers the concepts and issues on database security, which involve authentication, \nauthorization and access control, and auditing.  Database secur"
+  },
+  {
+    "course_code": "CCS4600",
+    "course_name_malay": "Perlombongan Data",
+    "course_name_english": "Data Mining",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3600"
+    ],
+    "description_malay": "Kursus ini meliputi konsep dan teknik perlombongan data, yang merangkumi pra-pemprosesan data, serta fungsi dan perisian perlombongan data. Teknik terpilih digunakan dalam pembangunan aplikasi perlombongan data.",
+    "description_english": "This course covers concepts and techniques of data mining, which include data pre-processing, as well as data mining functions and software. The chosen techniques are applied in the data mining application system development.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4600 \nPerlombongan Data  \nData Mining \n3(3+0) \nPrasyarat : CCS3600 \nKursus ini meliputi konsep dan teknik perlombongan data, yang merangkumi pra-pemprosesan data, \nserta fungsi dan perisian perlombongan data. Teknik terpilih digunakan dalam pembangunan aplikasi \nperlombongan data. \nThis course covers concepts and techniques of data mining, which include data pre-processing, as \nwell as data mining functions and software. The chosen techniques are applied in the data mining \napplication system"
+  },
+  {
+    "course_code": "CCS4602",
+    "course_name_malay": "Pembelajaran Mesin",
+    "course_name_english": "Machine Learning",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3600"
+    ],
+    "description_malay": "Kursus ini meliputi konsep pembelajaran mesin. Algoritma dalam pengecaman corak dan pengoptimuman yang berdasarkan kaedah statistik, rangkaian neural dan pengkomputeran berevolusi dibincangkan. Peralatan perisian pembelajaran mesin yang sesuai akan digunakan dalam pembangunan aplikasi.",
+    "description_english": "This course covers the concepts of machine learning. Algorithms for pattern recognition and optimization that are based on statistical methods, neural networks and evolutionary computation are discussed. Appropriate software tools for machine learning will be used in application development.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4602 \nPembelajaran Mesin  \nMachine Learning \n3(3+0) \nPrasyarat : CCS3600 \nKursus ini meliputi konsep pembelajaran mesin. Algoritma dalam pengecaman corak dan \npengoptimuman yang berdasarkan kaedah statistik, rangkaian neural dan pengkomputeran  \nberevolusi dibincangkan. Peralatan perisian pembelajaran mesin yang sesuai akan digunakan dalam \npembangunan aplikasi. \nThis course covers the concepts of machine learning. Algorithms for pattern recognition and \noptimization that are based on statist"
+  },
+  {
+    "course_code": "CCS4604",
+    "course_name_malay": "Sistem Berasaskan Pengetahuan",
+    "course_name_english": "Knowledge Based System",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3600"
+    ],
+    "description_malay": "Kursus ini meliputi sistem berasaskan pengetahuan untuk domain pengetahuan khusus. Teknik pemerolehan pengetahuan, perwakilan pengetahuan, dan aplikasi domain masalah tertentu dibincangkan. Kaedah inferens juga diberi penekanan.",
+    "description_english": "This course covers the knowledge-based systems for specific knowledge domains. Techniques of knowledge acquisition, knowledge representation, and the applications in a particular problem domain are discussed. Inference methods are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4604 \nSistem Berasaskan Pengetahuan  \nKnowledge Based System \n3(3+0) \nPrasyarat : CCS3600 \nKursus ini meliputi sistem berasaskan pengetahuan untuk domain pengetahuan khusus. Teknik \npemerolehan pengetahuan, perwakilan pengetahuan, dan aplikasi domain masalah tertentu \ndibincangkan. Kaedah inferens juga diberi penekanan. \nThis course covers the knowledge-based systems for specific knowledge domains. Techniques of \nknowledge acquisition, knowledge representation, and the applications in a parti"
+  },
+  {
+    "course_code": "CCS4700",
+    "course_name_malay": "Pembangunan Sistem Terbenam",
+    "course_name_english": "Embedded Systems Development",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3700"
+    ],
+    "description_malay": "Kursus ini meliputi pembangunan aplikasi untuk sistem terbenam dengan menggunakan penderia, persisian dan sokongan komunikasi rangkaian termasuk Internet Benda (IoT). Persekitaran dan metodologi pembangunan sistem terbenam dibincangkan.",
+    "description_english": "This course covers application development for embedded systems using sensors, peripherals and network communication support including the Internet of Things (IoT). Embedded systems development environments and methodologies are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4700 \nPembangunan Sistem Terbenam  \nEmbedded Systems Development \n3(3+0) \nPrasyarat : CCS3700 \nKursus ini meliputi pembangunan aplikasi untuk sistem terbenam dengan menggunakan penderia, \npersisian dan sokongan komunikasi rangkaian termasuk Internet Benda (IoT). Persekitaran dan \nmetodologi pembangunan sistem terbenam dibincangkan. \nThis course covers application development for embedded systems using sensors, peripherals and \nnetwork communication support including the Internet of Things (Io"
+  },
+  {
+    "course_code": "CCS4702",
+    "course_name_malay": "Pembangunan Sistem Robotik",
+    "course_name_english": "Robotic System Development",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3202"
+    ],
+    "description_malay": "Kursus ini meliputi pengenalan kepada sistem robotik, termasuk struktur mekanikal sistem robot, mekanik pemanipulasi robot dan sistem kawalan. Asas robot berautonomi diberi penekanan.",
+    "description_english": "This course covers introduction to robotics system, which includes the robotic sensing, motion control and adaptive control. The fundamentals of autonomous robots is emphasised.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4702 \nPembangunan Sistem Robotik  \nRobotic System Development \n3(3+0) \nPrasyarat : CCS3202 \nKursus ini meliputi pengenalan kepada sistem robotik, termasuk struktur mekanikal sistem robot, \nmekanik pemanipulasi robot dan sistem kawalan. Asas robot berautonomi diberi penekanan. \nThis course covers introduction to robotics system, which includes the robotic sensing, motion control \nand adaptive control. The fundamentals of autonomous robots is emphasised."
+  },
+  {
+    "course_code": "CCS4704",
+    "course_name_malay": "Internet Benda dan Aplikasi",
+    "course_name_english": "Internet of Things and Applications",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3700"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek teknikal yang digunakan dalam pembangunan, pemprosesan dan pengurusan Internet benda (IoT). Perkhidmatan, keselamatan, aplikasi pembelajaran mesin dan implikasi terhadap masyarakat juga dibincangkan.",
+    "description_english": "This course covers the technical aspects used in the development, processing and management of the Internet of Things (IoT). Services, security, machine learning applications and implications for society are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4704 \nInternet Benda dan Aplikasi  \nInternet of Things and Applications \n3(3+0) \nPrasyarat : CCS3700 \nKursus ini merangkumi aspek teknikal yang digunakan dalam pembangunan, pemprosesan dan \npengurusan Internet benda (IoT). Perkhidmatan, keselamatan, aplikasi pembelajaran mesin dan \nimplikasi terhadap masyarakat juga dibincangkan. \nThis course covers the technical aspects used in the development, processing and management of \nthe Internet of Things (IoT). Services, security, machine learning a"
+  },
+  {
+    "course_code": "CCS4901",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "12(0+12)",
+    "prerequisites": [],
+    "description_malay": "Melalui kursus ini, pelajar didedahkan kepada persekitaran kerja yang sebenar di industri atau organisasi. Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan.",
+    "description_english": "In this course, students are exposed to real working environments in industries or organizations. Training includes application of the theoretical and practical aspects that have been studied with current practices in the workplace. Problem solving and communication skills are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4901 \nLatihan Industri  \nIndustrial Training \n12(0+12) \nPrasyarat : Dengan Kebenaran Jabatan \nMelalui kursus ini, pelajar didedahkan kepada persekitaran kerja yang sebenar di industri atau \norganisasi. Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan \namalan semasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi \npenekanan. \nIn this course, students are exposed to real working environments in industries or organizations. \nTraining"
+  },
+  {
+    "course_code": "CCS4949",
+    "course_name_malay": "Projek Bacelor",
+    "course_name_english": "Bachelor Project",
+    "credits": "6(0+6)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi aspek perancangan dan pelaksanaan projek. Ini termasuklah pemilihan tajuk, melaksanakan kajian kritis, mereka bentuk dan melaksanakan strategi kerja, mengumpul dan menganalisis data, serta mendokumentasi dan membentangkan hasil projek.",
+    "description_english": "This course covers the aspects of planning and executing project. These include title selection, conducting critical review, designing and performing work strategy, collecting and analysing data, documenting and presenting project output.",
+    "department": "Department of Multimedia",
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CCS4949 \nProjek Bacelor  \nBachelor Project \n6(0+6) \nPrasyarat : Dengan Kebenaran Jabatan \nKursus ini merangkumi aspek perancangan dan pelaksanaan projek. Ini termasuklah pemilihan tajuk, \nmelaksanakan kajian kritis, mereka bentuk dan melaksanakan strategi kerja, mengumpul dan \nmenganalisis data, serta mendokumentasi dan membentangkan hasil projek. \nThis course covers the aspects of planning and executing project. These include title selection, \nconducting critical review, designing and performin"
+  },
+  {
+    "course_code": "CSM3001",
+    "course_name_malay": "Teknologi Multimedia",
+    "course_name_english": "Multimedia Technology",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi pengenalan kepada teknologi multimedia yang melibatkan perkakasan dan perisian komputer yang digunakan untuk menghasilkan aplikasi multimedia interaktif. Ia meliputi perkhidmatan dan platform untuk penggunaan dan pembangunan aplikasi multimedia.",
+    "description_english": "This course covers an introduction to multimedia technology involving computer hardware and software used to produce interactive multimedia applications. It covers services and platforms for the use and development of multimedia applications.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CSM3001 \nTeknologi Multimedia \nMultimedia Technology \n3(3+0) \nPrasyarat : Tiada \nKursus ini merangkumi pengenalan kepada teknologi multimedia yang melibatkan perkakasan dan \nperisian komputer yang digunakan untuk menghasilkan aplikasi multimedia interaktif. Ia meliputi \nperkhidmatan dan platform untuk penggunaan dan pembangunan aplikasi multimedia. \nThis course covers an introduction to multimedia technology involving computer hardware and software \nused to produce interactive multimedia applica"
+  },
+  {
+    "course_code": "CSM3002",
+    "course_name_malay": "Matematik untuk Pengkomputeran Multimedia",
+    "course_name_english": "Mathematics for Multimedia Computing",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3100"
+    ],
+    "description_malay": "Kursus ini merangkumi asas matematik dalam pengkomputeran multimedia. Penggunaan teori matematik dalam melakukan operasi pengkomputeran pada data multimedia berbentuk vektor dan matriks, termasuk juga aplikasinya dalam algoritma pembelajaran mesin dan pembelajaran mendalam diberi penekanan.",
+    "description_english": "This course covers mathematical theory in multimedia computing. The use of mathematical theory to perform various computing operations on multimedia data in the form of vector and matrix, including its application in machine learning and deep learning algorithms are emphasised.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CSM3002 \nMatematik untuk Pengkomputeran Multimedia \nMathematics for Multimedia Computing \n3(3+0) \nPrasyarat : CCS3100 \nKursus ini merangkumi asas matematik dalam pengkomputeran multimedia. Penggunaan teori \nmatematik dalam melakukan operasi pengkomputeran pada data multimedia berbentuk vektor dan \nmatriks, termasuk juga aplikasinya dalam algoritma pembelajaran mesin dan pembelajaran mendalam \ndiberi penekanan. \nThis course covers mathematical theory in multimedia computing. The use of mathematic"
+  },
+  {
+    "course_code": "CSM3204",
+    "course_name_malay": "Grafik Komputer dan Kemasan",
+    "course_name_english": "Computer Graphics and Rendering",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep asas dalam grafik komputer dari aspek perkakasan dan perisian. Ia meliputi teknik pemodelan tiga dimensi, algoritma kemasan grafik komputer bagi paparan yang realistik, dan penggunaan kaedah surihan cahaya dalam kemasan grafik komputer.",
+    "description_english": "This course covers basic concepts in computer graphics from the aspect of hardware and software. It covers three-dimensional modeling techniques, computer graphics rendering algorithms for realistic displays, and the use of ray tracing methods in computer graphics rendering.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CSM3204 \nGrafik Komputer dan Kemasan \nComputer Graphics and Rendering \n3(2+1) \nPrasyarat : CCS3101 \nKursus ini merangkumi konsep asas dalam grafik komputer dari aspek perkakasan dan perisian. Ia \nmeliputi teknik pemodelan tiga dimensi, algoritma kemasan grafik komputer bagi paparan yang realistik, \ndan penggunaan kaedah surihan cahaya dalam kemasan grafik komputer. \nThis course covers basic concepts in computer graphics from the aspect of hardware and software. It \ncovers three-dimensional model"
+  },
+  {
+    "course_code": "CSM3206",
+    "course_name_malay": "Pemprosesan Bahasa Tabii",
+    "course_name_english": "Natural Language Processing",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini merangkumi model pemprosesan bahasa secara linguistik, statistik dan neural dalam dua subbidang utama Pemprosesan Bahasa Tabii iaitu sintaks dan semantik. Ia meliputi model yang boleh memahami dan menghasilkan bahasa.",
+    "description_english": "This course covers linguistic, statistical and neural language processing models in two main subfields of Natural Language Processing, namely syntax and semantic. It includes models that can understand and produce languages.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CSM3206 \nPemprosesan Bahasa Tabii \nNatural Language Processing \n3(2+1) \nPrasyarat : CCS3101 \nKursus ini merangkumi model pemprosesan bahasa secara linguistik, statistik dan neural dalam dua \nsubbidang utama Pemprosesan Bahasa Tabii iaitu sintaks dan semantik. Ia meliputi model yang boleh \nmemahami dan menghasilkan bahasa. \nThis course covers linguistic, statistical and neural language processing models in two main subfields of \nNatural Language Processing, namely syntax and semantic. It includes"
+  },
+  {
+    "course_code": "CSM3307",
+    "course_name_malay": "Realiti Maya",
+    "course_name_english": "Virtual Reality",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep asas realiti maya dan kemahiran yang terlibat dalam membangunkan suatu persekitaran realiti maya. Ia meliputi penggunaan perisian dan perkakasan untuk realiti maya, serta menekankan pada aspek grafik komputer, bahasa pengaturcaraan, interaktiviti, teknik animasi serta penggunaan teknologi untuk penghasilan metasemesta.",
+    "description_english": "This course covers the basic concepts of virtual reality and the skills involved in developing a virtual reality environment. It covers the use of software and hardware for virtual reality, as well as emphasis on computer graphics, programming languages, interactivity, animation techniques as well as the use of technology to produce metaverse.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CSM3307 \nRealiti Maya \nVirtual Reality \n3(2+1) \nPrasyarat : CCS3101 \nKursus ini merangkumi konsep asas realiti maya dan kemahiran yang terlibat dalam membangunkan \nsuatu persekitaran realiti maya. Ia meliputi penggunaan perisian dan perkakasan untuk realiti maya, serta \nmenekankan pada aspek grafik komputer, bahasa pengaturcaraan, interaktiviti, teknik animasi serta \npenggunaan teknologi untuk penghasilan metasemesta.  \nThis course covers the basic concepts of virtual reality and the skills invo"
+  },
+  {
+    "course_code": "CSM3315",
+    "course_name_malay": "Aplikasi Realiti Terimbuh",
+    "course_name_english": "Augmented Reality Application",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep asas dalam realiti terimbuh daripada aspek perkakasan dan perisian. Ia meliputi paparan interaksi realiti terimbuh, teknik untuk memproses dan memaparkan gambar berterusan dalam realiti terimbuh serta penjelmaan imej dua dan tiga dimensi dalam suasana realiti terimbuh.",
+    "description_english": "This course covers the basic concept in augmented reality from the hardware and software aspects. It includes augmented reality interactivity display, techniques for processing and displaying continuous picture in augmented reality together with 2D and 3D image transformations in augmented reality environment.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CSM3315 \nAplikasi Realiti Terimbuh \nAugmented Reality Application \n3(2+1) \nPrasyarat : CCS3101 \nKursus ini merangkumi konsep asas dalam realiti terimbuh daripada aspek perkakasan dan perisian. Ia \nmeliputi paparan interaksi realiti terimbuh, teknik untuk memproses dan memaparkan gambar berterusan \ndalam realiti terimbuh serta penjelmaan imej dua dan tiga dimensi dalam suasana realiti terimbuh. \nThis course covers the basic concept in augmented reality from the hardware and software aspects. It \n"
+  },
+  {
+    "course_code": "CSM3401",
+    "course_name_malay": "Pembangunan Web Multimedia Interaktif",
+    "course_name_english": "Interactive Multimedia Web Development",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep asas dalam mereka bentuk, membangun, dan mentadbir laman web yang efektif dan interaktif yang dapat menyokong operasi e-dagang. Teknologi, alatan, perisian, dan komponen bagi pembangunan aplikasi web turut dibincangkan.",
+    "description_english": "This course covers basic concepts in designing, developing, and managing effective and interactive websites that can support e-commerce operations. Technologies, tools, software, and components for web application development are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CSM3401 \nPembangunan Web Multimedia Interaktif \nInteractive Multimedia Web Development \n3(2+1) \nPrasyarat : CCS3101 \nKursus ini merangkumi konsep asas dalam mereka bentuk, membangun, dan mentadbir laman web yang \nefektif dan interaktif yang dapat menyokong operasi e-dagang. Teknologi, alatan, perisian, dan \nkomponen bagi pembangunan aplikasi web turut dibincangkan.  \nThis course covers basic concepts in designing, developing, and managing effective and interactive \nwebsites that can support e-co"
+  },
+  {
+    "course_code": "CSM3601",
+    "course_name_malay": "Penyelesaian Masalah Menggunakan Kecerdasan Buatan",
+    "course_name_english": "Problem Solving Using Artificial Intelligence",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini merangkumi kaedah penyelesaian masalah menggunakan kecerdasan buatan dengan memberi perhatian khusus kepada teknik pembelajaran mesin. Ia termasuk aplikasi praktikal kecerdasan buatan dan teknik pembelajaran mesin menggunakan data sebenar. Isu etika berkaitan aplikasi kecerdasan buatan dan kesannya terhadap masyarakat turut dibincangkan.",
+    "description_english": "This course covers problem solving methods using artificial intelligence with special attention to machine learning techniques. It includes practical applications of artificial intelligence and machine learning techniques using real data. Ethical issues related to artificial intelligence applications and their impact on society are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CSM3601 \nPenyelesaian Masalah Menggunakan Kecerdasan Buatan \nProblem Solving Using Artificial Intelligence \n3(2+1) \nPrasyarat : CCS3101 \nKursus ini merangkumi kaedah penyelesaian masalah menggunakan kecerdasan buatan dengan \nmemberi perhatian khusus kepada teknik pembelajaran mesin. Ia termasuk aplikasi praktikal kecerdasan \nbuatan dan teknik pembelajaran mesin menggunakan data sebenar. Isu etika berkaitan aplikasi \nkecerdasan buatan dan kesannya terhadap masyarakat turut dibincangkan.  \nThis co"
+  },
+  {
+    "course_code": "CSM4317",
+    "course_name_malay": "Penglihatan Komputer",
+    "course_name_english": "Computer Vision",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini merangkumi pelbagai model dan kaedah untuk pengecaman objek secara automatik dalam imej. Ia juga meliputi beberapa kaedah pembelajaran mesin dan pembelajaran mendalam yang terkini untuk menyelesaikan masalah penglihatan komputer.",
+    "description_english": "This course covers various models and methods for automatically recognising objects in images. It also includes several state-of-the-art machine learning and deep learning methods for solving computer vision problems.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CSM4317 \nPenglihatan Komputer \nComputer Vision \n3(2+1) \nPrasyarat : CCS3101 \nKursus ini merangkumi pelbagai model dan kaedah untuk pengecaman objek secara automatik dalam \nimej. Ia juga meliputi beberapa kaedah pembelajaran mesin dan pembelajaran mendalam yang terkini \nuntuk menyelesaikan masalah penglihatan komputer. \nThis course covers various models and methods for automatically recognising objects in images. It also \nincludes several state-of-the-art machine learning and deep learning method"
+  },
+  {
+    "course_code": "CSM4300",
+    "course_name_malay": "Pengurusan Projek Multimedia",
+    "course_name_english": "Multimedia Project Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "SSW3001"
+    ],
+    "description_malay": "Kursus ini merangkumi strategi dan perancangan untuk perniagaan multimedia, pemboleh ubah yang terkandung dalam suatu projek dari pelanggan ke teknik dan pemilihan ahli pasukan multimedia bagi pelaksanaan proses pengurusan projek. Isu undang-undang yang melibatkan komunikasi yang inovatif, pengiklanan, pencarian dan mekanisme storan yang ditawarkan oleh media dalam talian turut dikaji.",
+    "description_english": "This course covers the strategy and planning for a multimedia business, the variables within projects from clients to techniques and choosing the multimedia team members to implement the project management process.  Legal issues which involve the innovative use of communication, advertising, searching and storage mechanisms that online media offers are also studied.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CSM4300 \nPengurusan Projek Multimedia \nMultimedia Project Management \n3(3+0) \nPrasyarat : SSW3001 \nKursus ini merangkumi strategi dan perancangan untuk perniagaan multimedia, pemboleh ubah yang \nterkandung dalam suatu projek dari pelanggan ke teknik dan pemilihan ahli pasukan multimedia bagi \npelaksanaan proses pengurusan projek. Isu undang-undang yang melibatkan komunikasi yang inovatif, \npengiklanan, pencarian dan mekanisme storan yang ditawarkan oleh media dalam talian turut dikaji. \nThis cou"
+  },
+  {
+    "course_code": "CSM4901",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "12(0+12)",
+    "prerequisites": [],
+    "description_malay": "Melalui kursus ini, pelajar didedahkan kepada persekitaran kerja yang sebenar di industri/ organisasi. Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan.",
+    "description_english": "In this course, students are exposed to real working environment in industries/ organisations. Training includes application of the theoretical and practical aspects that have been studied with current practices in the workplace. Problem solving and communication skills are also emphasised.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CSM4901 \nLatihan Industri \nIndustrial Training \n12(0+12) \nPrasyarat : Dengan Kebenaran Jabatan \nMelalui kursus ini, pelajar didedahkan kepada persekitaran kerja yang sebenar di industri/ organisasi. \nLatihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di \ntempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan. \nIn this course, students are exposed to real working environment in industries/ organisations. Training \nincludes"
+  },
+  {
+    "course_code": "CSM4949",
+    "course_name_malay": "Projek Bacelor",
+    "course_name_english": "Bachelor Project",
+    "credits": "6(0+6)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi aspek perancangan dan pelaksanaan projek. Ini termasuklah pemilihan tajuk, melaksanakan kajian kritis, mereka bentuk dan melaksanakan strategi kerja, mengumpul dan menganalisis data, serta mendokumentasi dan membentangkan hasil projek.",
+    "description_english": "This course covers the aspects of planning and executing project. These include title selection, conducting critical review, designing, and performing work strategy, collecting and analysing data, documenting and presenting project output.",
+    "department": "Department of Communication Techology and Network",
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CSM4949 \nProjek Bacelor \nBachelor Project \n6(0+6) \nPrasyarat : Dengan Kebenaran Jabatan \nKursus ini merangkumi aspek perancangan dan pelaksanaan projek. Ini termasuklah pemilihan tajuk, \nmelaksanakan kajian kritis, mereka bentuk dan melaksanakan strategi kerja, mengumpul dan \nmenganalisis data, serta mendokumentasi dan membentangkan hasil projek. \nThis course covers the aspects of planning and executing project. These include title selection, \nconducting critical review, designing, and performin"
+  },
+  {
+    "course_code": "CND3100",
+    "course_name_malay": "Pengaturcaraan Rangkaian",
+    "course_name_english": "Network Programming",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CND3200"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep pengaturcaraan, teknologi dan pembangunan aplikasi rangkaian bersekuriti. Ia termasuklah penulisan atur cara rangkaian menggunakan antara muka atur cara aplikasi (API).",
+    "description_english": "This course covers programming concepts, technology and the development of secured network applications. It includes writing network programs using Application Programming Interface (API).",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND3100 \nPengaturcaraan Rangkaian \nNetwork Programming \n3(2+1) \nPrasyarat : CND3200 \nKursus ini merangkumi konsep pengaturcaraan, teknologi dan pembangunan aplikasi rangkaian \nbersekuriti. Ia termasuklah penulisan atur cara rangkaian menggunakan antara muka atur cara aplikasi \n(API). \nThis course covers programming concepts, technology and  the development of secured network \napplications. It includes writing network programs using Application Programming Interface (API)."
+  },
+  {
+    "course_code": "CND3101",
+    "course_name_malay": "Pengaturcaraan Python",
+    "course_name_english": "Python Programming",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3100"
+    ],
+    "description_malay": "Kursus ini merangkumi sintaks Python dan penggunaan struktur data bina-dalam, kaedah bina-dalam dan pustaka. Analisis dan visualisasi data dari pustaka pengikisan web, pembelajaran mesin dan pembelajaran mendalam diberi penekanan.",
+    "description_english": "This course covers Python syntax and usage of the built-in data structures, built-in methods and libraries. Data analysis and visualization from the web scraping, machine learning and deep learning libraries are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND3101 \nPengaturcaraan Python \nPython Programming \n3(2+1) \nPrasyarat : CCS3100 \nKursus ini merangkumi sintaks Python dan penggunaan struktur data bina-dalam, kaedah bina-dalam \ndan pustaka. Analisis dan visualisasi data dari pustaka pengikisan web, pembelajaran mesin dan \npembelajaran mendalam diberi penekanan. \nThis course covers Python syntax and usage of the built-in data structures, built-in methods and \nlibraries.   Data analysis and visualization from the web scraping, machine learning an"
+  },
+  {
+    "course_code": "CND3102",
+    "course_name_malay": "Pengaturcaraan C++",
+    "course_name_english": "C++ Programming",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini merangkumi asas pengaturcaraan dalam bahasa pengaturcaraan C++. Konsep dan teknik yang digunakan untuk penghasilan kod program secara berstruktur, modular dan guna semula dalam mereka bentuk program komputer. Penyelesaian masalah berkaitan dengan asas pengaturcaraan soket, selari, dan tertanam menggunakan C++ diberi penekanan.",
+    "description_english": "This course covers the basic programming in the C++ programming language. The concepts and techniques are used to create structured, modular, and reusable code in designing a computer program. Problem-solving related to a socket, parallel, and embedded programming basics using C++ is emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND3102 \nPengaturcaraan C++ \nC++ Programming \n3(2+1) \nPrasyarat : CCS3101 \nKursus ini merangkumi asas pengaturcaraan dalam bahasa pengaturcaraan C++. Konsep dan teknik \nyang digunakan untuk penghasilan kod program secara berstruktur, modular dan guna semula dalam \nmereka bentuk program komputer. Penyelesaian masalah berkaitan dengan asas pengaturcaraan \nsoket, selari, dan tertanam menggunakan C++ diberi penekanan. \nThis course covers the basic programming in the C++ programming language. The con"
+  },
+  {
+    "course_code": "CND3200",
+    "course_name_malay": "Komunikasi dan Rangkaian Komputer",
+    "course_name_english": "Computer Network and Communication",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi konsep asas dalam komunikasi komputer dan piawaian model rangkaian. Ciri-ciri transmisi fizikal, seni bina rangkaian, jenis rangkaian, teknologi terkini rangkaian komputer, komponen utama dalam sistem komunikasi data, rangkaian kawasan setempat (LAN) dan rangkaian kawasan luas (WAN) diberi penekanan.",
+    "description_english": "This course covers the basic concepts of computer communications and the network model standard. The characteristics of physical transmission, network architecture, types of networks, the latest technologies on computer networks, the major components of data communication systems, local area networks (LAN) and wide area networks (WAN) are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND3200 \nKomunikasi dan Rangkaian Komputer \nComputer Network and Communication \n3(3+0) \nPrasyarat : Tiada \nKursus ini merangkumi konsep asas dalam komunikasi komputer dan piawaian model rangkaian. Ciri-\nciri transmisi fizikal, seni bina rangkaian, jenis rangkaian, teknologi terkini rangkaian komputer, \nkomponen utama dalam sistem komunikasi data, rangkaian kawasan setempat (LAN) dan rangkaian \nkawasan luas (WAN) diberi penekanan. \nThis course covers the basic concepts of computer communications "
+  },
+  {
+    "course_code": "CND3201",
+    "course_name_malay": "Teknologi Antara Rangkaian",
+    "course_name_english": "Internetworking Technology",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CND3200"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek protokol rangkaian serta pemasangan dan konfigurasi alatan rangkaian. Ia meliputi ciri-ciri protokol pada semua paras rangkaian piawai TCP/IP dan konfigurasi alatan rangkaian seperti suis dan penghala.",
+    "description_english": "This course covers the network protocols together with the installation and configuration of network devices. It encompasses the characteristics of protocols for all standard TCP/IP layers and network configuration of switches and routers.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND3201 \nTeknologi Antara Rangkaian \nInternetworking Technology \n3(2+1) \nPrasyarat : CND3200 \nKursus ini merangkumi aspek protokol rangkaian serta pemasangan dan konfigurasi alatan rangkaian. \nIa meliputi ciri-ciri protokol pada semua paras rangkaian piawai TCP/IP dan konfigurasi alatan rangkaian \nseperti suis dan penghala. \nThis course covers the network protocols together with the installation and configuration of network \ndevices. It encompasses the characteristics of protocols for all standa"
+  },
+  {
+    "course_code": "CND3202",
+    "course_name_malay": "Pengkomputeran Teragih dan Selari",
+    "course_name_english": "Distributed and Parallel Computing",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CND3200"
+    ],
+    "description_malay": "Kursus merangkumi konsep pengaturcaraan selari dan teragih yang berasaskan kepada ingatan berkongsi, teragih dan hibrid. Penyegerakkan, taburan data, pengimbangan muatan, penjadualan, pemetaan data, komunikasi data, reka bentuk, pembangunan dan penilaian prestasi atur cara selari dan teragih diberi penekanan.",
+    "description_english": "This course covers concepts of parallel and distributed programming based on shared, distributed and hybrid memory. Synchronization, data distribution, load balancing, scheduling, data partitioning, data communication, designs, develops, and evaluates the parallel and distributed programs are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND3202 \nPengkomputeran Teragih dan Selari \nDistributed and Parallel Computing  \n3(2+1) \nPrasyarat : CND3200 \nKursus merangkumi konsep pengaturcaraan selari dan teragih yang berasaskan kepada ingatan \nberkongsi, teragih dan hibrid. Penyegerakkan, taburan data, pengimbangan muatan, penjadualan, \npemetaan data, komunikasi data, reka bentuk, pembangunan dan penilaian prestasi atur cara selari dan \nteragih diberi penekanan. \nThis course covers concepts of parallel and distributed programming based o"
+  },
+  {
+    "course_code": "CND3300",
+    "course_name_malay": "Pentadbiran Sistem dan Rangkaian",
+    "course_name_english": "System and Network Administration",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CND3200"
+    ],
+    "description_malay": "Kursus ini merangkumi konfigurasi dan kaedah pengurusan sistem dan rangkaian berdasarkan pelantar Unix/Linux. Pemulihan bencana dan keselamatan bagi memastikan sistem dan rangkaian yang stabil dan selamat diberi penekanan.",
+    "description_english": "This course covers system and network configuration and management methods based on Unix/Linux platform. Disaster discovery and security to ensure stable and secure system and network are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND3300 \nPentadbiran Sistem dan Rangkaian \nSystem and Network Administration \n3(2+1) \nPrasyarat : CND3200 \nKursus ini merangkumi konfigurasi dan kaedah pengurusan sistem dan rangkaian berdasarkan pelantar \nUnix/Linux. Pemulihan bencana dan keselamatan bagi memastikan sistem dan rangkaian yang stabil \ndan selamat diberi penekanan. \nThis course covers system and network configuration and management methods based on Unix/Linux \nplatform. Disaster discovery and security to ensure stable and secure s"
+  },
+  {
+    "course_code": "CND3400",
+    "course_name_malay": "Aplikasi Mudah Alih",
+    "course_name_english": "Mobile Application",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep, seni bina, rangka kerja, reka bentuk antara muka, teknik, dan metodologi pembangunan aplikasi mudah alih. Praktis yang berjaya dalam membangunkan aplikasi untuk pasaran perniagaan mudah alih semasa juga diberikan penekanan.",
+    "description_english": "This course covers the concept, architecture, framework, interface design, technique, and methodology of mobile application development. Successful practices in developing an application for the current mobile business market are also emphasised.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND3400 \nAplikasi Mudah Alih \nMobile Application \n3(2+1) \nPrasyarat : CCS3101 \nKursus ini merangkumi konsep, seni bina, rangka kerja, reka bentuk antara muka, teknik, dan \nmetodologi pembangunan aplikasi mudah alih. Praktis yang berjaya dalam membangunkan aplikasi \nuntuk pasaran perniagaan mudah alih semasa juga diberikan penekanan. \nThis course covers the concept, architecture, framework, interface design, technique, and methodology \nof mobile application development. Successful practices in de"
+  },
+  {
+    "course_code": "CND4200",
+    "course_name_malay": "Reka Bentuk dan Pengurusan Rangkaian Perusahaan",
+    "course_name_english": "Enterprise Network Design and Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CND3200"
+    ],
+    "description_malay": "Kursus ini merangkumi aspek analisis dan reka bentuk rangkaian komputer dan pengurusan rangkaian. Pelajar didedahkan tentang aspek teknikal dan kekangan dalam implementasi sesuatu sistem rangkaian komputer. Aspek operasi, penggunaan alatan diagnostik dan piawaian semasa bagi sistem pengurusan rangkaian turut dibincangkan.",
+    "description_english": "This course covers the analysis and design of computer networks and the network management. Students are exposed to the technical aspects and constraints in the implementation of a computer network system. The operational aspect, the utilisation of diagnostic tools and the current standard of network management systems are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND4200 \nReka Bentuk dan Pengurusan Rangkaian Perusahaan \nEnterprise Network Design and Management \n3(3+0) \nPrasyarat : CND3200 \nKursus ini merangkumi aspek analisis dan reka bentuk rangkaian komputer dan pengurusan rangkaian. \nPelajar didedahkan tentang aspek teknikal dan kekangan dalam implementasi sesuatu sistem \nrangkaian komputer. Aspek operasi, penggunaan alatan diagnostik dan piawaian semasa bagi sistem \npengurusan rangkaian turut dibincangkan. \nThis course covers the analysis and design "
+  },
+  {
+    "course_code": "CND4201",
+    "course_name_malay": "Rangkaian Wayarles dan Bergerak",
+    "course_name_english": "Wireless and Mobile Network",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CND3200"
+    ],
+    "description_malay": "Kursus ini meliputi konsep asas teknologi rangkaian wayarles dan bergerak. Ia turut merangkumi model, prinsip reka bentuk, mekanisme dan penyelesaian masalah dalam rangkaian wayarles dan bergerak yang selamat.",
+    "description_english": "This course comprises the basic concept of wireless networks and mobile technologies. It also includes models, design principles, mechanisms and solutions used in secured wireless networks.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND4201 \nRangkaian Wayarles dan Bergerak \nWireless and Mobile Network \n3(3+0) \nPrasyarat : CND3200 \nKursus ini meliputi konsep asas teknologi rangkaian wayarles dan bergerak. Ia turut merangkumi model, \nprinsip reka bentuk, mekanisme dan penyelesaian masalah dalam rangkaian wayarles dan bergerak \nyang selamat. \nThis course comprises the basic concept of wireless networks and mobile technologies. It also includes \nmodels, design principles, mechanisms and solutions used in secured wireless networ"
+  },
+  {
+    "course_code": "CND4300",
+    "course_name_malay": "Rangkaian Tentuan Perisian",
+    "course_name_english": "Software Defined Network",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CND3201"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep rangkaian tentuan perisian (SDN). Ia meliputi perubahan pelantar rangkaian asas dan aplikasi yang digunakan oleh operasi, pengurusan dan keselamatan yang berbeza dalam SDN. Prinsip, blok binaan dan reka bentuk bagi SDN dan fungsi rangkaian maya (NFV) diberikan penekanan.",
+    "description_english": "This course covers the concept of software defined network (SDN). It includes changes of the underlying networking platform and application applied by different operation, management and security in SDN. The principles, building block and design of SDN and Network Function Virtualization (NFV) are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND4300 \nRangkaian Tentuan Perisian \nSoftware Defined Network \n3(3+0) \nPrasyarat : CND3201 \nKursus ini merangkumi konsep rangkaian tentuan perisian (SDN). Ia meliputi perubahan pelantar \nrangkaian asas dan aplikasi yang digunakan oleh operasi, pengurusan dan keselamatan yang berbeza \n\n--- Page 13 ---\n \n64 \n \ndalam SDN. Prinsip, blok binaan dan reka bentuk bagi SDN dan fungsi rangkaian maya (NFV) diberikan \npenekanan. \nThis course covers the concept of software defined network (SDN). It includes "
+  },
+  {
+    "course_code": "CND4401",
+    "course_name_malay": "Pengkomputeran Awan",
+    "course_name_english": "Cloud Computing",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CND3200"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep pembangunan dan penggunaan perkhidmatan rangkaian dalam persekitaran pengkomputeran awan. Perkhidmatan awan berasaskan infrastruktur, pelantar dan perisian diberi penekanan.",
+    "description_english": "This course covers the concept of network service development and use in cloud computing environment. Cloud services based on infrastructure, platform and software are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND4401 \nPengkomputeran Awan \nCloud Computing \n3(3+0) \nPrasyarat : CND3200 \nKursus ini merangkumi konsep pembangunan dan penggunaan perkhidmatan rangkaian dalam \npersekitaran pengkomputeran awan. Perkhidmatan awan berasaskan infrastruktur, pelantar dan \nperisian diberi penekanan. \nThis course covers the concept of network service development and use in cloud computing \nenvironment. Cloud services based on infrastructure, platform and software are emphasized."
+  },
+  {
+    "course_code": "CND4400",
+    "course_name_malay": "Sistem Teragih",
+    "course_name_english": "Distributed Systems",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CND3200"
+    ],
+    "description_malay": "Kursus ini merangkumi bidang dalam rangkaian computer. Ia meliputi sistem pelanggan-pelayan, pangkalan data teragih, sistem pengoperasian teragih, sistem aplikasi teragih, sistem terbuka dan isu terkini dalam sistem teragih.",
+    "description_english": "This course covers the area of computer networks. It includes client-server systems, distributed databases, distributed operating systems, distributed application systems, open systems and recent issues in distributed system.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND4400 \nSistem Teragih \nDistributed Systems \n3(3+0) \nPrasyarat : CND3200 \nKursus ini merangkumi bidang dalam rangkaian computer. Ia meliputi sistem pelanggan-pelayan, \npangkalan data teragih, sistem pengoperasian teragih, sistem aplikasi teragih, sistem terbuka dan isu \nterkini dalam sistem teragih. \nThis course covers the area of computer networks. It includes client-server systems, distributed \ndatabases, distributed operating systems, distributed application systems, open systems and recent "
+  },
+  {
+    "course_code": "CND4500",
+    "course_name_malay": "Keselamatan Rangkaian",
+    "course_name_english": "Network Security",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CND3200"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep dan prinsip kepada keselamatan rangkaian. Ia meliputi polisi keselamatan rangkaian, algoritma kriptografi, protokol dan aplikasi keselamatan rangkaian. Keselamatan emel dan keselamatan protokol Internet diberi penekanan.",
+    "description_english": "This course covers the concepts and principles of network security. It includes network security policy, cryptographic algorithms, network security protocols and applications. Email security and Internet protocol security are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND4500 \nKeselamatan Rangkaian \nNetwork Security \n3(3+0) \nPrasyarat : CND3200 \nKursus ini merangkumi konsep dan prinsip kepada keselamatan rangkaian. Ia meliputi polisi \nkeselamatan rangkaian, algoritma kriptografi, protokol dan aplikasi keselamatan rangkaian. \nKeselamatan emel dan keselamatan protokol Internet diberi penekanan. \nThis course covers the concepts and principles of network security. It includes network security policy, \ncryptographic algorithms, network security protocols and appli"
+  },
+  {
+    "course_code": "CND4503",
+    "course_name_malay": "Penilaian Kerentanan dan Pengujian Penembusan",
+    "course_name_english": "Vulnerability Assessment and Penetration Testing",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CND4500",
+      "CCS4500"
+    ],
+    "description_malay": "Kursus ini meliputi asas dan teori sokongan dalam memahami cara di mana sistem rangkaian komputer boleh diserang dan diceroboh dengan mempergunakan kerentanan sistem. Ia merangkumi beberapa prinsip dan kaedah untuk menaksir dan menilai keselamatan rangkaian secara beretika.",
+    "description_english": "This course covers the foundations and theoretical underpinnings for an understanding of the way in which computer network systems can be attacked by using vulnerabilities in the system. It includes a number of principles and methods to evaluate and assess network security ethically.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND4503 \nPenilaian Kerentanan dan Pengujian Penembusan \nVulnerability Assessment and Penetration Testing \n3(3+0) \nPrasyarat : CND4500 atau CCS4500 \nKursus ini meliputi asas dan teori sokongan dalam memahami cara di mana sistem rangkaian komputer \nboleh diserang dan diceroboh dengan mempergunakan kerentanan sistem. Ia merangkumi beberapa \nprinsip dan kaedah untuk menaksir dan menilai keselamatan rangkaian secara beretika. \nThis course covers the foundations and theoretical underpinnings for an un"
+  },
+  {
+    "course_code": "CND4504",
+    "course_name_malay": "Teknologi Blok Rantai",
+    "course_name_english": "Blockchain Technology",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CND4500",
+      "CCS4500"
+    ],
+    "description_malay": "Kursus ini meliputi definisi, ciri, jenis dan faedah teknologi blok rantai bersama dengan mekanisme konsensus yang menjadi teras teknologi blok rantai. Ia merangkumi konsep desentralisasi, pelbagai kaedah dan pelantar yang digunakan di dalam pelbagai industri. Teknik kriptografi dan penggunaan kontrak pintar untuk pengembangan aplikasi blok rantai juga diberi penekanan.",
+    "description_english": "This course covers the definitions, features, types and benefits of blockchain technology along with consensus mechanism that are the core of blockchain technology. It includes decentralization concept, various methods and platforms that are used in various industries. The cryptographic techniques and usage of smart contracts for the development of blockchain applications are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND4504 \nTeknologi Blok Rantai \nBlockchain Technology \n3(3+0) \nPrasyarat : CND4500 atau CCS4500 \nKursus ini meliputi definisi, ciri, jenis dan faedah teknologi blok rantai bersama dengan mekanisme \nkonsensus yang menjadi teras teknologi blok rantai. Ia merangkumi konsep desentralisasi, pelbagai \nkaedah dan pelantar yang digunakan di dalam pelbagai industri. Teknik kriptografi dan penggunaan \nkontrak pintar untuk pengembangan aplikasi blok rantai juga diberi penekanan. \nThis course covers the def"
+  },
+  {
+    "course_code": "CND4901",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "12(0+12)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini mendedahkan pelajar kepada persekitaran kerja yang sebenar di industri/organisasi. Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan.",
+    "description_english": "This course exposes the students to real working environment in industries/organizations. Training includes application of the theoretical and practical aspects that have been studied with current practices in the workplace. Problem solving and communication skills are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND4901 \nLatihan Industri \nIndustrial Training \n12(0+12) \nPrasyarat : Dengan Kebenaran Jabatan \nKursus ini mendedahkan pelajar kepada persekitaran kerja yang sebenar di industri/organisasi. Latihan \nmerangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat \nkerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan. \nThis course exposes the students to real working environment in industries/organizations. Training \nincludes application o"
+  },
+  {
+    "course_code": "CND4949",
+    "course_name_malay": "Projek Bacelor",
+    "course_name_english": "Bachelor Project",
+    "credits": "6(0+6)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi aspek perancangan dan pelaksanaan projek. Ini termasuklah pemilihan tajuk, melaksanakan kajian kritis, mereka bentuk dan melaksanakan strategi kerja, mengumpul dan menganalisis data, serta mendokumentasi dan membentangkan hasil projek.",
+    "description_english": "This course covers the aspects of planning and executing project. These include title selection, conducting critical review, designing and performing work strategy, collecting and analysing data, documenting and presenting project output.",
+    "department": "Department of Software Engineering and Information System",
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "CND4949 \nProjek Bacelor \nBachelor Project \n6(0+6) \nPrasyarat : Dengan Kebenaran Jabatan \nKursus ini merangkumi aspek perancangan dan pelaksanaan projek. Ini termasuklah pemilihan tajuk, \nmelaksanakan kajian kritis, mereka bentuk dan melaksanakan strategi kerja, mengumpul dan \nmenganalisis data, serta mendokumentasi dan membentangkan hasil projek. \nThis course covers the aspects of planning and executing project. These include title selection, \nconducting critical review, designing and performing"
+  },
+  {
+    "course_code": "SSW3001",
+    "course_name_malay": "Kejuruteraan Perisian",
+    "course_name_english": "Software Engineering",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini merangkumi pengetahuan asas dan kemahiran dalam kejuruteraan perisian. Prinsip dan kaedah kejuruteraan perisian, termasuklah alatan dan amalan kejuruteraan perisian terkini dibincangkan. Teknik-teknik analisis keperluan, reka bentuk, pelaksanaan dan pengujian dititikberatkan.",
+    "description_english": "This course covers the foundation knowledge and skills in software engineering. Software engineering principles and methods including emerging software engineering practices and tools are discussed. Requirement analysis, design, implementation, and testing techniques are emphasised.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW3001 \nKejuruteraan Perisian \nSoftware Engineering \n3(3+0) \nPrasyarat : CCS3101 \nKursus ini merangkumi pengetahuan asas dan kemahiran dalam kejuruteraan perisian. Prinsip dan \nkaedah kejuruteraan perisian, termasuklah alatan dan amalan kejuruteraan perisian terkini \ndibincangkan. Teknik-teknik analisis keperluan, reka bentuk, pelaksanaan dan pengujian dititikberatkan. \nThis course covers the foundation knowledge and skills in software engineering. Software engineering \nprinciples and methods i"
+  },
+  {
+    "course_code": "SSW3200",
+    "course_name_malay": "Keusahawanan Digital",
+    "course_name_english": "Entrepreneurship",
+    "credits": "3(2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini meliputi konsep dan amalan keusahawanan dalam pembangunan, pelaksanaan dan pengaplikasian teknologi digital. Ia merangkumi model perniagaan terkini, perkongsian ekonomi digital, strategi inovasi dan komponen rancangan perniagaan.  Kemahiran menangani cabaran dan mencari peluang perniagaan berasaskan teknologi digital diberi penekanan.",
+    "description_english": "This course covers concept and practice of entrepreneurship in the development, implementation and application of digital technology. It includes relevant business models, digital economy sharing, innovative strategies and business plan components. The skills of managing challenges and finding business opportunities based on digital technology are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW3200 \nKeusahawanan Digital \nEntrepreneurship  \n3(2+1) \nPrasyarat : Tiada \nKursus ini meliputi konsep dan amalan keusahawanan dalam pembangunan, pelaksanaan dan \npengaplikasian teknologi digital. Ia merangkumi model perniagaan terkini, perkongsian ekonomi digital, \nstrategi inovasi dan komponen rancangan perniagaan.  Kemahiran menangani cabaran dan mencari \npeluang perniagaan berasaskan teknologi digital diberi penekanan. \nThis course covers concept and practice of entrepreneurship in the deve"
+  },
+  {
+    "course_code": "SSW3201",
+    "course_name_malay": "Statistik bagi Sains Komputer",
+    "course_name_english": "Statistics for Computer Science",
+    "credits": "3(3+0)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi konsep asas statistik dan kaedah statistik untuk menganalisis data dan membuat inferens. Ia meliputi penggunaan kaedah yang sesuai dalam analisis, membuat keputusan, dan membuat tafsiran menggunakan istilah statistik. Penyelesaian masalah dalam sains komputer diberi penekanan.",
+    "description_english": "This course covers the fundamental concepts of statistics and statistical methods to analyze data and make inferences. It encompasses the use of appropriate methods in analysis, makes decisions and interpretation using statistical terms. Solving problems in computer science is emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW3201 \nStatistik bagi Sains Komputer \nStatistics for Computer Science \n3(3+0) \nPrasyarat : Tiada \nKursus ini merangkumi konsep asas statistik dan kaedah statistik untuk menganalisis data dan membuat \ninferens. Ia meliputi penggunaan kaedah yang sesuai dalam analisis, membuat keputusan, dan \nmembuat tafsiran menggunakan istilah statistik. Penyelesaian masalah dalam sains komputer diberi \npenekanan. \nThis course covers the fundamental concepts of statistics and statistical methods to analyze dat"
+  },
+  {
+    "course_code": "SSW3301",
+    "course_name_malay": "Kejuruteraan Keperluan Perisian",
+    "course_name_english": "Software Requirements Engineering",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3100"
+    ],
+    "description_malay": "Kursus ini meliputi kepentingan keperluan perisian, cara mengumpulkan keperluan perisian yang betul, dan mendokumentasi keperluan perisian dengan efektif. Ia termasuk memperincikan model keperluan untuk reka bentuk perisian.",
+    "description_english": "This course covers software requirements considerations, how to gather the right software requirements, and document the software requirements effectively. It includes refining the requirements model for software design.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW3301 \nKejuruteraan Keperluan Perisian \nSoftware Requirements Engineering \n3(3+0) \nPrasyarat : CCS3100 \nKursus ini meliputi kepentingan keperluan perisian, cara mengumpulkan keperluan perisian yang betul, \ndan mendokumentasi keperluan perisian dengan efektif. Ia termasuk memperincikan model keperluan \nuntuk reka bentuk perisian. \nThis course covers software requirements considerations, how to gather the right software \nrequirements, and document the software requirements effectively.  It inclu"
+  },
+  {
+    "course_code": "SSW3302",
+    "course_name_malay": "Seni Bina dan Reka Bentuk Perisian",
+    "course_name_english": "Software Architecture and Design",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "SSW3301"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep, prinsip, dan teknik dalam mereka bentuk perisian yang terdiri dari seni bina dan reka bentuk terperinci. Ia meliputi pendekatan pemodelan reka bentuk berorientasikan objek berdasarkan keperluan perisian. Gaya seni bina dan evolusi pengkomputeran semasa turut diberi penekanan.",
+    "description_english": "This course covers concepts, principles, and techniques in designing software consisting of architecture and detailed design. It includes object-oriented design modeling approach based on the software requirements. The architectural style and current computing evolution are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW3302 \nSeni Bina dan Reka Bentuk Perisian \nSoftware Architecture and Design \n3(3+0) \nPrasyarat : SSW3301 \nKursus ini merangkumi konsep, prinsip, dan teknik dalam mereka bentuk perisian yang terdiri dari seni \nbina dan reka bentuk terperinci. Ia meliputi pendekatan pemodelan reka bentuk berorientasikan objek \nberdasarkan keperluan perisian. Gaya seni bina dan evolusi pengkomputeran semasa turut diberi \npenekanan. \nThis course covers concepts, principles, and techniques in designing software con"
+  },
+  {
+    "course_code": "SSW3305",
+    "course_name_malay": "Pengujian Perisian",
+    "course_name_english": "Software Testing",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "SSW3302"
+    ],
+    "description_malay": "Kursus ini meliputi konsep asas pengujian perisian. Ia merangkumi aktiviti dan teknik pengujian yang bersesuaian dengan perisian yang akan diuji. Metrik dan pengurusan pengujian turut diberi penekanan.",
+    "description_english": "This course covers fundamental concepts of software testing. It includes testing activities and techniques that are appropriate to the software to be tested. Testing metrics and management are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW3305 \nPengujian Perisian \nSoftware Testing \n3(3+0) \nPrasyarat : SSW3302 \nKursus ini meliputi konsep asas pengujian perisian. Ia merangkumi aktiviti dan teknik pengujian yang \nbersesuaian dengan perisian yang akan diuji. Metrik dan pengurusan pengujian turut diberi penekanan. \nThis course covers fundamental concepts of software testing. It includes testing activities and \ntechniques that are appropriate to the software to be tested. Testing metrics and management are also \nemphasized."
+  },
+  {
+    "course_code": "SSW3307",
+    "course_name_malay": "Pengalaman Pengguna dan Antara Muka Pengguna",
+    "course_name_english": "User Experience and User Interface",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "SSW3302",
+      "SSW3001"
+    ],
+    "description_malay": "Kursus ini mengandungi konsep pengalaman pengguna dan ciri antara muka pengguna yang baik. Ia juga meliputi metodologi dan rangka kerja reka bentuk yang dapat menghasilkan antara muka yang boleh guna dan pengalaman pengguna yang positif.",
+    "description_english": "This course consists of the concept and characteristics of the good user experience and user interface. It also covers the methodology and frameworks to produce a usable user interface and a positive user experience.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW3307 \nPengalaman Pengguna dan Antara Muka Pengguna  \nUser Experience and User Interface \n3(3+0) \nPrasyarat : SSW3302 atau SSW3001 \nKursus ini mengandungi konsep pengalaman pengguna dan ciri antara muka pengguna yang baik. Ia \njuga meliputi metodologi dan rangka kerja reka bentuk yang dapat menghasilkan antara muka yang \nboleh guna dan pengalaman pengguna yang positif. \nThis course consists of the concept and characteristics of the good user experience and user interface. \nIt also covers the m"
+  },
+  {
+    "course_code": "SSW3308",
+    "course_name_malay": "Pembangunan Aplikasi Web",
+    "course_name_english": "Web Application Development",
+    "credits": "3(2+1)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi konsep asas teknologi Web dan pembangunan aplikasi web. Ia juga meliputi rangka kerja, pangkalan data, dan operasi aplikasi Web.",
+    "description_english": "This course covers the fundamental concepts of web technology and Web applications development. It also includes frameworks, database, and operations of Web application.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW3308 \nPembangunan Aplikasi Web \nWeb Application Development \n3(2+1) \nPrasyarat : Tiada \nKursus ini merangkumi konsep asas teknologi Web dan pembangunan aplikasi web. Ia juga meliputi \nrangka kerja, pangkalan data, dan operasi aplikasi Web. \nThis course covers the fundamental concepts of web technology and Web applications development. It \nalso includes frameworks, database, and operations of Web application."
+  },
+  {
+    "course_code": "SSW3310",
+    "course_name_malay": "Pengurusan Projek Perisian",
+    "course_name_english": "Software Project Management",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "SSW3301",
+      "SSW3001"
+    ],
+    "description_malay": "Kursus ini merangkumi fungsi dan tanggungjawab pengurusan perisian dan bagaimana mengurus projek pembangunan perisian. Ia meliputi penskedulan dan perancangan projek, penganggaran kos, pengurusan risiko, manusia, kualiti, dokumentasi dan komunikasi projek. Penghasilan produk yang berkualiti tepat pada masa dan dalam lingkungan belanjawan diberi penekanan.",
+    "description_english": "This course covers the functions and responsibilities of software management and how to manage software development project. It covers project scheduling and planning, cost estimation, and managing project related to risk, human, quality, documentation and communication. The production of quality product in time and within budget is emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW3310 \nPengurusan Projek Perisian \nSoftware Project Management \n3(3+0) \nPrasyarat : SSW3301 atau SSW3001 \nKursus ini merangkumi fungsi dan tanggungjawab pengurusan perisian dan bagaimana mengurus \nprojek pembangunan perisian. Ia meliputi penskedulan dan perancangan projek, penganggaran kos, \npengurusan risiko, manusia, kualiti, dokumentasi dan komunikasi projek. Penghasilan produk yang \nberkualiti tepat pada masa dan dalam lingkungan belanjawan diberi penekanan. \nThis course covers the functio"
+  },
+  {
+    "course_code": "SSW3400",
+    "course_name_malay": "Projek Kejuruteraan Perisian Berpasukan",
+    "course_name_english": "Software Engineering Team Project",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "SSW3310"
+    ],
+    "description_malay": "Kursus ini merangkumi teknik pembangunan projek perisian secara berpasukan. Ia merangkumi fungsi, gaya dan model pengurusan pasukan pembangunan perisian yang efektif. Prestasi dan penilaian pasukan turut dibincangkan.",
+    "description_english": "This course covers techniques in software projects development as a team. It comprises functions, styles and models for effective software development team management. Team performance and evaluation are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW3400 \nProjek Kejuruteraan Perisian Berpasukan \nSoftware Engineering Team Project \n3(2+1) \nPrasyarat : SSW3310 \nKursus ini merangkumi teknik pembangunan projek perisian secara berpasukan. Ia merangkumi fungsi, \ngaya dan model pengurusan pasukan pembangunan perisian yang efektif. Prestasi dan penilaian \npasukan turut dibincangkan. \nThis course covers techniques in software projects development as a team. It comprises functions, \nstyles and models for effective software development team manageme"
+  },
+  {
+    "course_code": "SSW3401",
+    "course_name_malay": "Pembangunan Aplikasi Mudah Alih",
+    "course_name_english": "Mobile Application Development",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "CCS3101"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep, teknik, kerangka dan kaedah terkini dalam pembangunan aplikasi mudah alih merentasi pelbagai pelantar dengan satu kod tunggal. Teknologi peranti mudah alih, kekangan reka bentuk dan peluang serta pilihan teknologi yang bersesuaian juga turut dibincangkan.",
+    "description_english": "This course covers the latest concepts, techniques, framework and methods in mobile application development across multiple platforms with a single codebase. Mobile devices technology, design constraints and opportunities as well as suitable technology options are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW3401 \nPembangunan Aplikasi Mudah Alih \nMobile Application Development \n3(2+1) \nPrasyarat : CCS3101 \nKursus ini merangkumi konsep, teknik, kerangka dan kaedah terkini dalam pembangunan aplikasi \nmudah alih merentasi pelbagai pelantar dengan satu kod tunggal. Teknologi peranti mudah alih, \nkekangan reka bentuk dan peluang serta pilihan teknologi yang bersesuaian juga turut dibincangkan. \nThis course covers the latest concepts, techniques, framework and methods in mobile application \ndevelopment"
+  },
+  {
+    "course_code": "SSW3402",
+    "course_name_malay": "Pembangunan Sistem Perusahaan",
+    "course_name_english": "Enterprise Systems Development",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "SSW3308"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep dalam membangunkan sistem perusahaan. Ia meliputi penggunaan teknologi terkini dan seni bina reka bentuk untuk integrasi sistem perusahaan. Asas keselamatan bagi sistem perusahaan juga dibincangkan.",
+    "description_english": "This course covers concept in developing the enterprise system. It includes the application of latest technologies architecture for enterprise system integration. Fundamental of security for enterprise system is also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW3402 \nPembangunan Sistem Perusahaan \nEnterprise Systems Development \n3(2+1) \nPrasyarat : SSW3308 \nKursus ini merangkumi konsep dalam membangunkan sistem perusahaan. Ia meliputi penggunaan \nteknologi terkini dan seni bina reka bentuk untuk integrasi sistem perusahaan. Asas keselamatan bagi \nsistem perusahaan juga dibincangkan. \nThis course covers concept in developing the enterprise system. It includes the application of latest \ntechnologies architecture for enterprise system integration. Fund"
+  },
+  {
+    "course_code": "SSW4201",
+    "course_name_malay": "Metodologi Pembangunan Perisian",
+    "course_name_english": "Software Development Methodology",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "SSW3301"
+    ],
+    "description_malay": "Kursus ini merangkumi kepelbagaian metodologi, teknik, alatan dan model pembangunan perisian. Ia meliputi kaedah tradisional sehingga metodologi pembangunan perisian yang moden. Pendekatan, teknik, isu dan cabaran semasa dalam kejuruteraan perisian dibincangkan.",
+    "description_english": "This course covers the diversity of methodology, technique, tool and software development model. It encompasses traditional methodology to modern software development methodologies. Approach, technique, issue and challenges in contemporary software engineering are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW4201 \nMetodologi Pembangunan Perisian \nSoftware Development Methodology \n3(3+0) \nPrasyarat : SSW3301 \nKursus ini merangkumi kepelbagaian metodologi, teknik, alatan dan model pembangunan perisian. Ia \nmeliputi kaedah tradisional sehingga metodologi pembangunan perisian yang moden. Pendekatan, \nteknik, isu dan cabaran semasa dalam kejuruteraan perisian dibincangkan. \nThis course covers the diversity of methodology, technique, tool and software development model. It \nencompasses traditional meth"
+  },
+  {
+    "course_code": "SSW4202",
+    "course_name_malay": "Etika dalam Pengkomputeran",
+    "course_name_english": "Ethics in Computing",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3100"
+    ],
+    "description_malay": "Kursus ini meliputi konsep etika dalam pengkomputeran dan kaitannya dengan teknologi maklumat. Ini termasuklah kod etika professional dan polisi yang berkaitan serta isu-isu seperti, harta intelek, hak cipta, cetak rompak, keselamatan siber, privasi, dan isu sosial. Kepentingan etika terhadap semua lapisan pengguna komputer seperti pembangun perisian, para profesional, ahli perniagaan dan pengguna akhir juga diberi penekanan.",
+    "description_english": "This course covers the concepts of ethics in computerization and its relation to information technology. This includes professional code of ethics and related policies as well as issues such as intellectual properties, copyright, piracy, cyber security, and social issues. The importance of ethics to all levels of computer users such as professional, software developers, businessmen and end users are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW4202 \nEtika dalam Pengkomputeran \nEthics in Computing \n3(3+0) \nPrasyarat : CCS3100 \nKursus ini meliputi konsep etika dalam pengkomputeran dan kaitannya dengan teknologi maklumat. Ini \ntermasuklah kod etika professional dan polisi yang berkaitan serta isu-isu seperti, harta intelek, hak \ncipta, cetak rompak, keselamatan siber, privasi, dan isu sosial. Kepentingan etika terhadap semua \nlapisan pengguna komputer seperti pembangun perisian, para profesional, ahli perniagaan dan \npengguna akhir ju"
+  },
+  {
+    "course_code": "SSW4303",
+    "course_name_malay": "Kaedah Formal dalam Pembangunan Perisian",
+    "course_name_english": "Formal Methods in Software Development",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "SSW3301",
+      "SSW3001"
+    ],
+    "description_malay": "Kursus ini merangkumi kaedah formal dalam pembangunan perisian yang dapat digunakan dalam membina perisian. Penggunaan ini termasuk menspesifikasi dan mentahkik perisian. Beberapa bahasa kaedah formal dibincangkan.",
+    "description_english": "This course covers formal methods which can be used in developing software. The usage includes specifying and verifying software. Several formal method languages are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW4303 \nKaedah Formal dalam Pembangunan Perisian \nFormal Methods in Software Development \n3(3+0) \nPrasyarat: SSW3301 atau SSW3001 \nKursus ini merangkumi kaedah formal dalam pembangunan perisian yang dapat digunakan dalam \nmembina perisian. Penggunaan ini termasuk menspesifikasi dan mentahkik perisian. Beberapa bahasa \nkaedah formal dibincangkan. \nThis course covers formal methods which can be used in developing software. The usage includes \nspecifying and verifying software. Several formal meth"
+  },
+  {
+    "course_code": "SSW4351",
+    "course_name_malay": "Penyelenggaraan dan Evolusi Perisian",
+    "course_name_english": "Software Maintenance and Evolution",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "SSW3301"
+    ],
+    "description_malay": "Kursus ini meliputi konsep, proses dan teknik-teknik yang menyokong kebolehan sesebuah sistem perisian untuk berubah, berkembang dan bertahan. Ia meliputi perancangan, proses, teknik, alatan dan pengawalan perubahan perisian. Isu-isu berkaitan masa depan dan perubahan teknologi berorientasikan objek terhadap penyelenggaraan perisian juga dibincangkan.",
+    "description_english": "This course comprises concept, process and techniques, which can support the ability of a software system to change, evolve and sustain. It covers plans, processes, techniques, tools and changed-control software. Issues related to software maintenance, which include object-oriented software maintenance and the future of software maintenance are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW4351 \nPenyelenggaraan dan Evolusi Perisian \nSoftware Maintenance and Evolution \n3(3+0) \nPrasyarat: SSW3301 \nKursus ini meliputi konsep, proses dan teknik-teknik yang menyokong kebolehan sesebuah sistem \nperisian untuk berubah, berkembang dan bertahan. Ia meliputi perancangan, proses, teknik, alatan dan \npengawalan perubahan perisian. Isu-isu berkaitan masa depan dan perubahan teknologi \nberorientasikan objek terhadap penyelenggaraan perisian juga dibincangkan. \nThis course comprises concept, "
+  },
+  {
+    "course_code": "SSW4353",
+    "course_name_malay": "Pembangunan Perisian Berasaskan Komponen",
+    "course_name_english": "Component Based Software Development",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "SSW3302"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep guna semula dan pembangunan perisian berasaskan komponen. Kursus ini turut memperkenalkan teknologi, model dan seni bina komponen, serta perkhidmatan web. Isu kejuruteraan perisian berasaskan komponen turut dibincangkan.",
+    "description_english": "This course covers concept of reusability and component-based software engineering. The course also introduces component technologies, models and architecture, as well as web services. Issues on component-based software engineering are also discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW4353 \nPembangunan Perisian Berasaskan Komponen \nComponent Based Software Development \n3(3+0) \nPrasyarat: SSW3302 \nKursus ini merangkumi konsep guna semula dan pembangunan perisian berasaskan komponen. \nKursus ini turut memperkenalkan teknologi, model dan seni bina komponen, serta perkhidmatan web. \nIsu kejuruteraan perisian berasaskan komponen turut dibincangkan. \nThis course covers concept of reusability and component-based software engineering. The course also \nintroduces component technolo"
+  },
+  {
+    "course_code": "SSW4355",
+    "course_name_malay": "Kejuruteraan Perisian Masa Nyata",
+    "course_name_english": "Real-Time Software Engineering",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "SSW3302"
+    ],
+    "description_malay": "Kursus ini merangkumi pengetahuan asas dalam kejuruteraan perisian bagi perisian masa nyata. Prinsip dan kaedah kejuruteraan perisian masa nyata termasuk praktis terkini dalam pembangunan perisian masa nyata dibincangkan. Teknik analisis keperluan, reka bentuk, verifikasi dan validasi juga diberi penekanan.",
+    "description_english": "This course covers foundation knowledge and skills in real-time software engineering. Real-time software engineering principles and methods including current and emerging software engineering practices in real-time software development are discussed. Requirement analysis, design, verification and validation techniques are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW4355 \nKejuruteraan Perisian Masa Nyata \nReal-Time Software Engineering \n3(3+0) \nPrasyarat: SSW3302 \nKursus ini merangkumi pengetahuan asas dalam kejuruteraan perisian bagi perisian masa nyata. \nPrinsip dan kaedah kejuruteraan perisian masa nyata termasuk praktis terkini dalam pembangunan \nperisian masa nyata dibincangkan. Teknik analisis keperluan, reka bentuk, verifikasi dan validasi juga \ndiberi penekanan. \nThis course covers foundation knowledge and skills in real-time software engineering"
+  },
+  {
+    "course_code": "SSW4356",
+    "course_name_malay": "Pembangunan Perisian Selamat",
+    "course_name_english": "Secure Software Development",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3300"
+    ],
+    "description_malay": "Kursus ini merangkumi metodologi pembangunan perisian selamat dan mengkaji strategi untuk mengintegrasikan prinsip keselamatan ke dalam kitaran hayat pembangunan perisian. Ia termasuk keselamatan dalam kejuruteraan keperluan, reka bentuk selamat, analisis risiko, dan membangunkan kod selamat. Pendekatan dalam pengaturcaraan selamat berdasarkan bahasa pengaturcaraan dan pakej perisian yang sesuai dibincangkan.",
+    "description_english": "This course covers secure software development methodologies and examines strategies to integrate security principles into the software development lifecycle. It includes security in requirements engineering, secure designs, risk analysis, and developing secure code. Approaches in secure programming based on suitable programming language and software packages are discussed.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW4356 \nPembangunan Perisian Selamat \nSecure Software Development \n3(3+0) \nPrasyarat: CCS3300 \nKursus ini merangkumi metodologi pembangunan perisian selamat dan mengkaji strategi untuk \nmengintegrasikan prinsip keselamatan ke dalam kitaran hayat pembangunan perisian. Ia termasuk \nkeselamatan dalam kejuruteraan keperluan, reka bentuk selamat, analisis risiko, dan membangunkan \nkod selamat. Pendekatan dalam pengaturcaraan selamat berdasarkan bahasa pengaturcaraan dan \npakej perisian yang sesuai d"
+  },
+  {
+    "course_code": "SSW4357",
+    "course_name_malay": "Pembangunan Aplikasi dalam Pengkomputeran Awan",
+    "course_name_english": "Application Development in Cloud Computing",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "CCS3101",
+      "CND3200"
+    ],
+    "description_malay": "Kursus ini mengandungi konsep, prinsip dan teknologi berkaitan pengkomputeran awan. Ini termasuklah model seni bina pengkomputeran awan dan pembangunan aplikasi menggunakan paradigma pengkomputeran awan. Kursus ini juga merangkumi pelbagai perkhidmatan pengkomputeran awan dan pelantar untuk membangun dan mengatur aplikasi dalam persekitaran awan.",
+    "description_english": "This course encompasses concept, principles and technologies related to cloud computing. This includes different architectural models of cloud computing and its applications development using the cloud computing paradigm. The course also covers different cloud computing services and platforms to develop and deploy application on cloud environment.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW4357 \nPembangunan Aplikasi dalam Pengkomputeran Awan \nApplication Development in Cloud Computing \n3(3+0) \nPrasyarat: CCS3101 & CND3200 \nKursus ini mengandungi konsep, prinsip dan teknologi berkaitan pengkomputeran awan. Ini \ntermasuklah model seni bina pengkomputeran awan dan pembangunan aplikasi menggunakan \nparadigma pengkomputeran awan. Kursus ini juga merangkumi pelbagai perkhidmatan \npengkomputeran awan dan pelantar untuk membangun dan mengatur aplikasi dalam persekitaran \nawan. \nThis co"
+  },
+  {
+    "course_code": "SSW4401",
+    "course_name_malay": "Perdagangan Elektronik",
+    "course_name_english": "Electronic Commerce",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "SSW3308"
+    ],
+    "description_malay": "Kursus ini merangkumi konsep dan falsafah perdagangan elektronik. Teknologi yang digunakan dalam ekonomi digital yang meliputi sistem pembayaran elektronik, perbankan elektronik dan penerbitan digital dibincangkan. Pembangunan aplikasi dan penggunaan teknologi dalam perniagaan diberi penekanan.",
+    "description_english": "This course covers the concepts and philosophy of electronic commerce. Technologies used in the digital economy which includes electronic payment system, electronic banking, and digital publishing are discussed. Application development and technology utilization in business are emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW4401 \nPerdagangan Elektronik \nElectronic Commerce \n3(3+0) \nPrasyarat: SSW3308 \nKursus ini merangkumi konsep dan falsafah perdagangan elektronik. Teknologi yang digunakan \ndalam ekonomi digital yang meliputi sistem pembayaran elektronik, perbankan elektronik dan \npenerbitan digital dibincangkan. Pembangunan aplikasi dan penggunaan teknologi dalam perniagaan \ndiberi penekanan. \nThis course covers the concepts and philosophy of electronic commerce. Technologies used in the \ndigital economy which"
+  },
+  {
+    "course_code": "SSW4901",
+    "course_name_malay": "Latihan Industri",
+    "course_name_english": "Industrial Training",
+    "credits": "12(0+12)",
+    "prerequisites": [],
+    "description_malay": "Melalui kursus ini, pelajar didedahkan kepada persekitaran kerja yang sebenar di industri/organisasi. Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan.",
+    "description_english": "In this course, students are exposed to real working environment in industries/organizations. Training includes application of the theoretical and practical aspects that have been studied with current practices in the workplace. Problem solving and communication skills are also emphasized.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW4901 \nLatihan Industri \nIndustrial Training \n12(0+12) \nPrasyarat: Dengan Kebenaran Jabatan \nMelalui kursus ini, pelajar didedahkan kepada persekitaran kerja yang sebenar di industri/organisasi. \nLatihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa \ndi tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan. \nIn this course, students are exposed to real working environment in industries/organizations. Training \nincludes ap"
+  },
+  {
+    "course_code": "SSW4949",
+    "course_name_malay": "Projek Bacelor",
+    "course_name_english": "Bachelor Project",
+    "credits": "6(0+6)",
+    "prerequisites": [],
+    "description_malay": "Kursus ini merangkumi aspek perancangan dan pelaksanaan projek. Ini termasuklah pemilihan tajuk, melaksanakan kajian kritis, mereka bentuk dan melaksanakan strategi kerja, mengumpul dan menganalisis data, serta mendokumentasi dan membentangkan hasil projek.",
+    "description_english": "This course covers the aspects of planning and executing project. These include title selection, conducting critical review, designing and performing work strategy, collecting and analysing data, documenting and presenting project output.",
+    "department": null,
+    "faculty": "Fakulti Sains Komputer dan Teknologi Maklumat",
+    "source_chunk": "SSW4949 \nProjek Bacelor \nBachelor Project \n6(0+6) \nPrasyarat: Dengan Kebenaran Jabatan \nKursus ini merangkumi aspek perancangan dan pelaksanaan projek. Ini termasuklah pemilihan tajuk, \nmelaksanakan kajian kritis, mereka bentuk dan melaksanakan strategi kerja, mengumpul dan \nmenganalisis data, serta mendokumentasi dan membentangkan hasil projek. \nThis course covers the aspects of planning and executing project. These include title selection, \nconducting critical review, designing and performing "
+  }
+]

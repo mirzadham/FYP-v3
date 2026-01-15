@@ -4,18 +4,17 @@ Handles prerequisite checking, validation, and reset operations.
 """
 
 import re
-import sqlite3
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 
-from ..system.db_utils import get_db_connection, get_prerequisites_for_course
+from ..system.handbook_utils import get_course_by_code, get_prerequisites_for_course
 
 
 class ActionCheckPrerequisites(Action):
     """
-    Check prerequisites for a course from the academic database.
+    Check prerequisites for a course from the handbook data.
     
     Returns:
         - return_value: 'course_found' | 'course_not_found' | 'database_error'
@@ -42,49 +41,34 @@ class ActionCheckPrerequisites(Action):
         course_code = course_code.upper().strip()
         
         try:
-            conn = get_db_connection()
-            cursor = conn.cursor()
-            
-            # First check if course exists
-            cursor.execute("""
-                SELECT course_code, course_name
-                FROM courses
-                WHERE UPPER(course_code) = ?
-            """, (course_code,))
-            
-            course = cursor.fetchone()
+            # Get course from handbook data
+            course = get_course_by_code(course_code)
             
             if not course:
-                conn.close()
                 return [
                     SlotSet("course_code", course_code),
                     SlotSet("return_value", "course_not_found")
                 ]
             
-            code, name = course
+            code = course.get("course_code", course_code)
+            # Prefer English name, fallback to Malay
+            name = course.get("course_name_english") or course.get("course_name_malay") or "Unknown"
             
             # Get prerequisites
-            prereq_list = get_prerequisites_for_course(code, cursor)
-            has_prereqs = prereq_list is not None
-            
-            if not prereq_list:
-                prereq_list = "None"
-            
-            conn.close()
+            prereq_list = get_prerequisites_for_course(code)
+            has_prereqs = len(prereq_list) > 0
+            prereq_str = ", ".join(prereq_list) if prereq_list else "None"
             
             return [
                 SlotSet("course_code", code),
                 SlotSet("course_name", name),
-                SlotSet("prereq_list", prereq_list),
+                SlotSet("prereq_list", prereq_str),
                 SlotSet("has_prerequisites", has_prereqs),
                 SlotSet("return_value", "course_found"),
             ]
                 
-        except sqlite3.Error as e:
-            print(f"Database error in check_prerequisites: {e}")
-            return [SlotSet("return_value", "database_error")]
         except Exception as e:
-            print(f"Unexpected error in check_prerequisites: {e}")
+            print(f"Error in check_prerequisites: {e}")
             return [SlotSet("return_value", "database_error")]
 
 
