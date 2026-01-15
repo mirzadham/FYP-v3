@@ -468,28 +468,32 @@
     "source_chunk": "SHW3002 \nPertanian Ternakan/ \nAnimal Agriculture \n3(2+1) \nPrasyarat : Tiada \nKursus ini merangkumi kepentingan pertanian ternakan kepada tamadun manusia,   di samping \nmemperkenalkan elemen sistem pertanian masa kini dan konsep pertanian lestari. Aspek asas dalam kebajikan \ndan kesihatan haiwan, serta pengenalan kepada amalan pengurusan haiwan yang baik juga akan dibincangkan. \nThis course encompasses the importance of animal agriculture to human civilization, apart from introducing \nstudents to"
   },
   {
-    "course_code": "SHW3002",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW3104",
+    "course_name_malay": "Pengurusan Kesihatan Haiwan",
+    "course_name_english": "Animal Health Management",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SHW3002"
+    ],
     "description_malay": "Kursus ini merangkumi konsep asas kesihatan dan penyebab serta kesan penyakit terhadap haiwanmakanan. Elemen fisiologi, epidemiologi, mikrobiologi, parasitologi, pemakanan dan pengurusan pengeluaran diintegrasikan dalam pendekatan pengurusan kesihatan haiwan. Amalan perladangan baik, penyakit pekerjaan berkaitan industri haiwan, dan prinsip zoonosis turut dibincangkan.",
     "description_english": "This course encompasses basic concepts of health and causes including effects of diseases on food animals. Elements of physiology, epidemiology, microbiology, parasitology, nutrition, and production management are integrated with the approach of animal health management. Good farming practices, occupational diseases related to the animal industry, and principles of zoonosis are discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3002 \nKursus ini merangkumi konsep asas kesihatan dan penyebab serta kesan penyakit terhadap haiwanmakanan. \nElemen fisiologi, epidemiologi, mikrobiologi, parasitologi, pemakanan dan pengurusan pengeluaran \ndiintegrasikan dalam pendekatan pengurusan kesihatan haiwan. Amalan perladangan baik, penyakit pekerjaan \nberkaitan industri haiwan, dan prinsip zoonosis turut dibincangkan. \nThis course encompasses basic concepts of health and causes including effects of diseases on food animals. \nElement"
+    "source_chunk": "SHW3104 \nPengurusan Kesihatan Haiwan/ \nAnimal Health Management \n3 (2+1) \nPrasyarat : SHW3002 \nKursus ini merangkumi konsep asas kesihatan dan penyebab serta kesan penyakit terhadap haiwanmakanan. \nElemen fisiologi, epidemiologi, mikrobiologi, parasitologi, pemakanan dan pengurusan pengeluaran \ndiintegrasikan dalam pendekatan pengurusan kesihatan haiwan. Amalan perladangan baik, penyakit pekerjaan \nberkaitan industri haiwan, dan prinsip zoonosis turut dibincangkan. \nThis course encompasses basic"
   },
   {
-    "course_code": "SHW3200",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW3105",
+    "course_name_malay": "Kelakuan dan Kebajikan Haiwan",
+    "course_name_english": "Animal Behaviour and Welfare",
+    "credits": "3(3+0)",
+    "prerequisites": [
+      "SHW3200"
+    ],
     "description_malay": "Kursus ini meliputi pelbagai aspek kelakuan haiwan, penyebab kelakuan dan implikasinya ke atas pengurusan, produksi, kesihatan dan kebajikan. Penekanan akan diberi ke atas masalah, penilaian dan peningkatan kebajikan haiwan. Pengaruh interaksi manusia-haiwan, domestikasi dan persekitaran fizikal yang disediakan oleh manusia ke atas kelakuan dan kebajikan haiwan dibincangkan.",
     "description_english": "This course covers various aspects of animal behaviour, causes of behaviour and their implications on management, production, health and welfare. Emphasis will be given to the problems, assessment and improvement of animal welfare. The influence of human-animal interaction, domestication and physical environment provided by human beings on behaviour and welfare of animals are discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3200 \nKursus ini meliputi pelbagai aspek kelakuan haiwan, penyebab kelakuan dan implikasinya ke atas pengurusan, \nproduksi, kesihatan dan kebajikan. Penekanan akan diberi ke atas masalah, penilaian dan peningkatan \nkebajikan haiwan. Pengaruh interaksi manusia-haiwan, domestikasi dan persekitaran fizikal yang disediakan \noleh manusia ke atas kelakuan dan kebajikan haiwan dibincangkan. \nThis course covers various aspects of animal behaviour, causes of behaviour and their implications on \nmanage"
+    "source_chunk": "SHW3105 \nKelakuan dan Kebajikan Haiwan/ \nAnimal Behaviour and Welfare \n3(3+0) \nPrasyarat : SHW3200 \nKursus ini meliputi pelbagai aspek kelakuan haiwan, penyebab kelakuan dan implikasinya ke atas pengurusan, \nproduksi, kesihatan dan kebajikan. Penekanan akan diberi ke atas masalah, penilaian dan peningkatan \nkebajikan haiwan. Pengaruh interaksi manusia-haiwan, domestikasi dan persekitaran fizikal yang disediakan \noleh manusia ke atas kelakuan dan kebajikan haiwan dibincangkan. \nThis course covers"
   },
   {
     "course_code": "SHW3106",
@@ -552,16 +556,18 @@
     "source_chunk": "SHW3303 \nGenetik Haiwan/ \nAnimal Genetics \n3 (2+1) \nPrasyarat : Tiada \nKursus ini memperkenalkan prinsip asas genetik haiwan. Pendedahan kepada prinsip Mendel dan perubahan \nyang berkaitan kepada hubungan antara alel dan lokus. Penekanan asas pemindahan gen serta ekspresi trait \nkualitatif. Variasi kromosom, kepelbagaian genetik dan asas molekular serta faktor yang mempengaruhi \nstruktur genetik populasi juga dibincangkan. \nThis course introduces the basic principles of animal genetics, Mendelli"
   },
   {
-    "course_code": "SHW3303",
-    "course_name_malay": "null",
-    "course_name_english": "null",
-    "credits": "null",
-    "prerequisites": [],
+    "course_code": "SHW3304",
+    "course_name_malay": "Pembiakbakaan Ternakan",
+    "course_name_english": "Livestock Breeding",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SHW3303"
+    ],
     "description_malay": "Kursus ini memperkenalkan prinsip asas genetik kuantitatif. Ia menumpukan kepada aplikasi prinsip genetik dalam peningkatan prestasi ternakan. Ia merangkumi kaedah penganggaran dan pemilihan ternakan dalam program pembiakbakaan. Prinsip untuk mengenal pasti ternakan pembiak yang unggul dan meramal respons terhadap pemilihan ditekankan.",
     "description_english": "This course introduces the basic principles of quantitative genetics. It focuses on the application of genetic principles to improve livestock performance. It includes methods of estimation and selection for animal breeding program. Exposure to Principles to identify superior breeding animals and predict the response to selection are emphasised.",
     "department": "Jabatan Sains Haiwan",
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3303 \nKursus ini memperkenalkan prinsip asas genetik kuantitatif. Ia menumpukan kepada aplikasi prinsip genetik \ndalam peningkatan prestasi ternakan. Ia merangkumi kaedah penganggaran dan pemilihan ternakan dalam \nprogram pembiakbakaan. Prinsip untuk mengenal pasti ternakan pembiak yang unggul dan meramal respons \nterhadap pemilihan ditekankan. \nThis course introduces the basic principles of quantitative genetics. It focuses on the application of genetic \nprinciples to improve livestock perfo"
+    "source_chunk": "SHW3304 \nPembiakbakaan Ternakan/ \nLivestock Breeding \n3 (2+1) \nPrasyarat : SHW3303 \nKursus ini memperkenalkan prinsip asas genetik kuantitatif. Ia menumpukan kepada aplikasi prinsip genetik \ndalam peningkatan prestasi ternakan. Ia merangkumi kaedah penganggaran dan pemilihan ternakan dalam \nprogram pembiakbakaan. Prinsip untuk mengenal pasti ternakan pembiak yang unggul dan meramal respons \nterhadap pemilihan ditekankan. \nThis course introduces the basic principles of quantitative genetics. It f"
   },
   {
     "course_code": "SHW3403",
@@ -600,52 +606,60 @@
     "source_chunk": "SHW3407 \nBiokimia Haiwan/ \nAnimal Biochemistry \n3 (2+1) \nPrasyarat : Tiada \nKursus ini memberi pemahaman tentang prinsip biokimia asas dalam organisma hidup khususnya haiwan. Topik \npembelajaran merangkumi peranan, fungsi, laluan metabolik, dan kawalan tindak balas biokimia melibatkan \nbiomolekul seperti karbohidrat, asid amino, protein, lipid dan asid nukleik dalam sistem biologi. Integrasi \nmetabolisme di antara tisu haiwan turut dibincangkan. \nThis course provides an understanding on the prin"
   },
   {
-    "course_code": "SHW3201",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW3501",
+    "course_name_malay": "Sains Haiwan Pedaging",
+    "course_name_english": "Meat Animal Science",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SHW3201"
+    ],
     "description_malay": "Kursus ini meliputi prinsip dan amalan pengurusan pengeluaran haiwan pedaging. Ia merangkumi aplikasi konsep fisiologi, pemakanan, pembiakan, kesihatan gerompok, ekonomi dan pengurusan di bawah sistem penternakan di kawasan tropika yang lembap.",
     "description_english": "This course covers the principles and management practices for meat animal production. It encompasses the application of concepts in physiology, nutrition, breeding, herd health, economics and management for production systems in humid tropics.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3201 \nKursus ini meliputi prinsip dan amalan pengurusan pengeluaran haiwan pedaging. Ia merangkumi aplikasi \nkonsep fisiologi, pemakanan, pembiakan, kesihatan gerompok, ekonomi dan pengurusan di bawah sistem \npenternakan di kawasan tropika yang lembap. \nThis coursecovers the principles and management practices for meat animal production. It encompasses the \napplication of concepts in physiology, nutrition, breeding, herd health, economics and management for \nproduction systems in humid tropic"
+    "source_chunk": "SHW3501 \nSains Haiwan Pedaging/ \nMeat Animal Science \n3 (2+1) \nPrasyarat : SHW3201 \nKursus ini meliputi prinsip dan amalan pengurusan pengeluaran haiwan pedaging. Ia merangkumi aplikasi \nkonsep fisiologi, pemakanan, pembiakan, kesihatan gerompok, ekonomi dan pengurusan di bawah sistem \npenternakan di kawasan tropika yang lembap. \nThis coursecovers the principles and management practices for meat animal production. It encompasses the \napplication of concepts in physiology, nutrition, breeding, he"
   },
   {
-    "course_code": "SHW3201",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW3502",
+    "course_name_malay": "Sains Tenusu",
+    "course_name_english": "Dairy Science",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SHW3201"
+    ],
     "description_malay": "Kursus ini meliputi pengurusan ternakan tenusu dari lahir hingga dewasa. Penekanan ke atas pengurusan reproduksi, pemakanan dan pemberian makanan, masalah penyakit metabolisme, pengurusan sistem pemerahan susu, pengendalian susu di ladang dan perkembangan industri tenusu.",
     "description_english": "This course covers management of dairy animals from birth until adulthood. Emphasis is given on reproductive management, feed and feeding, problems of metabolic diseases, management of milking systems, handling of milk on the farm and development of the dairy industry.",
     "department": "Jabatan Sains Haiwan",
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3201 \nKursus ini meliputi pengurusan ternakan tenusu dari lahir hingga dewasa. Penekanan ke atas pengurusan \nreproduksi, pemakanan dan pemberian makanan, masalah penyakit metabolisme, pengurusan sistem \npemerahan susu, pengendalian susu di ladang dan perkembangan industri tenusu. \nThis course covers managementofdairy animals from birth until adulthood. Emphasis isgivenonreproductive \nmanagement, feedandfeeding, problemsofmetabolic diseases, managementofmilking systems, handling of \nmilk on th"
+    "source_chunk": "SHW3502 \nSains Tenusu/ \nDairy Science \n3 (2+1) \nPrasyarat : SHW3201 \nKursus ini meliputi pengurusan ternakan tenusu dari lahir hingga dewasa. Penekanan ke atas pengurusan \nreproduksi, pemakanan dan pemberian makanan, masalah penyakit metabolisme, pengurusan sistem \npemerahan susu, pengendalian susu di ladang dan perkembangan industri tenusu. \nThis course covers managementofdairy animals from birth until adulthood. Emphasis isgivenonreproductive \nmanagement, feedandfeeding, problemsofmetabolic di"
   },
   {
-    "course_code": "SHW3403",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW3510",
+    "course_name_malay": "Sains Poltri",
+    "course_name_english": "Poultry Science",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SHW3403"
+    ],
     "description_malay": "Kursus ini meliputi prinsip produksi daging dan telur poltri komersil. Ia menekankan aspek fisiologi reproduksi dan persekitaran, genetik dan pembiakbakaan, pemakanan, pengurusan am, pemprosesan produk, pengurusan sisa dan kebajikan poltri. Isu di dalam produksi poltri di iklim panas humid tropika turut dibincangkan.",
     "description_english": "This course covers principles of commercial poultry meat and egg production. It emphasizes aspects of reproductive and environmental physiology, genetics and breeding, nutrition, general management, product processing, waste management and welfare of poultry. Issues in poultry production in hot humid tropical climate are also discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3403 \nKursus ini meliputi prinsip produksi daging dan telur poltri komersil. Ia menekankan aspek fisiologi reproduksi \ndan persekitaran, genetik dan pembiakbakaan, pemakanan, pengurusan am, pemprosesan produk, \npengurusan sisa dan kebajikan poltri. Isu di dalam produksi poltri di iklim panas humid tropika turut \ndibincangkan. \nThis course covers principles of commercial poultry meat and egg production. It emphasizes aspects of \nreproductive and environmental physiology, genetics and breeding,"
+    "source_chunk": "SHW3510 \nSains Poltri/ \nPoultry Science \n3 (2+1) \nPrasyarat : SHW3403 \nKursus ini meliputi prinsip produksi daging dan telur poltri komersil. Ia menekankan aspek fisiologi reproduksi \ndan persekitaran, genetik dan pembiakbakaan, pemakanan, pengurusan am, pemprosesan produk, \npengurusan sisa dan kebajikan poltri. Isu di dalam produksi poltri di iklim panas humid tropika turut \ndibincangkan. \nThis course covers principles of commercial poultry meat and egg production. It emphasizes aspects of \nrep"
   },
   {
-    "course_code": "SHW3403",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW3514",
+    "course_name_malay": "Sains Babi",
+    "course_name_english": "Swine Science",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SHW3403"
+    ],
     "description_malay": "Kursus ini meliputi aspek utama pengeluaran babi secara moden. Ianya merangkumi sistem pengeluaran, pengurusan dan amalan umum ladang, pemakanan dan sistem pembiakbakaan. Isu dalam penternakan babi turut dibincangkan.",
     "description_english": "This course covers the main aspects of modern pig production. It encompasses the production systems, general farm management and practices, nutrition, and breeding systems. Issues on pig farming are discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3403 \nKursus ini meliputi aspek utama pengeluaran babi secara moden. Ianya merangkumi sistem pengeluaran, \npengurusan dan amalan umum ladang, pemakanan dan sistem pembiakbakaan. Isu dalam penternakan babi \nturut dibincangkan. \nThis coursecoversthe mainaspectsof modernpig production. It encompasses theproduction systems, general \nfarm management and practices, nutrition, and breeding systems. Issues on pig farming are discussed."
+    "source_chunk": "SHW3514 \nSains Babi/ \nSwine Science \n3 (2+1) \nPrasyarat : SHW3403 \nKursus ini meliputi aspek utama pengeluaran babi secara moden. Ianya merangkumi sistem pengeluaran, \npengurusan dan amalan umum ladang, pemakanan dan sistem pembiakbakaan. Isu dalam penternakan babi \nturut dibincangkan. \nThis coursecoversthe mainaspectsof modernpig production. It encompasses theproduction systems, general \nfarm management and practices, nutrition, and breeding systems. Issues on pig farming are discussed."
   },
   {
     "course_code": "SHW3602",
@@ -712,84 +726,84 @@
     "course_name_malay": "Genetik dan Pembiakbakaan Ternakan Gunaan",
     "course_name_english": "Applied Livestock Genetics and Breeding",
     "credits": "3 (2+1)",
-    "prerequisites": [],
-    "description_malay": null,
-    "description_english": null,
-    "department": null,
-    "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW4300 \nGenetik dan Pembiakbakaan Ternakan Gunaan/ \nApplied Livestock Genetics and Breeding \n3 (2+1) \nPrasyarat :"
-  },
-  {
-    "course_code": "SHW3303",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "prerequisites": [
+      "SHW3303"
+    ],
     "description_malay": "Kursus ini meliputi prinsip asas genomik haiwan dan pembiakbakaan ternakan. Kursus ini menekankan aplikasi praktik prinsip-prinsip tersebut dalam analisis genetik populasi dan produksi ternakan. Ianya meliputi kaedah analisis menggunakan teknologi genetik molecular dan teknik pengiraan.",
     "description_english": "This course covers the basic principles of animal genomics and animal breeding. The course emphasises on the practical application of these principles in population genetic analysis and livestock production. It includes analytical method with the application of molecular genetics data and calculation methods.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3303 \nKursus ini meliputi prinsip asas genomik haiwan dan pembiakbakaan ternakan. Kursus ini menekankan aplikasi \npraktik prinsip-prinsip tersebut dalam analisi genetik populasi dan produksi ternakan. Ianya meliputi kaedah \nanalisis menggunakan teknologi genetik molecular dan teknik pengiraan. \nThis course covers the basic principles of animal genomics and animal breeding. The course emphasises on \nthe practical application of these principles inpopulation genetic analysis and livestock produ"
+    "source_chunk": "SHW4300 \nGenetik dan Pembiakbakaan Ternakan Gunaan/ \nApplied Livestock Genetics and Breeding \n3 (2+1) \nPrasyarat : SHW3303 \nKursus ini meliputi prinsip asas genomik haiwan dan pembiakbakaan ternakan. Kursus ini menekankan aplikasi \npraktik prinsip-prinsip tersebut dalam analisi genetik populasi dan produksi ternakan. Ianya meliputi kaedah \nanalisis menggunakan teknologi genetik molecular dan teknik pengiraan. \nThis course covers the basic principles of animal genomics and animal breeding. The co"
   },
   {
-    "course_code": "SHW3303",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW4301",
+    "course_name_malay": "Sitogenetik Haiwan",
+    "course_name_english": "Animal Cytogenetics",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SHW3303"
+    ],
     "description_malay": "Kursus ini memberi penekanan ke atas morfologi kromosom, proses mitosis dan meiosis, kromosom jantina, penentuan jantina, dan perubahan struktur struktur dan bilangan kromosom. Kepentingan, kegunaan dan implikasi sitogenetik dalam bidang produksi dan pembiakan ternakan dibincangkan.",
     "description_english": "This course emphasises on chromosome morphology, mitotic and meiotic processes, sex chromosome, sex determination, and structural and numerical chromosomal aberrations. The importance, use and implication of cytogenetics in animal production and breeding are discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3303 \nKursus ini memberi penekanan ke atas morfologi kromosom, proses mitosis dan meiosis, kromosom jantina, \npenentuan jantina, dan perubahan struktur struktur dan bilangan kromosom. Kepentingan, kegunaan dan \nimplikasi sitogenetik dalam bidang produksi dan pembiakan ternakan dibincangkan. \nThis course emphasises on chromosome morphology, mitotic and meiotic processes, sex chromosome, sex \ndetermination, andstructural and numericalchromosomal aberrations. The importance, use andimplicationof"
+    "source_chunk": "SHW4301 \nSitogenetik Haiwan/ \nAnimal Cytogenetics \n3 (2+1) \nPrasyarat : SHW3303 \nKursus ini memberi penekanan ke atas morfologi kromosom, proses mitosis dan meiosis, kromosom jantina, \npenentuan jantina, dan perubahan struktur struktur dan bilangan kromosom. Kepentingan, kegunaan dan \nimplikasi sitogenetik dalam bidang produksi dan pembiakan ternakan dibincangkan. \nThis course emphasises on chromosome morphology, mitotic and meiotic processes, sex chromosome, sex \ndetermination, andstructural an"
   },
   {
-    "course_code": "SHW3403",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW4401",
+    "course_name_malay": "Teknologi Pemprosesan Makanan Haiwan",
+    "course_name_english": "Feed Processing Technology",
+    "credits": "3 (3+0)",
+    "prerequisites": [
+      "SHW3403"
+    ],
     "description_malay": "Kursus ini meliputi kaedah pemprosesan bahan makanan untuk meningkatkan nilai pemakanan melalui proses fizikal, kimia dan biologi. Teknik pemprosesan dan kesannya terhadap nilai pemakanan dibincangkan. Ianya juga meliputi aspek nutraseutikal.",
     "description_english": "This course covers methods of feed processing to enhance its nutritive value through physical, chemical, and biological processes. Processing techniques and its effects on the nutritive value are discussed. It also includes the nutraceutical aspect.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3403 \nKursus ini meliputi kaedah pemprosesan bahan makanan untuk meningkatkan nilai pemakanan melalui proses \nfizikal, kimia dan biologi. Teknik pemprosesan dan kesannya terhadap nilai pemakanan dibincangkan. Ianya \njuga meliputi aspek nutraseutikal. \nThis coursecovers methods of feed processing to enhance its nutritive value throughphysical, chemical, and \nbiological processes. Processing techniques and its effects on the nutritive value are discussed. It also \nincludes the nutraceutical asp"
+    "source_chunk": "SHW4401 \nTeknologi Pemprosesan Makanan Haiwan/ \nFeed Processing Technology \n3 (3+0) \nPrasyarat : SHW3403 \nKursus ini meliputi kaedah pemprosesan bahan makanan untuk meningkatkan nilai pemakanan melalui proses \nfizikal, kimia dan biologi. Teknik pemprosesan dan kesannya terhadap nilai pemakanan dibincangkan. Ianya \njuga meliputi aspek nutraseutikal. \nThis coursecovers methods of feed processing to enhance its nutritive value throughphysical, chemical, and \nbiological processes. Processing techniq"
   },
   {
-    "course_code": "SHW3403",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW4402",
+    "course_name_malay": "Bioteknologi Dalam Makanan Haiwan",
+    "course_name_english": "Biotechnology in Animal Feed",
+    "credits": "3 (3+0)",
+    "prerequisites": [
+      "SHW3403"
+    ],
     "description_malay": "Kursus ini meliputi aplikasi bioteknologi dalam makanan dan pemberian makanan haiwan. Penggunaan aditif makanan haiwan, tanaman transgenik, protein dan asid amino, enzim, antibakteria, prebiotik dan probiotik, dan pengawalan pencemaran melalui penggunaan aditif makanan diberi penekanan.",
     "description_english": "This course covers the application of biotechnology in animal feeds and feeding. The use of feed additives, transgenic plants, proteins and amino acids, enzymes, antibacterials, prebiotics and probiotics, and control of pollution through the use of feed additives are emphasised.",
-    "department": "Department of Animal Science",
+    "department": "Jabatan Sains Haiwan",
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3403 \nKursus ini meliputi aplikasi bioteknologi dalam makanan dan pemberian makanan haiwan. Penggunaan aditif \nmakanan haiwan, tanaman transgenik, protein dan asid amino, enzim, antibakteria, prebiotik dan probiotik, \ndan pengawalan pencemaran melalui penggunaan aditif makanan diberi penekanan. \n\n--- Page 14 ---\nJabatan Sains Haiwan \nDepartment of Animal Science \n108 \n \n \n \n \nThis course covers the application of biotechnology in animal feeds and feeding. The use of feed additives, \ntransgeni"
+    "source_chunk": "SHW4402 \nBioteknologi Dalam Makanan Haiwan/ \nBiotechnology in Animal Feed \n3 (3+0) \nPrasyarat : SHW3403 \nKursus ini meliputi aplikasi bioteknologi dalam makanan dan pemberian makanan haiwan. Penggunaan aditif \nmakanan haiwan, tanaman transgenik, protein dan asid amino, enzim, antibakteria, prebiotik dan probiotik, \ndan pengawalan pencemaran melalui penggunaan aditif makanan diberi penekanan. \n\n--- Page 14 ---\nJabatan Sains Haiwan \nDepartment of Animal Science \n108 \n \n \n \n \nThis course covers the"
   },
   {
-    "course_code": "SHW3403",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW4403",
+    "course_name_malay": "Makanan dan Pemberian Makanan",
+    "course_name_english": "Feeds and Feeding",
+    "credits": "3 (3+0)",
+    "prerequisites": [
+      "SHW3403"
+    ],
     "description_malay": "Kursus ini merangkumi pengkelasan, kualiti, pemprosesan dan penilaian pemakanan bahan makanan, keperluan nutrien untuk saraan dan pengeluaran, dan kaedah perumusan makanan haiwan.",
     "description_english": "This course incorporates classification, quality, processing and nutritive evaluation of feedstuff, nutrient requirement for maintenance and production, and ration formulation for animals.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3403 \nKursus ini merangkumi pengkelasan, kualiti, pemprosesan dan penilaian pemakanan bahan makanan, \nkeperluan nutrien untuk saraan dan pengeluaran, dan kaedah perumusan makanan haiwan. \nThis course incorporates classification, quality, processing and nutritive evaluation of feedstuff, nutrient \nrequirement for maintenance and production, and ration formulation for animals."
+    "source_chunk": "SHW4403 \nMakanan dan Pemberian Makanan/ \nFeeds and Feeding \n3 (3+0) \nPrasyarat : SHW3403 \nKursus ini merangkumi pengkelasan, kualiti, pemprosesan dan penilaian pemakanan bahan makanan, \nkeperluan nutrien untuk saraan dan pengeluaran, dan kaedah perumusan makanan haiwan. \nThis course incorporates classification, quality, processing and nutritive evaluation of feedstuff, nutrient \nrequirement for maintenance and production, and ration formulation for animals."
   },
   {
-    "course_code": "SHW3403",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW4404",
+    "course_name_malay": "Pemakanan Haiwan Gunaan",
+    "course_name_english": "Applied Animal Nutrition",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SHW3403"
+    ],
     "description_malay": "Kursus ini meliputi aplikasi lanjutan pemakanan haiwan di dalam produksi ruminan dan bukan ruminan. Penekanan diberi kepada kaedah kajian pemakanan haiwan dan perumusan rangsum yang memenuhi keperluan nutrien haiwan. Konsep pemakanan haiwan persis turut dibincangkan.",
     "description_english": "This course covers the advanced application of nutrition in ruminant and non-ruminant production. Emphasis is given on the methods of animal nutrition research and ration formulation that meets the nutritional requirement of animals. The concept of precision animal nutrition is discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3403 \nKursus ini meliputi aplikasi lanjutan pemakanan haiwan di dalam produksi ruminan dan bukan ruminan. \nPenekanan diberi kepada kaedah kajian pemakanan haiwan dan perumusan rangsum yang memenuhi \nkeperluan nutrien haiwan. Konsep pemakanan haiwan persis turut dibincangkan. \nThis course covers the advanced application of nutrition in ruminant and non-ruminant production. Emphasis \nis given on the methods of animal nutrition research and ration formulation that meets the nutritional \nrequirem"
+    "source_chunk": "SHW4404 \nPemakanan Haiwan Gunaan/ \nApplied Animal Nutrition \n3 (2+1) \nPrasyarat : SHW3403 \nKursus ini meliputi aplikasi lanjutan pemakanan haiwan di dalam produksi ruminan dan bukan ruminan. \nPenekanan diberi kepada kaedah kajian pemakanan haiwan dan perumusan rangsum yang memenuhi \nkeperluan nutrien haiwan. Konsep pemakanan haiwan persis turut dibincangkan. \nThis course covers the advanced application of nutrition in ruminant and non-ruminant production. Emphasis \nis given on the methods of ani"
   },
   {
     "course_code": "SHW4500",
@@ -816,16 +830,18 @@
     "source_chunk": "SHW4501 \nProduksi Ruminan Kecil/ \nSmall Ruminant Production \n3 (2+1) \nPrasyarat : Tiada \nKursus ini merangkumi sistem peternakan kambing dan biri-biri termasuk aspek pengurusan, pemakanan, \npembiakan, kawalan penyakit dan pemprosesan hasil. \nThiscourseencompassesfarming systemsofgoatsand sheepwhichincludeaspectsofmanagement,nutrition, \nbreeding, disease control, and processing of products."
   },
   {
-    "course_code": "SHW3502",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW4502",
+    "course_name_malay": "Produksi Tenusu",
+    "course_name_english": "Dairy Production",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SHW3502"
+    ],
     "description_malay": "Kursus ini merangkumi pengurusan lanjutan lembu tenusu, teknologi pemerahan susu, penjagaan piawaian kualiti susu. Perbincangan masalah yang sering dihadapi oleh pengusaha turut ditekankan.",
     "description_english": "This course encompasses advanced dairy cow management, milking technology, maintaining milk quality standard. Discussion on problems commonly faced by entrepreneurs are also emphasised.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3502 \nKursus ini merangkumi pengurusan lanjutan lembu tenusu, teknologi pemerahan susu, penjagaan piawaian \nkualiti susu. Perbincangan masalah yang sering dihadapi oleh pengusaha turut ditekankan. \nThis course encompasses advanced dairy cow management, milking technology, maintaining milk quality \nstandard. Discussion on problems commonly faced by entrepreneurs are also emphasised."
+    "source_chunk": "SHW4502 \nProduksi Tenusu/ \nDairy Production \n3 (2+1) \nPrasyarat : SHW3502 \nKursus ini merangkumi pengurusan lanjutan lembu tenusu, teknologi pemerahan susu, penjagaan piawaian \nkualiti susu. Perbincangan masalah yang sering dihadapi oleh pengusaha turut ditekankan. \nThis course encompasses advanced dairy cow management, milking technology, maintaining milk quality \nstandard. Discussion on problems commonly faced by entrepreneurs are also emphasised."
   },
   {
     "course_code": "SHW4503",
@@ -864,40 +880,46 @@
     "source_chunk": "SHW4505 \nLogistik Dan Rantaian Bekalan Produk Ternakan / \nLogistics and Supply Chain of Livestock Products \n3(2+1) \nPrasyarat : Tiada \nKursus ini memberi penekanan terhadap prosedur logistik dan rantaian bekalan produk ternakan (daging, susu, \ntelur) dari ladang, semasa pengangkutan dan pengedaran, dan/atau di pasaran bagi tujuan mengekalkan \nkualiti. Teknik asas penilaian pengurusan yang merangkumi pengendalian pasca tuai, pemprosesan, \npembungkusan, penyimpanan, logistik dan pengangkutan akan "
   },
   {
-    "course_code": "SHW3514",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW4511",
+    "course_name_malay": "Sains Babi Lanjutan",
+    "course_name_english": "Advanced Swine Science",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SHW3514"
+    ],
     "description_malay": "Kursus ini meliputi aspek lanjutan dalam produksi babi termasuk reproduksi dan pengurusan dalam penyapihan awal. Kaedah penggunaan dan manipulasi, dan aplikasi bioteknologi ditekankan untuk meningkatkan produktiviti babi turut dibincangkan.",
     "description_english": "This course covers advanced aspects in pig production including reproduction, management in early weaning. Methods of feed utilization and manipulation, and application of biotechnology to enhance productivity of pigs are also discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3514 \nKursus ini meliputi aspek lanjutan dalam produksi babi termasuk reproduksi dan pengurusan dalam penyapihan \nawal. Kaedah penggunaan dan manipulasi, dan aplikasi bioteknologi ditekankan untuk meningkatkan \nproduktiviti babi turut dibincangkan. \nThis course covers advanced aspects in pig production including reproduction, managementin early weaning. \nMethods of feed utilization and manipulation, and application of biotechnology to enhance productivity of pigs \nare also discussed."
+    "source_chunk": "SHW4511 \nSains Babi Lanjutan/ \nAdvanced Swine Science \n3 (2+1) \nPrasyarat : SHW3514 \nKursus ini meliputi aspek lanjutan dalam produksi babi termasuk reproduksi dan pengurusan dalam penyapihan \nawal. Kaedah penggunaan dan manipulasi, dan aplikasi bioteknologi ditekankan untuk meningkatkan \nproduktiviti babi turut dibincangkan. \nThis course covers advanced aspects in pig production including reproduction, managementin early weaning. \nMethods of feed utilization and manipulation, and application of"
   },
   {
-    "course_code": "SHW3510",
-    "course_name_malay": "null",
-    "course_name_english": "null",
-    "credits": "null",
-    "prerequisites": [],
+    "course_code": "SHW4512",
+    "course_name_malay": "Produksi Ayam Penelur",
+    "course_name_english": "Layer Production",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SHW3510"
+    ],
     "description_malay": "Kursus ini meliputi pengurusan di ladang ayam penelur. Aspek penting sains poltri dan aplikasi praktikal untuk kejayaan pengurusan operasi diintegrasikan dalam produksi ayam penelur. Penekanan diberi ke atas status industri, baka, susun atur ladang, sistem pemeliharaan, dan kawalan penyakit ayam penelur. Kualiti, kaedah pemprosesan, dan pengurusan sisa telur dibincangkan.",
     "description_english": "This course covers the management of layer farms. Important aspects of poultry science and their practical application to successfully manage layer operations are integrated into the layer production. This course emphasises the industry status, breed, farm layout, management system, and disease control in layers. Quality, processing methods, and waste management of eggs are discussed.",
     "department": "Jabatan Sains Haiwan",
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3510 \nKursus ini meliputi pengurusan di ladang ayam penelur. Aspek penting sains poltri dan aplikasi praktikal untuk \nkejayaan pengurusan operasi diintegrasikan dalam produksi ayam penelur. Penekanan diberi ke atas status \nindustri, baka, susun atur ladang, sistem pemeliharaan, dan kawalan penyakit ayam penelur. Kualiti, kaedah \npemprosesan, dan pengurusan sisa telur dibincangkan. \nThis course covers the management of layer farms. Important aspects of poultry science and their practical \nappl"
+    "source_chunk": "SHW4512 \nProduksi Ayam Penelur/ \nLayer Production \n3 (2+1) \nPrasyarat : SHW3510 \nKursus ini meliputi pengurusan di ladang ayam penelur. Aspek penting sains poltri dan aplikasi praktikal untuk \nkejayaan pengurusan operasi diintegrasikan dalam produksi ayam penelur. Penekanan diberi ke atas status \nindustri, baka, susun atur ladang, sistem pemeliharaan, dan kawalan penyakit ayam penelur. Kualiti, kaedah \npemprosesan, dan pengurusan sisa telur dibincangkan. \nThis course covers the management of lay"
   },
   {
-    "course_code": "SHW3510",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW4513",
+    "course_name_malay": "Produksi Ayam Pedaging",
+    "course_name_english": "Broiler Production",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SHW3510"
+    ],
     "description_malay": "Kursus ini meliputi pengurusan dan penternakan ayam pedaging. Aspek penting sains poltri dan aplikasi praktikal untuk kejayaan pengurusan operasi diintegrasikan dalam produksi ayam pedaging. Penekanan diberi ke atas status industri, konsep pengeluaran bersepadu, baka, susun atur ladang, sistem pemeliharaan, kawalan penyakit, dan penuaian ayam pedaging. Pengeluaran, kaedah pemprosesan, dan kualiti daging ayam dibincangkan.",
     "description_english": "This course covers the management and husbandry of broiler chicken. Important aspects of poultry science and their practical application to successfully manage broiler operations are integrated into the broiler production. This course emphasises the industry status, the concept of integration, breed, farm layout, management system, disease control, and harvesting of broilers. Production, processing methods, and quality of broiler meat are discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3510 \nKursus ini meliputi pengurusan dan penternakan ayam pedaging. Aspek penting sains poltri dan aplikasi \npraktikal untuk kejayaan pengurusan operasi diintegrasikan dalam produksi ayam pedaging. Penekanan diberi \nke atas status industri, konsep pengeluaran bersepadu, baka, susun atur ladang, sistem pemeliharaan, kawalan \npenyakit, dan penuaian ayam pedaging. Pengeluaran, kaedah pemprosesan, dan kualiti daging ayam \ndibincangkan. \nThis course covers the management and husbandry of broiler c"
+    "source_chunk": "SHW4513 \nProduksi Ayam Pedaging/ \nBroiler Production \n3 (2+1) \nPrasyarat : SHW3510 \nKursus ini meliputi pengurusan dan penternakan ayam pedaging. Aspek penting sains poltri dan aplikasi \npraktikal untuk kejayaan pengurusan operasi diintegrasikan dalam produksi ayam pedaging. Penekanan diberi \nke atas status industri, konsep pengeluaran bersepadu, baka, susun atur ladang, sistem pemeliharaan, kawalan \npenyakit, dan penuaian ayam pedaging. Pengeluaran, kaedah pemprosesan, dan kualiti daging ayam \n"
   },
   {
     "course_code": "SHW4514",
@@ -936,16 +958,18 @@
     "source_chunk": "SHW4540 \nPengurusan Ekuin/ \nEquine Management \n3 (2+1) \nPrasyarat : Tiada \nKursus ini meliputi aspek asas dalam penjagaan dan pengurusan ekuin. Ini termasuk makanan dan amalan \npemberian pemakanan, penjagaan telapuk, kesihatan umum dan kelakuan kuda di stabel. \nThis course encompasses basic aspects in equine care and management. This includes feeds and feeding \npractices, hoof care, general health, and behaviour of horses in stable. \n\n--- Page 17 ---\nJabatan Sains Haiwan \nDepartment of Animal Sc"
   },
   {
-    "course_code": "SHW3602",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SHW4600",
+    "course_name_malay": "Metodologi Penyelidikan",
+    "course_name_english": "Research Methodology",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SHW3602"
+    ],
     "description_malay": "Kursus ini merangkumi konsep dan teknik asas dalam pengendalian penyelidikan, analisis dan pentafsiran data. Ini termasuk perancangan kajian saintifik, pemilihan kaedah, menganalisis data dan menafsirkan keputusan yang diperolehi serta mempersembahkan hasil kajian.",
     "description_english": "This course covers basic concepts and techniques in conducting research, methodology selection, data analysis and interpretation. It includes planning a scientific research, analysis and interpretation of the results generated and presentation of the findings.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SHW3602 \nKursus ini merangkumi konsep dan teknik asas dalam pengendalian penyelidikan, analisis dan pentafsiran data. \nIni termasuk perancangan kajian saintifik, pemilihan kaedah, menganalisis data dan menafsirkan keputusan \nyang diperolehi serta mempersembahkan hasil kajian. \nThiscoursecoversbasic conceptsandtechniquesinconducting research,methodologyselection,data analysis \nand interpretation. It includes planning a scientific research, analysis and interpretation of the results \ngenerated and"
+    "source_chunk": "SHW4600 \nMetodologi Penyelidikan/ \nResearch Methodology \n3 (2+1) \nPrasyarat : SHW3602 \nKursus ini merangkumi konsep dan teknik asas dalam pengendalian penyelidikan, analisis dan pentafsiran data. \nIni termasuk perancangan kajian saintifik, pemilihan kaedah, menganalisis data dan menafsirkan keputusan \nyang diperolehi serta mempersembahkan hasil kajian. \nThiscoursecoversbasic conceptsandtechniquesinconducting research,methodologyselection,data analysis \nand interpretation. It includes planning a "
   },
   {
     "course_code": "SHW4703",
@@ -991,7 +1015,7 @@
     "prerequisites": [],
     "description_malay": "Kursus ini melibatkan penempatan pelajar selama 24 minggu di sektor industri ruminan dan bukan ruminan. Pelajar memperolehi pengalaman mengurus serta berupaya melapor keberkesanan amalan kerja.",
     "description_english": "This course involves student’s attachment for 24 weeks at ruminant and non-ruminant industrial sectors. Students can obtain management experience and to report the effectiveness of work practices.",
-    "department": "Jabatan Sains Tanaman",
+    "department": "Department of Crop Science",
     "faculty": "Fakulti Pertanian",
     "source_chunk": "SHW4901 \nLatihan Industri / \nIndustrial Training \n12 (0+12) \nPrasyarat : Tiada \nKursus ini melibatkan penempatan pelajar selama 24 minggu di sektor industri ruminan dan bukan ruminan. \nPelajar memperolehi pengalaman mengurus serta berupaya melapor keberkesanan amalan kerja. \nThis course involves student’s attachment for 24 weeks at ruminant and non-ruminant industrial sectors. \nStudents can obtain management experience and to report the effectiveness of work practices. \n\n--- Page 18 ---\n112 \n \n "
   },
@@ -1014,7 +1038,7 @@
     "credits": "3 (2+1)",
     "prerequisites": [],
     "description_malay": "Kursus ini meliputi prinsip pengeluaran, pengurusan dan ekonomi komoditi perladangan utama negara. Sistem pengurusan tanaman perladangan menggunakan teknologi terkini dan secara lestari turut dibincangkan.",
-    "description_english": "This course encompasses principles of production, management and economics of nation’s main plantation comodities. Plantation crop management systems using the latest and sustainable technologies are also discussed",
+    "description_english": "This course encompasses principles of production, management and economics of nation’s main plantation comodities. Plantation crop management systems using the latest and sustainable technologies are also discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
     "source_chunk": "AGR3508 \nTanaman Perladangan Utama/  \nMain Plantation Crops \n3 (2+1) \nPrasyarat : Tiada \nKursus ini meliputi prinsip pengeluaran, pengurusan dan ekonomi komoditi perladangan utama \nnegara. Sistem pengurusan tanaman perladangan menggunakan teknologi terkini dan secara lestari \nturut dibincangkan.  \nThis course encompasses principles of production, management and economics of nation’s main \nplantation comodities. Plantation crop management systems using the latest and sustainable \ntechnologies are"
@@ -1164,28 +1188,32 @@
     "source_chunk": "AGR4301 \nFisiologi Tanaman Lanjutan/  \nAdvanced Crop Physiology \n \n3(2+1) \nPrasyarat : Tiada \nKursus ini meliputi kesan tegasan persekitaran terhadap proses  fisiologi, respirasi dan translokasi. \nMetabolisma pemakanan tanaman  meliputi penyerapan dan pengangkutan serta fisiologi tanaman \nkomoditi terpilih  dibincangkan. \n\n--- Page 21 ---\n115 \n \n \nThis course covers effects of environmental stresses on photosynthesis respiration and translocation. \nMineral nutrition metabolism including absorpti"
   },
   {
-    "course_code": "AGR3102",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "AGR4302",
+    "course_name_malay": "Sains Racun Herba",
+    "course_name_english": "Herbicide Science",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "AGR3102"
+    ],
     "description_malay": "Kursus ini merangkumi ciri fiziko-kimia, degradasi dan kesan sisa racun herba dan tindak balas tumbuhan terhadap racun herba. Faktor yang mempengaruhi keberkesanan racun herba juga dibincangkan.",
     "description_english": "This course covers physico-chemical characteristics, degradation and residual effects of herbicide and plant response to herbicide. Factors affecting efficacy of herbicide are discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "AGR3102 \nKursus ini merangkumi ciri fiziko-kimia, degradasi dan kesan sisa racun herba dan tindak balas \ntumbuhan terhadap racun herba. Faktor yang mempengaruhi keberkesanan racun herba juga \ndibincangkan. \nThis course covers physico-chemical characteristics, degradation and residual effects of herbicide and \nplant response to herbicide. Factors affecting efficacy of herbicide are discussed."
+    "source_chunk": "AGR4302 \nSains Racun Herba /  \nHerbicide Science \n3(2+1) \nPrasyarat : AGR3102 \nKursus ini merangkumi ciri fiziko-kimia, degradasi dan kesan sisa racun herba dan tindak balas \ntumbuhan terhadap racun herba. Faktor yang mempengaruhi keberkesanan racun herba juga \ndibincangkan. \nThis course covers physico-chemical characteristics, degradation and residual effects of herbicide and \nplant response to herbicide. Factors affecting efficacy of herbicide are discussed."
   },
   {
-    "course_code": "AGR3102",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "AGR4303",
+    "course_name_malay": "Pemakanan Tanaman",
+    "course_name_english": "Crop Nutrition",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "AGR3102"
+    ],
     "description_malay": "Kursus ini merangkumi peranan dan fungsi elemen nutrien utama, penyerapan, metabolisma, interaksi antara nutrien dan keupayaan media untuk membekal nutrien. Kesan kekurangan dan keterlebihan nutrient kepada tumbesaran, penghasilan tanaman dan alam sekitar dibincangkan.",
     "description_english": "This course encompasses the role and function of major nutrient elements, absorption, metabolism, interactions amongst nutrients and the capacity of media to supply nutrients. Effects of nutrient deficiency and excess on growth, yield and the environment are discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "AGR3102 \nKursus ini merangkumi peranan dan fungsi elemen nutrien utama, penyerapan, metabolisma, \ninteraksi antara nutrien dan keupayaan media untuk membekal nutrien. Kesan kekurangan dan \nketerlebihan nutrient kepada tumbesaran, penghasilan tanaman dan alam sekitar dibincangkan. \nThis course encompasses the role and function of major nutrient elements, absorption, metabolism, \ninteractions amongst nutrients and the capacity of media to supply nutrients. Effects of nutrient \ndeficiency and exces"
+    "source_chunk": "AGR4303 \nPemakanan Tanaman /  \nCrop Nutrition   \n3(2+1) \nPrasyarat : AGR3102 \nKursus ini merangkumi peranan dan fungsi elemen nutrien utama, penyerapan, metabolisma, \ninteraksi antara nutrien dan keupayaan media untuk membekal nutrien. Kesan kekurangan dan \nketerlebihan nutrient kepada tumbesaran, penghasilan tanaman dan alam sekitar dibincangkan. \nThis course encompasses the role and function of major nutrient elements, absorption, metabolism, \ninteractions amongst nutrients and the capacity of"
   },
   {
     "course_code": "AGR4501",
@@ -1284,16 +1312,19 @@
     "source_chunk": "AGR4801 \nPertanian Lestari/  \nSustainable Agriculture \n2(2+0) \nPrasyarat : Tiada \nKursus ini merangkumi pendekatan secara holistik untuk membangunkan projek pertanian secara \nlestari berdasarkan faktor fungsian agro-ekosistem. Kaedah penilaian kelestarian sesuatu sistem \npembangunan pertanian dibincangkan. \nThis course covers holistic approaches to develop a sustainable agricultural project based on the \nfunctional factors of agro-ecosystem. Methods to evaluate the sustainability of agricultural"
   },
   {
-    "course_code": "HRT3002",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "AGR4802",
+    "course_name_malay": "Teknologi Biji Benih",
+    "course_name_english": "Seed Technology",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "AGR3301",
+      "HRT3002"
+    ],
     "description_malay": "Kursus ini merangkumi aspek pembentukan, pemprosesan dan kualiti biji benih. Faktor yang mempengaruhi kualiti biji benih dan persekitaran penyimpanan bagi pengeluaran biji benih komersil dibincangkan.",
     "description_english": "This course encompasses the aspect of seed formation, processing and quality of seeds. Factors influencing seed quality and storage environment for commercial seed production are discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "HRT3002 \nKursus ini merangkumi aspek pembentukan, pemprosesan dan kualiti biji benih. Faktor yang \nmempengaruhi kualiti biji benih dan persekitaran penyimpanan bagi pengeluaran biji benih komersil \ndibincangkan. \nThis course encompasses the aspect of seed formation, processing and quality of seeds. Factors \ninfluencing seed quality and storage environment for commercial seed production are discussed. \n\n--- Page 23 ---\n117"
+    "source_chunk": "AGR4802 \nTeknologi Biji Benih/ \nSeed Technology \n3(2+1) \nPrasyarat :  AGR3301 atau HRT3002 \nKursus ini merangkumi aspek pembentukan, pemprosesan dan kualiti biji benih. Faktor yang \nmempengaruhi kualiti biji benih dan persekitaran penyimpanan bagi pengeluaran biji benih komersil \ndibincangkan. \nThis course encompasses the aspect of seed formation, processing and quality of seeds. Factors \ninfluencing seed quality and storage environment for commercial seed production are discussed. \n\n--- Page 23"
   },
   {
     "course_code": "HRT3403",
@@ -1384,24 +1415,16 @@
     "course_name_malay": "Pengenalan Rekabentuk Landskap",
     "course_name_english": "Introduction to Landscape Design",
     "credits": "3(2+1)",
-    "prerequisites": [],
-    "description_malay": null,
-    "description_english": null,
-    "department": null,
-    "faculty": "Fakulti Pertanian",
-    "source_chunk": "HRT3800 \nPengenalan Rekabentuk Landskap/        \n \n \n \n     \nIntroduction to Landscape Design \n3(2+1) \nPrasyarat :"
-  },
-  {
-    "course_code": "HRT3432",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "prerequisites": [
+      "HRT3430",
+      "HRT3431",
+      "HRT3432"
+    ],
     "description_malay": "Kursus ini meliputi pelbagai elemen rekabentuk, prinsip dan proses merekabentuk pelan landskap dengan menggunakan bahan lembut dan kejur. Isu semasa berkaitan pengurusan dan penyelenggaraan dibincangkan.",
     "description_english": "This course covers various aspects of design elements, principles and landscape designing processes using soft and hardscape materials. Current issues in landscape management and maintenance are discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "HRT3432 \nKursus ini meliputi pelbagai elemen rekabentuk, prinsip dan proses merekabentuk pelan landskap \ndengan menggunakan bahan lembut dan kejur.  Isu semasa berkaitan pengurusan dan \npenyelenggaraan dibincangkan. \nThis course covers various aspects of design elements, principles and landscape designing processes \nusing soft and hardscape materials. Current issues in landscape management and maintenance are \ndiscussed."
+    "source_chunk": "HRT3800 \nPengenalan Rekabentuk Landskap/        \n \n \n \n     \nIntroduction to Landscape Design \n3(2+1) \nPrasyarat : HRT3430 dan HRT3431, atau HRT3432 \nKursus ini meliputi pelbagai elemen rekabentuk, prinsip dan proses merekabentuk pelan landskap \ndengan menggunakan bahan lembut dan kejur.  Isu semasa berkaitan pengurusan dan \npenyelenggaraan dibincangkan. \nThis course covers various aspects of design elements, principles and landscape designing processes \nusing soft and hardscape materials. Curre"
   },
   {
     "course_code": "HRT4422",
@@ -1428,16 +1451,19 @@
     "source_chunk": "HRT4432 \nKultur Orkid/  \nOrchid Culture  \n3(2+1) \nPrasyarat : Tiada \nKursus ini meliputi klasifikasi dan pencaman genera, penghibridan dan pewarisan, sistem pembiakan, \nfaktor mempengaruhi tumbesaran dan perkembangan, sistem penanaman, pengurusan dan \npengendalian pasca tuai dan pemasaran orkid. \nThis course covers classification and identification of genera, hybridization and inheritance, \npropagation systems, factors affecting growth and development, planting systems, management and \npostharve"
   },
   {
-    "course_code": "HRT3002",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "HRT4300",
+    "course_name_malay": "Pengawalatur Tumbesaran Tumbuhan",
+    "course_name_english": "Plant Growth Regulators",
+    "credits": "3(2+1)",
+    "prerequisites": [
+      "AGR3301",
+      "HRT3002"
+    ],
     "description_malay": "Kursus ini meliputi sintesis, mekanisme dan peranan pengawalatur dalam tumbesaran tanaman. Manupulasi dan kesan pengawalatur tumbesaran terhadap inisiasi bunga, kejadian dan keguguran buah, pasca tuai dan alam sekitar dibincangkan.",
     "description_english": "This course covers classification, synthesis, mechanism and roles of growth regulators in plant growth. Manupulation and effects of growth regulator on flower initiation, fruit set and abscission, postharvest and environment are discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "HRT3002 \nKursus ini meliputi sintesis, mekanisme dan peranan pengawalatur dalam tumbesaran tanaman. \nManupulasi dan kesan pengawalatur tumbesaran terhadap inisiasi bunga, kejadian dan keguguran \nbuah, pasca tuai dan alam sekitar dibincangkan. \nThis course covers classification, synthesis, mechanism and roles of growth regulators in plant \ngrowth. Manupulation and effects of growth regulator on flower initiation, fruit set and abscission, \npostharvest and environment are discussed."
+    "source_chunk": "HRT4300 \nPengawalatur Tumbesaran Tumbuhan/ \nPlant Growth Regulators \n3(2+1) \nPrasyarat : AGR3301 atau HRT3002 \nKursus ini meliputi sintesis, mekanisme dan peranan pengawalatur dalam tumbesaran tanaman. \nManupulasi dan kesan pengawalatur tumbesaran terhadap inisiasi bunga, kejadian dan keguguran \nbuah, pasca tuai dan alam sekitar dibincangkan. \nThis course covers classification, synthesis, mechanism and roles of growth regulators in plant \ngrowth. Manupulation and effects of growth regulator on f"
   },
   {
     "course_code": "HRT4400",
@@ -1492,24 +1518,16 @@
     "course_name_malay": "Hortikultur Persekitaran Terkawal",
     "course_name_english": "Controlled Environment Horticulture",
     "credits": "2(2+0)",
-    "prerequisites": [],
-    "description_malay": null,
-    "description_english": null,
-    "department": null,
-    "faculty": "Fakulti Pertanian",
-    "source_chunk": "HRT4802 \nHortikultur Persekitaran Terkawal/ \nControlled Environment Horticulture                                                      \n2(2+0) \nPrasyarat :"
-  },
-  {
-    "course_code": "AGR3301",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "prerequisites": [
+      "HRT3000",
+      "HRT3400",
+      "AGR3301"
+    ],
     "description_malay": "Kursus ini merangkumi konsep pengawalan dan manipulasi faktor persekitaran, peralatan, keperluan dan pengurusan tanaman untuk pelbagai sistem tanaman persekitaran terkawal. Potensi pengkomersilan pengeluaran tanaman persekitaran terkawal dibincangkan.",
     "description_english": "This course covers concept of control and manipulation of environmental factors, instrumentation, crop requirements and management of various cropping systems under controlled environment. Commercialization of potential crop production under controlled environment is discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "AGR3301 \nKursus ini merangkumi konsep pengawalan dan manipulasi faktor persekitaran, peralatan, keperluan \ndan pengurusan tanaman untuk pelbagai sistem tanaman persekitaran terkawal. Potensi \npengkomersilan pengeluaran tanaman persekitaran terkawal dibincangkan. \nThis course covers concept of control and manipulation of environmental factors, instrumentation, crop \nrequirements \nand \nmanagement \nof \nvarious \ncropping \nsystems \nunder \ncontrolled \nenvironment.Commercialization of potential crop pr"
+    "source_chunk": "HRT4802 \nHortikultur Persekitaran Terkawal/ \nControlled Environment Horticulture                                                      \n2(2+0) \nPrasyarat : HRT3000 atau HRT3400 atau AGR3301 \nKursus ini merangkumi konsep pengawalan dan manipulasi faktor persekitaran, peralatan, keperluan \ndan pengurusan tanaman untuk pelbagai sistem tanaman persekitaran terkawal. Potensi \npengkomersilan pengeluaran tanaman persekitaran terkawal dibincangkan. \nThis course covers concept of control and manipulation "
   },
   {
     "course_code": "HRT4803",
@@ -1531,7 +1549,7 @@
     "prerequisites": [],
     "description_malay": "Kursus ini meliputi klasifikasi, prinsip, teknik pengeluaran lapangan dan persekitaran terkawal dengan tumpuan kepada faktor pengeluaran, pembiakan, penanaman, pengurusan dan pengendalian, pasca tuai tanaman ubatan dan herba.",
     "description_english": "This course covers classifications, principles, field and protected environmental production techniques with emphasis on production factors, propagation, planting, management and postharvest handling of medicinal plants and herbs",
-    "department": "Department of Plant Protection",
+    "department": "Jabatan Perlindungan Tumbuhan",
     "faculty": "Fakulti Pertanian",
     "source_chunk": "HRT4804 \nTumbuhan Ubatan Dan Herba/ \nMedicinal Plants and Herbs \n2(2+0) \nPrasyarat : Tiada \nKursus ini meliputi klasifikasi, prinsip, teknik pengeluaran lapangan dan persekitaran terkawal dengan \ntumpuan kepada faktor pengeluaran, pembiakan, penanaman, pengurusan dan pengendalian, pasca \ntuai tanaman ubatan dan herba. \nThis course covers classifications, principles, field and protected environmental production techniques \nwith emphasis on production factors, propagation, planting, management and"
   },
@@ -1672,24 +1690,14 @@
     "course_name_malay": "Pengurusan Perosak Rumput Turf Dan Tanaman Hortikultur",
     "course_name_english": "Pest Management of Turfgrass and Horticultural Crops",
     "credits": "3 (2+1)",
-    "prerequisites": [],
-    "description_malay": null,
-    "description_english": null,
-    "department": null,
-    "faculty": "Fakulti Pertanian",
-    "source_chunk": "PLP4005 \nPengurusan Perosak Rumput Turf Dan Tanaman Hortikultur/ Pest \nManagement of Turfgrass and Horticultural Crops \n3 (2+1) \nPrasyarat :"
-  },
-  {
-    "course_code": "PLP3204",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "prerequisites": [
+      "PLP3204"
+    ],
     "description_malay": "Kursus ini meliputi pengesanan, pengenalpastian dan pemantauan perosak tanaman hortikultur dan turf serta strategi pengurusannya",
     "description_english": "This course covers detection, identification and monitoring pests of horticultural crops and turf as well as strategies for their management",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "PLP3204 \nKursus ini meliputi pengesanan, pengenalpastian dan pemantauan perosak tanaman hortikultur dan turf serta \nstrategi pengurusannya \nThis course covers detection, identification and monitoring pests of horticultural crops and turf as well as \nstrategies for their management"
+    "source_chunk": "PLP4005 \nPengurusan Perosak Rumput Turf Dan Tanaman Hortikultur/ Pest \nManagement of Turfgrass and Horticultural Crops \n3 (2+1) \nPrasyarat : PLP3204 \nKursus ini meliputi pengesanan, pengenalpastian dan pemantauan perosak tanaman hortikultur dan turf serta \nstrategi pengurusannya \nThis course covers detection, identification and monitoring pests of horticultural crops and turf as well as \nstrategies for their management"
   },
   {
     "course_code": "PLP4101",
@@ -1792,24 +1800,14 @@
     "course_name_malay": "Perakaunan Kos Dan Pengurusan Perniagaantani",
     "course_name_english": "Agribusiness Cost and Management Accounting",
     "credits": "3 (3+0)",
-    "prerequisites": [],
-    "description_malay": null,
-    "description_english": null,
-    "department": null,
-    "faculty": "Fakulti Pertanian",
-    "source_chunk": "PPT3403 \nPerakaunan Kos Dan Pengurusan Perniagaantani/ \nAgribusiness Cost and Management Accounting \n3 (3+0) \nPrasyarat :"
-  },
-  {
-    "course_code": "PPT3401",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "prerequisites": [
+      "PPT3401"
+    ],
     "description_malay": "Kursus ini memberi penekanan terhadap aspek perancangan, kawalan, penilaian prestasi dan pembuatan keputusan di dalam sesebuah syarikat perniagaantani dengan menggunakan maklumat perakaunan. Aspek teori dan praktikal dalam pengurusan kos perakaunan bagi memantau prestasi perniagaantani juga diberi penekanan.",
     "description_english": "This course emphasizes on planning, controlling, performance appraisal and decision making in an agribusiness firm by using accounting information. Theoretical and practical aspects in accounting cost management to monitor the performance of agribusiness are also emphasized.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "PPT3401 \nKursus ini memberi penekanan terhadap aspek perancangan, kawalan, penilaian prestasi dan pembuatan \nkeputusan di dalam sesebuah syarikat perniagaantani dengan menggunakan maklumat perakaunan. Aspek teori \ndan praktikal dalam pengurusan kos perakaunan bagi memantau prestasi perniagaantani juga diberi penekanan. \nThis courseemphasizes onplanning, controlling, performance appraisal anddecision makingin an agribusiness \nfirm by using accounting information. Theoretical and practical aspects"
+    "source_chunk": "PPT3403 \nPerakaunan Kos Dan Pengurusan Perniagaantani/ \nAgribusiness Cost and Management Accounting \n3 (3+0) \nPrasyarat : PPT3401 \nKursus ini memberi penekanan terhadap aspek perancangan, kawalan, penilaian prestasi dan pembuatan \nkeputusan di dalam sesebuah syarikat perniagaantani dengan menggunakan maklumat perakaunan. Aspek teori \ndan praktikal dalam pengurusan kos perakaunan bagi memantau prestasi perniagaantani juga diberi penekanan. \nThis courseemphasizes onplanning, controlling, performan"
   },
   {
     "course_code": "PPT3702",
@@ -1848,16 +1846,18 @@
     "source_chunk": "PPT3801 \nStatistik Perniagaantani/ \nAgribusiness Statistics \n3 (2+1) \nPrasyarat : Tiada \nKursus ini berkaitan penggunaan kaedah statistik di dalam bidang perniagaantani. Ia meliputi konsep dan \nprinsip analisis statistik yang asas untuk menguji hipotesis dalam kaedah berparameter dan tidak berparameter \nbagi membuat keputusan dan mencadang penyelesaian masalah perniagaantani. \nThis course is related to the usage of statistics method in agribusiness. It covers the basic concepts and \nprinciples o"
   },
   {
-    "course_code": "EPT3104",
-    "course_name_malay": "null",
-    "course_name_english": "null",
-    "credits": "null",
-    "prerequisites": [],
+    "course_code": "PPT4204",
+    "course_name_malay": "Ekonomi Perniagaantani",
+    "course_name_english": "Agribusiness Economics",
+    "credits": "3 (3+0)",
+    "prerequisites": [
+      "EPT3104"
+    ],
     "description_malay": "Kursus ini meliputi aplikasi teori dan analisis permintaan dan penawaran, keanjalan, kegagalan pasaran, struktur pasaran, pasaran faktor dan persekitaran ekonomi makro dalam membuat keputusan perniagaantani. Dasar kerajaan dan isu ekonomi global yang mempengaruhi prestasi perniagaantani juga diberi penekanan.",
     "description_english": "This course covers the applications of demand and supply theories and analyses, elasticity, market failure, market structure, factor markets and macroeconomic environment in agribusiness decision making. Government policies and global economic issues that affect the performance of agribusiness also emphasized.",
     "department": "Jabatan Perniagaantani dan Ekonomi Biosumber",
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "EPT3104 \nKursus ini meliputi aplikasi teori dan analisis permintaan dan penawaran, keanjalan, kegagalan pasaran, \nstruktur pasaran, pasaran faktor dan persekitaran ekonomi makro dalam membuat keputusan perniagaantani. \nDasar kerajaan dan isu ekonomi global yang mempengaruhi prestasi perniagaantani juga diberi penekanan. \nThis course covers the applications of demand and supply theories and analyses, elasticity, market failure, \nmarket structure, factor markets and macroeconomic environment in ag"
+    "source_chunk": "PPT4204 \nEkonomi Perniagaantani/ \nAgribusiness Economics \n3 (3+0) \nPrasyarat : EPT3104 \nKursus ini meliputi aplikasi teori dan analisis permintaan dan penawaran, keanjalan, kegagalan pasaran, \nstruktur pasaran, pasaran faktor dan persekitaran ekonomi makro dalam membuat keputusan perniagaantani. \nDasar kerajaan dan isu ekonomi global yang mempengaruhi prestasi perniagaantani juga diberi penekanan. \nThis course covers the applications of demand and supply theories and analyses, elasticity, market"
   },
   {
     "course_code": "PPT4206",
@@ -1900,24 +1900,14 @@
     "course_name_malay": "Pengurusan Strategik Perniagaantani",
     "course_name_english": "Agribusiness Strategic Management",
     "credits": "3 (3+0)",
-    "prerequisites": [],
-    "description_malay": null,
-    "description_english": null,
-    "department": null,
-    "faculty": "Fakulti Pertanian",
-    "source_chunk": "PPT4211 \nPengurusan Strategik Perniagaantani/ \nAgribusiness Strategic Management \n3 (3+0) \nPrasyarat :"
-  },
-  {
-    "course_code": "PPT3201",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "prerequisites": [
+      "PPT3201"
+    ],
     "description_malay": "Kursus ini merangkumi teori dan penilaian dalam pengurusan strategik untuk organisasi asas tani bagi persediaan menghadapi perubahan dalam persekitaran masa depan secara sistematik dan strategik. Pengurusan rantaian penawaran, pilihan strategi serta kaedah pengurusan strategik turut dibincangkan.",
     "description_english": "This course encompasses theory and assessment in strategic management for agri-based organization to prepare systematically and strategically for changes in future environment. Supply chain management, strategy options, and methods of strategic management are also discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "PPT3201 \nKursus ini merangkumi teori dan penilaian dalam pengurusan strategik untuk organisasi asas tani bagi \npersediaan menghadapi perubahan dalam persekitaran masa depan secara sistematik dan strategik. \nPengurusan rantaian penawaran, pilihan strategi serta kaedah pengurusan strategik turut dibincangkan. \nThis course encompasses theory and assessment in strategic management for agri-based organization to \nprepare systematically and strategically for changes in future environment. Supply chain"
+    "source_chunk": "PPT4211 \nPengurusan Strategik Perniagaantani/ \nAgribusiness Strategic Management \n3 (3+0) \nPrasyarat : PPT3201 \nKursus ini merangkumi teori dan penilaian dalam pengurusan strategik untuk organisasi asas tani bagi \npersediaan menghadapi perubahan dalam persekitaran masa depan secara sistematik dan strategik. \nPengurusan rantaian penawaran, pilihan strategi serta kaedah pengurusan strategik turut dibincangkan. \nThis course encompasses theory and assessment in strategic management for agri-based or"
   },
   {
     "course_code": "PPT4212",
@@ -1944,16 +1934,18 @@
     "source_chunk": "PPT4305 \nPemasaran Perniagaantani/ \nAgribusiness Marketing \n3 (3+0) \nPrasyarat : Tiada \nKursus ini merangkumi konsep pemasaran firma dan sistem perniagaantani, penilaian prestasi sistem \npemasaran dan memahami persekitaran pemasaran. Pembentukan pelan pemasaran dan pengurusan \ncampuran pemasaran turut dibincangkan. \nThis course encompasses the marketing concept in the agribusiness firm and system, evaluation of \nperformance of marketing systems and understanding of marketing environment. The dev"
   },
   {
-    "course_code": "PPT4305",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "PPT4306",
+    "course_name_malay": "Perniagaantani Digital",
+    "course_name_english": "Digital Agribusiness",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "PPT4305"
+    ],
     "description_malay": "Kursus ini merangkumi pemahaman tentang perniagaan digital dalam sektor perniagaantani. Perkembangan, kepentingan, dan strategi dalam perniagaantani digital serta pengurusan perniagaantani dalam era data raya diberi penekanan. Kaedah membangunkan laman sesawang perniagaan, analisis strategi pemasaran serta udang-undang siber juga dibincangkan.",
     "description_english": "This course covers an understanding of digital business in the agribusiness sector. The development, importance and strategies in the digital business as well as agribusiness management in the era of big data are emphasized. Methods in developing business websites, analysis of marketing strategies as well as cyber law are also discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "PPT4305 \nKursus ini merangkumi pemahaman tentang perniagaan digital dalam sektor perniagaantani. Perkembangan, \nkepentingan, dan strategi dalam perniagaantani digital serta pengurusan perniagaantani dalam era data raya \ndiberi penekanan. Kaedah membangunkan laman sesawang perniagaan, analisis strategi pemasaran serta \nudang-undang siber juga dibincangkan. \nThis course covers an understanding of digital business in the agribusiness sector. The development, \nimportance and strategies in the digita"
+    "source_chunk": "PPT4306 \nPerniagaantani Digital/ \nDigital Agribusiness \n3 (2+1) \nPrasyarat : PPT4305 \nKursus ini merangkumi pemahaman tentang perniagaan digital dalam sektor perniagaantani. Perkembangan, \nkepentingan, dan strategi dalam perniagaantani digital serta pengurusan perniagaantani dalam era data raya \ndiberi penekanan. Kaedah membangunkan laman sesawang perniagaan, analisis strategi pemasaran serta \nudang-undang siber juga dibincangkan. \nThis course covers an understanding of digital business in the a"
   },
   {
     "course_code": "PPT4307",
@@ -1972,24 +1964,14 @@
     "course_name_malay": "Pemasaran Perniagaantani Antarabangsa",
     "course_name_english": "International Agribusiness Marketing",
     "credits": "3 (3+0)",
-    "prerequisites": [],
-    "description_malay": null,
-    "description_english": null,
-    "department": null,
-    "faculty": "Fakulti Pertanian",
-    "source_chunk": "PPT4308 \nPemasaran Perniagaantani Antarabangsa/ \nInternational Agribusiness Marketing \n3 (3+0) \nPrasyarat :"
-  },
-  {
-    "course_code": "PPT4305",
-    "course_name_malay": null,
-    "course_name_english": "International Marketing",
-    "credits": null,
-    "prerequisites": [],
+    "prerequisites": [
+      "PPT4305"
+    ],
     "description_malay": "Kursus ini merangkumi pengenalan kepada pemasaran antarabangsa termasuk analisis persekitaran yang meliputi dimensi ekonomi, budaya, politik dan peraturan antarabangsa. Pengurusan dan pengawal-seliaan pemasaran antarabangsa juga ditekankan.",
     "description_english": "This course encompasses an overview of international marketing including its environment, economic, cultural, political and legal dimensions. The management and coordination of international marketing are also emphasized.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "PPT4305 \nKursus ini merangkumi pengenalan kepada pemasaran antarabangsa termasuk analisis persekitaran yang \nmeliputi dimensi ekonomi, budaya, politik dan peraturan antarabangsa. Pengurusan dan pengawal-seliaan \npemasaran antarabangsa juga ditekankan. \nThis courseencompassesanoverviewofinternationalmarketing including itsenvironment, economic, cultural, \npolitical and legal dimensions. The management and coordination of international marketing are also \nemphasized."
+    "source_chunk": "PPT4308 \nPemasaran Perniagaantani Antarabangsa/ \nInternational Agribusiness Marketing \n3 (3+0) \nPrasyarat : PPT4305 \nKursus ini merangkumi pengenalan kepada pemasaran antarabangsa termasuk analisis persekitaran yang \nmeliputi dimensi ekonomi, budaya, politik dan peraturan antarabangsa. Pengurusan dan pengawal-seliaan \npemasaran antarabangsa juga ditekankan. \nThis courseencompassesanoverviewofinternationalmarketing including itsenvironment, economic, cultural, \npolitical and legal dimensions. The"
   },
   {
     "course_code": "PPT4351",
@@ -2020,24 +2002,14 @@
     "course_name_malay": "Polisi dan Peraturan Perniagaantani",
     "course_name_english": "Agribusiness Policy And Regulations",
     "credits": "3 (3+0)",
-    "prerequisites": [],
-    "description_malay": null,
-    "description_english": null,
-    "department": null,
-    "faculty": "Fakulti Pertanian",
-    "source_chunk": "PPT4501 \nPolisi dan Peraturan Perniagaantani/ \nAgribusiness Policy And Regulations \n3 (3+0) \nPrasyarat :"
-  },
-  {
-    "course_code": "EPT3104",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "prerequisites": [
+      "EPT3104"
+    ],
     "description_malay": "Kursus ini merangkumi teori ekonomi dan pelbagai polisi pertanian negara yang terkini. Aplikasi teori ekonomi bagi menilai kesan dan cabaran polisi dan peraturan dalam industri perniagaantani berdasarkan isu persekitaran dan strategik penyelesaian masalah juga diberi penekanan.",
     "description_english": "This course covers economic theory and various current national agricultural policies. The application of economic theory to assess the impact and challenges of policies and regulations in the agribusiness industry based on environmental issues and problem solving strategies is also emphasized.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "EPT3104 \nKursus ini merangkumi teori ekonomi dan pelbagai polisi pertanian negara yang terkini. Aplikasi teori ekonomi \nbagi menilai kesan dan cabaran polisi dan peraturan dalam industri perniagaantani berdasarkan isu \npersekitaran dan strategik penyelesaian masalah juga diberi penekanan. \nThis course covers economic theory and various current national agricultural policies. The application of \neconomic theory to assess the impact and challenges of policies and regulations in the agribusiness in"
+    "source_chunk": "PPT4501 \nPolisi dan Peraturan Perniagaantani/ \nAgribusiness Policy And Regulations \n3 (3+0) \nPrasyarat : EPT3104 \nKursus ini merangkumi teori ekonomi dan pelbagai polisi pertanian negara yang terkini. Aplikasi teori ekonomi \nbagi menilai kesan dan cabaran polisi dan peraturan dalam industri perniagaantani berdasarkan isu \npersekitaran dan strategik penyelesaian masalah juga diberi penekanan. \nThis course covers economic theory and various current national agricultural policies. The application o"
   },
   {
     "course_code": "PPT4503",
@@ -2080,24 +2052,14 @@
     "course_name_malay": "Teknik Kuantitatif Perniagaantani",
     "course_name_english": "Quantitative Techniques In Agribusiness",
     "credits": "3 (2+1)",
-    "prerequisites": [],
-    "description_malay": null,
-    "description_english": null,
-    "department": null,
-    "faculty": "Fakulti Pertanian",
-    "source_chunk": "PPT4801 \nTeknik Kuantitatif Perniagaantani/ \nQuantitative Techniques In Agribusiness \n3 (2+1) \nPrasyarat :"
-  },
-  {
-    "course_code": "PPT3801",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "prerequisites": [
+      "PPT3801"
+    ],
     "description_malay": "Kursus ini meliputi konsep dan teori kaedah kuantitatif untuk menganalisi masalah perniagaantani. Aplikasi teknik kuantitatif dan proses membina model kuantitatif untuk menilai masalah dalam pengurusan perniagaantani dan ekonomi pertanian serta penyediaan laporan dan cadangan untuk penyelesaian masalah dalam pengurusan perniagaantani dan ekonomi pertanian juga diberi penekanan.",
     "description_english": "This course covers the concepts and theories of quantitative methods for analyzing agribusiness problems. The application of quantitative techniques and the process of building quantitative models to assess problems in agribusiness management and agricultural economics as well as the preparation of reports and recommendations for problem solving in agribusiness management and agricultural economics are also emphasized.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "PPT3801 \nKursus ini meliputi konsep dan teori kaedah kuantitatif untuk menganalisi masalah perniagaantani. Aplikasi \nteknik kuantitatif dan proses membina model kuantitatif untuk menilai masalah dalam pengurusan \nperniagaantani dan ekonomi pertanian serta penyediaan laporan dan cadangan untuk penyelesaian masalah \ndalam pengurusan perniagaantani dan ekonomi pertanian juga diberi penekanan. \nThis coursecovers theconcepts and theoriesofquantitative methods for analyzing agribusinessproblems. The \n"
+    "source_chunk": "PPT4801 \nTeknik Kuantitatif Perniagaantani/ \nQuantitative Techniques In Agribusiness \n3 (2+1) \nPrasyarat : PPT3801 \nKursus ini meliputi konsep dan teori kaedah kuantitatif untuk menganalisi masalah perniagaantani. Aplikasi \nteknik kuantitatif dan proses membina model kuantitatif untuk menilai masalah dalam pengurusan \nperniagaantani dan ekonomi pertanian serta penyediaan laporan dan cadangan untuk penyelesaian masalah \ndalam pengurusan perniagaantani dan ekonomi pertanian juga diberi penekanan. "
   },
   {
     "course_code": "PPT4901",
@@ -2127,7 +2089,7 @@
     "course_code": "EPT3104",
     "course_name_malay": "Ekonomi Pertanian",
     "course_name_english": "Agricultural Economics",
-    "credits": null,
+    "credits": "3(3+0)",
     "prerequisites": [],
     "description_malay": "Kursus ini merangkumi aplikasi konsep asas teori ekonomi. Aspek aplikasi teori ekonomi dalam bidang pertanian serta kaitannya dengan struktur pasaran, isu penawaran dan permintaan, dasar kerajaan, dan perdagangan antarabangsa juga dibincangkan.",
     "description_english": "This course covers the basic concept of economic theories. Aspects of the application of economic theory in agriculture as well as its relation to market structure, supply and demand issues, government policy, and international trade are also discussed.",
@@ -2160,28 +2122,32 @@
     "source_chunk": "EPT3203 \nPengurusan Ladang/ \nFarm Management \n3 (3+0) \nPrasyarat : Tiada \nKursus ini meliputi penggunaan teori dan prinsip ekonomi di dalam pengurusan ladang. Pelbagai pendekatan \ndan kaedah yang digunakan dalam pengurusan dan analisis prestasi sesebuah perniagaan ladang dan \npengurusan risiko juga dibincangkan. \nThis course covers applications ofeconomictheory andprinciplesinfarmmanagement. Various approachesand \nmethods used in the management and performance analysis of a farm business and ris"
   },
   {
-    "course_code": "PPT3801",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "EPT4201",
+    "course_name_malay": "Analisis Keputusan Pertanian",
+    "course_name_english": "Agricultural Decision Analysis",
+    "credits": "3 (3+0)",
+    "prerequisites": [
+      "PPT3801"
+    ],
     "description_malay": "Kursus ini meliputi konsep dan penggunaan model dalam proses pembuatan keputusan pertanian. Penstrukturan masalah dengan mengambilkira elemen masalah keputusan dan penggunaan teknik kuantitatif dan statistik yang bersesuaian untuk mengkaji risiko serta masalah pertanian kompleks turut ditekankan.",
     "description_english": "This course covers the concept and use of models in the agricultural decision-making process. Problem structuring by taking into account the elementsof a decisionproblem andby using appropriatequantitative and statistical techniques to study complex agricultural risks and problems are also emphasized.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "PPT3801 \nKursus ini meliputi konsep dan penggunaan model dalam proses pembuatan keputusan pertanian. Penstrukturan \nmasalah dengan mengambilkira elemen masalah keputusan dan penggunaan teknik kuantitatif dan statistik yang \nbersesuaian untuk mengkaji risiko serta masalah pertanian kompleks turut ditekankan. \nThis course covers the concept and use of models in the agricultural decision-making process. Problem \nstructuring by taking into account the elementsof a decisionproblem andby using appropr"
+    "source_chunk": "EPT4201 \nAnalisis Keputusan Pertanian/ \nAgricultural Decision Analysis \n3 (3+0) \nPrasyarat : PPT3801 \nKursus ini meliputi konsep dan penggunaan model dalam proses pembuatan keputusan pertanian. Penstrukturan \nmasalah dengan mengambilkira elemen masalah keputusan dan penggunaan teknik kuantitatif dan statistik yang \nbersesuaian untuk mengkaji risiko serta masalah pertanian kompleks turut ditekankan. \nThis course covers the concept and use of models in the agricultural decision-making process. Pro"
   },
   {
-    "course_code": "EPT3104",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "EPT4202",
+    "course_name_malay": "Pengurusan Risiko Pertanian",
+    "course_name_english": "Agricultural Risk Managment",
+    "credits": "3 (3+0)",
+    "prerequisites": [
+      "EPT3104"
+    ],
     "description_malay": "Kursus ini merangkumi konsep dan prinsip pengurusan risiko bagi pengeluaran dan pemasaran pertanian. Teori pengurusan risiko dan pelbagai teknik analisis berdasarkan jenis risiko yang mungkin berlaku di pasaran pertanian untuk membuat keputusan yang lebih tepat juga diberi penekanan.",
     "description_english": "This course covers the concepts and principles of risk management for agricultural production and marketing. Risk management theory and various analysis techniques based on the types of risks that may occur in the agricultural market in making more accurate decisions are also emphasized.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "EPT3104 \nKursus ini merangkumi konsep dan prinsip pengurusan risiko bagi pengeluaran dan pemasaran pertanian. Teori \npengurusan risiko dan pelbagai teknik analisis berdasarkan jenis risiko yang mungkin berlaku di pasaran \npertanian untuk membuat keputusan yang lebih tepat juga diberi penekanan. \nThis course covers the concepts and principles of risk management for agricultural production and marketing. \nRisk management theory and various analysis techniques based on the types of risks that may o"
+    "source_chunk": "EPT4202 \nPengurusan Risiko Pertanian/ \nAgricultural Risk Managment \n3 (3+0) \nPrasyarat : EPT3104 \nKursus ini merangkumi konsep dan prinsip pengurusan risiko bagi pengeluaran dan pemasaran pertanian. Teori \npengurusan risiko dan pelbagai teknik analisis berdasarkan jenis risiko yang mungkin berlaku di pasaran \npertanian untuk membuat keputusan yang lebih tepat juga diberi penekanan. \nThis course covers the concepts and principles of risk management for agricultural production and marketing. \nRisk"
   },
   {
     "course_code": "EPT4501",
@@ -2244,16 +2210,18 @@
     "source_chunk": "SST3502 \nEkologi Tanah/ \nSoil Ecology \n3 (2+1) \nPrasyarat : Tiada \nKursus ini meliputi prinsip ekologi tanah, interaksi antara organisma tanah dan persekitarannya, peranan \ntanah dalam ekosistem, proses biologi dan faktor mempengaruhi aktiviti organisma, kesan pencemaran \nterhadap organisma tanah, kawalan biologi dan bioremediasi tanah tercemar. \nThis course covers the principles of soil ecology, interactions between soil organisms andtheir environments, \nrole of soils in ecosystem, biological p"
   },
   {
-    "course_code": "SST3005",
-    "course_name_malay": null,
-    "course_name_english": "Sustainable Agriculture",
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SST3602",
+    "course_name_malay": "Pengurusan Tanah Lestari",
+    "course_name_english": "Sustainable Soil Management",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SST3005"
+    ],
     "description_malay": "Kursus ini merangkumi konsep pertanian secara lestari, cara menilai kesuburan tanah dan keperluan baja, peningkatan dan penyelenggaraan kualiti tanah, kesan dan kawalan degradasi tanah, tanah sebagai sinki untuk bahan cemar dan cara mengurusnya.",
     "description_english": "This course encompasses the concept of sustainable agriculture, methods of assessing soil fertility and fertilizer requirement, improvement and maintenance of soil quality, impacts and control of soil degradation, soil as a sink for pollutants and its management.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SST3005 atau setara \nKursus ini merangkumi konsep pertanian secara lestari, cara menilai kesuburan tanah dan keperluan baja, \npeningkatan dan penyelenggaraan kualiti tanah, kesan dan kawalan degradasi tanah, tanah sebagai sinki \nuntuk bahan cemar dan cara mengurusnya. \nThis course encompasses the concept of sustainable agriculture, methods of assessing soil fertility and \nfertilizer requirement, improvementandmaintenance of soil quality, impacts andcontrolof soil degradation, \nsoil as a sink for"
+    "source_chunk": "SST3602 \nPengurusan Tanah Lestari/ \nSustainable Soil Management \n3 (2+1) \nPrasyarat : SST3005 atau setara \nKursus ini merangkumi konsep pertanian secara lestari, cara menilai kesuburan tanah dan keperluan baja, \npeningkatan dan penyelenggaraan kualiti tanah, kesan dan kawalan degradasi tanah, tanah sebagai sinki \nuntuk bahan cemar dan cara mengurusnya. \nThis course encompasses the concept of sustainable agriculture, methods of assessing soil fertility and \nfertilizer requirement, improvementandm"
   },
   {
     "course_code": "SST3603",
@@ -2296,36 +2264,28 @@
     "course_name_malay": "Kaedah Penyelidikan Sains Tanah",
     "course_name_english": "Research Methods in Soil Science",
     "credits": "3 (2+1)",
-    "prerequisites": [],
-    "description_malay": null,
-    "description_english": null,
-    "department": null,
-    "faculty": "Fakulti Pertanian",
-    "source_chunk": "SST4005 \nKaedah Penyelidikan Sains Tanah/                                                                     3 (2+1) \nResearch Methods in Soil Science \nPrasyarat :"
-  },
-  {
-    "course_code": "SST3005",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "prerequisites": [
+      "SST3005"
+    ],
     "description_malay": "Kursus ini meliputi kaedah dan instrumentasi yang biasa digunakan dalam bidang mikrobiologi, fizik dan kimia tanah. Kesesuaian kaedah dan instrumen dengan topik penyelidikan di dalam bidang sains tanah turut dibincangkan.",
     "description_english": "This course encompasses common methods and instruments used in soil science especially in the fields of soil microbiology, physics and chemistry. The suitability of methodology and instruments with research topics in the field of soil science will be discussed.",
-    "department": "Department of Land Management",
+    "department": "Jabatan Pengurusan Tanah",
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SST3005 \nKursus ini meliputi kaedah dan instrumentasi yang biasa digunakan dalam bidang mikrobiologi, fizik dan \nkimia tanah. Kesesuaian kaedah dan instrumen dengan topik penyelidikan di dalam bidang sains tanah turut \ndibincangkan.  \n \nThis course encompasses common methods and instruments used in soil science especially in the \nfields of soil microbiology, physics and chemistry. The suitability of methodology and instruments \nwith research topics in the field of soil science will be discussed."
+    "source_chunk": "SST4005 \nKaedah Penyelidikan Sains Tanah/                                                                     3 (2+1) \nResearch Methods in Soil Science \nPrasyarat : SST3005 \nKursus ini meliputi kaedah dan instrumentasi yang biasa digunakan dalam bidang mikrobiologi, fizik dan \nkimia tanah. Kesesuaian kaedah dan instrumen dengan topik penyelidikan di dalam bidang sains tanah turut \ndibincangkan.  \n \nThis course encompasses common methods and instruments used in soil science especially in the \nfie"
   },
   {
-    "course_code": "SST3005",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SST4201",
+    "course_name_malay": "Pembentukan dan Pengelasan Tanah",
+    "course_name_english": "Soil Formation and Classification",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SST3005"
+    ],
     "description_malay": "Kursus ini meliputi morfologi tanah, luluhawa dan pembentukan tanah, indeks kestabilan, sintesis mineral dalam tanah dan prinsip pengkelasan tanah mengikut sistem pengkelasan tanah yang berlainan.",
     "description_english": "This course covers soil morphology, weathering and soil formation, stability indices, mineral synthesis in soil and the principles of soil classification according to different soil classification systems.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SST3005 atau setara \nKursus ini meliputi morfologi tanah, luluhawa dan pembentukan tanah, indeks kestabilan, sintesis mineral \ndalam tanah dan prinsip pengkelasan tanah mengikut sistem pengkelasan tanah yang berlainan. \nThis course covers soil morphology, weathering and soil formation, stability indices, mineral synthesis in soil \nand the principles of soil classification according to different soil classification systems."
+    "source_chunk": "SST4201 \nPembentukan dan Pengelasan Tanah/ \nSoil Formation and Classification \n3 (2+1) \nPrasyarat : SST3005 atau setara \nKursus ini meliputi morfologi tanah, luluhawa dan pembentukan tanah, indeks kestabilan, sintesis mineral \ndalam tanah dan prinsip pengkelasan tanah mengikut sistem pengkelasan tanah yang berlainan. \nThis course covers soil morphology, weathering and soil formation, stability indices, mineral synthesis in soil \nand the principles of soil classification according to different so"
   },
   {
     "course_code": "SST4202",
@@ -2340,16 +2300,18 @@
     "source_chunk": "SST4202 \nSurvei Tanah Dan Pengkelasan Kesesuaian Guna Tanah/ \nSoil Survey and Land Use Suitability Classification \n3 (2+1) \nPrasyarat : Tiada \nKursus ini meliputi teknik survei tanah, Legend Map tanah dan pengkelasan kesesuaian guna tanah untuk \npertanian. Pelajar didedahkan kepada pelaksanaan survei tanah di agensi perladangan. \nThiscoursecoverstechniquesofsoilsurvey,soilLegendMapand landusesuitabilityclassificationfor agriculture. \nStudents are exposed to soil survey activity in plantation age"
   },
   {
-    "course_code": "SST3005",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SST4302",
+    "course_name_malay": "Fizik Tanah",
+    "course_name_english": "Soil Physics",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SST3005"
+    ],
     "description_malay": "Kursus ini merangkumi ciri fizik dan proses fizikal tanah seperti air tanah, hakisan tanah dan struktur tanah.",
     "description_english": "This course encompasses the soil physical characteristics and processes such as soil water, soil erosion, and soil structure.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SST3005 atau setara \nKursus ini merangkumi ciri fizik dan proses fizikal tanah seperti air tanah, hakisan tanah dan struktur tanah. \nThis course encompasses the soil physical characteristics and processes such as soil water, soil erosion, and \nsoil structure."
+    "source_chunk": "SST4302 \nFizik Tanah/ \nSoil Physics \n3 (2+1) \nPrasyarat : SST3005 atau setara \nKursus ini merangkumi ciri fizik dan proses fizikal tanah seperti air tanah, hakisan tanah dan struktur tanah. \nThis course encompasses the soil physical characteristics and processes such as soil water, soil erosion, and \nsoil structure."
   },
   {
     "course_code": "SST4303",
@@ -2364,28 +2326,32 @@
     "source_chunk": "SST4303 \nPemuliharaan Tanah/ \nSoil Conservation \n3 (2+1) \nPrasyarat : Tiada \nKursus ini merangkumi proses, faktor, kaedah pengawalan, ramalan hakisan dan kepentingan pemuliharaan \ntanah tropika. Kesan pemuliharaan tanah ke atas tanaman dan persekitaran dibincangkan. \nThis courseencompasses the processes, factors, controlmeasures, predictionof soil erosion andimportance \nof tropical soil conservation. The impact of soil conservation on crop and the environment are discussed."
   },
   {
-    "course_code": "SST3005",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SST4304",
+    "course_name_malay": "Perubahan Iklim Dan Pertanian",
+    "course_name_english": "Climatic Change And Agriculture",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SST3005"
+    ],
     "description_malay": "Kursus ini merangkumi sains perubahan iklim, penyebab ianya berlaku serta kesannya terhadap pertanian pengeluaran makanan. Cara mitigasi dan permodelan perubahan iklim dibincang.",
     "description_english": "This course encompasses the science of climatic change, its causes as well as its effects on agriculture food production. Mitigation efforts and modeling of climatic change are discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SST3005 \nKursus ini merangkumi sains perubahan iklim, penyebab ianya berlaku serta kesannya terhadap pertanian \npengeluaran makanan. Cara mitigasi dan permodelan perubahan iklim dibincang. \nThis course encompasses the science of climatic change, its causes as well as its effects on agriculture food \nproduction. Mitigation efforts and modeling of climatic change are discussed."
+    "source_chunk": "SST4304 \nPerubahan Iklim Dan Pertanian/ \nClimatic Change And Agriculture \n3 (2+1) \nPrasyarat : SST3005 \nKursus ini merangkumi sains perubahan iklim, penyebab ianya berlaku serta kesannya terhadap pertanian \npengeluaran makanan. Cara mitigasi dan permodelan perubahan iklim dibincang. \nThis course encompasses the science of climatic change, its causes as well as its effects on agriculture food \nproduction. Mitigation efforts and modeling of climatic change are discussed."
   },
   {
-    "course_code": "SST3005",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SST4402",
+    "course_name_malay": "Kimia Tanah",
+    "course_name_english": "Soil Chemistry",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SST3005"
+    ],
     "description_malay": "Kursus ini meliputi proses utama kimia dalam persekitaran tanah termasuk mineralogi lempung silikat dan proses luluhawa, kimia koloid, keasidan dan kemasinan tanah, dan tindakbalas redoks dalam tanah.",
     "description_english": "This course covers the main chemical processes in the soil environment which include mineralogy of silicate clays and weathering process, colloidal chemistry soil acidity and salinity, and redox reactions in soil.",
-    "department": "Department of Land Management",
+    "department": "Jabatan Pengurusan Tanah",
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SST3005 atau setara \nKursus ini meliputi proses utama kimia dalam persekitaran tanah termasuk mineralogi lempung silikat dan \nproses luluhawa, kimia koloid, keasidan dan kemasinan tanah, dan tindakbalas redoks dalam tanah. \nThis course covers the main chemical processes in the soil environment which include mineralogy of silicate \nclays and weathering process, colloidal chemistry soil acidity and salinity, and redox reactions in soil. \n\n--- Page 40 ---\nJabatan Pengurusan Tanah \nDepartment of Lan"
+    "source_chunk": "SST4402 \nKimia Tanah/ \nSoil Chemistry \n3 (2+1) \nPrasyarat : SST3005 atau setara \nKursus ini meliputi proses utama kimia dalam persekitaran tanah termasuk mineralogi lempung silikat dan \nproses luluhawa, kimia koloid, keasidan dan kemasinan tanah, dan tindakbalas redoks dalam tanah. \nThis course covers the main chemical processes in the soil environment which include mineralogy of silicate \nclays and weathering process, colloidal chemistry soil acidity and salinity, and redox reactions in soil. \n"
   },
   {
     "course_code": "SST4501",
@@ -2436,16 +2402,18 @@
     "source_chunk": "SST4701 \nMineralogi Tanah/ \nSoil Mineralogy \n3 (2+1) \nPrasyarat : Tiada \nKursus ini meliputi jenis, pembentukan dan sifat mineral tanah serta pelbagai kaedah mengenalpasti mineral. \nThis coursecovers the types, formationandproperties of soil minerals andvarious methods to identify minerals."
   },
   {
-    "course_code": "SST3005",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "SST4801",
+    "course_name_malay": "Sains Tanah Persekitaran",
+    "course_name_english": "Environmental Soil Science",
+    "credits": "3 (2+1)",
+    "prerequisites": [
+      "SST3005"
+    ],
     "description_malay": "Kursus ini merangkumi proses kontaminasi dan pencemaran tanah dari aspek fizikal, biologi dan kimia. Kaedah bagi mengawal dan mengatasi masalah kontaminasi dan pencemaran tersebut dibincangkan. Kaedah pengurusan tanah yang mesra alam dan lestari dalam bidang pertanian akan ditekankan.",
     "description_english": "This course encompasses the processes in soil contamination and pollution from the physical, biological and chemical aspects. Methods to control and to overcome soil contamination and pollution are discussed. Soil management practices which are sustainable and eco-friendly in agriculture are emphasized.",
-    "department": "Department of Land Management",
+    "department": "Jabatan Pengurusan Tanah",
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "SST3005 atau setara \nKursus ini merangkumi proses kontaminasi dan pencemaran tanah dari aspek fizikal, biologi dan kimia. \nKaedah bagi mengawal dan mengatasi masalah kontaminasi dan pencemaran tersebut dibincangkan. Kaedah \npengurusan tanah yang mesra alam dan lestari dalam bidang pertanian akan ditekankan. \nThis course encompasses the processes in soil contamination and pollution from the physical, \nbiological and chemical aspects. Methods to control and to overcome soil contamination and \npoll"
+    "source_chunk": "SST4801 \nSains Tanah Persekitaran/  \nEnvironmental Soil Science \n3 (2+1) \nPrasyarat : SST3005 atau setara \nKursus ini merangkumi proses kontaminasi dan pencemaran tanah dari aspek fizikal, biologi dan kimia. \nKaedah bagi mengawal dan mengatasi masalah kontaminasi dan pencemaran tersebut dibincangkan. Kaedah \npengurusan tanah yang mesra alam dan lestari dalam bidang pertanian akan ditekankan. \nThis course encompasses the processes in soil contamination and pollution from the physical, \nbiological"
   },
   {
     "course_code": "PRT4959",
@@ -2464,24 +2432,14 @@
     "course_name_malay": "Pengurusan dan Pengoperasian Ladang",
     "course_name_english": "Plantation Management and Operation",
     "credits": "14 (0+14)",
-    "prerequisites": [],
-    "description_malay": null,
-    "description_english": null,
-    "department": null,
-    "faculty": "Fakulti Pertanian",
-    "source_chunk": "SPP4905 \nPengurusan dan Pengoperasian Ladang/  \nPlantation Management and Operation \n14 (0+14) \nPrasyarat :"
-  },
-  {
-    "course_code": "PRT4959",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "prerequisites": [
+      "PRT4959"
+    ],
     "description_malay": "Kursus ini merangkumi aspek komunikasi dalam organisasi korporat, pengurusan perosak, pengurusan penyakit dan rumpai, penuaian dan pemprosesan hasil, pengurusan tanah dan pengurusan ladang. Kajian kes untuk menyelesaikan masalah terpilih tentang pengurusan dan pengoperasian ladang bermula dari mengenalpasti masalah, pengumpulan data dan cadangan penyelesaian dan penambahbaikan juga dijalankan.",
     "description_english": "This course encompasses the aspects of communication in corporate organisation, management of pests, management of diseases and weeds, harvesting and processing, soil management and plantation management. A case study on solving selected plantation management and operational problems starting from problem identification, data collection and suggestions for solutions and improvement are also conducted.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "PRT4959 \nKursus ini merangkumi aspek komunikasi dalam organisasi korporat, pengurusan perosak, pengurusan \npenyakit dan rumpai, penuaian dan pemprosesan hasil, pengurusan tanah dan pengurusan ladang. Kajian \nkes untuk menyelesaikan masalah terpilih tentang pengurusan dan pengoperasian ladang bermula dari \nmengenalpasti masalah, pengumpulan data dan cadangan penyelesaian dan penambahbaikan juga \ndijalankan. \nThis course encompasses the aspects of communication in corporate organisation, managemen"
+    "source_chunk": "SPP4905 \nPengurusan dan Pengoperasian Ladang/  \nPlantation Management and Operation \n14 (0+14) \nPrasyarat : PRT4959 \nKursus ini merangkumi aspek komunikasi dalam organisasi korporat, pengurusan perosak, pengurusan \npenyakit dan rumpai, penuaian dan pemprosesan hasil, pengurusan tanah dan pengurusan ladang. Kajian \nkes untuk menyelesaikan masalah terpilih tentang pengurusan dan pengoperasian ladang bermula dari \nmengenalpasti masalah, pengumpulan data dan cadangan penyelesaian dan penambahbaikan "
   },
   {
     "course_code": "PRT2009",
@@ -2738,7 +2696,7 @@
   {
     "course_code": "PRT4959",
     "course_name_malay": "Disertasi Bacelor/ Bachelor Dissertation",
-    "course_name_english": null,
+    "course_name_english": "Disertasi Bacelor/ Bachelor Dissertation",
     "credits": "6 (0+6)",
     "prerequisites": [],
     "description_malay": "Kursus ini merangkumi penyediaan cadangan, pelaksanaan dan penulisan saintifik untuk sesuatu projek penyelidikan. Pendekatan saintifik bagi menjana data secara sistematik melalui rekabentuk, pengumpulan dan analisis data yang sesuai diberi penekanan.",
@@ -3048,16 +3006,18 @@
     "source_chunk": "TKP4406 \nPembangunan Pengairan Persis/ \nDevelopment of Precision Irrigation \n3 (2+1) \nPrasyarat : Tiada \nKursus ini merangkumi penyelesaian masalah melibatkan pengairan dan penggunaan air yang persis. Teknik \npengairan persis, pengendalian sistem pengairan, pemilihan model pengairan dan penderia yang sesuai \nberdasarkan saiz pengeluaran dan topografi ladang tanaman tertentu turut dibincangkan. \nThis course covers problem solving involving irrigation and precise water use. Precise irrigation tech"
   },
   {
-    "course_code": "TKP3502",
-    "course_name_malay": null,
-    "course_name_english": null,
-    "credits": null,
-    "prerequisites": [],
+    "course_code": "TKP4502",
+    "course_name_malay": "Pengoperasian Dron Lanjutan",
+    "course_name_english": "Advance Drone Operation",
+    "credits": "3 (0+3)",
+    "prerequisites": [
+      "TKP3502"
+    ],
     "description_malay": "Kursus ini merangkumi pengoperasian dron di lapangan mengikut jenis-jenis penderia. Pengurusan dan pengendalian penerbangan dron di lapangan dan penyelenggaraan dron dan mengadaptasi teknik penerbangan dron serta menunjuk kaedah pengedalian dron kepada komuniti teknologis juga turut dibincangkan.",
     "description_english": "This course covers the operation of drones in the field according to the types of sensors. Management and operation of drone flights in the field and maintenance of drones and adapting drone flight techniques as well as demonstrating drone handling methods to the technological community are also discussed.",
     "department": null,
     "faculty": "Fakulti Pertanian",
-    "source_chunk": "TKP3502 \nKursus ini merangkumi pengoperasian dron di lapangan mengikut jenis-jenis penderia. Pengurusan dan \npengendalian penerbangan dron di lapangan dan penyelenggaraan dron dan mengadaptasi teknik \npenerbangan dron serta menunjuk kaedah pengedalian dron kepada komuniti teknologis juga turut \ndibincangkan. \nThis course covers the operation of drones in the field according to the types of sensors. \nManagement and operation of drone flights in the field and maintenance of drones and adapting \ndr"
+    "source_chunk": "TKP4502 \nPengoperasian Dron Lanjutan/  \nAdvance Drone Operation \n3 (0+3) \nPrasyarat : TKP3502 \nKursus ini merangkumi pengoperasian dron di lapangan mengikut jenis-jenis penderia. Pengurusan dan \npengendalian penerbangan dron di lapangan dan penyelenggaraan dron dan mengadaptasi teknik \npenerbangan dron serta menunjuk kaedah pengedalian dron kepada komuniti teknologis juga turut \ndibincangkan. \nThis course covers the operation of drones in the field according to the types of sensors. \nManagement "
   },
   {
     "course_code": "TKP4801",
