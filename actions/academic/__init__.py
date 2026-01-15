@@ -1,6 +1,6 @@
 """
 Academic-related actions for Academic Advisor Chatbot.
-Handles course information, prerequisites, graduation, convocation, and drop course flows.
+Handles course information, prerequisites, graduation, convocation, drop course, and course search.
 """
 
 from .course_actions import (
@@ -32,6 +32,9 @@ from .drop_course_actions import (
     ActionResetWeek,
     ActionAssessDropConsequences,
 )
+from .search_actions import (
+    ActionSearchCourses,
+)
 
 __all__ = [
     # Course actions
@@ -58,5 +61,6 @@ __all__ = [
     "ActionValidateWeek",
     "ActionResetWeek",
     "ActionAssessDropConsequences",
+    # Search actions
+    "ActionSearchCourses",
 ]
-

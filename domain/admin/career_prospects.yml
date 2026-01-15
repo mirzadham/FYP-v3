@@ -171,3 +171,14 @@ responses:
         Focus on learning well, building skills, and staying open to opportunities.
         
         Your future is bright! ✨
+
+  utter_ask_student_field:
+    - text: "What field or program are you studying?"
+      metadata:
+        rephrase: true
+
+  utter_ask_wants_more_career_guidance:
+    - text: "Would you like more career guidance or resources?"
+      metadata:
+        rephrase: true
+

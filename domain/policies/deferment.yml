@@ -235,3 +235,19 @@ responses:
         🤔 **No Rush**
         
         Take time to think it through. Your Academic Advisor can help you weigh the options.
+
+  utter_ask_deferment_reason:
+    - text: "What is your main reason for considering deferment? (medical, personal, financial, or other)"
+      metadata:
+        rephrase: true
+
+  utter_ask_current_semester_week:
+    - text: "What week of the semester are we currently in?"
+      metadata:
+        rephrase: true
+
+  utter_ask_wants_deferment_procedure:
+    - text: "Would you like me to explain the deferment procedure?"
+      metadata:
+        rephrase: true
+

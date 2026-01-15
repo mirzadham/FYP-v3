@@ -1,36 +1,9 @@
 version: "3.1"
 
+# get_course_info.yml - Course information flow
+# Shared slots and responses are in _shared_course.yml
+
 slots:
-  course_code:
-    type: text
-    mappings:
-      - type: from_llm
-
-  course_code_valid:
-    type: bool
-    mappings:
-      - type: custom
-
-  course_name:
-    type: text
-    mappings:
-      - type: custom
-
-  credits:
-    type: float
-    mappings:
-      - type: custom
-
-  synopsis:
-    type: text
-    mappings:
-      - type: custom
-
-  prereq_list:
-    type: text
-    mappings:
-      - type: custom
-
   wants_course_followup:
     type: bool
     mappings:
@@ -63,86 +36,13 @@ actions:
   - action_reset_course_slots
 
 responses:
-  utter_invalid_course_code_format:
-    - text: |
-        ❌ **Invalid Course Code Format**
-        
-        The course code should follow the format: **3-4 letters + 4 digits**
-        
-        Examples: `CCS3101`, `CSC4600`, `SSK3100`, `SKP2101`
-        
-        Please enter a valid course code.
-    - text: |
-        🔢 That doesn't look like a valid course code.
-        
-        Expected format: **XXX1234** or **XXXX1234**
-        
-        Examples: `CCS3101`, `CSC4600`
-
   utter_course_details:
     - text: |
-        📚 **Course Information**
-        
-        **{course_code}**: {course_name}
-        
-        ━━━━━━━━━━━━━━━━━━━━━━━━
+        📚 **{course_code}**: {course_name}
         💳 **Credit Hours:** {credits}
-        
-        🔗 **Prerequisites:** {prereq_list}
-        
+        📋 **Prerequisites:** {prereq_list}
         📖 **Synopsis:**
         {synopsis}
-        ━━━━━━━━━━━━━━━━━━━━━━━━
-        
-        Would you like more information about this course?
-    - text: |
-        🎓 **{course_code} - {course_name}**
-        
-        **Credits:** {credits}
-        **Prerequisites:** {prereq_list}
-        
-        **About this course:**
-        {synopsis}
-        
-        Need more details?
-
-  utter_course_not_found:
-    - text: |
-        ❌ **Course Not Found**
-        
-        I couldn't find information for **{course_code}** in my database.
-        
-        **Possible reasons:**
-        • Course code might be incorrect
-        • Course may not be in my faculty handbooks
-        • Course code format may have changed
-        
-        💡 Double-check the code in your SMP or faculty handbook.
-    - text: |
-        🔍 **No Results for {course_code}**
-        
-        This course wasn't found in my records.
-        
-        Tips:
-        • Verify the course code spelling
-        • Check if it's in the loaded handbooks
-        • Try the 4-letter version if using 3-letter
-        
-        Would you like to try a different code?
-
-  utter_database_error:
-    - text: |
-        ⚠️ **System Error**
-        
-        I encountered an issue while searching for course information.
-        
-        Please try again in a moment. If the problem persists, contact your Academic Advisor directly.
-    - text: |
-        🔧 **Technical Issue**
-        
-        Something went wrong while looking up the course.
-        
-        Would you like to try again?
 
   utter_course_search_complete:
     - text: |
@@ -153,10 +53,6 @@ responses:
         💡 You can also say things like:
         • "What are the prerequisites for CSC4600?"
         • "Tell me about CCS3101"
-    - text: |
-        📚 **Done!**
-        
-        Feel free to ask about other courses anytime!
 
   utter_search_help:
     - text: |
@@ -168,14 +64,6 @@ responses:
         • **Academic Calendar** - Course offerings
         
         If you need help with something else, just ask!
-    - text: |
-        📋 **Where to Find Codes**
-        
-        • Check SMP for registered courses
-        • Faculty handbook lists all program courses
-        • Ask your Academic Advisor
-        
-        Need help with anything else?
 
   utter_followup_prerequisites:
     - text: |
@@ -186,13 +74,6 @@ responses:
         ⚠️ You must pass ALL prerequisites before registering for {course_code}.
         
         💡 Check if you've completed these courses in your transcript.
-    - text: |
-        📋 **What You Need First**
-        
-        Before taking **{course_code}**, you must complete:
-        {prereq_list}
-        
-        Check your SMP transcript to verify!
 
   utter_followup_schedule:
     - text: |
@@ -205,15 +86,6 @@ responses:
         • Note: Some courses are only offered in specific semesters
         
         💡 Register early for best section choices!
-    - text: |
-        ⏰ **When is {course_code} Offered?**
-        
-        Check SMP during registration period for:
-        • Available sections
-        • Lecture times
-        • Lab schedules
-        
-        Tip: Popular courses fill up fast!
 
   utter_followup_similar:
     - text: |
@@ -226,12 +98,24 @@ responses:
         • **Course clusters** in your major area
         
         Your Academic Advisor can recommend related courses!
-    - text: |
-        📚 **Finding Related Courses**
-        
-        Check the faculty handbook for:
-        • Courses in the same cluster
-        • Advanced courses in this area
-        • Related electives
-        
-        Ask your advisor for personalized recommendations!
+
+  utter_ask_wants_course_followup:
+    - text: "Would you like more information about this course?"
+      metadata:
+        rephrase: true
+
+  utter_ask_course_followup_type:
+    - text: "What would you like to know? (prerequisites, schedule, or similar courses)"
+      metadata:
+        rephrase: true
+
+  utter_ask_wants_another_course:
+    - text: "Would you like to look up another course?"
+      metadata:
+        rephrase: true
+
+  utter_ask_wants_search_retry:
+    - text: "Would you like to try searching for a different course?"
+      metadata:
+        rephrase: true
+

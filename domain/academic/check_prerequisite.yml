@@ -1,31 +1,12 @@
-version: "3.1"
+# check_prerequisite.yml - Prerequisite checking flow
+# Shared slots and responses are in _shared_course.yml
 
 actions:
-  - validate_course_code_format
   - check_prerequisites
   - reset_course_code
+  - validate_course_code_format
 
 slots:
-  course_code:
-    type: text
-    mappings:
-      - type: from_llm
-
-  course_code_valid:
-    type: bool
-    mappings:
-      - type: controlled
-
-  prereq_list:
-    type: text
-    mappings:
-      - type: controlled
-
-  has_prerequisites:
-    type: bool
-    mappings:
-      - type: controlled
-
   wants_another_check:
     type: bool
     mappings:
@@ -57,26 +38,6 @@ responses:
         ✅ **No prerequisites required!**
         
         You can enroll in this course directly.
-
-  utter_course_not_found:
-    - text: |
-        ❌ Sorry, I couldn't find course **{course_code}** in the database.
-        
-        Please check the course code and try again. Example: CCS3101, CSC4600
-
-  utter_invalid_course_code_format:
-    - text: |
-        The course code format doesn't look right. 📝
-        
-        UPM course codes follow this pattern: **3 letters + 4 digits**
-        
-        ✅ Examples: CCS3101, SKS1002, CSC4600
-
-  utter_database_error:
-    - text: |
-        I'm sorry, but I'm having trouble connecting to the academic database right now. 😔
-        
-        Please try again in a few minutes, or contact the academic office directly.
 
   utter_ask_wants_another_check:
     - text: "Would you like me to check prerequisites for another course?"
