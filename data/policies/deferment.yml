@@ -1,8 +1,64 @@
 flows:
   deferment_info:
     description: |
-      Explain deferment/leave of absence procedure, deadline, and requirements.
+      Enhanced flow to guide students through deferment/leave of absence.
+      Collects timing and reason to provide appropriate guidance.
+      Does NOT assess eligibility (requires documentation review).
       Examples: "how to defer?", "take a break from study", "LOA procedure"
-    name: deferment information
+    name: deferment guidance
     steps:
-      - action: utter_deferment_info
+      # Step 1: Intro and reason collection
+      - id: intro_deferment
+        action: utter_deferment_intro
+        next: collect_deferment_reason
+
+      - id: collect_deferment_reason
+        collect: deferment_reason
+        description: Main reason for considering deferment (medical, personal, financial, other)
+
+      # Step 2: Collect timing
+      - id: collect_deferment_timing
+        collect: current_semester_week
+        description: Current week of semester to assess timing
+
+      # Step 3: Provide guidance based on reason
+      - action: action_assess_deferment_timing
+        next:
+          - if: "slots.deferment_reason = 'medical'"
+            then:
+              - action: utter_deferment_medical
+                next: offer_deferment_procedure
+          - if: "slots.deferment_reason = 'financial'"
+            then:
+              - action: utter_deferment_financial
+                next: offer_deferment_procedure
+          - if: "slots.deferment_reason = 'personal'"
+            then:
+              - action: utter_deferment_personal
+                next: offer_deferment_procedure
+          - else:
+              - action: utter_deferment_general
+                next: offer_deferment_procedure
+
+      # Step 4: Timing-based warning
+      - id: offer_deferment_procedure
+        action: action_provide_timing_warning
+        next:
+          - if: "slots.is_late_deferment = true"
+            then:
+              - action: utter_late_deferment_warning
+                next: show_procedure
+          - else: show_procedure
+
+      # Step 5: Show procedure
+      - id: show_procedure
+        collect: wants_deferment_procedure
+        next:
+          - if: slots.wants_deferment_procedure
+            then:
+              - action: utter_deferment_procedure
+              - action: utter_deferment_impact_warning
+                next: END
+          - else:
+              - action: utter_deferment_consider
+                next: END

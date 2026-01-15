@@ -1,16 +1,241 @@
 version: "3.1"
 
+slots:
+  deferment_reason:
+    type: categorical
+    description: Main reason for considering deferment.
+    values:
+      - medical
+      - personal
+      - financial
+      - other
+    mappings:
+      - type: from_llm
+
+  current_semester_week:
+    type: float
+    description: Current week of the semester.
+    mappings:
+      - type: from_llm
+
+  is_late_deferment:
+    type: bool
+    description: Whether it's late in semester to apply for deferment.
+    mappings:
+      - type: custom
+
+  wants_deferment_procedure:
+    type: bool
+    description: Whether student wants the procedure details.
+    mappings:
+      - type: from_llm
+
+actions:
+  - action_assess_deferment_timing
+  - action_provide_timing_warning
+
 responses:
-  utter_deferment_info:
+  utter_deferment_intro:
     - text: |
-        📋 **Deferment (Leave of Absence)**
+        📋 **Deferment / Leave of Absence Guidance**
         
-        **Procedure:**
-        1. Get deferment form from Faculty
-        2. Submit with supporting documents
-        3. Obtain Dean's approval
+        Thinking about taking a break from your studies? I can help you understand the process and what to consider.
         
-        **Deadline:** Before Week 3 of semester
-        **Duration:** Maximum 2 semesters
+        ⚠️ **Note:** I can provide guidance, but deferment approval depends on documentation reviewed by the Faculty.
         
-        ⚠️ May affect PTPTN/scholarships. Contact Student Affairs for details.
+        What's your main reason for considering deferment?
+    - text: |
+        🎓 **Considering a Study Break?**
+        
+        Let me guide you through what you need to know about deferment.
+        
+        First, what's bringing this up?
+
+  utter_deferment_medical:
+    - text: |
+        🏥 **Medical Deferment**
+        
+        For health-related reasons, UPM generally provides:
+        
+        **Documentation Required:**
+        • Medical certificate from a recognized hospital
+        • Doctor's recommendation for study break
+        • Duration recommendation from medical professional
+        
+        **Good to Know:**
+        • Medical deferment is usually approved with proper documentation
+        • You may defer for 1-2 semesters
+        • Health should always come first!
+        
+        💡 Get your medical documentation ready before applying.
+    - text: |
+        🩺 **Health Comes First**
+        
+        Medical deferment requires:
+        • Hospital medical certificate
+        • Doctor's recommendation
+        
+        Focus on your recovery - the faculty is generally supportive of genuine medical cases.
+
+  utter_deferment_financial:
+    - text: |
+        💰 **Financial Difficulties**
+        
+        If you're facing financial challenges:
+        
+        **Before Deferring, Consider:**
+        • PTPTN loan adjustment
+        • Faculty emergency aid
+        • Part-time work options
+        • Scholarship appeals
+        
+        **If You Must Defer:**
+        • Apply before semester fees deadline
+        • Some fees may be waived for approved deferment
+        • Contact Bursar's office about fee implications
+        
+        💡 Talk to Student Affairs first - there may be alternatives!
+    - text: |
+        💳 **Financial Options**
+        
+        Before deferring:
+        • Check with PTPTN about adjustments
+        • Ask Faculty about emergency aid
+        • Contact Student Affairs for support options
+        
+        Deferment costs you time - explore all alternatives first!
+
+  utter_deferment_personal:
+    - text: |
+        🏠 **Personal/Family Reasons**
+        
+        For personal circumstances:
+        
+        **What to Prepare:**
+        • Written explanation letter
+        • Supporting documents (if applicable)
+        • Parent/guardian statement (for family matters)
+        
+        **Timeline:**
+        • Apply as early as possible
+        • Personal reasons may require Dean's approval
+        • Processing takes 1-2 weeks
+        
+        💡 Be honest but concise in your explanation.
+    - text: |
+        📝 **Personal Deferment**
+        
+        You'll need:
+        • Explanation letter
+        • Any supporting documents
+        
+        Apply early - personal cases need careful review.
+
+  utter_deferment_general:
+    - text: |
+        📋 **General Deferment Information**
+        
+        **Key Points:**
+        • Maximum deferment: Usually 2 semesters
+        • Apply BEFORE semester starts (if possible)
+        • All enrolled courses will be dropped
+        • Scholarship/loan may be affected
+        
+        What specific guidance would you like?
+    - text: |
+        📝 **Deferment Basics**
+        
+        • Plan ahead - apply early
+        • Check impact on scholarships
+        • Understand the return process
+
+  utter_late_deferment_warning:
+    - text: |
+        ⚠️ **Late Deferment Warning**
+        
+        At week {current_semester_week}, you're quite late in the semester to apply for deferment.
+        
+        **Implications:**
+        • May lose all fees paid this semester
+        • "W" grades may appear on transcript
+        • Approval is harder to obtain
+        
+        💡 Consider completing this semester if possible.
+    - text: |
+        🚨 **Timing Alert**
+        
+        Week {current_semester_week} is late for deferment.
+        
+        You may lose semester fees and face more complex approval process.
+        
+        Is completing this semester an option?
+
+  utter_deferment_procedure:
+    - text: |
+        📋 **Deferment Procedure (UPM)**
+        
+        **Step 1:** Get form from Faculty Academic Office
+        **Step 2:** Fill in details and reason
+        **Step 3:** Attach supporting documents
+        **Step 4:** Submit to Faculty for approval
+        **Step 5:** If approved, clear with:
+        • Library (return books)
+        • Bursar (fee settlement)
+        • Kolej (hostel clearance if applicable)
+        **Step 6:** Get final approval letter
+        
+        **Deadlines:**
+        • Best: Before semester starts
+        • Latest: Usually before Week 4
+        • After Week 4: Exceptional cases only
+    - text: |
+        🔧 **How to Apply**
+        
+        1. Get form from Faculty Office
+        2. Complete with reason + documents
+        3. Submit for approval
+        4. Clear library, fees, hostel
+        5. Receive approval letter
+        
+        Apply before Week 4 for best outcome!
+
+  utter_deferment_impact_warning:
+    - text: |
+        ⚠️ **Before You Decide - Consider This**
+        
+        **Deferment Impact:**
+        • Graduation delayed by deferred semesters
+        • PTPTN/scholarship may be affected
+        • Some courses only offered once a year
+        • You must reapply to return
+        
+        **Questions to Ask Yourself:**
+        • Is this the only option?
+        • Have I explored alternatives?
+        • Am I ready to commit to returning?
+        
+        💡 Talk to your Academic Advisor for personalized advice!
+    - text: |
+        🤔 **Think Before Deferring**
+        
+        • Delays graduation
+        • Affects financial aid
+        • Must reapply to return
+        
+        Make sure you've considered all options!
+
+  utter_deferment_consider:
+    - text: |
+        💭 **Take Your Time**
+        
+        This is a significant decision. Consider:
+        
+        • Talking to your family
+        • Consulting your Academic Advisor
+        • Exploring all alternatives first
+        
+        Your advisor is here when you're ready to discuss further.
+    - text: |
+        🤔 **No Rush**
+        
+        Take time to think it through. Your Academic Advisor can help you weigh the options.
