@@ -44,3 +44,7 @@ build/
 # Coverage
 .coverage
 htmlcov/
+
+# Rasa cache and runtime databases
+.rasa/
+db/tracker.db
