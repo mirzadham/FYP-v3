@@ -61,32 +61,61 @@ def extract_text_from_pdf(pdf_path: str) -> str:
 
 
 def chunk_by_course_code(text: str) -> List[Dict[str, str]]:
-    """Split text into chunks, each containing one course's information."""
+    """Split text into chunks, each containing one course's information.
+    
+    Only matches course codes at the START of a line to avoid picking up
+    prerequisite course codes mentioned in the middle of text.
+    """
     print("🔍 Detecting course codes and chunking text...")
     
-    # Find all course code positions
-    matches = list(COURSE_CODE_PATTERN.finditer(text))
+    # Pattern to match course codes at the START of a line only
+    # This prevents matching prerequisite codes like "Prasyarat : ENG3001"
+    line_start_pattern = re.compile(r'^([A-Z]{2,4}\d{3,4})\s', re.MULTILINE)
+    
+    # Find all course code positions (only at line starts)
+    matches = list(line_start_pattern.finditer(text))
     
     if not matches:
         print("   ⚠️ No course codes found!")
         return []
     
+    # Deduplicate consecutive matches for the same course code
+    # (in case same code appears multiple times at line starts)
+    unique_matches = []
+    seen_positions = set()
+    for match in matches:
+        code = match.group(1)
+        # Check if this is a new course block (not just a reference)
+        # by looking at some context after the code
+        pos = match.start()
+        if pos not in seen_positions:
+            unique_matches.append(match)
+            seen_positions.add(pos)
+    
     # Create chunks between consecutive course codes
     chunks = []
-    for i, match in enumerate(matches):
+    for i, match in enumerate(unique_matches):
         start = match.start()
         # End at the next course code or end of text
-        end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
+        end = unique_matches[i + 1].start() if i + 1 < len(unique_matches) else len(text)
         
         chunk_text = text[start:end].strip()
         course_code = match.group(1)
         
-        # Skip very short chunks (likely false positives)
+        # Skip very short chunks (likely false positives or page headers)
+        # Also skip if the chunk doesn't contain typical course info patterns
         if len(chunk_text) > 100:
-            chunks.append({
-                "course_code": course_code,
-                "raw_text": chunk_text
-            })
+            # Additional validation: check if chunk looks like a course definition
+            # (should have credit hours pattern or "Prasyarat"/"Prerequisite")
+            has_credits = bool(re.search(r'\d\s*\(\s*\d\+\d\s*\)', chunk_text))
+            has_prereq = 'prasyarat' in chunk_text.lower() or 'prerequisite' in chunk_text.lower()
+            has_description = len(chunk_text) > 200  # Course descriptions are usually longer
+            
+            if has_credits or has_prereq or has_description:
+                chunks.append({
+                    "course_code": course_code,
+                    "raw_text": chunk_text
+                })
     
     print(f"   Found {len(chunks)} potential course chunks")
     return chunks
