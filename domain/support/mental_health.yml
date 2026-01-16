@@ -9,7 +9,7 @@ slots:
 responses:
   utter_ask_wants_more_health_guidance:
     - text: |
-        Would you like me to share some coping strategies or more information about UPM's counseling services?
+        Would you like me to share some coping strategies or more information about UPM's counselling services?
 
   utter_mental_health_support:
     - text: |

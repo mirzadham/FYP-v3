@@ -138,7 +138,7 @@ def extract_faculty_name(pdf_path: str) -> str:
         "Fakulti_Perhutanan_dan_Alam_Sekitar": "Fakulti Perhutanan dan Alam Sekitar",
         "Fakulti_Sains_Pertanian_dan_Perhutanan": "Fakulti Sains Pertanian dan Perhutanan",
         "FAKULTI SAINS DAN TEKNOLOGI MAKANAN": "Fakulti Sains dan Teknologi Makanan",
-        "FAKULTI EKOLOGI MANUSIA": "Fakulti Ekoologi Manusia",
+        "FAKULTI EKOLOGI MANUSIA": "Fakulti Ekologi Manusia",
         "Fakulti_Rekabentuk_dan_Senibina": "Fakulti Rekabentuk dan Senibina",
         "Fakulti_Bioteknologi_dan_Sains_Biomolekul": "Fakulti Bioteknologi dan Sains Biomolekul",
     }
