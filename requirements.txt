@@ -7,8 +7,9 @@ rasa-pro>=3.10.0
 # OpenAI integration for LLM
 openai>=1.0.0
 
-# SQLite database support (SQLAlchemy for tracker store)
+# Database support
 sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
 
 # For custom actions server
 rasa-sdk>=3.10.0
