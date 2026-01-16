@@ -14,9 +14,12 @@ responses:
         • Dropping courses and deferment
         • Credit transfer and program changes
         
-        🎯 **Other Topics**
-        • Graduation requirements
-        • Industrial training information
-        • Exam schedules and regulations
-        
         Just ask me anything about your academic journey!
+
+  utter_wellbeing_support:
+    - text: |
+        💚 **Wellbeing Support**
+        • Feeling stressed or overwhelmed? I'm here to help.
+        • UPM counselling services (BKUPM) information
+        
+        Just let me know if you need someone to talk to or want resources.
