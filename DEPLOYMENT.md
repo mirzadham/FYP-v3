@@ -124,6 +124,11 @@ curl "https://api.telegram.org/bot<YOUR_TOKEN>/setWebhook?url=https://rasa-serve
 - **Logs**: `gcloud run logs tail rasa-server --region=asia-southeast1`
 - **Cloud SQL**: https://console.cloud.google.com/sql
 
+## Architecture Notes
+
+### Service Communication
+The action server is deployed with `--ingress=internal` to restrict access to Cloud Run services within the same project and region. This prevents direct external access while allowing the Rasa server to communicate with it using the standard Cloud Run URL. No VPC connector is required for Cloud Run-to-Cloud Run communication in the same region.
+
 ## Estimated Costs
 
 | Resource | Monthly Cost |

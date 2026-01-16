@@ -57,6 +57,9 @@ jobs:
 
       - name: Deploy Action Server to Cloud Run
         run: |
+          # --ingress=internal restricts access to Cloud Run services in same project/region
+          # The Rasa server (also in Cloud Run, same region) can access via standard URL
+          # --allow-unauthenticated is safe here as ingress is already restricted to internal
           gcloud run deploy ${{ env.ACTIONS_SERVICE }} \
             --image=${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/actions:${{ github.sha }} \
             --region=${{ env.REGION }} \
