@@ -55,21 +55,20 @@ jobs:
           docker push ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/rasa:${{ github.sha }}
           docker push ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/rasa:latest
 
-      - name: Deploy Action Server to Cloud Run
+      - name: Deploy Action Server
         run: |
-          # --ingress=internal restricts access to Cloud Run services in same project/region
-          # The Rasa server (also in Cloud Run, same region) can access via standard URL
-          # --allow-unauthenticated is safe here as ingress is already restricted to internal
-          gcloud run deploy ${{ env.ACTIONS_SERVICE }} \
-            --image=${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/actions:${{ github.sha }} \
+          gcloud run deploy action-server \
+            --image=${{ env.REGISTRY }}/${{ secrets.GCP_PROJECT_ID }}/rasa-chatbot/actions:${{ github.sha }} \
             --region=${{ env.REGION }} \
             --platform=managed \
             --allow-unauthenticated \
             --ingress=internal \
-            --memory=512Mi \
-            --cpu=1 \
+            --memory=2Gi \
+            --cpu=2 \
             --min-instances=0 \
-            --max-instances=2
+            --max-instances=2 \
+            --timeout=300 \
+            --set-env-vars="PORT=8080"
 
       - name: Get Action Server URL
         id: action-url
