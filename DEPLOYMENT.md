@@ -39,7 +39,8 @@ gcloud sql instances create rasa-db \
 # Create database
 gcloud sql databases create rasa_tracker --instance=rasa-db
 
-# Set password
+# Set a strong, randomly generated password (recommended for production)
+# Generate secure password: openssl rand -base64 32
 gcloud sql users set-password postgres \
   --instance=rasa-db \
   --password=YOUR_SECURE_PASSWORD
@@ -122,6 +123,11 @@ curl "https://api.telegram.org/bot<YOUR_TOKEN>/setWebhook?url=https://rasa-serve
 - **Cloud Run Console**: https://console.cloud.google.com/run
 - **Logs**: `gcloud run logs tail rasa-server --region=asia-southeast1`
 - **Cloud SQL**: https://console.cloud.google.com/sql
+
+## Architecture Notes
+
+### Service Communication
+The action server is deployed with `--ingress=internal` to restrict access to Cloud Run services within the same project and region. This prevents direct external access while allowing the Rasa server to communicate with it using the standard Cloud Run URL. No VPC connector is required for Cloud Run-to-Cloud Run communication in the same region.
 
 ## Estimated Costs
 

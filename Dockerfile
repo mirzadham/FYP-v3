@@ -40,8 +40,10 @@ COPY credentials.yml .
 COPY endpoints.yml .
 COPY domain/ domain/
 COPY data/ data/
-COPY models/ models/
 COPY prompt/ prompt/
+
+# Create models directory (models are trained separately or at runtime)
+RUN mkdir -p models
 
 # Cloud Run uses PORT environment variable
 ENV PORT=8080

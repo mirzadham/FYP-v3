@@ -44,24 +44,28 @@ jobs:
       - name: Build and push Action Server image
         run: |
           docker build -f Dockerfile.actions -t ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/actions:${{ github.sha }} .
-          docker build -f Dockerfile.actions -t ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/actions:latest .
+          docker tag ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/actions:${{ github.sha }} ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/actions:latest
           docker push ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/actions:${{ github.sha }}
           docker push ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/actions:latest
 
       - name: Build and push Rasa Server image
         run: |
           docker build -f Dockerfile -t ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/rasa:${{ github.sha }} .
-          docker build -f Dockerfile -t ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/rasa:latest .
+          docker tag ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/rasa:${{ github.sha }} ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/rasa:latest
           docker push ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/rasa:${{ github.sha }}
           docker push ${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/rasa:latest
 
       - name: Deploy Action Server to Cloud Run
         run: |
+          # --ingress=internal restricts access to Cloud Run services in same project/region
+          # The Rasa server (also in Cloud Run, same region) can access via standard URL
+          # --allow-unauthenticated is safe here as ingress is already restricted to internal
           gcloud run deploy ${{ env.ACTIONS_SERVICE }} \
             --image=${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/actions:${{ github.sha }} \
             --region=${{ env.REGION }} \
             --platform=managed \
             --allow-unauthenticated \
+            --ingress=internal \
             --memory=512Mi \
             --cpu=1 \
             --min-instances=0 \
@@ -75,6 +79,10 @@ jobs:
 
       - name: Deploy Rasa Server to Cloud Run
         run: |
+          # Note: --allow-unauthenticated is required for Telegram webhooks
+          # Consider implementing application-level authentication or Cloud Armor for DDoS protection
+          # --min-instances=1 ensures no cold starts but incurs continuous costs (~RM40/month)
+          # Set to --min-instances=0 for cost optimization if cold start latency (30-60s) is acceptable
           gcloud run deploy ${{ env.RASA_SERVICE }} \
             --image=${{ env.REGISTRY }}/${{ env.PROJECT_ID }}/rasa-chatbot/rasa:${{ github.sha }} \
             --region=${{ env.REGION }} \
