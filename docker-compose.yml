@@ -25,6 +25,8 @@ services:
       context: .
       dockerfile: Dockerfile.actions
     ports:
+      # Map container port 8080 to host port 5055 for local development
+      # Container listens on 8080 (PORT env var), exposed on host at 5055
       - "5055:8080"
     environment:
       - PORT=8080

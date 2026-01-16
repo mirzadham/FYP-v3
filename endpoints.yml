@@ -8,6 +8,8 @@ action_endpoint:
 # Tracker store configuration - Cloud SQL PostgreSQL
 # For local dev: use docker-compose postgres
 # For Cloud Run: use Cloud SQL connection string
+# WARNING: Default credentials (rasa/rasa) are for local development only
+# NEVER use these credentials in production or internet-accessible environments
 tracker_store:
   type: SQL
   dialect: postgresql

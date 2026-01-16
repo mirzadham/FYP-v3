@@ -39,7 +39,8 @@ gcloud sql instances create rasa-db \
 # Create database
 gcloud sql databases create rasa_tracker --instance=rasa-db
 
-# Set password
+# Set a strong, randomly generated password (recommended for production)
+# Generate secure password: openssl rand -base64 32
 gcloud sql users set-password postgres \
   --instance=rasa-db \
   --password=YOUR_SECURE_PASSWORD
