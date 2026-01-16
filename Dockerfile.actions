@@ -8,13 +8,11 @@ RUN apt-get update && apt-get install -y libpq5 curl && rm -rf /var/lib/apt/list
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# CRITICAL: Add pip's bin to PATH
-ENV PATH="/root/.local/bin:$PATH"
-
 COPY actions/ actions/
 
 # PORT is injected by Cloud Run; default 8080 used for local development
 EXPOSE 8080
 
 # Use shell form to allow PORT variable substitution from Cloud Run
-CMD exec /root/.local/bin/rasa run actions -p ${PORT:-8080}
+# Note: rasa is installed to /usr/local/bin by pip (without --user flag)
+CMD exec rasa run actions -p ${PORT:-8080}
