@@ -48,3 +48,16 @@ htmlcov/
 # Rasa cache and runtime databases
 .rasa/
 db/tracker.db
+
+# Development artifacts
+temp_build/
+results/
+test_output.txt
+test_results.txt
+test_plan.md
+*.ps1
+academic_advisor_responsibilities.txt
+
+# Source data files (not needed in production)
+data/handbook/pdf/
+data/handbook/txt/
