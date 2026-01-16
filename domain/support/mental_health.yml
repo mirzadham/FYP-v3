@@ -9,7 +9,7 @@ slots:
 responses:
   utter_ask_wants_more_health_guidance:
     - text: |
-        Would you like me to share some coping strategies or more information about UPM's counselling services?
+        Would you like me to share some coping strategies or more information about UPM's counseling services?
 
   utter_mental_health_support:
     - text: |
@@ -74,7 +74,7 @@ responses:
 
   utter_upm_counseling:
     - text: |
-        🏥 **UPM Counselling Division (BKUPM)**
+        🏥 **UPM Counseling Division (BKUPM)**
 
         BKUPM offers professional support for all UPM students.
 
@@ -85,7 +85,7 @@ responses:
         • **Location:** Ground Floor, Student Affairs Building
 
         **Services:**
-        • Individual & Group Counselling
+        • Individual & Group Counseling
         • Crisis Intervention
         • Personal Development & Academic Stress Management
 
