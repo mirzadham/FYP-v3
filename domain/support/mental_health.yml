@@ -74,7 +74,7 @@ responses:
 
   utter_upm_counseling:
     - text: |
-        🏥 **UPM Counselling Division (BKUPM)**
+        🏥 **UPM Counseling Division (BKUPM)**
 
         BKUPM offers professional support for all UPM students.
 
@@ -85,7 +85,7 @@ responses:
         • **Location:** Ground Floor, Student Affairs Building
 
         **Services:**
-        • Individual & Group Counselling
+        • Individual & Group Counseling
         • Crisis Intervention
         • Personal Development & Academic Stress Management
 
