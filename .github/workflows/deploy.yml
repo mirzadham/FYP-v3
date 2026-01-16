@@ -67,8 +67,7 @@ jobs:
             --cpu=2 \
             --min-instances=0 \
             --max-instances=2 \
-            --timeout=300 \
-            --set-env-vars="PORT=8080"
+            --timeout=300
 
       - name: Get Action Server URL
         id: action-url
