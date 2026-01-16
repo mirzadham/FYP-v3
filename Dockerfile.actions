@@ -8,9 +8,13 @@ RUN apt-get update && apt-get install -y libpq5 curl && rm -rf /var/lib/apt/list
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# CRITICAL: Add pip's bin to PATH
+ENV PATH="/root/.local/bin:$PATH"
+
 COPY actions/ actions/
 
 ENV PORT=8080
 EXPOSE 8080
 
-CMD rasa run actions -p $PORT
+# Use explicit path and JSON format
+CMD ["/root/.local/bin/rasa", "run", "actions", "-p", "8080"]
