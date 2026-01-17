@@ -21,6 +21,8 @@ models/
 # Environment variables
 .env
 .env.local
+credentials.local.yml
+endpoints.local.yml
 
 # Logs
 *.log
