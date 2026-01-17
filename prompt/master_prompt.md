@@ -20,7 +20,7 @@ Existing Assets (Strictly Preserved):
 
 /domain folder: Contains domain definitions.
 
-Keys: I have the OPENAI_API_KEY and RASA_PRO_LICENSE.
+Keys: I have the OPENAI_API_KEY and RASA_LICENSE.
 
 Task Instructions (Execute Step-by-Step):
 
