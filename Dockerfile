@@ -46,12 +46,12 @@ COPY prompt/ prompt/
 # Create models directory (models are trained separately or at runtime)
 RUN mkdir -p models
 
-# Railway injects PORT automatically
-EXPOSE ${PORT:-8080}
+# Railway injects PORT automatically (container metadata exposes default port)
+EXPOSE 8080
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
-    CMD curl -f http://localhost:${PORT:-8080}/ || exit 1
+    CMD /bin/sh -c 'curl -f http://localhost:${PORT:-8080}/ || exit 1'
 
 # Run Rasa server
 CMD exec rasa run \
