@@ -44,12 +44,7 @@ rasa train
 
 ### 4. Run the Bot
 
-**Option A: Using the script (recommended)**
-```powershell
-.\scripts\run_local.ps1
-```
-
-**Option B: Manual startup**
+**Run services manually**
 ```powershell
 # Terminal 1: Action Server
 .\venv\Scripts\Activate.ps1
