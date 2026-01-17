@@ -16,9 +16,6 @@ from .handbook_utils import (
 )
 from .openai_actions import ActionOpenAIResponse
 
-# Deprecated - kept for backward compatibility
-from .db_utils import get_db_connection
-
 __all__ = [
     # Primary - use these
     "get_course_by_code",
@@ -28,6 +25,4 @@ __all__ = [
     "get_course_count",
     "get_embedding_count",
     "ActionOpenAIResponse",
-    # Deprecated
-    "get_db_connection",
 ]
