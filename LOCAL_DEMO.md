@@ -16,7 +16,7 @@ Run the Academic Advisor Chatbot locally without Docker or cloud deployment.
 
 ```powershell
 # Clone/navigate to project
-cd "c:\Users\ADMIN 2025\Documents\AcademicAdvisor-Chatbot-V3"
+cd "C:\path\to\AcademicAdvisor-Chatbot-V3"
 
 # Create virtual environment (if not exists)
 python -m venv venv
