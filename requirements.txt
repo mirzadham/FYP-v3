@@ -1,5 +1,5 @@
 # Rasa Pro requirements for Academic Advisor Chatbot
-# Note: Rasa Pro requires a valid RASA_PRO_LICENSE environment variable
+# Note: Rasa Pro requires a valid RASA_LICENSE environment variable
 
 # Rasa Pro (requires license) - [channels] extra needed for Telegram integration
 rasa-pro[channels]>=3.10.0
