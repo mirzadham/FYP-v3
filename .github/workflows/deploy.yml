@@ -95,7 +95,9 @@ jobs:
             --set-env-vars="RASA_LICENSE=${{ secrets.RASA_LICENSE }}" \
             --set-env-vars="OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" \
             --set-env-vars="DATABASE_URL=${{ secrets.DATABASE_URL }}" \
-            --set-env-vars="ACTION_SERVER_URL=${{ steps.action-url.outputs.url }}/webhook"
+            --set-env-vars="ACTION_SERVER_URL=${{ steps.action-url.outputs.url }}/webhook" \
+            --set-env-vars="TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}" \
+            --set-env-vars="TELEGRAM_BOT_USERNAME=${{ secrets.TELEGRAM_BOT_USERNAME }}"
 
       - name: Get Rasa Server URL
         run: |
