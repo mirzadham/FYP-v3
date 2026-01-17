@@ -68,7 +68,7 @@ jobs:
             --min-instances=0 \
             --max-instances=2 \
             --timeout=300 \
-            --set-env-vars="RASA_PRO_LICENSE=${{ secrets.RASA_PRO_LICENSE }}"
+            --set-env-vars="RASA_LICENSE=${{ secrets.RASA_PRO_LICENSE }}"
 
       - name: Get Action Server URL
         id: action-url
@@ -92,7 +92,7 @@ jobs:
             --min-instances=1 \
             --max-instances=3 \
             --add-cloudsql-instances=${{ secrets.CLOUD_SQL_CONNECTION }} \
-            --set-env-vars="RASA_PRO_LICENSE=${{ secrets.RASA_PRO_LICENSE }}" \
+            --set-env-vars="RASA_LICENSE=${{ secrets.RASA_PRO_LICENSE }}" \
             --set-env-vars="OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" \
             --set-env-vars="DATABASE_URL=${{ secrets.DATABASE_URL }}" \
             --set-env-vars="ACTION_SERVER_URL=${{ steps.action-url.outputs.url }}/webhook"
