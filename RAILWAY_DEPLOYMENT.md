@@ -20,7 +20,7 @@ Deploy the Academic Advisor Chatbot to Railway with automatic GitHub integration
 │  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐  │
 │  │  PostgreSQL  │    │ rasa-server  │    │action-server │  │
 │  │  (Database)  │◄───│  (Dockerfile)│───►│(Dockerfile.actions)│  │
-│  │              │    │              │    │   actions)   │  │
+│  │              │    │              │    │  (Actions)   │  │
 │  └──────────────┘    └──────────────┘    └──────────────┘  │
 │         ▲                   ▲                              │
 │         │                   │                              │
