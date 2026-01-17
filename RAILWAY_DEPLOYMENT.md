@@ -19,8 +19,8 @@ Deploy the Academic Advisor Chatbot to Railway with automatic GitHub integration
 │                                                              │
 │  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐  │
 │  │  PostgreSQL  │    │ rasa-server  │    │action-server │  │
-│  │  (Database)  │◄───│  (Dockerfile)│───►│(Dockerfile.  │  │
-│  │              │    │              │    │   actions)   │  │
+│  │  (Database)  │◄───│  (Dockerfile)│───►│(Dockerfile.actions)│  │
+│  │              │    │              │    │  (Actions)   │  │
 │  └──────────────┘    └──────────────┘    └──────────────┘  │
 │         ▲                   ▲                              │
 │         │                   │                              │
@@ -76,7 +76,7 @@ Deploy the Academic Advisor Chatbot to Railway with automatic GitHub integration
 | `OPENAI_API_KEY` | Your OpenAI API key |
 | `TELEGRAM_BOT_TOKEN` | Your Telegram bot token |
 | `TELEGRAM_BOT_USERNAME` | `UPMAcademicAdvisorBot` |
-| `DATABASE_URL` | `${{Postgres.DATABASE_URL}}` (click "Add Reference") |
+| `DATABASE_URL` | `${{PostgreSQL.DATABASE_URL}}` (click "Add Reference") |
 | `ACTION_SERVER_URL` | `http://action-server.railway.internal:8080/webhook` |
 | `RASA_SERVER_URL` | (set after step 5) |
 
@@ -138,7 +138,7 @@ No GitHub Actions or CI/CD configuration needed.
 | Action Server | ~$5-10 |
 | **Total** | **~$20-30** |
 
-*Hobby plan includes $5 free credit/month, so effective cost is ~$15-25/month*
+*These are rough estimates. Railway pricing and any free credits can change over time—check Railway's current pricing page for the latest details and your actual charges.*
 
 ## Troubleshooting
 
@@ -154,7 +154,7 @@ No GitHub Actions or CI/CD configuration needed.
 
 ### Database Connection Failed
 - Verify `DATABASE_URL` references PostgreSQL service correctly
-- Use Railway's "Add Reference" feature: `${{Postgres.DATABASE_URL}}`
+- Use Railway's "Add Reference" feature: `${{PostgreSQL.DATABASE_URL}}`
 
 ### Telegram Not Responding
 - Verify webhook URL is set correctly (use curl command above)
