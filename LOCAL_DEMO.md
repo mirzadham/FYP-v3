@@ -31,18 +31,32 @@ pip install -r requirements.txt
 Copy `.env.example` to `.env` and fill in your values:
 
 ```
-RASA_LICENSE = <your-rasa-pro-license>
-OPENAI_API_KEY = <your-openai-api-key>
-TELEGRAM_BOT_TOKEN = <your-telegram-bot-token>
+RASA_LICENSE=<your-rasa-pro-license>
+OPENAI_API_KEY=<your-openai-api-key>
+TELEGRAM_BOT_TOKEN=<your-telegram-bot-token>
 ```
 
-### 3. Train Model (if needed)
+### 3. Configure Local Settings
+
+Copy the example configuration files for local development:
+
+```powershell
+# Copy credentials template
+cp credentials.local.yml.example credentials.local.yml
+
+# Copy endpoints template
+cp endpoints.local.yml.example endpoints.local.yml
+```
+
+After copying, update `credentials.local.yml` with your ngrok URL once you start ngrok in step 5.
+
+### 4. Train Model (if needed)
 
 ```powershell
 rasa train
 ```
 
-### 4. Run the Bot
+### 5. Run the Bot
 
 **Run services manually**
 ```powershell
@@ -55,7 +69,7 @@ rasa run actions --port 5055
 rasa run --enable-api --cors "*" --port 5005 --endpoints endpoints.local.yml --credentials credentials.local.yml
 ```
 
-### 5. Setup Telegram Webhook
+### 6. Setup Telegram Webhook
 
 ```powershell
 # Terminal 3: Start ngrok
@@ -64,12 +78,19 @@ ngrok http 5005
 
 Copy the HTTPS URL from ngrok (e.g., `https://abc123.ngrok.io`)
 
-Set the webhook:
+**Update credentials.local.yml:**
+Open `credentials.local.yml` and replace `YOUR_NGROK_URL` with your actual ngrok URL:
+```yaml
+telegram:
+  webhook_url: "https://abc123.ngrok.io/webhooks/telegram/webhook"
+```
+
+**Set the webhook:**
 ```
 https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook?url=<NGROK_URL>/webhooks/telegram/webhook
 ```
 
-### 6. Test the Bot
+### 7. Test the Bot
 
 Open Telegram and message your bot!
 

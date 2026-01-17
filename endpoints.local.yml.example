@@ -1,0 +1,13 @@
+# Local Development Endpoints Configuration
+# Copy this file to endpoints.local.yml and configure for local setup
+
+# Action server endpoint for custom actions
+action_endpoint:
+  url: "http://localhost:5055/webhook"
+
+# Tracker store configuration - Local SQLite for development
+# Note: For local demo, SQLite is simpler than PostgreSQL
+tracker_store:
+  type: SQL
+  dialect: sqlite
+  db: "rasa_tracker.db"
