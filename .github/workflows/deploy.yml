@@ -67,7 +67,8 @@ jobs:
             --cpu=2 \
             --min-instances=0 \
             --max-instances=2 \
-            --timeout=300
+            --timeout=300 \
+            --set-env-vars="RASA_PRO_LICENSE=${{ secrets.RASA_PRO_LICENSE }}"
 
       - name: Get Action Server URL
         id: action-url
