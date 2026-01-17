@@ -60,7 +60,7 @@ Deploy the Academic Advisor Chatbot to Railway with automatic GitHub integration
    - **Root Directory**: Leave empty
    - **Dockerfile Path**: `Dockerfile.actions`
 5. Go to **"Variables"** tab and add:
-   - `RASA_PRO_LICENSE` = Your Rasa Pro license
+   - `RASA_LICENSE` = Your Rasa Pro license
 
 ### 4. Configure Rasa Server Service
 
@@ -72,7 +72,7 @@ Deploy the Academic Advisor Chatbot to Railway with automatic GitHub integration
 
 | Variable | Value |
 |----------|-------|
-| `RASA_PRO_LICENSE` | Your Rasa Pro license |
+| `RASA_LICENSE` | Your Rasa Pro license |
 | `OPENAI_API_KEY` | Your OpenAI API key |
 | `TELEGRAM_BOT_TOKEN` | Your Telegram bot token |
 | `TELEGRAM_BOT_USERNAME` | `UPMAcademicAdvisorBot` |
@@ -150,7 +150,7 @@ No GitHub Actions or CI/CD configuration needed.
 ### Service Crashes or Won't Start
 - Check "View Logs" for error messages
 - Verify all required environment variables are set
-- Ensure `RASA_PRO_LICENSE` is valid
+- Ensure `RASA_LICENSE` is valid
 
 ### Database Connection Failed
 - Verify `DATABASE_URL` references PostgreSQL service correctly
