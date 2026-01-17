@@ -17,6 +17,9 @@ from .academic import (
     ActionCheckPrerequisites,
     ActionValidateCourseCodeFormat,
     ActionResetCourseCode,
+    ActionResetCourseSlots,
+    ActionProvideCourseFollowup,
+    ActionSearchCourses,
     ActionCheckGraduationAssessmentChoice,
     ActionValidateCredits,
     ActionResetCredits,
@@ -48,6 +51,8 @@ from .policies import (
     ActionResetDays,
     ActionCheckAppealDeadline,
     ActionAssessAppealReadiness,
+    ActionAssessDefermentTiming,
+    ActionProvideTimingWarning,
 )
 
 from .admin import (
@@ -73,6 +78,9 @@ __all__ = [
     "ActionCheckPrerequisites",
     "ActionValidateCourseCodeFormat",
     "ActionResetCourseCode",
+    "ActionResetCourseSlots",
+    "ActionProvideCourseFollowup",
+    "ActionSearchCourses",
     "ActionCheckGraduationAssessmentChoice",
     "ActionValidateCredits",
     "ActionResetCredits",
@@ -102,6 +110,8 @@ __all__ = [
     "ActionResetDays",
     "ActionCheckAppealDeadline",
     "ActionAssessAppealReadiness",
+    "ActionAssessDefermentTiming",
+    "ActionProvideTimingWarning",
     # Admin actions
     "ActionCheckTransferChoice",
     "ActionAssessTransferEligibility",
