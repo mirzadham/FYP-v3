@@ -42,13 +42,13 @@ Copy the example configuration files for local development:
 
 ```powershell
 # Copy credentials template
-cp credentials.local.yml.example credentials.local.yml
+Copy-Item credentials.local.yml.example credentials.local.yml
 
 # Copy endpoints template
-cp endpoints.local.yml.example endpoints.local.yml
+Copy-Item endpoints.local.yml.example endpoints.local.yml
 ```
 
-After copying, update `credentials.local.yml` with your ngrok URL once you start ngrok in step 5.
+After copying, update `credentials.local.yml` with your ngrok URL once you start ngrok in step 6.
 
 ### 4. Train Model (if needed)
 
@@ -76,13 +76,13 @@ rasa run --enable-api --cors "*" --port 5005 --endpoints endpoints.local.yml --c
 ngrok http 5005
 ```
 
-Copy the HTTPS URL from ngrok (e.g., `https://abc123.ngrok.io`)
+Copy the HTTPS URL from ngrok (e.g., `https://your-unique-id.ngrok.io`)
 
 **Update credentials.local.yml:**
-Open `credentials.local.yml` and replace `YOUR_NGROK_URL` with your actual ngrok URL:
+Open `credentials.local.yml` and replace `your-unique-id` with your actual ngrok subdomain:
 ```yaml
 telegram:
-  webhook_url: "https://abc123.ngrok.io/webhooks/telegram/webhook"
+  webhook_url: "https://your-unique-id.ngrok.io/webhooks/telegram/webhook"
 ```
 
 **Set the webhook:**
