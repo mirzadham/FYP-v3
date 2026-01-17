@@ -49,7 +49,7 @@ htmlcov/
 
 # Rasa cache and runtime databases
 .rasa/
-db/tracker.db
+*.db
 
 # Development artifacts
 temp_build/
@@ -69,3 +69,5 @@ github-actions-key.json
 *.json
 
 log_archive/
+
+tools/
