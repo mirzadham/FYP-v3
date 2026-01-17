@@ -80,7 +80,7 @@ Add these secrets to your GitHub repository (Settings → Secrets → Actions):
 | `GCP_SA_KEY` | Contents of `key.json` |
 | `CLOUD_SQL_CONNECTION` | `PROJECT:asia-southeast1:rasa-db` |
 | `DATABASE_URL` | `postgresql://postgres:PASSWORD@/rasa_tracker?host=/cloudsql/PROJECT:asia-southeast1:rasa-db` |
-| `RASA_PRO_LICENSE` | Your Rasa Pro license |
+| `RASA_LICENSE` | Your Rasa Pro license |
 | `OPENAI_API_KEY` | Your OpenAI API key |
 | `TELEGRAM_BOT_TOKEN` | Your Telegram bot token |
 

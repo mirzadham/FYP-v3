@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         env:
-          RASA_PRO_LICENSE: ${{ secrets.RASA_PRO_LICENSE }}
+          RASA_PRO_LICENSE: ${{ secrets.RASA_LICENSE }}
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
@@ -34,7 +34,7 @@ jobs:
       - name: Run unit tests
         continue-on-error: true  # Don't block PR on test failures during setup phase
         env:
-          RASA_PRO_LICENSE: ${{ secrets.RASA_PRO_LICENSE }}
+          RASA_PRO_LICENSE: ${{ secrets.RASA_LICENSE }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python -m pytest tests/ -v --ignore=tests/integration/ || echo "Tests failed but continuing..."
@@ -42,7 +42,7 @@ jobs:
       - name: Validate Rasa config
         continue-on-error: true  # Don't block on validation during setup
         env:
-          RASA_PRO_LICENSE: ${{ secrets.RASA_PRO_LICENSE }}
+          RASA_PRO_LICENSE: ${{ secrets.RASA_LICENSE }}
         run: |
           rasa data validate --domain domain/ || echo "Validation failed but continuing..."
 
