@@ -1,4 +1,4 @@
-# Rasa Server Dockerfile
+# Rasa Server Dockerfile for Railway
 # Multi-stage build for smaller production image
 
 # ================================
@@ -25,10 +25,10 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-# Install runtime dependencies (including gettext for envsubst)
+# Install runtime dependencies
 RUN apt-get update && apt-get install -y \
     libpq5 \
-    gettext-base \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy installed packages from builder
@@ -37,8 +37,8 @@ ENV PATH=/root/.local/bin:$PATH
 
 # Copy application files
 COPY config.yml .
-COPY credentials.yml credentials.yml.template
-COPY endpoints.yml endpoints.yml.template
+COPY credentials.yml .
+COPY endpoints.yml .
 COPY domain/ domain/
 COPY data/ data/
 COPY prompt/ prompt/
@@ -46,23 +46,17 @@ COPY prompt/ prompt/
 # Create models directory (models are trained separately or at runtime)
 RUN mkdir -p models
 
-# Cloud Run uses PORT environment variable
-ENV PORT=8080
-
-# Expose port
+# Railway injects PORT automatically (container metadata exposes default port)
 EXPOSE 8080
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
-    CMD curl -f http://localhost:8080/ || exit 1
+    CMD /bin/sh -c 'curl -f http://localhost:${PORT:-8080}/ || exit 1'
 
-# Startup script: substitute env vars and run Rasa
-# envsubst replaces ${VAR} with actual environment variable values
-CMD envsubst < /app/credentials.yml.template > /app/credentials.yml && \
-    envsubst < /app/endpoints.yml.template > /app/endpoints.yml && \
-    exec rasa run \
+# Run Rasa server
+CMD exec rasa run \
     --enable-api \
     --cors "*" \
-    --port ${PORT} \
+    --port ${PORT:-8080} \
     --endpoints endpoints.yml \
     --credentials credentials.yml
