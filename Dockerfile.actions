@@ -1,4 +1,4 @@
-# Action Server Dockerfile
+# Action Server Dockerfile for Railway
 FROM python:3.10-slim
 
 WORKDIR /app
@@ -14,9 +14,12 @@ COPY actions/ actions/
 COPY data/handbook/json/ data/handbook/json/
 COPY data/handbook/embeddings/ data/handbook/embeddings/
 
-# PORT is injected by Cloud Run; default 8080 used for local development
-EXPOSE 8080
+# Railway injects PORT automatically
+EXPOSE ${PORT:-8080}
 
-# Use shell form to allow PORT variable substitution from Cloud Run
-# Note: rasa is installed to /usr/local/bin by pip (without --user flag)
+# Health check for Railway
+HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
+    CMD curl -f http://localhost:${PORT:-8080}/health || exit 1
+
+# Run action server
 CMD exec rasa run actions -p ${PORT:-8080}
