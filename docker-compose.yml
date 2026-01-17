@@ -42,7 +42,7 @@ services:
       - "5005:8080"
     environment:
       - PORT=8080
-      - RASA_PRO_LICENSE=${RASA_PRO_LICENSE}
+      - RASA_LICENSE=${RASA_LICENSE}
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - DATABASE_URL=postgresql://rasa:rasa@postgres:5432/rasa_tracker
       - ACTION_SERVER_URL=http://action-server:8080/webhook
