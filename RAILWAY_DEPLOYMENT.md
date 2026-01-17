@@ -154,7 +154,7 @@ No GitHub Actions or CI/CD configuration needed.
 
 ### Database Connection Failed
 - Verify `DATABASE_URL` references PostgreSQL service correctly
-- Use Railway's "Add Reference" feature: `${{Postgres.DATABASE_URL}}`
+- Use Railway's "Add Reference" feature: `${{PostgreSQL.DATABASE_URL}}`
 
 ### Telegram Not Responding
 - Verify webhook URL is set correctly (use curl command above)
