@@ -68,6 +68,12 @@ data/handbook/txt/
 github-actions-key.json
 *.json
 
+# Downloaded logs and debug files
+downloaded-*.json
+
+# Executables (download separately when needed)
+*.exe
+
 log_archive/
 
 tools/
