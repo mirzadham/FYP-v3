@@ -62,7 +62,6 @@ from .admin import (
 )
 
 from .system import (
-    get_db_connection,
     get_prerequisites_for_course,
     ActionOpenAIResponse,
 )
@@ -113,7 +112,6 @@ __all__ = [
     "ActionAssessClashResolution",
     "ActionProvideRepeatGuidance",
     # System utilities
-    "get_db_connection",
     "get_prerequisites_for_course",
     "ActionOpenAIResponse",
 ]

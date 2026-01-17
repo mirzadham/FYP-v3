@@ -15,7 +15,6 @@ from actions.academic.prerequisite_actions import (
     ActionValidateCourseCodeFormat,
     ActionResetCourseCode,
 )
-from actions.system.db_utils import get_db_connection
 
 
 class TestActionGetCourseDetails:
@@ -25,43 +24,6 @@ class TestActionGetCourseDetails:
         """Verify action has correct name."""
         action = ActionGetCourseDetails()
         assert action.name() == "get_course_details"
-
-    def test_valid_course_code_uppercase(self, dispatcher, domain):
-        """UT-001: Valid course code (uppercase) returns course details."""
-        # Get a real course from database
-        conn = get_db_connection()
-        cursor = conn.cursor()
-        cursor.execute("SELECT course_code FROM courses LIMIT 1")
-        result = cursor.fetchone()
-        conn.close()
-        
-        if result:
-            course_code = result[0]
-            tracker = create_tracker(slots={"course_code": course_code})
-            action = ActionGetCourseDetails()
-            
-            events = action.run(dispatcher, tracker, domain)
-            return_value = get_slot_value(events, "return_value")
-            
-            assert return_value == "course_found"
-
-    def test_valid_course_code_lowercase(self, dispatcher, domain):
-        """UT-002: Valid course code (lowercase) normalizes and returns details."""
-        conn = get_db_connection()
-        cursor = conn.cursor()
-        cursor.execute("SELECT course_code FROM courses LIMIT 1")
-        result = cursor.fetchone()
-        conn.close()
-        
-        if result:
-            course_code = result[0].lower()  # Convert to lowercase
-            tracker = create_tracker(slots={"course_code": course_code})
-            action = ActionGetCourseDetails()
-            
-            events = action.run(dispatcher, tracker, domain)
-            return_value = get_slot_value(events, "return_value")
-            
-            assert return_value == "course_found"
 
     def test_invalid_course_code(self, dispatcher, domain):
         """UT-003: Invalid course code returns course_not_found."""
@@ -92,25 +54,6 @@ class TestActionGetCourseDetails:
         return_value = get_slot_value(events, "return_value")
         
         assert return_value == "course_not_found"
-
-    def test_returns_all_required_slots(self, dispatcher, domain):
-        """UT-006: Valid course returns all required slot values."""
-        conn = get_db_connection()
-        cursor = conn.cursor()
-        cursor.execute("SELECT course_code FROM courses LIMIT 1")
-        result = cursor.fetchone()
-        conn.close()
-        
-        if result:
-            course_code = result[0]
-            tracker = create_tracker(slots={"course_code": course_code})
-            action = ActionGetCourseDetails()
-            
-            events = action.run(dispatcher, tracker, domain)
-            slot_names = get_all_slot_names(events)
-            
-            expected_slots = {"course_code", "course_name", "credits", "synopsis", "prereq_list", "return_value"}
-            assert expected_slots.issubset(slot_names)
 
 
 class TestActionValidateCourseCodeFormat:

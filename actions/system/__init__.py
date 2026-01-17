@@ -1,9 +1,6 @@
 """
 System-level utilities and actions for Academic Advisor Chatbot.
-Contains handbook utilities (primary) and OpenAI fallback actions.
-
-Note: db_utils is deprecated and kept for backward compatibility.
-      Use handbook_utils for all new code.
+Contains handbook utilities for course data and OpenAI fallback actions.
 """
 
 from .handbook_utils import (

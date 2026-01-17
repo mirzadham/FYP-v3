@@ -32,17 +32,15 @@ jobs:
           pip install pytest pytest-asyncio
 
       - name: Run unit tests
-        continue-on-error: true  # Don't block PR on test failures during setup phase
         env:
           RASA_PRO_LICENSE: ${{ secrets.RASA_LICENSE }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python -m pytest tests/ -v --ignore=tests/integration/ || echo "Tests failed but continuing..."
+          python -m pytest tests/ -v --ignore=tests/integration/
 
       - name: Validate Rasa config
-        continue-on-error: true  # Don't block on validation during setup
         env:
           RASA_PRO_LICENSE: ${{ secrets.RASA_LICENSE }}
         run: |
-          rasa data validate --domain domain/ || echo "Validation failed but continuing..."
+          rasa data validate --domain domain/
 
