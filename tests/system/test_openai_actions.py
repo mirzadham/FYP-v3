@@ -148,10 +148,15 @@ class TestOpenAIResilience:
         
         events = action.run(dispatcher, tracker, domain)
         
-        # Should handle empty choices gracefully
+        # Should handle empty choices gracefully and send error message
+        dispatcher.utter_message.assert_called_once()
+        call_args = dispatcher.utter_message.call_args
+        message = call_args[1].get("text", call_args[0][0] if call_args[0] else "")
+        assert "trouble" in message.lower() or "error" in message.lower() or "sorry" in message.lower()
         assert isinstance(events, list)
 
-    def test_whitespace_only_message(self, dispatcher, domain):
+    @patch('actions.system.openai_actions.OpenAI')
+    def test_whitespace_only_message(self, mock_openai, dispatcher, domain):
         """UT-021: Whitespace-only message returns fallback."""
         tracker = create_tracker(latest_message={"text": "   \n\t  "})
         action = ActionOpenAIResponse()
@@ -161,21 +166,43 @@ class TestOpenAIResilience:
         dispatcher.utter_message.assert_called_once()
         assert isinstance(events, list)
 
-    def test_special_characters_in_message(self, dispatcher, domain):
+    @patch('actions.system.openai_actions.OpenAI')
+    def test_special_characters_in_message(self, mock_openai, dispatcher, domain):
         """UT-022: Special characters in message handled correctly."""
+        # Mock the OpenAI client
+        mock_client = MagicMock()
+        mock_response = MagicMock()
+        mock_response.choices = [MagicMock()]
+        mock_response.choices[0].message.content = "I can help with your question."
+        mock_client.chat.completions.create.return_value = mock_response
+        mock_openai.return_value = mock_client
+        
         tracker = create_tracker(latest_message={"text": "What about <script>alert('xss')</script>?"})
         action = ActionOpenAIResponse()
         
         events = action.run(dispatcher, tracker, domain)
         
+        # Verify OpenAI was called (input passed through)
+        mock_client.chat.completions.create.assert_called_once()
         # Should handle without crashing
         assert isinstance(events, list)
 
-    def test_unicode_message_handling(self, dispatcher, domain):
+    @patch('actions.system.openai_actions.OpenAI')
+    def test_unicode_message_handling(self, mock_openai, dispatcher, domain):
         """UT-023: Unicode/emoji in message handled correctly."""
+        # Mock the OpenAI client
+        mock_client = MagicMock()
+        mock_response = MagicMock()
+        mock_response.choices = [MagicMock()]
+        mock_response.choices[0].message.content = "Here are the courses available."
+        mock_client.chat.completions.create.return_value = mock_response
+        mock_openai.return_value = mock_client
+        
         tracker = create_tracker(latest_message={"text": "What courses? 🎓📚"})
         action = ActionOpenAIResponse()
         
         events = action.run(dispatcher, tracker, domain)
         
+        # Verify OpenAI was called
+        mock_client.chat.completions.create.assert_called_once()
         assert isinstance(events, list)
