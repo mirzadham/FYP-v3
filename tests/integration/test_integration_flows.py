@@ -6,7 +6,6 @@ slot passing and flow execution between actions.
 """
 
 import pytest
-from unittest.mock import patch, MagicMock
 from tests.helpers import create_tracker, get_slot_value
 
 
@@ -62,7 +61,7 @@ class TestGraduationAssessmentFlow:
         
         tracker = create_tracker(slots={
             "assess_choice": "yes",
-            "current_credits": 120
+            "credits_completed": 120
         })
         
         # Step 1: Check if user wants assessment
@@ -84,7 +83,7 @@ class TestGraduationAssessmentFlow:
         )
         
         # Valid credits
-        tracker = create_tracker(slots={"current_credits": 130})
+        tracker = create_tracker(slots={"credits_completed": 130})
         
         validate_action = ActionValidateCredits()
         events1 = validate_action.run(dispatcher, tracker, domain)
@@ -122,7 +121,7 @@ class TestProbationAssessmentFlow:
         # Low CGPA should result in probation-related slot
         probation_status = get_slot_value(events2, "probation_status")
         # Should have some status set (probation or warning)
-        # Just verify it ran without error
+        assert probation_status is not None
 
     def test_determine_probation_level(self, dispatcher, domain):
         """IT-006: Full probation level determination flow."""
@@ -156,7 +155,7 @@ class TestGradeAppealFlow:
             ActionCheckAppealDeadline
         )
         
-        tracker = create_tracker(slots={"days_since_result": 10})
+        tracker = create_tracker(slots={"days_since_results": 10})
         
         validate_action = ActionValidateDays()
         events1 = validate_action.run(dispatcher, tracker, domain)
@@ -178,7 +177,7 @@ class TestGradeAppealFlow:
         
         tracker = create_tracker(slots={
             "appeal_choice": "yes",
-            "days_since_result": 5
+            "days_since_results": 5
         })
         
         # Run through complete flow
@@ -318,7 +317,7 @@ class TestErrorPropagation:
         )
         
         # Invalid credits (negative)
-        tracker = create_tracker(slots={"current_credits": -10})
+        tracker = create_tracker(slots={"credits_completed": -10})
         
         validate_action = ActionValidateCredits()
         assess_action = ActionAssessGraduationStatus()

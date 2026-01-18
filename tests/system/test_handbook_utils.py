@@ -10,10 +10,7 @@ This module tests:
 - RAG context generation
 """
 
-import pytest
-from unittest.mock import patch, MagicMock, mock_open
-import json
-import pickle
+from unittest.mock import patch, MagicMock
 import numpy as np
 
 
@@ -102,8 +99,8 @@ class TestGetCourseByCode:
             spaced_code = test_code[:3] + " " + test_code[3:]
             result = get_course_by_code(spaced_code)
             
-            # May or may not match depending on implementation
-            # Just verify no exception is raised
+            # Verify function handles spaces without crashing
+            # Result may be None or dict depending on fuzzy matching implementation
             assert result is None or isinstance(result, dict)
 
     def test_empty_course_code(self):
@@ -120,10 +117,11 @@ class TestGetCourseByCode:
         
         try:
             result = get_course_by_code(None)
-            # Should either return None or handle gracefully
+            # If function handles None, it should return None
             assert result is None
         except (TypeError, AttributeError):
-            # Expected if input validation doesn't handle None
+            # If function doesn't handle None, it raises expected exception
+            # This is acceptable behavior - test passes
             pass
 
 
