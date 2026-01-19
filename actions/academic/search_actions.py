@@ -46,7 +46,7 @@ class ActionSearchCourses(Action):
                 return []
             
             # Format the response
-            response_parts = [f"🔍 **Found {len(results)} relevant courses:**\n"]
+            response_parts = [f"🔍 Found {len(results)} relevant courses:\n"]
             
             for i, course in enumerate(results, 1):
                 code = course.get("course_code", "Unknown")
@@ -58,7 +58,7 @@ class ActionSearchCourses(Action):
                 desc = course.get("description_english") or course.get("description_malay") or ""
                 desc_short = desc[:150] + "..." if len(desc) > 150 else desc
                 
-                part = f"**{i}. {code}**: {name}"
+                part = f"{i}. {code}: {name}"
                 if credits:
                     part += f" ({credits})"
                 if faculty:

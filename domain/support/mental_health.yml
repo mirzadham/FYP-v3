@@ -1,4 +1,4 @@
-version: "3.1"
+﻿version: "3.1"
 
 slots:
   wants_more_health_guidance:
@@ -13,22 +13,22 @@ responses:
 
   utter_mental_health_support:
     - text: |
-        💚 **We're Here For You**
+        💚 We're Here For You
 
         I'm sorry you're going through a difficult time. Your wellbeing matters.
 
-        **Immediate Support:**
-        📞 **HEAL Helplines (Gov):** 15555
-        📞 **Befrienders KL (NGO):** 03-7627 2929
+        Immediate Support:
+        📞 HEAL Helplines (Gov): 15555
+        📞 Befrienders KL (NGO): 03-7627 2929
 
-        **UPM Resources:**
-        🏢 **BKUPM (Bahagian Kaunseling UPM)**
-        📞 **Phone:** 03-9769 2082
-        💬 **WhatsApp:** 010-871 2690
-        📧 **Email:** kaunselor@upm.edu.my
-        🌍 **Web:** bkupm.upm.edu.my
+        UPM Resources:
+        🏢 BKUPM (Bahagian Kaunseling UPM)
+        📞 Phone: 03-9769 2082
+        💬 WhatsApp: 010-871 2690
+        📧 Email: kaunselor@upm.edu.my
+        🌍 Web: bkupm.upm.edu.my
 
-        **Remember:**
+        Remember:
         • It's okay to ask for help
         • Taking a break is okay
         • You are not alone
@@ -37,35 +37,35 @@ responses:
 
   utter_crisis_immediate:
     - text: |
-        🆘 **Immediate Support Available**
+        🆘 Immediate Support Available
 
         If you're in crisis or having thoughts of self-harm, please reach out NOW:
 
-        📞 **HEAL (Help with Empathy and Love):** 15555
-        📞 **Befrienders KL:** 03-7627 2929
-        📞 **Talian Kasih:** 15999 (24 Hours)
+        📞 HEAL (Help with Empathy and Love): 15555
+        📞 Befrienders KL: 03-7627 2929
+        📞 Talian Kasih: 15999 (24 Hours)
 
-        **You are not alone. Help is available.**
+        You are not alone. Help is available.
 
         ❤️ Please call one of these numbers or go to the nearest hospital emergency department.
 
   utter_stress_management:
     - text: |
-        🧘 **Managing Academic Stress**
+        🧘 Managing Academic Stress
 
         Stress is common among students. Here are some strategies:
 
-        **Immediate Relief:**
+        Immediate Relief:
         • Take 5 deep breaths
         • Step away from your work for a short break
         • Talk to someone you trust
 
-        **Daily Practices:**
+        Daily Practices:
         • Break tasks into smaller, manageable steps
         • Set realistic goals for each day
         • Ensure enough sleep and regular exercise
 
-        **Academic Support:**
+        Academic Support:
         • Meet with your Academic Advisor (PA) for guidance
         • Form study groups with peers
         • Ask lecturers during office hours if you're struggling with content
@@ -74,17 +74,17 @@ responses:
 
   utter_upm_counseling:
     - text: |
-        🏥 **UPM Counseling Division (BKUPM)**
+        🏥 UPM Counseling Division (BKUPM)
 
         BKUPM offers professional support for all UPM students.
 
-        **Contact Info (Office Hours):**
-        • **Phone:** 03-9769 2082
-        • **WhatsApp:** 010-871 2690
-        • **Email:** kaunselor@upm.edu.my
-        • **Location:** Ground Floor, Student Affairs Building
+        Contact Info (Office Hours):
+        • Phone: 03-9769 2082
+        • WhatsApp: 010-871 2690
+        • Email: kaunselor@upm.edu.my
+        • Location: Ground Floor, Student Affairs Building
 
-        **Services:**
+        Services:
         • Individual & Group Counseling
         • Crisis Intervention
         • Personal Development & Academic Stress Management
@@ -93,7 +93,7 @@ responses:
 
   utter_mental_health_encouragement:
     - text: |
-        💪 **Take Care of Yourself**
+        💪 Take Care of Yourself
 
         Remember that your health and happiness are more important than any grade.
 

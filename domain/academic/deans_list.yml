@@ -1,16 +1,16 @@
-version: "3.1"
+﻿version: "3.1"
 
 responses:
   utter_deans_list:
     - text: |
-        🏆 **Dean's List (Anugerah Dekan)**
+        🏆 Dean's List (Anugerah Dekan)
         
-        **Requirements:**
+        Requirements:
         • Semester GPA: 3.50 or above
         • No failed subjects that semester
         • Minimum credit hours (usually 12+)
         
-        **Benefits:**
+        Benefits:
         • Certificate from Dean
         • Recognition in academic records
         • Some faculties offer monetary rewards

@@ -1,15 +1,15 @@
-version: "3.1"
+﻿version: "3.1"
 
 responses:
   utter_elective_options:
     - text: |
-        📚 **Elective Courses**
+        📚 Elective Courses
         
-        **Types:**
-        • **Field Electives:** Within your field
-        • **Free Electives:** Any course in university
+        Types:
+        • Field Electives: Within your field
+        • Free Electives: Any course in university
         
-        **Popular Free Elective Categories:**
+        Popular Free Elective Categories:
         • Language courses (Japanese, Mandarin, etc.)
         • Entrepreneurship
         

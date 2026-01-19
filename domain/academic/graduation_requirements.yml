@@ -1,4 +1,4 @@
-version: "3.1"
+﻿version: "3.1"
 
 slots:
   # Assessment preference
@@ -77,8 +77,8 @@ responses:
     - text: |
         📋 What type of program are you in?
         
-        • **Bachelor** - 4-year degree program
-        • **Diploma** - 2-3 year diploma program
+        • Bachelor - 4-year degree program
+        • Diploma - 2-3 year diploma program
 
   utter_ask_wants_detailed_graduation_check:
     - text: |
@@ -90,29 +90,29 @@ responses:
 
   utter_graduation_general_info:
     - text: |
-        🎓 **Graduation Requirements Overview**
+        🎓 Graduation Requirements Overview
         
-        **For Bachelor's Degree:**
-        • Complete **120-140 credit hours** (varies by program)
-        • Maintain minimum **CGPA of 2.00**
-        • Pass all **core and required courses**
-        • Complete **FYP/Final Year Project**
-        • Achieve **MUET Band 3+** (or equivalent)
-        • Clear all **outstanding fees**
+        For Bachelor's Degree:
+        • Complete 120-140 credit hours (varies by program)
+        • Maintain minimum CGPA of 2.00
+        • Pass all core and required courses
+        • Complete FYP/Final Year Project
+        • Achieve MUET Band 3+ (or equivalent)
+        • Clear all outstanding fees
         
-        **Timeline:** Usually 4 years (8 semesters)
+        Timeline: Usually 4 years (8 semesters)
         
         Would you like me to assess YOUR graduation status?
     - text: |
-        📋 **What You Need to Graduate**
+        📋 What You Need to Graduate
         
-        **Academic Requirements:**
+        Academic Requirements:
         • Total Credits: ~120-140 depending on program
         • Minimum CGPA: 2.00
         • All core courses passed
         • FYP completed
         
-        **Other Requirements:**
+        Other Requirements:
         • MUET Band 3 minimum
         • No outstanding fees
         • Library clearance
@@ -124,7 +124,7 @@ responses:
     - text: |
         ❌ I couldn't understand that credit value.
         
-        Please enter your **total completed credit hours** as a number.
+        Please enter your total completed credit hours as a number.
         
         Example: `85` or `102`
         
@@ -138,40 +138,40 @@ responses:
 
   utter_graduation_eligible:
     - text: |
-        🎉 **Congratulations! You Appear Eligible to Graduate!**
+        🎉 Congratulations! You Appear Eligible to Graduate!
         
         Based on your input:
-        • Credits: **{credits_completed}** ✅ (Target: ~120)
-        • CGPA: **{current_cgpa}** ✅ (Min: 2.00)
+        • Credits: {credits_completed} ✅ (Target: ~120)
+        • CGPA: {current_cgpa} ✅ (Min: 2.00)
         
         You seem to have met the academic requirements!
         
         🎓 Time to check the final graduation checklist...
     - text: |
-        🌟 **Great News!**
+        🌟 Great News!
         
         Your stats look graduation-ready:
-        • **{credits_completed} credits** completed
-        • **{current_cgpa} CGPA**
+        • {credits_completed} credits completed
+        • {current_cgpa} CGPA
         
         Let's make sure you've completed everything else...
 
   utter_graduation_checklist:
     - text: |
-        ✅ **Final Graduation Checklist**
+        ✅ Final Graduation Checklist
         
         Before convocation, verify you have:
         
-        1. ☐ **All core courses passed** (no F grades in required subjects)
-        2. ☐ **FYP completed and graded**
-        3. ☐ **MUET Band 3+** achieved
-        4. ☐ **Outstanding fees cleared** (check with Bursary)
-        5. ☐ **Library books returned**
-        6. ☐ **Exit survey completed** (in SMP)
+        1. ☐ All core courses passed (no F grades in required subjects)
+        2. ☐ FYP completed and graded
+        3. ☐ MUET Band 3+ achieved
+        4. ☐ Outstanding fees cleared (check with Bursary)
+        5. ☐ Library books returned
+        6. ☐ Exit survey completed (in SMP)
         
         📅 Watch for convocation registration announcements in SMP!
     - text: |
-        📋 **Before You Graduate - Final Checks**
+        📋 Before You Graduate - Final Checks
         
         ✅ All required courses completed?
         ✅ FYP submitted and graded?
@@ -183,30 +183,30 @@ responses:
 
   utter_graduation_close:
     - text: |
-        📈 **Almost There!**
+        📈 Almost There!
         
         You're getting close to graduation:
-        • Credits: **{credits_completed}** / ~120
-        • CGPA: **{current_cgpa}**
-        • Estimated remaining: **{credits_remaining} credits**
+        • Credits: {credits_completed} / ~120
+        • CGPA: {current_cgpa}
+        • Estimated remaining: {credits_remaining} credits
         
         You're probably in your final year! Keep pushing!
     - text: |
-        🏁 **Final Stretch!**
+        🏁 Final Stretch!
         
-        Based on **{credits_completed} credits** completed, you're nearly done!
+        Based on {credits_completed} credits completed, you're nearly done!
         
-        About **{credits_remaining} more credits** to go.
+        About {credits_remaining} more credits to go.
         
         This could be your last 1-2 semesters!
 
   utter_remaining_requirements:
     - text: |
-        📝 **What's Left to Complete**
+        📝 What's Left to Complete
         
-        **Estimated Remaining:** ~{credits_remaining} credit hours
+        Estimated Remaining: ~{credits_remaining} credit hours
         
-        **Priority Focus:**
+        Priority Focus:
         1. Ensure all CORE courses are done
         2. Complete FYP if not started
         3. Take MUET if not yet Band 3
@@ -214,11 +214,11 @@ responses:
         
         💡 Meet your advisor to plan your final semesters!
     - text: |
-        🎯 **Your Graduation Roadmap**
+        🎯 Your Graduation Roadmap
         
-        ~**{credits_remaining} credits** remaining
+        ~{credits_remaining} credits remaining
         
-        **Recommendations:**
+        Recommendations:
         • Prioritize any incomplete core courses
         • Start FYP early if not begun
         • Don't forget MUET!
@@ -226,28 +226,28 @@ responses:
 
   utter_graduation_in_progress:
     - text: |
-        📚 **Making Good Progress!**
+        📚 Making Good Progress!
         
         Current Status:
-        • Credits: **{credits_completed}**
-        • CGPA: **{current_cgpa}**
-        • Remaining: ~**{credits_remaining} credits**
+        • Credits: {credits_completed}
+        • CGPA: {current_cgpa}
+        • Remaining: ~{credits_remaining} credits
         
-        You're on track! Estimated **{estimated_semesters} semesters** to go.
+        You're on track! Estimated {estimated_semesters} semesters to go.
     - text: |
-        👍 **You're On Track!**
+        👍 You're On Track!
         
-        With **{credits_completed} credits** done, you're making solid progress.
+        With {credits_completed} credits done, you're making solid progress.
         
-        About **{estimated_semesters} more semesters** until graduation (estimate).
+        About {estimated_semesters} more semesters until graduation (estimate).
 
   utter_graduation_timeline:
     - text: |
-        📅 **Your Graduation Timeline**
+        📅 Your Graduation Timeline
         
-        **Estimated semesters remaining:** {estimated_semesters}
+        Estimated semesters remaining: {estimated_semesters}
         
-        **Semester Planning Tips:**
+        Semester Planning Tips:
         • Take 15-18 credits per semester for normal pace
         • Don't overload - quality over quantity
         • Plan prerequisite chains early
@@ -255,29 +255,29 @@ responses:
         
         💡 Use SMP's degree audit feature to track progress!
     - text: |
-        🗓️ **Timeline Estimate**
+        🗓️ Timeline Estimate
         
         At normal pace (~15-18 credits/semester):
-        **~{estimated_semesters} semesters remaining**
+        ~{estimated_semesters} semesters remaining
         
-        **Keep in Mind:**
+        Keep in Mind:
         • Some courses only offered once/year
         • FYP spans 2 semesters usually
         • Industrial training semester counts!
 
   utter_graduation_early_stage:
     - text: |
-        🌱 **Just Getting Started!**
+        🌱 Just Getting Started!
         
-        With **{credits_completed} credits**, you're still in the early stages of your degree.
+        With {credits_completed} credits, you're still in the early stages of your degree.
         
-        **Don't worry!** Graduation is still a few years away, and that's perfectly normal.
+        Don't worry! Graduation is still a few years away, and that's perfectly normal.
         
         Focus on building a strong foundation in your core courses.
     - text: |
-        📘 **Early in Your Journey**
+        📘 Early in Your Journey
         
-        **{credits_completed} credits** completed - you're in Year 1-2.
+        {credits_completed} credits completed - you're in Year 1-2.
         
         Graduation seems far, but use this time wisely:
         • Build strong fundamentals
@@ -286,18 +286,18 @@ responses:
 
   utter_focus_on_current:
     - text: |
-        🎯 **Current Semester Focus**
+        🎯 Current Semester Focus
         
-        **At this stage, prioritize:**
+        At this stage, prioritize:
         
-        1. **Passing all core courses** - Don't carry failed subjects
-        2. **Building strong CGPA** - It's easier to maintain than recover
-        3. **Understanding prerequisites** - Plan ahead for advanced courses
-        4. **Exploring interests** - Try different electives
+        1. Passing all core courses - Don't carry failed subjects
+        2. Building strong CGPA - It's easier to maintain than recover
+        3. Understanding prerequisites - Plan ahead for advanced courses
+        4. Exploring interests - Try different electives
         
         💡 Good habits now = smooth graduation later!
     - text: |
-        📝 **Tips for Your Stage**
+        📝 Tips for Your Stage
         
         Since you're still early in your program:
         • Focus on core courses first
@@ -309,16 +309,16 @@ responses:
 
   utter_graduation_resources:
     - text: |
-        🔗 **Graduation Resources**
+        🔗 Graduation Resources
         
-        • **SMP Portal:** Check your transcript & degree audit
-        • **Academic Advisor:** For personalized planning
-        • **Faculty Office:** Program-specific requirements
-        • **Registry:** Graduation procedures & convocation
+        • SMP Portal: Check your transcript & degree audit
+        • Academic Advisor: For personalized planning
+        • Faculty Office: Program-specific requirements
+        • Registry: Graduation procedures & convocation
         
         Don't hesitate to reach out for guidance!
     - text: |
-        📚 **Where to Get More Info**
+        📚 Where to Get More Info
         
         • Check SMP for your transcript
         • Visit your Academic Advisor
@@ -327,35 +327,35 @@ responses:
 
   utter_muet_requirement_detail:
     - text: |
-        📝 **MUET Requirement for Graduation**
+        📝 MUET Requirement for Graduation
         
-        **Minimum Band Required:**
-        • Most programs: **Band 3**
-        • Some programs: **Band 4** (check with faculty)
+        Minimum Band Required:
+        • Most programs: Band 3
+        • Some programs: Band 4 (check with faculty)
         
-        **If Below Requirement:**
+        If Below Requirement:
         • Must retake MUET before graduation
         • Register through Malaysian Examination Council
         • MUET is held 3 times per year
         
-        **Alternatives (check eligibility):**
+        Alternatives (check eligibility):
         • IELTS (usually 5.5+)
         • TOEFL (check faculty requirements)
         
         💡 Take MUET early so you have time to retake if needed!
     - text: |
-        🗣️ **MUET for Graduation**
+        🗣️ MUET for Graduation
         
-        **You need:** Band 3 minimum (Band 4 for some programs)
+        You need: Band 3 minimum (Band 4 for some programs)
         
-        **Schedule:** MUET happens 3x yearly
-        **Tip:** Take it in Year 2-3 so you have retry chances
+        Schedule: MUET happens 3x yearly
+        Tip: Take it in Year 2-3 so you have retry chances
         
         Check with your faculty for exact requirements!
 
   utter_graduation_encouragement:
     - text: |
-        💪 **Keep Going!**
+        💪 Keep Going!
         
         Whatever stage you're at, every credit counts toward your goal.
         
@@ -363,7 +363,7 @@ responses:
         
         Best of luck with your studies! 🎓
     - text: |
-        🌟 **You've Got This!**
+        🌟 You've Got This!
         
         Graduation is a journey, not just a destination. Take it one semester at a time.
         

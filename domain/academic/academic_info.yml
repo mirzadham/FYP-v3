@@ -1,13 +1,13 @@
-version: "3.1"
+﻿version: "3.1"
 
 responses:
   utter_registration_deadline:
     - text: |
-        📅 **Course Registration Deadlines**
+        📅 Course Registration Deadlines
         
-        **Add/Drop Period:** Usually Week 1-2 of semester
+        Add/Drop Period: Usually Week 1-2 of semester
         
-        **Important Notes:**
+        Important Notes:
         • Check SMP portal for exact dates each semester
         • Late registration may incur penalties
         • Ensure fees are paid to avoid registration block
@@ -16,30 +16,30 @@ responses:
 
   utter_drop_course:
     - text: |
-        📋 **Dropping/Withdrawing from a Course**
+        📋 Dropping/Withdrawing from a Course
         
-        **Procedure:**
+        Procedure:
         1. Apply through SMP portal
         2. Get advisor's approval
         3. Submit before deadline
         
-        **Types of Withdrawal (UPM Policy):**
-        • **Week 1-2:** No penalty, no record
-        • **Week 3-7:** Penalty fee, "W" grade
-        • **After Week 7:** Penalty fee, "W" grade, multiple approvals
+        Types of Withdrawal (UPM Policy):
+        • Week 1-2: No penalty, no record
+        • Week 3-7: Penalty fee, "W" grade
+        • After Week 7: Penalty fee, "W" grade, multiple approvals
         
-        ⚠️ **Important:** NO refunds for dropping courses!
+        ⚠️ Important: NO refunds for dropping courses!
         ⚠️ Dropping may affect PTPTN/scholarship eligibility.
 
   utter_graduation_requirements:
     - text: |
-        🎓 **Graduation Requirements**
+        🎓 Graduation Requirements
         
-        **Credit Hours:** 120-130 credits (varies by program)
+        Credit Hours: 120-130 credits (varies by program)
         
-        **Minimum CGPA:** 2.00
+        Minimum CGPA: 2.00
         
-        **Required Components:**
+        Required Components:
         • Complete all core subjects
         • Complete electives requirement
         • Pass Final Year Project (FYP)

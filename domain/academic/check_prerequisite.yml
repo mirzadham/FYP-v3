@@ -1,4 +1,4 @@
-# check_prerequisite.yml - Prerequisite checking flow
+﻿# check_prerequisite.yml - Prerequisite checking flow
 # Shared slots and responses are in _shared_course.yml
 
 actions:
@@ -20,22 +20,22 @@ responses:
 
   utter_prereq_result:
     - text: |
-        📚 **{course_code}** ({course_name})
+        📚 {course_code} ({course_name})
         
-        📋 **Prerequisites:**
+        📋 Prerequisites:
         {prereq_list}
         
         Make sure you have completed these courses before enrolling!
 
   utter_prereq_guidance:
     - text: |
-        💡 **Tip**: Check with your academic advisor about the best semester to complete any missing prerequisites.
+        💡 Tip: Check with your academic advisor about the best semester to complete any missing prerequisites.
 
   utter_no_prerequisites:
     - text: |
-        📚 **{course_code}** ({course_name})
+        📚 {course_code} ({course_name})
         
-        ✅ **No prerequisites required!**
+        ✅ No prerequisites required!
         
         You can enroll in this course directly.
 

@@ -1,4 +1,4 @@
-version: "3.1"
+﻿version: "3.1"
 
 # get_course_info.yml - Course information flow
 # Shared slots and responses are in _shared_course.yml
@@ -38,15 +38,15 @@ actions:
 responses:
   utter_course_details:
     - text: |
-        📚 **{course_code}**: {course_name}
-        💳 **Credit Hours:** {credits}
-        📋 **Prerequisites:** {prereq_list}
-        📖 **Synopsis:**
+        📚 {course_code}: {course_name}
+        💳 Credit Hours: {credits}
+        📋 Prerequisites: {prereq_list}
+        📖 Synopsis:
         {synopsis}
 
   utter_course_search_complete:
     - text: |
-        ✅ **Search Complete**
+        ✅ Search Complete
         
         If you need more course information later, just ask!
         
@@ -56,20 +56,20 @@ responses:
 
   utter_search_help:
     - text: |
-        💡 **Finding Course Codes**
+        💡 Finding Course Codes
         
         You can find course codes in:
-        • **SMP Portal** - Course registration
-        • **Faculty Handbook** - Program structure
-        • **Academic Calendar** - Course offerings
+        • SMP Portal - Course registration
+        • Faculty Handbook - Program structure
+        • Academic Calendar - Course offerings
         
         If you need help with something else, just ask!
 
   utter_followup_prerequisites:
     - text: |
-        🔗 **Prerequisites for {course_code}**
+        🔗 Prerequisites for {course_code}
         
-        **Required courses:** {prereq_list}
+        Required courses: {prereq_list}
         
         ⚠️ You must pass ALL prerequisites before registering for {course_code}.
         
@@ -77,25 +77,25 @@ responses:
 
   utter_followup_schedule:
     - text: |
-        📅 **Course Schedule Information**
+        📅 Course Schedule Information
         
         For {course_code} scheduling details:
         
-        • Check **SMP Portal** during registration
-        • View **Course Timetable** for available sections
+        • Check SMP Portal during registration
+        • View Course Timetable for available sections
         • Note: Some courses are only offered in specific semesters
         
         💡 Register early for best section choices!
 
   utter_followup_similar:
     - text: |
-        🔄 **Related Courses**
+        🔄 Related Courses
         
-        For courses similar to or related to **{course_code}**, check:
+        For courses similar to or related to {course_code}, check:
         
-        • **Program structure** in faculty handbook
-        • **Elective options** in your curriculum
-        • **Course clusters** in your major area
+        • Program structure in faculty handbook
+        • Elective options in your curriculum
+        • Course clusters in your major area
         
         Your Academic Advisor can recommend related courses!
 

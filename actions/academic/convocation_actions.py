@@ -139,25 +139,25 @@ class ActionAssessConvocationEligibility(Action):
             passed += 1
         else:
             remaining = MIN_CREDITS_BACHELOR - credits
-            issues.append(f"❌ **Credits:** {credits}/{MIN_CREDITS_BACHELOR} (need {remaining} more)")
+            issues.append(f"❌ Credits: {credits}/{MIN_CREDITS_BACHELOR} (need {remaining} more)")
         
         if cgpa >= MIN_CGPA:
             passed += 1
         else:
-            issues.append(f"❌ **CGPA:** {cgpa} (minimum {MIN_CGPA} required)")
+            issues.append(f"❌ CGPA: {cgpa} (minimum {MIN_CGPA} required)")
         
         if muet >= MIN_MUET_BAND:
             passed += 1
         else:
             if muet == 0:
-                issues.append(f"❌ **MUET:** Not yet taken (Band {MIN_MUET_BAND}+ required)")
+                issues.append(f"❌ MUET: Not yet taken (Band {MIN_MUET_BAND}+ required)")
             else:
-                issues.append(f"❌ **MUET:** Band {muet} (Band {MIN_MUET_BAND}+ required)")
+                issues.append(f"❌ MUET: Band {muet} (Band {MIN_MUET_BAND}+ required)")
         
         if not has_fees:
             passed += 1
         else:
-            issues.append("❌ **Fees:** Outstanding fees need to be cleared")
+            issues.append("❌ Fees: Outstanding fees need to be cleared")
         
         # Determine overall status
         if passed == total:

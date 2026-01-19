@@ -1,4 +1,4 @@
-version: "3.1"
+﻿version: "3.1"
 
 slots:
   full_course_code:
@@ -28,7 +28,7 @@ actions:
 responses:
   utter_class_full_intro:
     - text: |
-        📚 **Class Full - Let's Find Solutions**
+        📚 Class Full - Let's Find Solutions
         
         I can help you figure out your options when a class is full.
         
@@ -36,15 +36,15 @@ responses:
 
   utter_final_year_priority:
     - text: |
-        🎓 **Final Year Priority**
+        🎓 Final Year Priority
         
         As a final-year student needing this course to graduate, you may have priority!
         
-        **Special Option:** Request manual registration through your lecturer.
+        Special Option: Request manual registration through your lecturer.
 
   utter_manual_registration_option:
     - text: |
-        📋 **Manual Registration Process**
+        📋 Manual Registration Process
         
         1. Email the course lecturer explaining your situation
         2. Mention you're final year and need this to graduate
@@ -55,16 +55,16 @@ responses:
 
   utter_full_class_options:
     - text: |
-        📚 **Options When Class is Full**
+        📚 Options When Class is Full
         
-        1. **Check other sections** - Different time slot might have space
-        2. **Wait for add/drop** - Students often drop in Week 1-2
-        3. **Monitor SMP** - Seats open up randomly
-        4. **Take next semester** - If not urgent
+        1. Check other sections - Different time slot might have space
+        2. Wait for add/drop - Students often drop in Week 1-2
+        3. Monitor SMP - Seats open up randomly
+        4. Take next semester - If not urgent
 
   utter_wait_strategy:
     - text: |
-        ⏰ **Waiting Strategy**
+        ⏰ Waiting Strategy
         
         • Check SMP multiple times daily during Week 1
         • Seats open when others drop
@@ -73,7 +73,7 @@ responses:
 
   utter_clash_intro:
     - text: |
-        📅 **Timetable Clash Resolution**
+        📅 Timetable Clash Resolution
         
         Let's sort out your schedule conflict!
         
@@ -81,19 +81,19 @@ responses:
 
   utter_both_required_options:
     - text: |
-        ⚠️ **Both Courses Required - Options**
+        ⚠️ Both Courses Required - Options
         
         If both courses are required this semester:
         
-        1. **Check for other sections** - Different timings
-        2. **Request section change** - Talk to lecturer
-        3. **Special arrangement** - For final-year students
+        1. Check for other sections - Different timings
+        2. Request section change - Talk to lecturer
+        3. Special arrangement - For final-year students
         
         ⚠️ In rare cases, you may need to defer one course.
 
   utter_defer_one_option:
     - text: |
-        💡 **Recommendation: Defer One Course**
+        💡 Recommendation: Defer One Course
         
         Since one course isn't urgently required:
         

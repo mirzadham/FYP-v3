@@ -128,20 +128,20 @@ class ActionAssessLiEligibility(Action):
         if year < MIN_YEAR_FOR_LI:
             eligible = False
             status = "not_yet"
-            issues.append(f"⏰ **Year:** Currently Year {year} (LI typically in Year 3-4)")
+            issues.append(f"⏰ Year: Currently Year {year} (LI typically in Year 3-4)")
         
         # Check credits
         if credits < MIN_CREDITS_FOR_LI:
             if status != "not_yet":
                 eligible = False
                 status = "not_eligible"
-            issues.append(f"📚 **Credits:** {credits} completed (minimum ~{MIN_CREDITS_FOR_LI} needed)")
+            issues.append(f"📚 Credits: {credits} completed (minimum ~{MIN_CREDITS_FOR_LI} needed)")
         
         # Check probation
         if on_probation:
             eligible = False
             status = "not_eligible"
-            issues.append("⚠️ **Probation:** Cannot do LI while on academic probation")
+            issues.append("⚠️ Probation: Cannot do LI while on academic probation")
         
         # Format issues
         if issues:

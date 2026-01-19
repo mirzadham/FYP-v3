@@ -1,4 +1,4 @@
-version: "3.1"
+﻿version: "3.1"
 
 slots:
   wants_change_assessment:
@@ -42,7 +42,7 @@ responses:
 
   utter_change_intro:
     - text: |
-        🔄 **Change Program/Major Guidance**
+        🔄 Change Program/Major Guidance
         
         I can help you understand if you're eligible to change your program and guide you through the process.
         
@@ -50,14 +50,14 @@ responses:
 
   utter_change_general:
     - text: |
-        🔄 **Changing Program Overview**
+        🔄 Changing Program Overview
         
-        **Requirements:**
+        Requirements:
         • Minimum CGPA: Usually 2.50+
         • At least 1 semester completed
         • Slots available in target program
         
-        **Procedure:**
+        Procedure:
         1. Get form from Registry
         2. Approval from both faculties
         3. Submit before deadline
@@ -66,13 +66,13 @@ responses:
 
   utter_change_eligible:
     - text: |
-        ✅ **You Appear Eligible to Change Program!**
+        ✅ You Appear Eligible to Change Program!
         
-        Your CGPA of **{current_cgpa}** meets the typical requirement.
+        Your CGPA of {current_cgpa} meets the typical requirement.
 
   utter_change_procedure:
     - text: |
-        📋 **How to Apply**
+        📋 How to Apply
         
         1. Get application form from Registry
         2. Fill in current and target program
@@ -80,22 +80,22 @@ responses:
         4. Get approval from target faculty
         5. Submit before semester deadline
         
-        **Note:** Subject to slot availability in target program.
+        Note: Subject to slot availability in target program.
 
   utter_change_cgpa_low:
     - text: |
-        ⚠️ **CGPA Requirement Not Met**
+        ⚠️ CGPA Requirement Not Met
         
-        Your CGPA of **{current_cgpa}** is below the typical 2.50 requirement.
+        Your CGPA of {current_cgpa} is below the typical 2.50 requirement.
         
-        **Recommendations:**
+        Recommendations:
         • Focus on improving your CGPA first
         • Some programs may have lower requirements
         • Contact Registry for specific program requirements
 
   utter_change_early:
     - text: |
-        ⏰ **Complete At Least 1 Semester First**
+        ⏰ Complete At Least 1 Semester First
         
         Program changes typically require at least 1 completed semester.
         

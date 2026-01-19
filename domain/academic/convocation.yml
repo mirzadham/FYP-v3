@@ -1,4 +1,4 @@
-version: "3.1"
+﻿version: "3.1"
 
 slots:
   wants_eligibility_check:
@@ -56,7 +56,7 @@ responses:
     - text: |
         🗣️ What MUET band have you achieved?
         
-        Please enter a number from **1 to 6** (or `0` if you haven't taken MUET yet).
+        Please enter a number from 1 to 6 (or `0` if you haven't taken MUET yet).
 
   utter_ask_has_outstanding_fees:
     - text: |
@@ -68,21 +68,21 @@ responses:
 
   utter_convocation_intro:
     - text: |
-        🎓 **Graduation Eligibility Check**
+        🎓 Graduation Eligibility Check
         
         I can help you verify if you're eligible for convocation!
         
-        **What I'll check:**
+        What I'll check:
         ✅ Credit hours completed
         ✅ CGPA requirement
         ✅ MUET/English requirement
         ✅ Outstanding fees status
         
-        **Note:** For ceremony logistics (robes, tickets, dates), please check SMP or Registry.
+        Note: For ceremony logistics (robes, tickets, dates), please check SMP or Registry.
         
         Would you like to check your eligibility now?
     - text: |
-        🎓 **Convocation Eligibility Assessment**
+        🎓 Convocation Eligibility Assessment
         
         Let's verify if you meet the graduation requirements!
         
@@ -96,18 +96,18 @@ responses:
 
   utter_convocation_logistics_redirect:
     - text: |
-        📋 **Convocation Logistics**
+        📋 Convocation Logistics
         
         For ceremony details, please check:
         
-        • **SMP Portal** - Registration & tickets
-        • **Registry Office** - Official procedures
-        • **Convocation Website** - Dates & dress code
-        • **Robe Rental** - Appointed vendor (see SMP)
+        • SMP Portal - Registration & tickets
+        • Registry Office - Official procedures
+        • Convocation Website - Dates & dress code
+        • Robe Rental - Appointed vendor (see SMP)
         
-        If you need help with **academic eligibility**, just ask!
+        If you need help with academic eligibility, just ask!
     - text: |
-        🎓 **Ceremony Information**
+        🎓 Ceremony Information
         
         Convocation logistics are handled by:
         • Registry Office (procedures)
@@ -120,7 +120,7 @@ responses:
     - text: |
         ❌ I couldn't understand that MUET band.
         
-        Please enter your MUET band as a number from **1 to 6**.
+        Please enter your MUET band as a number from 1 to 6.
         
         Example: `3` or `4`
         
@@ -128,25 +128,25 @@ responses:
     - text: |
         🔢 That doesn't look like a valid MUET band.
         
-        Please enter a number between **1 and 6**.
+        Please enter a number between 1 and 6.
         
         Enter `0` if you haven't taken MUET.
 
   utter_eligibility_passed:
     - text: |
-        🎉 **Congratulations! You Appear Eligible for Graduation!**
+        🎉 Congratulations! You Appear Eligible for Graduation!
         
         Based on your input:
-        • Credits: **{credits_completed}** ✅
-        • CGPA: **{current_cgpa}** ✅
-        • MUET: Band **{muet_band}** ✅
+        • Credits: {credits_completed} ✅
+        • CGPA: {current_cgpa} ✅
+        • MUET: Band {muet_band} ✅
         • Fees: Cleared ✅
         
         You seem to meet all the academic requirements! 🎓
     - text: |
-        🌟 **Great News - You Look Ready to Graduate!**
+        🌟 Great News - You Look Ready to Graduate!
         
-        **Eligibility Summary:**
+        Eligibility Summary:
         ✅ Credits: {credits_completed}
         ✅ CGPA: {current_cgpa}
         ✅ MUET: Band {muet_band}
@@ -156,17 +156,17 @@ responses:
 
   utter_next_steps_convocation:
     - text: |
-        📋 **Next Steps for Convocation**
+        📋 Next Steps for Convocation
         
-        1. **Wait for convocation announcement** in SMP
-        2. **Register for convocation** before deadline
-        3. **Order graduation robe** from appointed vendor
-        4. **Complete exit survey** in SMP
-        5. **Return library books** and get clearance
+        1. Wait for convocation announcement in SMP
+        2. Register for convocation before deadline
+        3. Order graduation robe from appointed vendor
+        4. Complete exit survey in SMP
+        5. Return library books and get clearance
         
         🎓 Congratulations and all the best for your future!
     - text: |
-        🎓 **What to Do Next**
+        🎓 What to Do Next
         
         1. Watch for convocation registration in SMP
         2. Register within the deadline
@@ -177,13 +177,13 @@ responses:
 
   utter_eligibility_partial:
     - text: |
-        ⚠️ **Partial Eligibility**
+        ⚠️ Partial Eligibility
         
         You meet some requirements, but there are issues that need attention.
         
         Let me show you what needs to be addressed...
     - text: |
-        📋 **Almost There!**
+        📋 Almost There!
         
         You've met some graduation requirements, but not all.
         
@@ -191,13 +191,13 @@ responses:
 
   utter_eligibility_not_ready:
     - text: |
-        📋 **Eligibility Assessment**
+        📋 Eligibility Assessment
         
         Based on your input, you may not be ready for graduation yet.
         
         Don't worry - let me show you what needs to be completed...
     - text: |
-        ⚠️ **Pre-Graduation Status**
+        ⚠️ Pre-Graduation Status
         
         It looks like there are some requirements still to be met.
         
@@ -205,13 +205,13 @@ responses:
 
   utter_eligibility_issues:
     - text: |
-        📝 **Requirements to Address:**
+        📝 Requirements to Address:
         
         {eligibility_issues}
         
         Would you like guidance on how to address these?
     - text: |
-        🎯 **Action Items:**
+        🎯 Action Items:
         
         {eligibility_issues}
         
@@ -219,38 +219,38 @@ responses:
 
   utter_eligibility_guidance:
     - text: |
-        💡 **Guidance for Your Requirements**
+        💡 Guidance for Your Requirements
         
-        **Credits Short?**
+        Credits Short?
         → Check remaining required courses in SMP
         → Plan your semester carefully
         
-        **CGPA Below 2.0?**
+        CGPA Below 2.0?
         → Focus on courses you're strongest in
         → Seek tutoring support
         
-        **MUET Not Met?**
+        MUET Not Met?
         → Register for next MUET sitting
         → Consider IELTS as alternative
         
-        **Outstanding Fees?**
+        Outstanding Fees?
         → Contact Bursary immediately
         → Check payment plans available
         
         Your Academic Advisor can provide personalized guidance!
     - text: |
-        🎯 **How to Address Each Issue**
+        🎯 How to Address Each Issue
         
-        • **Credits:** Review your transcript in SMP
-        • **CGPA:** Consider repeating weak subjects
-        • **MUET:** Take the next available test
-        • **Fees:** Visit Bursary for payment options
+        • Credits: Review your transcript in SMP
+        • CGPA: Consider repeating weak subjects
+        • MUET: Take the next available test
+        • Fees: Visit Bursary for payment options
         
         Schedule a meeting with your advisor for a detailed plan!
 
   utter_convo_encouragement:
     - text: |
-        💪 **You'll Get There!**
+        💪 You'll Get There!
         
         Every requirement you meet brings you closer to graduation.
         
@@ -258,7 +258,7 @@ responses:
         
         Best of luck! 🍀
     - text: |
-        🌟 **Keep Working Toward It!**
+        🌟 Keep Working Toward It!
         
         Graduation is within reach. Focus on one requirement at a time.
         

@@ -1,4 +1,4 @@
-version: "3.1"
+﻿version: "3.1"
 
 # Shared slots and responses used by multiple course-related flows
 # (get_course_info, check_prerequisite, search_courses)
@@ -42,9 +42,9 @@ slots:
 responses:
   utter_invalid_course_code_format:
     - text: |
-        ❌ **Invalid Course Code Format**
+        ❌ Invalid Course Code Format
         
-        The course code should follow the format: **3-4 letters + 4 digits**
+        The course code should follow the format: 3-4 letters + 4 digits
         
         Examples: `CCS3101`, `CSC4600`, `SKP2101`, `AKU3311`
         
@@ -52,11 +52,11 @@ responses:
 
   utter_course_not_found:
     - text: |
-        ❌ **Course Not Found**
+        ❌ Course Not Found
         
-        I couldn't find information for **{course_code}** in my database.
+        I couldn't find information for {course_code} in my database.
         
-        **Possible reasons:**
+        Possible reasons:
         • Course code might be incorrect
         • Course may not be in my faculty handbooks
         
@@ -64,7 +64,7 @@ responses:
 
   utter_database_error:
     - text: |
-        ⚠️ **System Error**
+        ⚠️ System Error
         
         I encountered an issue while searching for course information.
         

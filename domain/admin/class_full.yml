@@ -1,4 +1,4 @@
-version: "3.1"
+﻿version: "3.1"
 
 responses:
   utter_ask_full_course_code:
@@ -13,9 +13,9 @@ responses:
 
   utter_class_full:
     - text: |
-        📚 **Full Class/Section**
+        📚 Full Class/Section
         
-        **Academic Advice:**
+        Academic Advice:
         1. Check if other sections are available.
         2. Wait for the Add/Drop period (seats often open up).
-        3. Consult the lecturer for a potential **Manual Registration** if critical for graduation.
+        3. Consult the lecturer for a potential Manual Registration if critical for graduation.

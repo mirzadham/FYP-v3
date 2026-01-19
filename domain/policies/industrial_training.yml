@@ -1,4 +1,4 @@
-version: "3.1"
+﻿version: "3.1"
 
 slots:
   wants_li_assessment:
@@ -71,7 +71,7 @@ responses:
     - text: |
         📅 What year of study are you currently in?
         
-        Please enter **1**, **2**, **3**, or **4**.
+        Please enter 1, 2, 3, or 4.
 
   utter_ask_credits_completed:
     - text: |
@@ -81,20 +81,20 @@ responses:
 
   utter_li_intro:
     - text: |
-        🏢 **Industrial Training (LI) Eligibility Check**
+        🏢 Industrial Training (LI) Eligibility Check
         
         I can help verify if you're eligible for industrial training!
         
-        **What I'll check:**
+        What I'll check:
         ✅ Year of study (usually Year 3-4)
         ✅ Credit hours completed
         ✅ Academic standing (not on probation)
         
-        **Note:** For placement, documentation, and logistics, contact your **LI Coordinator**.
+        Note: For placement, documentation, and logistics, contact your LI Coordinator.
         
         Ready to check your eligibility?
     - text: |
-        🏭 **Industrial Training Eligibility**
+        🏭 Industrial Training Eligibility
         
         Let me help you check if you're ready for LI/internship!
         
@@ -107,23 +107,23 @@ responses:
 
   utter_li_general_info:
     - text: |
-        📋 **Industrial Training Overview**
+        📋 Industrial Training Overview
         
-        **Eligibility Requirements:**
+        Eligibility Requirements:
         • Year 3 or Year 4 standing
         • Minimum credits completed (~70-80)
         • Not on academic probation
         • All prerequisite courses passed
         
-        **Duration:** 12-16 weeks (varies by program)
+        Duration: 12-16 weeks (varies by program)
         
-        **Contact:** Your Faculty's LI Coordinator for placement and registration.
+        Contact: Your Faculty's LI Coordinator for placement and registration.
     - text: |
-        🏢 **LI Quick Guide**
+        🏢 LI Quick Guide
         
-        **When:** Usually Year 3 or 4
-        **Duration:** 3-4 months
-        **Requirements:** Good academic standing, sufficient credits
+        When: Usually Year 3 or 4
+        Duration: 3-4 months
+        Requirements: Good academic standing, sufficient credits
         
         Your LI Coordinator handles all placements and paperwork!
 
@@ -131,24 +131,24 @@ responses:
     - text: |
         ❌ I couldn't understand that year.
         
-        Please enter your current year of study: **1**, **2**, **3**, or **4**.
+        Please enter your current year of study: 1, 2, 3, or 4.
     - text: |
         🔢 Please enter a valid year (1, 2, 3, or 4).
 
   utter_li_eligible:
     - text: |
-        ✅ **You Appear Eligible for Industrial Training!**
+        ✅ You Appear Eligible for Industrial Training!
         
         Based on your input:
-        • Year: **{current_year}** ✅
-        • Credits: **{credits_completed}** ✅
+        • Year: {current_year} ✅
+        • Credits: {credits_completed} ✅
         • Probation: Not on probation ✅
         
         You seem to meet the academic eligibility requirements! 🎉
     - text: |
-        🎉 **Great News - You're LI Ready!**
+        🎉 Great News - You're LI Ready!
         
-        **Eligibility Summary:**
+        Eligibility Summary:
         ✅ Year {current_year} - meets requirement
         ✅ {credits_completed} credits - sufficient
         ✅ Good academic standing
@@ -157,15 +157,15 @@ responses:
 
   utter_li_next_steps:
     - text: |
-        📋 **Next Steps for Industrial Training**
+        📋 Next Steps for Industrial Training
         
-        1. **Contact your LI Coordinator** - Get the latest LI briefing schedule
-        2. **Attend LI Briefing** - Mandatory for all LI students
-        3. **Search for placements** - Start 6 months early!
-        4. **Submit company acceptance letter** - To your faculty
-        5. **Prepare required documents** - Resume, cover letter, etc.
+        1. Contact your LI Coordinator - Get the latest LI briefing schedule
+        2. Attend LI Briefing - Mandatory for all LI students
+        3. Search for placements - Start 6 months early!
+        4. Submit company acceptance letter - To your faculty
+        5. Prepare required documents - Resume, cover letter, etc.
         
-        🏢 **Your LI Coordinator handles:**
+        🏢 Your LI Coordinator handles:
         • Placement verification
         • LI registration
         • Logbook requirements
@@ -173,7 +173,7 @@ responses:
         
         Good luck with your industrial training! 💼
     - text: |
-        🎯 **What to Do Next**
+        🎯 What to Do Next
         
         1. Find your LI Coordinator's contact
         2. Attend the mandatory LI briefing
@@ -186,17 +186,17 @@ responses:
 
   utter_li_not_yet:
     - text: |
-        📅 **Not Yet Eligible**
+        📅 Not Yet Eligible
         
-        Based on your current year (**Year {current_year}**), it's a bit early for industrial training.
+        Based on your current year (Year {current_year}), it's a bit early for industrial training.
         
-        **Typical LI timing:**
+        Typical LI timing:
         • Year 3: Some programs allow LI
         • Year 4: Most common LI period
         
         Don't worry - use this time to prepare!
     - text: |
-        ⏰ **A Bit Early for LI**
+        ⏰ A Bit Early for LI
         
         As a Year {current_year} student, you'll typically do LI in Year 3 or 4.
         
@@ -204,19 +204,19 @@ responses:
 
   utter_li_preparation:
     - text: |
-        💡 **Prepare for LI Now!**
+        💡 Prepare for LI Now!
         
-        **What you can do now:**
+        What you can do now:
         
-        1. **Build your resume** - Projects, skills, activities
-        2. **Learn industry skills** - Programming, tools, soft skills
-        3. **Network** - Career fairs, LinkedIn, alumni
-        4. **Research companies** - Know where you want to go
-        5. **Maintain good CGPA** - Some companies have requirements
+        1. Build your resume - Projects, skills, activities
+        2. Learn industry skills - Programming, tools, soft skills
+        3. Network - Career fairs, LinkedIn, alumni
+        4. Research companies - Know where you want to go
+        5. Maintain good CGPA - Some companies have requirements
         
         The earlier you prepare, the better your placement! 🚀
     - text: |
-        🎯 **LI Preparation Tips**
+        🎯 LI Preparation Tips
         
         • Start building your portfolio/resume
         • Join relevant clubs or projects
@@ -228,13 +228,13 @@ responses:
 
   utter_li_not_eligible:
     - text: |
-        ⚠️ **Eligibility Issue Detected**
+        ⚠️ Eligibility Issue Detected
         
         Based on your input, there may be an issue with your LI eligibility.
         
         Let me show you what needs attention...
     - text: |
-        📋 **LI Eligibility Check**
+        📋 LI Eligibility Check
         
         It looks like there's something that needs to be addressed before LI.
         
@@ -242,13 +242,13 @@ responses:
 
   utter_li_issues:
     - text: |
-        📝 **Issues to Address:**
+        📝 Issues to Address:
         
         {li_issues}
         
         Would you like guidance on resolving these?
     - text: |
-        🎯 **Action Required:**
+        🎯 Action Required:
         
         {li_issues}
         
@@ -256,24 +256,24 @@ responses:
 
   utter_li_guidance:
     - text: |
-        💡 **Guidance for LI Eligibility**
+        💡 Guidance for LI Eligibility
         
-        **On Probation?**
+        On Probation?
         → Focus on improving CGPA first
         → See probation recovery strategies
         → LI may need to wait until clear
         
-        **Credits Short?**
+        Credits Short?
         → Complete more courses this semester
         → Check with advisor for alternatives
         
-        **Need Help?**
+        Need Help?
         → Your Academic Advisor can provide a personalized plan
         → LI Coordinator can advise on timing
         
         Don't give up - work on these requirements! 💪
     - text: |
-        🎯 **How to Become Eligible**
+        🎯 How to Become Eligible
         
         • Clear probation status (if applicable)
         • Complete required credit hours
@@ -283,7 +283,7 @@ responses:
 
   utter_li_encouragement:
     - text: |
-        💪 **Keep Working Toward It!**
+        💪 Keep Working Toward It!
         
         Industrial training is a great opportunity, and you'll get there!
         
@@ -291,7 +291,7 @@ responses:
         
         All the best! 🌟
     - text: |
-        🌟 **You'll Get There!**
+        🌟 You'll Get There!
         
         Every semester brings you closer to LI eligibility.
         

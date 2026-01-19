@@ -1,4 +1,4 @@
-version: "3.1"
+﻿version: "3.1"
 
 slots:
   wants_drop_assessment:
@@ -62,7 +62,7 @@ responses:
     - text: |
         📅 What week of the semester is it currently?
         
-        Please enter a number from **1 to 14**.
+        Please enter a number from 1 to 14.
 
   utter_ask_is_core_course:
     - text: |
@@ -78,9 +78,9 @@ responses:
 
   utter_drop_intro:
     - text: |
-        📚 **Course Drop/Withdrawal Guidance**
+        📚 Course Drop/Withdrawal Guidance
         
-        Dropping a course has different consequences depending on **when** you do it.
+        Dropping a course has different consequences depending on when you do it.
         
         I can help you understand:
         • Fee implications (penalty for late drops)
@@ -89,7 +89,7 @@ responses:
         
         Would you like me to assess your specific situation?
     - text: |
-        📋 **Thinking of Dropping a Course?**
+        📋 Thinking of Dropping a Course?
         
         The timing matters a lot! Let me help you understand the consequences based on which week of the semester we're in.
         
@@ -97,41 +97,41 @@ responses:
 
   utter_drop_general_info:
     - text: |
-        📋 **General Drop/Withdrawal Policy (UPM)**
+        📋 General Drop/Withdrawal Policy (UPM)
         
-        **Week 1-2 (Add/Drop Period):**
+        Week 1-2 (Add/Drop Period):
         • No penalty fee
         • No record on transcript
         • Easy process through SMP
         
-        **Week 3-7 (Late Drop):**
-        • ⚠️ **Penalty fee applies** (no refund)
+        Week 3-7 (Late Drop):
+        • ⚠️ Penalty fee applies (no refund)
         • "W" (Withdrawn) grade on transcript
         • Need faculty approval
         
-        **Week 8-12 (Very Late):**
-        • ⚠️ **Penalty fee applies**
+        Week 8-12 (Very Late):
+        • ⚠️ Penalty fee applies
         • "W" grade on transcript
         • Need advisor + Dean approval
         
-        **Week 13+:**
+        Week 13+:
         • Generally cannot drop
         • Must complete course
         
         💡 Always consult your advisor before dropping!
     - text: |
-        📚 **Drop Policy Overview**
+        📚 Drop Policy Overview
         
-        **Early (Week 1-2):** No penalty, no record
-        **Late (Week 3-7):** Penalty fee, W grade
-        **Very Late (Week 8-12):** Penalty fee, W grade, multiple approvals
-        **Final (Week 13+):** Cannot drop
+        Early (Week 1-2): No penalty, no record
+        Late (Week 3-7): Penalty fee, W grade
+        Very Late (Week 8-12): Penalty fee, W grade, multiple approvals
+        Final (Week 13+): Cannot drop
         
-        ⚠️ **Note:** There are NO refunds for dropping courses after Week 2!
+        ⚠️ Note: There are NO refunds for dropping courses after Week 2!
 
   utter_invalid_week_format:
     - text: |
-        ❌ Please enter the current week as a number from **1 to 14**.
+        ❌ Please enter the current week as a number from 1 to 14.
         
         Example: `5` or `10`
     - text: |
@@ -139,18 +139,18 @@ responses:
 
   utter_drop_free_period:
     - text: |
-        ✅ **Free Drop Period (Week {current_week})**
+        ✅ Free Drop Period (Week {current_week})
         
-        **Good news!** You're in the add/drop period.
+        Good news! You're in the add/drop period.
         
-        **Consequences:**
-        • 💰 **Fee:** No penalty
-        • 📄 **Transcript:** No record
-        • ⏱️ **Approval:** Simple process
+        Consequences:
+        • 💰 Fee: No penalty
+        • 📄 Transcript: No record
+        • ⏱️ Approval: Simple process
         
         This is the best time to drop if you're sure!
     - text: |
-        🎉 **Best Time to Drop!**
+        🎉 Best Time to Drop!
         
         Week {current_week} is in the add/drop period.
         
@@ -160,16 +160,16 @@ responses:
 
   utter_drop_late_penalty:
     - text: |
-        ⚠️ **Late Drop Period (Week {current_week})**
+        ⚠️ Late Drop Period (Week {current_week})
         
-        **Consequences:**
-        • 💰 **Fee:** Penalty fee applies
-        • 📄 **Transcript:** "W" (Withdrawn) grade
-        • ⏱️ **Approval:** Faculty approval needed
+        Consequences:
+        • 💰 Fee: Penalty fee applies
+        • 📄 Transcript: "W" (Withdrawn) grade
+        • ⏱️ Approval: Faculty approval needed
         
         The "W" grade doesn't affect GPA but shows on transcript.
     - text: |
-        📋 **Mid-Semester Drop (Week {current_week})**
+        📋 Mid-Semester Drop (Week {current_week})
         
         • ⚠️ Penalty fee applies
         • "W" grade on transcript
@@ -179,16 +179,16 @@ responses:
 
   utter_drop_very_late_period:
     - text: |
-        🚨 **Very Late Drop Period (Week {current_week})**
+        🚨 Very Late Drop Period (Week {current_week})
         
-        **Consequences:**
-        • 💰 **Fee:** Penalty fee applies
-        • 📄 **Transcript:** "W" (Withdrawn) grade
-        • ⏱️ **Approval:** Advisor + Dean approval required
+        Consequences:
+        • 💰 Fee: Penalty fee applies
+        • 📄 Transcript: "W" (Withdrawn) grade
+        • ⏱️ Approval: Advisor + Dean approval required
         
         This is a significant decision. Are you sure?
     - text: |
-        ⚠️ **Very Late Withdrawal (Week {current_week})**
+        ⚠️ Very Late Withdrawal (Week {current_week})
         
         • Penalty fee applies
         • "W" grade recorded
@@ -198,13 +198,13 @@ responses:
 
   utter_drop_not_allowed:
     - text: |
-        🚫 **Drop Period Closed (Week {current_week})**
+        🚫 Drop Period Closed (Week {current_week})
         
-        Unfortunately, at this stage of the semester, course drops are generally **not allowed**.
+        Unfortunately, at this stage of the semester, course drops are generally not allowed.
         
         You'll need to complete the course or explore alternatives.
     - text: |
-        ⛔ **Cannot Drop at Week {current_week}**
+        ⛔ Cannot Drop at Week {current_week}
         
         We're past the drop deadline. You'll typically need to:
         • Complete the course, OR
@@ -212,21 +212,21 @@ responses:
 
   utter_drop_procedure:
     - text: |
-        📋 **How to Drop a Course**
+        📋 How to Drop a Course
         
-        **Step 1:** Log into SMP Portal
-        **Step 2:** Go to Course Registration
-        **Step 3:** Select the course to drop
-        **Step 4:** Submit drop request
-        **Step 5:** Get required approvals (if applicable)
-        **Step 6:** Pay penalty fee if after Week 2
+        Step 1: Log into SMP Portal
+        Step 2: Go to Course Registration
+        Step 3: Select the course to drop
+        Step 4: Submit drop request
+        Step 5: Get required approvals (if applicable)
+        Step 6: Pay penalty fee if after Week 2
         
-        ⚠️ **Remember:**
+        ⚠️ Remember:
         • Keep confirmation of your request
         • Follow up if status doesn't update
         • Check your updated course load
     - text: |
-        🔧 **Drop Procedure**
+        🔧 Drop Procedure
         
         1. Access SMP → Registration
         2. Select course to drop
@@ -237,24 +237,24 @@ responses:
 
   utter_drop_warning:
     - text: |
-        ⚠️ **Before You Drop - Consider This**
+        ⚠️ Before You Drop - Consider This
         
-        **If it's a CORE course:**
+        If it's a CORE course:
         • You'll need to retake it
         • May delay graduation
         • Check when it's offered next
         
-        **Financial Impact:**
+        Financial Impact:
         • Penalty fee for late drops
         • May affect scholarship/loan status
         
-        **Impact on:**
+        Impact on:
         • Credit load (may fall below minimum)
         • Graduation timeline
         
         💡 Strongly recommend discussing with your advisor first!
     - text: |
-        🤔 **Think Before You Drop**
+        🤔 Think Before You Drop
         
         • Will this delay graduation?
         • When is the course offered again?
@@ -266,7 +266,7 @@ responses:
 
   utter_drop_consider_carefully:
     - text: |
-        💭 **Take Your Time**
+        💭 Take Your Time
         
         Dropping a course is a significant decision. Consider:
         
@@ -277,7 +277,7 @@ responses:
         
         Your advisor can help you weigh the options!
     - text: |
-        🤔 **Consider All Options**
+        🤔 Consider All Options
         
         Before deciding, think about tutoring, study groups, or talking to the lecturer.
         
@@ -285,23 +285,23 @@ responses:
 
   utter_drop_alternatives:
     - text: |
-        💡 **Alternatives When You Can't Drop**
+        💡 Alternatives When You Can't Drop
         
-        **Academic Support:**
+        Academic Support:
         • Peer study groups
         • Consult with lecturer during office hours
         
-        **Special Circumstances:**
+        Special Circumstances:
         • Medical withdrawal (with documentation)
         • Emergency leave (family circumstances)
         
-        **Last Resort:**
+        Last Resort:
         • Talk to Dean's office about exceptions
         • Consider impact of failing vs. other options
         
         Reach out for help - don't give up! 💪
     - text: |
-        🎯 **Options If You Can't Drop**
+        🎯 Options If You Can't Drop
         
         1. Seek tutoring help
         2. Form study groups
@@ -311,7 +311,7 @@ responses:
 
   utter_stay_strong:
     - text: |
-        💪 **Stay Strong!**
+        💪 Stay Strong!
         
         I know it's tough, but you can get through this.
         
@@ -322,7 +322,7 @@ responses:
         
         You've got this! 🌟
     - text: |
-        🌟 **You Can Do This!**
+        🌟 You Can Do This!
         
         Push through - you're stronger than you think!
         

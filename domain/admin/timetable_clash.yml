@@ -1,4 +1,4 @@
-version: "3.1"
+﻿version: "3.1"
 
 responses:
   utter_ask_clashing_courses:
@@ -13,11 +13,11 @@ responses:
 
   utter_timetable_clash:
     - text: |
-        📅 **Timetable Clash**
+        📅 Timetable Clash
         
-        **Academic Advice:**
+        Academic Advice:
         • You typically cannot register for clashing classes.
         • Switch sections if possible.
-        • If unavoidable, you may need to **drop one subject** and take it next semester.
+        • If unavoidable, you may need to drop one subject and take it next semester.
         
         ⚠️ Plan your schedule carefully to avoid extending your study duration.

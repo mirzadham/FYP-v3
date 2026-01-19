@@ -1,15 +1,15 @@
-version: "3.1"
+﻿version: "3.1"
 
 responses:
   utter_help:
     - text: |
-        🎓 **Here's how I can help you:**
+        🎓 Here's how I can help you:
         
-        📚 **Course Information**
+        📚 Course Information
         • "Tell me about CCS3101" — Get course synopsis and credits
         • "What are the prerequisites for CSC4600?" — Check required courses
         
-        📋 **Academic Procedures**
+        📋 Academic Procedures
         • Registration deadlines and procedures
         • Dropping courses and deferment
         • Credit transfer and program changes
@@ -18,7 +18,7 @@ responses:
 
   utter_wellbeing_support:
     - text: |
-        💚 **Wellbeing Support**
+        💚 Wellbeing Support
         • Feeling stressed or overwhelmed? I'm here to help.
         • UPM counseling services (BKUPM) information
         

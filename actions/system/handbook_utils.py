@@ -215,7 +215,7 @@ def get_context_for_rag(query: str, top_k: int = 5) -> str:
         prereqs = course.get("prerequisites", [])
         faculty = course.get("faculty", "")
         
-        part = f"**{code}**: {name_en or name_my}"
+        part = f"{code}: {name_en or name_my}"
         if credits:
             part += f" ({credits})"
         if faculty:

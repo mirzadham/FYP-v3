@@ -1,9 +1,9 @@
-version: "3.1"
+﻿version: "3.1"
 
 responses:
   utter_hello:
     - text: |
-        👋 Hello! I'm your **UPM Academic Advisor Chatbot**.
+        👋 Hello! I'm your UPM Academic Advisor Chatbot.
         
         I can help you with:
         • 📚 Course information and synopses

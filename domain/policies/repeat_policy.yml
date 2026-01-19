@@ -1,4 +1,4 @@
-version: "3.1"
+﻿version: "3.1"
 
 slots:
   repeat_reason:
@@ -19,13 +19,13 @@ responses:
     - text: |
         📚 What's your reason for repeating a course?
         
-        • **Failed** - I failed the course
-        • **Improve grade** - I want to improve my grade
-        • **Prerequisite** - I need to pass this as a prerequisite
+        • Failed - I failed the course
+        • Improve grade - I want to improve my grade
+        • Prerequisite - I need to pass this as a prerequisite
 
   utter_repeat_intro:
     - text: |
-        📚 **Repeat/Retake Course Guidance**
+        📚 Repeat/Retake Course Guidance
         
         I can help you understand the repeat policy.
         
@@ -36,19 +36,19 @@ responses:
 
   utter_failed_repeat_policy:
     - text: |
-        📚 **Failed Course - Repeat Policy**
+        📚 Failed Course - Repeat Policy
         
-        **Key Points:**
+        Key Points:
         • You MUST repeat failed core courses
         • Register when course is next offered
         • Both grades appear on transcript
         • Latest grade used for CGPA
         
-        **Grade Cap:** Some faculties cap repeat grades (check your program rules)
+        Grade Cap: Some faculties cap repeat grades (check your program rules)
 
   utter_repeat_priority:
     - text: |
-        ⚡ **Priority Action**
+        ⚡ Priority Action
         
         For core courses:
         • Repeat immediately when offered
@@ -59,20 +59,20 @@ responses:
 
   utter_grade_improvement_policy:
     - text: |
-        📈 **Grade Improvement Policy**
+        📈 Grade Improvement Policy
         
-        **Can you repeat a passed course?**
+        Can you repeat a passed course?
         
         • Generally NOT encouraged for passed courses
         • Some faculties allow with conditions
         • Check with Faculty Academic Office
         
-        **Better Alternative:**
+        Better Alternative:
         Focus on improving in upcoming courses!
 
   utter_prerequisite_repeat:
     - text: |
-        🔗 **Prerequisite Repeat**
+        🔗 Prerequisite Repeat
         
         If you failed a prerequisite:
         • You CANNOT register for advanced courses
