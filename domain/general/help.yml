@@ -7,12 +7,37 @@ responses:
         
         📚 Course Information
         • "Tell me about CCS3101" — Get course synopsis and credits
-        • "What are the prerequisites for CSC4600?" — Check required courses
+        • "What are the prerequisites for CSC4600?" — Check course requirements
+        • "Search for database courses" — Find courses by keyword
         
-        📋 Academic Procedures
-        • Registration deadlines and procedures
-        • Dropping courses and deferment
-        • Credit transfer and program changes
+        🎓 Academic Standing & Requirements
+        • "What are the graduation requirements?" — Check what you need to graduate
+        • "How do I get on the Dean's List?" — Academic excellence criteria
+        • "I'm on academic probation" — Get guidance and support
+        • "How do I appeal my grade?" — Grade appeal procedures
+        
+        📋 Registration & Enrollment
+        • "When is the registration deadline?" — Important dates
+        • "The class I want is full" — Waitlist and alternatives
+        • "I have a timetable clash" — Resolve scheduling conflicts
+        • "How do I drop a course?" — Course withdrawal process
+        
+        📄 Academic Policies
+        • "How do I defer my semester?" — Deferment procedures
+        • "Can I transfer my credits?" — Credit transfer process
+        • "How do I change my program?" — Program transfer guide
+        • "What's the repeat policy?" — Course retake rules
+        
+        💼 Industrial Training & Career
+        • "Tell me about industrial training" — Internship requirements
+        • "What are the career prospects?" — Future opportunities
+        
+        🎉 Convocation
+        • "When is convocation?" — Graduation ceremony details
+        
+        💚 Wellbeing Support
+        • "I'm feeling stressed" — Mental health resources
+        • UPM counseling services (BKUPM)
         
         Just ask me anything about your academic journey!
 

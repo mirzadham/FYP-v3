@@ -6,15 +6,22 @@ responses:
         👋 Hello! I'm your UPM Academic Advisor Chatbot.
         
         I can help you with:
-        • 📚 Course information and synopses
-        • 📋 Prerequisites for courses
-        • 📅 Registration deadlines and procedures
-        • 🎓 Graduation requirements
+        • 📚 Course info, prerequisites & search
+        • 🎓 Graduation requirements & Dean's List
+        • 📋 Registration, deadlines & timetable issues
+        • 📄 Deferment, credit transfer & grade appeals
+        • 💼 Industrial training & career prospects
+        • 💚 Wellbeing support & counseling resources
         
-        How can I assist you today?
+        How can I assist you today? Type "help" to see example questions!
     - text: |
-        Hi there! 👋 Welcome to the UPM Academic Advisor.
+        Hi there! 👋 Welcome to the UPM Academic Advisor Chatbot.
         
-        I'm here to help with course info, prerequisites, and academic procedures.
+        I'm your one-stop guide for:
+        • Courses, prerequisites & graduation requirements
+        • Registration issues & academic policies
+        • Probation support & grade appeals
+        • Industrial training & career guidance
+        • Mental health resources
         
-        What would you like to know?
+        What would you like to know? Type "help" for examples!

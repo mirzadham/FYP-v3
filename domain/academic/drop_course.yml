@@ -106,12 +106,12 @@ responses:
         
         Week 3-7 (Late Drop):
         • ⚠️ Penalty fee applies (no refund)
-        • "W" (Withdrawn) grade on transcript
+        • "TD" (Tarik Diri) grade on transcript
         • Need faculty approval
         
         Week 8-12 (Very Late):
         • ⚠️ Penalty fee applies
-        • "W" grade on transcript
+        • "TD" grade on transcript
         • Need advisor + Dean approval
         
         Week 13+:
@@ -123,8 +123,8 @@ responses:
         📚 Drop Policy Overview
         
         Early (Week 1-2): No penalty, no record
-        Late (Week 3-7): Penalty fee, W grade
-        Very Late (Week 8-12): Penalty fee, W grade, multiple approvals
+        Late (Week 3-7): Penalty fee, TD grade
+        Very Late (Week 8-12): Penalty fee, TD grade, multiple approvals
         Final (Week 13+): Cannot drop
         
         ⚠️ Note: There are NO refunds for dropping courses after Week 2!
@@ -164,18 +164,18 @@ responses:
         
         Consequences:
         • 💰 Fee: Penalty fee applies
-        • 📄 Transcript: "W" (Withdrawn) grade
+        • 📄 Transcript: "TD" (Tarik Diri) grade
         • ⏱️ Approval: Faculty approval needed
         
-        The "W" grade doesn't affect GPA but shows on transcript.
+        The "TD" grade doesn't affect GPA but shows on transcript.
     - text: |
         📋 Mid-Semester Drop (Week {current_week})
         
         • ⚠️ Penalty fee applies
-        • "W" grade on transcript
+        • "TD" grade on transcript
         • Requires faculty approval
         
-        "W" doesn't hurt GPA but employers/grad schools may ask.
+        "TD" doesn't hurt GPA but shows on transcript.
 
   utter_drop_very_late_period:
     - text: |
@@ -183,7 +183,7 @@ responses:
         
         Consequences:
         • 💰 Fee: Penalty fee applies
-        • 📄 Transcript: "W" (Withdrawn) grade
+        • 📄 Transcript: "TD" (Tarik Diri) grade
         • ⏱️ Approval: Advisor + Dean approval required
         
         This is a significant decision. Are you sure?
@@ -191,7 +191,7 @@ responses:
         ⚠️ Very Late Withdrawal (Week {current_week})
         
         • Penalty fee applies
-        • "W" grade recorded
+        • "TD" grade recorded
         • Multiple approvals needed
         
         Think carefully before proceeding.
