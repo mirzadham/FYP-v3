@@ -14,7 +14,6 @@ Requirements:
     - pymupdf, openai packages installed
 """
 
-import os
 import re
 import json
 import pickle
@@ -84,7 +83,6 @@ def chunk_by_course_code(text: str) -> List[Dict[str, str]]:
     unique_matches = []
     seen_positions = set()
     for match in matches:
-        code = match.group(1)
         # Check if this is a new course block (not just a reference)
         # by looking at some context after the code
         pos = match.start()
