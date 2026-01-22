@@ -13,6 +13,7 @@ Tests:
 """
 
 import pytest
+from unittest.mock import patch, MagicMock
 from tests.helpers import create_tracker, get_slot_value
 
 from actions.admin.medium_priority_actions import (
@@ -190,13 +191,43 @@ class TestActionProvideDeadlineInfo:
         action = ActionProvideDeadlineInfo()
         assert action.name() == "action_provide_deadline_info"
 
-    def test_run_returns_empty_events(self, dispatcher, domain):
-        """Action returns empty events."""
+    @patch('actions.system.handbook_utils.HandbookStore')
+    def test_run_returns_deadline_slots(self, mock_store_cls, dispatcher, domain):
+        """Action returns deadline date slots populated from calendar."""
+        # Mock the store instance and its get_all_calendar method
+        mock_store = MagicMock()
+        mock_store.get_all_calendar.return_value = {
+            "1": {
+                "event_name": "Course Registration (Add/Drop)",
+                "start_date": "10 Oct 2024",
+                "end_date": "24 Oct 2024"
+            },
+            "2": {
+                "event_name": "Late Course Registration",
+                "start_date": "25 Oct 2024",
+                "end_date": "01 Nov 2024"
+            },
+            "3": {
+                "event_name": "Course Drop with Penalty",
+                "start_date": "02 Nov 2024",
+                "end_date": "10 Dec 2024"
+            }
+        }
+        mock_store_cls.return_value = mock_store
+        
         tracker = create_tracker(slots={})
         action = ActionProvideDeadlineInfo()
         
         events = action.run(dispatcher, tracker, domain)
-        assert events == []
+        
+        # Helper to get slot value from list of events
+        add_drop = next((e['value'] for e in events if e['event'] == 'slot' and e['name'] == 'add_drop_dates'), None)
+        late_reg = next((e['value'] for e in events if e['event'] == 'slot' and e['name'] == 'late_reg_dates'), None)
+        withdrawal = next((e['value'] for e in events if e['event'] == 'slot' and e['name'] == 'withdrawal_dates'), None)
+        
+        assert "10 Oct 2024 to 24 Oct 2024" in add_drop
+        assert "25 Oct 2024 to 01 Nov 2024" in late_reg
+        assert "02 Nov 2024 to 10 Dec 2024" in withdrawal
 
 
 class TestActionAssessFullClassOptions:

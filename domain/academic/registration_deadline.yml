@@ -16,6 +16,22 @@ slots:
     mappings:
       - type: from_llm
 
+  # Slots for dynamic dates (set by action_provide_deadline_info)
+  add_drop_dates:
+    type: text
+    mappings:
+      - type: custom
+
+  late_reg_dates:
+    type: text
+    mappings:
+      - type: custom
+
+  withdrawal_dates:
+    type: text
+    mappings:
+      - type: custom
+
 actions:
   - action_provide_deadline_info
 
@@ -45,7 +61,7 @@ responses:
     - text: |
         📅 Add/Drop Period
         
-        Timing: Usually Week 1-2 of semester
+        Timing: {add_drop_dates}
         
         What you can do:
         • Add new courses
@@ -60,7 +76,7 @@ responses:
     - text: |
         ⏰ Late Registration
         
-        Timing: Week 3-4 (with penalty)
+        Timing: {late_reg_dates} (with penalty)
         
         Consequences:
         • Late fee applies
@@ -72,6 +88,8 @@ responses:
   utter_withdrawal_deadline:
     - text: |
         📋 Course Withdrawal Deadlines (UPM)
+        
+        Timing: {withdrawal_dates}
         
         Week 1-2: Easy drop, no penalty
         Week 3-7: Penalty fee, TD grade

@@ -116,10 +116,33 @@ class ActionAssessProbationStatus(Action):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
+        # Import here
+        from actions.system.handbook_utils import HandbookStore
+        
         cgpa = tracker.get_slot("current_cgpa")
         
+        # Get handbook rules for context
+        store = HandbookStore()
+        rules = store.get_all_rules()
+        probation_context = ""
+        
+        # Find relevant probation rule
+        # Look for keywords like "probation", "warning", etc.
+        for rule in rules.values():
+            title = rule.get("section_title", "").lower()
+            if "probation" in title or "warning" in title:
+                 # Use the content of the first matching rule as context
+                 # Truncate if too long (e.g. 500 chars)
+                 content = rule.get("content_english", "")
+                 if content:
+                     probation_context = content[:500] + "..." if len(content) > 500 else content
+                     break
+        
         if cgpa is None:
-            return [SlotSet("probation_status", "critical")]
+            return [
+                SlotSet("probation_status", "critical"),
+                SlotSet("probation_context", probation_context)
+            ]
         
         try:
             cgpa_float = float(cgpa)
@@ -133,10 +156,16 @@ class ActionAssessProbationStatus(Action):
             else:
                 status = "critical"
             
-            return [SlotSet("probation_status", status)]
+            return [
+                SlotSet("probation_status", status),
+                SlotSet("probation_context", probation_context)
+            ]
             
         except (ValueError, TypeError):
-            return [SlotSet("probation_status", "critical")]
+            return [
+                SlotSet("probation_status", "critical"),
+                SlotSet("probation_context", probation_context)
+            ]
 
 
 class ActionDetermineProbationLevel(Action):

@@ -61,6 +61,12 @@ slots:
     mappings:
       - type: from_llm
 
+  # Context slot for official rule text
+  probation_context:
+    type: text
+    mappings:
+      - type: custom
+
 actions:
   - action_check_assessment_choice
   - action_validate_cgpa
@@ -111,6 +117,9 @@ responses:
         • Limited credit hours (usually max 12-15)
         • Required to meet with Academic Advisor
         • Risk of dismissal if not improved
+        
+        Official Rule:
+        {probation_context}
         
         Would you like me to assess your personal situation?
     - text: |

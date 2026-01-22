@@ -1,0 +1,13 @@
+flows:
+  academic_calendar:
+    description: |
+      Answer questions about the academic calendar, including:
+      - Semester start/end dates
+      - Examination weeks
+      - Public holidays
+      - Registration deadlines
+      - Specific event dates (e.g. "when is Deepavali?")
+    name: check academic calendar
+    steps:
+      - action: action_query_calendar
+        next: END

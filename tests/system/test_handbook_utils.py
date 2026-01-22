@@ -271,7 +271,7 @@ class TestGetContextForRag:
 
     @patch('actions.system.handbook_utils.semantic_search')
     def test_context_with_results(self, mock_search):
-        """HU-017: Context with search results returns formatted string."""
+        """HU-017: Context for course domain returns formatted string."""
         from actions.system.handbook_utils import get_context_for_rag
         
         mock_search.return_value = [
@@ -282,15 +282,55 @@ class TestGetContextForRag:
                 "prerequisites": ["CSS100"],
                 "description_english": "A test course description",
                 "faculty": "Computer Science",
-                "_domain": "course"  # Required by new multi-domain format
+                "_domain": "course"
             }
         ]
         
-        result = get_context_for_rag("test query")
+        result = get_context_for_rag("test query", domain="course")
         
         assert isinstance(result, str)
         assert "CSS101" in result
         assert "Test Course" in result
+
+    @patch('actions.system.handbook_utils.semantic_search')
+    def test_context_for_calendar(self, mock_search):
+        """HU-025: Context for calendar domain returns formatted string."""
+        from actions.system.handbook_utils import get_context_for_rag
+        
+        mock_search.return_value = [
+            {
+                "event_name": "Final Exams",
+                "start_date": "01 Jan 2025",
+                "end_date": "14 Jan 2025",
+                "category": "examination",
+                "_domain": "calendar"
+            }
+        ]
+        
+        result = get_context_for_rag("when are exams", domain="calendar")
+        
+        assert isinstance(result, str)
+        assert "Final Exams" in result
+        assert "01 Jan 2025" in result
+
+    @patch('actions.system.handbook_utils.semantic_search')
+    def test_context_for_rules(self, mock_search):
+        """HU-026: Context for rules domain returns formatted string."""
+        from actions.system.handbook_utils import get_context_for_rag
+        
+        mock_search.return_value = [
+            {
+                "section_title": "Grading System",
+                "content_english": "A=4.0, B=3.0",
+                "_domain": "rule"
+            }
+        ]
+        
+        result = get_context_for_rag("how is grading done", domain="rules")
+        
+        assert isinstance(result, str)
+        assert "Grading System" in result
+        assert "A=4.0" in result
 
     @patch('actions.system.handbook_utils.semantic_search')
     def test_context_no_results(self, mock_search):

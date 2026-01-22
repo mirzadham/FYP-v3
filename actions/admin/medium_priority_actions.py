@@ -86,7 +86,49 @@ class ActionProvideDeadlineInfo(Action):
         return "action_provide_deadline_info"
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        return []
+        # Import here to avoid circular dependencies if any
+        from actions.system.handbook_utils import HandbookStore
+
+        store = HandbookStore()
+        calendar = store.get_all_calendar()
+        
+        add_drop_text = "Check academic calendar"
+        late_reg_text = "Check academic calendar"
+        withdrawal_text = "Check academic calendar"
+        
+        # Helper to find date ranges
+        def find_range(keywords):
+            for event in calendar.values():
+                name = event.get("event_name", "").lower()
+                if any(k in name for k in keywords):
+                    start = event.get("start_date", "")
+                    end = event.get("end_date", "")
+                    if start and end:
+                        return f"{start} to {end}"
+                    return start
+            return None
+
+        # Add/Drop
+        ad_range = find_range(["add/drop", "course registration change", "perubahan pendaftaran"])
+        if ad_range:
+            add_drop_text = ad_range
+            
+        # Late Registration
+        lr_range = find_range(["late course registration", "pendaftaran kursus lewat"])
+        if lr_range:
+            late_reg_text = lr_range
+            
+        # Withdrawal (Course Drop with Penalty)
+        # Usually labelled "Course Drop with Penalty" or "Gugur Kursus"
+        wd_range = find_range(["course drop with penalty", "gugur kursus dengan denda"])
+        if wd_range:
+            withdrawal_text = wd_range
+
+        return [
+            SlotSet("add_drop_dates", add_drop_text),
+            SlotSet("late_reg_dates", late_reg_text),
+            SlotSet("withdrawal_dates", withdrawal_text)
+        ]
 
 
 # ============ CLASS FULL / TIMETABLE CLASH ACTIONS ============

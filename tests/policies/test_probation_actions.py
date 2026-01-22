@@ -11,6 +11,7 @@ Tests:
 """
 
 import pytest
+from unittest.mock import patch, MagicMock
 from tests.helpers import create_tracker, get_slot_value
 
 from actions.policies.probation_actions import (
@@ -161,8 +162,35 @@ class TestActionAssessProbationStatus:
         action = ActionAssessProbationStatus()
         assert action.name() == "action_assess_probation_status"
 
-    def test_not_on_probation(self, dispatcher, domain):
-        """UT-049: Not on probation (CGPA ≥2.0)."""
+    @patch('actions.system.handbook_utils.HandbookStore')
+    def test_probation_status_and_context(self, mock_store_cls, dispatcher, domain):
+        """UT-049/051: Verify status calculation AND context retrieval."""
+        # Mock the store to return a probation rule
+        mock_store = MagicMock()
+        mock_store.get_all_rules.return_value = {
+            "p1": {
+                "section_title": "Academic Probation Policy",
+                "content_english": "A student with CGPA below 2.00 shall be placed on probation."
+            }
+        }
+        mock_store_cls.return_value = mock_store
+        
+        # Test Case 1: Probation (1.65)
+        tracker = create_tracker(slots={"current_cgpa": 1.65})
+        action = ActionAssessProbationStatus()
+        
+        events = action.run(dispatcher, tracker, domain)
+        status = get_slot_value(events, "probation_status")
+        context = get_slot_value(events, "probation_context")
+        
+        assert status == "probation"
+        assert "A student with CGPA below 2.00" in context
+
+    @patch('actions.system.handbook_utils.HandbookStore')
+    def test_not_on_probation(self, mock_store_cls, dispatcher, domain):
+        """UT-049: Not on probation (CGPA >= 2.0)."""
+        mock_store_cls.return_value.get_all_rules.return_value = {}
+        
         tracker = create_tracker(slots={"current_cgpa": 2.5})
         action = ActionAssessProbationStatus()
         
@@ -171,8 +199,11 @@ class TestActionAssessProbationStatus:
         
         assert status == "not_on_probation"
 
-    def test_warning_status(self, dispatcher, domain):
+    @patch('actions.system.handbook_utils.HandbookStore')
+    def test_warning_status(self, mock_store_cls, dispatcher, domain):
         """UT-050: Warning (CGPA 1.80-1.99)."""
+        mock_store_cls.return_value.get_all_rules.return_value = {}
+        
         tracker = create_tracker(slots={"current_cgpa": 1.85})
         action = ActionAssessProbationStatus()
         
@@ -181,18 +212,11 @@ class TestActionAssessProbationStatus:
         
         assert status == "warning"
 
-    def test_probation_status(self, dispatcher, domain):
-        """UT-051: On probation (CGPA 1.50-1.79)."""
-        tracker = create_tracker(slots={"current_cgpa": 1.65})
-        action = ActionAssessProbationStatus()
-        
-        events = action.run(dispatcher, tracker, domain)
-        status = get_slot_value(events, "probation_status")
-        
-        assert status == "probation"
-
-    def test_critical_status(self, dispatcher, domain):
+    @patch('actions.system.handbook_utils.HandbookStore')
+    def test_critical_status(self, mock_store_cls, dispatcher, domain):
         """UT-052: Critical (CGPA <1.50)."""
+        mock_store_cls.return_value.get_all_rules.return_value = {}
+        
         tracker = create_tracker(slots={"current_cgpa": 1.2})
         action = ActionAssessProbationStatus()
         
