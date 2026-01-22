@@ -281,7 +281,8 @@ class TestGetContextForRag:
                 "credits": "3",
                 "prerequisites": ["CSS100"],
                 "description_english": "A test course description",
-                "faculty": "Computer Science"
+                "faculty": "Computer Science",
+                "_domain": "course"  # Required by new multi-domain format
             }
         ]
         
