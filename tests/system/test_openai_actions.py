@@ -50,8 +50,8 @@ class TestActionOpenAIResponse:
         
         events = action.run(dispatcher, tracker, domain)
         
-        # Verify OpenAI was called
-        mock_client.chat.completions.create.assert_called_once()
+        # Verify OpenAI was called twice (classification + response)
+        assert mock_client.chat.completions.create.call_count == 2
         # Verify dispatcher got the response
         dispatcher.utter_message.assert_called_with(text="Test response from OpenAI")
 
@@ -182,8 +182,8 @@ class TestOpenAIResilience:
         
         events = action.run(dispatcher, tracker, domain)
         
-        # Verify OpenAI was called (input passed through)
-        mock_client.chat.completions.create.assert_called_once()
+        # Verify OpenAI was called twice (classification + response)
+        assert mock_client.chat.completions.create.call_count == 2
         # Should handle without crashing
         assert isinstance(events, list)
 
@@ -203,6 +203,6 @@ class TestOpenAIResilience:
         
         events = action.run(dispatcher, tracker, domain)
         
-        # Verify OpenAI was called
-        mock_client.chat.completions.create.assert_called_once()
+        # Verify OpenAI was called twice (classification + response)
+        assert mock_client.chat.completions.create.call_count == 2
         assert isinstance(events, list)
