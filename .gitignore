@@ -77,3 +77,5 @@ downloaded-*.json
 log_archive/
 
 tools/
+
+.agent/
