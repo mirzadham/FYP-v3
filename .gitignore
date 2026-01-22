@@ -63,6 +63,7 @@ academic_advisor_responsibilities.txt
 # Source data files (not needed in production)
 data/handbook/pdf/
 data/handbook/txt/
+data/handbook/**/*.pdf
 
 # Service account keys (NEVER commit)
 github-actions-key.json
@@ -75,7 +76,5 @@ downloaded-*.json
 *.exe
 
 log_archive/
-
-tools/
 
 .agent/
