@@ -12,8 +12,8 @@ action_endpoint:
 # NEVER use these credentials in production or internet-accessible environments
 tracker_store:
   type: SQL
-  dialect: postgresql
-  url: "${DATABASE_URL:-postgresql://rasa:rasa@localhost:5432/rasa_tracker}"
+  dialect: sqlite
+  url: "sqlite:///db/rasa_tracker.db"
 
 # Event broker (optional, for production)
 # event_broker:

@@ -2,22 +2,7 @@
 # Includes PostgreSQL for testing Cloud SQL compatibility
 
 services:
-  # PostgreSQL database (for local testing)
-  postgres:
-    image: postgres:14
-    environment:
-      POSTGRES_USER: rasa
-      POSTGRES_PASSWORD: rasa
-      POSTGRES_DB: rasa_tracker
-    ports:
-      - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U rasa"]
-      interval: 5s
-      timeout: 5s
-      retries: 5
+
 
   # Rasa Action Server
   action-server:
@@ -30,8 +15,7 @@ services:
       - "5055:8080"
     environment:
       - PORT=8080
-    depends_on:
-      - postgres
+
 
   # Rasa Server
   rasa:
@@ -44,13 +28,10 @@ services:
       - PORT=8080
       - RASA_LICENSE=${RASA_LICENSE}
       - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - DATABASE_URL=postgresql://rasa:rasa@postgres:5432/rasa_tracker
       - ACTION_SERVER_URL=http://action-server:8080/webhook
     depends_on:
-      postgres:
-        condition: service_healthy
       action-server:
         condition: service_started
 
 volumes:
-  postgres_data:
+

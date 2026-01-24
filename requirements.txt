@@ -9,7 +9,7 @@ openai>=1.0.0
 
 # Database support
 sqlalchemy>=2.0.0
-psycopg2-binary>=2.9.0
+
 
 # For custom actions server
 rasa-sdk>=3.10.0
