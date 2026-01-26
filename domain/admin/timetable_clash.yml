@@ -5,7 +5,7 @@ responses:
     - text: |
         📅 Which courses are clashing in your timetable?
         
-        Please list the course codes (e.g., `CSC1011 and MTH2011`).
+        Please list the course codes (e.g., `CSC3101 and MTH3100`).
 
   utter_ask_both_courses_required:
     - text: |

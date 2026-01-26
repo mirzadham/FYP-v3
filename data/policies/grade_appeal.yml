@@ -27,7 +27,7 @@ flows:
       # Step 2: Collect reason for appeal
       - id: collect_appeal_reason
         collect: appeal_reason
-        description: The main reason for wanting to appeal (calculation error, marking error, unfair assessment, other)
+        description: The main reason for wanting to appeal (grade discrepancy, assessment issue, grading rationale, other)
 
       # Step 3: Collect days since results
       - id: collect_days_since_results

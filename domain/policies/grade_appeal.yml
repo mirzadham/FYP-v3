@@ -68,9 +68,9 @@ responses:
     - text: |
         📋 What is your main reason for wanting to appeal?
         
-        • Calculation error - Marks were added incorrectly
-        • Marking error - Questions not marked or marked wrong
-        • Unfair assessment - Marking inconsistency or bias
+        • Grade discrepancy - Grade doesn't match expected performance
+        • Assessment issue - Concerns about how assessment was conducted
+        • Grading rationale - Unclear how the grade was determined
         • Other - Different reason
 
   utter_ask_days_since_results:
@@ -81,7 +81,7 @@ responses:
 
   utter_ask_has_reviewed_script:
     - text: |
-        📝 Have you already reviewed your exam script with the lecturer?
+        📝 Have you met to discuss with the lecturer?
 
   utter_ask_wants_appeal_procedure:
     - text: |
@@ -113,15 +113,15 @@ responses:
         📋 Grade Appeal Overview
         
         When to Consider:
-        • Calculation/addition errors
-        • Questions not marked
-        • Marking inconsistencies
+        • Grade doesn't match performance
+        • Unclear grading rationale
+        • Procedural issues
         
         Deadline: Usually 14 days after results release
         Fee: RM50
         
         Important Steps:
-        1. Review script with lecturer FIRST
+        1. Discuss grade with lecturer FIRST
         2. Submit appeal form to Faculty
         3. Wait for review result
         
@@ -130,8 +130,8 @@ responses:
         📝 Appeal Process Quick Guide
         
         Before Appealing:
-        • Review your exam script
-        • Understand where marks were lost
+        • Discuss performance with lecturer
+        • Understand the grading rationale
         
         To Appeal:
         • Submit form within 14 days
@@ -178,23 +178,23 @@ responses:
 
   utter_review_script_first:
     - text: |
-        💡 Recommendation: Review Your Script First
+        💡 Recommendation: Discuss With Lecturer First
         
         Before submitting a formal appeal, I strongly recommend:
         
         1. Book an appointment with your course lecturer
-        2. Review your exam script together
-        3. Understand where and why you lost marks
+        2. Discuss your performance and the grade
+        3. Understand how the grade was determined
         4. Then decide if an appeal is warranted
         
         Many issues are resolved at this stage without needing a formal appeal!
     - text: |
-        📋 Step 1: Review With Lecturer
+        📋 Step 1: Meet With Lecturer
         
         Before appealing formally:
         • Meet your lecturer during office hours
-        • Look through your exam paper together
-        • Ask questions about marking
+        • Discuss your overall performance
+        • Ask for clarification on the grade
         
         This often resolves concerns without needing to appeal!
 
@@ -202,13 +202,13 @@ responses:
     - text: |
         ✅ You've Done Your Homework!
         
-        Since you've already reviewed your script with the lecturer, you're ready to consider a formal appeal if needed.
+        Since you've already discussed your grade with the lecturer, you're ready to consider a formal appeal if needed.
         
         Would you like the formal appeal procedure?
     - text: |
         👍 Good Preparation!
         
-        You've taken the important first step of reviewing your script.
+        You've taken the important first step of discussing it with your lecturer.
         
         Shall I explain the formal appeal process?
 

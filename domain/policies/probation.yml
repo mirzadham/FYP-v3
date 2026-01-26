@@ -158,7 +158,7 @@ responses:
         
         Your CGPA is at or above the 2.00 requirement. Keep up the good work!
         
-        💡 Tip: Aim for 3.50+ for Dean's List recognition!
+        💡 Tip: Aim for 3.75+ for Dean's List recognition!
     - text: |
         🎉 You're in Good Standing!
         
@@ -166,7 +166,7 @@ responses:
         
         You are not on probation. Continue maintaining your grades!
         
-        🌟 Consider aiming for Dean's List (CGPA 3.50+)!
+        🌟 Consider aiming for Dean's List (CGPA 3.75+)!
 
   utter_probation_warning:
     - text: |
