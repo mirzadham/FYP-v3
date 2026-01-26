@@ -42,7 +42,7 @@ class ActionOpenAIResponse(Action):
         classification_prompt = f"""Classify this academic query into ONE category:
 - COURSES: About specific courses, prerequisites, syllabi, course codes (e.g., CCS3001)
 - CALENDAR: About dates, deadlines, semester schedules, registration periods, exam dates
-- RULES: About academic policies, CGPA calculation, probation, graduation requirements, appeals
+- RULES: About academic policies, procedures for missing exams, medical certificates, CGPA calculation, probation, graduation requirements, appeals
 - ALL: General/unclear queries that may need multiple sources
 
 Query: {query}

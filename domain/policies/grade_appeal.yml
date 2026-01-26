@@ -10,9 +10,9 @@ slots:
     type: categorical
     # description moved to flow file for LLM context
     values:
-      - calculation_error
-      - marking_error
-      - unfair_assessment
+      - grade_discrepancy
+      - assessment_issue
+      - grading_rationale
       - other
     mappings:
       - type: from_llm

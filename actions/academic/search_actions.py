@@ -36,7 +36,7 @@ class ActionSearchCourses(Action):
         
         try:
             # Perform semantic search
-            results = semantic_search(user_message, top_k=5)
+            results = semantic_search(user_message, top_k=3)
             
             if not results:
                 dispatcher.utter_message(
