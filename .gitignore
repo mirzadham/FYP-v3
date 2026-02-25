@@ -78,3 +78,5 @@ downloaded-*.json
 log_archive/
 
 .agent/
+
+prompt/
